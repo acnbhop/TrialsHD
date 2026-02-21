@@ -230,6 +230,9 @@
 
 REDLYNX_NAMESPACE_BEGIN
 
+typedef float   f32;
+typedef double  f64;
+
 #if defined(__INT8_TYPE__)
 typedef __INT8_TYPE__ int8;
 #else
