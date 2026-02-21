@@ -1,5 +1,7 @@
 /tools/ghidra
 
+*.vscode
+
 *.pak
 *.tex
 *.dds
