@@ -69,7 +69,7 @@ private:
     std::vector<uint8> _CompressLZMA(const std::vector<uint8>& FileData);
     // Parses the given decompressed track data and fills the Objects and Joints vectors. Returns true on success.
     bool _OBJ5_Parse(const std::vector<uint8>& RawData);
-    // Finds a chunk with the given tag in the given buffer and returns its offset. Returns -1 if not found.
+    // Finds a chunk with the given tag in the given buffer and returns its offset. Returns 0 if not found.
     size _FindChunk(const std::span<const uint8> Buffer, const std::string& Tag) const;
 };
 
