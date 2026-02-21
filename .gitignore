@@ -1,6 +1,7 @@
-/tools/ghidra
+/build/
 
 *.vscode
+*.cache
 
 *.pak
 *.tex
