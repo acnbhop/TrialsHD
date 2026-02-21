@@ -461,7 +461,7 @@ bool Track::_OBJ5_Parse(const std::vector<uint8>& RawData)
     }
 
     size GlueOffset = _FindChunk(BufferSpan, "GLUE");
-    if (GlueOffset == 0)
+    if (GlueOffset != 0)
     {
         PreGlueData.assign(RawData.begin() + EndOfObjects, RawData.begin() + GlueOffset);
 
