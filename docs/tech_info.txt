@@ -1,0 +1,52 @@
+it used Bullet Physics Library
+
+it kept the game at 60 frames per second, v-sync locked, it rendered every frame in
+under 16.67ms
+
+it utilized eDRAM to achieve the 60 fps on Xenon. No AA, and is letterboxed to fit frame buffer
+and render targets entirely with 10mb of eDRAM.
+
+it uitlized real-time soft shadows, incl translucent shadows passing thru fences and gates,
+pixel-perfect material modeling and parralax mapping on rough warehouse surfaces to give
+the world depth.
+
+the games load times are buttery smooth as they compressed individual level data
+to just about 8kb per track.
+
+trials hd uses deferred rendering.
+    instead of calculating final pixel colors immediately, the engine first rendered
+    the scene geometry into a g-buffer, this stored bare data of the scene, like distance
+    from the camera, surface normal vectors and material properties. once the g-buffer was
+    built, lighting was applied as a 2d post-process, meaning they could place dozens of
+    dynamic lights in a scene w/o the geometric complexity of the track slowing down
+    framerate.
+
+the bike is a proxy of three spheres connected together, the bike collision model perfectly
+matches the visual 3d model, the springs and shock absorbers are physically modeled, and the
+rider's shifting weight dynamically atlered the center of gravity in real-time.
+
+Xenon has a 3-core cpu capable of running 6 hardware threads. they isolated the physics
+calulations to run on their own threads parallel to the game logic, graphics and audio. the code
+was manually optimized using Xenon's VMX128 instruction set, hard-coding math so the cpu never
+stalled while waiting for physics data.
+
+all lighting was accumlated in a high-dynamic-range FP10 floating-point buffer.
+
+instead of flat lighting, the game engine constantly calculated the avg amount of light
+hitting the camera lens. it used this data to simulate the human eye's iris dynamically opening
+and closing (tone mapping) as you launched out of a dark shadow and into the glare of say an
+explosive barrel.
+
+the 8kb track files work like this.
+    they did not contain 3d mesh data, instead, were like highly optimized data structures,
+    e.g., contains a list of internal object ids for paired w/ 3d coords and other data.
+
+    when a level loads, the engine parses the data and instanitates the shared modular geometry
+    directly from the pak archives loaded into ram. since assets are re-used, the game doesn't
+    really ever have to fetch new textures or models from dvd/hard-drive.
+
+16-byte vertex packing, a standard 3d vertex usually required around 44 bytes, position as 3 floats,
+normal as 3 flaots, uv mapping as 2 floats, bla bla bla. the vertex format in THD was trimmed
+down to 16-bytes. this was done through aggressive c++ bit-packing. position and uvs were likely
+quantized into 16-bit half-floats or normalized integers. normals were likely packed into a
+4-byte 32-bit integer using formats like 10-10-10-2.
