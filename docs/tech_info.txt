@@ -50,3 +50,5 @@ normal as 3 flaots, uv mapping as 2 floats, bla bla bla. the vertex format in TH
 down to 16-bytes. this was done through aggressive c++ bit-packing. position and uvs were likely
 quantized into 16-bit half-floats or normalized integers. normals were likely packed into a
 4-byte 32-bit integer using formats like 10-10-10-2.
+
+Mount point of game:/
