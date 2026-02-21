@@ -1,3 +1,3 @@
 Trials HD decomp
 
-XDK: March 2009
+XDK used: March 2009
