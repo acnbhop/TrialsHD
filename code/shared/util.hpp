@@ -5,27 +5,18 @@
 
 #pragma once
 
-
-// IWYU pragma: begin_exports
-
 #include "shared/build_defines.hpp"
 
-#include <cstdint>
-#include <cstddef>
 #include <span>
-#include <stdexcept>
 #include <cstring>
 #include <vector>
 #include <string>
 #include <sstream>
 #include <iomanip>
-#include <filesystem>
 
 #if REDLYNX_POSIX
 #include <unistd.h>
 #endif
-
-// IWYU pragma: end_exports
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 REDLYNX_NAMESPACE_BEGIN
