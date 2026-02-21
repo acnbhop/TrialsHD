@@ -227,3 +227,127 @@
 
 #define REDLYNX_NAMESPACE_BEGIN_GAME   namespace redlynx { namespace game {
 #define REDLYNX_NAMESPACE_END_GAME     } }
+
+REDLYNX_NAMESPACE_BEGIN
+
+#if defined(__INT8_TYPE__)
+typedef __INT8_TYPE__ int8;
+#else
+typedef signed char int8;
+#endif
+
+#if defined(__UINT8_TYPE__)
+typedef __UINT8_TYPE__ uint8;
+#else
+typedef unsigned char uint8;
+#endif
+
+#if defined(__INT16_TYPE__)
+typedef __INT16_TYPE__ int16;
+#else
+typedef signed short int16;
+#endif
+
+#if defined(__UINT16_TYPE__)
+typedef __UINT16_TYPE__ uint16;
+#else
+typedef unsigned short uint16;
+#endif
+
+#if defined(__INT32_TYPE__)
+typedef __INT32_TYPE__ int32;
+#else
+typedef signed int int32;
+#endif
+
+#if defined(__UINT32_TYPE__)
+typedef __UINT32_TYPE__ uint32;
+#else
+typedef unsigned int uint32;
+#endif
+
+#if defined(__INT64_TYPE__)
+typedef __INT64_TYPE__ int64;
+#else
+#if defined(_MSC_VER)
+typedef signed __int64 int64;
+#else
+#if defined(_LP64) || defined(__LP64__)
+typedef signed long int64;
+#else
+typedef signed long long int64;
+#endif
+#endif
+#endif
+
+#if defined(__UINT64_TYPE__)
+typedef __UINT64_TYPE__ uint64;
+#else
+#if defined(_MSC_VER)
+typedef unsigned __int64 uint64;
+#else
+#if defined(_LP64) || defined(__LP64__)
+typedef unsigned long uint64;
+#else
+typedef unsigned long long uint64;
+#endif
+#endif
+#endif
+
+#if defined(__INTMAX_TYPE__)
+typedef __INTMAX_TYPE__ intmax;
+#else
+#if defined(_MSC_VER)
+typedef signed __int64 intmax;
+#else
+#if defined(_LP64) || defined(__LP64__)
+typedef signed long intmax;
+#else
+typedef signed long long intmax;
+#endif
+#endif
+#endif
+
+#if defined(__UINTMAX_TYPE__)
+typedef __UINTMAX_TYPE__ uintmax;
+#else
+#if defined(_MSC_VER)
+typedef unsigned __int64 uintmax;
+#else
+#if defined(_LP64) || defined(__LP64__)
+typedef unsigned long uintmax;
+#else
+typedef unsigned long long uintmax;
+#endif
+#endif
+#endif
+
+#if defined(__SIZE_TYPE__)
+typedef __SIZE_TYPE__ size;
+#else
+#if defined(_MSC_VER)
+typedef unsigned __int64 size;
+#else
+#if defined(_LP64) || defined(__LP64__)
+typedef unsigned long size;
+#else
+typedef unsigned long long size;
+#endif
+#endif
+#endif
+
+#if defined(__PTRDIFF_TYPE__)
+typedef __PTRDIFF_TYPE__ ptrdiff;
+#else
+#if defined(_MSC_VER)
+typedef signed __int64 ptrdiff;
+#else
+#if defined(_LP64) || defined(__LP64__)
+typedef signed long ptrdiff;
+#else
+typedef signed long long ptrdiff;
+#endif
+#endif
+#endif
+
+REDLYNX_NAMESPACE_END
