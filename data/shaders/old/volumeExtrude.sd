@@ -1,0 +1,15 @@
+// Shader file
+shader shaders/volumeExtrude.fx
+
+// Vertex format
+vxf position HALF3 FLOAT3
+vxf normal DEC3N HALF3
+
+// Textures
+// NONE
+
+// Constants
+constant matrixWV 0
+constant matrixP 0
+constant lightPositionRangeCS 0
+

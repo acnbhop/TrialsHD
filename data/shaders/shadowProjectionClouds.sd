@@ -1,0 +1,14 @@
+// Shader file
+shader shaders/shadowProjectionClouds.fx
+
+// Vertex format
+vxf position HALF3 FLOAT3
+vxf texcoords HALF2 FLOAT2
+
+// Textures
+tex 0 mapColor
+
+// Constants
+constant matrixWVP 0
+constant time 0
+

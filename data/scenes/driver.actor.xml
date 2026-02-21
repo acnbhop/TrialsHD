@@ -1,0 +1,3 @@
+<actorinfo filename="scenes/driver.actor">
+	<animation filename="scenes/driver_rig.anim" name="rig"/>
+</actorinfo>

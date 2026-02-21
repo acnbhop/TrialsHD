@@ -1,0 +1,9 @@
+<properties>
+	<physics mass="60" friction="0.9" restitution="0.05" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="30"
+	brokenobject="objects/broken/woodbox_destruction.gfx"
+	destructioneffect="effects/wood_box_breaking_1.gfx" 
+	material="wood"
+	destructionscore="100"
+	collisionsound="BoxWoodMed"
+/>	
+</properties>

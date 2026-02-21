@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pack>
+
+  <Strings name="lol://Xui\pack0.xus" />
+  <Tracks name="pack0\tracks.xml" />
+  <Objects name="pack0\objects.xml" />
+  <Challenges name="pack0\challenges.xml" />
+  <Gear name="pack0\gear.xml" />
+</Pack>

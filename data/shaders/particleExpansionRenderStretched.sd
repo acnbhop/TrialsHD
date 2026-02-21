@@ -1,0 +1,14 @@
+// Shader file
+shader shaders/particleExpansionRenderStretched.fx
+
+// Vertex format
+vxf position FLOAT4 FLOAT4
+vxf position2 FLOAT4 FLOAT4
+vxf position3 FLOAT4 FLOAT4
+vxf position4 FLOAT4 FLOAT4
+
+// Textures
+tex 0 mapColor
+
+// Constants
+// NONE

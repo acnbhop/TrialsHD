@@ -1,0 +1,14 @@
+// Shader file
+shader shaders/spriteDR.fx
+
+// Vertex format
+vxf position FLOAT3 FLOAT3
+vxf color COLORDW COLORDW
+vxf texcoords FLOAT2 FLOAT2
+
+// Textures
+tex 0 mapColor
+tex 0 gbufferDepth
+
+// Constants
+constant gbufferSize 0

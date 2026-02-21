@@ -1,0 +1,15 @@
+// Shader file
+shader shaders/surfaceCacheResolve.fx
+
+// Vertex format
+vxf position HALF3 FLOAT3
+
+// Textures
+tex 0 surfaceCacheFuture
+tex 0 surfaceCachePast
+
+// Constants
+constant matrixWVP 0
+constant matrixWVPSurfaceCache 0
+//constant objectID 0
+//constant frameMod 0

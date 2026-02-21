@@ -1,0 +1,8 @@
+<properties>
+	<physics mass="8" friction="0.9" restitution="0.1" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="8" 	
+	brokenobject="objects/broken/plank_long_1_destruction.gfx"
+	destructioneffect="effects/wood_plank_breaking_1.gfx"
+	material="wood"
+	collisionsound="PlankWoodLarge"
+	destructionscore="100"/>
+</properties>

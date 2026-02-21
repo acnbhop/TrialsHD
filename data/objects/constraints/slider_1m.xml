@@ -1,0 +1,5 @@
+<properties>
+	<physics mass="1" friction="0.0" restitution="0" angularDamping="0.0" linearDamping="0.0" convexClass="2" hitpoints="1" hitActivation="0" destructionTimer="0"
+	enablePhysics="1"
+	minimumDamage="100"/>	
+</properties>
