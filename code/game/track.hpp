@@ -49,6 +49,27 @@ public:
     std::vector<uint8>          PreGlueData;
     std::vector<uint8>          PostGlueData;
 
+    //
+    // Wtf RedLynx...
+    //
+    // 1. zlib streams, RedLynx completely ditched LZMA for some tracks and compressed them using
+    //    zlib deflate...
+    //
+    // 2. Variable headers, some lack the DEADBABE Xbox header and use a tiny 01 FF or DEADBEEF marker, meaning
+    //    the 13-byte LZMA header is left entirely intact inside the file.
+    //
+    // 3. Raw XML payloads, files decompressed, yes, but didn't contain any OBJ5 binary structs, why? RedLynx
+    //    literally just compressed raw plain-text XML directly into the .trk file instead of fucking compiling
+    //    them? Why? I have no fucking clue.
+    //
+    // I have no idea why RedLynx did this, maybe save space? Different tool versions? I don't know, don't care, just
+    // need this shit to work. But it all of a sudden changing up on me is not making me very happy right now.
+    //
+
+    std::string                 Compression;    // "LZMA", "ZLIB" or "NONE"
+    std::string                 PayloadType;    // "OBJ5" or "XML"
+    std::string                 RawXML;         // Holds the data if PayloadType is "XML"
+
     // Loads a .trk file, decompresses it and parses the track data.
     bool Load(const std::string& FilePath);
 
@@ -63,10 +84,14 @@ public:
     // Prints an entire summary of the track to the console.
     void PrintSummary() const;
 private:
-    // Decompresses the given LZMA compressed data and returns the decompressed data.
-    std::vector<uint8> _DecompressLZMA(const std::vector<uint8>& FileData);
+    // Scans the file to detect compression stream and decompresses it.
+    std::vector<uint8> _Decompress(const std::vector<uint8>& FileData);
+
     // Compresses the given data using LZMA and returns the compressed data.
     std::vector<uint8> _CompressLZMA(const std::vector<uint8>& FileData);
+    // Compresses the given data using zlib and returns the compressed data.
+    std::vector<uint8> _CompressZLIB(const std::vector<uint8>& FileData);
+
     // Parses the given decompressed track data and fills the Objects and Joints vectors. Returns true on success.
     bool _OBJ5_Parse(const std::vector<uint8>& RawData);
     // Finds a chunk with the given tag in the given buffer and returns its offset. Returns 0 if not found.
