@@ -3,7 +3,7 @@
 //
 
 // Game headers
-#include "game/xur.hpp"
+#include "game/asset/xur.hpp"
 
 // Standard headers
 #include <iostream>

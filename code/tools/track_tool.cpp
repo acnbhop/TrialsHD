@@ -3,7 +3,7 @@
 //
 
 // Game headers
-#include "game/track.hpp"
+#include "game/asset/track.hpp"
 
 // Standard headers
 #include <iostream>

@@ -3,7 +3,7 @@
 //
 
 // Game headers
-#include "game/xus.hpp"
+#include "game/asset/xus.hpp"
 
 // Standard headers
 #include <iostream>
