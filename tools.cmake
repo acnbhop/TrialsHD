@@ -6,3 +6,12 @@ add_executable(track_tool
     code/tools/track_tool.cpp
 )
 target_link_libraries(track_tool PRIVATE shared game tinyxml2 liblzma ZLIB::ZLIB)
+
+#
+# xur_tool is used for converting Xbox User Interface Resource (.xur) files
+# to and from XML for editing string tables, image paths, and UI metadata.
+#
+add_executable(xur_tool
+    code/tools/xur_tool.cpp
+)
+target_link_libraries(xur_tool PRIVATE shared game tinyxml2)
