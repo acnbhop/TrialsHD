@@ -1,4 +1,5 @@
 /build/
+/data_temp/
 
 *.vscode
 *.cache
