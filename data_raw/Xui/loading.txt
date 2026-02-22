@@ -1,0 +1,42 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 34
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x4c4 (1220 bytes)
+  [1] VECT | Offset: 0x4fc | Size: 0x12c (300 bytes)
+  [2] DATA | Offset: 0x628 | Size: 0x482 (1154 bytes)
+
+--- String Table (34 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] LoadingMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiImage
+  [  6] XuiImage1
+  [  7] images\black.dds
+  [  8] XuiGroup
+  [  9] SimulatingButtonInfoGroup
+  [ 10] XuiHtmlElement
+  [ 11] XuiHtmlElement1
+  [ 12] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 13] LoadingGroup
+  [ 14] LoadingBG
+  [ 15] images\leaderboard_notification_bg.dds
+  [ 16] XuiText
+  [ 17] LoadingText
+  [ 18] LOADING....
+  [ 19] ProgressGroup
+  [ 20] LoadingBG1
+  [ 21] XuiProgressBar
+  [ 22] ProgressBar
+  [ 23] Trials-ProgressBar
+  [ 24] WriteWarningGroup
+  [ 25] WriteWarningText
+  [ 26] TransTo
+  [ 27] EndTransTo
+  [ 28] TransFrom
+  [ 29] EndTransFrom
+  [ 30] TransBackTo
+  [ 31] EndTransBackTo
+  [ 32] TransBackFrom
+  [ 33] EndTransBackFrom

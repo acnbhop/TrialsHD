@@ -1,0 +1,87 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 79
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0xe70 (3696 bytes)
+  [1] VECT | Offset: 0xea8 | Size: 0x150 (336 bytes)
+  [2] DATA | Offset: 0xff8 | Size: 0xd17 (3351 bytes)
+
+--- String Table (79 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] CustomTrackManageMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Trials-RightLeft-Button
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoGroup
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] ButtonInfoNoTracksGroup
+  [ 23] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 24] XuiText
+  [ 25] InfoText
+  [ 26] ListGroup
+  [ 27] ListImage
+  [ 28] images\leaderboard_list_bg.dds
+  [ 29] ListImage1
+  [ 30] images\menu_title_bg_1.dds
+  [ 31] XuiList
+  [ 32] ManageTracksList
+  [ 33] CustomTrackManageList
+  [ 34] Trials-List-CustomTracks-Manage
+  [ 35] XuiListItem
+  [ 36] control_ListItem
+  [ 37] Trials-ListItem-CustomTracks-Manage
+  [ 38] XuiText3
+  [ 39] TRACK NAME
+  [ 40] XuiText4
+  [ 41] STYLE
+  [ 42] XuiText5
+  [ 43] DIFFICULTY
+  [ 44] XuiText6
+  [ 45] DEVICE
+  [ 46] XuiText7
+  [ 47] CREATED
+  [ 48] TitleText
+  [ 49] MANAGE TRACKS
+  [ 50] NotificationGroup
+  [ 51] NotificationHeader
+  [ 52] <div align="center">  <font color="#EBB40F" size="28">  You have no custom tr...
+  [ 53] NotificationMessage
+  [ 54] <div align="center">  <font color="#EBB40F" size="20">  Use the track editor ...
+  [ 55] StorageInfo
+  [ 56] <div align="center">  <font color="#EBB40F" size="16">        </font>  </div>...
+  [ 57] XuiSoundXACT
+  [ 58] XuiSoundXACT1
+  [ 59] sounds\Menu.xsb
+  [ 60] sounds\Menu.xwb
+  [ 61] TransTo
+  [ 62] EndTransTo
+  [ 63] TransFrom
+  [ 64] EndTransFrom
+  [ 65] TransBackTo
+  [ 66] EndTransBackTo
+  [ 67] TransBackFrom
+  [ 68] EndTransBackFrom
+  [ 69] TransTo1
+  [ 70] EndTransTo1
+  [ 71] TransFrom1
+  [ 72] EndTransFrom1
+  [ 73] TransBackTo1
+  [ 74] EndTransBackTo1
+  [ 75] TransBackFrom1
+  [ 76] EndTransBackFrom1
+  [ 77] menu_select_basic
+  [ 78] menu_back

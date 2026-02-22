@@ -1,0 +1,81 @@
+[+] XUR v5 | Flags: 0 | Sections: 4 | Strings: 72
+
+--- Sections ---
+  [0] STRN | Offset: 0x44 | Size: 0x876 (2166 bytes)
+  [1] VECT | Offset: 0x8ba | Size: 0x228 (552 bytes)
+  [2] QUAT | Offset: 0xae2 | Size: 0xa0 (160 bytes)
+  [3] DATA | Offset: 0xb82 | Size: 0x828 (2088 bytes)
+
+--- String Table (72 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] ControlsMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Back
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoGroup
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] XuiText
+  [ 23] InfoText
+  [ 24]   
+  [ 25] HelpControlsGroup
+  [ 26] BGImage
+  [ 27] images\leaderboard_list_bg.dds
+  [ 28] ControllerImage
+  [ 29] images\xbox360controller.dds
+  [ 30] GuideLine1
+  [ 31] images\xbox360controller_guideline.dds
+  [ 32] GuideLine2
+  [ 33] GuideLine3
+  [ 34] GuideLine4
+  [ 35] GuideLine5
+  [ 36] GuideLine6
+  [ 37] GuideLine7
+  [ 38] GuideLine8
+  [ 39] GuideLine9
+  [ 40] GuideLine10
+  [ 41] RightTrigger
+  [ 42] Gas
+  [ 43] LeftTrigger
+  [ 44] Brake
+  [ 45] Dpad
+  [ 46] Lean forward or back
+  [ 47] Y-Button
+  [ 48] Bailout
+  [ 49] B-Button
+  [ 50] Return to last checkpoint
+  [ 51] A-Button
+  [ 52] X-Button
+  [ 53] Brake    
+  [ 54] Restart level
+  [ 55] Start
+  [ 56] Pause menu
+  [ 57] TitleText
+  [ 58] CONTROLS
+  [ 59] XuiSoundXACT
+  [ 60] XuiSoundXACT1
+  [ 61] sounds\Menu.xsb
+  [ 62] sounds\Menu.xwb
+  [ 63] TransTo
+  [ 64] EndTransTo
+  [ 65] TransFrom
+  [ 66] EndTransFrom
+  [ 67] TransBackTo
+  [ 68] EndTransBackTo
+  [ 69] TransBackFrom
+  [ 70] EndTransBackFrom
+  [ 71] menu_back

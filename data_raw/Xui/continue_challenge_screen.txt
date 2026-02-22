@@ -1,0 +1,138 @@
+[+] XUR v5 | Flags: 1 | Sections: 4 | Strings: 117
+
+--- Extra Table ---
+  [0] 0x000000ad (173)
+  [1] 0x00000459 (1113)
+  [2] 0x000000ad (173)
+  [3] 0x000000a2 (162)
+  [4] 0x00000018 (24)
+  [5] 0x00000018 (24)
+  [6] 0x00000078 (120)
+  [7] 0x00000011 (17)
+  [8] 0x0000001d (29)
+  [9] 0x0000002d (45)
+
+--- Sections ---
+  [0] STRN | Offset: 0x6c | Size: 0x1248 (4680 bytes)
+  [1] VECT | Offset: 0x12b4 | Size: 0x36c (876 bytes)
+  [2] QUAT | Offset: 0x1620 | Size: 0x10 (16 bytes)
+  [3] DATA | Offset: 0x1630 | Size: 0x1fc3 (8131 bytes)
+
+--- String Table (117 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] ContinueChallengeMenu
+  [  4] TrialsSceneBlank
+  [  5] HiddenButton
+  [  6] XuiButton
+  [  7] Trials-RightLeft-Button
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] CardListGroup
+  [ 20] Card7
+  [ 21] CardBG
+  [ 22] images\tournament_bg_small_2.dds
+  [ 23] MedalImage
+  [ 24] images\medal_128_4.dds
+  [ 25] XuiText
+  [ 26] NameText
+  [ 27] PlayedThroughGroup
+  [ 28] XuiImage1
+  [ 29] images\card_track_2_locked.dds
+  [ 30] XuiText1
+  [ 31] Passed
+  [ 32] LockedGroup
+  [ 33] Locked
+  [ 34] FullOnlyGroup
+  [ 35] Unlock Full Game
+  [ 36] Score
+  [ 37] ScoreText
+  [ 38] HighlightGroup
+  [ 39] images\card_track_2_hilight.dds
+  [ 40] Card6
+  [ 41] Card5
+  [ 42] EndNormal
+  [ 43] MoveUp
+  [ 44] EndMoveUp
+  [ 45] MoveDown
+  [ 46] EndMoveDown
+  [ 47] Card4
+  [ 48] Card3
+  [ 49] Card2
+  [ 50] Card1
+  [ 51] XuiSoundXACT
+  [ 52] XuiSoundXACT1
+  [ 53] sounds\Menu.xsb
+  [ 54] sounds\Menu.xwb
+  [ 55] VeryEnd
+  [ 56] menu_move
+  [ 57] ResultGroup
+  [ 58] List_BG
+  [ 59] images\tournament_bg_medium.dds
+  [ 60] images\tournament_bg_small_5.dds
+  [ 61] XuiHtmlElement
+  [ 62] PassedTracksText
+  [ 63] TotalTimeText
+  [ 64] TimeText
+  [ 65] StartText
+  [ 66] MedalsGroup
+  [ 67] images\tournament_bg_big.dds
+  [ 68] XuiControl
+  [ 69] TrackImage
+  [ 70] TrackPreview
+  [ 71] Trials-TrackPreview
+  [ 72]   
+  [ 73] images\ach_000.dds
+  [ 74] ImageEdges
+  [ 75] images\menu_trackimage_edges.dds
+  [ 76] NextMedalText2
+  [ 77] NextMedalText1
+  [ 78] MedalsGroup4
+  [ 79] Medal4_OFF
+  [ 80] Medal3_OFF
+  [ 81] images\medal_128_3.dds
+  [ 82] Medal2_OFF
+  [ 83] images\medal_128_2.dds
+  [ 84] Medal1_OFF
+  [ 85] images\medal_128_1.dds
+  [ 86] MedalBG3
+  [ 87] images\medal_background_splat.dds
+  [ 88] MedalBG2
+  [ 89] MedalBG1
+  [ 90] MedalBG
+  [ 91] Medal4_ON
+  [ 92] Medal3_ON
+  [ 93] Medal2_ON
+  [ 94] Medal1_ON
+  [ 95] MedalsGroup3
+  [ 96] TournamentMedalsText
+  [ 97] <div align="center">    <font color="#EBB40F" size="20">  TOURNAMENT MEDALS  ...
+  [ 98] ContinueButtonsGroup
+  [ 99] XuiHtmlElement1
+  [100] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [101] StartButtonsGroup
+  [102] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [103] TitleContinue
+  [104] <div align="center">  <font color="#D7CAAD" size="50">    CONTINUE TOURNAMENT...
+  [105] TitleStart
+  [106] <div align="center">  <font color="#D7CAAD" size="50">    START TOURNAMENT   ...
+  [107] TransTo
+  [108] EndTransTo
+  [109] TransFrom
+  [110] EndTransFrom
+  [111] TransBackTo
+  [112] EndTransBackTo
+  [113] TransBackFrom
+  [114] EndTransBackFrom
+  [115] menu_select_track
+  [116] menu_back

@@ -1,0 +1,320 @@
+[+] XUR v5 | Flags: 1 | Sections: 4 | Strings: 299
+
+--- Extra Table ---
+  [0] 0x00000146 (326)
+  [1] 0x000007ee (2030)
+  [2] 0x00000146 (326)
+  [3] 0x00000237 (567)
+  [4] 0x0000003d (61)
+  [5] 0x0000003d (61)
+  [6] 0x000000b3 (179)
+  [7] 0x00000018 (24)
+  [8] 0x00000044 (68)
+  [9] 0x00000072 (114)
+
+--- Sections ---
+  [0] STRN | Offset: 0x6c | Size: 0x386c (14444 bytes)
+  [1] VECT | Offset: 0x38d8 | Size: 0xae0 (2784 bytes)
+  [2] QUAT | Offset: 0x43b8 | Size: 0x160 (352 bytes)
+  [3] DATA | Offset: 0x4518 | Size: 0x3ea5 (16037 bytes)
+
+--- String Table (299 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] InGameMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiNavButton
+  [  6] PauseButton
+  [  7] ReturnButton
+  [  8] CustomTracksButton
+  [  9] XuiGroup
+  [ 10] RaceButtonsGroup
+  [ 11] XuiNineGrid
+  [ 12] XuiNineGrid1
+  [ 13] images\textbg.dds
+  [ 14] XuiHtmlElement
+  [ 15] XuiHtmlElement1
+  [ 16] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 17] ComboTextGroup
+  [ 18] ComboIndicatorGroup
+  [ 19] XuiText
+  [ 20] ComboText
+  [ 21] ComboStart
+  [ 22] ComboEnd
+  [ 23] ComboDisappearStart
+  [ 24] ComboDisappearEnd
+  [ 25] FunGroup
+  [ 26] RingOfFireScoreBGGroup
+  [ 27] XuiImage
+  [ 28] images\rings_of_fire_meter.dds
+  [ 29] DownTheStairsScoreBGGroup
+  [ 30] images\down_the_stairs_meter.dds
+  [ 31] TargetHuntScoreBGGroup
+  [ 32] images\target_hunt_meter.dds
+  [ 33] FlipScoreBGGroup
+  [ 34] images\flip_meter.dds
+  [ 35] ScoreBarGroup
+  [ 36] XuiProgressBar
+  [ 37] ScoreBar
+  [ 38] Trials-ProgressBarScore1
+  [ 39] ScrewBarGroup
+  [ 40] ScrewBar
+  [ 41] Trials-ProgressBarScrew
+  [ 42] PointBackgroundImage
+  [ 43] images\ingame_overlay_fun_bg.dds
+  [ 44] GameModeIconImage
+  [ 45] images\ingame_overlay_fun_mode_06.dds
+  [ 46] PenaltyText
+  [ 47] SecondaryLabelText
+  [ 48] PrimaryLabelText
+  [ 49] HeatBarGroup
+  [ 50] HeatBar
+  [ 51] Trials-ProgressBarHeat
+  [ 52] TimeLeftGroup
+  [ 53] XuiImage1
+  [ 54] images\ingame_overlay_room_complexity.dds
+  [ 55] TimeLeftText
+  [ 56] 00:00.000
+  [ 57] Normal
+  [ 58] FadeStart
+  [ 59] FadeEnd
+  [ 60] RaceProgressGroup2
+  [ 61] BGImage
+  [ 62] Marks
+  [ 63] RiderArrow1
+  [ 64] images/menu_scorepointer_bg4.dds
+  [ 65] RiderArrow2
+  [ 66] RiderArrow3
+  [ 67] RiderArrow4
+  [ 68] RiderArrow5
+  [ 69] RiderArrow6
+  [ 70] RiderArrow7
+  [ 71] RiderArrow8
+  [ 72] RiderArrow9
+  [ 73] FriendArrow
+  [ 74] images/menu_scorepointer_bg3.dds
+  [ 75] FriendAheadArrow
+  [ 76] RiderArrow
+  [ 77] images/menu_scorepointer_bg1.dds
+  [ 78] FriendAheadName
+  [ 79] WMWMWMWMWMWMWMWM
+  [ 80] RaceProgressGroup
+  [ 81] RaceBar
+  [ 82] images\menu_scoremeter_bg1.dds
+  [ 83] PlayerMarkGroup
+  [ 84] images\menu_scorepointer_bg3.dds
+  [ 85] FlagImage
+  [ 86] images\menu_scoremeter_flag1.dds
+  [ 87] MeterTextGroup0
+  [ 88] images\menu_scorepointer_bg4.dds
+  [ 89] MeterText
+  [ 90]   
+  [ 91] MeterTextGroup1
+  [ 92] MeterTextGroup2
+  [ 93] MeterTextGroup3
+  [ 94] MeterTextGroup4
+  [ 95] FinishMeterText
+  [ 96] Checkpoint0
+  [ 97] images\menu_scorepointer_bg5.dds
+  [ 98] Checkpoint1
+  [ 99] Checkpoint2
+  [100] Checkpoint3
+  [101] Checkpoint4
+  [102] TimeAndFaultsGroup
+  [103] images\ingame_overlay_race_bg.dds
+  [104] TrialsFaultsText
+  [105] TrialsTimeDifferenceTextShadow
+  [106] <font color="#000000" size="17">  -00:12:293  </font>
+  [107] TrialsTimeDifferenceText
+  [108] TrialsTimeText
+  [109] FreestyleModeStatsGroup
+  [110] FreestyleStuntText
+  [111] StuntGroup3
+  [112] StuntText
+  [113] <div align="center"><font color="#E8AD1E" size="22">    </font></div>
+  [114] StuntGroup2
+  [115] StuntGroup1
+  [116] <div align="center" style="shadow"><font color="#E8AD1E" size="22" shadowcolo...
+  [117] NormalEnd
+  [118] NewTrick
+  [119] NewTrickEnd
+  [120] ComboFailed
+  [121] ComboFailedEnd
+  [122] ComboSucceeded
+  [123] ComboSucceededEnd
+  [124] FreestyleMultiplierGroup
+  [125] FreestyleMultiplierText
+  [126] MultiplierAppearStart
+  [127] MultiplierAppearEnd
+  [128] MultiplierIncreaseStart
+  [129] MultiplierIncreaseEnd
+  [130] MultiplierGoAwayStart
+  [131] MultiplierGoAwayEnd
+  [132] (OLD)FreestylePointsGroup
+  [133] FreestylePointsDifferenceText
+  [134] FreestylePointsText
+  [135] FreestyleComboText
+  [136] FreestyleFaultsText
+  [137] FlashFreestyleScoreStart
+  [138] FlashFreestyleScoreEnd
+  [139] (OLD)CrashPointsGroup
+  [140] XuiText1
+  [141] CrashMaxPointsText
+  [142] CrashPointsText
+  [143] CrashTimeText
+  [144] TutorialGroup
+  [145] ControllerImage
+  [146] images\xbox360controller.dds
+  [147] TutorialText
+  [148] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [149] CountdownGroup1
+  [150] CountdownText
+  [151] 3
+  [152] Countdown
+  [153] EndCountdown
+  [154] CountdownGroup2
+  [155] 2
+  [156] CountdownGroup3
+  [157] 1
+  [158] CountdownGroup4
+  [159] GO
+  [160] CountdownGroup5
+  [161] READY
+  [162] CrashTextGroup
+  [163] CrashText
+  [164] CrashStart
+  [165] CrashEnd
+  [166] CrashOverlayGroupChallengeMode
+  [167] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [168] CrashOverlayGroupCrashMode
+  [169] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [170] CrashOverlayGroup
+  [171] FinishGroup
+  [172] images\black.dds
+  [173] TitleText
+  [174] FINISH!
+  [175] SavingGroup
+  [176] SavingTextGroup
+  [177] <div align="center">    <font color="#D8C69A" size="20">  Saving...  </font>
+  [178] Beginning
+  [179] Endingging
+  [180] CancelButton
+  [181] XuiHtmlElement2
+  [182] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [183] FinishAppearStart
+  [184] FinishAppearEnd
+  [185] WriteWarningGroup
+  [186] <div align="left">    <font color="#D8C69A" size="18">  Writing data. <br>  D...
+  [187] EndNormal
+  [188] FinishDisappearStart
+  [189] FinishDisappearEnd
+  [190] TestTrackPauseMenuGroup
+  [191] BG_Graphics
+  [192] Image3
+  [193] images\the_background_1_4.dds
+  [194] Image2
+  [195] images\the_background_1_3.dds
+  [196] Image1
+  [197] images\the_background_1_2.dds
+  [198] Image
+  [199] images\the_background_1_1.dds
+  [200] XuiBackButton
+  [201] Trials-B-Button
+  [202] ButtonInfoGroup
+  [203] EditorPauseButtonsGroup
+  [204] MenuButtonsImage
+  [205] images\menu_button_bg_1.dds
+  [206] ResumeTestingFromTestTrackPauseMenuButton
+  [207] Trials-Button
+  [208] ResumeEditingFromTestTrackPauseMenuButton
+  [209] RESUME TESTING
+  [210] RESUME EDITING
+  [211] EDITOR PAUSE
+  [212] PauseGroup
+  [213] XuiButton
+  [214] BackButton
+  [215] A-Button
+  [216] IngamePauseButtonGroup
+  [217] ResumeButton
+  [218] ExitGameButton
+  [219] UnlockButton
+  [220] RESUME GAME
+  [221] HelpButton
+  [222] UNLOCK FULL GAME
+  [223] LeaderboardButton
+  [224] HELP & OPTIONS
+  [225] AchievementsButton
+  [226] LEADERBOARDS
+  [227] leaderboard_type_menu.xur
+  [228] ACHIEVEMENTS
+  [229] EXIT GAME
+  [230] PAUSE
+  [231] FaultGroup
+  [232] FaultTextGroup
+  [233] images\menu_filter_bg_1.dds
+  [234] TooManyText
+  [235] Timed Out!!
+  [236] TooManyAnimStart
+  [237] TooManyAnimEnd
+  [238] WarningFaultsGroup
+  [239] WarningText
+  [240] <div align="right">    <font color="#D7CAAD" size="27">  Faults Left:  </font...
+  [241] WarningFaultStart
+  [242] WarningFaultEnd
+  [243] ShortWarningFaultStart
+  [244] ShortWarningFaultEnd
+  [245] WarningTimeGroup
+  [246] <div align="right">    <font color="#D7CAAD" size="27">Time Left:  </font>   ...
+  [247] WarningStart
+  [248] WarningEnd
+  [249] ShortWarningStart
+  [250] ShortWarningEnd
+  [251] ScorePointerSideGroup
+  [252] ScorePointer0
+  [253] ScorePointerImage
+  [254] images\menu_scorepointer_bg2.dds
+  [255] ScorePointerText
+  [256] ScorePointer1
+  [257] ScorePointer2
+  [258] ScorePointer3
+  [259] ScorePointer4
+  [260] ScorePointer5
+  [261] ScorePointer6
+  [262] ScorePointer7
+  [263] ScorePointer8
+  [264] ScorePointer9
+  [265] ScorePointer10
+  [266] ScorePointer11
+  [267] Medal0
+  [268] MedalImage
+  [269] images\medal_128_1.dds
+  [270] Medal1
+  [271] images\medal_128_2.dds
+  [272] Medal2
+  [273] images\medal_128_3.dds
+  [274] Medal3
+  [275] images\medal_128_4.dds
+  [276] ScorePointerTopGroup
+  [277] ScorePointerGroup
+  [278] images\menu_scorepointer_bg1.dds
+  [279] SkillGameInfoGroup
+  [280] SkillGameInfo
+  [281] <div align="center">  <font color="#D7CAAD" size="32">      </font>  </div>  ...
+  [282] ReplayGroup
+  [283] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [284] LeftStickBase
+  [285] images\replay_analog_stick_base.dds
+  [286] LeftStick
+  [287] images\replay_analog_stick.dds
+  [288] LeftTrigger
+  [289] images\replay_left_trigger.dds
+  [290] RightTrigger
+  [291] images\replay_right_trigger.dds
+  [292] CameraAngleText
+  [293] StartContainer
+  [294] TransTo1
+  [295] EndTransTo1
+  [296] TransBackTo1
+  [297] EndTransBackTo1
+  [298] TheEnd

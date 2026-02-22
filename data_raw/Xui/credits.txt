@@ -1,0 +1,29 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 21
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x226 (550 bytes)
+  [1] VECT | Offset: 0x25e | Size: 0x60 (96 bytes)
+  [2] DATA | Offset: 0x2be | Size: 0x1ba (442 bytes)
+
+--- String Table (21 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] CreditsMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiGroup
+  [  6] AnimGroup
+  [  7] CreditsGroup
+  [  8] XuiText
+  [  9] Credits2
+  [ 10] John Smith  John Smith  John Smith  John Smith  John Smith  John Smith  
+  [ 11] Title2
+  [ 12] Microsoft:
+  [ 13] Credits1
+  [ 14] Title1
+  [ 15] Redlynx:
+  [ 16] MainTitle
+  [ 17] Credits:
+  [ 18] InitStop
+  [ 19] CreditsStart
+  [ 20] CreditsEnd

@@ -1,0 +1,81 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 73
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x988 (2440 bytes)
+  [1] VECT | Offset: 0x9c0 | Size: 0x144 (324 bytes)
+  [2] DATA | Offset: 0xb04 | Size: 0x711 (1809 bytes)
+
+--- String Table (73 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] EditorMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Trials-B-Button
+  [  8] Back
+  [  9] XuiGroup
+  [ 10] BG_Graphics
+  [ 11] XuiImage
+  [ 12] Image3
+  [ 13] images\the_background_1_4.dds
+  [ 14] Image2
+  [ 15] images\the_background_1_3.dds
+  [ 16] Image1
+  [ 17] images\the_background_1_2.dds
+  [ 18] Image
+  [ 19] images\the_background_1_1.dds
+  [ 20] ButtonInfoGroup
+  [ 21] XuiHtmlElement
+  [ 22] XuiHtmlElement1
+  [ 23] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 24] XuiText
+  [ 25] InfoText
+  [ 26] EditorMenuButtons
+  [ 27] MenuButtonsImage
+  [ 28] images\menu_button_bg_1.dds
+  [ 29] XuiNavButton
+  [ 30] TestTrackButton
+  [ 31] Trials-Button
+  [ 32] ExitEditorButton
+  [ 33] ChooseBikeButton
+  [ 34] TEST TRACK
+  [ 35] TrackSettingsButton
+  [ 36] CHOOSE BIKE
+  [ 37] NewTrackButton
+  [ 38] TRACK SETTINGS
+  [ 39] LoadTrackButton
+  [ 40] NEW TRACK
+  [ 41] SaveTrackButton
+  [ 42] LOAD TRACK
+  [ 43] ManageButton
+  [ 44] SAVE TRACK
+  [ 45] SwitchToAdvancedButton
+  [ 46] MANAGE TRACKS
+  [ 47] HelpButton
+  [ 48] SWITCH TO ADVANCED MODE
+  [ 49] HELP
+  [ 50] EXIT EDITOR
+  [ 51] TitleText
+  [ 52] Editor
+  [ 53] XuiSoundXACT
+  [ 54] XuiSoundXACT1
+  [ 55] sounds\Menu.xsb
+  [ 56] sounds\Menu.xwb
+  [ 57] TransTo
+  [ 58] EndTransTo
+  [ 59] TransFrom
+  [ 60] EndTransFrom
+  [ 61] TransBackTo
+  [ 62] EndTransBackTo
+  [ 63] TransBackFrom
+  [ 64] EndTransBackFrom
+  [ 65] TransTo1
+  [ 66] EndTransTo1
+  [ 67] TransFrom1
+  [ 68] EndTransFrom1
+  [ 69] TransBackTo1
+  [ 70] EndTransBackTo1
+  [ 71] EndTransBackFrom1
+  [ 72] menu_back

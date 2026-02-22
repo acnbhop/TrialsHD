@@ -1,0 +1,103 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 95
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x149e (5278 bytes)
+  [1] VECT | Offset: 0x14d6 | Size: 0x24c (588 bytes)
+  [2] DATA | Offset: 0x1722 | Size: 0xcc9 (3273 bytes)
+
+--- String Table (95 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] ResultScreenMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiGroup
+  [  6] BG_Graphics
+  [  7] XuiImage
+  [  8] Image3
+  [  9] images\the_background_1_4.dds
+  [ 10] Image2
+  [ 11] images\the_background_1_3.dds
+  [ 12] Image1
+  [ 13] images\the_background_1_2.dds
+  [ 14] Image
+  [ 15] images\the_background_1_1.dds
+  [ 16] ChallengeButtonInfoGroup
+  [ 17] XuiHtmlElement
+  [ 18] XuiHtmlElement1
+  [ 19] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 20] CustomScoreButtons
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] ButtonInfoGroup
+  [ 23] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 24] LeaderboardGroup
+  [ 25] List_BG
+  [ 26] images\tournament_bg_medium.dds
+  [ 27] XuiList
+  [ 28] ResultList
+  [ 29] TrackFriendScoreListResultScreen
+  [ 30] Trials-ResultStats
+  [ 31] XuiListItem
+  [ 32] XuiListItem1
+  [ 33] Trials-ListItem-ResultStats
+  [ 34] XuiText
+  [ 35] MyBestScore
+  [ 36] 00:17:232
+  [ 37] MyBestScoreTitle
+  [ 38] My best score:
+  [ 39] NotificationGroup
+  [ 40] NotificationText
+  [ 41] LoadingGroup
+  [ 42] LoadingText
+  [ 43] LOADING....
+  [ 44] MedalsGroup
+  [ 45] images\tournament_bg_big.dds
+  [ 46] NextMedalText2
+  [ 47] <div align="center">    <font color="#EBB40F" size="18">    </font>    <font ...
+  [ 48] NextMedalText1
+  [ 49] <div align="center">    <font color="#EBB40F" size="22">    </font>          ...
+  [ 50] MedalsGroup4
+  [ 51] Medal4_OFF
+  [ 52] images\medal_128_4.dds
+  [ 53] Medal3_OFF
+  [ 54] images\medal_128_3.dds
+  [ 55] Medal2_OFF
+  [ 56] images\medal_128_2.dds
+  [ 57] Medal1_OFF
+  [ 58] images\medal_128_1.dds
+  [ 59] MedalBG3
+  [ 60] images\medal_background_splat.dds
+  [ 61] MedalBG2
+  [ 62] MedalBG1
+  [ 63] MedalBG
+  [ 64] Medal4_ON
+  [ 65] Medal3_ON
+  [ 66] Medal2_ON
+  [ 67] Medal1_ON
+  [ 68] MedalsGroup3
+  [ 69] ScoreGroup
+  [ 70] ScoreText
+  [ 71] <div align="center">    <font color="#EBB40F" size="60">    </font>  &nbsp;&n...
+  [ 72] XuiSoundXACT
+  [ 73] XuiSoundXACT1
+  [ 74] sounds\Menu.xsb
+  [ 75] sounds\Menu.xwb
+  [ 76] TransTo
+  [ 77] EndTransTo
+  [ 78] TransFrom
+  [ 79] EndTransFrom
+  [ 80] TransBackTo
+  [ 81] EndTransBackTo
+  [ 82] TransBackFrom
+  [ 83] EndTransBackFrom
+  [ 84] TransTo1
+  [ 85] EndTransTo1
+  [ 86] TransBackTo1
+  [ 87] EndTransBackTo1
+  [ 88] TransFrom1
+  [ 89] EndTransFrom1
+  [ 90] TransBackFrom1
+  [ 91] EndTransBackFrom1
+  [ 92] ResultScreen
+  [ 93] menu_select_basic
+  [ 94] menu_back

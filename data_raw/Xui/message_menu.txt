@@ -1,0 +1,55 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 47
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x74e (1870 bytes)
+  [1] VECT | Offset: 0x786 | Size: 0xe4 (228 bytes)
+  [2] DATA | Offset: 0x86a | Size: 0x44d (1101 bytes)
+
+--- String Table (47 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] MessageMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Trials-B-Button
+  [  8] No
+  [  9] XuiGroup
+  [ 10] BG_Graphics
+  [ 11] XuiImage
+  [ 12] Image3
+  [ 13] images\the_background_1_4.dds
+  [ 14] Image2
+  [ 15] images\the_background_1_3.dds
+  [ 16] Image1
+  [ 17] images\the_background_1_2.dds
+  [ 18] Image
+  [ 19] images\the_background_1_1.dds
+  [ 20] ErrorGroup
+  [ 21] ListImage
+  [ 22] images\leaderboard_list_bg.dds
+  [ 23] ListImage1
+  [ 24] images\menu_title_bg_1.dds
+  [ 25] XuiText
+  [ 26] MessageText
+  [ 27] MessageTitleText
+  [ 28] ButtonInfoGroup
+  [ 29] XuiHtmlElement
+  [ 30] ButtonsText
+  [ 31] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 32] XuiSoundXACT
+  [ 33] XuiSoundXACT1
+  [ 34] AchievementUnlock
+  [ 35] sounds\Menu.xsb
+  [ 36] sounds\Menu.xwb
+  [ 37] TransTo
+  [ 38] EndTransTo
+  [ 39] TransFrom
+  [ 40] EndTransFrom
+  [ 41] TransBackTo
+  [ 42] EndTransBackTo
+  [ 43] TransBackFrom
+  [ 44] EndTransBackFrom
+  [ 45] menu_select_basic
+  [ 46] menu_back

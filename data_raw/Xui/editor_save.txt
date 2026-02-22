@@ -1,0 +1,113 @@
+[+] XUR v5 | Flags: 1 | Sections: 3 | Strings: 93
+
+--- Extra Table ---
+  [0] 0x0000006e (110)
+  [1] 0x000002f9 (761)
+  [2] 0x0000006e (110)
+  [3] 0x00000066 (102)
+  [4] 0x0000000b (11)
+  [5] 0x0000000b (11)
+  [6] 0x00000054 (84)
+  [7] 0x00000009 (9)
+  [8] 0x00000010 (16)
+  [9] 0x0000000a (10)
+
+--- Sections ---
+  [0] STRN | Offset: 0x60 | Size: 0x1184 (4484 bytes)
+  [1] VECT | Offset: 0x11e4 | Size: 0x1d4 (468 bytes)
+  [2] DATA | Offset: 0x13b8 | Size: 0x1524 (5412 bytes)
+
+--- String Table (93 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] EditorSaveMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] XuiNineGrid
+  [ 20] XuiNineGrid1
+  [ 21] images\textbg.dds
+  [ 22] ButtonInfoNoTracksGroup
+  [ 23] XuiHtmlElement
+  [ 24] XuiHtmlElement1
+  [ 25] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 26] ButtonInfoGroup
+  [ 27] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 28] ListBG
+  [ 29] ListImage
+  [ 30] images\leaderboard_list_bg.dds
+  [ 31] ListImage1
+  [ 32] images\menu_title_bg_1.dds
+  [ 33] FilterBGImage
+  [ 34] images\menu_filter_bg_1.dds
+  [ 35] XuiCommonList
+  [ 36] FilterList
+  [ 37] Trials-List-Filter
+  [ 38] GlobalScoreList
+  [ 39] Name  Style  Difficulty  Modified  Device  
+  [ 40] XuiListItem
+  [ 41] control _ListItem
+  [ 42] Trials-ListItem-FilterText
+  [ 43] XuiListItem1
+  [ 44] TrackListGroup
+  [ 45] XuiList
+  [ 46] TrackList
+  [ 47] EditorSaveTrackList
+  [ 48] Trials-List-CustomTracks-Load
+  [ 49] control_ListItem
+  [ 50] Trials-ListItem-CustomTracks-Load
+  [ 51] XuiText
+  [ 52] XuiText3
+  [ 53] TRACK NAME
+  [ 54] XuiText4
+  [ 55] STYLE
+  [ 56] XuiText5
+  [ 57] DIFFICULTY
+  [ 58] XuiText6
+  [ 59] DEVICE
+  [ 60] XuiText7
+  [ 61] CREATED
+  [ 62] NotificationGroup
+  [ 63] NotificationHeader
+  [ 64] <div align="center">  <font color="#EBB40F" size="28">  You have no custom tr...
+  [ 65] NotificationMessage
+  [ 66] <div align="center">  <font color="#EBB40F" size="20">  Use the track editor ...
+  [ 67] TitleText
+  [ 68] SAVE CUSTOM TRACK
+  [ 69] InfoText
+  [ 70] StorageInfo
+  [ 71] XuiSoundXACT
+  [ 72] XuiSoundXACT1
+  [ 73] sounds\Menu.xsb
+  [ 74] sounds\Menu.xwb
+  [ 75] TransTo
+  [ 76] EndTransTo
+  [ 77] TransFrom
+  [ 78] EndTransFrom
+  [ 79] TransBackTo
+  [ 80] EndTransBackTo
+  [ 81] TransBackFrom
+  [ 82] EndTransBackFrom
+  [ 83] TransTo1
+  [ 84] EndTransTo1
+  [ 85] TransFrom1
+  [ 86] EndTransFrom1
+  [ 87] TransBackTo1
+  [ 88] EndTransBackTo1
+  [ 89] TransBackFrom1
+  [ 90] EndTransBackFrom1
+  [ 91] menu_select_track
+  [ 92] menu_back

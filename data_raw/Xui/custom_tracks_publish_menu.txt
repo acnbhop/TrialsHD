@@ -1,0 +1,70 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 62
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x966 (2406 bytes)
+  [1] VECT | Offset: 0x99e | Size: 0x150 (336 bytes)
+  [2] DATA | Offset: 0xaee | Size: 0x691 (1681 bytes)
+
+--- String Table (62 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] TrialsSceneBlank
+  [  3] XuiBackButton
+  [  4] BackButton
+  [  5] XuiGroup
+  [  6] BG_Graphics
+  [  7] XuiImage
+  [  8] Image3
+  [  9] images\the_background_1_4.dds
+  [ 10] Image2
+  [ 11] images\the_background_1_3.dds
+  [ 12] Image1
+  [ 13] images\the_background_1_2.dds
+  [ 14] Image
+  [ 15] images\the_background_1_1.dds
+  [ 16] ButtonInfoGroup
+  [ 17] XuiHtmlElement
+  [ 18] XuiHtmlElement1
+  [ 19] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 20] ListGroup
+  [ 21] ListImage
+  [ 22] images\leaderboard_list_bg.dds
+  [ 23] ListImage1
+  [ 24] images\menu_title_bg_1.dds
+  [ 25] XuiList
+  [ 26] PlayTrackList
+  [ 27] CustomTrackList
+  [ 28] Trials-List-CustomTracks-Publish
+  [ 29] XuiListItem
+  [ 30] control_ListItem
+  [ 31] Trials-ListItem-CustomTracks-Publish
+  [ 32] XuiText
+  [ 33] XuiText6
+  [ 34] CREATED
+  [ 35] XuiText3
+  [ 36] TRACK NAME
+  [ 37] XuiText4
+  [ 38] STYLE
+  [ 39] XuiText5
+  [ 40] DIFFICULTY
+  [ 41] InfoText
+  [ 42] NotificationGroup
+  [ 43] NotificationBG
+  [ 44] images\leaderboard_notification_bg.dds
+  [ 45] NotificationText
+  [ 46] TitleText
+  [ 47] PUBLISH TRACKS
+  [ 48] XuiSoundXACT
+  [ 49] XuiSoundXACT1
+  [ 50] sounds\Menu.xsb
+  [ 51] sounds\Menu.xwb
+  [ 52] TransTo
+  [ 53] EndTransTo
+  [ 54] TransFrom
+  [ 55] EndTransFrom
+  [ 56] TransBackTo
+  [ 57] EndTransBackTo
+  [ 58] TransBackFrom
+  [ 59] EndTransBackFrom
+  [ 60] menu_select_basic
+  [ 61] menu_back

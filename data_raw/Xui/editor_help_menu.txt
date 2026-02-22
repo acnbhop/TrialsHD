@@ -1,0 +1,76 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 68
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x8522 (34082 bytes)
+  [1] VECT | Offset: 0x855a | Size: 0x114 (276 bytes)
+  [2] DATA | Offset: 0x866e | Size: 0x743 (1859 bytes)
+
+--- String Table (68 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] EditorHelpMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Trials-RightLeft-Button
+  [  8] Back
+  [  9] XuiGroup
+  [ 10] BG_Graphics
+  [ 11] XuiImage
+  [ 12] Image3
+  [ 13] images\the_background_1_4.dds
+  [ 14] Image2
+  [ 15] images\the_background_1_3.dds
+  [ 16] Image1
+  [ 17] images\the_background_1_2.dds
+  [ 18] Image
+  [ 19] images\the_background_1_1.dds
+  [ 20] HelpBGImage
+  [ 21] images\leaderboard_list_bg.dds
+  [ 22] XuiImage1
+  [ 23] images\tournament_bg_small_1.dds
+  [ 24] XuiImage2
+  [ 25] XuiImage3
+  [ 26] XuiImage4
+  [ 27] XuiText
+  [ 28] XuiText1
+  [ 29] Basic
+  [ 30] XuiText2
+  [ 31] Tools
+  [ 32] XuiText3
+  [ 33] Advanced
+  [ 34] XuiText4
+  [ 35] Skill Games
+  [ 36] ButtonInfoGroup
+  [ 37] XuiHtmlElement
+  [ 38] XuiHtmlElement1
+  [ 39] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 40] InfoText
+  [ 41] XuiTabScene
+  [ 42] TabSceneRoot
+  [ 43] Tab1
+  [ 44] XuiHtmlControl
+  [ 45] HelpText
+  [ 46] TrialsTextbox-ScrollV
+  [ 47] <div align="left"><font color="#EBB40F" size="30">Editor<br></font><font colo...
+  [ 48] Tab2
+  [ 49] <div align=""><font color="#EBB40F" size="30">Tool Summary<br></font><font co...
+  [ 50] Tab3
+  [ 51] <div align="left"><font color="#EBB40F" size="30">Object properties: Physics<...
+  [ 52] Tab4
+  [ 53] <div align="left"><font color="#EBB40F" size="30">Creating Skill Games<br></f...
+  [ 54] TitleText
+  [ 55] EDITOR HELP
+  [ 56] XuiSoundXACT
+  [ 57] XuiSoundXACT1
+  [ 58] sounds\Menu.xsb
+  [ 59] sounds\Menu.xwb
+  [ 60] TransTo
+  [ 61] EndTransTo
+  [ 62] TransFrom
+  [ 63] EndTransFrom
+  [ 64] TransBackTo
+  [ 65] EndTransBackTo
+  [ 66] TransBackFrom
+  [ 67] EndTransBackFrom

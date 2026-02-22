@@ -1,0 +1,102 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 94
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x118c (4492 bytes)
+  [1] VECT | Offset: 0x11c4 | Size: 0x1f8 (504 bytes)
+  [2] DATA | Offset: 0x13bc | Size: 0xc8c (3212 bytes)
+
+--- String Table (94 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] SelectSkillGameMenu
+  [  4] TrialsSceneBlank
+  [  5] HiddenButton
+  [  6] XuiButton
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoGroupNoGhost
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] LeaderboardGroup
+  [ 23] List_BG
+  [ 24] images\skill_games_bg_big_2.dds
+  [ 25] XuiList
+  [ 26] ResultList
+  [ 27] TrackFriendScoreListSkillGame
+  [ 28] Trials-ResultStats-NewFont
+  [ 29] XuiListItem
+  [ 30] XuiListItem1
+  [ 31] Trials-ListItem-ResultStats-NewFont
+  [ 32] NotificationText
+  [ 33] <div align="center">  <font color="#EBB40F" size="18">    Online features are...
+  [ 34] PreviewGroup
+  [ 35] images\skill_games_bg_big_1.dds
+  [ 36] XuiControl
+  [ 37] TrackImage
+  [ 38] Trials-TrackPreview
+  [ 39]   
+  [ 40] images\black.dds
+  [ 41] MedalsGroup
+  [ 42] MedalBG
+  [ 43] images\medal_background_splat.dds
+  [ 44] NextMedalText2
+  [ 45] <div align="left">    <font color="#EBB40F" size="18">    </font>    <font co...
+  [ 46] NextMedalText1
+  [ 47] <div align="left">    <font color="#EBB40F" size="18">    </font>          </...
+  [ 48] MedalsGroup4
+  [ 49] Medal4_OFF
+  [ 50] images\medal_128_4.dds
+  [ 51] Medal3_OFF
+  [ 52] images\medal_128_3.dds
+  [ 53] Medal2_OFF
+  [ 54] images\medal_128_2.dds
+  [ 55] Medal1_OFF
+  [ 56] images\medal_128_1.dds
+  [ 57] Medal4_ON
+  [ 58] Medal3_ON
+  [ 59] Medal2_ON
+  [ 60] Medal1_ON
+  [ 61] MedalsGroup3
+  [ 62] MedalsGroup1
+  [ 63] Medal1
+  [ 64] XuiText
+  [ 65] SkillGameName
+  [ 66] SkillGameList
+  [ 67] Trials-List-SkillGames
+  [ 68] Trials-ListItem-SkillGames
+  [ 69] Title
+  [ 70] <div align="center">  <font color="#D7CAAD" size="50">    SELECT SKILL GAME  ...
+  [ 71] InfoText
+  [ 72] XuiSoundXACT
+  [ 73] XuiSoundXACT1
+  [ 74] sounds\Menu.xsb
+  [ 75] sounds\Menu.xwb
+  [ 76] TransTo
+  [ 77] EndTransTo
+  [ 78] TransFrom
+  [ 79] EndTransFrom
+  [ 80] TransBackTo
+  [ 81] EndTransBackTo
+  [ 82] TransBackFrom
+  [ 83] EndTransBackFrom
+  [ 84] TransTo1
+  [ 85] EndTransTo1
+  [ 86] TransFrom1
+  [ 87] EndTransFrom1
+  [ 88] TransBackTo1
+  [ 89] EndTransBackTo1
+  [ 90] TransBackFrom1
+  [ 91] EndTransBackFrom1
+  [ 92] menu_select_track
+  [ 93] menu_back

@@ -1,0 +1,248 @@
+[+] XUR v5 | Flags: 1 | Sections: 5 | Strings: 226
+
+--- Extra Table ---
+  [0] 0x000000e3 (227)
+  [1] 0x00000624 (1572)
+  [2] 0x000000e9 (233)
+  [3] 0x00000000 (0)
+  [4] 0x00000000 (0)
+  [5] 0x00000000 (0)
+  [6] 0x00000000 (0)
+  [7] 0x00000000 (0)
+  [8] 0x00000000 (0)
+  [9] 0x0000002b (43)
+
+--- Sections ---
+  [0] STRN | Offset: 0x78 | Size: 0x4c88 (19592 bytes)
+  [1] VECT | Offset: 0x4d00 | Size: 0x828 (2088 bytes)
+  [2] QUAT | Offset: 0x5528 | Size: 0x30 (48 bytes)
+  [3] CUST | Offset: 0x5558 | Size: 0x70 (112 bytes)
+  [4] DATA | Offset: 0x55c8 | Size: 0x2011 (8209 bytes)
+
+--- String Table (226 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] Editor
+  [  4] TrialsSceneBlank
+  [  5] XuiNavButton
+  [  6] PauseButton
+  [  7] Trials-Button
+  [  8] XuiGroup
+  [  9] BottomButtonsMultiSelect
+  [ 10] XuiNineGrid
+  [ 11] XuiNineGrid1
+  [ 12] images\textbg.dds
+  [ 13] XuiHtmlElement
+  [ 14] XuiHtmlElement2
+  [ 15] <div align="center">  <font color="#D7CAAD" size="27">      <img src="images/...
+  [ 16] XuiHtmlElement1
+  [ 17] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 18] BottomButtonsMultiSelectButtonDown
+  [ 19] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 20] BottomButtonsGlueToObject
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">      <img src="images/...
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] XuiText
+  [ 24] DescriptionText
+  [ 25] BottomButtonsSelectTrigger
+  [ 26] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 27] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 28] BottomButtonsMedalTimesEdit
+  [ 29] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 30] BottomButtonsMedalTimes
+  [ 31] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 32] BottomButtonsRoomObject
+  [ 33] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 34] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 35] BottomButtonsObjectTypeSelector
+  [ 36] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 37] BottomButtonsObjectProperties
+  [ 38] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 39] BottomButtonsLightAngleSelector
+  [ 40] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 41] BottomButtonsColorSelector
+  [ 42] BottomButtonsEditorPropertiesMenu
+  [ 43] BottomButtonsEditorObjectSelectedModeAdvanced
+  [ 44] BottomButtonsEditorCursorModeAdvanced
+  [ 45] <div align="center">  <font color="#D7CAAD" size="27">      <img src="images/...
+  [ 46] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 47] BottomButtonsEditorObjectSelectedModeSimple
+  [ 48] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 49] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 50] BottomButtonsEditorCursorModeSimple
+  [ 51] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 52] XuiImage
+  [ 53] Cursor
+  [ 54] images\cursor.dds
+  [ 55] EditOverlayGroup
+  [ 56] XuiImage1
+  [ 57] images\ingame_overlay_room_complexity.dds
+  [ 58] XuiProgressBar
+  [ 59] SceneComplexityProgressBar
+  [ 60] Trials-ProgressBar
+  [ 61] Room Complexity
+  [ 62] PauseImage
+  [ 63] images\editor_pause.dds
+  [ 64] PlayImage
+  [ 65] images\editor_play.dds
+  [ 66] VerifiedGroup
+  [ 67] VerifiedText
+  [ 68] UnVerifiedGroup
+  [ 69] EditorObjectSelectorGroup
+  [ 70] XuiList
+  [ 71] CategoryList
+  [ 72] EditorCategoryList
+  [ 73] Trials-List-EditorCategory
+  [ 74] ObjectTypeList
+  [ 75] XuiListItem
+  [ 76] control _ListItem
+  [ 77] Trials-ListItem-EditorCategory
+  [ 78] EditorObjectTypeList
+  [ 79] Trials-List-EditorObjects
+  [ 80] Trials-ListItem-EditorObjects
+  [ 81] ObjectDescriptionText
+  [ 82] SunLightGroup
+  [ 83] PropertiesBG
+  [ 84] images\menu_button_bg_2.dds
+  [ 85] TitleBG
+  [ 86] images\menu_title_bg_2.dds
+  [ 87] XuiSlider
+  [ 88] SunLightAngleSlider
+  [ 89] Trials-Slider
+  [ 90] TimeOfDaySlider
+  [ 91] Sunlight Angle
+  [ 92] Time of Day
+  [ 93] TitleText
+  [ 94] SUNLIGHT DIRECTION
+  [ 95] ColorSelectionGroup
+  [ 96] BrightnessBG
+  [ 97] images\color_brightness.dds
+  [ 98] SaturationBG
+  [ 99] images\color_saturation.dds
+  [100] ColorBG
+  [101] images\color_hue.dds
+  [102] BrightnessSlider
+  [103] SaturationSlider
+  [104] HueSlider
+  [105] Brightness
+  [106] Saturation
+  [107] Color
+  [108] SELECT COLOR
+  [109] MedalTimesGroup
+  [110] FaultsTitle
+  [111] XuiButton
+  [112] GoldFaults
+  [113] Trials-MedalFaults
+  [114] GoldTime
+  [115] SilverFaults
+  [116] SilverTime
+  [117] BronzeFaults
+  [118] BronzeTime
+  [119] FaultGroup3
+  [120] images\arrow_left.dds
+  [121] XuiImage2
+  [122] images\arrow_right.dds
+  [123] FaultButton
+  [124] FaultGroup2
+  [125] FaultGroup1
+  [126] TimeTitle
+  [127]   
+  [128] Trials-MedalTimes
+  [129] TimeGroup3
+  [130] TimeButton
+  [131] TimeGroup2
+  [132] TimeGroup1
+  [133] XuiText1
+  [134] PLATINUM  
+  [135] XuiText2
+  [136] GOLD
+  [137] XuiText3
+  [138] SILVER
+  [139] MEDAL TIMES
+  [140] LevelPropertiesGroup
+  [141] AdvancedGroup
+  [142] SunLightDirectionButton
+  [143] Trials-Button-Properties
+  [144] ..\MedalTimesButton
+  [145] SunLightColorButton
+  [146] Sunlight Direction
+  [147] AmbientColorButton
+  [148] Sunlight Color
+  [149] FogColorButton
+  [150] Ambient Color
+  [151] FogAmountSlider
+  [152] Dust Color
+  [153] Dustiness
+  [154] ColorGroup
+  [155] RightArrow4
+  [156] RightArrow3
+  [157] RightArrow2
+  [158] RightArrow1
+  [159] LevelStyleSlider
+  [160] LevelDifficultySlider
+  [161] Track Style:
+  [162] MedalTimesButton
+  [163] Track Difficulty:
+  [164] RightArrow5
+  [165] AdvancedGroup\SunLightDirectionButton
+  [166] Medal Times
+  [167] TRACK SETTINGS
+  [168] LightColorGroup
+  [169] LightTitleText
+  [170] LIGHT COLOR
+  [171] LightBrightnessSlider
+  [172] LightSaturationSlider
+  [173] LightColorSlider
+  [174] Light Brightness
+  [175] Light Saturation
+  [176] Light Color
+  [177] TriggerPropertiesGroup
+  [178] TRIGGER PROPERTIES
+  [179] XuiCheckbox
+  [180] ActivatePhysicsCheckbox
+  [181] Trials-Checkbox
+  [182] SelectTriggerButton
+  [183] ActivateAnimationCheckbox
+  [184] Physics
+  [185] ActivateLightCheckbox
+  [186] Animation
+  [187] ActivateExplosionCheckbox
+  [188] Light
+  [189] Explode/Break
+  [190] TitleText1
+  [191] Select features to change
+  [192] Select Objects
+  [193] ObjectPropertiesGroup
+  [194] PhysicsCheckbox
+  [195] GlueToButton
+  [196] AnimationCheckbox
+  [197] Physics  
+  [198] LightCheckbox
+  [199] LockToDrivingLineCheckbox
+  [200] LightPropertiesButton
+  [201] Light  
+  [202] Lock to Driving line
+  [203] Light Properties
+  [204] ObjectTitleText
+  [205] OBJECT PROPERTIES
+  [206] Glue to Object
+  [207] CameraPropertiesGroup
+  [208] CameraRangeSlider
+  [209] CheckCameraButton
+  [210] FieldOfViewSlider
+  [211] Camera Range:
+  [212] CAMERA SETTINGS
+  [213] Check Camera View
+  [214] Field of View:
+  [215] CameraMoveArrowsGroup
+  [216] images\editor_camera_move_arrow.dds
+  [217] CameraRotateArrowsGroup
+  [218] images\editor_camera_rotate_arrow.dds
+  [219] EdgeArt
+  [220] XuiFigure
+  [221] EditorModeGroup
+  [222] SimpleMode
+  [223] Simple Mode
+  [224] AdvancedMode
+  [225] Advanced Mode

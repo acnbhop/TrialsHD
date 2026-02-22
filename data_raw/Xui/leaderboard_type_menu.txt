@@ -1,0 +1,87 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 79
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0xa38 (2616 bytes)
+  [1] VECT | Offset: 0xa70 | Size: 0x144 (324 bytes)
+  [2] DATA | Offset: 0xbb4 | Size: 0x1135 (4405 bytes)
+
+--- String Table (79 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] LeaderboardTypeMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] ButtonInfoGroup
+  [ 20] XuiHtmlElement
+  [ 21] XuiHtmlElement1
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] XuiText
+  [ 24] InfoText
+  [ 25] LeaderboardButtonGroup
+  [ 26] TitleText
+  [ 27] LEADERBOARDS
+  [ 28] MenuButtonsImage
+  [ 29] images\leaderboard_main_bg.dds
+  [ 30] XuiNavButton
+  [ 31] GlobalAllButton
+  [ 32] Trials-Button
+  [ 33] GlobalButton
+  [ 34] GLOBAL RANKING + DLC
+  [ 35] RaceButton
+  [ 36] GLOBAL RANKING
+  [ 37] SkillGamesButton
+  [ 38] RACE
+  [ 39] ChallengesButton
+  [ 40] SKILL GAMES
+  [ 41] TOURNAMENTS
+  [ 42] XuiSoundXACT
+  [ 43] XuiSoundXACT1
+  [ 44] sounds\Menu.xsb
+  [ 45] sounds\Menu.xwb
+  [ 46] TransTo
+  [ 47] EndTransTo
+  [ 48] TransFrom
+  [ 49] EndTransFrom
+  [ 50] TransBackTo
+  [ 51] EndTransBackTo
+  [ 52] TransBackFrom
+  [ 53] EndTransBackFrom
+  [ 54] TransTo2
+  [ 55] EndTransTo2
+  [ 56] TransFrom2
+  [ 57] EndTransFrom2
+  [ 58] TransBackTo2
+  [ 59] EndTransBackTo2
+  [ 60] TransBackFrom2
+  [ 61] EndTransBackFrom2
+  [ 62] TransTo1
+  [ 63] EndTransTo1
+  [ 64] TransFrom1
+  [ 65] EndTransFrom1
+  [ 66] TransBackTo1
+  [ 67] EndTransBackTo1
+  [ 68] TransBackFrom1
+  [ 69] EndTransBackFrom1
+  [ 70] TransTo3
+  [ 71] EndTransTo3
+  [ 72] TransFrom3
+  [ 73] EndTransFrom3
+  [ 74] TransBackTo3
+  [ 75] EndTransBackTo3
+  [ 76] TransBackFrom3
+  [ 77] EndTransBackFrom3
+  [ 78] menu_back

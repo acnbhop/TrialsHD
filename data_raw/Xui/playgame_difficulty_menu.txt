@@ -1,0 +1,105 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 97
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x11a6 (4518 bytes)
+  [1] VECT | Offset: 0x11de | Size: 0x204 (516 bytes)
+  [2] DATA | Offset: 0x13e2 | Size: 0x9a8 (2472 bytes)
+
+--- String Table (97 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] DifficultyMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoGroup
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] XuiText
+  [ 23] InfoText
+  [ 24]   
+  [ 25] TitleText
+  [ 26] SELECT DIFFICULTY
+  [ 27] MedalsGroup
+  [ 28] TitleBgImage
+  [ 29] images\menu_title_bg_2.dds
+  [ 30] TotalCompletedText
+  [ 31] <div align="left">    <font color="#D8C69A" size="25">    </font>    <font co...
+  [ 32] MedalsText
+  [ 33] <div align="right">  <font color="#D8C69A" size="24">        <img src="images...
+  [ 34] PlayGameDifficultyMenuGroup
+  [ 35] MenuButtonsImage6
+  [ 36] images\menu_modedifficulty_bg_6.dds
+  [ 37] MenuButtonsImage5
+  [ 38] images\menu_modedifficulty_bg_5.dds
+  [ 39] MenuButtonsImage4
+  [ 40] images\menu_modedifficulty_bg_4.dds
+  [ 41] MenuButtonsImage3
+  [ 42] images\menu_modedifficulty_bg_3.dds
+  [ 43] MenuButtonsImage2
+  [ 44] images\menu_modedifficulty_bg_2.dds
+  [ 45] MenuButtonsImage1
+  [ 46] images\menu_modedifficulty_bg_1.dds
+  [ 47] XuiNavButton
+  [ 48] DifficultyButton1
+  [ 49] Trials-Button-Difficulty
+  [ 50] DifficultyButton5
+  [ 51] DifficultyButton2
+  [ 52] DifficultyButton6
+  [ 53] BEGINNER
+  [ 54] images\difficulty_icon_beginner.dds
+  [ 55] DifficultyButton3
+  [ 56] EASY
+  [ 57] images\difficulty_icon_easy.dds
+  [ 58] DifficultyButton4
+  [ 59] MEDIUM  
+  [ 60] images\difficulty_icon_medium.dds
+  [ 61] HARD
+  [ 62] images\difficulty_icon_hard.dds
+  [ 63] EXTREME  
+  [ 64] images\difficulty_icon_inferno.dds
+  [ 65] Trials-Button-Tournaments
+  [ 66] TOURNAMENTS
+  [ 67] images/difficulty_icon_tournament.dds
+  [ 68] PercentText1
+  [ 69] 89 %
+  [ 70] PercentText2
+  [ 71] PercentText3
+  [ 72] PercentText4
+  [ 73] PercentText5
+  [ 74] PercentText6
+  [ 75] XuiSoundXACT
+  [ 76] XuiSoundXACT1
+  [ 77] sounds\Menu.xsb
+  [ 78] sounds\Menu.xwb
+  [ 79] TransTo
+  [ 80] EndTransTo
+  [ 81] TransFrom
+  [ 82] EndTransFrom
+  [ 83] TransBackTo
+  [ 84] EndTransBackTo
+  [ 85] TransBackFrom
+  [ 86] EndTransBackFrom
+  [ 87] TransTo1
+  [ 88] EndTransTo1
+  [ 89] TransFrom1
+  [ 90] EndTransFrom1
+  [ 91] TransBackTo1
+  [ 92] EndTransBackTo1
+  [ 93] TransBackFrom1
+  [ 94] EndTransBackFrom1
+  [ 95] menu_select_basic
+  [ 96] menu_back

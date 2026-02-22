@@ -1,0 +1,86 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 78
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0xba4 (2980 bytes)
+  [1] VECT | Offset: 0xbdc | Size: 0x138 (312 bytes)
+  [2] DATA | Offset: 0xd14 | Size: 0x6f7 (1783 bytes)
+
+--- String Table (78 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] CustomTracksMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] ButtonInfoGroup
+  [ 20] XuiHtmlElement
+  [ 21] XuiHtmlElement1
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] XuiText
+  [ 24] TitleText
+  [ 25] USER CONTENT
+  [ 26] UserContentGroup
+  [ 27] MenuButtonsImage6
+  [ 28] images\menu_modedifficulty_bg_6.dds
+  [ 29] MenuButtonsImage4
+  [ 30] images\menu_modedifficulty_bg_4.dds
+  [ 31] MenuButtonsImage3
+  [ 32] images\menu_modedifficulty_bg_3.dds
+  [ 33] MenuButtonsImage2
+  [ 34] images\menu_modedifficulty_bg_2.dds
+  [ 35] MenuButtonsImage1
+  [ 36] images\menu_modedifficulty_bg_1.dds
+  [ 37] XuiNavButton
+  [ 38] DifficultyButton1
+  [ 39] Trials-Button-Difficulty
+  [ 40] DifficultyButton4
+  [ 41] DifficultyButton2
+  [ 42] DifficultyButton6
+  [ 43] PLAY
+  [ 44] images/user_content_play.dds
+  [ 45] DifficultyButton3
+  [ 46] GET
+  [ 47] images/user_content_get.dds
+  [ 48] SHARE  
+  [ 49] images/user_content_share.dds
+  [ 50] MANAGE
+  [ 51] images\user_content_manage.dds
+  [ 52] Trials-Button-UserEditor
+  [ 53] EDITOR
+  [ 54] images\user_content_editor.dds
+  [ 55] InfoText
+  [ 56] XuiSoundXACT
+  [ 57] XuiSoundXACT1
+  [ 58] sounds\Menu.xsb
+  [ 59] sounds\Menu.xwb
+  [ 60] TransTo
+  [ 61] EndTransTo
+  [ 62] TransFrom
+  [ 63] EndTransFrom
+  [ 64] TransBackTo
+  [ 65] EndTransBackTo
+  [ 66] TransBackFrom
+  [ 67] EndTransBackFrom
+  [ 68] TransTo1
+  [ 69] EndTransTo1
+  [ 70] TransFrom1
+  [ 71] EndTransFrom1
+  [ 72] TransBackTo1
+  [ 73] EndTransBackTo1
+  [ 74] TransBackFrom1
+  [ 75] EndTransBackFrom1
+  [ 76] menu_select_basic
+  [ 77] menu_back

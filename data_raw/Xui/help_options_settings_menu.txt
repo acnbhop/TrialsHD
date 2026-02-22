@@ -1,0 +1,106 @@
+[+] XUR v5 | Flags: 1 | Sections: 3 | Strings: 86
+
+--- Extra Table ---
+  [0] 0x000000d6 (214)
+  [1] 0x000005db (1499)
+  [2] 0x000000d6 (214)
+  [3] 0x00000042 (66)
+  [4] 0x00000007 (7)
+  [5] 0x00000007 (7)
+  [6] 0x00000039 (57)
+  [7] 0x00000006 (6)
+  [8] 0x00000010 (16)
+  [9] 0x00000008 (8)
+
+--- Sections ---
+  [0] STRN | Offset: 0x60 | Size: 0xbe6 (3046 bytes)
+  [1] VECT | Offset: 0xc46 | Size: 0x174 (372 bytes)
+  [2] DATA | Offset: 0xdba | Size: 0x2351 (9041 bytes)
+
+--- String Table (86 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] SettingsMenu
+  [  3] TrialsSceneBlank
+  [  4] HelpSettingsGroup\DefaultUnitsList
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] ButtonInfoGroup
+  [ 20] XuiHtmlElement
+  [ 21] XuiHtmlElement1
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] HelpSettingsGroup
+  [ 24] BGImage
+  [ 25] images\leaderboard_list_bg.dds
+  [ 26] XuiCommonList
+  [ 27] DefaultUnitsList
+  [ 28] Trials-List-SettingsFilter
+  [ 29] CameraAngleList
+  [ 30] VibrationList
+  [ 31] Metric  Feet  
+  [ 32] XuiListItem
+  [ 33] XuiListItem1
+  [ 34] Trials-ListItem-FilterText
+  [ 35] Trials-ListItem-SettingsFilterText
+  [ 36] XuiText
+  [ 37] UnitsText
+  [ 38] Unit System
+  [ 39] StorageButton
+  [ 40] On  Off  
+  [ 41] VibrationText
+  [ 42] Vibration
+  [ 43] XuiNavButton
+  [ 44] Trials-Button-Settings
+  [ 45] VoiceOverList
+  [ 46] StorageText
+  [ 47] Change Storage Device
+  [ 48] XuiSlider
+  [ 49] MusicVolumeSlider
+  [ 50] Trials-SettingsSoundsSlider
+  [ 51] SoundFXVolumeSlider
+  [ 52] MusicText
+  [ 53] Music Volume
+  [ 54] BrightnessSlider
+  [ 55] SoundText
+  [ 56] Sound FX
+  [ 57] Random  Art Webb  Brandon DiCamillo  Rake Yohn  Off  
+  [ 58] VoiceOverText
+  [ 59] Voice Over
+  [ 60] InfoText
+  [ 61] TitleText
+  [ 62] SETTINGS
+  [ 63] XuiSoundXACT
+  [ 64] XuiSoundXACT1
+  [ 65] sounds\Menu.xsb
+  [ 66] sounds\Menu.xwb
+  [ 67] SliderChangeSound
+  [ 68] menu_move
+  [ 69] TransTo
+  [ 70] EndTransTo
+  [ 71] TransFrom
+  [ 72] EndTransFrom
+  [ 73] TransBackTo
+  [ 74] EndTransBackTo
+  [ 75] TransBackFrom
+  [ 76] EndTransBackFrom
+  [ 77] TransTo1
+  [ 78] EndTransTo1
+  [ 79] TransFrom1
+  [ 80] EndTransFrom1
+  [ 81] TransBackTo1
+  [ 82] EndTransBackTo1
+  [ 83] TransBackFrom1
+  [ 84] EndTransBackFrom1
+  [ 85] menu_back

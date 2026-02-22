@@ -1,0 +1,119 @@
+[+] XUR v5 | Flags: 1 | Sections: 3 | Strings: 99
+
+--- Extra Table ---
+  [0] 0x00000070 (112)
+  [1] 0x000002f4 (756)
+  [2] 0x00000070 (112)
+  [3] 0x000000da (218)
+  [4] 0x0000001d (29)
+  [5] 0x0000001d (29)
+  [6] 0x000000a7 (167)
+  [7] 0x00000015 (21)
+  [8] 0x00000025 (37)
+  [9] 0x00000023 (35)
+
+--- Sections ---
+  [0] STRN | Offset: 0x60 | Size: 0xcd8 (3288 bytes)
+  [1] VECT | Offset: 0xd38 | Size: 0x270 (624 bytes)
+  [2] DATA | Offset: 0xfa8 | Size: 0x1af1 (6897 bytes)
+
+--- String Table (99 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] BikeSelectMenu
+  [  4] TrialsSceneBlank
+  [  5] HiddenButton
+  [  6] XuiButton
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoGroup
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] XuiImage1
+  [ 23] images\black.dds
+  [ 24] XuiControl
+  [ 25] BikeImage
+  [ 26] BikePreview
+  [ 27] Trials-BikePreview
+  [ 28]   
+  [ 29] BikeImageEdges
+  [ 30] images\menu_bikeimage_edges.dds
+  [ 31] CardListGroup
+  [ 32] Card7
+  [ 33] CardBG
+  [ 34] images\tournament_bg_small_2.dds
+  [ 35] XuiText
+  [ 36] NameText
+  [ 37] LockedGroup
+  [ 38] XuiText1
+  [ 39] Locked
+  [ 40] BikeNotAllowedGroup
+  [ 41] Bike not allowed!
+  [ 42] FullOnlyGroup
+  [ 43] Unlock Full Game
+  [ 44] Card6
+  [ 45] Card5
+  [ 46] EndNormal
+  [ 47] MoveUp
+  [ 48] EndMoveUp
+  [ 49] MoveDown
+  [ 50] EndMoveDown
+  [ 51] Card4
+  [ 52] Card3
+  [ 53] Card2
+  [ 54] Card1
+  [ 55] HighlightGroup
+  [ 56] images\card_track_2_hilight.dds
+  [ 57] XuiSoundXACT
+  [ 58] XuiSoundXACT1
+  [ 59] sounds\Menu.xsb
+  [ 60] sounds\Menu.xwb
+  [ 61] VeryEnd
+  [ 62] menu_browse_tracks
+  [ 63] BikeInfoGroup
+  [ 64] BGImage
+  [ 65] images\menu_button_bg_1.dds
+  [ 66] BrakesText
+  [ 67] Brakes:
+  [ 68] XuiProgressBar
+  [ 69] AccelerationProgressBar
+  [ 70] Trials-ProgressBar2
+  [ 71] Acceleration
+  [ 72] TopSpeedProgressBar
+  [ 73] Top Speed
+  [ 74] HandlingProgressBar
+  [ 75] Responsiveness
+  [ 76] BikeDifficultyText
+  [ 77] BikeNameText
+  [ 78] Title
+  [ 79] <div align="center">  <font color="#D7CAAD" size="50">    CHOOSE BIKE    </fo...
+  [ 80] InfoText
+  [ 81] TransTo
+  [ 82] EndTransTo
+  [ 83] TransFrom
+  [ 84] EndTransFrom
+  [ 85] TransBackTo
+  [ 86] EndTransBackTo
+  [ 87] TransBackFrom
+  [ 88] EndTransBackFrom
+  [ 89] TransTo1
+  [ 90] EndTransTo1
+  [ 91] TransFrom1
+  [ 92] EndTransFrom1
+  [ 93] TransBackTo1
+  [ 94] EndTransBackTo1
+  [ 95] TransBackFrom1
+  [ 96] EndTransBackFrom1
+  [ 97] menu_select_track
+  [ 98] menu_back

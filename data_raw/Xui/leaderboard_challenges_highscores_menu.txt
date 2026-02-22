@@ -1,0 +1,101 @@
+[+] XUR v5 | Flags: 1 | Sections: 3 | Strings: 81
+
+--- Extra Table ---
+  [0] 0x00000072 (114)
+  [1] 0x0000030b (779)
+  [2] 0x00000072 (114)
+  [3] 0x00000044 (68)
+  [4] 0x00000008 (8)
+  [5] 0x00000008 (8)
+  [6] 0x00000044 (68)
+  [7] 0x00000008 (8)
+  [8] 0x00000008 (8)
+  [9] 0x0000000b (11)
+
+--- Sections ---
+  [0] STRN | Offset: 0x60 | Size: 0xc8a (3210 bytes)
+  [1] VECT | Offset: 0xcea | Size: 0x180 (384 bytes)
+  [2] DATA | Offset: 0xe6a | Size: 0x1459 (5209 bytes)
+
+--- String Table (81 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] LeaderBoardChallengeScoresMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Back
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] BackgroundGroup
+  [ 19] FilterBGImage
+  [ 20] images\menu_filter_bg_1.dds
+  [ 21] ListImage
+  [ 22] images\leaderboard_list_bg.dds
+  [ 23] ListImage1
+  [ 24] images\menu_title_bg_1.dds
+  [ 25] XuiCommonList
+  [ 26] FilterList
+  [ 27] Trials-List-Filter
+  [ 28] GlobalScoreList
+  [ 29] Friends  My Score  Overall  Session  
+  [ 30] XuiListItem
+  [ 31] control _ListItem
+  [ 32] Trials-ListItem-FilterText
+  [ 33] XuiListItem1
+  [ 34] ChallengeScores
+  [ 35] ButtonBackInfoGroup
+  [ 36] XuiHtmlElement
+  [ 37] XuiHtmlElement1
+  [ 38] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 39] ButtonInfoGroup
+  [ 40] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 41] XuiList
+  [ 42] ChallengeScoreList
+  [ 43] LeaderBoardChallengeScoreList
+  [ 44] Trials-List-Lboard-Chal-Hi
+  [ 45] Trials-ListItem-Lboard-Chal-Hi
+  [ 46] XuiText
+  [ 47] TimeText
+  [ 48] TIME
+  [ 49] Placard Condensed
+  [ 50] FaultsText
+  [ 51] FAULTS
+  [ 52] PlayerNameText
+  [ 53] GAMERTAG
+  [ 54] PositionText
+  [ 55] POSITION
+  [ 56] LoadingGroup
+  [ 57] LoadingBG
+  [ 58] LoadingText
+  [ 59] LOADING....
+  [ 60] NotificationGroup
+  [ 61] NotificationBG
+  [ 62] images\leaderboard_notification_bg.dds
+  [ 63] NotificationText
+  [ 64] InfoText
+  [ 65] TitleText
+  [ 66] TOURNAMENTS
+  [ 67] XuiSoundXACT
+  [ 68] XuiSoundXACT1
+  [ 69] sounds\Menu.xsb
+  [ 70] sounds\Menu.xwb
+  [ 71] TransTo
+  [ 72] EndTransTo
+  [ 73] TransFrom
+  [ 74] EndTransFrom
+  [ 75] TransBackTo
+  [ 76] EndTransBackTo
+  [ 77] TransBackFrom
+  [ 78] EndTransBackFrom
+  [ 79] menu_select_basic
+  [ 80] menu_back

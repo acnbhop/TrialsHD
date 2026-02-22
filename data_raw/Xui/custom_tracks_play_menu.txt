@@ -1,0 +1,91 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 83
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x1052 (4178 bytes)
+  [1] VECT | Offset: 0x108a | Size: 0x168 (360 bytes)
+  [2] DATA | Offset: 0x11f2 | Size: 0xe06 (3590 bytes)
+
+--- String Table (83 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] PlayCustomTrackMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] XuiGroup
+  [  7] BG_Graphics
+  [  8] XuiImage
+  [  9] Image3
+  [ 10] images\the_background_1_4.dds
+  [ 11] Image2
+  [ 12] images\the_background_1_3.dds
+  [ 13] Image1
+  [ 14] images\the_background_1_2.dds
+  [ 15] Image
+  [ 16] images\the_background_1_1.dds
+  [ 17] ButtonInfoGroup
+  [ 18] XuiHtmlElement
+  [ 19] ButtonInfo
+  [ 20] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 21] ButtonInfoNoGhostGroup
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] ButtonInfoNoTracksGroup
+  [ 24] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 25] PlayListGroup
+  [ 26] ListImage
+  [ 27] images\leaderboard_list_bg.dds
+  [ 28] ListImage1
+  [ 29] images\menu_title_bg_1.dds
+  [ 30] XuiList
+  [ 31] PlayTrackList
+  [ 32] CustomTrackPlayList
+  [ 33] Trials-List-CustomTracks-Play
+  [ 34] XuiListItem
+  [ 35] control_ListItem
+  [ 36] Trials-ListItem-CustomTracks-Play
+  [ 37] XuiText
+  [ 38] XuiText3
+  [ 39] TRACK NAME
+  [ 40] XuiText4
+  [ 41] STYLE
+  [ 42] XuiText5
+  [ 43] DIFFICULTY
+  [ 44] XuiText6
+  [ 45] MEDAL
+  [ 46] XuiText7
+  [ 47] CREATED
+  [ 48] Placard Condensed
+  [ 49] XuiText8
+  [ 50] DEVICE
+  [ 51] TitleText
+  [ 52] PLAY CUSTOM TRACK
+  [ 53] InfoText
+  [ 54] NotificationGroup
+  [ 55] NotificationHeader
+  [ 56] <div align="center">  <font color="#EBB40F" size="28">  You have no custom tr...
+  [ 57] NotificationMessage
+  [ 58] <div align="center">  <font color="#EBB40F" size="20">  Use the track editor ...
+  [ 59] StorageInfo
+  [ 60] <div align="center">  <font color="#EBB40F" size="16">      </font>  </div>    
+  [ 61] XuiSoundXACT
+  [ 62] XuiSoundXACT1
+  [ 63] sounds\Menu.xsb
+  [ 64] sounds\Menu.xwb
+  [ 65] TransTo
+  [ 66] EndTransTo
+  [ 67] TransFrom
+  [ 68] EndTransFrom
+  [ 69] TransBackTo
+  [ 70] EndTransBackTo
+  [ 71] TransBackFrom
+  [ 72] EndTransBackFrom
+  [ 73] TransTo1
+  [ 74] EndTransTo1
+  [ 75] TransFrom1
+  [ 76] EndTransFrom1
+  [ 77] TransBackTo1
+  [ 78] EndTransBackTo1
+  [ 79] TransBackFrom1
+  [ 80] EndTransBackFrom1
+  [ 81] menu_select_basic
+  [ 82] menu_back

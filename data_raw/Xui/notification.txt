@@ -1,0 +1,44 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 36
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x59e (1438 bytes)
+  [1] VECT | Offset: 0x5d6 | Size: 0xa8 (168 bytes)
+  [2] DATA | Offset: 0x67e | Size: 0x2ed (749 bytes)
+
+--- String Table (36 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] NotificationMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiImage
+  [  6] XuiImage1
+  [  7] images\black.dds
+  [  8] XuiGroup
+  [  9] NotificationGroup
+  [ 10] BGImage
+  [ 11] images\leaderboard_list_bg.dds
+  [ 12] NotificationImage
+  [ 13] images\unlock_ballx.dds
+  [ 14] XuiHtmlElement
+  [ 15] NotificationText
+  [ 16] <div align="center">    <font color="#D8C69A" size="19">    </font>    </div>
+  [ 17] ButtonInfoGroup
+  [ 18] XuiHtmlElement1
+  [ 19] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 20] XuiSoundXACT
+  [ 21] XuiSoundXACT1
+  [ 22] AchievementUnlock
+  [ 23] sounds\Menu.xsb
+  [ 24] sounds\Menu.xwb
+  [ 25] TransTo
+  [ 26] EndTransTo
+  [ 27] TransFrom
+  [ 28] EndTransFrom
+  [ 29] TransBackFrom
+  [ 30] EndTransBackFrom
+  [ 31] TransBackTo
+  [ 32] EndTransBackTo
+  [ 33] menu_select_basic
+  [ 34] menu_back
+  [ 35] Notification

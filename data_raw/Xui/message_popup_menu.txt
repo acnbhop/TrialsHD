@@ -1,0 +1,59 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 51
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x802 (2050 bytes)
+  [1] VECT | Offset: 0x83a | Size: 0x12c (300 bytes)
+  [2] DATA | Offset: 0x966 | Size: 0x50f (1295 bytes)
+
+--- String Table (51 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] MessagePopupMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiImage
+  [  6] XuiImage1
+  [  7] images\black.dds
+  [  8] XuiBackButton
+  [  9] BackButton
+  [ 10] Trials-B-Button
+  [ 11] No
+  [ 12] XuiGroup
+  [ 13] BG_Graphics
+  [ 14] Image3
+  [ 15] images\the_background_1_4.dds
+  [ 16] Image2
+  [ 17] images\the_background_1_3.dds
+  [ 18] Image1
+  [ 19] images\the_background_1_2.dds
+  [ 20] Image
+  [ 21] images\the_background_1_1.dds
+  [ 22] ErrorGroup
+  [ 23] MenuButtonsImageShadow
+  [ 24] images\menu_button_bg_1_shadow.dds
+  [ 25] ListImage
+  [ 26] images\leaderboard_list_bg.dds
+  [ 27] ListImage1
+  [ 28] images\menu_title_bg_1.dds
+  [ 29] XuiText
+  [ 30] MessageText
+  [ 31] MessageTitleText
+  [ 32] ButtonInfoGroup
+  [ 33] XuiHtmlElement
+  [ 34] ButtonsText
+  [ 35] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 36] XuiSoundXACT
+  [ 37] XuiSoundXACT1
+  [ 38] AchievementUnlock
+  [ 39] sounds\Menu.xsb
+  [ 40] sounds\Menu.xwb
+  [ 41] TransTo
+  [ 42] EndTransTo
+  [ 43] TransFrom
+  [ 44] EndTransFrom
+  [ 45] TransBackTo
+  [ 46] EndTransBackTo
+  [ 47] TransBackFrom
+  [ 48] EndTransBackFrom
+  [ 49] menu_select_basic
+  [ 50] menu_back

@@ -1,0 +1,68 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 60
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x90a (2314 bytes)
+  [1] VECT | Offset: 0x942 | Size: 0x144 (324 bytes)
+  [2] DATA | Offset: 0xa86 | Size: 0x577 (1399 bytes)
+
+--- String Table (60 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] MessagePopupScrollMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiImage
+  [  6] XuiImage1
+  [  7] images\black.dds
+  [  8] XuiBackButton
+  [  9] BackButton
+  [ 10] Trials-B-Button
+  [ 11] No
+  [ 12] XuiGroup
+  [ 13] BG_Graphics
+  [ 14] Image3
+  [ 15] images\the_background_1_4.dds
+  [ 16] Image2
+  [ 17] images\the_background_1_3.dds
+  [ 18] Image1
+  [ 19] images\the_background_1_2.dds
+  [ 20] Image
+  [ 21] images\the_background_1_1.dds
+  [ 22] MessageGroup
+  [ 23] MenuButtonsImageShadow
+  [ 24] images\menu_button_bg_1_shadow.dds
+  [ 25] ListImage
+  [ 26] images\leaderboard_list_bg.dds
+  [ 27] ListImage1
+  [ 28] images\menu_title_bg_1.dds
+  [ 29] XuiText
+  [ 30] MessageTitleText
+  [ 31] Tournament locked
+  [ 32] MessageText
+  [ 33] To unlock a tournament you must first pass each tournament track in a single ...
+  [ 34] XuiList
+  [ 35] TrackList
+  [ 36] ChallengeLockedTrackList
+  [ 37] Trials-List-Popup
+  [ 38] XuiListItem
+  [ 39] XuiListItem1
+  [ 40] Trials-ListItem-Popup
+  [ 41] ButtonInfoGroup
+  [ 42] XuiHtmlElement
+  [ 43] ButtonsText
+  [ 44] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 45] XuiSoundXACT
+  [ 46] XuiSoundXACT1
+  [ 47] AchievementUnlock
+  [ 48] sounds\Menu.xsb
+  [ 49] sounds\Menu.xwb
+  [ 50] TransTo
+  [ 51] EndTransTo
+  [ 52] TransFrom
+  [ 53] EndTransFrom
+  [ 54] TransBackTo
+  [ 55] EndTransBackTo
+  [ 56] TransBackFrom
+  [ 57] EndTransBackFrom
+  [ 58] menu_select_basic
+  [ 59] menu_back

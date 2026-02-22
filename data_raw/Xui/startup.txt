@@ -1,0 +1,38 @@
+[+] XUR v5 | Flags: 0 | Sections: 5 | Strings: 28
+
+--- Sections ---
+  [0] STRN | Offset: 0x50 | Size: 0x372 (882 bytes)
+  [1] VECT | Offset: 0x3c2 | Size: 0x48 (72 bytes)
+  [2] QUAT | Offset: 0x40a | Size: 0x30 (48 bytes)
+  [3] CUST | Offset: 0x43a | Size: 0x70 (112 bytes)
+  [4] DATA | Offset: 0x4aa | Size: 0x35a (858 bytes)
+
+--- String Table (28 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] StartupScreen
+  [  4] TrialsSceneBlankStartup
+  [  5] XuiFigure
+  [  6] BG_color
+  [  7] XuiImage
+  [  8] Live Arcade Logo
+  [  9] images\xboxlivelogo.png
+  [ 10] Company_logo
+  [ 11] images\company_logo.png
+  [ 12] Game_logo
+  [ 13] images\loading_logo.png
+  [ 14] XuiText
+  [ 15] ESRBNoticeText
+  [ 16] Online interactions not rated by the ESRB
+  [ 17] Loading_indicator
+  [ 18] images\loading_indicator.png
+  [ 19] XuiSoundXACT
+  [ 20] XuiSoundXACT1
+  [ 21] sounds\Menu.xsb
+  [ 22] sounds\Menu.xwb
+  [ 23] Normal
+  [ 24] NormalLoop
+  [ 25] EndNormal
+  [ 26] IntroLogoRedLynx
+  [ 27] IntroLogoTrialsHD

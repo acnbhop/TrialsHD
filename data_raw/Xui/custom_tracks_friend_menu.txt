@@ -1,0 +1,87 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 79
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0xe1c (3612 bytes)
+  [1] VECT | Offset: 0xe54 | Size: 0x15c (348 bytes)
+  [2] DATA | Offset: 0xfb0 | Size: 0xcb1 (3249 bytes)
+
+--- String Table (79 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] FriendCustomTracksMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Trials-SettingsSlider
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoNoTracksGroup
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] ButtonInfoGroup
+  [ 23] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 24] ListGroup
+  [ 25] ListImage
+  [ 26] images\leaderboard_list_bg.dds
+  [ 27] ListImage1
+  [ 28] images\menu_title_bg_1.dds
+  [ 29] XuiList
+  [ 30] PlayTrackList
+  [ 31] CustomTrackFriendsList
+  [ 32] Trials-List-CustomTracks-FriendTracks
+  [ 33] XuiListItem
+  [ 34] control_ListItem
+  [ 35] Trials-ListItem-CustomTracks-FriendTracks
+  [ 36] XuiText
+  [ 37] XuiText3
+  [ 38] TRACK NAME
+  [ 39] XuiText4
+  [ 40] STYLE
+  [ 41] XuiText5
+  [ 42] DIFFICULTY
+  [ 43] XuiText6
+  [ 44] CREATED
+  [ 45] XuiText7
+  [ 46] SELECTED
+  [ 47] Placard Condensed
+  [ 48] TitleText
+  [ 49] FRIENDS CUSTOM TRACKS
+  [ 50] InfoText
+  [ 51] NotificationGroup
+  [ 52] NotificationHeader
+  [ 53] <div align="center">  <font color="#EBB40F" size="28">  Your friend has no cu...
+  [ 54] NotificationMessage
+  [ 55] <div align="center">  <font color="#EBB40F" size="16">    </font>
+  [ 56] StorageInfo
+  [ 57] XuiSoundXACT
+  [ 58] XuiSoundXACT1
+  [ 59] sounds\Menu.xsb
+  [ 60] sounds\Menu.xwb
+  [ 61] TransTo
+  [ 62] EndTransTo
+  [ 63] TransFrom
+  [ 64] EndTransFrom
+  [ 65] TransBackTo
+  [ 66] EndTransBackTo
+  [ 67] TransBackFrom
+  [ 68] EndTransBackFrom
+  [ 69] TransTo1
+  [ 70] EndTransTo1
+  [ 71] TransFrom1
+  [ 72] EndTransFrom1
+  [ 73] TransBackTo1
+  [ 74] EndTransBackTo1
+  [ 75] TransBackFrom1
+  [ 76] EndTransBackFrom1
+  [ 77] menu_select_basic
+  [ 78] menu_back

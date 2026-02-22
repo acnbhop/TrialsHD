@@ -1,0 +1,63 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 55
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x40f6 (16630 bytes)
+  [1] VECT | Offset: 0x412e | Size: 0xe4 (228 bytes)
+  [2] DATA | Offset: 0x4212 | Size: 0x60e (1550 bytes)
+
+--- String Table (55 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] CreditsMenuMenu
+  [  3] TrialsSceneBlank
+  [  4] HelpCreditsGroup\XuiHtmlControl1
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] ButtonInfoGroup
+  [ 20] XuiHtmlElement
+  [ 21] XuiHtmlElement1
+  [ 22] <div align="right">  <font color="#D7CAAD" size="27">    <img src="images/men...
+  [ 23] XuiText
+  [ 24] InfoText
+  [ 25]   
+  [ 26] TitleText
+  [ 27] Credits
+  [ 28] HelpCreditsGroup
+  [ 29] BGImage
+  [ 30] images\leaderboard_list_bg.dds
+  [ 31] CreditsScrollGroup
+  [ 32] XuiHtmlControl
+  [ 33] XuiHtmlControl2
+  [ 34] TrialsTextbox-ScrollV-Credits
+  [ 35] <DIV ALIGN=CENTER><font color="#D7CAAD" size="30">End of the credits.<br><br>...
+  [ 36] XuiHtmlControl1
+  [ 37] <DIV ALIGN=CENTER><img src="images/title_logo.dds" align="middle" /> <font co...
+  [ 38] InitStop
+  [ 39] CreditsStart
+  [ 40] CreditsEnd
+  [ 41] XuiSoundXACT
+  [ 42] XuiSoundXACT1
+  [ 43] sounds\Menu.xsb
+  [ 44] sounds\Menu.xwb
+  [ 45] TransTo
+  [ 46] EndTransTo
+  [ 47] TransFrom
+  [ 48] EndTransFrom
+  [ 49] TransBackTo
+  [ 50] EndTransBackTo
+  [ 51] TransBackFrom
+  [ 52] EndTransBackFrom
+  [ 53] CREDITS
+  [ 54] menu_back

@@ -1,0 +1,84 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 76
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x9b4 (2484 bytes)
+  [1] VECT | Offset: 0x9ec | Size: 0x138 (312 bytes)
+  [2] DATA | Offset: 0xb24 | Size: 0x11af (4527 bytes)
+
+--- String Table (76 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] PauseMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Trials-B-Button
+  [  8] Back
+  [  9] XuiGroup
+  [ 10] BG_Graphics
+  [ 11] XuiImage
+  [ 12] Image3
+  [ 13] images\the_background_1_4.dds
+  [ 14] Image2
+  [ 15] images\the_background_1_3.dds
+  [ 16] Image1
+  [ 17] images\the_background_1_2.dds
+  [ 18] Image
+  [ 19] images\the_background_1_1.dds
+  [ 20] ButtonInfoGroup
+  [ 21] XuiHtmlElement
+  [ 22] XuiHtmlElement1
+  [ 23] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 24] MenuButtonsImage
+  [ 25] images\menu_button_bg_1.dds
+  [ 26] XuiNavButton
+  [ 27] ResumeButton
+  [ 28] Trials-Button
+  [ 29] ExitGameButton
+  [ 30] UnlockButton
+  [ 31] RESUME GAME
+  [ 32] HelpButton
+  [ 33] UNLOCK FULL GAME
+  [ 34] LeaderboardButton
+  [ 35] HELP & OPTIONS
+  [ 36] AchievementsButton
+  [ 37] LEADERBOARDS
+  [ 38] ACHIEVEMENTS
+  [ 39] EXIT GAME
+  [ 40] XuiText
+  [ 41] InfoText
+  [ 42] TitleText
+  [ 43] PAUSE
+  [ 44] TransTo
+  [ 45] EndTransTo
+  [ 46] TransFrom
+  [ 47] EndTransFrom
+  [ 48] TransBackTo
+  [ 49] EndTransBackTo
+  [ 50] TransBackFrom
+  [ 51] EndTransBackFrom
+  [ 52] TransTo1
+  [ 53] EndTransTo1
+  [ 54] TransFrom1
+  [ 55] EndTransFrom1
+  [ 56] TransBackTo1
+  [ 57] EndTransBackTo1
+  [ 58] TransBackFrom1
+  [ 59] EndTransBackFrom1
+  [ 60] TransTo2
+  [ 61] EndTransTo2
+  [ 62] TransFrom2
+  [ 63] EndTransFrom2
+  [ 64] TransBackTo2
+  [ 65] EndTransBackTo2
+  [ 66] TransBackFrom2
+  [ 67] EndTransBackFrom2
+  [ 68] TransTo3
+  [ 69] EndTransTo3
+  [ 70] TransFrom3
+  [ 71] EndTransFrom3
+  [ 72] TransBackTo3
+  [ 73] EndTransBackTo3
+  [ 74] TransBackFrom3
+  [ 75] EndTransBackFrom3

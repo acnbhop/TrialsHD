@@ -1,0 +1,77 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 69
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x904 (2308 bytes)
+  [1] VECT | Offset: 0x93c | Size: 0x168 (360 bytes)
+  [2] DATA | Offset: 0xaa4 | Size: 0x656 (1622 bytes)
+
+--- String Table (69 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] MainMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiGroup
+  [  6] BG_Graphics
+  [  7] XuiImage
+  [  8] Image3
+  [  9] images\the_background_1_4.dds
+  [ 10] Image2
+  [ 11] images\the_background_1_3.dds
+  [ 12] Image1
+  [ 13] images\the_background_1_2.dds
+  [ 14] Image
+  [ 15] images\the_background_1_1.dds
+  [ 16] XuiText
+  [ 17] InfoText
+  [ 18] MainMenuGraphics
+  [ 19] XuiImage2
+  [ 20] images\background_grunge.dds
+  [ 21] XuiImage1
+  [ 22] images\title_bg_image.dds
+  [ 23] LogoImage
+  [ 24] images\title_logo.dds
+  [ 25] MainMenuButtonGroup
+  [ 26] MenuButtonsImage1
+  [ 27] images\menu_button_bg_2.dds
+  [ 28] MenuButtonsImage
+  [ 29] XuiNavButton
+  [ 30] PlayGameButton
+  [ 31] Trials-Button
+  [ 32] ReturnButton
+  [ 33] SkillGamesButton
+  [ 34] PLAY GAME
+  [ 35] UserContentButton
+  [ 36] SKILL GAMES
+  [ 37] LeaderboardButton
+  [ 38] USER CONTENT
+  [ 39] GearButton
+  [ 40] LEADERBOARDS
+  [ 41] AchievementsButton
+  [ 42] GARAGE
+  [ 43] HelpButton
+  [ 44] ACHIEVEMENTS
+  [ 45] UnlockDownloadButton
+  [ 46] HELP & OPTIONS
+  [ 47] UNLOCK FULL GAME
+  [ 48] RETURN TO GAME LIBRARY
+  [ 49] ButtonInfoGroup
+  [ 50] XuiHtmlElement
+  [ 51] XuiHtmlElement1
+  [ 52] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 53] TransTo
+  [ 54] EndTransTo
+  [ 55] TransFrom
+  [ 56] EndTransFrom
+  [ 57] TransBackTo
+  [ 58] EndTransBackTo
+  [ 59] TransBackFrom
+  [ 60] EndTransBackFrom
+  [ 61] TransTo1
+  [ 62] EndTransTo1
+  [ 63] TransFrom1
+  [ 64] EndTransFrom1
+  [ 65] TransBackTo1
+  [ 66] EndTransBackTo1
+  [ 67] TransBackFrom1
+  [ 68] EndTransBackFrom1

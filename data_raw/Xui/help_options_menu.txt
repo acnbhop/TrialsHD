@@ -1,0 +1,65 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 57
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x808 (2056 bytes)
+  [1] VECT | Offset: 0x840 | Size: 0xf0 (240 bytes)
+  [2] DATA | Offset: 0x930 | Size: 0x5b1 (1457 bytes)
+
+--- String Table (57 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] HelpOptionsMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] ButtonInfoGroup
+  [ 20] XuiHtmlElement
+  [ 21] XuiHtmlElement1
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] XuiText
+  [ 24] TitleText
+  [ 25] HELP & OPTIONS
+  [ 26] HelpMenuButtonsGroup
+  [ 27] MenuButtonsImage
+  [ 28] images\menu_button_bg_1.dds
+  [ 29] XuiNavButton
+  [ 30] HowToPlayButton
+  [ 31] Trials-Button
+  [ 32] CreditsButton
+  [ 33] ControlsButton
+  [ 34] HOW TO PLAY
+  [ 35] images\big_ach_000.dds
+  [ 36] SettingsButton
+  [ 37] CONTROLS
+  [ 38] images\big_ach_008.dds
+  [ 39] SETTINGS
+  [ 40] images\big_ach_001.dds
+  [ 41] CREDITS
+  [ 42] images\big_ach_009.dds
+  [ 43] InfoText
+  [ 44] XuiSoundXACT
+  [ 45] XuiSoundXACT1
+  [ 46] sounds\Menu.xsb
+  [ 47] sounds\Menu.xwb
+  [ 48] TransTo
+  [ 49] EndTransTo
+  [ 50] TransFrom
+  [ 51] EndTransFrom
+  [ 52] TransBackTo
+  [ 53] EndTransBackTo
+  [ 54] TransBackFrom
+  [ 55] EndTransBackFrom
+  [ 56] menu_back

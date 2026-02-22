@@ -1,0 +1,75 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 67
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x9d0 (2512 bytes)
+  [1] VECT | Offset: 0xa08 | Size: 0x144 (324 bytes)
+  [2] DATA | Offset: 0xb4c | Size: 0x850 (2128 bytes)
+
+--- String Table (67 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] LeaderBoardChallengesMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Back
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] ButtonInfoGroup
+  [ 19] XuiHtmlElement
+  [ 20] XuiHtmlElement1
+  [ 21] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 22] LeaderboardChallengesGroup
+  [ 23] ListImage
+  [ 24] images\leaderboard_list_bg.dds
+  [ 25] ListImage1
+  [ 26] images\menu_title_bg_1.dds
+  [ 27] XuiList
+  [ 28] ChallengeList
+  [ 29] LeaderBoardChallengesList
+  [ 30] Trials-List-Lboard-Challenge
+  [ 31] XuiListItem
+  [ 32] XuiListItem1
+  [ 33] Trials-ListItem-Lboard-Challenge
+  [ 34] XuiText
+  [ 35] DifficultyText
+  [ 36] DIFFICULTY
+  [ 37] PlayerNameText
+  [ 38] YOUR MEDAL
+  [ 39] PositionText
+  [ 40] TOURNAMENT NAME
+  [ 41] LoadingGroup
+  [ 42] LoadingBG
+  [ 43] images\menu_filter_bg_1.dds
+  [ 44] LoadingText
+  [ 45] LOADING....
+  [ 46] NotificationGroup
+  [ 47] NotificationBG
+  [ 48] images\leaderboard_notification_bg.dds
+  [ 49] NotificationText
+  [ 50] InfoText
+  [ 51] TitleText
+  [ 52] TOURNAMENTS
+  [ 53] XuiSoundXACT
+  [ 54] XuiSoundXACT1
+  [ 55] sounds\Menu.xsb
+  [ 56] sounds\Menu.xwb
+  [ 57] TransTo
+  [ 58] EndTransTo
+  [ 59] TransFrom
+  [ 60] EndTransFrom
+  [ 61] TransBackTo
+  [ 62] EndTransBackTo
+  [ 63] TransBackFrom
+  [ 64] EndTransBackFrom
+  [ 65] menu_select_basic
+  [ 66] menu_back

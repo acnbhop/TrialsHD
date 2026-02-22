@@ -1,0 +1,100 @@
+[+] XUR v5 | Flags: 1 | Sections: 3 | Strings: 80
+
+--- Extra Table ---
+  [0] 0x0000007d (125)
+  [1] 0x00000361 (865)
+  [2] 0x0000007d (125)
+  [3] 0x000000da (218)
+  [4] 0x0000000e (14)
+  [5] 0x0000000e (14)
+  [6] 0x00000081 (129)
+  [7] 0x00000009 (9)
+  [8] 0x0000001c (28)
+  [9] 0x0000000e (14)
+
+--- Sections ---
+  [0] STRN | Offset: 0x60 | Size: 0xb54 (2900 bytes)
+  [1] VECT | Offset: 0xbb4 | Size: 0xe4 (228 bytes)
+  [2] DATA | Offset: 0xc98 | Size: 0x1a5b (6747 bytes)
+
+--- String Table (80 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] GearMenu
+  [  4] TrialsSceneBlank
+  [  5] XuiGroup
+  [  6] ButtonInfoGroup
+  [  7] XuiNineGrid
+  [  8] XuiNineGrid1
+  [  9] images\textbg.dds
+  [ 10] XuiHtmlElement
+  [ 11] XuiHtmlElement1
+  [ 12] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 13] GearColorGroup
+  [ 14] XuiList
+  [ 15] GearColorList
+  [ 16] Trials-List-Gear-Color
+  [ 17] XuiListItem
+  [ 18] XuiListItem2
+  [ 19] Trials-ListItem-Gearlist-Color
+  [ 20] GearItemGroup
+  [ 21] GearItemList
+  [ 22] Trials-List-Gear
+  [ 23] XuiListItem1
+  [ 24] Trials-ListItem-Gearlist
+  [ 25] GearCategoryGroup
+  [ 26] GearCategoryList
+  [ 27] GearSelectBikeGroup
+  [ 28] GearSelectBikeList
+  [ 29] GearTypeGroup
+  [ 30] GearTypeList
+  [ 31] BikeInfoGroup
+  [ 32] XuiImage
+  [ 33] BGImage
+  [ 34] images\menu_button_bg_1.dds
+  [ 35] XuiText
+  [ 36] BrakesText
+  [ 37] Brakes:
+  [ 38] XuiProgressBar
+  [ 39] AccelerationProgressBar
+  [ 40] Trials-ProgressBar2
+  [ 41] Acceleration
+  [ 42] TopSpeedProgressBar
+  [ 43] Top Speed
+  [ 44] HandlingProgressBar
+  [ 45] Responsiveness
+  [ 46] BikeDifficultyText
+  [ 47] BikeNameText
+  [ 48] Placard Condensed
+  [ 49] InfoText
+  [ 50] TitleText
+  [ 51] GARAGE
+  [ 52] TransTo
+  [ 53] EndTransTo
+  [ 54] TransFrom
+  [ 55] EndTransFrom
+  [ 56] TransBackTo
+  [ 57] EndTransBackTo
+  [ 58] TransBackFrom
+  [ 59] EndTransBackFrom
+  [ 60] TypeToBikeSelectStart
+  [ 61] TypeToBikeSelectEnd
+  [ 62] BikeSelectToTypeStart
+  [ 63] BikeSelectToTypeEnd
+  [ 64] TypeToCategoryStart
+  [ 65] TypeToCategoryEnd
+  [ 66] CategoryToTypeStart
+  [ 67] CategoryToTypeEnd
+  [ 68] CategoryToItemStart
+  [ 69] CategoryToItemEnd
+  [ 70] ItemToCategoryStart
+  [ 71] ItemToCategoryEnd
+  [ 72] ItemToColorStart
+  [ 73] ItemToColorEnd
+  [ 74] ColorToItemStart
+  [ 75] ColorToItemEnd
+  [ 76] CategoryToColorStart
+  [ 77] CategoryToColorEnd
+  [ 78] ColorToCategoryStart
+  [ 79] ColorToCategoryEnd

@@ -1,0 +1,54 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 46
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x1a78 (6776 bytes)
+  [1] VECT | Offset: 0x1ab0 | Size: 0xa8 (168 bytes)
+  [2] DATA | Offset: 0x1b58 | Size: 0x515 (1301 bytes)
+
+--- String Table (46 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] HowToPlayMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Back
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] BGImage
+  [ 19] images\leaderboard_list_bg.dds
+  [ 20] XuiHtmlControl
+  [ 21] HowToText
+  [ 22] TrialsTextbox-ScrollV
+  [ 23] <div align="center">    <font color="#EBB40F" size="25">  Trials Race  </font...
+  [ 24] ButtonInfoGroup
+  [ 25] XuiHtmlElement
+  [ 26] XuiHtmlElement1
+  [ 27] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 28] XuiText
+  [ 29] InfoText
+  [ 30]   
+  [ 31] TitleText
+  [ 32] HOW TO PLAY
+  [ 33] XuiSoundXACT
+  [ 34] XuiSoundXACT1
+  [ 35] sounds\Menu.xsb
+  [ 36] sounds\Menu.xwb
+  [ 37] TransTo
+  [ 38] EndTransTo
+  [ 39] TransFrom
+  [ 40] EndTransFrom
+  [ 41] TransBackTo
+  [ 42] EndTransBackTo
+  [ 43] TransBackFrom
+  [ 44] EndTransBackFrom
+  [ 45] menu_back

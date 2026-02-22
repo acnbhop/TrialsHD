@@ -1,0 +1,99 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 91
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x1d30 (7472 bytes)
+  [1] VECT | Offset: 0x1d68 | Size: 0x27c (636 bytes)
+  [2] DATA | Offset: 0x1fe4 | Size: 0xf1b (3867 bytes)
+
+--- String Table (91 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] SellingScreenInGame
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] CustomTrackGroup
+  [ 20] BGImage1
+  [ 21] images\menu_button_bg_2.dds
+  [ 22] XuiImage1
+  [ 23] images\background_grunge.dds
+  [ 24] XuiVideo
+  [ 25] SellingVideo
+  [ 26] Videos\sellingvideo-all.wmv
+  [ 27] BGImage2
+  [ 28] images\menu_button_bg_2_selling.dds
+  [ 29] XuiImage3
+  [ 30] images\title_bg_image.dds
+  [ 31] XuiImage2
+  [ 32] images\title_logo.dds
+  [ 33] XuiText
+  [ 34] XuiText2
+  [ 35] SellingTitleText
+  [ 36] Unlock full game to access custom tracks
+  [ 37] XuiHtmlElement
+  [ 38] SellingHTMLText
+  [ 39] <table>  <tr height="270" align="left" valign="middle">  <td>  <font color="#...
+  [ 40] LockedTrackGroup
+  [ 41] SellingText
+  [ 42] TO PLAY THE TRACK UNLOCK FULL GAME
+  [ 43] <table>  <tr height="280" align="left" valign="middle">  <td>  <font color="#...
+  [ 44] DemoFinishedGroup
+  [ 45] To play more unlock full game!
+  [ 46] <table>  <tr height="1" align="left" valign="middle">  <td>  <font color="#EB...
+  [ 47] TrackResultGroup
+  [ 48] images\black.dds
+  [ 49] ResultText
+  [ 50] <div align="center">    <font color="#EBB40F" size="28">  Your result was  </...
+  [ 51] Unlock full game to save your score!
+  [ 52] XuiHtmlElement1
+  [ 53] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 54] AchievementGroup
+  [ 55] AchievementDescription
+  [ 56] ksjd skldjlksldks lsd lfks dfls dljksd flkjsdlfks l sldkfjsd sl   lskjdlksd s...
+  [ 57] Unlock full game to get your achievement!
+  [ 58] BGImage
+  [ 59] images\leaderboard_list_bg.dds
+  [ 60] AchievementImage
+  [ 61] AchievementName
+  [ 62] GamerScoreText
+  [ 63] <div align="center">  <font color="#D7CAAD" size="25">          </font>  </di...
+  [ 64] <table>  <tr height="270" align="left" valign="middle">  <td>  <font color="#...
+  [ 65] EditorSaveGroup
+  [ 66] Videos\sellingvideo-editor.wmv
+  [ 67]         
+  [ 68] XuiText1
+  [ 69] To save your track unlock full game!
+  [ 70] <table>  <tr height="250" align="left" valign="middle">  <td>  <font color="#...
+  [ 71] ButtonInfoGroup
+  [ 72] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 73] InfoText
+  [ 74]   
+  [ 75] TitleText
+  [ 76] UNLOCK FULL GAME
+  [ 77] XuiSoundXACT
+  [ 78] XuiSoundXACT1
+  [ 79] sounds\Menu.xsb
+  [ 80] sounds\Menu.xwb
+  [ 81] TransTo
+  [ 82] EndTransTo
+  [ 83] TransFrom
+  [ 84] EndTransFrom
+  [ 85] TransBackTo
+  [ 86] EndTransBackTo
+  [ 87] TransBackFrom
+  [ 88] EndTransBackFrom
+  [ 89] menu_select_basic
+  [ 90] menu_back

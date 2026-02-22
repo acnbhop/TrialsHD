@@ -1,0 +1,148 @@
+[+] XUR v5 | Flags: 1 | Sections: 4 | Strings: 127
+
+--- Extra Table ---
+  [0] 0x000000a8 (168)
+  [1] 0x0000043f (1087)
+  [2] 0x000000a8 (168)
+  [3] 0x0000010b (267)
+  [4] 0x00000022 (34)
+  [5] 0x00000022 (34)
+  [6] 0x000000c6 (198)
+  [7] 0x00000018 (24)
+  [8] 0x00000025 (37)
+  [9] 0x00000029 (41)
+
+--- Sections ---
+  [0] STRN | Offset: 0x6c | Size: 0x15b8 (5560 bytes)
+  [1] VECT | Offset: 0x1624 | Size: 0x3cc (972 bytes)
+  [2] QUAT | Offset: 0x19f0 | Size: 0x20 (32 bytes)
+  [3] DATA | Offset: 0x1a10 | Size: 0x23b2 (9138 bytes)
+
+--- String Table (127 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] PlayGameTrackMenu
+  [  4] TrialsSceneBlank
+  [  5] HiddenButton
+  [  6] XuiButton
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] LeaderboardGroup
+  [ 19] List_BG
+  [ 20] images\tournament_bg_medium.dds
+  [ 21] XuiList
+  [ 22] ResultList
+  [ 23] TrackFriendScoreListTrackSelect
+  [ 24] Trials-ResultStats
+  [ 25] XuiListItem
+  [ 26] XuiListItem1
+  [ 27] Trials-ListItem-ResultStats
+  [ 28] XuiHtmlElement
+  [ 29] NotificationText
+  [ 30] <div align="center">  <font color="#EBB40F" size="18">        </font>  </div>
+  [ 31] images\tournament_bg_big.dds
+  [ 32] XuiImage1
+  [ 33] images\black.dds
+  [ 34] XuiControl
+  [ 35] TrackImage
+  [ 36] TrackPreview
+  [ 37] Trials-TrackPreview
+  [ 38]   
+  [ 39] ImageEdges
+  [ 40] images\menu_trackimage_edges.dds
+  [ 41] PreviewGroup
+  [ 42] MedalsGroup
+  [ 43] NextMedalText2
+  [ 44] <div align="center">    <font color="#EBB40F" size="18">    </font>    <font ...
+  [ 45] NextMedalText1
+  [ 46] <div align="center">    <font color="#EBB40F" size="22">    </font>          ...
+  [ 47] MedalsGroup4
+  [ 48] Medal4_OFF
+  [ 49] images\medal_128_4.dds
+  [ 50] Medal3_OFF
+  [ 51] images\medal_128_3.dds
+  [ 52] Medal2_OFF
+  [ 53] images\medal_128_2.dds
+  [ 54] Medal1_OFF
+  [ 55] images\medal_128_1.dds
+  [ 56] MedalBG3
+  [ 57] images\medal_background_splat.dds
+  [ 58] MedalBG2
+  [ 59] MedalBG1
+  [ 60] MedalBG
+  [ 61] Medal4_ON
+  [ 62] Medal3_ON
+  [ 63] Medal2_ON
+  [ 64] Medal1_ON
+  [ 65] MedalsGroup3
+  [ 66] CardListGroup
+  [ 67] Card7
+  [ 68] CardBG
+  [ 69] images\tournament_bg_small_2.dds
+  [ 70] MedalImage
+  [ 71] XuiText
+  [ 72] NameText
+  [ 73] PlayedThroughGroup
+  [ 74] images\track_played_sign.dds
+  [ 75] LockedGroup
+  [ 76] XuiText1
+  [ 77] Locked
+  [ 78] FullOnlyGroup
+  [ 79] Unlock Full Game
+  [ 80] DLCImage
+  [ 81] images\dlc_indicator.dds
+  [ 82] Card6
+  [ 83] Card5
+  [ 84] EndNormal
+  [ 85] MoveUp
+  [ 86] EndMoveUp
+  [ 87] MoveDown
+  [ 88] EndMoveDown
+  [ 89] Card4
+  [ 90] Card3
+  [ 91] Card2
+  [ 92] Card1
+  [ 93] HighlightGroup
+  [ 94] images\card_track_2_hilight.dds
+  [ 95] XuiSoundXACT
+  [ 96] XuiSoundXACT1
+  [ 97] sounds\Menu.xsb
+  [ 98] sounds\Menu.xwb
+  [ 99] VeryEnd
+  [100] menu_browse_tracks
+  [101] TutorialButtonInfoGroup
+  [102] XuiHtmlElement1
+  [103] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [104] NoGhostButtonInfoGroup
+  [105] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [106] Title
+  [107] <div align="center">  <font color="#D7CAAD" size="50">    PLAY RACE - BEGINNE...
+  [108] InfoText
+  [109] TransTo
+  [110] EndTransTo
+  [111] TransFrom
+  [112] EndTransFrom
+  [113] TransBackTo
+  [114] EndTransBackTo
+  [115] TransBackFrom
+  [116] EndTransBackFrom
+  [117] TransTo1
+  [118] EndTransTo1
+  [119] TransFrom1
+  [120] EndTransFrom1
+  [121] TransBackTo1
+  [122] EndTransBackTo1
+  [123] TransBackFrom1
+  [124] EndTransBackFrom1
+  [125] menu_select_track
+  [126] menu_back

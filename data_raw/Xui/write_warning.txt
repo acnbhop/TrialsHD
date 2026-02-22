@@ -1,0 +1,28 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 20
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x24e (590 bytes)
+  [1] VECT | Offset: 0x286 | Size: 0x54 (84 bytes)
+  [2] DATA | Offset: 0x2da | Size: 0x18e (398 bytes)
+
+--- String Table (20 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] TrialsSceneBlank
+  [  4] XuiGroup
+  [  5] WarningGroup
+  [  6] XuiImage
+  [  7] List_BG
+  [  8] images\tournament_bg_medium.dds
+  [  9] XuiText
+  [ 10] MessageTitleText
+  [ 11] Saving content.  Please don't turn off your console!
+  [ 12] TransTo
+  [ 13] EndTransTo
+  [ 14] TransFrom
+  [ 15] EndTransFrom
+  [ 16] TransBackTo
+  [ 17] EndTransBackTo
+  [ 18] TransBackFrom
+  [ 19] EndTransBackFrom

@@ -1,0 +1,111 @@
+[+] XUR v5 | Flags: 1 | Sections: 3 | Strings: 91
+
+--- Extra Table ---
+  [0] 0x00000086 (134)
+  [1] 0x00000387 (903)
+  [2] 0x00000086 (134)
+  [3] 0x00000066 (102)
+  [4] 0x0000000b (11)
+  [5] 0x0000000b (11)
+  [6] 0x00000066 (102)
+  [7] 0x0000000b (11)
+  [8] 0x00000010 (16)
+  [9] 0x0000000f (15)
+
+--- Sections ---
+  [0] STRN | Offset: 0x60 | Size: 0x1014 (4116 bytes)
+  [1] VECT | Offset: 0x1074 | Size: 0x1a4 (420 bytes)
+  [2] DATA | Offset: 0x1218 | Size: 0x1918 (6424 bytes)
+
+--- String Table (91 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] LeaderBoardTrackHighscoresMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] Back
+  [  7] XuiGroup
+  [  8] BG_Graphics
+  [  9] XuiImage
+  [ 10] Image3
+  [ 11] images\the_background_1_4.dds
+  [ 12] Image2
+  [ 13] images\the_background_1_3.dds
+  [ 14] Image1
+  [ 15] images\the_background_1_2.dds
+  [ 16] Image
+  [ 17] images\the_background_1_1.dds
+  [ 18] BackgroundGroup
+  [ 19] FilterBGImage
+  [ 20] images\menu_filter_bg_1.dds
+  [ 21] ListImage
+  [ 22] images\leaderboard_list_bg.dds
+  [ 23] ListImage1
+  [ 24] images\menu_title_bg_1.dds
+  [ 25] XuiCommonList
+  [ 26] FilterList
+  [ 27] Trials-List-Filter
+  [ 28] GlobalScoreList
+  [ 29] Friends  My Score  Overall  Session  
+  [ 30] XuiListItem
+  [ 31] control _ListItem
+  [ 32] Trials-ListItem-FilterText
+  [ 33] XuiListItem1
+  [ 34] TrackScores
+  [ 35] XuiList
+  [ 36] TrackScoreList
+  [ 37] LeaderBoardTrackScoreList
+  [ 38] Trials-List-Lboard-SingleTrack
+  [ 39] Trials-ListItem-Lboard-SingleTrack
+  [ 40] XuiText
+  [ 41] TimeText
+  [ 42] TIME
+  [ 43] FaultsText
+  [ 44] FAULTS
+  [ 45] PlayerNameText
+  [ 46] GAMERTAG  
+  [ 47] PositionText
+  [ 48] POSITION
+  [ 49] TrackStatsButtonsGroup
+  [ 50] ButtonInfoGroup
+  [ 51] XuiHtmlElement
+  [ 52] XuiHtmlElement1
+  [ 53] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 54] TrackScoresNoGhostButtonsGroup
+  [ 55] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 56] TrackScoresPauseButtonsGroup
+  [ 57] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 58] LoadingGroup
+  [ 59] LoadingBG
+  [ 60] LoadingText
+  [ 61] LOADING....
+  [ 62] NotificationGroup
+  [ 63] NotificationBG
+  [ 64] images\leaderboard_notification_bg.dds
+  [ 65] NotificationText
+  [ 66] InfoText
+  [ 67] TitleText
+  [ 68] TRACK HIGHSCORES
+  [ 69] XuiSoundXACT
+  [ 70] XuiSoundXACT1
+  [ 71] sounds\Menu.xsb
+  [ 72] sounds\Menu.xwb
+  [ 73] TransTo
+  [ 74] EndTransTo
+  [ 75] TransFrom
+  [ 76] EndTransFrom
+  [ 77] TransBackTo
+  [ 78] EndTransBackTo
+  [ 79] TransBackFrom
+  [ 80] EndTransBackFrom
+  [ 81] TransTo1
+  [ 82] EndTransTo1
+  [ 83] TransBackTo1
+  [ 84] EndTransBackTo1
+  [ 85] TransFrom1
+  [ 86] EndTransFrom1
+  [ 87] TransBackFrom1
+  [ 88] EndTransBackFrom1
+  [ 89] menu_select_basic
+  [ 90] menu_back

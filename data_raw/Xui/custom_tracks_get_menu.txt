@@ -1,0 +1,70 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 62
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0xb0a (2826 bytes)
+  [1] VECT | Offset: 0xb42 | Size: 0x144 (324 bytes)
+  [2] DATA | Offset: 0xc86 | Size: 0x7f1 (2033 bytes)
+
+--- String Table (62 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] CustomTracksGetMenu
+  [  3] TrialsSceneBlank
+  [  4] XuiBackButton
+  [  5] BackButton
+  [  6] XuiGroup
+  [  7] BG_Graphics
+  [  8] XuiImage
+  [  9] Image3
+  [ 10] images\the_background_1_4.dds
+  [ 11] Image2
+  [ 12] images\the_background_1_3.dds
+  [ 13] Image1
+  [ 14] images\the_background_1_2.dds
+  [ 15] Image
+  [ 16] images\the_background_1_1.dds
+  [ 17] ButtonInfoGroup
+  [ 18] XuiHtmlElement
+  [ 19] XuiHtmlElement1
+  [ 20] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 21] ListGroup
+  [ 22] ListImage
+  [ 23] images\leaderboard_list_bg.dds
+  [ 24] ListImage1
+  [ 25] images\menu_title_bg_1.dds
+  [ 26] XuiList
+  [ 27] GetTracksList
+  [ 28] CustomTracksGetList
+  [ 29] Trials-List-CustomTracks-Get
+  [ 30] XuiListItem
+  [ 31] control_ListItem
+  [ 32] Trials-ListItem-CustomTracks-Get
+  [ 33] XuiText
+  [ 34] XuiText3
+  [ 35] GAMERTAG
+  [ 36] XuiText4
+  [ 37] TRACKS SHARED
+  [ 38] LoadingGroup
+  [ 39] <div align="center">  <font color="#EBB40F" size="28">  Loading friends list....
+  [ 40] InfoText
+  [ 41] NotificationGroup
+  [ 42] NotificationTitle
+  [ 43] <div align="center">  <font color="#EBB40F" size="28">    </font>  </div>
+  [ 44] NotificationText
+  [ 45] <div align="center">  <font color="#EBB40F" size="16">    </font>  </div>
+  [ 46] TitleText
+  [ 47] GET TRACKS
+  [ 48] XuiSoundXACT
+  [ 49] XuiSoundXACT1
+  [ 50] sounds\Menu.xsb
+  [ 51] sounds\Menu.xwb
+  [ 52] TransTo
+  [ 53] EndTransTo
+  [ 54] TransFrom
+  [ 55] EndTransFrom
+  [ 56] TransBackTo
+  [ 57] EndTransBackTo
+  [ 58] TransBackFrom
+  [ 59] EndTransBackFrom
+  [ 60] menu_select_basic
+  [ 61] menu_back

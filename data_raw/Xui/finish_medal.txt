@@ -1,0 +1,50 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 42
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0x982 (2434 bytes)
+  [1] VECT | Offset: 0x9ba | Size: 0xc0 (192 bytes)
+  [2] DATA | Offset: 0xa7a | Size: 0x4c9 (1225 bytes)
+
+--- String Table (42 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] FinishMenu
+  [  4] XuiGroup
+  [  5] ButtonInfoChallengeGroup
+  [  6] XuiHtmlElement
+  [  7] XuiHtmlElement1
+  [  8] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [  9] ButtonInfoGroup
+  [ 10] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 11] ButtonInfoReplayGroup
+  [ 12] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 13] MedalGroup
+  [ 14] XuiImage
+  [ 15] BGImage
+  [ 16] images\leaderboard_list_bg.dds
+  [ 17] XuiText
+  [ 18] MedalText
+  [ 19] MedalImage
+  [ 20] images\medal_128_4.dds
+  [ 21] XuiSoundXACT
+  [ 22] BlingSound
+  [ 23] AchievementMedal
+  [ 24] sounds\Menu.xsb
+  [ 25] sounds\Menu.xwb
+  [ 26] TransTo
+  [ 27] EndTransTo
+  [ 28] TransFrom
+  [ 29] EndTransFrom
+  [ 30] TransBackTo
+  [ 31] EndTransBackTo
+  [ 32] TransBackFrom
+  [ 33] EndTransBackFrom
+  [ 34] TransTo1
+  [ 35] EndTransTo1
+  [ 36] TransFrom1
+  [ 37] EndTransFrom1
+  [ 38] TransBackTo1
+  [ 39] EndTransBackTo1
+  [ 40] TransBackFrom1
+  [ 41] EndTransBackFrom1

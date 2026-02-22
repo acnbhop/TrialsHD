@@ -1,0 +1,67 @@
+[+] XUR v5 | Flags: 0 | Sections: 3 | Strings: 59
+
+--- Sections ---
+  [0] STRN | Offset: 0x38 | Size: 0xb90 (2960 bytes)
+  [1] VECT | Offset: 0xbc8 | Size: 0x120 (288 bytes)
+  [2] DATA | Offset: 0xce8 | Size: 0x70b (1803 bytes)
+
+--- String Table (59 entries) ---
+  [  0] XuiCanvas
+  [  1] XuiScene
+  [  2] XuiScene1
+  [  3] SellingScreenOutGame
+  [  4] TrialsSceneBlank
+  [  5] XuiBackButton
+  [  6] BackButton
+  [  7] Back
+  [  8] XuiGroup
+  [  9] BG_Graphics
+  [ 10] XuiImage
+  [ 11] Image3
+  [ 12] images\the_background_1_4.dds
+  [ 13] Image2
+  [ 14] images\the_background_1_3.dds
+  [ 15] Image1
+  [ 16] images\the_background_1_2.dds
+  [ 17] Image
+  [ 18] images\the_background_1_1.dds
+  [ 19] ButtonInfoGroup
+  [ 20] XuiHtmlElement
+  [ 21] XuiHtmlElement1
+  [ 22] <div align="center">  <font color="#D7CAAD" size="27">    <img src="images/me...
+  [ 23] ButtonInfoGroup1
+  [ 24] <div align="left">  <font color="#D7CAAD" size="27">    <img src="images/menu...
+  [ 25] XuiHtmlElement2
+  [ 26] <div align="right">  <font color="#D7CAAD" size="27">    <img src="images/men...
+  [ 27] XuiText
+  [ 28] InfoText
+  [ 29]   
+  [ 30] SellingScreenGroup
+  [ 31] BGImage
+  [ 32] images\menu_button_bg_2.dds
+  [ 33] XuiImage1
+  [ 34] images\background_grunge.dds
+  [ 35] XuiImage3
+  [ 36] images\title_bg_image.dds
+  [ 37] XuiImage2
+  [ 38] images\title_logo.dds
+  [ 39] SellingText
+  [ 40] <div align="left">  <font color="#EBB40F" size="30">    <b>   50+ tracks<br> ...
+  [ 41] XuiVideo
+  [ 42] XuiVideo1
+  [ 43] Videos\sellingvideo-all.wmv
+  [ 44] BGImage2
+  [ 45] images\menu_button_bg_2_selling.dds
+  [ 46] XuiSoundXACT
+  [ 47] XuiSoundXACT1
+  [ 48] sounds\Menu.xsb
+  [ 49] sounds\Menu.xwb
+  [ 50] TransTo
+  [ 51] EndTransFrom
+  [ 52] TransFrom
+  [ 53] TransBackTo
+  [ 54] EndTransBackTo
+  [ 55] TransBackFrom
+  [ 56] EndTransBackFrom
+  [ 57] menu_select_basic
+  [ 58] menu_back
