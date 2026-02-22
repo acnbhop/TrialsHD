@@ -90,7 +90,7 @@ inline uint8 HexCharToByte(char c)
     {
         return c - '0';
     }
-    
+
     if (c >= 'A' && c <= 'F')
     {
         return c - 'A' + 10;
@@ -105,7 +105,7 @@ inline uint8 HexCharToByte(char c)
 }
 
 //
-// Converts a hex string to a byte vector. The input string must have an even length and contain only valid hex 
+// Converts a hex string to a byte vector. The input string must have an even length and contain only valid hex
 // characters.
 //
 inline std::vector<uint8> FromHex(const std::string& hex)
