@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>空氣壓縮機</Value>
+            <Path>AIR_CONDENSER</Path>
+        </E>
+        <E i="1">
+            <Value>空氣壓縮機 (小)</Value>
+            <Path>AIR_CONDENSER_SMALL</Path>
+        </E>
+        <E i="2">
+            <Value>背景 1</Value>
+            <Path>BACKGROUND_SET_1</Path>
+        </E>
+        <E i="3">
+            <Value>背景 2</Value>
+            <Path>BACKGROUND_SET_2</Path>
+        </E>
+        <E i="4">
+            <Value>背景 3</Value>
+            <Path>BACKGROUND_SET_3</Path>
+        </E>
+        <E i="5">
+            <Value>背景 4</Value>
+            <Path>BACKGROUND_SET_4</Path>
+        </E>
+        <E i="6">
+            <Value>油桶</Value>
+            <Path>BARREL</Path>
+        </E>
+        <E i="7">
+            <Value>爆裂物油桶</Value>
+            <Path>BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="8">
+            <Value>無蓋爆裂物油桶</Value>
+            <Path>BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="9">
+            <Value>無蓋油桶</Value>
+            <Path>BARREL_OPEN</Path>
+        </E>
+        <E i="10">
+            <Value>大油桶</Value>
+            <Path>BIG_BARREL</Path>
+        </E>
+        <E i="11">
+            <Value>大木箱</Value>
+            <Path>BIG_BOX</Path>
+        </E>
+        <E i="12">
+            <Value>噴射推進</Value>
+            <Path>BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="13">
+            <Value>聚光燈</Value>
+            <Path>BULB_SPOTLIGHT</Path>
+        </E>
+        <E i="14">
+            <Value>聚光燈 (故障)</Value>
+            <Path>BULB_SPOTLIGHT_FLICKER</Path>
+        </E>
+        <E i="15">
+            <Value>汽車輪胎</Value>
+            <Path>CAR_TIRE</Path>
+        </E>
+        <E i="16">
+            <Value>參加社區舉辦的 Trials 比賽，證明你也能騎機車！</Value>
+            <Path>CHALLENGE_DESCRIPTION_01</Path>
+        </E>
+        <E i="17">
+            <Value>跟全國最棒的車手一較高下。</Value>
+            <Path>CHALLENGE_DESCRIPTION_02</Path>
+        </E>
+        <E i="18">
+            <Value>跟這項運動發源地的車手力拼高下。</Value>
+            <Path>CHALLENGE_DESCRIPTION_03</Path>
+        </E>
+        <E i="19">
+            <Value>挑戰頂尖的車手，把他們全部打敗！</Value>
+            <Path>CHALLENGE_DESCRIPTION_04</Path>
+        </E>
+        <E i="20">
+            <Value>挑戰更多的 Trials 高手，你準備好贏得挑戰並獲得高額獎金了嗎？</Value>
+            <Path>CHALLENGE_DESCRIPTION_05</Path>
+        </E>
+        <E i="21">
+            <Value>Trials 世界冠軍盃！在這裡再次創造傳奇吧！</Value>
+            <Path>CHALLENGE_DESCRIPTION_06</Path>
+        </E>
+        <E i="22">
+            <Value>充滿危險，隨時都可能骨折，沒有規則也不許後悔，讓這些傢伙知道你的厲害！</Value>
+            <Path>CHALLENGE_DESCRIPTION_07</Path>
+        </E>
+        <E i="23">
+            <Value>挑戰 Trials 世界傳奇賽道，你的耐力夠嗎？</Value>
+            <Path>CHALLENGE_DESCRIPTION_08</Path>
+        </E>
+        <E i="24">
+            <Value>社區盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_01</Path>
+        </E>
+        <E i="25">
+            <Value>全國盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_02</Path>
+        </E>
+        <E i="26">
+            <Value>洲際盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_03</Path>
+        </E>
+        <E i="27">
+            <Value>職業盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_04</Path>
+        </E>
+        <E i="28">
+            <Value>世界盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_05</Path>
+        </E>
+        <E i="29">
+            <Value>世界冠軍盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_06</Path>
+        </E>
+        <E i="30">
+            <Value>地下冠軍盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_07</Path>
+        </E>
+        <E i="31">
+            <Value>終極耐力盃</Value>
+            <Path>CHALLENGE_NAME_XLAST_08</Path>
+        </E>
+        <E i="32">
+            <Value>檢查點</Value>
+            <Path>CHECKPOINT</Path>
+        </E>
+        <E i="33">
+            <Value>水泥塊</Value>
+            <Path>CONCRETE_BLOCK</Path>
+        </E>
+        <E i="34">
+            <Value>水泥管</Value>
+            <Path>CONCRETE_PIPE</Path>
+        </E>
+        <E i="35">
+            <Value>水泥管 (彎曲)</Value>
+            <Path>CONCRETE_PIPE_CURVE</Path>
+        </E>
+        <E i="36">
+            <Value>替代終點</Value>
+            <Path>CRASH_GOAL_1</Path>
+        </E>
+        <E i="37">
+            <Value>目標收集得分</Value>
+            <Path>CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="38">
+            <Value>炸藥箱</Value>
+            <Path>DYNAMITE_BOX</Path>
+        </E>
+        <E i="39">
+            <Value>木箱破裂</Value>
+            <Path>EFFECT_BOX_BREAK_1</Path>
+        </E>
+        <E i="40">
+            <Value>木箱爆破</Value>
+            <Path>EFFECT_BOX_EXPLODE_1</Path>
+        </E>
+        <E i="41">
+            <Value>電弧 1</Value>
+            <Path>EFFECT_ELECTRIC_ARCS_1</Path>
+        </E>
+        <E i="42">
+            <Value>爆炸 1</Value>
+            <Path>EFFECT_EXPLOSION_1</Path>
+        </E>
+        <E i="43">
+            <Value>爆炸 2</Value>
+            <Path>EFFECT_EXPLOSION_2</Path>
+        </E>
+        <E i="44">
+            <Value>火 1 (小)</Value>
+            <Path>EFFECT_FIRE_1</Path>
+        </E>
+        <E i="45">
+            <Value>火 2 (中)</Value>
+            <Path>EFFECT_FIRE_2</Path>
+        </E>
+        <E i="46">
+            <Value>火 3 (大)</Value>
+            <Path>EFFECT_FIRE_3</Path>
+        </E>
+        <E i="47">
+            <Value>長型火焰 1</Value>
+            <Path>EFFECT_FIRE_4</Path>
+        </E>
+        <E i="48">
+            <Value>火海</Value>
+            <Path>EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="49">
+            <Value>大型火圈</Value>
+            <Path>EFFECT_FIRE_RING_1</Path>
+        </E>
+        <E i="50">
+            <Value>油桶破裂</Value>
+            <Path>EFFECT_METAL_BARREL_BREAKING_1</Path>
+        </E>
+        <E i="51">
+            <Value>煙霧 1 (小)</Value>
+            <Path>EFFECT_SMOKE_1</Path>
+        </E>
+        <E i="52">
+            <Value>煙霧 2 (中)</Value>
+            <Path>EFFECT_SMOKE_2</Path>
+        </E>
+        <E i="53">
+            <Value>煙霧 3 (大)</Value>
+            <Path>EFFECT_SMOKE_3</Path>
+        </E>
+        <E i="54">
+            <Value>蒸氣 1 (慢)</Value>
+            <Path>EFFECT_STEAM_1</Path>
+        </E>
+        <E i="55">
+            <Value>蒸氣 2 (快)</Value>
+            <Path>EFFECT_STEAM_2</Path>
+        </E>
+        <E i="56">
+            <Value>滴水 1 (小)</Value>
+            <Path>EFFECT_WATER_DRIPPING_1</Path>
+        </E>
+        <E i="57">
+            <Value>滴水 2 (中)</Value>
+            <Path>EFFECT_WATER_DRIPPING_2</Path>
+        </E>
+        <E i="58">
+            <Value>滴水 3 (大)</Value>
+            <Path>EFFECT_WATER_DRIPPING_3</Path>
+        </E>
+        <E i="59">
+            <Value>水流 1 (小)</Value>
+            <Path>EFFECT_WATER_FALL_1</Path>
+        </E>
+        <E i="60">
+            <Value>水流 2 (中)</Value>
+            <Path>EFFECT_WATER_FALL_2</Path>
+        </E>
+        <E i="61">
+            <Value>水流 3 (大)</Value>
+            <Path>EFFECT_WATER_FALL_3</Path>
+        </E>
+        <E i="62">
+            <Value>木板破裂</Value>
+            <Path>EFFECT_WOOD_BREAK_1</Path>
+        </E>
+        <E i="63">
+            <Value>變電箱</Value>
+            <Path>ELECTRIC_CABIN</Path>
+        </E>
+        <E i="64">
+            <Value>彈珠台彈片 (大)</Value>
+            <Path>FLIPPER</Path>
+        </E>
+        <E i="65">
+            <Value>彈珠台彈片 (小)</Value>
+            <Path>FLIPPER_SMALL</Path>
+        </E>
+        <E i="66">
+            <Value>彈珠台彈片 (超小)</Value>
+            <Path>FLIPPER_TINY</Path>
+        </E>
+        <E i="67">
+            <Value>加長型彈珠台彈片 1</Value>
+            <Path>FLIPPER_WIDE</Path>
+        </E>
+        <E i="68">
+            <Value>加長型彈珠台彈片 2</Value>
+            <Path>FLIPPER_WIDE_2</Path>
+        </E>
+        <E i="69">
+            <Value>日光燈</Value>
+            <Path>FLUOR_LAMP</Path>
+        </E>
+        <E i="70">
+            <Value>日光燈 (故障)</Value>
+            <Path>FLUOR_LAMP_FLICKER</Path>
+        </E>
+        <E i="71">
+            <Value>日光燈 (故障)</Value>
+            <Path>FLUOR_LAMP_FLICKER</Path>
+        </E>
+        <E i="72">
+            <Value>日光燈 (碎裂)</Value>
+            <Path>FLUOR_LAMP_SMASHED</Path>
+        </E>
+        <E i="73">
+            <Value>保齡球瓶</Value>
+            <Path>GAME_BOWL_CONE</Path>
+        </E>
+        <E i="74">
+            <Value>火圈</Value>
+            <Path>GAME_FIRE_RING</Path>
+        </E>
+        <E i="75">
+            <Value>巨型鐵球</Value>
+            <Path>GIANT_IRON_BALL</Path>
+        </E>
+        <E i="76">
+            <Value>巨型鐵球內部</Value>
+            <Path>GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="77">
+            <Value>玻璃 1</Value>
+            <Path>GLASS_1</Path>
+        </E>
+        <E i="78">
+            <Value>玻璃夾框 1</Value>
+            <Path>GLASS_CLIP_1</Path>
+        </E>
+        <E i="79">
+            <Value>玻璃夾框 1</Value>
+            <Path>GLASS_CLIP_2</Path>
+        </E>
+        <E i="80">
+            <Value>終點</Value>
+            <Path>GOALPOINT</Path>
+        </E>
+        <E i="81">
+            <Value>斜坡及平台 (長)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_BIG</Path>
+        </E>
+        <E i="82">
+            <Value>斜坡及平台 (中)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_MEDIUM</Path>
+        </E>
+        <E i="83">
+            <Value>斜坡及平台 (短)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_SHORT</Path>
+        </E>
+        <E i="84">
+            <Value>大型鷹架</Value>
+            <Path>GROUPS_SCAFFOLD_BIG</Path>
+        </E>
+        <E i="85">
+            <Value>巨型鷹架</Value>
+            <Path>GROUPS_SCAFFOLD_HUGE</Path>
+        </E>
+        <E i="86">
+            <Value>平台 (大)</Value>
+            <Path>GROUPS_TERRACE_HUGE</Path>
+        </E>
+        <E i="87">
+            <Value>平台 (小)</Value>
+            <Path>GROUPS_TERRACE_SMALL</Path>
+        </E>
+        <E i="88">
+            <Value>平台 (超小)</Value>
+            <Path>GROUPS_TERRACE_TINY</Path>
+        </E>
+        <E i="89">
+            <Value>工字鋼</Value>
+            <Path>I_BEAM</Path>
+        </E>
+        <E i="90">
+            <Value>工字鋼 (大)</Value>
+            <Path>I_BEAM_HUGE</Path>
+        </E>
+        <E i="91">
+            <Value>壁燈 1</Value>
+            <Path>LAMP_WALL_1</Path>
+        </E>
+        <E i="92">
+            <Value>圓木塊 (大)</Value>
+            <Path>LOG_BIG_ROUNDED</Path>
+        </E>
+        <E i="93">
+            <Value>短圓木塊 (大)</Value>
+            <Path>LOG_BIG_ROUNDED_SHORT</Path>
+        </E>
+        <E i="94">
+            <Value>木塊 (大)</Value>
+            <Path>LOG_BIG_SQUARE</Path>
+        </E>
+        <E i="95">
+            <Value>短木塊 (大)</Value>
+            <Path>LOG_BIG_SQUARE_SHORT</Path>
+        </E>
+        <E i="96">
+            <Value>圓木塊</Value>
+            <Path>LOG_ROUNDED</Path>
+        </E>
+        <E i="97">
+            <Value>木塊</Value>
+            <Path>LOG_SQUARE</Path>
+        </E>
+        <E i="98">
+            <Value>大鐵籠</Value>
+            <Path>METAL_CAGE_BIG</Path>
+        </E>
+        <E i="99">
+            <Value>金屬終點線</Value>
+            <Path>METAL_FINISH_LINE</Path>
+        </E>
+        <E i="100">
+            <Value>金屬終點線 (小)</Value>
+            <Path>METAL_FINISH_LINE_SMALL</Path>
+        </E>
+        <E i="101">
+            <Value>金屬終點線 (寬)</Value>
+            <Path>METAL_FINISH_LINE_WIDE</Path>
+        </E>
+        <E i="102">
+            <Value>金屬網</Value>
+            <Path>METAL_GRID</Path>
+        </E>
+        <E i="103">
+            <Value>金屬棒 (長)</Value>
+            <Path>METAL_STICK_LONG</Path>
+        </E>
+        <E i="104">
+            <Value>金屬棒 (中)</Value>
+            <Path>METAL_STICK_MED</Path>
+        </E>
+        <E i="105">
+            <Value>金屬棒 (短)</Value>
+            <Path>METAL_STICK_SHORT</Path>
+        </E>
+        <E i="106">
+            <Value>超大炸彈</Value>
+            <Path>NUKE</Path>
+        </E>
+        <E i="107">
+            <Value>爆裂物。碰撞後會爆炸！</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="108">
+            <Value>爆裂物。碰撞後會爆炸！</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="109">
+            <Value>噴射推進器，撿起時立即啟用，效果持續 2 秒鐘。</Value>
+            <Path>OBJECT_HELP_TEXT_BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="110">
+            <Value>玩家在發生失誤後，可以從這裡繼續遊戲。</Value>
+            <Path>OBJECT_HELP_TEXT_CHECKPOINT</Path>
+        </E>
+        <E i="111">
+            <Value>賽道替代終點。</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_1</Path>
+        </E>
+        <E i="112">
+            <Value>目標狩獵遊戲模式的可打破得分項目</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="113">
+            <Value>重量級爆裂物。碰撞後會爆炸！</Value>
+            <Path>OBJECT_HELP_TEXT_DYNAMITE_BOX</Path>
+        </E>
+        <E i="114">
+            <Value>讓玩家著火 (小範圍)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_1</Path>
+        </E>
+        <E i="115">
+            <Value>讓玩家著火 (小範圍)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_2</Path>
+        </E>
+        <E i="116">
+            <Value>讓玩家著火 (中範圍)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_3</Path>
+        </E>
+        <E i="117">
+            <Value>讓玩家著火 (中範圍)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_4</Path>
+        </E>
+        <E i="118">
+            <Value>讓玩家著火 (大範圍)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="119">
+            <Value>穿越火圈遊戲模式得分項目。玩家可得到火箭推進力。</Value>
+            <Path>OBJECT_HELP_TEXT_GAME_FIRE_RING</Path>
+        </E>
+        <E i="120">
+            <Value>巨球遊戲模式賽道必須包含此物件。機車落下遊戲即結束。</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL</Path>
+        </E>
+        <E i="121">
+            <Value>在巨球裡遊戲模式賽道必須包含此物件。</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="122">
+            <Value>超重量級爆裂物。碰撞後會爆炸！</Value>
+            <Path>OBJECT_HELP_TEXT_NUKE</Path>
+        </E>
+        <E i="123">
+            <Value>變更遊戲進行中的攝影機視角。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="124">
+            <Value>變更重播影片中的攝影機視角。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="125">
+            <Value>利用這個攝影機物件設定賽道預覽圖像</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="126">
+            <Value>可以黏在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="127">
+            <Value>可以黏在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="128">
+            <Value>可以黏在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="129">
+            <Value>可以黏在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="130">
+            <Value>可以附著在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="131">
+            <Value>可以黏在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="132">
+            <Value>可以黏在遵守物理定律的兩個物件上，限制其相對運動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="133">
+            <Value>可以附著在遵守物理定律的物件上，使其旋轉。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="134">
+            <Value>可以附著在遵守物理定律的物件上，使其移動。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="135">
+            <Value>穿越火圈遊戲模式起動觸發器。玩家在通過觸發器之後不可再接觸到牆面。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="136">
+            <Value>接觸時可啟動目標物件的物理屬性</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="137">
+            <Value>接觸時可啟動目標物件的物理屬性</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="138">
+            <Value>接觸時可啟動目標物件的物理屬性</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="139">
+            <Value>雪橇跳躍遊戲模式起動觸發器。放置在斜坡的跳台位置。</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="140">
+            <Value>賽道定位點。可以建立曲線賽道。</Value>
+            <Path>OBJECT_HELP_TEXT_TRACKPOINT</Path>
+        </E>
+        <E i="141">
+            <Value>重量級爆裂物。碰撞後會爆炸！</Value>
+            <Path>OBJECT_HELP_TEXT_WWII_BOMB</Path>
+        </E>
+        <E i="142">
+            <Value>金屬水管 (附件)</Value>
+            <Path>PIPE_ADDITION</Path>
+        </E>
+        <E i="143">
+            <Value>金屬水管 (轉角)</Value>
+            <Path>PIPE_CORNER</Path>
+        </E>
+        <E i="144">
+            <Value>金屬水管 (轉角附件)</Value>
+            <Path>PIPE_CORNER_ADDITION</Path>
+        </E>
+        <E i="145">
+            <Value>長型金屬水管 (直)</Value>
+            <Path>PIPE_LONG_STRAIGHT</Path>
+        </E>
+        <E i="146">
+            <Value>金屬水管 (環)</Value>
+            <Path>PIPE_RING</Path>
+        </E>
+        <E i="147">
+            <Value>短型金屬水管 (直)</Value>
+            <Path>PIPE_SHORT_STRAIGHT</Path>
+        </E>
+        <E i="148">
+            <Value>金屬水管 (閥)</Value>
+            <Path>PIPE_VALVE</Path>
+        </E>
+        <E i="149">
+            <Value>窄型超長木板</Value>
+            <Path>PLANK_EXTRA_LONG_THIN</Path>
+        </E>
+        <E i="150">
+            <Value>長木板</Value>
+            <Path>PLANK_LONG</Path>
+        </E>
+        <E i="151">
+            <Value>窄型長木板</Value>
+            <Path>PLANK_LONG_THIN</Path>
+        </E>
+        <E i="152">
+            <Value>中長木板</Value>
+            <Path>PLANK_MED</Path>
+        </E>
+        <E i="153">
+            <Value>短木板</Value>
+            <Path>PLANK_SHORT</Path>
+        </E>
+        <E i="154">
+            <Value>寬型長木板</Value>
+            <Path>PLANK_WIDE_LONG</Path>
+        </E>
+        <E i="155">
+            <Value>寬型中長木板</Value>
+            <Path>PLANK_WIDE_MEDIUM</Path>
+        </E>
+        <E i="156">
+            <Value>寬型短木板</Value>
+            <Path>PLANK_WIDE_SHORT</Path>
+        </E>
+        <E i="157">
+            <Value>薄木板</Value>
+            <Path>PLYWOOD</Path>
+        </E>
+        <E i="158">
+            <Value>加固薄木板</Value>
+            <Path>PLYWOOD_REIN</Path>
+        </E>
+        <E i="159">
+            <Value>支架 1 (左)</Value>
+            <Path>RACK_1_LEFT</Path>
+        </E>
+        <E i="160">
+            <Value>支架 1 (右)</Value>
+            <Path>RACK_1_RIGHT</Path>
+        </E>
+        <E i="161">
+            <Value>金屬斜坡 (長)</Value>
+            <Path>RAMP_METAL_BIG</Path>
+        </E>
+        <E i="162">
+            <Value>金屬斜坡面板 (大)</Value>
+            <Path>RAMP_METAL_PLATE_BIG</Path>
+        </E>
+        <E i="163">
+            <Value>金屬斜坡面板 (中)</Value>
+            <Path>RAMP_METAL_PLATE_MEDIUM</Path>
+        </E>
+        <E i="164">
+            <Value>金屬斜坡面板 (小)</Value>
+            <Path>RAMP_METAL_PLATE_SMALL</Path>
+        </E>
+        <E i="165">
+            <Value>金屬斜坡 (短)</Value>
+            <Path>RAMP_METAL_SHORT</Path>
+        </E>
+        <E i="166">
+            <Value>木製斜坡 (長)</Value>
+            <Path>RAMP_WOOD_BIG</Path>
+        </E>
+        <E i="167">
+            <Value>木製斜坡面板 (大)</Value>
+            <Path>RAMP_WOOD_PLATE_BIG</Path>
+        </E>
+        <E i="168">
+            <Value>木製斜坡面板 (中)</Value>
+            <Path>RAMP_WOOD_PLATE_MEDIUM</Path>
+        </E>
+        <E i="169">
+            <Value>木製斜坡面板 (小)</Value>
+            <Path>RAMP_WOOD_PLATE_SMALL</Path>
+        </E>
+        <E i="170">
+            <Value>木製斜坡 (短)</Value>
+            <Path>RAMP_WOOD_SHORT</Path>
+        </E>
+        <E i="171">
+            <Value>房頂燈 1</Value>
+            <Path>ROOF_LIGHT</Path>
+        </E>
+        <E i="172">
+            <Value>屋頂斜坡 1 (破損)</Value>
+            <Path>ROOF_LIGHT_FLICKER</Path>
+        </E>
+        <E i="173">
+            <Value>屋頂斜坡 2</Value>
+            <Path>ROOF_LIGHT_WITH_GRID</Path>
+        </E>
+        <E i="174">
+            <Value>生鏽鋼板 (大)</Value>
+            <Path>RUSTY_STEEL_PLATE_BIG</Path>
+        </E>
+        <E i="175">
+            <Value>生鏽鋼板圍籬 (大)</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG</Path>
+        </E>
+        <E i="176">
+            <Value>生鏽鋼板圍籬 (大) 2</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG_2</Path>
+        </E>
+        <E i="177">
+            <Value>生鏽鋼板圍籬 (中)</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED</Path>
+        </E>
+        <E i="178">
+            <Value>生鏽鋼板圍籬 (中) 2</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED_2</Path>
+        </E>
+        <E i="179">
+            <Value>生鏽鋼板 (長)</Value>
+            <Path>RUSTY_STEEL_PLATE_LONG</Path>
+        </E>
+        <E i="180">
+            <Value>生鏽鋼板 (短)</Value>
+            <Path>RUSTY_STEEL_PLATE_SHORT</Path>
+        </E>
+        <E i="181">
+            <Value>鷹架基座</Value>
+            <Path>SCAFFOLD_BASE</Path>
+        </E>
+        <E i="182">
+            <Value>鷹架附件</Value>
+            <Path>SCAFFOLD_LOOP</Path>
+        </E>
+        <E i="183">
+            <Value>鷹架平板</Value>
+            <Path>SCAFFOLD_PLATE</Path>
+        </E>
+        <E i="184">
+            <Value>鷹架平板附件</Value>
+            <Path>SCAFFOLD_PLATE_LOOP</Path>
+        </E>
+        <E i="185">
+            <Value>鷹架柱子</Value>
+            <Path>SCAFFOLD_POSTS</Path>
+        </E>
+        <E i="186">
+            <Value>鷹架樓梯</Value>
+            <Path>SCAFFOLD_STAIRS</Path>
+        </E>
+        <E i="187">
+            <Value>輪船貨櫃</Value>
+            <Path>SHIP_CONTAINER</Path>
+        </E>
+        <E i="188">
+            <Value>加速</Value>
+            <Path>SIGN_ACCELERATE</Path>
+        </E>
+        <E i="189">
+            <Value>箭頭標誌</Value>
+            <Path>SIGN_ARROW</Path>
+        </E>
+        <E i="190">
+            <Value>向下箭頭</Value>
+            <Path>SIGN_ARROW_DOWN</Path>
+        </E>
+        <E i="191">
+            <Value>向上箭頭</Value>
+            <Path>SIGN_ARROW_UP</Path>
+        </E>
+        <E i="192">
+            <Value>傷患標誌</Value>
+            <Path>SIGN_BANDAGE</Path>
+        </E>
+        <E i="193">
+            <Value>當心松鼠標誌</Value>
+            <Path>SIGN_BEWARE_SQUIRRELS</Path>
+        </E>
+        <E i="194">
+            <Value>大跳躍</Value>
+            <Path>SIGN_BIG_JUMP</Path>
+        </E>
+        <E i="195">
+            <Value>危險爆裂物標誌</Value>
+            <Path>SIGN_DANGER_EXPLOSIVES</Path>
+        </E>
+        <E i="196">
+            <Value>脆弱物品標誌</Value>
+            <Path>SIGN_EGG_SHELTER</Path>
+        </E>
+        <E i="197">
+            <Value>爆裂物</Value>
+            <Path>SIGN_EXPLOSION</Path>
+        </E>
+        <E i="198">
+            <Value>巨型物件掉落</Value>
+            <Path>SIGN_FALLING_BIG_OBJECTS</Path>
+        </E>
+        <E i="199">
+            <Value>墜落摔傷標誌</Value>
+            <Path>SIGN_FALLING_INJURY</Path>
+        </E>
+        <E i="200">
+            <Value>祝你好運標誌</Value>
+            <Path>SIGN_FINGERS_CROSSED</Path>
+        </E>
+        <E i="201">
+            <Value>斷崖標誌</Value>
+            <Path>SIGN_HUGE_FALL</Path>
+        </E>
+        <E i="202">
+            <Value>禁止騎車標誌</Value>
+            <Path>SIGN_NO_BIKES</Path>
+        </E>
+        <E i="203">
+            <Value>禁止通行標誌</Value>
+            <Path>SIGN_NO_HUMANS</Path>
+        </E>
+        <E i="204">
+            <Value>禁止跳躍標誌</Value>
+            <Path>SIGN_NO_JUMPING</Path>
+        </E>
+        <E i="205">
+            <Value>減速</Value>
+            <Path>SIGN_SLOW_DOWN</Path>
+        </E>
+        <E i="206">
+            <Value>速限標誌</Value>
+            <Path>SIGN_SPEED_LIMIT</Path>
+        </E>
+        <E i="207">
+            <Value>請戴安全帽標誌</Value>
+            <Path>SIGN_USE_HELMET</Path>
+        </E>
+        <E i="208">
+            <Value>牆面</Value>
+            <Path>SIGN_WALL</Path>
+        </E>
+        <E i="209">
+            <Value>起點</Value>
+            <Path>STARTPOINT</Path>
+        </E>
+        <E i="210">
+            <Value>鋼結構</Value>
+            <Path>STEEL_STRUCT_Q_1</Path>
+        </E>
+        <E i="211">
+            <Value>石塊 1</Value>
+            <Path>STONE_1</Path>
+        </E>
+        <E i="212">
+            <Value>石塊 2</Value>
+            <Path>STONE_2</Path>
+        </E>
+        <E i="213">
+            <Value>石塊 3</Value>
+            <Path>STONE_3</Path>
+        </E>
+        <E i="214">
+            <Value>石塊 4</Value>
+            <Path>STONE_4</Path>
+        </E>
+        <E i="215">
+            <Value>平台交叉支柱</Value>
+            <Path>TERRACE_CROSSPILLAR</Path>
+        </E>
+        <E i="216">
+            <Value>平台支柱</Value>
+            <Path>TERRACE_PILLAR</Path>
+        </E>
+        <E i="217">
+            <Value>平台面板</Value>
+            <Path>TERRACE_PLATE</Path>
+        </E>
+        <E i="218">
+            <Value>平台面板 (大)</Value>
+            <Path>TERRACE_PLATE_BIG</Path>
+        </E>
+        <E i="219">
+            <Value>平台圍籬</Value>
+            <Path>TERRACE_PLATE_FENCE</Path>
+        </E>
+        <E i="220">
+            <Value>平台圍籬 (簡易)</Value>
+            <Path>TERRACE_PLATE_FENCE_2</Path>
+        </E>
+        <E i="221">
+            <Value>平台面板 (小)</Value>
+            <Path>TERRACE_PLATE_SMALL</Path>
+        </E>
+        <E i="222">
+            <Value>測試項目</Value>
+            <Path>TEST</Path>
+        </E>
+        <E i="223">
+            <Value>遊戲視角</Value>
+            <Path>TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="224">
+            <Value>重播影片視角</Value>
+            <Path>TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="225">
+            <Value>賽道預覽視角</Value>
+            <Path>TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="226">
+            <Value>球和插座</Value>
+            <Path>TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="227">
+            <Value>限定旋轉樞紐</Value>
+            <Path>TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="228">
+            <Value>點對點 (硬)</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="229">
+            <Value>點對點 (軟)</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="230">
+            <Value>自由旋轉樞紐</Value>
+            <Path>TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="231">
+            <Value>1 公尺滑行</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="232">
+            <Value>2 公尺滑行</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="233">
+            <Value>轉力</Value>
+            <Path>TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="234">
+            <Value>使物件旋轉</Value>
+            <Path>TOOLS_FORCE_ROTATE_TURBO</Path>
+        </E>
+        <E i="235">
+            <Value>變形力</Value>
+            <Path>TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="236">
+            <Value>火圈啟動觸發器</Value>
+            <Path>TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="237">
+            <Value>8 公尺型觸發器</Value>
+            <Path>TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="238">
+            <Value>4 公尺型觸發器</Value>
+            <Path>TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="239">
+            <Value>2 公尺型觸發器</Value>
+            <Path>TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="240">
+            <Value>雪橇跳躍跳台觸發器</Value>
+            <Path>TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="241">
+            <Value>路徑工具</Value>
+            <Path>TRACKPOINT</Path>
+        </E>
+        <E i="242">
+            <Value>遊戲要開始了，先來點基本的吧。</Value>
+            <Path>TRACK_DESCRIPTION_01</Path>
+        </E>
+        <E i="243">
+            <Value>想要來點木塊和炸藥嗎？</Value>
+            <Path>TRACK_DESCRIPTION_02</Path>
+        </E>
+        <E i="244">
+            <Value>祝福你有美好的一天。</Value>
+            <Path>TRACK_DESCRIPTION_03</Path>
+        </E>
+        <E i="245">
+            <Value>你能不能找出最快的那條路呢？</Value>
+            <Path>TRACK_DESCRIPTION_04</Path>
+        </E>
+        <E i="246">
+            <Value>它一路往上再往上，不過遲早要慘跌下來的。</Value>
+            <Path>TRACK_DESCRIPTION_05</Path>
+        </E>
+        <E i="247">
+            <Value>在輪胎和水管上跳躍的時候需要一點技巧。</Value>
+            <Path>TRACK_DESCRIPTION_06</Path>
+        </E>
+        <E i="248">
+            <Value>要通過是很容易，但是哪一條路最快呢？</Value>
+            <Path>TRACK_DESCRIPTION_07</Path>
+        </E>
+        <E i="249">
+            <Value>夢境中的賽道。</Value>
+            <Path>TRACK_DESCRIPTION_08</Path>
+        </E>
+        <E i="250">
+            <Value>有一塊大石頭，後面有個大洞。就這麼簡單。</Value>
+            <Path>TRACK_DESCRIPTION_09</Path>
+        </E>
+        <E i="251">
+            <Value>有起就一定有落。</Value>
+            <Path>TRACK_DESCRIPTION_10</Path>
+        </E>
+        <E i="252">
+            <Value>試著將你的機車待在巨球裡越久越好！</Value>
+            <Path>TRACK_DESCRIPTION_100</Path>
+        </E>
+        <E i="253">
+            <Value>將你自己朝障礙物衝撞過去，摔斷你的骨頭，就這麼一次，感覺疼痛是件好事！</Value>
+            <Path>TRACK_DESCRIPTION_101</Path>
+        </E>
+        <E i="254">
+            <Value>像老鷹一樣飛得越遠越好，別忘了苗頭不對要跳車。</Value>
+            <Path>TRACK_DESCRIPTION_102</Path>
+        </E>
+        <E i="255">
+            <Value>飛到高空然後來個旋轉，盡量跳得越高越好，別忘了苗頭不對要跳車。</Value>
+            <Path>TRACK_DESCRIPTION_104</Path>
+        </E>
+        <E i="256">
+            <Value>你的機車拉著一台載滿爆裂物的拖車，看你能走多遠？</Value>
+            <Path>TRACK_DESCRIPTION_105</Path>
+        </E>
+        <E i="257">
+            <Value>你如果被火舌吞噬，只有高速才能滅火，騎越慢只會燒很大！</Value>
+            <Path>TRACK_DESCRIPTION_106</Path>
+        </E>
+        <E i="258">
+            <Value>前空翻後空翻，看你能做幾個空翻？</Value>
+            <Path>TRACK_DESCRIPTION_107</Path>
+        </E>
+        <E i="259">
+            <Value>試著在球上保持平衡，看你能抵抗地心引力走多遠？</Value>
+            <Path>TRACK_DESCRIPTION_108</Path>
+        </E>
+        <E i="260">
+            <Value>爬上去！碰到天！你能爬多高？</Value>
+            <Path>TRACK_DESCRIPTION_109</Path>
+        </E>
+        <E i="261">
+            <Value>稱為「極限」不是沒有原因的。</Value>
+            <Path>TRACK_DESCRIPTION_11</Path>
+        </E>
+        <E i="262">
+            <Value>一定要收集齊全！用你的機車把目標通通粉碎吧！</Value>
+            <Path>TRACK_DESCRIPTION_110</Path>
+        </E>
+        <E i="263">
+            <Value>前輪的螺絲鬆了！快把前輪翹起來，騎得越遠越好。</Value>
+            <Path>TRACK_DESCRIPTION_111</Path>
+        </E>
+        <E i="264">
+            <Value>嘗試飛過越多火圈越好。</Value>
+            <Path>TRACK_DESCRIPTION_112</Path>
+        </E>
+        <E i="265">
+            <Value>答案有時候不是那麼容易找到的...</Value>
+            <Path>TRACK_DESCRIPTION_12</Path>
+        </E>
+        <E i="266">
+            <Value>試試看能不能騎在水管上？還是這是在做夢呢？</Value>
+            <Path>TRACK_DESCRIPTION_13</Path>
+        </E>
+        <E i="267">
+            <Value>你能堅持到最後嗎？關鍵其實不在速度。</Value>
+            <Path>TRACK_DESCRIPTION_14</Path>
+        </E>
+        <E i="268">
+            <Value>準備好接受爬坡挑戰了嗎？</Value>
+            <Path>TRACK_DESCRIPTION_15</Path>
+        </E>
+        <E i="269">
+            <Value>平緩的起伏變化，為騎乘帶來更多樂趣。</Value>
+            <Path>TRACK_DESCRIPTION_16</Path>
+        </E>
+        <E i="270">
+            <Value>啊，甜美的回憶... 這需要一點技術才能通過。</Value>
+            <Path>TRACK_DESCRIPTION_17</Path>
+        </E>
+        <E i="271">
+            <Value>不停地跳躍，或許就能過關了！</Value>
+            <Path>TRACK_DESCRIPTION_18</Path>
+        </E>
+        <E i="272">
+            <Value>要爬上來很難。要往下走更難。這就是人生。</Value>
+            <Path>TRACK_DESCRIPTION_19</Path>
+        </E>
+        <E i="273">
+            <Value>注意環境！好好利用環境！</Value>
+            <Path>TRACK_DESCRIPTION_20</Path>
+        </E>
+        <E i="274">
+            <Value>遇到艱難的環境，用傳統的辦法解決吧。</Value>
+            <Path>TRACK_DESCRIPTION_21</Path>
+        </E>
+        <E i="275">
+            <Value>抱歉，這次贏家的獎品不包括啤酒！</Value>
+            <Path>TRACK_DESCRIPTION_22</Path>
+        </E>
+        <E i="276">
+            <Value>哦！怎麼又是你！</Value>
+            <Path>TRACK_DESCRIPTION_23</Path>
+        </E>
+        <E i="277">
+            <Value>Placeholder! Level not yet implemented!</Value>
+            <Path>TRACK_DESCRIPTION_24</Path>
+        </E>
+        <E i="278">
+            <Value>騎得越快，就越簡單。飛吧！</Value>
+            <Path>TRACK_DESCRIPTION_25</Path>
+        </E>
+        <E i="279">
+            <Value>別讓環境使你分心！</Value>
+            <Path>TRACK_DESCRIPTION_26</Path>
+        </E>
+        <E i="280">
+            <Value>別急，穩著點。</Value>
+            <Path>TRACK_DESCRIPTION_27</Path>
+        </E>
+        <E i="281">
+            <Value>就是這麼樣的平坦。</Value>
+            <Path>TRACK_DESCRIPTION_28</Path>
+        </E>
+        <E i="282">
+            <Value>記得前傾！大部份時候是這樣，應該沒錯。</Value>
+            <Path>TRACK_DESCRIPTION_29</Path>
+        </E>
+        <E i="283">
+            <Value>多麼美好的早晨！</Value>
+            <Path>TRACK_DESCRIPTION_30</Path>
+        </E>
+        <E i="284">
+            <Value>油門、煞車、壓車、檢查點。大概就是這樣。</Value>
+            <Path>TRACK_DESCRIPTION_300</Path>
+        </E>
+        <E i="285">
+            <Value>騎士在空中停留時，記得要前傾或後仰來控制。像鳥兒一樣飛翔吧！小心不要臉朝下落地就好了。</Value>
+            <Path>TRACK_DESCRIPTION_301</Path>
+        </E>
+        <E i="286">
+            <Value>在現實世界中，當你推東西的時候，東西會移動。猜猜看，電玩遊戲裡是不是也會這樣呢？</Value>
+            <Path>TRACK_DESCRIPTION_302</Path>
+        </E>
+        <E i="287">
+            <Value>這門課程是為了真正的騎士開設的。真正的挑戰才正要開始。</Value>
+            <Path>TRACK_DESCRIPTION_303</Path>
+        </E>
+        <E i="288">
+            <Value>收集目標，然後跳車。簡單又好玩！</Value>
+            <Path>TRACK_DESCRIPTION_305</Path>
+        </E>
+        <E i="289">
+            <Value>日正當中，回到老地方來玩玩吧。</Value>
+            <Path>TRACK_DESCRIPTION_34</Path>
+        </E>
+        <E i="290">
+            <Value>夕陽照在熟悉的場景。如此寧靜而安詳，將油門踩到底吧！</Value>
+            <Path>TRACK_DESCRIPTION_35</Path>
+        </E>
+        <E i="291">
+            <Value>別以為下坡很容易！</Value>
+            <Path>TRACK_DESCRIPTION_36</Path>
+        </E>
+        <E i="292">
+            <Value>太簡單了？沒錯，不過難的部份很快就要來了。</Value>
+            <Path>TRACK_DESCRIPTION_37</Path>
+        </E>
+        <E i="293">
+            <Value>一連串的爆破特技！</Value>
+            <Path>TRACK_DESCRIPTION_38</Path>
+        </E>
+        <E i="294">
+            <Value>悠閒地騎乘，開心就好。</Value>
+            <Path>TRACK_DESCRIPTION_39</Path>
+        </E>
+        <E i="295">
+            <Value>基本跳躍</Value>
+            <Path>TRACK_NAME_XLAST_01</Path>
+        </E>
+        <E i="296">
+            <Value>木塊和炸藥</Value>
+            <Path>TRACK_NAME_XLAST_02</Path>
+        </E>
+        <E i="297">
+            <Value>如履薄冰</Value>
+            <Path>TRACK_NAME_XLAST_03</Path>
+        </E>
+        <E i="298">
+            <Value>貨櫃歷險</Value>
+            <Path>TRACK_NAME_XLAST_04</Path>
+        </E>
+        <E i="299">
+            <Value>股票市場</Value>
+            <Path>TRACK_NAME_XLAST_05</Path>
+        </E>
+        <E i="300">
+            <Value>高超技巧</Value>
+            <Path>TRACK_NAME_XLAST_06</Path>
+        </E>
+        <E i="301">
+            <Value>荒涼的山丘</Value>
+            <Path>TRACK_NAME_XLAST_07</Path>
+        </E>
+        <E i="302">
+            <Value>夢境</Value>
+            <Path>TRACK_NAME_XLAST_08</Path>
+        </E>
+        <E i="303">
+            <Value>大石落地</Value>
+            <Path>TRACK_NAME_XLAST_09</Path>
+        </E>
+        <E i="304">
+            <Value>地下探險</Value>
+            <Path>TRACK_NAME_XLAST_10</Path>
+        </E>
+        <E i="305">
+            <Value>待在球裡</Value>
+            <Path>TRACK_NAME_XLAST_100</Path>
+        </E>
+        <E i="306">
+            <Value>滾下樓梯</Value>
+            <Path>TRACK_NAME_XLAST_101</Path>
+        </E>
+        <E i="307">
+            <Value>雪橇跳躍</Value>
+            <Path>TRACK_NAME_XLAST_102</Path>
+        </E>
+        <E i="308">
+            <Value>彈珠台</Value>
+            <Path>TRACK_NAME_XLAST_104</Path>
+        </E>
+        <E i="309">
+            <Value>快遞送貨</Value>
+            <Path>TRACK_NAME_XLAST_105</Path>
+        </E>
+        <E i="310">
+            <Value>火燒屁股</Value>
+            <Path>TRACK_NAME_XLAST_106</Path>
+        </E>
+        <E i="311">
+            <Value>空翻獵人</Value>
+            <Path>TRACK_NAME_XLAST_107</Path>
+        </E>
+        <E i="312">
+            <Value>在巨球外</Value>
+            <Path>TRACK_NAME_XLAST_108</Path>
+        </E>
+        <E i="313">
+            <Value>登上高峰</Value>
+            <Path>TRACK_NAME_XLAST_109</Path>
+        </E>
+        <E i="314">
+            <Value>褐色箱子</Value>
+            <Path>TRACK_NAME_XLAST_11</Path>
+        </E>
+        <E i="315">
+            <Value>目標狩獵</Value>
+            <Path>TRACK_NAME_XLAST_110</Path>
+        </E>
+        <E i="316">
+            <Value>獨輪悍將</Value>
+            <Path>TRACK_NAME_XLAST_111</Path>
+        </E>
+        <E i="317">
+            <Value>穿越火圈</Value>
+            <Path>TRACK_NAME_XLAST_112</Path>
+        </E>
+        <E i="318">
+            <Value>變幻莫測</Value>
+            <Path>TRACK_NAME_XLAST_12</Path>
+        </E>
+        <E i="319">
+            <Value>夢與現實</Value>
+            <Path>TRACK_NAME_XLAST_13</Path>
+        </E>
+        <E i="320">
+            <Value>大爆炸</Value>
+            <Path>TRACK_NAME_XLAST_14</Path>
+        </E>
+        <E i="321">
+            <Value>步步高升</Value>
+            <Path>TRACK_NAME_XLAST_15</Path>
+        </E>
+        <E i="322">
+            <Value>新人登場！</Value>
+            <Path>TRACK_NAME_XLAST_16</Path>
+        </E>
+        <E i="323">
+            <Value>懷舊經典</Value>
+            <Path>TRACK_NAME_XLAST_17</Path>
+        </E>
+        <E i="324">
+            <Value>歡欣跳躍</Value>
+            <Path>TRACK_NAME_XLAST_18</Path>
+        </E>
+        <E i="325">
+            <Value>起起落落</Value>
+            <Path>TRACK_NAME_XLAST_19</Path>
+        </E>
+        <E i="326">
+            <Value>物理定律</Value>
+            <Path>TRACK_NAME_XLAST_20</Path>
+        </E>
+        <E i="327">
+            <Value>Trials 的試煉</Value>
+            <Path>TRACK_NAME_XLAST_21</Path>
+        </E>
+        <E i="328">
+            <Value>山丘之王</Value>
+            <Path>TRACK_NAME_XLAST_22</Path>
+        </E>
+        <E i="329">
+            <Value>無間挑戰 II</Value>
+            <Path>TRACK_NAME_XLAST_23</Path>
+        </E>
+        <E i="330">
+            <Value>Jorma 的速度</Value>
+            <Path>TRACK_NAME_XLAST_24</Path>
+        </E>
+        <E i="331">
+            <Value>看得到地面嗎？</Value>
+            <Path>TRACK_NAME_XLAST_25</Path>
+        </E>
+        <E i="332">
+            <Value>大崩潰</Value>
+            <Path>TRACK_NAME_XLAST_26</Path>
+        </E>
+        <E i="333">
+            <Value>飛越木箱</Value>
+            <Path>TRACK_NAME_XLAST_27</Path>
+        </E>
+        <E i="334">
+            <Value>平順坦途</Value>
+            <Path>TRACK_NAME_XLAST_28</Path>
+        </E>
+        <E i="335">
+            <Value>向上爬升</Value>
+            <Path>TRACK_NAME_XLAST_29</Path>
+        </E>
+        <E i="336">
+            <Value>土撥鼠出發了</Value>
+            <Path>TRACK_NAME_XLAST_30</Path>
+        </E>
+        <E i="337">
+            <Value>基本技巧</Value>
+            <Path>TRACK_NAME_XLAST_300</Path>
+        </E>
+        <E i="338">
+            <Value>坡與跳躍</Value>
+            <Path>TRACK_NAME_XLAST_301</Path>
+        </E>
+        <E i="339">
+            <Value>麻煩的障礙物</Value>
+            <Path>TRACK_NAME_XLAST_302</Path>
+        </E>
+        <E i="340">
+            <Value>高手課程</Value>
+            <Path>TRACK_NAME_XLAST_303</Path>
+        </E>
+        <E i="341">
+            <Value>摔車時間</Value>
+            <Path>TRACK_NAME_XLAST_305</Path>
+        </E>
+        <E i="342">
+            <Value>土撥鼠回來了</Value>
+            <Path>TRACK_NAME_XLAST_34</Path>
+        </E>
+        <E i="343">
+            <Value>永恆的土撥鼠</Value>
+            <Path>TRACK_NAME_XLAST_35</Path>
+        </E>
+        <E i="344">
+            <Value>長途旅行</Value>
+            <Path>TRACK_NAME_XLAST_36</Path>
+        </E>
+        <E i="345">
+            <Value>小顛簸</Value>
+            <Path>TRACK_NAME_XLAST_37</Path>
+        </E>
+        <E i="346">
+            <Value>我的名字叫危險</Value>
+            <Path>TRACK_NAME_XLAST_38</Path>
+        </E>
+        <E i="347">
+            <Value>輕鬆騎</Value>
+            <Path>TRACK_NAME_XLAST_39</Path>
+        </E>
+        <E i="348">
+            <Value>哇！越來越厲害了哦！</Value>
+            <Path>TRACK_PRAISE_01</Path>
+        </E>
+        <E i="349">
+            <Value>騎得漂亮，閃得好！</Value>
+            <Path>TRACK_PRAISE_02</Path>
+        </E>
+        <E i="350">
+            <Value>你真是銳不可當！</Value>
+            <Path>TRACK_PRAISE_03</Path>
+        </E>
+        <E i="351">
+            <Value>你的速度沒人能趕上！</Value>
+            <Path>TRACK_PRAISE_04</Path>
+        </E>
+        <E i="352">
+            <Value>一飛衝天！</Value>
+            <Path>TRACK_PRAISE_05</Path>
+        </E>
+        <E i="353">
+            <Value>太棒了，做得太好了！</Value>
+            <Path>TRACK_PRAISE_06</Path>
+        </E>
+        <E i="354">
+            <Value>哪一條路最快？看來是你走的那條路最快！</Value>
+            <Path>TRACK_PRAISE_07</Path>
+        </E>
+        <E i="355">
+            <Value>滴水不漏！太棒了！</Value>
+            <Path>TRACK_PRAISE_08</Path>
+        </E>
+        <E i="356">
+            <Value>漂亮！太漂亮了！</Value>
+            <Path>TRACK_PRAISE_09</Path>
+        </E>
+        <E i="357">
+            <Value>你成功的回到地面了！太棒了！</Value>
+            <Path>TRACK_PRAISE_10</Path>
+        </E>
+        <E i="358">
+            <Value>巨輪轉啊轉，轉不停！</Value>
+            <Path>TRACK_PRAISE_100</Path>
+        </E>
+        <E i="359">
+            <Value>棍子和石頭會讓你摔斷骨頭！</Value>
+            <Path>TRACK_PRAISE_101</Path>
+        </E>
+        <E i="360">
+            <Value>那是鳥嗎？是飛機嗎？哇！原來是一個瘋子騎在機車上！</Value>
+            <Path>TRACK_PRAISE_102</Path>
+        </E>
+        <E i="361">
+            <Value>你彈跳得很高，非常高！喔！天啊！無敵高！</Value>
+            <Path>TRACK_PRAISE_104</Path>
+        </E>
+        <E i="362">
+            <Value>精采表演通常用大爆炸做謝幕，還是這爆炸不夠大？</Value>
+            <Path>TRACK_PRAISE_105</Path>
+        </E>
+        <E i="363">
+            <Value>燃燒吧！</Value>
+            <Path>TRACK_PRAISE_106</Path>
+        </E>
+        <E i="364">
+            <Value>嗯！厲害，那可是世界級的空中翻轉技術！</Value>
+            <Path>TRACK_PRAISE_107</Path>
+        </E>
+        <E i="365">
+            <Value>你最厲害啦！</Value>
+            <Path>TRACK_PRAISE_108</Path>
+        </E>
+        <E i="366">
+            <Value>我相信你能飛，我相信你可以觸碰到天際！</Value>
+            <Path>TRACK_PRAISE_109</Path>
+        </E>
+        <E i="367">
+            <Value>你的騎乘技術真是沒話說！</Value>
+            <Path>TRACK_PRAISE_11</Path>
+        </E>
+        <E i="368">
+            <Value>粉碎他！破壞他！耶！！</Value>
+            <Path>TRACK_PRAISE_110</Path>
+        </E>
+        <E i="369">
+            <Value>太厲害了，螺絲鬆了還這麼厲害！</Value>
+            <Path>TRACK_PRAISE_111</Path>
+        </E>
+        <E i="370">
+            <Value>飛得漂亮！不只是好看而已！</Value>
+            <Path>TRACK_PRAISE_112</Path>
+        </E>
+        <E i="371">
+            <Value>你的高超技術真是賞心悅目啊！</Value>
+            <Path>TRACK_PRAISE_12</Path>
+        </E>
+        <E i="372">
+            <Value>睡覺、作夢、騎車。就該這樣啊！</Value>
+            <Path>TRACK_PRAISE_13</Path>
+        </E>
+        <E i="373">
+            <Value>連軌道離子砲都沒辦法追上你！</Value>
+            <Path>TRACK_PRAISE_14</Path>
+        </E>
+        <E i="374">
+            <Value>往上，再往上！太精彩了！</Value>
+            <Path>TRACK_PRAISE_15</Path>
+        </E>
+        <E i="375">
+            <Value>你讓所有人望塵莫及，太帥了！</Value>
+            <Path>TRACK_PRAISE_16</Path>
+        </E>
+        <E i="376">
+            <Value>失落的方舟！</Value>
+            <Path>TRACK_PRAISE_17</Path>
+        </E>
+        <E i="377">
+            <Value>真是太快了，連影子都追不上了！</Value>
+            <Path>TRACK_PRAISE_18</Path>
+        </E>
+        <E i="378">
+            <Value>帝國有興衰，只有你的高超技術無與倫比！</Value>
+            <Path>TRACK_PRAISE_19</Path>
+        </E>
+        <E i="379">
+            <Value>太棒了！你終於發揮出內在的潛力了！</Value>
+            <Path>TRACK_PRAISE_20</Path>
+        </E>
+        <E i="380">
+            <Value>騎得這麼好，簡直是犯罪！</Value>
+            <Path>TRACK_PRAISE_21</Path>
+        </E>
+        <E i="381">
+            <Value>你真是銳不可當！</Value>
+            <Path>TRACK_PRAISE_22</Path>
+        </E>
+        <E i="382">
+            <Value>你是 Trials 傳奇！</Value>
+            <Path>TRACK_PRAISE_23</Path>
+        </E>
+        <E i="383">
+            <Value>你真是銳不可當！</Value>
+            <Path>TRACK_PRAISE_24</Path>
+        </E>
+        <E i="384">
+            <Value>你的技術似乎沒有極限啊？</Value>
+            <Path>TRACK_PRAISE_25</Path>
+        </E>
+        <E i="385">
+            <Value>看來沒有什麼能讓你慢下來！</Value>
+            <Path>TRACK_PRAISE_26</Path>
+        </E>
+        <E i="386">
+            <Value>你騎出了職業水準，太厲害了！</Value>
+            <Path>TRACK_PRAISE_27</Path>
+        </E>
+        <E i="387">
+            <Value>一乾二淨，做得好！</Value>
+            <Path>TRACK_PRAISE_28</Path>
+        </E>
+        <E i="388">
+            <Value>那些石塊是從哪裡來的啊？</Value>
+            <Path>TRACK_PRAISE_29</Path>
+        </E>
+        <E i="389">
+            <Value>什麼動物有兩條腿，而且騎車技術一流？就是你！</Value>
+            <Path>TRACK_PRAISE_30</Path>
+        </E>
+        <E i="390">
+            <Value></Value>
+            <Path>TRACK_PRAISE_300</Path>
+        </E>
+        <E i="391">
+            <Value></Value>
+            <Path>TRACK_PRAISE_301</Path>
+        </E>
+        <E i="392">
+            <Value></Value>
+            <Path>TRACK_PRAISE_302</Path>
+        </E>
+        <E i="393">
+            <Value></Value>
+            <Path>TRACK_PRAISE_303</Path>
+        </E>
+        <E i="394">
+            <Value></Value>
+            <Path>TRACK_PRAISE_305</Path>
+        </E>
+        <E i="395">
+            <Value>你比鳥兒還快 － 比知更鳥還快！</Value>
+            <Path>TRACK_PRAISE_34</Path>
+        </E>
+        <E i="396">
+            <Value>太好了，你簡直可以進軍好萊塢了！</Value>
+            <Path>TRACK_PRAISE_35</Path>
+        </E>
+        <E i="397">
+            <Value>你真是太厲害了，我已經沒有言詞可以形容了！</Value>
+            <Path>TRACK_PRAISE_36</Path>
+        </E>
+        <E i="398">
+            <Value>精湛騎術！</Value>
+            <Path>TRACK_PRAISE_37</Path>
+        </E>
+        <E i="399">
+            <Value>來！親自目睹！親身體驗！</Value>
+            <Path>TRACK_PRAISE_38</Path>
+        </E>
+        <E i="400">
+            <Value>勇往直前，無人能檔！</Value>
+            <Path>TRACK_PRAISE_39</Path>
+        </E>
+        <E i="401">
+            <Value>大腳輪胎</Value>
+            <Path>TRACTOR_TIRE</Path>
+        </E>
+        <E i="402">
+            <Value>加速 + 控制器 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_BIG_SIMPLE</Path>
+        </E>
+        <E i="403">
+            <Value>加速 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_SIMPLE</Path>
+        </E>
+        <E i="404">
+            <Value>往後行駛</Value>
+            <Path>TRAFFIC_SIGN_BACKWARD_SIMPLE</Path>
+        </E>
+        <E i="405">
+            <Value>跳車</Value>
+            <Path>TRAFFIC_SIGN_BAIL_OUT_SIMPLE</Path>
+        </E>
+        <E i="406">
+            <Value>煞車 + 控制器 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_BIG_SIMPLE</Path>
+        </E>
+        <E i="407">
+            <Value>煞車 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_SIMPLE</Path>
+        </E>
+        <E i="408">
+            <Value>雙柱</Value>
+            <Path>TRAFFIC_SIGN_DOUBLE_POST</Path>
+        </E>
+        <E i="409">
+            <Value>連續動作</Value>
+            <Path>TRAFFIC_SIGN_DYNAMIC_PUNCH_SIMPLE</Path>
+        </E>
+        <E i="410">
+            <Value>飛行</Value>
+            <Path>TRAFFIC_SIGN_FLYING_BIG_SIMPLE</Path>
+        </E>
+        <E i="411">
+            <Value>落地到上坡面</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_HILL_SIMPLE</Path>
+        </E>
+        <E i="412">
+            <Value>落地到下坡面</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_SLOPE_SIMPLE</Path>
+        </E>
+        <E i="413">
+            <Value>壓車 + 控制器 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_BIG_SIMPLE</Path>
+        </E>
+        <E i="414">
+            <Value>壓車 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_SIMPLE</Path>
+        </E>
+        <E i="415">
+            <Value>往後翻滾 + 控制器 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_BIG_SIMPLE</Path>
+        </E>
+        <E i="416">
+            <Value>往後翻滾 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_SIMPLE</Path>
+        </E>
+        <E i="417">
+            <Value>翻滾 + 控制器 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BIG_SIMPLE</Path>
+        </E>
+        <E i="418">
+            <Value>翻滾 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_SIMPLE</Path>
+        </E>
+        <E i="419">
+            <Value>單柱</Value>
+            <Path>TRAFFIC_SIGN_SINGLE_POST</Path>
+        </E>
+        <E i="420">
+            <Value>Trials 空翻</Value>
+            <Path>TRAFFIC_SIGN_TRIALS_FLIP_SIMPLE</Path>
+        </E>
+        <E i="421">
+            <Value>上坡 + 控制器 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_BIG_SIMPLE</Path>
+        </E>
+        <E i="422">
+            <Value>上坡 (簡易)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_SIMPLE</Path>
+        </E>
+        <E i="423">
+            <Value>火車車廂</Value>
+            <Path>TRAIN_RAIL_CART_1</Path>
+        </E>
+        <E i="424">
+            <Value>鐵軌 (向下 45 度)</Value>
+            <Path>TRAIN_RAIL_DOWN_45</Path>
+        </E>
+        <E i="425">
+            <Value>鐵軌 (直)</Value>
+            <Path>TRAIN_RAIL_STRAIGHT_LONG</Path>
+        </E>
+        <E i="426">
+            <Value>鐵軌 (轉彎 45 度)</Value>
+            <Path>TRAIN_RAIL_TURN_RIGHT_45</Path>
+        </E>
+        <E i="427">
+            <Value>鐵軌 (向上 45 度)</Value>
+            <Path>TRAIN_RAIL_UP_45</Path>
+        </E>
+        <E i="428">
+            <Value>高</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="429">
+            <Value>高</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="430">
+            <Value>高</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="431">
+            <Value>高</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="432">
+            <Value>高</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="433">
+            <Value>高</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="434">
+            <Value>高</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="435">
+            <Value>高</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="436">
+            <Value>高</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="437">
+            <Value>高</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="438">
+            <Value>高</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="439">
+            <Value>高</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="440">
+            <Value>高</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="441">
+            <Value>高</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="442">
+            <Value>低</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="443">
+            <Value>低</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="444">
+            <Value>低</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="445">
+            <Value>低</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="446">
+            <Value>低</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="447">
+            <Value>低</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="448">
+            <Value>低</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="449">
+            <Value>低</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="450">
+            <Value>低</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="451">
+            <Value>低</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="452">
+            <Value>低</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="453">
+            <Value>低</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="454">
+            <Value>低</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="455">
+            <Value>低</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="456">
+            <Value>低</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="457">
+            <Value>低</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="458">
+            <Value>低</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="459">
+            <Value>低</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="460">
+            <Value>低</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="461">
+            <Value>低</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="462">
+            <Value>正常</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="463">
+            <Value>正常</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="464">
+            <Value>正常</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="465">
+            <Value>正常</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="466">
+            <Value>低</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="467">
+            <Value>正常</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="468">
+            <Value>正常</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="469">
+            <Value>正常</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="470">
+            <Value>正常</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="471">
+            <Value>正常</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="472">
+            <Value>正常</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="473">
+            <Value>正常</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="474">
+            <Value>正常</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="475">
+            <Value>正常</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="476">
+            <Value>正常</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="477">
+            <Value>牆面裝飾鋼板</Value>
+            <Path>WALL_DECORATION_POST</Path>
+        </E>
+        <E i="478">
+            <Value>木箱</Value>
+            <Path>WOODBOX</Path>
+        </E>
+        <E i="479">
+            <Value>無蓋木箱</Value>
+            <Path>WOODBOX_WO_COVER</Path>
+        </E>
+        <E i="480">
+            <Value>木牆</Value>
+            <Path>WOODEN_WALL</Path>
+        </E>
+        <E i="481">
+            <Value>木牆周圍</Value>
+            <Path>WOODEN_WALL_EDGES</Path>
+        </E>
+        <E i="482">
+            <Value>木牆木板</Value>
+            <Path>WOODEN_WALL_PLANK</Path>
+        </E>
+        <E i="483">
+            <Value>木製平台</Value>
+            <Path>WOOD_PLAT</Path>
+        </E>
+        <E i="484">
+            <Value>木製平台 (大)</Value>
+            <Path>WOOD_PLAT_PLATE</Path>
+        </E>
+        <E i="485">
+            <Value>木結構</Value>
+            <Path>WOOD_STRUCT_Q_1</Path>
+        </E>
+        <E i="486">
+            <Value>飛彈</Value>
+            <Path>WWII_BOMB</Path>
+        </E>
+        <E i="487">
+            <Value>Scorpion 250cc</Value>
+            <Path>bike</Path>
+        </E>
+        <E i="488">
+            <Value>Turtle 80cc</Value>
+            <Path>bike_beginner</Path>
+        </E>
+        <E i="489">
+            <Value>Reptile 125cc</Value>
+            <Path>bike_easy</Path>
+        </E>
+        <E i="490">
+            <Value>Phoenix Evo 250cc</Value>
+            <Path>bike_hard</Path>
+        </E>
+        <E i="491">
+            <Value>Micro Donkey 60cc</Value>
+            <Path>bike_monkey</Path>
+        </E>
+        <E i="492">
+            <Value>Phoenix REV 250cc</Value>
+            <Path>bike_reverse</Path>
+        </E>
+        <E i="493">
+            <Value>Scorpion AIR 125cc</Value>
+            <Path>bike_ski</Path>
+        </E>
+        <E i="494">
+            <Value>Hauler 600cc</Value>
+            <Path>bike_with_cart</Path>
+        </E>
+    </Entries>
+</XusFile>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+挑戰賽道\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+排行榜\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+返回\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroupNoGhost.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="1">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HiddenButton.PointSize</Path>
+        </E>
+        <E i="2">
+            <Value></Value>
+            <Path>XuiScene1.HiddenButton.Text</Path>
+        </E>
+        <E i="3">
+            <Value>16.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+\r
+若您未連線 Xbox LIVE，線上功能將無法使用。\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>XuiScene1.LeaderboardGroup.NotificationText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value></Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value></Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.XuiListItem1.Text</Path>
+        </E>
+        <E i="12">
+            <Value></Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.XuiListItem1.Text</Path>
+        </E>
+        <E i="13">
+            <Value></Value>
+            <Path>XuiScene1.LeaderboardGroup.ResultList.XuiListItem1.Text</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[<div align="left">\r
+\r
+<font color="#EBB40F" size="18">\r
+\r
+</font>\r
+\r
+\r
+\r
+\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.PreviewGroup.MedalsGroup.NextMedalText1.Text</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[<div align="left">\r
+\r
+<font color="#EBB40F" size="18">\r
+\r
+</font>\r
+\r
+<font color="#D8C69A" size="18">\r
+\r
+</font>\r
+\r
+<font color="#EBB40F" size="18">\r
+\r
+</font>\r
+\r
+<font color="#D8C69A" size="18">\r
+\r
+</font>\r
+\r
+<font color="#EBB40F" size="18">\r
+\r
+</font>\r
+\r
+\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.PreviewGroup.MedalsGroup.NextMedalText2.Text</Path>
+        </E>
+        <E i="17">
+            <Value>40.000000</Value>
+            <Path>XuiScene1.PreviewGroup.SkillGameName.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value></Value>
+            <Path>XuiScene1.PreviewGroup.SkillGameName.Text</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PreviewGroup.TrackImage.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene1.PreviewGroup.TrackImage.Text</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.Text</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="33">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="34">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="35">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="36">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="37">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="38">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="39">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="40">
+            <Value></Value>
+            <Path>XuiScene1.SkillGameList.XuiListItem1.Text</Path>
+        </E>
+        <E i="41">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="42">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+\r
+選擇特技挑戰\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>XuiScene1.Title.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+확인/뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsColorSelector.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_dpad_bg.dds" align="middle" /> \r
+새 물체\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorCursorModeAdvanced.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+\r
+<img src="images/menu_buttons_rb_bg.dds" align="middle" /> \r
+카메라 원위치\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorCursorModeAdvanced.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_dpad_bg.dds" align="middle" /> \r
+새 물체\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorCursorModeSimple.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_rt_bg.dds" align="middle" /> \r
+<img src="images/menu_buttons_lt_bg.dds" align="middle" /> \r
+회전\r
+\r
+<img src="images/menu_buttons_rb_bg.dds" align="middle" /> \r
+축 변경\r
+\r
+<img src="images/menu_buttons_lb_bg.dds" align="middle" /> \r
+90도 회전\r
+\r
+<img src="images/menu_buttons_lb_bg.dds" align="middle" /> \r
+(누르고 있음) 여러 개 선택\r
+\r
+<img src="images/menu_buttons_dpad_up_bg.dds" align="middle" /> \r
+물체 특성\r
+\r
+<img src="images/menu_buttons_rs_bg.dds" align="middle" /> \r
+원위치\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorObjectSelectedModeAdvanced.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+배치\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+삭제\r
+\r
+<img src="images/menu_buttons_y_bg.dds" align="middle" /> \r
+복사\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorObjectSelectedModeAdvanced.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="6">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_rt_bg.dds" align="middle" /> \r
+<img src="images/menu_buttons_lt_bg.dds" align="middle" /> \r
+회전\r
+\r
+<img src="images/menu_buttons_rb_bg.dds" align="middle" /> \r
+축 변경\r
+\r
+<img src="images/menu_buttons_rs_bg.dds" align="middle" /> \r
+원위치\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorObjectSelectedModeSimple.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+배치\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+삭제\r
+\r
+<img src="images/menu_buttons_y_bg.dds" align="middle" /> \r
+복사\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorObjectSelectedModeSimple.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="8">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+확인/뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsEditorPropertiesMenu.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="9">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BottomButtonsGlueToObject.DescriptionText.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value></Value>
+            <Path>XuiScene1.BottomButtonsGlueToObject.DescriptionText.Text</Path>
+        </E>
+        <E i="11">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택물 추가/제거\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+확인\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsGlueToObject.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsGlueToObject.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="13">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+편집기/뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsLightAngleSelector.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsMedalTimes.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택 취소\r
+\r
+<img src="images/menu_buttons_dpad_bg.dds" align="middle" /> \r
+값 변경\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+확인/뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsMedalTimesEdit.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_rt_bg.dds" align="middle" /> \r
+<img src="images/menu_buttons_lt_bg.dds" align="middle" /> \r
+회전\r
+\r
+<img src="images/menu_buttons_rb_bg.dds" align="middle" /> \r
+축 변경\r
+\r
+<img src="images/menu_buttons_lb_bg.dds" align="middle" /> \r
+90도 회전\r
+\r
+<img src="images/menu_buttons_lb_bg.dds" align="middle" /> \r
+(누르고 있음) 여러 개 선택\r
+\r
+<img src="images/menu_buttons_dpad_up_bg.dds" align="middle" /> \r
+물체 특성\r
+\r
+<img src="images/menu_buttons_rs_bg.dds" align="middle" /> \r
+원위치\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsMultiSelect.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+배치\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+삭제\r
+\r
+<img src="images/menu_buttons_y_bg.dds" align="middle" /> \r
+복사\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsMultiSelect.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="18">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsMultiSelectButtonDown.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+확인/뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsObjectProperties.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="20">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images\\menu_buttons_dpad_bg.dds" align="middle" /> \r
+목록 및 물체 보기\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsObjectTypeSelector.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="21">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_y_bg.dds" align="middle" /> \r
+벽 장애물 생성\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+벽 장애물 제거\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsRoomObject.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="22">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsRoomObject.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="23">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BottomButtonsSelectTrigger.DescriptionText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value></Value>
+            <Path>XuiScene1.BottomButtonsSelectTrigger.DescriptionText.Text</Path>
+        </E>
+        <E i="25">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택물 추가/제거\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+확인\r
+\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsSelectTrigger.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_ls_bg.dds" align="middle" /> \r
+카메라 모드\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+물리적 특성 켜기/끄기\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+편집기 메뉴\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.BottomButtonsSelectTrigger.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.CameraRangeSlider.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>카메라 범위:</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.CameraRangeSlider.Text</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.CheckCameraButton.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>카메라 각도 확인</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.CheckCameraButton.Text</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.FieldOfViewSlider.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>시야 범위:</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.FieldOfViewSlider.Text</Path>
+        </E>
+        <E i="33">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value>카메라 설정</Value>
+            <Path>XuiScene1.CameraPropertiesGroup.TitleText.Text</Path>
+        </E>
+        <E i="35">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ColorSelectionGroup.BrightnessSlider.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value>명도</Value>
+            <Path>XuiScene1.ColorSelectionGroup.BrightnessSlider.Text</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ColorSelectionGroup.HueSlider.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value>색</Value>
+            <Path>XuiScene1.ColorSelectionGroup.HueSlider.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ColorSelectionGroup.SaturationSlider.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value>채도</Value>
+            <Path>XuiScene1.ColorSelectionGroup.SaturationSlider.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.ColorSelectionGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>색 선택</Value>
+            <Path>XuiScene1.ColorSelectionGroup.TitleText.Text</Path>
+        </E>
+        <E i="43">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditOverlayGroup.SceneComplexityProgressBar.PointSize</Path>
+        </E>
+        <E i="44">
+            <Value>공간의 복잡도</Value>
+            <Path>XuiScene1.EditOverlayGroup.SceneComplexityProgressBar.Text</Path>
+        </E>
+        <E i="45">
+            <Value>17.000000</Value>
+            <Path>XuiScene1.EditorModeGroup.AdvancedMode.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>고급 모드</Value>
+            <Path>XuiScene1.EditorModeGroup.AdvancedMode.Text</Path>
+        </E>
+        <E i="47">
+            <Value>17.000000</Value>
+            <Path>XuiScene1.EditorModeGroup.SimpleMode.PointSize</Path>
+        </E>
+        <E i="48">
+            <Value>단순 모드</Value>
+            <Path>XuiScene1.EditorModeGroup.SimpleMode.Text</Path>
+        </E>
+        <E i="49">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.Text</Path>
+        </E>
+        <E i="51">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="53">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="54">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="66">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="67">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="68">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="69">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="70">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="71">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="72">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="73">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="74">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="75">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="76">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="77">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="78">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.CategoryList.control _ListItem.Text</Path>
+        </E>
+        <E i="79">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectDescriptionText.PointSize</Path>
+        </E>
+        <E i="80">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectDescriptionText.Text</Path>
+        </E>
+        <E i="81">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.PointSize</Path>
+        </E>
+        <E i="82">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.Text</Path>
+        </E>
+        <E i="83">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="84">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="85">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="86">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="87">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="88">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="89">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="90">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="91">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="92">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="93">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="94">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="95">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="96">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="97">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="98">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="99">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="100">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="101">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="102">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="103">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="104">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="105">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="106">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="107">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="108">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="109">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="110">
+            <Value></Value>
+            <Path>XuiScene1.EditorObjectSelectorGroup.ObjectTypeList.control _ListItem.Text</Path>
+        </E>
+        <E i="111">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.AmbientColorButton.PointSize</Path>
+        </E>
+        <E i="112">
+            <Value>전반적인 색</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.AmbientColorButton.Text</Path>
+        </E>
+        <E i="113">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.FogAmountSlider.PointSize</Path>
+        </E>
+        <E i="114">
+            <Value>먼지 농도</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.FogAmountSlider.Text</Path>
+        </E>
+        <E i="115">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.FogColorButton.PointSize</Path>
+        </E>
+        <E i="116">
+            <Value>먼지 색</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.FogColorButton.Text</Path>
+        </E>
+        <E i="117">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.SunLightColorButton.PointSize</Path>
+        </E>
+        <E i="118">
+            <Value>햇빛 색</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.SunLightColorButton.Text</Path>
+        </E>
+        <E i="119">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.SunLightDirectionButton.PointSize</Path>
+        </E>
+        <E i="120">
+            <Value>햇빛 방향</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.AdvancedGroup.SunLightDirectionButton.Text</Path>
+        </E>
+        <E i="121">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.LevelDifficultySlider.PointSize</Path>
+        </E>
+        <E i="122">
+            <Value>트랙 난이도:</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.LevelDifficultySlider.Text</Path>
+        </E>
+        <E i="123">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.LevelStyleSlider.PointSize</Path>
+        </E>
+        <E i="124">
+            <Value>트랙 스타일:</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.LevelStyleSlider.Text</Path>
+        </E>
+        <E i="125">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.MedalTimesButton.PointSize</Path>
+        </E>
+        <E i="126">
+            <Value>메달 획득 시간</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.MedalTimesButton.Text</Path>
+        </E>
+        <E i="127">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="128">
+            <Value>트랙 설정</Value>
+            <Path>XuiScene1.LevelPropertiesGroup.TitleText.Text</Path>
+        </E>
+        <E i="129">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LightColorGroup.LightBrightnessSlider.PointSize</Path>
+        </E>
+        <E i="130">
+            <Value>밝은 명도</Value>
+            <Path>XuiScene1.LightColorGroup.LightBrightnessSlider.Text</Path>
+        </E>
+        <E i="131">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LightColorGroup.LightColorSlider.PointSize</Path>
+        </E>
+        <E i="132">
+            <Value>밝은 색깔</Value>
+            <Path>XuiScene1.LightColorGroup.LightColorSlider.Text</Path>
+        </E>
+        <E i="133">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LightColorGroup.LightSaturationSlider.PointSize</Path>
+        </E>
+        <E i="134">
+            <Value>밝은 채도</Value>
+            <Path>XuiScene1.LightColorGroup.LightSaturationSlider.Text</Path>
+        </E>
+        <E i="135">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.LightColorGroup.LightTitleText.PointSize</Path>
+        </E>
+        <E i="136">
+            <Value>밝은 색깔</Value>
+            <Path>XuiScene1.LightColorGroup.LightTitleText.Text</Path>
+        </E>
+        <E i="137">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.BronzeFaults.PointSize</Path>
+        </E>
+        <E i="138">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.BronzeFaults.Text</Path>
+        </E>
+        <E i="139">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.BronzeTime.PointSize</Path>
+        </E>
+        <E i="140">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.BronzeTime.Text</Path>
+        </E>
+        <E i="141">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultGroup1.FaultButton.PointSize</Path>
+        </E>
+        <E i="142">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultGroup1.FaultButton.Text</Path>
+        </E>
+        <E i="143">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultGroup2.FaultButton.PointSize</Path>
+        </E>
+        <E i="144">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultGroup2.FaultButton.Text</Path>
+        </E>
+        <E i="145">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultGroup3.FaultButton.PointSize</Path>
+        </E>
+        <E i="146">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultGroup3.FaultButton.Text</Path>
+        </E>
+        <E i="147">
+            <Value>16.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultsTitle.PointSize</Path>
+        </E>
+        <E i="148">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.FaultsTitle.Text</Path>
+        </E>
+        <E i="149">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.GoldFaults.PointSize</Path>
+        </E>
+        <E i="150">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.GoldFaults.Text</Path>
+        </E>
+        <E i="151">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.GoldTime.PointSize</Path>
+        </E>
+        <E i="152">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.GoldTime.Text</Path>
+        </E>
+        <E i="153">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.SilverFaults.PointSize</Path>
+        </E>
+        <E i="154">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.SilverFaults.Text</Path>
+        </E>
+        <E i="155">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.SilverTime.PointSize</Path>
+        </E>
+        <E i="156">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.SilverTime.Text</Path>
+        </E>
+        <E i="157">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeGroup1.TimeButton.PointSize</Path>
+        </E>
+        <E i="158">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeGroup1.TimeButton.Text</Path>
+        </E>
+        <E i="159">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeGroup2.TimeButton.PointSize</Path>
+        </E>
+        <E i="160">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeGroup2.TimeButton.Text</Path>
+        </E>
+        <E i="161">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeGroup3.TimeButton.PointSize</Path>
+        </E>
+        <E i="162">
+            <Value></Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeGroup3.TimeButton.Text</Path>
+        </E>
+        <E i="163">
+            <Value>16.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeTitle.PointSize</Path>
+        </E>
+        <E i="164">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene1.MedalTimesGroup.TimeTitle.Text</Path>
+        </E>
+        <E i="165">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="166">
+            <Value>메달 획득 시간</Value>
+            <Path>XuiScene1.MedalTimesGroup.TitleText.Text</Path>
+        </E>
+        <E i="167">
+            <Value>15.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="168">
+            <Value><![CDATA[플래티넘\r
+]]></Value>
+            <Path>XuiScene1.MedalTimesGroup.XuiText1.Text</Path>
+        </E>
+        <E i="169">
+            <Value>15.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.XuiText2.PointSize</Path>
+        </E>
+        <E i="170">
+            <Value>금</Value>
+            <Path>XuiScene1.MedalTimesGroup.XuiText2.Text</Path>
+        </E>
+        <E i="171">
+            <Value>15.000000</Value>
+            <Path>XuiScene1.MedalTimesGroup.XuiText3.PointSize</Path>
+        </E>
+        <E i="172">
+            <Value>은</Value>
+            <Path>XuiScene1.MedalTimesGroup.XuiText3.Text</Path>
+        </E>
+        <E i="173">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.AnimationCheckbox.PointSize</Path>
+        </E>
+        <E i="174">
+            <Value>동작성</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.AnimationCheckbox.Text</Path>
+        </E>
+        <E i="175">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.GlueToButton.PointSize</Path>
+        </E>
+        <E i="176">
+            <Value>물체에 부착</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.GlueToButton.Text</Path>
+        </E>
+        <E i="177">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.LightCheckbox.PointSize</Path>
+        </E>
+        <E i="178">
+            <Value><![CDATA[빛\r
+]]></Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.LightCheckbox.Text</Path>
+        </E>
+        <E i="179">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.LightPropertiesButton.PointSize</Path>
+        </E>
+        <E i="180">
+            <Value>빛 속성</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.LightPropertiesButton.Text</Path>
+        </E>
+        <E i="181">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.LockToDrivingLineCheckbox.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value>드라이빙 라인에 고정</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.LockToDrivingLineCheckbox.Text</Path>
+        </E>
+        <E i="183">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.ObjectTitleText.PointSize</Path>
+        </E>
+        <E i="184">
+            <Value>물체 특성</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.ObjectTitleText.Text</Path>
+        </E>
+        <E i="185">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.PhysicsCheckbox.PointSize</Path>
+        </E>
+        <E i="186">
+            <Value><![CDATA[물리적 특성\r
+]]></Value>
+            <Path>XuiScene1.ObjectPropertiesGroup.PhysicsCheckbox.Text</Path>
+        </E>
+        <E i="187">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseButton.PointSize</Path>
+        </E>
+        <E i="188">
+            <Value></Value>
+            <Path>XuiScene1.PauseButton.Text</Path>
+        </E>
+        <E i="189">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="190">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SunLightGroup.SunLightAngleSlider.PointSize</Path>
+        </E>
+        <E i="191">
+            <Value>햇빛 각도</Value>
+            <Path>XuiScene1.SunLightGroup.SunLightAngleSlider.Text</Path>
+        </E>
+        <E i="192">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SunLightGroup.TimeOfDaySlider.PointSize</Path>
+        </E>
+        <E i="193">
+            <Value>시간대</Value>
+            <Path>XuiScene1.SunLightGroup.TimeOfDaySlider.Text</Path>
+        </E>
+        <E i="194">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.SunLightGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="195">
+            <Value>햇빛 방향</Value>
+            <Path>XuiScene1.SunLightGroup.TitleText.Text</Path>
+        </E>
+        <E i="196">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="197">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivateAnimationCheckbox.PointSize</Path>
+        </E>
+        <E i="198">
+            <Value>동작성</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivateAnimationCheckbox.Text</Path>
+        </E>
+        <E i="199">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivateExplosionCheckbox.PointSize</Path>
+        </E>
+        <E i="200">
+            <Value>폭발/파괴</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivateExplosionCheckbox.Text</Path>
+        </E>
+        <E i="201">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivateLightCheckbox.PointSize</Path>
+        </E>
+        <E i="202">
+            <Value>빛</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivateLightCheckbox.Text</Path>
+        </E>
+        <E i="203">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivatePhysicsCheckbox.PointSize</Path>
+        </E>
+        <E i="204">
+            <Value>물리적 특성</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.ActivatePhysicsCheckbox.Text</Path>
+        </E>
+        <E i="205">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.SelectTriggerButton.PointSize</Path>
+        </E>
+        <E i="206">
+            <Value>물체 선택</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.SelectTriggerButton.Text</Path>
+        </E>
+        <E i="207">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="208">
+            <Value>트리거 특성</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.TitleText.Text</Path>
+        </E>
+        <E i="209">
+            <Value>16.000000</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.TitleText1.PointSize</Path>
+        </E>
+        <E i="210">
+            <Value>변경할 부분 선택</Value>
+            <Path>XuiScene1.TriggerPropertiesGroup.TitleText1.Text</Path>
+        </E>
+        <E i="211">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.UnVerifiedGroup.VerifiedText.PointSize</Path>
+        </E>
+        <E i="212">
+            <Value></Value>
+            <Path>XuiScene1.UnVerifiedGroup.VerifiedText.Text</Path>
+        </E>
+        <E i="213">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.VerifiedGroup.VerifiedText.PointSize</Path>
+        </E>
+        <E i="214">
+            <Value></Value>
+            <Path>XuiScene1.VerifiedGroup.VerifiedText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

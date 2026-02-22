@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Retour</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Retour\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HowToText.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HowToText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Course de trial\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Le but du jeu est de terminer la piste aussi vite que possible en faisant le moins de fautes possible. Tu recevras une médaille de bronze pour avoir simplement terminé la piste, mais de meilleures performances seront récompensées par d'autres médailles.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Fautes\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Une faute se produit lorsque le motard renverse la moto ou subit trop de dégâts de son environnement. Après une faute, la moto revient au dernier point de contrôle que le joueur a passé.\r
+<br><br>\r
+N'oublie pas que ce sont les fautes qui permettent de déterminer en grande partie les scores. Quelle que soit la vitesse à laquelle tu as parcouru la piste, il est toujours préférable de terminer avec le moins de fautes possible, même si tu conduis plus lentement.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Jeux d'adresse\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Les jeux d'adresse sont déverrouillés au cours du jeu. Leurs objectifs varient et apparaissent avant que le jeu ne commence. Trials HD utilise un modèle physique très sophistiqué et rien n'est laissé au hasard dans le jeu. Les mouvements avancés demandent un très bon contrôle, mais c'est en pilotant qu'on devient pilote ! Bonne chance !\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Mouvement avancé : saut sur ressort : effectue de très grands sauts\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Penche-toi en arrière quand tu accélères vers une rampe. Juste avant de sauter, déplace le poids du joueur rapidement vers l'avant. Avec le saut sur ressort, tu vas plus haut sur les pentes abruptes des collines. Un bon endroit pour s'entraîner est la deuxième pente du niveau Didacticiel Difficile.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Mode avancé : saut inversé : saute sur un sol plat \r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Penche-toi en avant, ouvre les gaz et ramène rapidement ton poids vers l'arrière puis vers l'avant. C'est ainsi que tu gagnes de la vitesse et que tu peux sauter plus haut sur les sols plats. Un bon endroit pour s'entraîner se trouve au début du niveau Didacticiel Difficile.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Mouvement avancé : retournement : fais de très longs sauts au-dessus des rampes.\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Lève la roue avant et accélère vers l'endroit du saut. Fais passer ton poids vers l'avant et tu forceras la moto à se retourner dans cette direction. Ce truc peut t'aider à gagner plus de vitesse avant de sauter et est particulièrement utile lorsque tu rencontres des rampes qui te lancent directement vers le haut. Le meilleur endroit pour pratiquer cette figure est le jeu d'adresse Saut à ski.\r
+<br><br>\r
+</font>]]></Value>
+            <Path>XuiScene.HowToText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>COMMENT JOUER</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

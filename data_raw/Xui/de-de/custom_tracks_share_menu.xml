@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Ändern\r
+\r
+<img src="images/menu_buttons_y_bg.dds" align="middle" /> \r
+Alle Änderungen bestätigen\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoNoTracksGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="32">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="34">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="35">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="36">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="37">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="39">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="41">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="42">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="45">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="46">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="47">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="48">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="49">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="50">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="51">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="52">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="53">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ListGroup.ShareTracksList.control_ListItem.Text</Path>
+        </E>
+        <E i="54">
+            <Value>20.000000</Value>
+            <Path>XuiScene.ListGroup.XuiText3.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value>STRECKENNAME</Value>
+            <Path>XuiScene.ListGroup.XuiText3.Text</Path>
+        </E>
+        <E i="56">
+            <Value>20.000000</Value>
+            <Path>XuiScene.ListGroup.XuiText4.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value>STIL</Value>
+            <Path>XuiScene.ListGroup.XuiText4.Text</Path>
+        </E>
+        <E i="58">
+            <Value>20.000000</Value>
+            <Path>XuiScene.ListGroup.XuiText5.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value>SCHWIERIGKEIT</Value>
+            <Path>XuiScene.ListGroup.XuiText5.Text</Path>
+        </E>
+        <E i="60">
+            <Value>20.000000</Value>
+            <Path>XuiScene.ListGroup.XuiText7.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value>GERÄT</Value>
+            <Path>XuiScene.ListGroup.XuiText7.Text</Path>
+        </E>
+        <E i="62">
+            <Value>20.000000</Value>
+            <Path>XuiScene.ListGroup.XuiText8.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value>ERSTELLT</Value>
+            <Path>XuiScene.ListGroup.XuiText8.Text</Path>
+        </E>
+        <E i="64">
+            <Value>20.000000</Value>
+            <Path>XuiScene.ListGroup.XuiText9.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value>FREIGABE</Value>
+            <Path>XuiScene.ListGroup.XuiText9.Text</Path>
+        </E>
+        <E i="66">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Du besitzt keine benutzerdefinierten Strecken\r
+</font>]]></Value>
+            <Path>XuiScene.NotificationGroup.NotificationHeader.Text</Path>
+        </E>
+        <E i="67">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+Verwende den Strecken-Editor, um benutzerdefinierte Strecken zu erstellen, oder lade Strecken deiner Freunde herunter\r
+</font>]]></Value>
+            <Path>XuiScene.NotificationGroup.NotificationMessage.Text</Path>
+        </E>
+        <E i="68">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="69">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+\r
+\r
+</font>\r
+</div>\r
+\r
+]]></Value>
+            <Path>XuiScene.StorageInfo.Text</Path>
+        </E>
+        <E i="70">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="71">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value>STRECKEN FREIGEBEN</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

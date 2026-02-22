@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>空気冷却器</Value>
+            <Path>AIR_CONDENSER</Path>
+        </E>
+        <E i="1">
+            <Value>空気冷却器 (小)</Value>
+            <Path>AIR_CONDENSER_SMALL</Path>
+        </E>
+        <E i="2">
+            <Value>背景設定 1</Value>
+            <Path>BACKGROUND_SET_1</Path>
+        </E>
+        <E i="3">
+            <Value>背景設定 2</Value>
+            <Path>BACKGROUND_SET_2</Path>
+        </E>
+        <E i="4">
+            <Value>背景設定 3</Value>
+            <Path>BACKGROUND_SET_3</Path>
+        </E>
+        <E i="5">
+            <Value>背景設定 4</Value>
+            <Path>BACKGROUND_SET_4</Path>
+        </E>
+        <E i="6">
+            <Value>ドラム缶</Value>
+            <Path>BARREL</Path>
+        </E>
+        <E i="7">
+            <Value>火薬樽</Value>
+            <Path>BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="8">
+            <Value>火薬樽 (フタなし)</Value>
+            <Path>BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="9">
+            <Value>ドラム缶 (フタなし)</Value>
+            <Path>BARREL_OPEN</Path>
+        </E>
+        <E i="10">
+            <Value>ドラム缶 (大)</Value>
+            <Path>BIG_BARREL</Path>
+        </E>
+        <E i="11">
+            <Value>木箱 (大)</Value>
+            <Path>BIG_BOX</Path>
+        </E>
+        <E i="12">
+            <Value>アフターバーナー</Value>
+            <Path>BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="13">
+            <Value>スポットライト</Value>
+            <Path>BULB_SPOTLIGHT</Path>
+        </E>
+        <E i="14">
+            <Value>スポットライト (故障)</Value>
+            <Path>BULB_SPOTLIGHT_FLICKER</Path>
+        </E>
+        <E i="15">
+            <Value>車のタイヤ</Value>
+            <Path>CAR_TIRE</Path>
+        </E>
+        <E i="16">
+            <Value>ローカルの大会に参加して、フレンドにキミの腕前を見せつけよう!</Value>
+            <Path>CHALLENGE_DESCRIPTION_01</Path>
+        </E>
+        <E i="17">
+            <Value>ローカルで最強のライダーと対戦しよう!</Value>
+            <Path>CHALLENGE_DESCRIPTION_02</Path>
+        </E>
+        <E i="18">
+            <Value>このスポーツが生まれた国で、最強のライダーと対決!</Value>
+            <Path>CHALLENGE_DESCRIPTION_03</Path>
+        </E>
+        <E i="19">
+            <Value>ヨーロッパの最強ライダーたちを打ち負かそう!</Value>
+            <Path>CHALLENGE_DESCRIPTION_04</Path>
+        </E>
+        <E i="20">
+            <Value>新たな国にもプロが待ち受けている。チャレンジの用意はいいか?</Value>
+            <Path>CHALLENGE_DESCRIPTION_05</Path>
+        </E>
+        <E i="21">
+            <Value>ついにきた、Trial Bike World Championships! 伝説はここで生まれる!</Value>
+            <Path>CHALLENGE_DESCRIPTION_06</Path>
+        </E>
+        <E i="22">
+            <Value>危険に満ちたルール無用の世界で、キミの実力を見せつけよう!</Value>
+            <Path>CHALLENGE_DESCRIPTION_07</Path>
+        </E>
+        <E i="23">
+            <Value>世界の伝説的なコースをめぐる旅。過酷なライドと時差ボケに耐えられるか?</Value>
+            <Path>CHALLENGE_DESCRIPTION_08</Path>
+        </E>
+        <E i="24">
+            <Value>Backyard Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_01</Path>
+        </E>
+        <E i="25">
+            <Value>National Bike Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_02</Path>
+        </E>
+        <E i="26">
+            <Value>Regional Bike Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_03</Path>
+        </E>
+        <E i="27">
+            <Value>Masters' League</Value>
+            <Path>CHALLENGE_NAME_XLAST_04</Path>
+        </E>
+        <E i="28">
+            <Value>World Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_05</Path>
+        </E>
+        <E i="29">
+            <Value>World Championship</Value>
+            <Path>CHALLENGE_NAME_XLAST_06</Path>
+        </E>
+        <E i="30">
+            <Value>Underground Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_07</Path>
+        </E>
+        <E i="31">
+            <Value>Ultimate Endurance</Value>
+            <Path>CHALLENGE_NAME_XLAST_08</Path>
+        </E>
+        <E i="32">
+            <Value>チェックポイント</Value>
+            <Path>CHECKPOINT</Path>
+        </E>
+        <E i="33">
+            <Value>ブロック</Value>
+            <Path>CONCRETE_BLOCK</Path>
+        </E>
+        <E i="34">
+            <Value>コンクリート管</Value>
+            <Path>CONCRETE_PIPE</Path>
+        </E>
+        <E i="35">
+            <Value>コンクリート管 (カーブ)</Value>
+            <Path>CONCRETE_PIPE_CURVE</Path>
+        </E>
+        <E i="36">
+            <Value>オプション ゴール</Value>
+            <Path>CRASH_GOAL_1</Path>
+        </E>
+        <E i="37">
+            <Value>Target Hunt スコア</Value>
+            <Path>CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="38">
+            <Value>ダイナマイト箱</Value>
+            <Path>DYNAMITE_BOX</Path>
+        </E>
+        <E i="39">
+            <Value>木箱の破壊</Value>
+            <Path>EFFECT_BOX_BREAK_1</Path>
+        </E>
+        <E i="40">
+            <Value>木箱の爆破</Value>
+            <Path>EFFECT_BOX_EXPLODE_1</Path>
+        </E>
+        <E i="41">
+            <Value>電気アーク 1</Value>
+            <Path>EFFECT_ELECTRIC_ARCS_1</Path>
+        </E>
+        <E i="42">
+            <Value>爆発 1</Value>
+            <Path>EFFECT_EXPLOSION_1</Path>
+        </E>
+        <E i="43">
+            <Value>爆発 2</Value>
+            <Path>EFFECT_EXPLOSION_2</Path>
+        </E>
+        <E i="44">
+            <Value>炎 1 (小)</Value>
+            <Path>EFFECT_FIRE_1</Path>
+        </E>
+        <E i="45">
+            <Value>炎 2 (中)</Value>
+            <Path>EFFECT_FIRE_2</Path>
+        </E>
+        <E i="46">
+            <Value>炎 3 (大)</Value>
+            <Path>EFFECT_FIRE_3</Path>
+        </E>
+        <E i="47">
+            <Value>長い炎 1</Value>
+            <Path>EFFECT_FIRE_4</Path>
+        </E>
+        <E i="48">
+            <Value>炎の海</Value>
+            <Path>EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="49">
+            <Value>炎のリング (大)</Value>
+            <Path>EFFECT_FIRE_RING_1</Path>
+        </E>
+        <E i="50">
+            <Value>樽の破壊</Value>
+            <Path>EFFECT_METAL_BARREL_BREAKING_1</Path>
+        </E>
+        <E i="51">
+            <Value>煙 1 (小)</Value>
+            <Path>EFFECT_SMOKE_1</Path>
+        </E>
+        <E i="52">
+            <Value>煙 2 (中)</Value>
+            <Path>EFFECT_SMOKE_2</Path>
+        </E>
+        <E i="53">
+            <Value>煙 3 (大)</Value>
+            <Path>EFFECT_SMOKE_3</Path>
+        </E>
+        <E i="54">
+            <Value>蒸気 1 (遅い)</Value>
+            <Path>EFFECT_STEAM_1</Path>
+        </E>
+        <E i="55">
+            <Value>蒸気 2 (速い)</Value>
+            <Path>EFFECT_STEAM_2</Path>
+        </E>
+        <E i="56">
+            <Value>水滴 1 (小)</Value>
+            <Path>EFFECT_WATER_DRIPPING_1</Path>
+        </E>
+        <E i="57">
+            <Value>水滴 2 (中)</Value>
+            <Path>EFFECT_WATER_DRIPPING_2</Path>
+        </E>
+        <E i="58">
+            <Value>水滴 3 (大)</Value>
+            <Path>EFFECT_WATER_DRIPPING_3</Path>
+        </E>
+        <E i="59">
+            <Value>滝 1 (小)</Value>
+            <Path>EFFECT_WATER_FALL_1</Path>
+        </E>
+        <E i="60">
+            <Value>滝 2 (中)</Value>
+            <Path>EFFECT_WATER_FALL_2</Path>
+        </E>
+        <E i="61">
+            <Value>滝 3 (大)</Value>
+            <Path>EFFECT_WATER_FALL_3</Path>
+        </E>
+        <E i="62">
+            <Value>木材の破壊</Value>
+            <Path>EFFECT_WOOD_BREAK_1</Path>
+        </E>
+        <E i="63">
+            <Value>配電ボックス</Value>
+            <Path>ELECTRIC_CABIN</Path>
+        </E>
+        <E i="64">
+            <Value>フリッパー (大)</Value>
+            <Path>FLIPPER</Path>
+        </E>
+        <E i="65">
+            <Value>フリッパー (中)</Value>
+            <Path>FLIPPER_SMALL</Path>
+        </E>
+        <E i="66">
+            <Value>フリッパー (小)</Value>
+            <Path>FLIPPER_TINY</Path>
+        </E>
+        <E i="67">
+            <Value>フリッパー (ワイド 1)</Value>
+            <Path>FLIPPER_WIDE</Path>
+        </E>
+        <E i="68">
+            <Value>フリッパー (ワイド 2)</Value>
+            <Path>FLIPPER_WIDE_2</Path>
+        </E>
+        <E i="69">
+            <Value>蛍光灯</Value>
+            <Path>FLUOR_LAMP</Path>
+        </E>
+        <E i="70">
+            <Value>蛍光灯 (故障)</Value>
+            <Path>FLUOR_LAMP_FLICKER</Path>
+        </E>
+        <E i="71">
+            <Value>蛍光灯 (損壊)</Value>
+            <Path>FLUOR_LAMP_SMASHED</Path>
+        </E>
+        <E i="72">
+            <Value>ボウリングのピン</Value>
+            <Path>GAME_BOWL_CONE</Path>
+        </E>
+        <E i="73">
+            <Value>炎のリング</Value>
+            <Path>GAME_FIRE_RING</Path>
+        </E>
+        <E i="74">
+            <Value>ジャイアント ボール</Value>
+            <Path>GIANT_IRON_BALL</Path>
+        </E>
+        <E i="75">
+            <Value>ジャイアント ボール (内側)</Value>
+            <Path>GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="76">
+            <Value>ガラス 1</Value>
+            <Path>GLASS_1</Path>
+        </E>
+        <E i="77">
+            <Value>ガラス クリップ 1</Value>
+            <Path>GLASS_CLIP_1</Path>
+        </E>
+        <E i="78">
+            <Value>ガラス クリップ 1</Value>
+            <Path>GLASS_CLIP_2</Path>
+        </E>
+        <E i="79">
+            <Value>ゴール</Value>
+            <Path>GOALPOINT</Path>
+        </E>
+        <E i="80">
+            <Value>ランプ + 着地台 (大)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_BIG</Path>
+        </E>
+        <E i="81">
+            <Value>ランプ + 着地台 (中)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_MEDIUM</Path>
+        </E>
+        <E i="82">
+            <Value>ランプ + 着地台 (小)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_SHORT</Path>
+        </E>
+        <E i="83">
+            <Value>ベース (中)</Value>
+            <Path>GROUPS_SCAFFOLD_BIG</Path>
+        </E>
+        <E i="84">
+            <Value>ベース (大)</Value>
+            <Path>GROUPS_SCAFFOLD_HUGE</Path>
+        </E>
+        <E i="85">
+            <Value>デッキ (大)</Value>
+            <Path>GROUPS_TERRACE_HUGE</Path>
+        </E>
+        <E i="86">
+            <Value>デッキ (中)</Value>
+            <Path>GROUPS_TERRACE_SMALL</Path>
+        </E>
+        <E i="87">
+            <Value>デッキ (小)</Value>
+            <Path>GROUPS_TERRACE_TINY</Path>
+        </E>
+        <E i="88">
+            <Value>I 型梁</Value>
+            <Path>I_BEAM</Path>
+        </E>
+        <E i="89">
+            <Value>I 型梁 (大)</Value>
+            <Path>I_BEAM_HUGE</Path>
+        </E>
+        <E i="90">
+            <Value>壁用ランプ 1</Value>
+            <Path>LAMP_WALL_1</Path>
+        </E>
+        <E i="91">
+            <Value>丸太 (大 1)</Value>
+            <Path>LOG_BIG_ROUNDED</Path>
+        </E>
+        <E i="92">
+            <Value>丸太 (大 2)</Value>
+            <Path>LOG_BIG_ROUNDED_SHORT</Path>
+        </E>
+        <E i="93">
+            <Value>角材 (大 1)</Value>
+            <Path>LOG_BIG_SQUARE</Path>
+        </E>
+        <E i="94">
+            <Value>角材 (大 2)</Value>
+            <Path>LOG_BIG_SQUARE_SHORT</Path>
+        </E>
+        <E i="95">
+            <Value>丸太</Value>
+            <Path>LOG_ROUNDED</Path>
+        </E>
+        <E i="96">
+            <Value>角材</Value>
+            <Path>LOG_SQUARE</Path>
+        </E>
+        <E i="97">
+            <Value>メタル ケージ (大)</Value>
+            <Path>METAL_CAGE_BIG</Path>
+        </E>
+        <E i="98">
+            <Value>メタル ゴール ライン</Value>
+            <Path>METAL_FINISH_LINE</Path>
+        </E>
+        <E i="99">
+            <Value>メタル ゴール ライン (小)</Value>
+            <Path>METAL_FINISH_LINE_SMALL</Path>
+        </E>
+        <E i="100">
+            <Value>メタル ゴール ライン (大)</Value>
+            <Path>METAL_FINISH_LINE_WIDE</Path>
+        </E>
+        <E i="101">
+            <Value>金網</Value>
+            <Path>METAL_GRID</Path>
+        </E>
+        <E i="102">
+            <Value>鉄棒 (大)</Value>
+            <Path>METAL_STICK_LONG</Path>
+        </E>
+        <E i="103">
+            <Value>鉄棒 (中)</Value>
+            <Path>METAL_STICK_MED</Path>
+        </E>
+        <E i="104">
+            <Value>鉄棒 (小)</Value>
+            <Path>METAL_STICK_SHORT</Path>
+        </E>
+        <E i="105">
+            <Value>ビッグ ボム</Value>
+            <Path>NUKE</Path>
+        </E>
+        <E i="106">
+            <Value>接触すると爆発する</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="107">
+            <Value>接触すると爆発する</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="108">
+            <Value>手に入れてから 2 秒間効果が持続する、バイク用のアフターバーナー</Value>
+            <Path>OBJECT_HELP_TEXT_BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="109">
+            <Value>ミスをしたあと、ゲームを続行できるポイント</Value>
+            <Path>OBJECT_HELP_TEXT_CHECKPOINT</Path>
+        </E>
+        <E i="110">
+            <Value>オプションで追加できる、コースの終了地点</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_1</Path>
+        </E>
+        <E i="111">
+            <Value>破壊するとポイントを獲得できる、Target Hunt モード用のアイテム</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="112">
+            <Value>接触すると爆発する、破壊力の大きな爆発物</Value>
+            <Path>OBJECT_HELP_TEXT_DYNAMITE_BOX</Path>
+        </E>
+        <E i="113">
+            <Value>プレイヤーに火が燃え移る (小エリア)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_1</Path>
+        </E>
+        <E i="114">
+            <Value>プレイヤーに火が燃え移る (小エリア)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_2</Path>
+        </E>
+        <E i="115">
+            <Value>プレイヤーに火が燃え移る (中エリア)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_3</Path>
+        </E>
+        <E i="116">
+            <Value>プレイヤーに火が燃え移る (中エリア)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_4</Path>
+        </E>
+        <E i="117">
+            <Value>プレイヤーに火が燃え移る (大エリア)</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="118">
+            <Value>アフターバーナーを獲得できる、Ring of Fire モード用のアイテム</Value>
+            <Path>OBJECT_HELP_TEXT_GAME_FIRE_RING</Path>
+        </E>
+        <E i="119">
+            <Value>Giant Ball モードに必要なアイテム。このボールからバイクが落下した時点でゲームが終了する</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL</Path>
+        </E>
+        <E i="120">
+            <Value>Giant Ball Inside モードに必要なアイテム</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="121">
+            <Value>接触すると爆発する、破壊力のすさまじい爆発物</Value>
+            <Path>OBJECT_HELP_TEXT_NUKE</Path>
+        </E>
+        <E i="122">
+            <Value>ゲーム中、バイクが近づくとカメラ アングルが切り替わる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="123">
+            <Value>リプレイ中、バイクが近づくとカメラ アングルが切り替わる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="124">
+            <Value>コースのプレビュー画像を設定する</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="125">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="126">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="127">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="128">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="129">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="130">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="131">
+            <Value>2 つのアイテムを結合して、動きを制限することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="132">
+            <Value>結合したアイテムを回転させることができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="133">
+            <Value>結合したアイテムを移動することができる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="134">
+            <Value>通過すると Ring of Fire モードが始まり、壁に接触できなくなる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="135">
+            <Value>接触すると、指定したアイテムの物理特性が有効になる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="136">
+            <Value>接触すると、指定したアイテムの物理特性が有効になる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="137">
+            <Value>接触すると、指定したアイテムの物理特性が有効になる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="138">
+            <Value>ランプの先端に設置しておくと Ski Jump モードが始まる</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="139">
+            <Value>カーブしたコースを作成できるマーカー</Value>
+            <Path>OBJECT_HELP_TEXT_TRACKPOINT</Path>
+        </E>
+        <E i="140">
+            <Value>接触すると爆発する、破壊力の大きな爆発物</Value>
+            <Path>OBJECT_HELP_TEXT_WWII_BOMB</Path>
+        </E>
+        <E i="141">
+            <Value>メタル パイプ (連結用)</Value>
+            <Path>PIPE_ADDITION</Path>
+        </E>
+        <E i="142">
+            <Value>メタル パイプ (コーナー)</Value>
+            <Path>PIPE_CORNER</Path>
+        </E>
+        <E i="143">
+            <Value>メタル パイプ (コーナー - 連結用)</Value>
+            <Path>PIPE_CORNER_ADDITION</Path>
+        </E>
+        <E i="144">
+            <Value>メタル パイプ (ストレート - 大)</Value>
+            <Path>PIPE_LONG_STRAIGHT</Path>
+        </E>
+        <E i="145">
+            <Value>メタル パイプ用リング</Value>
+            <Path>PIPE_RING</Path>
+        </E>
+        <E i="146">
+            <Value>メタル パイプ (ストレート - 小)</Value>
+            <Path>PIPE_SHORT_STRAIGHT</Path>
+        </E>
+        <E i="147">
+            <Value>メタル パイプ用バルブ</Value>
+            <Path>PIPE_VALVE</Path>
+        </E>
+        <E i="148">
+            <Value>薄型ボード (大)</Value>
+            <Path>PLANK_EXTRA_LONG_THIN</Path>
+        </E>
+        <E i="149">
+            <Value>ボード (大)</Value>
+            <Path>PLANK_LONG</Path>
+        </E>
+        <E i="150">
+            <Value>薄型ボード</Value>
+            <Path>PLANK_LONG_THIN</Path>
+        </E>
+        <E i="151">
+            <Value>ボード (中)</Value>
+            <Path>PLANK_MED</Path>
+        </E>
+        <E i="152">
+            <Value>ボード (小)</Value>
+            <Path>PLANK_SHORT</Path>
+        </E>
+        <E i="153">
+            <Value>ワイド ボード (大)</Value>
+            <Path>PLANK_WIDE_LONG</Path>
+        </E>
+        <E i="154">
+            <Value>ワイド ボード (中)</Value>
+            <Path>PLANK_WIDE_MEDIUM</Path>
+        </E>
+        <E i="155">
+            <Value>ワイド ボード (小)</Value>
+            <Path>PLANK_WIDE_SHORT</Path>
+        </E>
+        <E i="156">
+            <Value>ベニヤ板</Value>
+            <Path>PLYWOOD</Path>
+        </E>
+        <E i="157">
+            <Value>ベニヤ板 (補強)</Value>
+            <Path>PLYWOOD_REIN</Path>
+        </E>
+        <E i="158">
+            <Value>ラック 1 (左側)</Value>
+            <Path>RACK_1_LEFT</Path>
+        </E>
+        <E i="159">
+            <Value>ラック 1 (右側)</Value>
+            <Path>RACK_1_RIGHT</Path>
+        </E>
+        <E i="160">
+            <Value>メタル (大)</Value>
+            <Path>RAMP_METAL_BIG</Path>
+        </E>
+        <E i="161">
+            <Value>メタル プレート (大)</Value>
+            <Path>RAMP_METAL_PLATE_BIG</Path>
+        </E>
+        <E i="162">
+            <Value>メタル プレート (中)</Value>
+            <Path>RAMP_METAL_PLATE_MEDIUM</Path>
+        </E>
+        <E i="163">
+            <Value>メタル プレート (小)</Value>
+            <Path>RAMP_METAL_PLATE_SMALL</Path>
+        </E>
+        <E i="164">
+            <Value>メタル (小)</Value>
+            <Path>RAMP_METAL_SHORT</Path>
+        </E>
+        <E i="165">
+            <Value>ウッド (大)</Value>
+            <Path>RAMP_WOOD_BIG</Path>
+        </E>
+        <E i="166">
+            <Value>ウッド プレート (大)</Value>
+            <Path>RAMP_WOOD_PLATE_BIG</Path>
+        </E>
+        <E i="167">
+            <Value>ウッド プレート (中)</Value>
+            <Path>RAMP_WOOD_PLATE_MEDIUM</Path>
+        </E>
+        <E i="168">
+            <Value>ウッド プレート (小)</Value>
+            <Path>RAMP_WOOD_PLATE_SMALL</Path>
+        </E>
+        <E i="169">
+            <Value>ウッド (小)</Value>
+            <Path>RAMP_WOOD_SHORT</Path>
+        </E>
+        <E i="170">
+            <Value>天井用ランプ 1</Value>
+            <Path>ROOF_LIGHT</Path>
+        </E>
+        <E i="171">
+            <Value>天井用ランプ 1 (故障)</Value>
+            <Path>ROOF_LIGHT_FLICKER</Path>
+        </E>
+        <E i="172">
+            <Value>天井用ランプ 2</Value>
+            <Path>ROOF_LIGHT_WITH_GRID</Path>
+        </E>
+        <E i="173">
+            <Value>錆びた鉄板 (大)</Value>
+            <Path>RUSTY_STEEL_PLATE_BIG</Path>
+        </E>
+        <E i="174">
+            <Value>錆びた鉄のフェンス (大)</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG</Path>
+        </E>
+        <E i="175">
+            <Value>錆びた鉄のフェンス (大 2)</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG_2</Path>
+        </E>
+        <E i="176">
+            <Value>錆びた鉄のフェンス (小)</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED</Path>
+        </E>
+        <E i="177">
+            <Value>錆びた鉄のフェンス (小 2)</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED_2</Path>
+        </E>
+        <E i="178">
+            <Value>錆びた鉄板 (中)</Value>
+            <Path>RUSTY_STEEL_PLATE_LONG</Path>
+        </E>
+        <E i="179">
+            <Value>錆びた鉄板 (小)</Value>
+            <Path>RUSTY_STEEL_PLATE_SHORT</Path>
+        </E>
+        <E i="180">
+            <Value>ベース (基礎)</Value>
+            <Path>SCAFFOLD_BASE</Path>
+        </E>
+        <E i="181">
+            <Value>ベース (ループ)</Value>
+            <Path>SCAFFOLD_LOOP</Path>
+        </E>
+        <E i="182">
+            <Value>ベース (台)</Value>
+            <Path>SCAFFOLD_PLATE</Path>
+        </E>
+        <E i="183">
+            <Value>ベース (台 - ループ)</Value>
+            <Path>SCAFFOLD_PLATE_LOOP</Path>
+        </E>
+        <E i="184">
+            <Value>ベース (柱)</Value>
+            <Path>SCAFFOLD_POSTS</Path>
+        </E>
+        <E i="185">
+            <Value>ベース (階段)</Value>
+            <Path>SCAFFOLD_STAIRS</Path>
+        </E>
+        <E i="186">
+            <Value>コンテナ</Value>
+            <Path>SHIP_CONTAINER</Path>
+        </E>
+        <E i="187">
+            <Value>スピードアップ</Value>
+            <Path>SIGN_ACCELERATE</Path>
+        </E>
+        <E i="188">
+            <Value>矢印</Value>
+            <Path>SIGN_ARROW</Path>
+        </E>
+        <E i="189">
+            <Value>矢印 (下向き)</Value>
+            <Path>SIGN_ARROW_DOWN</Path>
+        </E>
+        <E i="190">
+            <Value>矢印 (上向き)</Value>
+            <Path>SIGN_ARROW_UP</Path>
+        </E>
+        <E i="191">
+            <Value>包帯</Value>
+            <Path>SIGN_BANDAGE</Path>
+        </E>
+        <E i="192">
+            <Value>リスに注意</Value>
+            <Path>SIGN_BEWARE_SQUIRRELS</Path>
+        </E>
+        <E i="193">
+            <Value>ビッグ ジャンプ</Value>
+            <Path>SIGN_BIG_JUMP</Path>
+        </E>
+        <E i="194">
+            <Value>危険爆発物</Value>
+            <Path>SIGN_DANGER_EXPLOSIVES</Path>
+        </E>
+        <E i="195">
+            <Value>エッグ シェルター</Value>
+            <Path>SIGN_EGG_SHELTER</Path>
+        </E>
+        <E i="196">
+            <Value>爆発</Value>
+            <Path>SIGN_EXPLOSION</Path>
+        </E>
+        <E i="197">
+            <Value>巨大落下物注意</Value>
+            <Path>SIGN_FALLING_BIG_OBJECTS</Path>
+        </E>
+        <E i="198">
+            <Value>転倒注意</Value>
+            <Path>SIGN_FALLING_INJURY</Path>
+        </E>
+        <E i="199">
+            <Value>幸運を祈る</Value>
+            <Path>SIGN_FINGERS_CROSSED</Path>
+        </E>
+        <E i="200">
+            <Value>転落注意</Value>
+            <Path>SIGN_HUGE_FALL</Path>
+        </E>
+        <E i="201">
+            <Value>自転車禁止</Value>
+            <Path>SIGN_NO_BIKES</Path>
+        </E>
+        <E i="202">
+            <Value>立入禁止</Value>
+            <Path>SIGN_NO_HUMANS</Path>
+        </E>
+        <E i="203">
+            <Value>ジャンプ禁止</Value>
+            <Path>SIGN_NO_JUMPING</Path>
+        </E>
+        <E i="204">
+            <Value>スピードダウン</Value>
+            <Path>SIGN_SLOW_DOWN</Path>
+        </E>
+        <E i="205">
+            <Value>制限速度</Value>
+            <Path>SIGN_SPEED_LIMIT</Path>
+        </E>
+        <E i="206">
+            <Value>ヘルメット着用</Value>
+            <Path>SIGN_USE_HELMET</Path>
+        </E>
+        <E i="207">
+            <Value>壁</Value>
+            <Path>SIGN_WALL</Path>
+        </E>
+        <E i="208">
+            <Value>スタート</Value>
+            <Path>STARTPOINT</Path>
+        </E>
+        <E i="209">
+            <Value>フレーム (スチール製)</Value>
+            <Path>STEEL_STRUCT_Q_1</Path>
+        </E>
+        <E i="210">
+            <Value>ロック 1</Value>
+            <Path>STONE_1</Path>
+        </E>
+        <E i="211">
+            <Value>ロック 2</Value>
+            <Path>STONE_2</Path>
+        </E>
+        <E i="212">
+            <Value>ロック 3</Value>
+            <Path>STONE_3</Path>
+        </E>
+        <E i="213">
+            <Value>ロック 4</Value>
+            <Path>STONE_4</Path>
+        </E>
+        <E i="214">
+            <Value>梁</Value>
+            <Path>TERRACE_CROSSPILLAR</Path>
+        </E>
+        <E i="215">
+            <Value>柱</Value>
+            <Path>TERRACE_PILLAR</Path>
+        </E>
+        <E i="216">
+            <Value>台 (中)</Value>
+            <Path>TERRACE_PLATE</Path>
+        </E>
+        <E i="217">
+            <Value>台 (大)</Value>
+            <Path>TERRACE_PLATE_BIG</Path>
+        </E>
+        <E i="218">
+            <Value>フェンス</Value>
+            <Path>TERRACE_PLATE_FENCE</Path>
+        </E>
+        <E i="219">
+            <Value>フェンス (シンプル)</Value>
+            <Path>TERRACE_PLATE_FENCE_2</Path>
+        </E>
+        <E i="220">
+            <Value>台 (小)</Value>
+            <Path>TERRACE_PLATE_SMALL</Path>
+        </E>
+        <E i="221">
+            <Value>テスト アイテム</Value>
+            <Path>TEST</Path>
+        </E>
+        <E i="222">
+            <Value>ゲーム カメラ</Value>
+            <Path>TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="223">
+            <Value>リプレイ カメラ</Value>
+            <Path>TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="224">
+            <Value>コース プレビュー カメラ</Value>
+            <Path>TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="225">
+            <Value><![CDATA[ボール & ソケット]]></Value>
+            <Path>TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="226">
+            <Value>回転ヒンジ</Value>
+            <Path>TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="227">
+            <Value>ポイント ツー ポイント (ハード)</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="228">
+            <Value>ポイント ツー ポイント (ソフト)</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="229">
+            <Value>回転ヒンジ (フリー)</Value>
+            <Path>TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="230">
+            <Value>スライダー (1m)</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="231">
+            <Value>スライダー (2m)</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="232">
+            <Value>ローテーション</Value>
+            <Path>TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="233">
+            <Value>アイテムを回転させる</Value>
+            <Path>TOOLS_FORCE_ROTATE_TURBO</Path>
+        </E>
+        <E i="234">
+            <Value>トランスフォーマー</Value>
+            <Path>TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="235">
+            <Value>Ring of Fire トリガー</Value>
+            <Path>TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="236">
+            <Value>トリガー (8m)</Value>
+            <Path>TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="237">
+            <Value>トリガー (4m)</Value>
+            <Path>TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="238">
+            <Value>トリガー (2m)</Value>
+            <Path>TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="239">
+            <Value>Ski Jump トリガー</Value>
+            <Path>TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="240">
+            <Value>パス ツール</Value>
+            <Path>TRACKPOINT</Path>
+        </E>
+        <E i="241">
+            <Value>どんなゲームでも基礎が肝心。このコースで学んでみよう</Value>
+            <Path>TRACK_DESCRIPTION_01</Path>
+        </E>
+        <E i="242">
+            <Value>丸太と爆弾のコースはいかが?</Value>
+            <Path>TRACK_DESCRIPTION_02</Path>
+        </E>
+        <E i="243">
+            <Value>このコースで心地よいひとときを</Value>
+            <Path>TRACK_DESCRIPTION_03</Path>
+        </E>
+        <E i="244">
+            <Value>一見易しいコース。だが最速への道は遠い</Value>
+            <Path>TRACK_DESCRIPTION_04</Path>
+        </E>
+        <E i="245">
+            <Value>上り続けられると思った瞬間、ガクンと落ちる</Value>
+            <Path>TRACK_DESCRIPTION_05</Path>
+        </E>
+        <E i="246">
+            <Value>タイヤとパイプをジャンプで渡る腕試しコース</Value>
+            <Path>TRACK_DESCRIPTION_06</Path>
+        </E>
+        <E i="247">
+            <Value>楽勝のコースだが、どのルートが一番速いか?</Value>
+            <Path>TRACK_DESCRIPTION_07</Path>
+        </E>
+        <E i="248">
+            <Value>ここは夢の中の世界</Value>
+            <Path>TRACK_DESCRIPTION_08</Path>
+        </E>
+        <E i="249">
+            <Value>岩の先の深い谷間に要注意</Value>
+            <Path>TRACK_DESCRIPTION_09</Path>
+        </E>
+        <E i="250">
+            <Value>落ちたら、はい上がれ</Value>
+            <Path>TRACK_DESCRIPTION_10</Path>
+        </E>
+        <E i="251">
+            <Value>ボールの中をどこまでも走り続けよう!</Value>
+            <Path>TRACK_DESCRIPTION_100</Path>
+        </E>
+        <E i="252">
+            <Value>自ら障害物に突っ込もう! 骨折すればするほどポイントが上がる</Value>
+            <Path>TRACK_DESCRIPTION_101</Path>
+        </E>
+        <E i="253">
+            <Value>鳥になったつもりで、空高く舞い上がれ。最後はジャンプで決めよう!</Value>
+            <Path>TRACK_DESCRIPTION_102</Path>
+        </E>
+        <E i="254">
+            <Value>最高地点に達したら、思い切ってジャンプ!</Value>
+            <Path>TRACK_DESCRIPTION_104</Path>
+        </E>
+        <E i="255">
+            <Value>爆弾を積んだカートをバイクで引っ張って、どこまで走り続けられる?</Value>
+            <Path>TRACK_DESCRIPTION_105</Path>
+        </E>
+        <E i="256">
+            <Value>炎に包まれながら猛スピードで疾走。減速したらヤケドするぞ!</Value>
+            <Path>TRACK_DESCRIPTION_106</Path>
+        </E>
+        <E i="257">
+            <Value>前に後ろに、連続で宙返りを決めよう!</Value>
+            <Path>TRACK_DESCRIPTION_107</Path>
+        </E>
+        <E i="258">
+            <Value>ボールの上でバランスを取りながら、できるだけ長く走り続けよう</Value>
+            <Path>TRACK_DESCRIPTION_108</Path>
+        </E>
+        <E i="259">
+            <Value>どこまでも高く進んでいこう</Value>
+            <Path>TRACK_DESCRIPTION_109</Path>
+        </E>
+        <E i="260">
+            <Value>EXTREME の看板はダテじゃない</Value>
+            <Path>TRACK_DESCRIPTION_11</Path>
+        </E>
+        <E i="261">
+            <Value>できるだけ多くの的を手に入れよう!</Value>
+            <Path>TRACK_DESCRIPTION_110</Path>
+        </E>
+        <E i="262">
+            <Value>前輪のネジが緩んでしまった。ウィリーで走り続けよう!</Value>
+            <Path>TRACK_DESCRIPTION_111</Path>
+        </E>
+        <E i="263">
+            <Value>炎のリングをどんどんくぐり抜けよう!</Value>
+            <Path>TRACK_DESCRIPTION_112</Path>
+        </E>
+        <E i="264">
+            <Value>答えはいつも簡単に見つかるとは限らない</Value>
+            <Path>TRACK_DESCRIPTION_12</Path>
+        </E>
+        <E i="265">
+            <Value>パイプは吸うものではなくて、乗るもの</Value>
+            <Path>TRACK_DESCRIPTION_13</Path>
+        </E>
+        <E i="266">
+            <Value>スピードに頼らずにゴールできるか?</Value>
+            <Path>TRACK_DESCRIPTION_14</Path>
+        </E>
+        <E i="267">
+            <Value>どこまで高く上りつめられるか?</Value>
+            <Path>TRACK_DESCRIPTION_15</Path>
+        </E>
+        <E i="268">
+            <Value>なだらかなデコボコ道を楽しもう</Value>
+            <Path>TRACK_DESCRIPTION_16</Path>
+        </E>
+        <E i="269">
+            <Value>昔懐かしのテクニカル コース</Value>
+            <Path>TRACK_DESCRIPTION_17</Path>
+        </E>
+        <E i="270">
+            <Value>いつものジャンプができれば、ここはクリアしたも同然!</Value>
+            <Path>TRACK_DESCRIPTION_18</Path>
+        </E>
+        <E i="271">
+            <Value>上りは大変、下りはもっと大変。人生なんてそんなもの</Value>
+            <Path>TRACK_DESCRIPTION_19</Path>
+        </E>
+        <E i="272">
+            <Value>環境を最大限に利用しよう!</Value>
+            <Path>TRACK_DESCRIPTION_20</Path>
+        </E>
+        <E i="273">
+            <Value>タフな状況で生き残るのは、スタイルを持ったライダーだ</Value>
+            <Path>TRACK_DESCRIPTION_21</Path>
+        </E>
+        <E i="274">
+            <Value>勝者にはビールをケースごとプレゼントしたいところだが...</Value>
+            <Path>TRACK_DESCRIPTION_22</Path>
+        </E>
+        <E i="275">
+            <Value>まさかの連続</Value>
+            <Path>TRACK_DESCRIPTION_23</Path>
+        </E>
+        <E i="276">
+            <Value>このコースはまだ実装されていません</Value>
+            <Path>TRACK_DESCRIPTION_24</Path>
+        </E>
+        <E i="277">
+            <Value>飛ばせば飛ばすほど、ジャンプはラクになる</Value>
+            <Path>TRACK_DESCRIPTION_25</Path>
+        </E>
+        <E i="278">
+            <Value>何が壊れても、気にしない、気にしない!</Value>
+            <Path>TRACK_DESCRIPTION_26</Path>
+        </E>
+        <E i="279">
+            <Value>あせらずに安定した走行を心がけること</Value>
+            <Path>TRACK_DESCRIPTION_27</Path>
+        </E>
+        <E i="280">
+            <Value>その走りのなめらかなること... 岩のごとし?</Value>
+            <Path>TRACK_DESCRIPTION_28</Path>
+        </E>
+        <E i="281">
+            <Value>ずっと前のめりで走ることになるだろう</Value>
+            <Path>TRACK_DESCRIPTION_29</Path>
+        </E>
+        <E i="282">
+            <Value>なんとすばらしい朝!</Value>
+            <Path>TRACK_DESCRIPTION_30</Path>
+        </E>
+        <E i="283">
+            <Value>アクセル、ブレーキ、体重移動、チェックポイントは基本中の基本</Value>
+            <Path>TRACK_DESCRIPTION_300</Path>
+        </E>
+        <E i="284">
+            <Value>空中での体重移動を利用して、鳥のように飛ぶ。くれぐれも顔面から着地しないように</Value>
+            <Path>TRACK_DESCRIPTION_301</Path>
+        </E>
+        <E i="285">
+            <Value>現実の世界なら、物は押せば動く。ゲームの世界ではどうだろう?</Value>
+            <Path>TRACK_DESCRIPTION_302</Path>
+        </E>
+        <E i="286">
+            <Value>このコースで、本物のライダーになるための第一歩を踏み出そう</Value>
+            <Path>TRACK_DESCRIPTION_303</Path>
+        </E>
+        <E i="287">
+            <Value>的を獲得してジャンプする。実にシンプル!</Value>
+            <Path>TRACK_DESCRIPTION_305</Path>
+        </E>
+        <E i="288">
+            <Value>子ども時代の遊び場に出かけてみよう</Value>
+            <Path>TRACK_DESCRIPTION_34</Path>
+        </E>
+        <E i="289">
+            <Value>夕日が射し込むガレージ... こんな日だからこそエンジン全開で!</Value>
+            <Path>TRACK_DESCRIPTION_35</Path>
+        </E>
+        <E i="290">
+            <Value>下りには下りの難しさがある</Value>
+            <Path>TRACK_DESCRIPTION_36</Path>
+        </E>
+        <E i="291">
+            <Value>楽勝だって? 大丈夫、すぐに難しくなるから</Value>
+            <Path>TRACK_DESCRIPTION_37</Path>
+        </E>
+        <E i="292">
+            <Value>危険地帯が連続するコース</Value>
+            <Path>TRACK_DESCRIPTION_38</Path>
+        </E>
+        <E i="293">
+            <Value>ひたすら疾走を楽しもう</Value>
+            <Path>TRACK_DESCRIPTION_39</Path>
+        </E>
+        <E i="294">
+            <Value>Mother of All Jumps</Value>
+            <Path>TRACK_NAME_XLAST_01</Path>
+        </E>
+        <E i="295">
+            <Value>Logsplosive</Value>
+            <Path>TRACK_NAME_XLAST_02</Path>
+        </E>
+        <E i="296">
+            <Value>Trippin' the Plywood</Value>
+            <Path>TRACK_NAME_XLAST_03</Path>
+        </E>
+        <E i="297">
+            <Value>Container Rush</Value>
+            <Path>TRACK_NAME_XLAST_04</Path>
+        </E>
+        <E i="298">
+            <Value>Stock Market</Value>
+            <Path>TRACK_NAME_XLAST_05</Path>
+        </E>
+        <E i="299">
+            <Value>Technique</Value>
+            <Path>TRACK_NAME_XLAST_06</Path>
+        </E>
+        <E i="300">
+            <Value>Tired Hill</Value>
+            <Path>TRACK_NAME_XLAST_07</Path>
+        </E>
+        <E i="301">
+            <Value>Dreamscape</Value>
+            <Path>TRACK_NAME_XLAST_08</Path>
+        </E>
+        <E i="302">
+            <Value>Rock'n'Drop</Value>
+            <Path>TRACK_NAME_XLAST_09</Path>
+        </E>
+        <E i="303">
+            <Value>Under Ground</Value>
+            <Path>TRACK_NAME_XLAST_10</Path>
+        </E>
+        <E i="304">
+            <Value>Inside the Ball</Value>
+            <Path>TRACK_NAME_XLAST_100</Path>
+        </E>
+        <E i="305">
+            <Value>Down the Stairs</Value>
+            <Path>TRACK_NAME_XLAST_101</Path>
+        </E>
+        <E i="306">
+            <Value>Ski Jump</Value>
+            <Path>TRACK_NAME_XLAST_102</Path>
+        </E>
+        <E i="307">
+            <Value>Infernal Pinball</Value>
+            <Path>TRACK_NAME_XLAST_104</Path>
+        </E>
+        <E i="308">
+            <Value>Delivery</Value>
+            <Path>TRACK_NAME_XLAST_105</Path>
+        </E>
+        <E i="309">
+            <Value>In Flames</Value>
+            <Path>TRACK_NAME_XLAST_106</Path>
+        </E>
+        <E i="310">
+            <Value>Flip Hunter</Value>
+            <Path>TRACK_NAME_XLAST_107</Path>
+        </E>
+        <E i="311">
+            <Value>Outside the Ball</Value>
+            <Path>TRACK_NAME_XLAST_108</Path>
+        </E>
+        <E i="312">
+            <Value>Hill Climb</Value>
+            <Path>TRACK_NAME_XLAST_109</Path>
+        </E>
+        <E i="313">
+            <Value>Brown Boxes</Value>
+            <Path>TRACK_NAME_XLAST_11</Path>
+        </E>
+        <E i="314">
+            <Value>Target Hunt</Value>
+            <Path>TRACK_NAME_XLAST_110</Path>
+        </E>
+        <E i="315">
+            <Value>Loose Screw!</Value>
+            <Path>TRACK_NAME_XLAST_111</Path>
+        </E>
+        <E i="316">
+            <Value>Ring of Fire</Value>
+            <Path>TRACK_NAME_XLAST_112</Path>
+        </E>
+        <E i="317">
+            <Value>Dynamic Range</Value>
+            <Path>TRACK_NAME_XLAST_12</Path>
+        </E>
+        <E i="318">
+            <Value>Concrete Dreams</Value>
+            <Path>TRACK_NAME_XLAST_13</Path>
+        </E>
+        <E i="319">
+            <Value>Unfair Bombardment</Value>
+            <Path>TRACK_NAME_XLAST_14</Path>
+        </E>
+        <E i="320">
+            <Value>Goin' Up!</Value>
+            <Path>TRACK_NAME_XLAST_15</Path>
+        </E>
+        <E i="321">
+            <Value>Hello World!</Value>
+            <Path>TRACK_NAME_XLAST_16</Path>
+        </E>
+        <E i="322">
+            <Value>Classic</Value>
+            <Path>TRACK_NAME_XLAST_17</Path>
+        </E>
+        <E i="323">
+            <Value>Jolly Jumper</Value>
+            <Path>TRACK_NAME_XLAST_18</Path>
+        </E>
+        <E i="324">
+            <Value>The Rise and Fall</Value>
+            <Path>TRACK_NAME_XLAST_19</Path>
+        </E>
+        <E i="325">
+            <Value>Let's Get Physical</Value>
+            <Path>TRACK_NAME_XLAST_20</Path>
+        </E>
+        <E i="326">
+            <Value>Trials/Tribulations</Value>
+            <Path>TRACK_NAME_XLAST_21</Path>
+        </E>
+        <E i="327">
+            <Value>King of the Hill</Value>
+            <Path>TRACK_NAME_XLAST_22</Path>
+        </E>
+        <E i="328">
+            <Value>Inferno II</Value>
+            <Path>TRACK_NAME_XLAST_23</Path>
+        </E>
+        <E i="329">
+            <Value>PH: Speed of Jorma</Value>
+            <Path>TRACK_NAME_XLAST_24</Path>
+        </E>
+        <E i="330">
+            <Value>Where's the Ground?</Value>
+            <Path>TRACK_NAME_XLAST_25</Path>
+        </E>
+        <E i="331">
+            <Value>The Breakdown</Value>
+            <Path>TRACK_NAME_XLAST_26</Path>
+        </E>
+        <E i="332">
+            <Value>Building Blocks</Value>
+            <Path>TRACK_NAME_XLAST_27</Path>
+        </E>
+        <E i="333">
+            <Value>Smooth Jumps</Value>
+            <Path>TRACK_NAME_XLAST_28</Path>
+        </E>
+        <E i="334">
+            <Value>Upwardly Mobile</Value>
+            <Path>TRACK_NAME_XLAST_29</Path>
+        </E>
+        <E i="335">
+            <Value>Groundhog Begins</Value>
+            <Path>TRACK_NAME_XLAST_30</Path>
+        </E>
+        <E i="336">
+            <Value>Learning the Basics</Value>
+            <Path>TRACK_NAME_XLAST_300</Path>
+        </E>
+        <E i="337">
+            <Value>Hills and Jumps</Value>
+            <Path>TRACK_NAME_XLAST_301</Path>
+        </E>
+        <E i="338">
+            <Value>Tricky Obstacles</Value>
+            <Path>TRACK_NAME_XLAST_302</Path>
+        </E>
+        <E i="339">
+            <Value>Master Class</Value>
+            <Path>TRACK_NAME_XLAST_303</Path>
+        </E>
+        <E i="340">
+            <Value>Crash Time</Value>
+            <Path>TRACK_NAME_XLAST_305</Path>
+        </E>
+        <E i="341">
+            <Value>Groundhog Returns</Value>
+            <Path>TRACK_NAME_XLAST_34</Path>
+        </E>
+        <E i="342">
+            <Value>Groundhog Forever</Value>
+            <Path>TRACK_NAME_XLAST_35</Path>
+        </E>
+        <E i="343">
+            <Value>The Big Ride</Value>
+            <Path>TRACK_NAME_XLAST_36</Path>
+        </E>
+        <E i="344">
+            <Value>Basic Bumps</Value>
+            <Path>TRACK_NAME_XLAST_37</Path>
+        </E>
+        <E i="345">
+            <Value>Middle Name: Danger</Value>
+            <Path>TRACK_NAME_XLAST_38</Path>
+        </E>
+        <E i="346">
+            <Value>Easy Wheeling</Value>
+            <Path>TRACK_NAME_XLAST_39</Path>
+        </E>
+        <E i="347">
+            <Value>上達してるぞ!</Value>
+            <Path>TRACK_PRAISE_01</Path>
+        </E>
+        <E i="348">
+            <Value>見事な走りで爆弾をかわした!</Value>
+            <Path>TRACK_PRAISE_02</Path>
+        </E>
+        <E i="349">
+            <Value>もう誰もキミを止められない</Value>
+            <Path>TRACK_PRAISE_03</Path>
+        </E>
+        <E i="350">
+            <Value>天井知らずのスピードだ!</Value>
+            <Path>TRACK_PRAISE_04</Path>
+        </E>
+        <E i="351">
+            <Value>キミの評判は上がりっぱなしだ!</Value>
+            <Path>TRACK_PRAISE_05</Path>
+        </E>
+        <E i="352">
+            <Value>すごい! よくやった!</Value>
+            <Path>TRACK_PRAISE_06</Path>
+        </E>
+        <E i="353">
+            <Value>最速ルートはキミのものだ!</Value>
+            <Path>TRACK_PRAISE_07</Path>
+        </E>
+        <E i="354">
+            <Value>スキのない走り。お見事!</Value>
+            <Path>TRACK_PRAISE_08</Path>
+        </E>
+        <E i="355">
+            <Value>キングと呼ぶにふさわしい走りだ!</Value>
+            <Path>TRACK_PRAISE_09</Path>
+        </E>
+        <E i="356">
+            <Value>どん底からはい上がった!</Value>
+            <Path>TRACK_PRAISE_10</Path>
+        </E>
+        <E i="357">
+            <Value>ボールは転がるよ、どこまでも!</Value>
+            <Path>TRACK_PRAISE_100</Path>
+        </E>
+        <E i="358">
+            <Value>折れてない骨は残ってる?</Value>
+            <Path>TRACK_PRAISE_101</Path>
+        </E>
+        <E i="359">
+            <Value>鳥だ! 飛行機だ! いや、バイク ライダーだ!</Value>
+            <Path>TRACK_PRAISE_102</Path>
+        </E>
+        <E i="360">
+            <Value>ハイ ジャンプを決めて、ハイな気分を味わえたはずだ!</Value>
+            <Path>TRACK_PRAISE_104</Path>
+        </E>
+        <E i="361">
+            <Value>最高のパフォーマンスをドッカーンとしめくくった!</Value>
+            <Path>TRACK_PRAISE_105</Path>
+        </E>
+        <E i="362">
+            <Value>アツい走りだった!</Value>
+            <Path>TRACK_PRAISE_106</Path>
+        </E>
+        <E i="363">
+            <Value>その宙返りはワールドクラス!</Value>
+            <Path>TRACK_PRAISE_107</Path>
+        </E>
+        <E i="364">
+            <Value>ノリにノってるね!</Value>
+            <Path>TRACK_PRAISE_108</Path>
+        </E>
+        <E i="365">
+            <Value>その調子なら雲だってつかめるはずだ!</Value>
+            <Path>TRACK_PRAISE_109</Path>
+        </E>
+        <E i="366">
+            <Value>キミのテクニックは本物だ!</Value>
+            <Path>TRACK_PRAISE_11</Path>
+        </E>
+        <E i="367">
+            <Value>見事なテクニックだ!</Value>
+            <Path>TRACK_PRAISE_110</Path>
+        </E>
+        <E i="368">
+            <Value>マシンの不調を挽回する走りだった!</Value>
+            <Path>TRACK_PRAISE_111</Path>
+        </E>
+        <E i="369">
+            <Value>危険な走りを見事にこなした!</Value>
+            <Path>TRACK_PRAISE_112</Path>
+        </E>
+        <E i="370">
+            <Value>実に美しい走りだ!</Value>
+            <Path>TRACK_PRAISE_12</Path>
+        </E>
+        <E i="371">
+            <Value>キミこそサーカス ライダー!</Value>
+            <Path>TRACK_PRAISE_13</Path>
+        </E>
+        <E i="372">
+            <Value>その走りなら、イオン砲さえかわせるはずだ!</Value>
+            <Path>TRACK_PRAISE_14</Path>
+        </E>
+        <E i="373">
+            <Value>あそこまでいけるとは、ハンパじゃない!</Value>
+            <Path>TRACK_PRAISE_15</Path>
+        </E>
+        <E i="374">
+            <Value>世界をあっと言わせる完ぺきな走り!</Value>
+            <Path>TRACK_PRAISE_16</Path>
+        </E>
+        <E i="375">
+            <Value>キミこそ究極のライダーだ!</Value>
+            <Path>TRACK_PRAISE_17</Path>
+        </E>
+        <E i="376">
+            <Value>あまりの速さに、影もついて来られない!</Value>
+            <Path>TRACK_PRAISE_18</Path>
+        </E>
+        <E i="377">
+            <Value>時が移り変わっても、キミのテクニックは不滅だ!</Value>
+            <Path>TRACK_PRAISE_19</Path>
+        </E>
+        <E i="378">
+            <Value>すごい! 秘めた才能がついに開花したようだ!</Value>
+            <Path>TRACK_PRAISE_20</Path>
+        </E>
+        <E i="379">
+            <Value>プロ級という言葉では言い足りないほどすばらしい走りだ!</Value>
+            <Path>TRACK_PRAISE_21</Path>
+        </E>
+        <E i="380">
+            <Value>もう誰もキミを止められない!</Value>
+            <Path>TRACK_PRAISE_22</Path>
+        </E>
+        <E i="381">
+            <Value>キミは伝説のライダーだ!</Value>
+            <Path>TRACK_PRAISE_23</Path>
+        </E>
+        <E i="382">
+            <Value>もう誰もキミを止められない</Value>
+            <Path>TRACK_PRAISE_24</Path>
+        </E>
+        <E i="383">
+            <Value>キミのテクニックは限界知らず?</Value>
+            <Path>TRACK_PRAISE_25</Path>
+        </E>
+        <E i="384">
+            <Value>まさか、ブレーキをかけたことがないとか?</Value>
+            <Path>TRACK_PRAISE_26</Path>
+        </E>
+        <E i="385">
+            <Value>プロ顔負けの走り。まさに脱帽!</Value>
+            <Path>TRACK_PRAISE_27</Path>
+        </E>
+        <E i="386">
+            <Value>スムーズかつクリーンに決めた!</Value>
+            <Path>TRACK_PRAISE_28</Path>
+        </E>
+        <E i="387">
+            <Value>どこから岩が飛んでくるかわかった?</Value>
+            <Path>TRACK_PRAISE_29</Path>
+        </E>
+        <E i="388">
+            <Value>完全無欠のライダーとは、まさにキミのこと!</Value>
+            <Path>TRACK_PRAISE_30</Path>
+        </E>
+        <E i="389">
+            <Value></Value>
+            <Path>TRACK_PRAISE_300</Path>
+        </E>
+        <E i="390">
+            <Value></Value>
+            <Path>TRACK_PRAISE_301</Path>
+        </E>
+        <E i="391">
+            <Value></Value>
+            <Path>TRACK_PRAISE_302</Path>
+        </E>
+        <E i="392">
+            <Value></Value>
+            <Path>TRACK_PRAISE_303</Path>
+        </E>
+        <E i="393">
+            <Value></Value>
+            <Path>TRACK_PRAISE_305</Path>
+        </E>
+        <E i="394">
+            <Value>大空に舞う鳥にも勝る走りだ!</Value>
+            <Path>TRACK_PRAISE_34</Path>
+        </E>
+        <E i="395">
+            <Value>スーパー スターの誕生だ! ハリウッドがキミを待ってる!</Value>
+            <Path>TRACK_PRAISE_35</Path>
+        </E>
+        <E i="396">
+            <Value>キミのすばらしい走りにふさわしい言葉が見つからない!</Value>
+            <Path>TRACK_PRAISE_36</Path>
+        </E>
+        <E i="397">
+            <Value>すばらしい走りだ!</Value>
+            <Path>TRACK_PRAISE_37</Path>
+        </E>
+        <E i="398">
+            <Value>盛大に吹っ飛ばした!</Value>
+            <Path>TRACK_PRAISE_38</Path>
+        </E>
+        <E i="399">
+            <Value>もう誰もキミを止められない!</Value>
+            <Path>TRACK_PRAISE_39</Path>
+        </E>
+        <E i="400">
+            <Value>トラクターのタイヤ</Value>
+            <Path>TRACTOR_TIRE</Path>
+        </E>
+        <E i="401">
+            <Value>加速 + コントローラー (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_BIG_SIMPLE</Path>
+        </E>
+        <E i="402">
+            <Value>加速 (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_SIMPLE</Path>
+        </E>
+        <E i="403">
+            <Value>バック走行</Value>
+            <Path>TRAFFIC_SIGN_BACKWARD_SIMPLE</Path>
+        </E>
+        <E i="404">
+            <Value>ジャンプ</Value>
+            <Path>TRAFFIC_SIGN_BAIL_OUT_SIMPLE</Path>
+        </E>
+        <E i="405">
+            <Value>ブレーキ + コントローラー (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_BIG_SIMPLE</Path>
+        </E>
+        <E i="406">
+            <Value>ブレーキ (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_SIMPLE</Path>
+        </E>
+        <E i="407">
+            <Value>柱 (2 本)</Value>
+            <Path>TRAFFIC_SIGN_DOUBLE_POST</Path>
+        </E>
+        <E i="408">
+            <Value>ダイナミック パンチ</Value>
+            <Path>TRAFFIC_SIGN_DYNAMIC_PUNCH_SIMPLE</Path>
+        </E>
+        <E i="409">
+            <Value>フライング</Value>
+            <Path>TRAFFIC_SIGN_FLYING_BIG_SIMPLE</Path>
+        </E>
+        <E i="410">
+            <Value>丘に着地</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_HILL_SIMPLE</Path>
+        </E>
+        <E i="411">
+            <Value>斜面に着地</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_SLOPE_SIMPLE</Path>
+        </E>
+        <E i="412">
+            <Value>体重移動 + コントローラー (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_BIG_SIMPLE</Path>
+        </E>
+        <E i="413">
+            <Value>体重移動 (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_SIMPLE</Path>
+        </E>
+        <E i="414">
+            <Value>ロールバック + コントローラー (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_BIG_SIMPLE</Path>
+        </E>
+        <E i="415">
+            <Value>ロールバック (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_SIMPLE</Path>
+        </E>
+        <E i="416">
+            <Value>ロール + コントローラー (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BIG_SIMPLE</Path>
+        </E>
+        <E i="417">
+            <Value>ロール (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_SIMPLE</Path>
+        </E>
+        <E i="418">
+            <Value>柱 (1 本)</Value>
+            <Path>TRAFFIC_SIGN_SINGLE_POST</Path>
+        </E>
+        <E i="419">
+            <Value>Trials 宙返り</Value>
+            <Path>TRAFFIC_SIGN_TRIALS_FLIP_SIMPLE</Path>
+        </E>
+        <E i="420">
+            <Value>上り坂 + コントローラー (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_BIG_SIMPLE</Path>
+        </E>
+        <E i="421">
+            <Value>上り坂 (シンプル)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_SIMPLE</Path>
+        </E>
+        <E i="422">
+            <Value>カート</Value>
+            <Path>TRAIN_RAIL_CART_1</Path>
+        </E>
+        <E i="423">
+            <Value>線路 (45 度下降)</Value>
+            <Path>TRAIN_RAIL_DOWN_45</Path>
+        </E>
+        <E i="424">
+            <Value>線路 (ストレート)</Value>
+            <Path>TRAIN_RAIL_STRAIGHT_LONG</Path>
+        </E>
+        <E i="425">
+            <Value>線路 (45 度カーブ)</Value>
+            <Path>TRAIN_RAIL_TURN_RIGHT_45</Path>
+        </E>
+        <E i="426">
+            <Value>線路 (45 度上昇)</Value>
+            <Path>TRAIN_RAIL_UP_45</Path>
+        </E>
+        <E i="427">
+            <Value>高い</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="428">
+            <Value>高い</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="429">
+            <Value>高い</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="430">
+            <Value>高い</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="431">
+            <Value>高い</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="432">
+            <Value>高い</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="433">
+            <Value>高い</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="434">
+            <Value>高い</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="435">
+            <Value>高い</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="436">
+            <Value>高い</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="437">
+            <Value>高い</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="438">
+            <Value>高い</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="439">
+            <Value>高い</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="440">
+            <Value>高い</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="441">
+            <Value>低い</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="442">
+            <Value>低い</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="443">
+            <Value>低い</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="444">
+            <Value>低い</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="445">
+            <Value>低い</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="446">
+            <Value>低い</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="447">
+            <Value>低い</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="448">
+            <Value>低い</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="449">
+            <Value>低い</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="450">
+            <Value>低い</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="451">
+            <Value>低い</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="452">
+            <Value>低い</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="453">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="454">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="455">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="456">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="457">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="458">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="459">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="460">
+            <Value>低い</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="461">
+            <Value>普通</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="462">
+            <Value>普通</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="463">
+            <Value>普通</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="464">
+            <Value>普通</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="465">
+            <Value>普通</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="466">
+            <Value>低い</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="467">
+            <Value>普通</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="468">
+            <Value>普通</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="469">
+            <Value>普通</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="470">
+            <Value>普通</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="471">
+            <Value>普通</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="472">
+            <Value>普通</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="473">
+            <Value>普通</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="474">
+            <Value>普通</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="475">
+            <Value>普通</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="476">
+            <Value>壁 (スチール製 - 装飾用)</Value>
+            <Path>WALL_DECORATION_POST</Path>
+        </E>
+        <E i="477">
+            <Value>木箱</Value>
+            <Path>WOODBOX</Path>
+        </E>
+        <E i="478">
+            <Value>木箱 (フタなし)</Value>
+            <Path>WOODBOX_WO_COVER</Path>
+        </E>
+        <E i="479">
+            <Value>壁 (木製)</Value>
+            <Path>WOODEN_WALL</Path>
+        </E>
+        <E i="480">
+            <Value>壁 (木製 - コーナー)</Value>
+            <Path>WOODEN_WALL_EDGES</Path>
+        </E>
+        <E i="481">
+            <Value>壁 (木製 - 枠)</Value>
+            <Path>WOODEN_WALL_PLANK</Path>
+        </E>
+        <E i="482">
+            <Value>木製台</Value>
+            <Path>WOOD_PLAT</Path>
+        </E>
+        <E i="483">
+            <Value>木製台 (大)</Value>
+            <Path>WOOD_PLAT_PLATE</Path>
+        </E>
+        <E i="484">
+            <Value>フレーム (木製)</Value>
+            <Path>WOOD_STRUCT_Q_1</Path>
+        </E>
+        <E i="485">
+            <Value>ミサイル</Value>
+            <Path>WWII_BOMB</Path>
+        </E>
+        <E i="486">
+            <Value>Scorpion 250cc</Value>
+            <Path>bike</Path>
+        </E>
+        <E i="487">
+            <Value>Turtle 80cc</Value>
+            <Path>bike_beginner</Path>
+        </E>
+        <E i="488">
+            <Value>Reptile 125cc</Value>
+            <Path>bike_easy</Path>
+        </E>
+        <E i="489">
+            <Value>Phoenix Evo 250cc</Value>
+            <Path>bike_hard</Path>
+        </E>
+        <E i="490">
+            <Value>Micro Donkey 60cc</Value>
+            <Path>bike_monkey</Path>
+        </E>
+        <E i="491">
+            <Value>Phoenix REV 250cc</Value>
+            <Path>bike_reverse</Path>
+        </E>
+        <E i="492">
+            <Value>Scorpion AIR 125cc</Value>
+            <Path>bike_ski</Path>
+        </E>
+        <E i="493">
+            <Value>Hauler 600cc</Value>
+            <Path>bike_with_cart</Path>
+        </E>
+    </Entries>
+</XusFile>

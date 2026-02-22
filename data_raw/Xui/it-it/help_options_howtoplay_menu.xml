@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Indietro</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Indietro\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HowToText.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HowToText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Gara trial\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+L'obiettivo del gioco è quello di percorrere il tracciato nel minor tempo possibile, commettendo il minor numero possibile di errori. Completare il tracciato consente di ottenere la medaglia di bronzo; le prestazioni migliori vengono ricompensate con medaglie più prestigiose.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Errori\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Un errore si verifica quando il pilota fa cadere la moto o riceve troppi danni dall'ambiente. Dopo un errore, la moto viene riportata all'ultimo checkpoint attraversato.\r
+<br><br>\r
+Ricorda che gli errori sono il fattore principale nel calcolo dei punteggi validi per le classifiche. La velocità non è tutto: è meglio completare il tracciato con un tempo più alto, ma commettendo un minor numero di errori.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Prove di abilità\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Le Prove di abilità si sbloccano via via che procedi nel gioco. Ciascuna Prova di abilità ha un obiettivo diverso che viene visualizzato prima dell'inizio della prova stessa. Trials HD utilizza un modello fisico molto sofisticato e non c'è nulla di casuale nel gioco. Le mosse avanzate richiedono un ottimo controllo della moto, ma esercitandoti raggiungerai la perfezione. Buona fortuna!\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Mossa avanzata: Salto caricato - Esegui salti più alti\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Piegati all'indietro mentre acceleri per imboccare una rampa. Subito prima di saltare, sposta rapidamente in avanti il peso del pilota. Il Salto caricato ti permetterà di raggiungere altezze più elevate sulle salite più erte. Un buon posto per esercitarsi in questa acrobazia è la seconda salita del tutorial Difficile.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Mossa avanzata: Salto da fermo - Salta su un terreno pianeggiante\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Piegati in avanti, dai gas e sposta velocemente avanti e indietro il peso del corpo. In questo modo acquisterai più slancio e potrai saltare più in alto su un terreno in piano. Un buon posto per esercitarsi in questa acrobazia è l'inizio del tutorial Difficile.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Mossa avanzata: Salto rovesciato - Esegui salti più lunghi dalle rampe.\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Alza la ruota anteriore e dirigiti a tutta velocità verso il salto. Sposta il peso in avanti e la moto si capovolgerà. Con questa mossa potrai acquistare più slancio sulle rampe che tendono a spingerti verso l'alto piuttosto che in avanti. Il miglior posto per esercitarsi in questa acrobazia è la Prova di abilità Salto dal trampolino.\r
+<br><br>\r
+</font>]]></Value>
+            <Path>XuiScene.HowToText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000.000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000.000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>COME GIOCARE</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

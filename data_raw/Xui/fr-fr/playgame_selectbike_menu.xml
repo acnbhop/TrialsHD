@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeImage.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.BikeImage.Text</Path>
+        </E>
+        <E i="2">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.AccelerationProgressBar.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Accélération</Value>
+            <Path>XuiScene1.BikeInfoGroup.AccelerationProgressBar.Text</Path>
+        </E>
+        <E i="4">
+            <Value>17.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeDifficultyText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeDifficultyText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeNameText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeNameText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.BrakesText.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Freins :</Value>
+            <Path>XuiScene1.BikeInfoGroup.BrakesText.Text</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.HandlingProgressBar.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>Nervosité</Value>
+            <Path>XuiScene1.BikeInfoGroup.HandlingProgressBar.Text</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.TopSpeedProgressBar.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>Vitesse maximum</Value>
+            <Path>XuiScene1.BikeInfoGroup.TopSpeedProgressBar.Text</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Sélectionner la moto et rouler\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Retour\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="15">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card1.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="17">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card1.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="19">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card1.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="21">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.NameText.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card1.NameText.Text</Path>
+        </E>
+        <E i="23">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card2.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="25">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card2.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="27">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card2.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="29">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.NameText.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card2.NameText.Text</Path>
+        </E>
+        <E i="31">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card3.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="33">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card3.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="35">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card3.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="37">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.NameText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card3.NameText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card4.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="41">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card4.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="43">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="44">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card4.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.NameText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card4.NameText.Text</Path>
+        </E>
+        <E i="47">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="48">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card5.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="49">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card5.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="51">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card5.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="53">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.NameText.PointSize</Path>
+        </E>
+        <E i="54">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card5.NameText.Text</Path>
+        </E>
+        <E i="55">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card6.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="57">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card6.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="59">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card6.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="61">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.NameText.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card6.NameText.Text</Path>
+        </E>
+        <E i="63">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.BikeNotAllowedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value>Moto non autorisée !</Value>
+            <Path>XuiScene1.CardListGroup.Card7.BikeNotAllowedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="65">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value>Déverrouiller le jeu complet</Value>
+            <Path>XuiScene1.CardListGroup.Card7.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="67">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="68">
+            <Value>Verrouillé</Value>
+            <Path>XuiScene1.CardListGroup.Card7.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="69">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.NameText.PointSize</Path>
+        </E>
+        <E i="70">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CardListGroup.Card7.NameText.Text</Path>
+        </E>
+        <E i="71">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HiddenButton.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.HiddenButton.Text</Path>
+        </E>
+        <E i="73">
+            <Value>16.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="74">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="75">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="76">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="77">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+\r
+CHOISIR UNE MOTO\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>XuiScene1.Title.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

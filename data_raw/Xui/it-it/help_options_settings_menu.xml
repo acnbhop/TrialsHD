@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Indietro</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+Ripristina predefiniti\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Indietro\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[Metri\r
+Piedi\r
+]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.ItemsText</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.Text</Path>
+        </E>
+        <E i="6">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="41">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="43">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="44">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="45">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="47">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="48">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="49">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="51">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="53">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="54">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="67">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="68">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="69">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="70">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="71">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="72">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="73">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="74">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="75">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="76">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="77">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="78">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="79">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="80">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="81">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="82">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="83">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="84">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="85">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="86">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="87">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="88">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="89">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="90">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="91">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="92">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="93">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="94">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="95">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="96">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="97">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="98">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="99">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="100">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="101">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="102">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="103">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="104">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="105">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="106">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="107">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="108">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="109">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="110">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="111">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="112">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="113">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="114">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="115">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="116">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="117">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="118">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="119">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="120">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="121">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="122">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="123">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="124">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="125">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.DefaultUnitsList.XuiListItem1.Text</Path>
+        </E>
+        <E i="126">
+            <Value>25.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.MusicText.PointSize</Path>
+        </E>
+        <E i="127">
+            <Value>Volume musica</Value>
+            <Path>XuiScene.HelpSettingsGroup.MusicText.Text</Path>
+        </E>
+        <E i="128">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.MusicVolumeSlider.PointSize</Path>
+        </E>
+        <E i="129">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.MusicVolumeSlider.Text</Path>
+        </E>
+        <E i="130">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.SoundFXVolumeSlider.PointSize</Path>
+        </E>
+        <E i="131">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.SoundFXVolumeSlider.Text</Path>
+        </E>
+        <E i="132">
+            <Value>25.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.SoundText.PointSize</Path>
+        </E>
+        <E i="133">
+            <Value>Effetti sonori</Value>
+            <Path>XuiScene.HelpSettingsGroup.SoundText.Text</Path>
+        </E>
+        <E i="134">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.StorageButton.PointSize</Path>
+        </E>
+        <E i="135">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.StorageButton.Text</Path>
+        </E>
+        <E i="136">
+            <Value>25.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.StorageText.PointSize</Path>
+        </E>
+        <E i="137">
+            <Value>Cambia periferica di memorizzazione</Value>
+            <Path>XuiScene.HelpSettingsGroup.StorageText.Text</Path>
+        </E>
+        <E i="138">
+            <Value>25.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.UnitsText.PointSize</Path>
+        </E>
+        <E i="139">
+            <Value>Sistema di misura</Value>
+            <Path>XuiScene.HelpSettingsGroup.UnitsText.Text</Path>
+        </E>
+        <E i="140">
+            <Value><![CDATA[Sì\r
+No\r
+]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.ItemsText</Path>
+        </E>
+        <E i="141">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.PointSize</Path>
+        </E>
+        <E i="142">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.Text</Path>
+        </E>
+        <E i="143">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="144">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="145">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="146">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="147">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="148">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="149">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="150">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="151">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="152">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="153">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="154">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="155">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="156">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="157">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="158">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="159">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="160">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="161">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="162">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="163">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="164">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="165">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="166">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="167">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="168">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="169">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="170">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="171">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="172">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="173">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="174">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="175">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="176">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="177">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="178">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="179">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="180">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="181">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="183">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="184">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="185">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="186">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="187">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="188">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="189">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="190">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="191">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="192">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="193">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="194">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="195">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="196">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="197">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="198">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="199">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="200">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="201">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="202">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="203">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="204">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="205">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="206">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="207">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="208">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="209">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="210">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="211">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="212">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="213">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="214">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="215">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="216">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="217">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="218">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="219">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="220">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="221">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="222">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="223">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="224">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="225">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="226">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="227">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="228">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="229">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="230">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="231">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="232">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="233">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="234">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="235">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="236">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="237">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="238">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="239">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="240">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="241">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="242">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="243">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="244">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="245">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="246">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="247">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="248">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="249">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="250">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="251">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="252">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="253">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="254">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="255">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="256">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="257">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="258">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="259">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="260">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="261">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="262">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="263">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="264">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="265">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="266">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationList.XuiListItem1.Text</Path>
+        </E>
+        <E i="267">
+            <Value>25.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationText.PointSize</Path>
+        </E>
+        <E i="268">
+            <Value>Vibrazione</Value>
+            <Path>XuiScene.HelpSettingsGroup.VibrationText.Text</Path>
+        </E>
+        <E i="269">
+            <Value><![CDATA[Casuale\r
+Art Webb\r
+Brandon DiCamillo\r
+Rake Yohn\r
+No\r
+]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.ItemsText</Path>
+        </E>
+        <E i="270">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.PointSize</Path>
+        </E>
+        <E i="271">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.Text</Path>
+        </E>
+        <E i="272">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="273">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="274">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="275">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="276">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="277">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="278">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="279">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="280">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="281">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="282">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="283">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="284">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="285">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="286">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="287">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="288">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="289">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="290">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="291">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="292">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="293">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="294">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="295">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="296">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="297">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="298">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="299">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="300">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="301">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="302">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="303">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="304">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="305">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="306">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="307">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="308">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="309">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="310">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="311">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="312">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="313">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="314">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="315">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="316">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="317">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="318">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="319">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="320">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="321">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="322">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="323">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="324">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="325">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="326">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="327">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="328">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="329">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="330">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="331">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="332">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="333">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="334">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="335">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="336">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="337">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="338">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="339">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="340">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="341">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="342">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="343">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="344">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="345">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="346">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="347">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="348">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="349">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="350">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="351">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="352">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="353">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="354">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="355">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="356">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="357">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="358">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="359">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="360">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="361">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="362">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="363">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="364">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="365">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="366">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="367">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="368">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="369">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="370">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="371">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="372">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="373">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="374">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="375">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="376">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="377">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="378">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="379">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="380">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="381">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="382">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="383">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="384">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="385">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="386">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="387">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="388">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="389">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="390">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="391">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="392">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="393">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="394">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="395">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="396">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="397">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="398">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="399">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverList.XuiListItem1.Text</Path>
+        </E>
+        <E i="400">
+            <Value>25.000.000</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverText.PointSize</Path>
+        </E>
+        <E i="401">
+            <Value>Doppiaggio</Value>
+            <Path>XuiScene.HelpSettingsGroup.VoiceOverText.Text</Path>
+        </E>
+        <E i="402">
+            <Value>20.000.000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="403">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="404">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="405">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="406">
+            <Value>50.000.000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="407">
+            <Value>IMPOSTAZIONI</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

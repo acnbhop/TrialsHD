@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>基礎</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>工具</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>進階</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>特技挑戰</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>返回</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+返回\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">編輯器<br></font><font color="#D7CAAD" size="20">賽道編輯器可以用來建立新賽道，和好友同樂或一起分享。遊戲中現有的賽道也是用編輯器做的，所以你也可以做出一樣棒或更讚的賽道。學習使用賽道編輯器最好的方法，就是多多練習，快動手吧！超好玩的！<br><br>賽道編輯器有兩種模式：<font color="#EBB40F"><b>簡單模式</b></font>和<font color="#EBB40F"><b>進階模式</b></font>。在簡單模式裡，可以建立基本賽道和有限的視野控制，物件放置和選擇也受限於機車行走的路線上。你可以很容易的在簡單模式中，把賽道基本架構做好。<br><br>在進階模式裡，你有更多的視野控制權，物件放置和選擇也更廣，你也可以調整物件屬性來觸發相關的物理效應，你就可以建立受重力或其他外力影響的物件。你也可以建立特技挑戰賽道，細部微調將賽道做得更精緻。<br><br>在兩種模式裡，螢幕下方會列出目前可用的指令，你可以選擇不同物件，旋轉調整將其放在賽道上任何你想放置的地方，物件會待在放置處不動 (即使是浮在空中)，除非你更改屬性啟動物理定律。<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>基礎</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">工具摘要<br></font><font color="#D7CAAD" size="20">賽道編輯器使用起來很容易上手，你只須注意螢幕下方的指令，就可以建立出你想要的賽道，以下幾個功能特別有用：<br><br><font color="#EBB40F"><b>複製</b></font>- 你可以複製所選取的元素，幫你省時又省力，特別在有多重選擇功能時 (見下方) 特別好用，它可以讓你快速填滿賽道。用 <font color="#9DA0A4"></font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> 按鍵來複製選取的物件。<br> <br> <font color="#EBB40F"><b>對齊行車路線</b></font>- 按一下<font color="#9DA0A4">右搖桿 </font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" /> 就可以把所選取的物件置中於行車路線上，再按一次可以重設物件的旋轉。<br><br><font color="#EBB40F"><b>旋轉和翻轉</b></font>- <font color="#9DA0A4">左緩衝鍵 </font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> 可使物件依照所選擇的軸線旋轉 90 度。如果所選擇的物件正處於任意角度，物件會先重設到原始旋轉角度，接著再按一次<font color="#9DA0A4">左緩衝鍵 </font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> 使物件翻轉 90 度。<br><br><font color="#EBB40F"><b>多重選擇</b></font>- 多重選擇可讓你一次選擇並移動多個物件。如果你使用了複製功能，就可以輕鬆快速地複製大段賽道。要多重選擇物件時，按住<font color="#9DA0A4"> 左緩衝鍵 </font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> 並選擇物件。<br><br><font color="#EBB40F"><b>黏著</b></font>- 使用黏著功能，可以將多個物件連接在一起，成為單一個物件，讓你能夠更輕鬆的建立容易操作的大段賽道。從物件屬性當中選擇 [黏上物件]，就可以黏著 (或取消黏著) 所選擇的物件。注意：如果要取消黏著，你必須使用 [次要選擇] (見以下說明) 來選擇群組中已黏著的物件。<br><br><font color="#EBB40F"><b>次要選擇</b></font>- 使用次要選擇選項，你可以選擇並變更你用黏著功能所建立的大型物件之中的特定元素。你可以按住<font color="#9DA0A4">左緩衝鍵 </font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> 開啟次要選擇功能，然後選擇你所要變更的元素。基本操作方法與 [多重選擇] 相同。<br><br><font color="#EBB40F"><b>跳過檢查點</b></font>- 在編輯器當中測試賽道時，按一下<font color="#9DA0A4">左緩衝鍵 </font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> 或<font color="#9DA0A4">右緩衝鍵 </font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" /> 可以快速移動到前一個或後一個檢查點，便於快速測試。<br><br></font><font color="#EBB40F" size="30">空間複雜度<br></font><font color="#D7CAAD" size="20">賽道複雜度有一定的限制。雖然很難超過複雜度的限制，但是如果試圖將大量的物理物件塞進一小段賽道空間裡，會造成遊戲的運作速度變得太低。如果你已經達到空間複雜度的限制，你需要拉大物件之間的距離，或移除一些物件。<br><br></font><font color="#EBB40F" size="30">檢查點<br></font><font color="#D7CAAD" size="20">賽道上最多可以放置 15 個檢查點，包括起點和終點。最後一個檢點就是終點，玩家必須通過終點才算是完成賽道。<br><br></font><font color="#EBB40F" size="30">開啟空間<br></font><font color="#D7CAAD" size="20">在 [進階模式] 中，你可以藉由增加或移除空間來進行調整，使賽道設計更富有變化。就像其他物件一樣，按 <font color="#9DA0A4"></font><img src="images/menu_buttons_a_bg_small.dds" align="middle" /> 按鍵就能選擇，然後按 <font color="#9DA0A4"></font><img src="images/menu_buttons_x_bg_small.dds" align="middle" /> 按鍵刪除空間，或按 <font color="#9DA0A4"></font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> 按鍵，在所選擇的牆面後建立新的空間。<br><br></font><font color="#EBB40F" size="30">編輯器選單<br></font><font color="#D7CAAD" size="20">你可以按 <font color="#9DA0A4">START </font><img src="images/menu_buttons_start_bg_small.dds" align="middle" /> 鍵以使用編輯器選單，選取機車後就可以測試賽道，藉此調整賽道設定。你可以儲存剛剛建立的賽道、載入現有賽道、建立新賽道或是管理現有賽道。你也可以在簡單模式和進階模式間切換，並檢視這篇使用說明 － 當然，你應該已經發現這個功能了！<br><br></font> ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>工具</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">物件屬性：物理定律<br></font><font color="#D7CAAD" size="20">在賽道編輯器中，[物理定律] 是一個物件導向的概念，當一個物件的物理屬性開啟後，該物件會對重力、動量和其他外力產生反應，例如玩家的機車。這樣的物件會落下或被推倒，物件的重量和動量也會影響其他物件。利用這個原理，就能建立更好玩有趣的賽道，讓玩家有更多真實感的互動，可以看到掉落的物件和其他物理定律如何作用。按 <font color="#9DA0A4">BACK </font><img src="images/menu_buttons_back_bg_small.dds" align="middle" /> 按鍵來選擇 <b>[物理定律 開/關]</b> 功能。<br><br></font><font color="#EBB40F" size="30">樞紐<br></font><font color="#D7CAAD" size="20">樞紐是特殊物件，可讓你建立更複雜的物理物件，像是汽車和鞦韆。要建立含有樞紐的物件：建立樞紐物件。接下來你必須將其他物件分別黏在樞紐的兩端 - 你必須將其他物件黏到樞紐上，而不能用樞紐去黏。當你將兩個物件黏到樞紐上之後，你必須啟動物件的物理定律。<br><br></font><font color="#EBB40F" size="30">觸發器<br></font><font color="#D7CAAD" size="20">觸發器可以讓玩家在接觸到賽道上某個點時，使某個動作發生。當你在賽道上放置觸發器區域時，你必須將它與另一個物件相連接，然後選擇你希望觸發那個物件的哪些物理屬性。當玩家騎乘通過那個觸發器時，便會觸發這些屬性。<br><br></font><font color="#EBB40F" size="20">* <b>物理定律</b></font><font color="#D7CAAD" size="20">- 重力和其他力量將開始影響物件。東西會掉落下來、在其他物件表面反彈、可以用機車推動，等等。<br><br></font><font color="#EBB40F" size="20">* <b>爆炸/破裂</b></font><font color="#D7CAAD" size="20">- 物件受到觸發後發生破裂或爆炸。注意：並不是所有物件都會破裂。<br><br></font><font color="#EBB40F" size="20">* <b>燈光</b></font><font color="#D7CAAD" size="20">- 燈光可開啟或關閉。<br><br></font><font color="#EBB40F" size="20">* <b>動作</b></font><font color="#D7CAAD" size="20">- 觸發可運動的物件開始動作，例如彈珠台彈片。如果你希望可運動的物件與玩家產生互動，除了 [動作]，也需要啟動 [物理定律]。<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>進階</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">建立特技挑戰<br></font><font color="#D7CAAD" size="20">要選擇您所要建立的特技挑戰，請從 [編輯器] 進入 [暫停選單]，並選擇 [賽道設定]，然後變更 [賽道類型]。共有 12 種不同的特技挑戰可以選擇。<br><br><font color="#EBB40F">注意：</font>在每個特技挑戰中，<font color="#EBB40F">只能放置一個檢查點</font>在賽道起點。多個檢查點可能導致預期以外的效果。<br><br></font><font color="#EBB40F" size="30"><br>巨球內部<br></font><font color="#D7CAAD" size="20">您的目標是在巨型鐵球的內部盡可能移動到越遠越好。<br><br><font color="#EBB40F">#1: </font>建立物件 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> 特技物件 -> 巨型鐵球內部<br><font color="#EBB40F">#2: </font>選擇新建立的球體，並按<font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> 以存取其屬性。確定 [物理定律] 和 [跟隨行車動線] 都已開啟。<br><font color="#EBB40F">#3: </font>將球體置中於行車動線上，並放置檢查點，使其指向巨型鐵球內部的中心。<br><br></font><font color="#EBB40F" size="30"><br>雪橇跳躍<br></font><font color="#D7CAAD" size="20">盡可能跳得越遠越好。跳躍距離以著陸的那一點計算。<br><br><font color="#EBB40F">#1: </font>建立物件 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> 特技物件 -> 雪橇跳躍跳台觸發器<br><font color="#EBB40F">#2: </font>將觸發器放置於空中，放在斜坡之後。跳躍距離從機車通過此觸發器時開始計算。<br><br><font color="#EBB40F">注意：</font>確保觸發器啟動時機車完全騰空，否則將視為失敗。<br><br>僅限使用 Scorpion Air 125cc，不可使用其他車型。<br><br></font><font color="#EBB40F" size="30"><br>穿越火圈<br></font><font color="#D7CAAD" size="20">盡可能飛過越多個火圈越好。每穿過一個火圈，都可以得到額外的火箭燃料。<br><br><font color="#EBB40F">#1:</font> 建立物件 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> ->特技物件 -> 火圈啟動觸發器<br><font color="#EBB40F">#2:</font> 將觸發器放置於空中，使機車先通過觸發器，再開始收集火圈。<br><font color="#EBB40F">#3:</font> 建立物件 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> ->特技物件 -> 火圈<br><font color="#EBB40F">#4:</font> 複製並放置火圈，建立你的自訂關卡。<br><br><font color="#EBB40F">注意 1：</font>確保觸發器啟動時機車完全騰空，否則將視為失敗。<br><font color="#EBB40F">注意 2：</font>這類關卡需要清出很大的空間。<br><br></font><font color="#EBB40F" size="30"><br>快遞送貨<br></font><font color="#D7CAAD" size="20">用拖車將爆裂物盡可能拖得越遠越好。拖車若受到顛簸和衝擊，將導致爆炸，因此你需要妥善規劃賽道。<br><br>僅限使用 Hauler 600cc，不可使用其他車型。<br><br></font><font color="#EBB40F" size="30"><br>火燒屁股<br></font><font color="#D7CAAD" size="20">在全身著火的時候，還是要試著騎得越遠越好。在規劃賽道時，要記得騎乘的速度越快，越能控制住火勢，不至於擴大。<br><br><font color="#EBB40F">注意：</font>要使玩家著火，必須在機車必定會經過的行車動線上放置火焰效果。例如：建立物件<font color="#9DA0A4"> 方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> 效果 -> 火焰 2，然後將它放置在行車動線上。<br><br></font><font color="#EBB40F" size="30"><br>目標狩獵<br></font><font color="#D7CAAD" size="20">C盡可能收集到越多目標越好，避免失誤。<br><br><font color="#EBB40F">#1:</font> 建立物件 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> 特技物件 -> 目標狩獵得分項目<br><font color="#EBB40F">#2:</font> 放置目標狩獵得分項目。<br><br></font><font color="#EBB40F" size="30"><br>登上高峰<br></font><font color="#D7CAAD" size="20">盡可能爬得越高越好。<br><br><font color="#EBB40F">注意：</font>跳車將結束此賽道。<br><br></font><font color="#EBB40F" size="30"><br>在巨球外<br></font><font color="#D7CAAD" size="20">在球頂騎乘，盡可能騎得越遠越好，小心不要跌下來。<br><br><font color="#EBB40F">#1:</font> 建立物件 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> 特技物件 -> 巨型鐵球外部<br><font color="#EBB40F">#2</font> 選擇新建立的球體，並按 <font color="#9DA0A4">方向鍵 - 上 </font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> 以存取其屬性。確定 [物理定律] 和 [跟隨行車動線] 都已開啟。<br><font color="#EBB40F">#3</font> 將球體置中於行車動線上，並放置檢查點，使其指向巨型鐵球內部的頂部。<br><br>僅限使用 Phoenix REV 250cc，不可使用其他車型。<br><br></font><font color="#EBB40F" size="30"><br>跳高<br></font><font color="#D7CAAD" size="20">盡可能到達越高的地方越好。<br><br><font color="#EBB40F">注意：</font>可以跳車以增加高度。<br><br></font><font color="#EBB40F" size="30"><br>空翻<br></font><font color="#D7CAAD" size="20">盡可能空翻越多次越好。失誤將結束遊戲。<br><br><font color="#EBB40F">注意：</font>時限為 1 分鐘。<br><br></font><font color="#EBB40F" size="30"><br>前輪騰空<br></font><font color="#D7CAAD" size="20">盡可能將前輪抬起越久越好。避免使前輪著地。<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>特技挑戰</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>編輯器說明</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

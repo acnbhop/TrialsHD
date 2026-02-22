@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>뒤로</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.A-Button.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>가속</Value>
+            <Path>XuiScene.HelpControlsGroup.A-Button.Text</Path>
+        </E>
+        <E i="5">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.B-Button.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>마지막 체크포인트로 돌아가기</Value>
+            <Path>XuiScene.HelpControlsGroup.B-Button.Text</Path>
+        </E>
+        <E i="7">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.Back.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>레벨 다시 시작</Value>
+            <Path>XuiScene.HelpControlsGroup.Back.Text</Path>
+        </E>
+        <E i="9">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.Dpad.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>앞이나 뒤로 기울이기</Value>
+            <Path>XuiScene.HelpControlsGroup.Dpad.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.LeftTrigger.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>브레이크</Value>
+            <Path>XuiScene.HelpControlsGroup.LeftTrigger.Text</Path>
+        </E>
+        <E i="13">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.RightTrigger.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>가속</Value>
+            <Path>XuiScene.HelpControlsGroup.RightTrigger.Text</Path>
+        </E>
+        <E i="15">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.Start.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>일시 중지 메뉴</Value>
+            <Path>XuiScene.HelpControlsGroup.Start.Text</Path>
+        </E>
+        <E i="17">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.X-Button.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value><![CDATA[브레이크\r
+\r
+]]></Value>
+            <Path>XuiScene.HelpControlsGroup.X-Button.Text</Path>
+        </E>
+        <E i="19">
+            <Value>20.000000</Value>
+            <Path>XuiScene.HelpControlsGroup.Y-Button.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>탈출</Value>
+            <Path>XuiScene.HelpControlsGroup.Y-Button.Text</Path>
+        </E>
+        <E i="21">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="25">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>컨트롤</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

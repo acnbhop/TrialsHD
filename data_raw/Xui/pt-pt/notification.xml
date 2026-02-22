@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Continuar\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.NotificationGroup.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#D8C69A" size="19">\r
+\r
+</font>\r
+\r
+</div>]]></Value>
+            <Path>XuiScene1.NotificationGroup.NotificationText.Text</Path>
+        </E>
+        <E i="2">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

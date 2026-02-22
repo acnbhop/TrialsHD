@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>返回</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+返回\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HowToText.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HowToText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Trials 競賽\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+遊戲的目的是以最短時間和最少失誤完成賽道，剛剛好通過的可以獲得銅牌，表現越好就能得到越好的獎牌。\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+失誤\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+當車手空翻失敗或是車體受到環境損傷時，就算是失誤。發生失誤後，遊戲會自動恢復到前一個檢查點。\r
+<br><br>\r
+請記住，失誤是決定排名計分的重要依據，不管你多快完成賽道，失誤越少分數越高。\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+特技挑戰\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+特技挑戰會隨著遊戲的進行，陸續解除鎖定。遊戲目標各不相同，在遊戲開始前會先顯示出來。Trials HD 利用非常精細的物理定律模型，每個動作都是計算出來的，進階動作需要絕佳的操控技巧，但是熟能生巧，加油吧！\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+進階模式：彈跳 - 做出更大的跳躍\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+衝向斜坡加速時向後仰，正要起跳前，快速將車手重心向前移。利用彈跳你可以在陡坡獲得更高的跳躍高度，在進階困難度的教學課程中，第二個斜坡可以好好練習。\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+進階模式：重心移動跳躍 - 在平地跳躍\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+身體前傾，加速然後快速將重心後移再前移，這樣你可以獲得更多動量，可以從平地跳的更高。在進階困難度的教學課程中，一開始就可以訓練這個技巧。\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+進階模式：空翻 - 從斜坡起跳後可以滯空更久\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+翹起前輪加速衝向跳台，將重心前移可以讓車子朝重心移動方向翻滾，這個技巧可以讓你在起跳前，獲得更多向前的動量，特別在垂直起跳的斜坡很有用。練習這技巧最好的地方就是雪橇跳躍特技挑戰。\r
+<br><br>\r
+</font>]]></Value>
+            <Path>XuiScene.HowToText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>遊戲方式</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

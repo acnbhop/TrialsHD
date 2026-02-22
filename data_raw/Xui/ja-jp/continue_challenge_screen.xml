@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card1.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card1.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.NameText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card1.NameText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card1.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="8">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.Score.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card1.Score.Text</Path>
+        </E>
+        <E i="10">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card1.ScoreText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card1.ScoreText.Text</Path>
+        </E>
+        <E i="12">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card2.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="14">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card2.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="16">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.NameText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card2.NameText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card2.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.Score.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card2.Score.Text</Path>
+        </E>
+        <E i="22">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card2.ScoreText.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card2.ScoreText.Text</Path>
+        </E>
+        <E i="24">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card3.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="26">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card3.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="28">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.NameText.PointSize</Path>
+        </E>
+        <E i="29">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card3.NameText.Text</Path>
+        </E>
+        <E i="30">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card3.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="32">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.Score.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card3.Score.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card3.ScoreText.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card3.ScoreText.Text</Path>
+        </E>
+        <E i="36">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="37">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card4.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="38">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="39">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card4.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="40">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.NameText.PointSize</Path>
+        </E>
+        <E i="41">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card4.NameText.Text</Path>
+        </E>
+        <E i="42">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="43">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card4.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="44">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.Score.PointSize</Path>
+        </E>
+        <E i="45">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card4.Score.Text</Path>
+        </E>
+        <E i="46">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card4.ScoreText.PointSize</Path>
+        </E>
+        <E i="47">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card4.ScoreText.Text</Path>
+        </E>
+        <E i="48">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="49">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card5.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="50">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="51">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card5.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="52">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.NameText.PointSize</Path>
+        </E>
+        <E i="53">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card5.NameText.Text</Path>
+        </E>
+        <E i="54">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card5.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="56">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.Score.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card5.Score.Text</Path>
+        </E>
+        <E i="58">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card5.ScoreText.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card5.ScoreText.Text</Path>
+        </E>
+        <E i="60">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card6.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="62">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card6.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="64">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.NameText.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card6.NameText.Text</Path>
+        </E>
+        <E i="66">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="67">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card6.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="68">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.Score.PointSize</Path>
+        </E>
+        <E i="69">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card6.Score.Text</Path>
+        </E>
+        <E i="70">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card6.ScoreText.PointSize</Path>
+        </E>
+        <E i="71">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card6.ScoreText.Text</Path>
+        </E>
+        <E i="72">
+            <Value>23.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.FullOnlyGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="73">
+            <Value>完全版を購入</Value>
+            <Path>XuiScene1.CardListGroup.Card7.FullOnlyGroup.XuiText1.Text</Path>
+        </E>
+        <E i="74">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.LockedGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="75">
+            <Value>Locked</Value>
+            <Path>XuiScene1.CardListGroup.Card7.LockedGroup.XuiText1.Text</Path>
+        </E>
+        <E i="76">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.NameText.PointSize</Path>
+        </E>
+        <E i="77">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card7.NameText.Text</Path>
+        </E>
+        <E i="78">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.PlayedThroughGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="79">
+            <Value>CLEARED</Value>
+            <Path>XuiScene1.CardListGroup.Card7.PlayedThroughGroup.XuiText1.Text</Path>
+        </E>
+        <E i="80">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.Score.PointSize</Path>
+        </E>
+        <E i="81">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card7.Score.Text</Path>
+        </E>
+        <E i="82">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CardListGroup.Card7.ScoreText.PointSize</Path>
+        </E>
+        <E i="83">
+            <Value></Value>
+            <Path>XuiScene1.CardListGroup.Card7.ScoreText.Text</Path>
+        </E>
+        <E i="84">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+トーナメントを続行\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+トーナメントを終了\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ContinueButtonsGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="85">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HiddenButton.PointSize</Path>
+        </E>
+        <E i="86">
+            <Value></Value>
+            <Path>XuiScene1.HiddenButton.Text</Path>
+        </E>
+        <E i="87">
+            <Value></Value>
+            <Path>XuiScene1.MedalsGroup.NextMedalText1.Text</Path>
+        </E>
+        <E i="88">
+            <Value></Value>
+            <Path>XuiScene1.MedalsGroup.NextMedalText2.Text</Path>
+        </E>
+        <E i="89">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="20">\r
+トーナメントのメダル\r
+</font>\r
+\r
+\r
+\r
+\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.MedalsGroup.TournamentMedalsText.Text</Path>
+        </E>
+        <E i="90">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MedalsGroup.TrackImage.PointSize</Path>
+        </E>
+        <E i="91">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene1.MedalsGroup.TrackImage.Text</Path>
+        </E>
+        <E i="92">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="93">
+            <Value></Value>
+            <Path>XuiScene1.ResultGroup.PassedTracksText.Text</Path>
+        </E>
+        <E i="94">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.ResultGroup.StartText.PointSize</Path>
+        </E>
+        <E i="95">
+            <Value></Value>
+            <Path>XuiScene1.ResultGroup.StartText.Text</Path>
+        </E>
+        <E i="96">
+            <Value></Value>
+            <Path>XuiScene1.ResultGroup.TimeText.Text</Path>
+        </E>
+        <E i="97">
+            <Value></Value>
+            <Path>XuiScene1.ResultGroup.TotalTimeText.Text</Path>
+        </E>
+        <E i="98">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+トーナメントを開始\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+戻る\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.StartButtonsGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="99">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="100">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+\r
+CONTINUE TOURNAMENT\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>XuiScene1.TitleContinue.Text</Path>
+        </E>
+        <E i="101">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+\r
+START TOURNAMENT\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>XuiScene1.TitleStart.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

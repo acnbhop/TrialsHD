@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XurFile>
+    <Version>5</Version>
+    <Flags>0</Flags>
+    <Sections>
+        <Section tag="STRN" index="0"/>
+        <Section tag="VECT" index="1">440dc9884438104e0000000044800000440000000000000000000000440000000000000044800000000000000000000042700000443b800000000000428353f6c1469244000000003f4ccccd3f4ccccd3f8000004320000044114000000000004274000042b400000000000043250000431900000000000043f280004366000000000000c2180000c1a0000000000000c1d0000a432c000000000000380e9b3945cb200000000000380e9b39c291fffe00000000c1d0000a440f800000000000c1d00000c6e420000000000043370001413000080000000042700000441b800000000000</Section>
+        <Section tag="DATA" index="2">00010300020c0000000644a0000044340000000000000100020700061400000007000244a00000443400000a0003000300040101000500000007000601000a2c0000024f0007431751e8424999a000000000000000000012040a00040100080101000058410000090300041c00000047000a449fffff4433ffff000000000000000004000b0100051c0000000f000c4380000044000000000000010102000d000b0100051c0000000f000e4480000043800000000000020102000f000b0100051c0000000f001043800000440000000000000301020011000b010004140000000700124480000044000000010200130009030005240000004f001444a0d7e442c0f5c4000000040000000000000000010015010006240000001f001644a0dc2a428c9e75000000050000000601010017001801000a240000004f00194471d70a427800000000000700000000212f001affe8ad1eff0f0f0f41a0000000000411001801000b2c0000024f001b4490451e428c7ade000000080000000000212f001cffe8ad1e800f0f0f424800000000041500090700062c0000014f001d4471a66543f04ccc00000009000000000000000a0000000002000b010007240000020f001e448290e643e7199c0000000b000906001f000000300009030005240000004f00204482400046ada6000000000c00000000000000000200210100061c0000000f00224482400146dc20000000000d0a0402002300240000210100061c0000000f00254482400146ae74000000000e0a0402002300260000000003002700000000010000002800000001000000002900003a27010000000000010020000000020101030101060000000300000000000000320000000c0000000000000001000000320000000f3f80000000003a2700000032000000103f800000002a0100050c00000009002b000000110108c0c000000906002c002d00000008002e00000000000000002f0000000e01000000300000000f00000000310000001d01000000320000001e00000000330000002c01000000340000002d00000000350000003b01000000000006001d00000001010106000000080000000000000032000000000000000e000000323f8000000000000f000000323f8000000000001d00000032000000000000001e00000032000000000000002c000000323f8000000000002d000000323f8000000000003b0000003200000000001b0000000301010601000001000200000008000000000000003200000000001c800f0f0f0000000e000000323f8000000036ff0000000000000f000000323f800000001c800f0f0f0000001d0000003200000000001c800f0f0f0000001e0000003200000000001c800f0f0f0000002c000000323f800000001c800f0f0f0000002d000000323f800000001c800f0f0f0000003b0000003200000000001c800f0f0f001900000001010106000000080000000000000032000000000000000e000000323f8000000000000f000000323f8000000000001d00000032000000000000001e00000032000000000000002c000000323f8000000000002d000000323f8000000000003b0000003200000000000a000000010101060000000c00000000000000320000000000000007000000323f8000000000000e000000323f8000000000000f000000323f80000000000016000000323f8000000000001d00000032000000000000001e000000320000000000000025000000323f8000000000002c000000323f8000000000002d000000323f80000000000034000000323f8000000000003b000000320000000000140000000201010301010600000008000000000264643200000004000000000000000e00000032000000123f8000000000000f00000032000000123f8000000000001d0264643200000004000000000000001e0264643200000004000000000000002c00000032000000123f8000000000002d00000032000000123f8000000000003b026464320000000400000000002b000000010100000000000800000000000000320000000000010000003200000000000f000000320000000000100000003200000000001e0000003200000000001f0000003200000000002d0000003200370000002e000000320000</Section>
+    </Sections>
+    <Strings>
+        <S i="0">XuiCanvas</S>
+        <S i="1">XuiScene</S>
+        <S i="2">CreditsMenuMenu</S>
+        <S i="3">TrialsSceneBlank</S>
+        <S i="4">HelpCreditsGroup\\XuiHtmlControl1</S>
+        <S i="5">XuiBackButton</S>
+        <S i="6">BackButton</S>
+        <S i="7">Back</S>
+        <S i="8">XuiGroup</S>
+        <S i="9">BG_Graphics</S>
+        <S i="10">XuiImage</S>
+        <S i="11">Image3</S>
+        <S i="12">images\\the_background_1_4.dds</S>
+        <S i="13">Image2</S>
+        <S i="14">images\\the_background_1_3.dds</S>
+        <S i="15">Image1</S>
+        <S i="16">images\\the_background_1_2.dds</S>
+        <S i="17">Image</S>
+        <S i="18">images\\the_background_1_1.dds</S>
+        <S i="19">ButtonInfoGroup</S>
+        <S i="20">XuiHtmlElement</S>
+        <S i="21">XuiHtmlElement1</S>
+        <S i="22"><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Back\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></S>
+        <S i="23">XuiText</S>
+        <S i="24">InfoText</S>
+        <S i="25"><![CDATA[\r
+]]></S>
+        <S i="26">TitleText</S>
+        <S i="27">Credits</S>
+        <S i="28">HelpCreditsGroup</S>
+        <S i="29">BGImage</S>
+        <S i="30">images\\leaderboard_list_bg.dds</S>
+        <S i="31">CreditsScrollGroup</S>
+        <S i="32">XuiHtmlControl</S>
+        <S i="33">XuiHtmlControl2</S>
+        <S i="34">TrialsTextbox-ScrollV-Credits</S>
+        <S i="35"><![CDATA[<DIV ALIGN=CENTER><font color="#D7CAAD" size="30">End of the credits.<br><br><br><br><br><br><br><br><br>No, it’s over! Honest!<br><br><br><br><br><br><br><br><br>Geez, this joke’s so old it comes with its own groans.<br><br><br><br><br><br><br><br><br>On the other hand, some of the very best comedy is based on repetition.<br><br><br><br><br><br><br><br><br>And because we've made a game about a guy on a motorcycle, we’re definitely qualified comedians. <br><br><br><br><br><br><br><br><br>When that dude smashes groin first into a steel beam, that’s funny. And classy!<br><br><br>So let’s play with it then.<br><br><br><br><br><br><br><br><br>No I’m not gonna do this.<br><br><br><font color="#FF0000" size="30">From the management: Apologies. Obviously, we have accidentally left extra space at the end of the credits, and some of it has been wasted by some idiot who just wants attention. Said idiot is now being disciplined by our goon squad.<br><br><br><br>At RedLynx, we're committed to not only entertaining, but also educating our customers. Accordingly, it is our intention to use the rest of this space for purely educational purposes. We will now attempt to use another idiot for this purpose. Thank you, and have a nice day.<br><br><br><br><br><br><br><br><br><br><br><br><font color="#D7CAAD" size="30">Uh… yeah. Here come hard facts! Education! Ask me anything. I'm just burstin' with that stuff. When I educate you, man, you stay educated.<br><br><br><br><br><br><br>For example, mass and inertia are pretty much the same thing.<br><br><br><br><br><br><br>See? That was easy. You just learned something. I didn’t even break a sweat. No, no, you’re welcome.<br><br><br><br><br><br><br>You want another one? Check it, I’ll go all crazy on you. How’s this:<br><br><br><br><br><br><br>Planck's constant is used to describe the sizes of quanta in quantum mechanics. It’s the proportionality constant between the energy (E) of a photon and the frequency of the electromagnetic wave associated with it (v).<br><br><br><br><br><br><br>Yowza! How’s that for education, huh? You’re probably really impressed right now. I can only imagine how much I have improved your life with that one. The everyday applications of it are practically limitless.<br><br><br><br><br><br><br><br>Oh, hey, here’s a good one:<br><br><br>The Greek philosopher Chrysippus was a big name in Stoic philosophy, but he was hard up for entertainment. Apparently, he got a donkey drunk and then watched it try to eat figs, and proceeded to literally laugh himself to death.<br><br><br><br><br><br><br>Geez, that dude really could’ve used a TV.<br><br><br><br><br><br><br>Or, I don’t know, a yo-yo. Anything. Anyway, moving on:<br><br><br><br><br><br><br>“We only use about 10% of our brains” is not actually true. Well, except for the people who really believe in it, maybe. ‘Cause they’re pretty dumb.<br><br><br><br><br><br><br>And speaking of dumb stuff, the world will not end in 2012, no matter what an ancient Mayan calendar says. Sure, the Mayans accomplished a lot, but they also practiced regular human sacrifice and tried to make their children permanently cross-eyed because they thought it was cool. All I’m saying is that they wouldn’t be the first guys I’d turn to for guidance, you know?<br><br><br><br><br><br><br>Oh, those Mayans!<br><br><br><br><br><br><br>And finally, here’s something really important. If there’s only one thing you’re going to remember from this amazingly educational experience, make it this one:<br><br><br><br><br><br><br>You need to destroy the brain in order to stop a zombie. Also, it’s no longer your best friend, IT’S A FRIGGIN’ ZOMBIE. And don’t go back for your dog, no matter how much you love little Fluffy. Sentimentality will absolutely get you killed when the zombie apocalypse comes. I can’t emphasize this enough.<br><br><br><br><br><br><br>That’s it. I’m done. That’s enough. Can I go home now?<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Hello?<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Guys?<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Sir?<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Anyone?<br><br><br><br><br><br><br><br><br><br><br><br><br><br>Mommy?<br><br><br><br><br><br><br><br><br><br><br><br><br><br>I’m… I’m so alone.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><font color="#FF0000" size="30">Memo to self: get better idiots.<br><br><br><br><br><br><br><br><br><br><br><br><br><br>]]></S>
+        <S i="36">XuiHtmlControl1</S>
+        <S i="37"><![CDATA[<DIV ALIGN=CENTER><img src="images/title_logo.dds" align="middle" /> <font color="#E8AD1E" size="40"><br><br><br><br>RedLynx Trials HD Team<br><font color="#D7CAAD" size="30">Sebastian Aaltonen<br>Ville Anttonen<br>Vesa Halonen<br>Toni Hollming<br>Antti Ilvessuo<br>Saku Jalkanen<br>Toni Lääveri<br>Kari Perho<br>Mikko Rautalahti<br>Sami Saarinen<br>Jorma Sainio<br>Matti Tuomela<br>Juho Äyräväinen<br><br><br><font color="#E8AD1E" size="40">Xbox LIVE Arcade Team<br><br><font color="#E8AD1E" size="35">Producer<br><font color="#D7CAAD" size="30">Peter Choi<br><br><font color="#E8AD1E" size="35">Test Lead<br><font color="#D7CAAD" size="30">Justin Swan<br><br><font color="#E8AD1E" size="35">Release Management Team<br><font color="#D7CAAD" size="30">Alex Shogren (Excell Data Corporation)<br><br><font color="#E8AD1E" size="35">Software Test Manager<br><font color="#D7CAAD" size="30">Matt Golz<br><br><font color="#E8AD1E" size="35">Product Planning & Business Team <br><font color="#D7CAAD" size="30">Cherie Lutz <br><br><font color="#E8AD1E" size="35">Marketing<br><font color="#D7CAAD" size="30">Jason Ing<br>Jennifer Yi<br>Kristen Miyake<br><br><font color="#E8AD1E" size="35">PR<br><font color="#D7CAAD" size="30">Julianne Diaz<br><br><font color="#E8AD1E" size="35">VMC MAT Tester Lead<br><font color="#D7CAAD" size="30">Jeremiah Armstrong<br><br><font color="#E8AD1E" size="35">VMC MAT Tester <br><font color="#D7CAAD" size="30">Karl Wadesauer<br><br><font color="#E8AD1E" size="35">VMC Test Manager<br><font color="#D7CAAD" size="30">Scott R. Griffiths<br><br><font color="#E8AD1E" size="35">VMC Senior Test Lead<br><font color="#D7CAAD" size="30">Cala Posey<br><br><font color="#E8AD1E" size="35">VMC Test Lead<br><font color="#D7CAAD" size="30">Wes McDaniel<br><br><font color="#E8AD1E" size="35">VMC Test<br><font color="#D7CAAD" size="30">Ian Doble<br>Nick Hart<br>Joshua Sharp Daniels<br>Sam Tharp<br><br><font color="#E8AD1E" size="35">Localization<br><font color="#D7CAAD" size="30">Malika Kherfi<br>Kevin Cooke<br>Francesco Sansone<br>Lana Peng<br>Masato Ishida<br>Peter O’Grady<br>Robert Lin<br>Shinya Muto<br>Atsushi Horiuchi<br>Tomoko Kometani<br>Souichiro Shimano<br>Sachiko Nagasawa<br>Andy Chen An Liu<br>Robert Lin<br>Christina Yu<br>Vincent Tsai<br>Jae Youn Kim<br>Hae Jung Lee<br>In Goo Kwon<br><br><font color="#E8AD1E" size="35">Consumer Research<br><font color="#D7CAAD" size="30">John Hopson<br><br><font color="#E8AD1E" size="35">Special Thanks<br><font color="#D7CAAD" size="30">Oliver Miyashita<br>Kevin Salcedo<br><br><br><font color="#E8AD1E" size="35">VO Talents<br><font color="#D7CAAD" size="30">Brandon DiCamillo<br>Art Webb<br>Rake Yohn<br><br><br><font color="#E8AD1E" size="40">Special Thanks & Greetings From RedLynx <br><font color="#D7CAAD" size="30">Atte Ilvessuo<br>Jukka Merinen<br>Joonas Tamminen<br>QcChopper and all the Trials Fans from previous versions! <br><br><br>Thanks for playing]]></S>
+        <S i="38">InitStop</S>
+        <S i="39">CreditsStart</S>
+        <S i="40">CreditsEnd</S>
+        <S i="41">XuiSoundXACT</S>
+        <S i="42">XuiSoundXACT1</S>
+        <S i="43">sounds\\Menu.xsb</S>
+        <S i="44">sounds\\Menu.xwb</S>
+        <S i="45">TransTo</S>
+        <S i="46">EndTransTo</S>
+        <S i="47">TransFrom</S>
+        <S i="48">EndTransFrom</S>
+        <S i="49">TransBackTo</S>
+        <S i="50">EndTransBackTo</S>
+        <S i="51">TransBackFrom</S>
+        <S i="52">EndTransBackFrom</S>
+        <S i="53">CREDITS</S>
+        <S i="54">menu_back</S>
+    </Strings>
+</XurFile>

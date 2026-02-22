@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Bases</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Outils</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Avancé</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Jeux d'adresse</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Retour</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Retour\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Éditeur<br></font><font color="#D7CAAD" size="20">L'éditeur de pistes est un outil puissant qui te permet de créer de nouvelles pistes à partager avec tes amis. Toutes les pistes existantes du jeu sont créées avec ce même outil, alors rien ne t'empêche de concevoir des pistes aussi bonnes, voire meilleures, que celles du jeu ! La meilleure façon d'apprendre comment fonctionne l'éditeur de pistes est de l'utiliser et de jouer avec ses fonctionnalités. Lance-toi, c'est amusant !<br><br>L'éditeur de pistes est divisé en deux modes différents : le <font color="#EBB40F"><b>mode Simple</b></font> et le <font color="#EBB40F"><b>mode Avancé</b></font>. En mode Simple, tu crées des pistes de base et tu as un contrôle limité de la caméra. Le placement et la sélection des objets se limitent également à la ligne sur laquelle la moto roule. Tu peux facilement établir la structure de base de ta piste en mode Simple.<br><br>En mode Avancé, tu as un contrôle supérieur sur la caméra et sur le placement et la sélection des objets dont le choix est plus important. Tu peux également régler les propriétés des objets pour qu'ils déclenchent des effets physiques avec lesquels tu peux créer des objets sensibles à la gravité et aux autres forces. Tu peux également créer des pistes de Jeux d'adresse en mode Avancé. Tu peux personnaliser et ajouter des trucs à ta piste en mode Avancé.<br><br>Dans les deux modes, tu vois les commandes disponibles répertoriées au bas de l'écran. Tu peux sélectionner différents objets, les faire pivoter et les placer où tu veux sur la piste. Les objets resteront où tu les a mis (même s'ils flottent dans l'air) sauf si  tu actives la physique dans leurs propriétés.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>Bases</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">Résumé de l'outil<br></font><font color="#D7CAAD" size="20">L'éditeur de pistes est relativement intuitif : pour construire les pistes de tes rêves, il te suffira généralement d'utiliser les commandes situées au bas de l'écran de l'éditeur. Cependant, les fonctions suivantes sont particulièrement utiles :<br><br><font color="#EBB40F"><b>Copier</b></font>- Tu peux copier l'élément sélectionné ce qui t'économisera du temps et des efforts et te sera particulièrement utile avec la fonction de multi-sélection (voir ci-dessous) car elle te permet de remplir rapidement la piste. Tu peux copier l'objet sélectionné avec la touche <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" />.<br><br><font color="#EBB40F"><b>Aligner sur la ligne de course</b></font>- Appuie une fois sur la touche <font color="#9DA0A4">(STICK ANALOGIQUE DROIT)</font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" />, pour centrer l'objet sélectionné sur la ligne de course. Lorsque tu appuies une deuxième fois sur la touche, la rotation de l'objet est également initialisée.<br><br><font color="#EBB40F"><b>Rotation rapide</b></font>- La touche <font color="#9DA0A4">(GÂCHETTE HAUTE GAUCHE)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> fait pivoter l'objet à 90 degrés autour de l'axe sélectionné. Si l'objet sélectionné se trouve à un angle arbitraire, il est d'abord initialisé dans sa position d'origine, puis il pivote rapidement de 90 degrés lorsque tu appuies une deuxième fois sur la touche <font color="#9DA0A4">(GÂCHETTE HAUTE GAUCHE)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />.<br><br><font color="#EBB40F"><b>Multi-sélection</b></font>- Avec l'option de multi-sélection, tu peux sélectionner plusieurs objets et les déplacer tous ensemble. Si tu utilises alors la fonction Copier, tu peux  facilement et rapidement copier de grandes parties de la piste. Pour sélectionner plusieurs objets, maintiens la touche <font color="#9DA0A4">(GÂCHETTE HAUTE GAUCHE)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> enfoncée puis sélectionne les objets.<br><br><font color="#EBB40F"><b>Engluer</b></font>- L'option Engluer te permet d'attacher plusieurs objets ensemble en un seul objet, pour créer et manipuler plus facilement de grandes parties de ta piste. Tu peux engluer (ou désengluer) l'objet sélectionné en sélectionnant "Engluer l'objet" dans les propriétés de l'objet. Remarque : pour désengluer, tu dois utiliser Sous-sélectionner (voir ci-dessous) et sélectionner l'objet englué dans le groupe.<br><br><font color="#EBB40F"><b>Sous-sélectionner</b></font>- Avec l'option Sous-sélectionner, tu peux sélectionner et manipuler des éléments spécifiques dans un objet plus important que tu as créé en engluant plusieurs objets ensemble. Tu peux sous-sélectionner les objets en maintenant la touche <font color="#9DA0A4">(GÂCHETTE HAUTE GAUCHE)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> enfoncée et en sélectionnant les éléments désirés. À peu près comme avec la multi-sélection.<br><br><font color="#EBB40F"><b>Passage des points de contrôle</b></font>- Pendant le test des pistes avec l'éditeur, appuie sur la touche <font color="#9DA0A4">(GÂCHETTE HAUTE GAUCHE)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> ou la touche <font color="#9DA0A4">(GÂCHETTE HAUTE DROITE)</font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" /> pour passer d'un point de contrôle à l'autre.<br><br></font><font color="#EBB40F" size="30">Complexité des zones<br></font><font color="#D7CAAD" size="20">Il existe des limites à la complexité de tes pistes. Tu verras que ces limites ne sont pas réellement faciles à atteindre, mais essayer d'empiler un grand nombre d'objets physiques dans un petit endroit, par exemple, ralentirait le jeu. Si tu atteins la limite de Complexité des zones, tu devras espacer les éléments de la piste ou supprimer des éléments.<br><br></font><font color="#EBB40F" size="30">Points de contrôle<br></font><font color="#D7CAAD" size="20">Tu peux placer jusqu'à 15 points de contrôle sur la piste, le premier et le dernier inclus. Le dernier point de contrôle d'une séquence est toujours la ligne d'arrivée que le joueur doit franchir pour terminer la piste.<br><br></font><font color="#EBB40F" size="30">Ouverture des pièces<br></font><font color="#D7CAAD" size="20">En mode Avancé, tu peux personnaliser les pièces en les ajoutant ou en les supprimant pour varier encore plus la conception des pistes. Les pièces peuvent être sélectionnées comme n'importe quel autre objet avec la touche <font color="#9DA0A4">(A)</font><img src="images/menu_buttons_a_bg_small.dds" align="middle" /> puis en appuyant sur la touche <font color="#9DA0A4">(X)</font><img src="images/menu_buttons_x_bg_small.dds" align="middle" /> pour supprimer une pièce ou sur la touche <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> pour créer une pièce près du mur sélectionné.<br><br></font><font color="#EBB40F" size="30">Menu de l'éditeur<br></font><font color="#D7CAAD" size="20">Tu peux accéder au menu de l'éditeur en appuyant sur la touche <font color="#9DA0A4">(START)</font><img src="images/menu_buttons_start_bg_small.dds" align="middle" />. Depuis là, tu peux faire une course d'essai sur la piste, choisir la moto pour cette course et régler les paramètres des pistes. Tu peux enregistrer la piste créée, charger une piste existante, commencer une toute nouvelle piste, ou gérer les pistes existantes. Dans ce menu, tu peux passer du mode Simple au mode Avancé. Tu peux également accéder à ce texte d'aide, mais ça, tu l'as sans doute déjà remarqué !<br><br></font>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Outils</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Propriétés des objets : physique<br></font><font color="#D7CAAD" size="20">Dans l'éditeur de pistes, "physique" est un concept spécifique aux objets. Lorsqu'un objet a l'option Physique activée, cela signifie qu'il est sensible à la gravité, à la vitesse et aux autres forces, comme la moto du joueur. Ces objets peuvent tomber ou être renversés, leur poids et leur vitesse peuvent avoir un effet sur les autres objets physiques, encore une fois, comme sur la moto du joueur ! Les objets physiques peuvent permettre de créer des pistes amusantes sur lesquelles le joueur doit interagir avec des objets pour créer un passage ou qui font soudainement changer la piste lorsque le joueur atteint un certain point. Tu peux voir comment les objets qui tombent se conduisent ou comment d'autres phénomènes physiques se produisent en les utilisant grâce à la fonction Physique Oui/Non avec la touche <font color="#9DA0A4">(BACK)</font><img src="images/menu_buttons_back_bg_small.dds" align="middle" />.<br><br></font><font color="#EBB40F" size="30">Articulations<br></font><font color="#D7CAAD" size="20">Une articulation est un objet spécial qui permet de créer des objets physiques plus complexes comme les voitures ou les balançoires. Pour créer une articulation qui fonctionne : créer l'objet-articulé. Ensuite, tu dois coller les objets séparément aux deux extrémités de l'articulation car tu ne peux pas coller l'articulation, ce sont les objets qui doivent être collés dessus. Puis, lorsque tu as collé les deux objets sur l'articulation, tu dois activer la physique des objets pour qu'ils se comportent en accord.<br><br></font><font color="#EBB40F" size="30">Déclencheurs<br></font><font color="#D7CAAD" size="20">Un déclencheur est une façon de faire se produire quelque chose sur la piste lorsque le joueur atteint un certain point de cette piste. Lorsque tu places une zone de déclenchement sur la piste, tu dois l'associer à un autre objet et sélectionner les propriétés de l'objet qui seront déclenchées. Lorsque le joueur roule sur le déclencheur, ces propriétés sont activées.<br><br><font color="#EBB40F"><b>Physique</b></font>- La gravité et la force se mettent à avoir un effet sur l'objet. Les choses tombent, rebondissent sur d'autres objets, peuvent être repoussées par la moto, etc.<br><br><font color="#EBB40F"><b>Exploser/Se briser</b></font>- L'objet se brise ou explose lorsqu'il est déclenché. Remarque : tous les objets ne peuvent pas être brisés.<br><br><font color="#EBB40F"><b>Lumière</b></font>- Une lumière s'allume et s'éteint.<br><br><font color="#EBB40F"><b>Animation</b></font>- Déclenche le mouvement d'un objet animé, comme les flippers. Si tu veux que l'objet animé interagisse avec le joueur, sélectionne "physique" en plus de "animation".<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>Avancé</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Créer des jeux d'adresse<br></font><font color="#D7CAAD" size="20">Pour choisir le jeu d'adresse à créer, sélectionne Paramètres des pistes dans le menu Pause depuis l'éditeur et règle le Style de la piste. Il existe 12 jeux d'adresse différents à choisir.<br><br><font color="#EBB40F">Remarque :</font> dans tous les jeux d'adresse, <font color="#EBB40F">n'utilise qu'un seul point de contrôle</font> pour commencer la piste. Plusieurs points de contrôle pourraient provoquer des effets indésirables.<br><br></font><font color="#EBB40F" size="30"><br>Dans la boule<br></font><font color="#D7CAAD" size="20">Ton objectif est de te déplacer aussi loin que possible dans la boule de fer géante.<br><br><font color="#EBB40F">#1:</font>Créer un objet <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objets des jeux d'adresse -> Dans la boule de fer géante<br><font color="#EBB40F">#2:</font>Sélectionne la boule que tu viens de créer et appuie sur <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> pour accéder aux propriétés. Vérifie que les options Physique et Verrouiller à la ligne de course sont sélectionnées.<br><font color="#EBB40F">#3:</font>Place la boule au centre de la ligne de course et place le point de contrôle pour qu'il soit dirigé vers le centre de la boule de fer géante.<br><br></font><font color="#EBB40F" size="30"><br>Saut à ski<br></font><font color="#D7CAAD" size="20">Saute le plus loin possible. Lorsque tu touches le sol, la longueur de ton saut s'affiche.<br><br><font color="#EBB40F">#1:</font>Créer un objet <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objets des jeux d'adresse -> Déclencheur sur crête de saut à ski<br><font color="#EBB40F">#2:</font>Place les objets en l'air, après une rampe. La longueur du saut commence à être enregistrée lorsque la moto touche le déclencheur.<br><br><font color="#EBB40F">Remarque :</font>vérifie que la moto est complètement en l'air lorsque le déclencheur est activé ou le saut sera considéré comme un échec.<br><br>Cette moto est réservée au Scorpion Air 125cc et aucune autre moto ne peut être utilisée.<br><br></font><font color="#EBB40F" size="30"><br>Cercles de feu<br></font><font color="#D7CAAD" size="20">Traverse autant de cercles de feu que possible. Chaque fois que tu passes à travers un cercle de feu, de l'essence supplémentaire est ajoutée.<br><br><font color="#EBB40F">#1:</font>Créer un objet <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objets des jeux d'adresse -> Déclencheur de cercle de feu<br><font color="#EBB40F">#2:</font>Place les objets déclencheurs en l'air pour que la moto les traverse avant de récupérer le premier cercle de feu.<br><font color="#EBB40F">#3:</font>Créer un objet <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objets des jeux d'adresse -> Cercle de feu<br><font color="#EBB40F">#4:</font>Copie et place le cercle de feu pour créer ton niveau.<br><br><font color="#EBB40F">Remarque 1 :</font>vérifie que la moto est complètement en l'air lorsque le déclencheur est activé ou le vol sera considéré comme un échec.<br><font color="#EBB40F">Remarque 2 :</font>tu vas devoir débarrasser de nombreuses (!) pièces pour faire de la place pour ton vol.<br><br></font><font color="#EBB40F" size="30"><br>Livraison<br></font><font color="#D7CAAD" size="20">Déplace les bombes aussi loin que tu peux dans le chariot de livraison. Les impacts et les bosses infligés au chariot de livraison peuvent faire exploser les bombes, alors pense à faire une piste adaptée.<br><br>Cette moto est réservée au Hauler 600cc et aucune autre moto ne peut être utilisée.<br><br></font><font color="#EBB40F" size="30"><br>En feu<br></font><font color="#D7CAAD" size="20">Essaie de survivre aussi longtemps que possible tout en étant pris dans les flammes. Lorsque tu crées ton niveau, n'oublie pas que plus tu roules vite, plus les flammes se tiennent à distance.<br><br><font color="#EBB40F">Remarque :</font>pour que le pilote prenne feu, il doit y avoir des effets de feu sur la ligne de course que la moto doit traverser. Par exemple : Créer un objet : <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Effets -> Feu 2 et place-le sur la ligne de course.<br><br></font><font color="#EBB40F" size="30"><br>Cibles de crash<br></font><font color="#D7CAAD" size="20">Collectionne autant de cibles que possible sans commettre de faute.<br><br><font color="#EBB40F">#1:</font>Créer un objet <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objets des jeux d'adresse -> Score de la chasse aux cibles<br><font color="#EBB40F">#2:</font>Place les cibles de crash autour du niveau.<br><br></font><font color="#EBB40F" size="30"><br>Grimper la colline<br></font><font color="#D7CAAD" size="20">Va aussi haut que possible.<br><br><font color="#EBB40F">Remarque :</font>s'éjecter met fin à la piste.<br><br></font><font color="#EBB40F" size="30"><br>Sur la boule<br></font><font color="#D7CAAD" size="20">Roule sur la boule aussi loin que possible sans en tomber.<br><br><font color="#EBB40F">#1:</font>Créer un objet <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objets des jeux d'adresse -> Sur la boule de fer géante<br><font color="#EBB40F">#2</font>Sélectionne la nouvelle boule et appuie sur <font color="#9DA0A4">(BMD HAUT)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> pour accéder aux propriétés. Vérifie que les options Physique et Verrouiller à la ligne de course sont sélectionnées.<br><font color="#EBB40F">#3</font>Centre la boule sur la ligne de course et place le point de contrôle pour qu'il soit dirigé vers le haut de la boule de fer géante.<br><br>Cette moto est réservée au défi Phoenix REV 250cc et aucune autre moto ne peut être utilisée.<br><br></font><font color="#EBB40F" size="30"><br>Saut en hauteur<br></font><font color="#D7CAAD" size="20">Va aussi haut que possible.<br><br><font color="#EBB40F">Remarque :</font>s'éjecter peut permettre d'aller encore plus haut.<br><br></font><font color="#EBB40F" size="30"><br>Flip<br></font><font color="#D7CAAD" size="20">Fais autant de flips que possible. Si tu fais une faute, le jeu se termine.<br><br><font color="#EBB40F">Remarque :</font>la limite de temps est de 1 minute.<br><br></font><font color="#EBB40F" size="30"><br>Roue arrière<br></font><font color="#D7CAAD" size="20">Fais une roue arrière aussi longtemps que possible. Ne laisse pas la roue avant toucher terre.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Jeux d'adresse</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>AIDE DE L'ÉDITEUR</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

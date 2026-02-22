@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.WarningGroup.MessageTitleText.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[保存しています。\r
+本体の電源を切らないでください]]></Value>
+            <Path>XuiScene1.WarningGroup.MessageTitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

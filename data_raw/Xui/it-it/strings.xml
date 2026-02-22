@@ -1,0 +1,3040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>Impossibile assegnare l'obiettivo. Profilo giocatore non disponibile.</Value>
+            <Path>ACHIEVEMENT_ERROR_NO_DATA_TEXT</Path>
+        </E>
+        <E i="1">
+            <Value>Errore nell'obiettivo.</Value>
+            <Path>ACHIEVEMENT_ERROR_NO_DATA_TITLE</Path>
+        </E>
+        <E i="2">
+            <Value>Impossibile assegnare l'obiettivo %NAME. Profilo giocatore non disponibile.</Value>
+            <Path>ACHIEVEMENT_ERROR_TEXT</Path>
+        </E>
+        <E i="3">
+            <Value>Errore nell'obiettivo.</Value>
+            <Path>ACHIEVEMENT_ERROR_TITLE</Path>
+        </E>
+        <E i="4">
+            <Value>Hai già scaricato il tracciato selezionato</Value>
+            <Path>ALREADY_HAVE_DOWNLOADED_TRACK_TEXT</Path>
+        </E>
+        <E i="5">
+            <Value>Tracciato già scaricato</Value>
+            <Path>ALREADY_HAVE_DOWNLOADED_TRACK_TITLE</Path>
+        </E>
+        <E i="6">
+            <Value>Non puoi pubblicare il tuo punteggio sulle classifiche Xbox LIVE senza essere connesso a Xbox LIVE. Riconnettiti e riprova. In alternativa, puoi cancellare il tuo punteggio e continuare a giocare offline.</Value>
+            <Path>ASK_FOR_RELOGIN_TEXT</Path>
+        </E>
+        <E i="7">
+            <Value>RICONNETTITI!</Value>
+            <Path>ASK_FOR_RELOGIN_TITLE</Path>
+        </E>
+        <E i="8">
+            <Value>SMONTA!!!</Value>
+            <Path>BAILOUT_TEXT</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Resta nella sfera più a lungo che puoi.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_ballx</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Resta sulla sfera più a lungo che puoi.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_ballxoutside</Path>
+        </E>
+        <E i="11">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Smonta<img src="images/help_icons_y.dds" align="middle" />, vola con<img src="images/help_icons_thumbstick.dds" align="middle" />e rompiti le ossa.<br>Cerca di far rotolare il pilota giù per le scale!<img src="images/help_icons_thumbstick_rotate.dds" align="middle" />\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_bones</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Hai un minuto per portare le bombe\r
+<br>\r
+il più lontano possibile. Buona fortuna!\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_cart</Path>
+        </E>
+        <E i="13">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Vai più veloce che puoi per tenere basse le fiamme.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_flames</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Hai un minuto.\r
+<br>\r
+Esegui quante più capriole possibile!\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_flip</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Capriole, impennate e combo. Sfodera il tuo stile!\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>BEGIN_HELP_freestyle</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Usa le tue abilità di pilota e sali più in alto che puoi.\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>BEGIN_HELP_hill</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_object</Path>
+        </E>
+        <E i="18">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Smonta<img src="images/help_icons_y.dds" align="middle" />\r
+e vola con<img src="images/help_icons_thumbstick.dds" align="middle" />.\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>BEGIN_HELP_riderx</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Usa le alette per arrivare in alto.\r
+<br>\r
+Smonta di sella<img src="images/help_icons_y.dds" align="middle" />per arrivare ancora più in alto.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_ridery</Path>
+        </E>
+        <E i="20">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Raccogli gli anelli.<img src="images/help_icons_firering.dds" align="middle" /> Ti faranno andare più veloce!\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_rings</Path>
+        </E>
+        <E i="21">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+Raccogli quanti più bersagli<img src="images/help_icons_target.dds" align="middle" />possibile.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_target</Path>
+        </E>
+        <E i="22">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+La ruota anteriore è allentata! Vai più lontano che puoi in impennata.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_wheelie</Path>
+        </E>
+        <E i="23">
+            <Value>Freni: Ammorbiditi</Value>
+            <Path>BIKE_BRAKE_1</Path>
+        </E>
+        <E i="24">
+            <Value>Freni: Standard</Value>
+            <Path>BIKE_BRAKE_2</Path>
+        </E>
+        <E i="25">
+            <Value>Freni: Standard</Value>
+            <Path>BIKE_BRAKE_3</Path>
+        </E>
+        <E i="26">
+            <Value>Freni: Idraulici</Value>
+            <Path>BIKE_BRAKE_4</Path>
+        </E>
+        <E i="27">
+            <Value>Retromarcia potenziata</Value>
+            <Path>BIKE_BRAKE_R</Path>
+        </E>
+        <E i="28">
+            <Value>La moto selezionata non può essere usata su questo tracciato</Value>
+            <Path>BIKE_NOT_ALLOWED_TEXT</Path>
+        </E>
+        <E i="29">
+            <Value>Moto non valida</Value>
+            <Path>BIKE_NOT_ALLOWED_TITLE</Path>
+        </E>
+        <E i="30">
+            <Value>MOTO BLOCCATA</Value>
+            <Path>BIKE_UNLOCK_HELP_TITLE</Path>
+        </E>
+        <E i="31">
+            <Value>%1 ossa rotte</Value>
+            <Path>BONES_PLURAL</Path>
+        </E>
+        <E i="32">
+            <Value>%1 osso rotto</Value>
+            <Path>BONES_SINGULAR</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[<img src="images/menu_buttons_a_bg.dds" align="middle"/>%TXT_BTN_A]]></Value>
+            <Path>BTN_A</Path>
+        </E>
+        <E i="34">
+            <Value><![CDATA[<img src="images/menu_buttons_b_bg.dds" align="middle"/>%TXT_BTN_B]]></Value>
+            <Path>BTN_B</Path>
+        </E>
+        <E i="35">
+            <Value><![CDATA[<div align="center"><font color="#D7CAAD" size="27">%BUTTONS</font></div>]]></Value>
+            <Path>BTN_LIST</Path>
+        </E>
+        <E i="36">
+            <Value><![CDATA[<img src="images/menu_buttons_x_bg.dds" align="middle"/>%TXT_BTN_X]]></Value>
+            <Path>BTN_X</Path>
+        </E>
+        <E i="37">
+            <Value>Annulla</Value>
+            <Path>BUTTON_CANCEL</Path>
+        </E>
+        <E i="38">
+            <Value>Ignora</Value>
+            <Path>BUTTON_DISCARD</Path>
+        </E>
+        <E i="39">
+            <Value>Gestisci tracciati</Value>
+            <Path>BUTTON_MANAGE_TRACKS</Path>
+        </E>
+        <E i="40">
+            <Value>No</Value>
+            <Path>BUTTON_NO</Path>
+        </E>
+        <E i="41">
+            <Value>OK</Value>
+            <Path>BUTTON_OK</Path>
+        </E>
+        <E i="42">
+            <Value>Riprova</Value>
+            <Path>BUTTON_RETRY</Path>
+        </E>
+        <E i="43">
+            <Value>Sì</Value>
+            <Path>BUTTON_YES</Path>
+        </E>
+        <E i="44">
+            <Value>Campo visivo: %1</Value>
+            <Path>CAMERA_ANGLE</Path>
+        </E>
+        <E i="45">
+            <Value>Raggio d'azione telecamera: %1</Value>
+            <Path>CAMERA_RANGE</Path>
+        </E>
+        <E i="46">
+            <Value>Puoi modificare solo i tracciati che hai creato personalmente</Value>
+            <Path>CANNOT_EDIT_OTHERS_TRACK_TEXT</Path>
+        </E>
+        <E i="47">
+            <Value>Impossibile modificare tracciato</Value>
+            <Path>CANNOT_EDIT_OTHERS_TRACK_TITLE</Path>
+        </E>
+        <E i="48">
+            <Value>Puoi condividere solo i tracciati che hai creato personalmente</Value>
+            <Path>CANNOT_SHARE_OTHERS_TRACK_TEXT</Path>
+        </E>
+        <E i="49">
+            <Value>Impossibile condividere tracciato</Value>
+            <Path>CANNOT_SHARE_OTHERS_TRACK_TITLE</Path>
+        </E>
+        <E i="50">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Hai totalizzato %TARGETS in %TIME\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_CONTINUE_STATUS</Path>
+        </E>
+        <E i="51">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Il tuo punteggio totale è ora di %TARGETS in %TIME\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_CONTINUE_STATUS_TOTAL</Path>
+        </E>
+        <E i="52">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%PASSED superati %LEFT rimasti\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_CONTINUE_TRACKS</Path>
+        </E>
+        <E i="53">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Percorri tutti i tracciati il più velocemente possibile,\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_FIRST_STATUS</Path>
+        </E>
+        <E i="54">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+cercando di rompere quanti più bersagli possibile.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_FIRST_STATUS_TOTAL</Path>
+        </E>
+        <E i="55">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Totale %TRACKS tracciati\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_FIRST_TRACKS</Path>
+        </E>
+        <E i="56">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Hai commesso %FAULTS e totalizzato %SCORE\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_CONTINUE_STATUS</Path>
+        </E>
+        <E i="57">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Il tuo punteggio totale è ora di %FAULTS e %SCORE\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_CONTINUE_STATUS_TOTAL</Path>
+        </E>
+        <E i="58">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%PASSED superati %LEFT rimasti\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_CONTINUE_TRACKS</Path>
+        </E>
+        <E i="59">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Esegui una serie di spettacolari acrobazie su ciascun tracciato\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_FIRST_STATUS</Path>
+        </E>
+        <E i="60">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+cercando di commettere il minor numero di errori possibile.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_FIRST_STATUS_TOTAL</Path>
+        </E>
+        <E i="61">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Totale %TRACKS tracciati\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_FIRST_TRACKS</Path>
+        </E>
+        <E i="62">
+            <Value>Torneo bloccato</Value>
+            <Path>CHALLENGE_LOCKED_TITLE</Path>
+        </E>
+        <E i="63">
+            <Value><![CDATA[Per sbloccare un torneo devi prima completare ciascuno dei tracciati che lo compongono in modalità Tracciato singolo. Questo torneo comprende i seguenti tracciati:\r
+%TRACK_NAMES\r
+]]></Value>
+            <Path>CHALLENGE_LOCKED_VALUE</Path>
+        </E>
+        <E i="64">
+            <Value>Ti sei disconnesso da Xbox LIVE e non potrai più accedere alle funzionalità online.</Value>
+            <Path>CHALLENGE_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="65">
+            <Value>DISCONNESSO!</Value>
+            <Path>CHALLENGE_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="66">
+            <Value><![CDATA[Tempo:\r
+Errori:]]></Value>
+            <Path>CHALLENGE_TRACK_TIME_HEADER_RACING</Path>
+        </E>
+        <E i="67">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Hai completato il tracciato precedente con %FAULTS in %TIME\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_CONTINUE_STATUS</Path>
+        </E>
+        <E i="68">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Il tuo tempo totale è di %FAULTS in %TIME\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_CONTINUE_STATUS_TOTAL</Path>
+        </E>
+        <E i="69">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%PASSED / %TOTAL\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_CONTINUE_TRACKS</Path>
+        </E>
+        <E i="70">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Percorri tutti i tracciati il più velocemente possibile,\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_FIRST_STATUS</Path>
+        </E>
+        <E i="71">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+cercando di commettere il minor numero di errori possibile.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_FIRST_STATUS_TOTAL</Path>
+        </E>
+        <E i="72">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+0 / %TRACKS\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_FIRST_TRACKS</Path>
+        </E>
+        <E i="73">
+            <Value>Hai sbloccato %CHALLENGE_NAME</Value>
+            <Path>CHALLENGE_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="74">
+            <Value>Torneo sbloccato</Value>
+            <Path>CHALLENGE_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="75">
+            <Value><![CDATA[<font color="%s" size="18">%c%s</font>]]></Value>
+            <Path>CHECKPOINT_DIFF</Path>
+        </E>
+        <E i="76">
+            <Value>#447B1B</Value>
+            <Path>CHECKPOINT_GREEN</Path>
+        </E>
+        <E i="77">
+            <Value>#DB2F18</Value>
+            <Path>CHECKPOINT_RED</Path>
+        </E>
+        <E i="78">
+            <Value>Colore ambiente</Value>
+            <Path>COLOR_SELECT_AMBIENT</Path>
+        </E>
+        <E i="79">
+            <Value>Colore polvere</Value>
+            <Path>COLOR_SELECT_DUST</Path>
+        </E>
+        <E i="80">
+            <Value>Colore luce solare</Value>
+            <Path>COLOR_SELECT_SUNLIGHT</Path>
+        </E>
+        <E i="81">
+            <Value><![CDATA[<div align="left">\r
+<font color="#D8C69A" size="25">\r
+Totale %PERCENT % completato\r
+</font>\r
+</div>]]></Value>
+            <Path>COMPLETE_INFO_BAR</Path>
+        </E>
+        <E i="82">
+            <Value>Uscire dalla modalità Torneo? I progressi non salvati andranno persi!</Value>
+            <Path>CONFIRM_EXIT_CHALLENGE_TEXT</Path>
+        </E>
+        <E i="83">
+            <Value>USCIRE DALLA MODALITÀ TORNEO?</Value>
+            <Path>CONFIRM_EXIT_CHALLENGE_TITLE</Path>
+        </E>
+        <E i="84">
+            <Value>Uscire dall'Editor? Le modifiche non salvate andranno perse.</Value>
+            <Path>CONFIRM_EXIT_EDITOR_TEXT</Path>
+        </E>
+        <E i="85">
+            <Value>Conferma uscita</Value>
+            <Path>CONFIRM_EXIT_EDITOR_TITLE</Path>
+        </E>
+        <E i="86">
+            <Value>Uscire dal gioco? I progressi non salvati andranno persi!</Value>
+            <Path>CONFIRM_EXIT_GAME_TEXT</Path>
+        </E>
+        <E i="87">
+            <Value>USCIRE DAL GIOCO?</Value>
+            <Path>CONFIRM_EXIT_GAME_TITLE</Path>
+        </E>
+        <E i="88">
+            <Value>Caricare un altro tracciato? Le modifiche non salvate andranno perse.</Value>
+            <Path>CONFIRM_LOAD_TRACK_TEXT</Path>
+        </E>
+        <E i="89">
+            <Value>Conferma caricamento</Value>
+            <Path>CONFIRM_LOAD_TRACK_TITLE</Path>
+        </E>
+        <E i="90">
+            <Value>Eliminare questo tracciato? Le modifiche non salvate andranno perse.</Value>
+            <Path>CONFIRM_NEW_TRACK_TEXT</Path>
+        </E>
+        <E i="91">
+            <Value>Conferma nuovo tracciato</Value>
+            <Path>CONFIRM_NEW_TRACK_TITLE</Path>
+        </E>
+        <E i="92">
+            <Value>Sostituire il tracciato "%1"?</Value>
+            <Path>CONFIRM_OVERWRITE_TEXT</Path>
+        </E>
+        <E i="93">
+            <Value>SOVRASCRIVERE?</Value>
+            <Path>CONFIRM_OVERWRITE_TITLE</Path>
+        </E>
+        <E i="94">
+            <Value>Questo tracciato contiene oggetti tratti da pack di contenuti personalizzati che non hai installato</Value>
+            <Path>CONTENT_PACK_REQUIRED_TEXT</Path>
+        </E>
+        <E i="95">
+            <Value>Nessun pack contenuti disponibile</Value>
+            <Path>CONTENT_PACK_REQUIRED_TITLE</Path>
+        </E>
+        <E i="96">
+            <Value>CRASH!</Value>
+            <Path>CRASH_TEXT</Path>
+        </E>
+        <E i="97">
+            <Value>Distanza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_BALLX_OUT_SINGULAR</Path>
+        </E>
+        <E i="98">
+            <Value>Distanza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_BALLX_SINGULAR</Path>
+        </E>
+        <E i="99">
+            <Value>Ossa rotte: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_BONES_SINGULAR</Path>
+        </E>
+        <E i="100">
+            <Value>Distanza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_CART_SINGULAR</Path>
+        </E>
+        <E i="101">
+            <Value>Distanza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_FLAMES_SINGULAR</Path>
+        </E>
+        <E i="102">
+            <Value><![CDATA[Capriole: %PRIMARY\r
+Tempo: %SECONDARY]]></Value>
+            <Path>CUSTOM_RECORD_FLIP_SINGULAR</Path>
+        </E>
+        <E i="103">
+            <Value>Punteggio: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_FREESTYLE_SINGULAR</Path>
+        </E>
+        <E i="104">
+            <Value>Altezza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_HILL_SINGULAR</Path>
+        </E>
+        <E i="105">
+            <Value>Oggetti distrutti: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="106">
+            <Value>Distanza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_RIDER_X_SINGULAR</Path>
+        </E>
+        <E i="107">
+            <Value>Altezza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_RIDER_Y_SINGULAR</Path>
+        </E>
+        <E i="108">
+            <Value>Anelli: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_RINGS_SINGULAR</Path>
+        </E>
+        <E i="109">
+            <Value>Bersagli: %PRIMARY Tempo: %SECONDARY</Value>
+            <Path>CUSTOM_RECORD_TARGET_SINGULAR</Path>
+        </E>
+        <E i="110">
+            <Value>Errori: %PRIMARY Tempo: %SECONDARY</Value>
+            <Path>CUSTOM_RECORD_TRIALS_SINGULAR</Path>
+        </E>
+        <E i="111">
+            <Value>Distanza: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_WHEELIE_SINGULAR</Path>
+        </E>
+        <E i="112">
+            <Value>La periferica di memorizzazione contenente il tracciato personalizzato è stata rimossa. I risultati non verranno salvati.</Value>
+            <Path>CUSTOM_TRACK_LOST_TEXT</Path>
+        </E>
+        <E i="113">
+            <Value>Periferica di memorizzazione cambiata</Value>
+            <Path>CUSTOM_TRACK_LOST_TITLE</Path>
+        </E>
+        <E i="114">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Periferica non selezionata\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_DEVICE_HEADER</Path>
+        </E>
+        <E i="115">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+Non hai selezionato una periferica di memorizzazione\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_DEVICE_MESSAGE</Path>
+        </E>
+        <E i="116">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Nessun tracciato sulla periferica selezionata\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_DEVICE_HEADER</Path>
+        </E>
+        <E i="117">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+Nessun tracciato personalizzato sulla periferica di memorizzazione selezionata\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_DEVICE_MESSAGE</Path>
+        </E>
+        <E i="118">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Non hai tracciati personalizzati\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_HEADER</Path>
+        </E>
+        <E i="119">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+Usa l'Editor di tracciati per creare tracciati personalizzati o scarica quelli dei tuoi amici\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_MESSAGE</Path>
+        </E>
+        <E i="120">
+            <Value>Il tracciato selezionato è danneggiato e non può essere giocato. Eliminalo nel menu Gestisci tracciati.</Value>
+            <Path>CUSTOM_TRACK_PLAY_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="121">
+            <Value>Tracciato danneggiato</Value>
+            <Path>CUSTOM_TRACK_PLAY_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="122">
+            <Value>Il miglior punteggio per questo tracciato personalizzato era danneggiato ed è stato cancellato.</Value>
+            <Path>CUSTOM_TRACK_SCORE_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="123">
+            <Value>Risultato tracciato danneggiato</Value>
+            <Path>CUSTOM_TRACK_SCORE_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="124">
+            <Value>Tubi</Value>
+            <Path>DECORATION_1</Path>
+        </E>
+        <E i="125">
+            <Value>Frigorifero</Value>
+            <Path>DECORATION_2</Path>
+        </E>
+        <E i="126">
+            <Value>Tende</Value>
+            <Path>DECORATION_3</Path>
+        </E>
+        <E i="127">
+            <Value>Eliminare il tracciato "%1"? L'operazione è irreversibile.</Value>
+            <Path>DELETE_TRACK_TEXT</Path>
+        </E>
+        <E i="128">
+            <Value>ELIMINARE TRACCIATO?</Value>
+            <Path>DELETE_TRACK_TITLE</Path>
+        </E>
+        <E i="129">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_BALLX_OUT_SINGULAR</Path>
+        </E>
+        <E i="130">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_BALLX_SINGULAR</Path>
+        </E>
+        <E i="131">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Ossa rotte:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_BONES_SINGULAR</Path>
+        </E>
+        <E i="132">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_CART_SINGULAR</Path>
+        </E>
+        <E i="133">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_FLAMES_SINGULAR</Path>
+        </E>
+        <E i="134">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Capriole:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="28">\r
+Tempo:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_FLIP_SINGULAR</Path>
+        </E>
+        <E i="135">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Punteggio:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_FREESTYLE_SINGULAR</Path>
+        </E>
+        <E i="136">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Altezza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_HILL_SINGULAR</Path>
+        </E>
+        <E i="137">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Oggetti distrutti:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="138">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_RIDER_X_SINGULAR</Path>
+        </E>
+        <E i="139">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Altezza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_RIDER_Y_SINGULAR</Path>
+        </E>
+        <E i="140">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Anelli:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_RINGS_SINGULAR</Path>
+        </E>
+        <E i="141">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Bersagli:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="28">\r
+Tempo:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_TARGET_SINGULAR</Path>
+        </E>
+        <E i="142">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Errori:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="28">\r
+Tempo:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_TRIALS_SINGULAR</Path>
+        </E>
+        <E i="143">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_WHEELIE_SINGULAR</Path>
+        </E>
+        <E i="144">
+            <Value>%1 %</Value>
+            <Path>DIFFICULTY_COMPLETION_PERCENT</Path>
+        </E>
+        <E i="145">
+            <Value>Ora puoi accedere ai tracciati facili</Value>
+            <Path>DIFFICULTY_EASY_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="146">
+            <Value>Difficoltà Facile sbloccata</Value>
+            <Path>DIFFICULTY_EASY_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="147">
+            <Value>I prossimi saranno davvero difficili!</Value>
+            <Path>DIFFICULTY_HARD_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="148">
+            <Value>Difficoltà Difficile sbloccata</Value>
+            <Path>DIFFICULTY_HARD_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="149">
+            <Value>Non ce la farai a superarli!</Value>
+            <Path>DIFFICULTY_INFERNAL_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="150">
+            <Value>Difficoltà Estrema sbloccata</Value>
+            <Path>DIFFICULTY_INFERNAL_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="151">
+            <Value>Preparati ad affrontare i tracciati medi</Value>
+            <Path>DIFFICULTY_MEDIUM_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="152">
+            <Value>Difficoltà Media sbloccata</Value>
+            <Path>DIFFICULTY_MEDIUM_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="153">
+            <Value>%.2f piedi</Value>
+            <Path>DISTANCE_LONG_IMPERIAL</Path>
+        </E>
+        <E i="154">
+            <Value>%.2f metri</Value>
+            <Path>DISTANCE_LONG_METRIC</Path>
+        </E>
+        <E i="155">
+            <Value>%.2f ft</Value>
+            <Path>DISTANCE_SHORT_IMPERIAL</Path>
+        </E>
+        <E i="156">
+            <Value>%.2f m</Value>
+            <Path>DISTANCE_SHORT_METRIC</Path>
+        </E>
+        <E i="157">
+            <Value>Impossibile installare il pacchetto di contenuti. La periferica di memorizzazione è stata rimossa.</Value>
+            <Path>DLCP_MOUNT_FAILED_REMOVED_TEXT</Path>
+        </E>
+        <E i="158">
+            <Value>Installazione del pacchetto di contenuti fallita</Value>
+            <Path>DLCP_MOUNT_FAILED_REMOVED_TITLE</Path>
+        </E>
+        <E i="159">
+            <Value>Il pack di contenuti "%1" è danneggiato e non è stato installato.</Value>
+            <Path>DLCP_MOUNT_FAILED_TEXT</Path>
+        </E>
+        <E i="160">
+            <Value>Installazione del pacchetto di contenuti fallita</Value>
+            <Path>DLCP_MOUNT_FAILED_TITLE</Path>
+        </E>
+        <E i="161">
+            <Value>SCARICA CONTENUTO</Value>
+            <Path>DOWNLOAD_CONTENT</Path>
+        </E>
+        <E i="162">
+            <Value>Impossibile scaricare i tracciati selezionati. Spazio insufficiente sulla periferica di memorizzazione selezionata.</Value>
+            <Path>DOWNLOAD_FAILED_MEMORY_FULL_TEXT</Path>
+        </E>
+        <E i="163">
+            <Value>Download tracciato fallito</Value>
+            <Path>DOWNLOAD_FAILED_MEMORY_FULL_TITLE</Path>
+        </E>
+        <E i="164">
+            <Value>Alcuni dei tracciati selezionati risultano danneggiati o inesistenti e non è stato possibile scaricarli.</Value>
+            <Path>DOWNLOAD_FAILED_MISSING_TEXT</Path>
+        </E>
+        <E i="165">
+            <Value>Download del tracciato fallito!</Value>
+            <Path>DOWNLOAD_FAILED_MISSING_TITLE</Path>
+        </E>
+        <E i="166">
+            <Value>Impossibile completare il download del tracciato. Verifica la connessione di rete e, se necessario, riconnettiti a Xbox LIVE per riprovare.</Value>
+            <Path>DOWNLOAD_FAILED_NETWORK_TEXT</Path>
+        </E>
+        <E i="167">
+            <Value>Download del tracciato fallito!</Value>
+            <Path>DOWNLOAD_FAILED_NETWORK_TITLE</Path>
+        </E>
+        <E i="168">
+            <Value>Download del tracciato interrotto dall'utente. È possibile che non tutti i tracciati selezionati siano stati scaricati.</Value>
+            <Path>DOWNLOAD_USER_ABORTED_TEXT</Path>
+        </E>
+        <E i="169">
+            <Value>DOWNLOAD DEL TRACCIATO INTERROTTO!</Value>
+            <Path>DOWNLOAD_USER_ABORTED_TITLE</Path>
+        </E>
+        <E i="170">
+            <Value>PASSA A MOD. AVANZATA</Value>
+            <Path>EDITOR_BUTTON_SWITCH_TO_ADVANCED_MODE</Path>
+        </E>
+        <E i="171">
+            <Value>PASSA A MOD. SEMPLICE</Value>
+            <Path>EDITOR_BUTTON_SWITCH_TO_SIMPLE_MODE</Path>
+        </E>
+        <E i="172">
+            <Value>Scegli la moto da usare per il collaudo del tracciato</Value>
+            <Path>EDITOR_INFO_CHOOSE_BIKE</Path>
+        </E>
+        <E i="173">
+            <Value>Visualizza la guida dell'Editor</Value>
+            <Path>EDITOR_INFO_HELP</Path>
+        </E>
+        <E i="174">
+            <Value>Carica un tracciato personalizzato precedentemente creato</Value>
+            <Path>EDITOR_INFO_LOAD</Path>
+        </E>
+        <E i="175">
+            <Value>Usa un tracciato esistente come base per un tracciato personalizzato</Value>
+            <Path>EDITOR_INFO_LOAD_ORIGINAL</Path>
+        </E>
+        <E i="176">
+            <Value>Esci dall'Editor e torna al menu dei contenuti utente</Value>
+            <Path>EDITOR_INFO_MAIN_MENU</Path>
+        </E>
+        <E i="177">
+            <Value>Elimina e rinomina tracciati</Value>
+            <Path>EDITOR_INFO_MANAGE</Path>
+        </E>
+        <E i="178">
+            <Value>Crea un nuovo tracciato</Value>
+            <Path>EDITOR_INFO_NEW_TRACK</Path>
+        </E>
+        <E i="179">
+            <Value>Copia il tracciato corrente tra i tracciati personalizzati giocabili</Value>
+            <Path>EDITOR_INFO_PUBLISH</Path>
+        </E>
+        <E i="180">
+            <Value>Salva il tracciato corrente</Value>
+            <Path>EDITOR_INFO_SAVE</Path>
+        </E>
+        <E i="181">
+            <Value>Salva il tracciato corrente con un nuovo nome o su un'altra periferica di memorizzazione</Value>
+            <Path>EDITOR_INFO_SAVE_AS</Path>
+        </E>
+        <E i="182">
+            <Value>Abilita le funzionalità di editing avanzate</Value>
+            <Path>EDITOR_INFO_SWITCH_TO_ADVANCED_MODE</Path>
+        </E>
+        <E i="183">
+            <Value>Disabilita le funzionalità di editing avanzate</Value>
+            <Path>EDITOR_INFO_SWITCH_TO_SIMPLE_MODE</Path>
+        </E>
+        <E i="184">
+            <Value>Collauda il tracciato corrente</Value>
+            <Path>EDITOR_INFO_TEST_TRACK</Path>
+        </E>
+        <E i="185">
+            <Value>Modifica tipo, difficoltà e altre proprietà del tracciato corrente</Value>
+            <Path>EDITOR_INFO_TRACK_SETTINGS</Path>
+        </E>
+        <E i="186">
+            <Value>Verifica che sia possibile completare il tracciato corrente</Value>
+            <Path>EDITOR_INFO_VERIFY</Path>
+        </E>
+        <E i="187">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+Errori rimasti:\r
+</font>\r
+<font color="#EBB40F" size="27">\r
+%1\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>FAULTS_LEFT</Path>
+        </E>
+        <E i="188">
+            <Value>%1 errori</Value>
+            <Path>FAULT_PLURAL</Path>
+        </E>
+        <E i="189">
+            <Value>%1 errore</Value>
+            <Path>FAULT_SINGULAR</Path>
+        </E>
+        <E i="190">
+            <Value>Hai commesso troppi errori!</Value>
+            <Path>FINISH_FAULTOUT</Path>
+        </E>
+        <E i="191">
+            <Value>Arrivo!</Value>
+            <Path>FINISH_FINISH</Path>
+        </E>
+        <E i="192">
+            <Value>Tempo scaduto!</Value>
+            <Path>FINISH_TIMEOUT</Path>
+        </E>
+        <E i="193">
+            <Value>%1 capriole</Value>
+            <Path>FLIP_PLURAL</Path>
+        </E>
+        <E i="194">
+            <Value>%1 capriola</Value>
+            <Path>FLIP_SINGULAR</Path>
+        </E>
+        <E i="195">
+            <Value>Ti sei disconnesso da Xbox LIVE e non potrai più accedere alle funzionalità online.</Value>
+            <Path>FRIEND_TRACKS_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="196">
+            <Value>DISCONNESSO!</Value>
+            <Path>FRIEND_TRACKS_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="197">
+            <Value>Gioco comp.</Value>
+            <Path>FULL_ONLY</Path>
+        </E>
+        <E i="198">
+            <Value>Sfera gigante</Value>
+            <Path>GAME_MODE_NAME_BALLX</Path>
+        </E>
+        <E i="199">
+            <Value>Giù per le scale</Value>
+            <Path>GAME_MODE_NAME_BONES</Path>
+        </E>
+        <E i="200">
+            <Value>Consegna</Value>
+            <Path>GAME_MODE_NAME_CART</Path>
+        </E>
+        <E i="201">
+            <Value>In fiamme</Value>
+            <Path>GAME_MODE_NAME_FLAMES</Path>
+        </E>
+        <E i="202">
+            <Value>Capriola</Value>
+            <Path>GAME_MODE_NAME_FLIP</Path>
+        </E>
+        <E i="203">
+            <Value>Arrampicata</Value>
+            <Path>GAME_MODE_NAME_HILL</Path>
+        </E>
+        <E i="204">
+            <Value>Salto con gli sci</Value>
+            <Path>GAME_MODE_NAME_RIDERX</Path>
+        </E>
+        <E i="205">
+            <Value>Salto in alto</Value>
+            <Path>GAME_MODE_NAME_RIDERY</Path>
+        </E>
+        <E i="206">
+            <Value>Anello di fuoco</Value>
+            <Path>GAME_MODE_NAME_RING</Path>
+        </E>
+        <E i="207">
+            <Value>Caccia al bersaglio</Value>
+            <Path>GAME_MODE_NAME_TARGET</Path>
+        </E>
+        <E i="208">
+            <Value>Vite allentata</Value>
+            <Path>GAME_MODE_NAME_WHEELIE</Path>
+        </E>
+        <E i="209">
+            <Value>Non hai selezionato alcuna periferica di memorizzazione. Ti verrà chiesto nuovamente di selezionarne una quando vorrai salvare o scaricare tracciati. Accedi al menu "Guida e opzioni" se vuoi selezionare una periferica.</Value>
+            <Path>GAME_WITHOUT_DEVICE_TEXT</Path>
+        </E>
+        <E i="210">
+            <Value>Nessuna periferica selezionata</Value>
+            <Path>GAME_WITHOUT_DEVICE_TITLE</Path>
+        </E>
+        <E i="211">
+            <Value>Nessuna periferica selezionata. È necessario selezionare una periferica di memorizzazione per poter scaricare i tracciati.</Value>
+            <Path>GET_TRACKS_NO_DEVICE_TEXT</Path>
+        </E>
+        <E i="212">
+            <Value>NESSUNA PERIFERICA</Value>
+            <Path>GET_TRACKS_NO_DEVICE_TITLE</Path>
+        </E>
+        <E i="213">
+            <Value>Seleziona i tracciati prima di procedere al download.</Value>
+            <Path>GET_TRACKS_NO_SELECTED_TRACKS_TEXT</Path>
+        </E>
+        <E i="214">
+            <Value>Nessun tracciato selezionato!</Value>
+            <Path>GET_TRACKS_NO_SELECTED_TRACKS_TITLE</Path>
+        </E>
+        <E i="215">
+            <Value>Ti sei disconnesso da Xbox LIVE e non potrai più accedere alle funzionalità online.</Value>
+            <Path>GET_TRACKS_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="216">
+            <Value>DISCONNESSO!</Value>
+            <Path>GET_TRACKS_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="217">
+            <Value>ACCESSO RICHIESTO!</Value>
+            <Path>GET_TRACKS_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="218">
+            <Value>Connettiti a Xbox LIVE per accedere alle funzionalità online.</Value>
+            <Path>GET_TRACKS_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="219">
+            <Value>ACCESSO NEGATO!</Value>
+            <Path>GET_TRACKS_REQUIRE_PRIVILEGES_TITLE</Path>
+        </E>
+        <E i="220">
+            <Value>Non disponi dei privilegi necessari per accedere ai contenuti utente creati dai tuoi amici.</Value>
+            <Path>GET_TRACKS_REQUIRE_PRIVILEGES_VALUE</Path>
+        </E>
+        <E i="221">
+            <Value>ACCESSO RICHIESTO!</Value>
+            <Path>GLOBAL_RANKING_DLC_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="222">
+            <Value>Connettiti a Xbox LIVE per accedere alle funzionalità online.</Value>
+            <Path>GLOBAL_RANKING_DLC_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="223">
+            <Value>Ti sei disconnesso da Xbox LIVE e non potrai più accedere alle funzionalità online.</Value>
+            <Path>GLOBAL_RANKING_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="224">
+            <Value>DISCONNESSO!</Value>
+            <Path>GLOBAL_RANKING_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="225">
+            <Value>ACCESSO RICHIESTO!</Value>
+            <Path>GLOBAL_RANKING_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="226">
+            <Value>Connettiti a Xbox LIVE per accedere alle funzionalità online.</Value>
+            <Path>GLOBAL_RANKING_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="227">
+            <Value>I profili ospite sono bloccati. Esegui nuovamente l'accesso con un altro profilo giocatore.</Value>
+            <Path>GUESTS_BLOCKED_TEXT</Path>
+        </E>
+        <E i="228">
+            <Value>RICONNETTITI!</Value>
+            <Path>GUESTS_BLOCKED_TITLE</Path>
+        </E>
+        <E i="229">
+            <Value>Mostra i comandi della moto</Value>
+            <Path>HELP_OPTIONS_INFO_CONTROLS</Path>
+        </E>
+        <E i="230">
+            <Value>Vieni a conoscere i creatori di Trials!</Value>
+            <Path>HELP_OPTIONS_INFO_CREDITS</Path>
+        </E>
+        <E i="231">
+            <Value>Come giocare: istruzioni di base e utili consigli</Value>
+            <Path>HELP_OPTIONS_INFO_HOWTOPLAY</Path>
+        </E>
+        <E i="232">
+            <Value>Modifica impostazioni di gioco</Value>
+            <Path>HELP_OPTIONS_INFO_SETTINGS</Path>
+        </E>
+        <E i="233">
+            <Value>OSSA</Value>
+            <Path>LABEL_BONES</Path>
+        </E>
+        <E i="234">
+            <Value>DISTANZA</Value>
+            <Path>LABEL_DISTANCE</Path>
+        </E>
+        <E i="235">
+            <Value>ERRORI</Value>
+            <Path>LABEL_FAULTS</Path>
+        </E>
+        <E i="236">
+            <Value>CAPRIOLE</Value>
+            <Path>LABEL_FLIPS</Path>
+        </E>
+        <E i="237">
+            <Value>ALTEZZA</Value>
+            <Path>LABEL_HEIGHT</Path>
+        </E>
+        <E i="238">
+            <Value>OGGETTI DISTRUTTI</Value>
+            <Path>LABEL_OBJECTS_DESTROYED</Path>
+        </E>
+        <E i="239">
+            <Value>PUNTI</Value>
+            <Path>LABEL_POINTS</Path>
+        </E>
+        <E i="240">
+            <Value>ANELLI</Value>
+            <Path>LABEL_RINGS</Path>
+        </E>
+        <E i="241">
+            <Value>BERSAGLI</Value>
+            <Path>LABEL_TARGETS</Path>
+        </E>
+        <E i="242">
+            <Value>TEMPO</Value>
+            <Path>LABEL_TIME</Path>
+        </E>
+        <E i="243">
+            <Value>Punteggi inseriti: %ENTRIES</Value>
+            <Path>LEADERBOARD_ITEM_COUNT</Path>
+        </E>
+        <E i="244">
+            <Value>Ti sei disconnesso da Xbox LIVE e non potrai più accedere alle funzionalità online.</Value>
+            <Path>LEADERBOARD_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="245">
+            <Value>DISCONNESSO!</Value>
+            <Path>LEADERBOARD_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="246">
+            <Value>Difficoltà</Value>
+            <Path>LEVEL_PROPERTY_TITLE_DIFFICULTY</Path>
+        </E>
+        <E i="247">
+            <Value>Stile</Value>
+            <Path>LEVEL_PROPERTY_TITLE_TYPE</Path>
+        </E>
+        <E i="248">
+            <Value>Non puoi pubblicare il tuo punteggio sulle classifiche Xbox LIVE senza essere connesso a Xbox LIVE. Riconnettiti e riprova. In alternativa, puoi cancellare il tuo punteggio e continuare a giocare offline.</Value>
+            <Path>LOAD_FAILED_TEXT</Path>
+        </E>
+        <E i="249">
+            <Value>RICONNETTITI!</Value>
+            <Path>LOAD_FAILED_TITLE</Path>
+        </E>
+        <E i="250">
+            <Value>Bloccato</Value>
+            <Path>LOCKED</Path>
+        </E>
+        <E i="251">
+            <Value>La periferica di memorizzazione selezionata è stata rimossa. Ti verrà chiesto di selezionarne una nuova quando vorrai scaricare un tracciato. Se è disponibile una sola periferica di memorizzazione, essa verrà selezionata automaticamente.</Value>
+            <Path>LOST_DEVICE_DOWNLOAD_TRACKS_TEXT</Path>
+        </E>
+        <E i="252">
+            <Value>Periferica di memorizzazione rimossa</Value>
+            <Path>LOST_DEVICE_DOWNLOAD_TRACKS_TITLE</Path>
+        </E>
+        <E i="253">
+            <Value>La periferica di memorizzazione selezionata è stata rimossa. Ti verrà chiesto di selezionarne una nuova quando vorrai caricare o salvare un tracciato. Se è disponibile una sola periferica di memorizzazione, essa verrà selezionata automaticamente.</Value>
+            <Path>LOST_DEVICE_EDITOR_TEXT</Path>
+        </E>
+        <E i="254">
+            <Value>Periferica di memorizzazione rimossa</Value>
+            <Path>LOST_DEVICE_EDITOR_TITLE</Path>
+        </E>
+        <E i="255">
+            <Value>Obiettivo</Value>
+            <Path>MAIN_MENU_ACHIEVEMENT</Path>
+        </E>
+        <E i="256">
+            <Value>Esci</Value>
+            <Path>MAIN_MENU_EXIT</Path>
+        </E>
+        <E i="257">
+            <Value>Garage</Value>
+            <Path>MAIN_MENU_GARAGE</Path>
+        </E>
+        <E i="258">
+            <Value>Scarica contenuto</Value>
+            <Path>MAIN_MENU_GET_CONTENT</Path>
+        </E>
+        <E i="259">
+            <Value>Guida</Value>
+            <Path>MAIN_MENU_HELP</Path>
+        </E>
+        <E i="260">
+            <Value>Classifiche</Value>
+            <Path>MAIN_MENU_LEADERBOARDS</Path>
+        </E>
+        <E i="261">
+            <Value>Gioca</Value>
+            <Path>MAIN_MENU_PLAY_GAME</Path>
+        </E>
+        <E i="262">
+            <Value>Prove di abilità</Value>
+            <Path>MAIN_MENU_SKILL_GAMES</Path>
+        </E>
+        <E i="263">
+            <Value>Sblocca</Value>
+            <Path>MAIN_MENU_UNLOCK</Path>
+        </E>
+        <E i="264">
+            <Value>Contenuti utente</Value>
+            <Path>MAIN_MENU_USER_CONTENT</Path>
+        </E>
+        <E i="265">
+            <Value>bronzo</Value>
+            <Path>MEDAL_BRONZE</Path>
+        </E>
+        <E i="266">
+            <Value>medaglia di bronzo</Value>
+            <Path>MEDAL_FULL_BRONZE</Path>
+        </E>
+        <E i="267">
+            <Value>medaglia d'oro</Value>
+            <Path>MEDAL_FULL_GOLD</Path>
+        </E>
+        <E i="268">
+            <Value>medaglia di platino</Value>
+            <Path>MEDAL_FULL_PLATINUM</Path>
+        </E>
+        <E i="269">
+            <Value>medaglia d'argento</Value>
+            <Path>MEDAL_FULL_SILVER</Path>
+        </E>
+        <E i="270">
+            <Value>oro</Value>
+            <Path>MEDAL_GOLD</Path>
+        </E>
+        <E i="271">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D8C69A" size="25">\r
+Medaglie\r
+<img src="images/medal_64_4.dds" align="middle" width="75" height="50" />\r
+%MEDAL1\r
+<img src="images/medal_64_3.dds" align="middle" width="57" height="57" /> \r
+%MEDAL2\r
+<img src="images/medal_64_2.dds" align="middle" width="57" height="57" /> \r
+%MEDAL3\r
+<img src="images/medal_64_1.dds" align="middle" width="57" height="57" />\r
+%MEDAL4\r
+</font>\r
+</div>]]></Value>
+            <Path>MEDAL_INFO_BAR</Path>
+        </E>
+        <E i="272">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D8C69A" size="25">\r
+Medaglie\r
+<img src="images/medal_64_3.dds" align="middle" width="57" height="57" /> \r
+%MEDAL2\r
+<img src="images/medal_64_2.dds" align="middle" width="57" height="57" /> \r
+%MEDAL3\r
+<img src="images/medal_64_1.dds" align="middle" width="57" height="57" />\r
+%MEDAL4\r
+</font>\r
+</div>]]></Value>
+            <Path>MEDAL_INFO_BAR_THREE_MEDALS</Path>
+        </E>
+        <E i="273">
+            <Value>Medaglia di bronzo</Value>
+            <Path>MEDAL_LONG_BRONZE</Path>
+        </E>
+        <E i="274">
+            <Value>Medaglia d'oro</Value>
+            <Path>MEDAL_LONG_GOLD</Path>
+        </E>
+        <E i="275">
+            <Value>Nessuna medaglia</Value>
+            <Path>MEDAL_LONG_NONE</Path>
+        </E>
+        <E i="276">
+            <Value>Medaglia di platino</Value>
+            <Path>MEDAL_LONG_PLATINUM</Path>
+        </E>
+        <E i="277">
+            <Value>Medaglia d'argento</Value>
+            <Path>MEDAL_LONG_SILVER</Path>
+        </E>
+        <E i="278">
+            <Value>platino</Value>
+            <Path>MEDAL_PLATINUM</Path>
+        </E>
+        <E i="279">
+            <Value>%1 medaglie</Value>
+            <Path>MEDAL_PLURAL</Path>
+        </E>
+        <E i="280">
+            <Value>argento</Value>
+            <Path>MEDAL_SILVER</Path>
+        </E>
+        <E i="281">
+            <Value>%1 medaglia</Value>
+            <Path>MEDAL_SINGULAR</Path>
+        </E>
+        <E i="282">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Medaglia succ. %MEDAL.\r
+</font>]]></Value>
+            <Path>NEXT_MEDAL</Path>
+        </E>
+        <E i="283">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="22">\r
+Megalia succ. %MEDAL.\r
+</font>]]></Value>
+            <Path>NEXT_MEDAL_SKILLGAMES</Path>
+        </E>
+        <E i="284">
+            <Value><![CDATA[<div align="center"><font color="#EBB40F" size="24">\r
+È probabile che vi siano problemi di connessione a Xbox LIVE. Verifica la connessione e riprova più tardi.\r
+</font></div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_LOAD_ERROR_TEXT</Path>
+        </E>
+        <E i="285">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+Impossibile caricare la lista amici\r
+</font>\r
+</div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_LOAD_ERROR_TITLE</Path>
+        </E>
+        <E i="286">
+            <Value><![CDATA[<div align="center"><font color="#EBB40F" size="24">\r
+Al momento nessuno dei tuoi amici ha tracciati da condividere.\r
+</font></div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_NO_FRIENDS_TEXT</Path>
+        </E>
+        <E i="287">
+            <Value><![CDATA[<div align="center"><font color="#EBB40F" size="28">\r
+Nessun amico condivide\r
+</font></div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_NO_FRIENDS_TITLE</Path>
+        </E>
+        <E i="288">
+            <Value>Connettiti a Xbox LIVE per accedere alle classifiche online.</Value>
+            <Path>NOTIFICATION_LEADERBOARDS_NOT_AVAILABLE</Path>
+        </E>
+        <E i="289">
+            <Value>Impossibile recuperare punteggi da Xbox LIVE</Value>
+            <Path>NOTIFICATION_LEADERBOARD_LOAD_ERROR</Path>
+        </E>
+        <E i="290">
+            <Value>Nessuno dei tuoi amici è ancora inserito in questa classifica.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_FRIEND_SCORE</Path>
+        </E>
+        <E i="291">
+            <Value>Non sei ancora inserito in questa classifica.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_PERSONAL_SCORE</Path>
+        </E>
+        <E i="292">
+            <Value>Non ci sono punteggi in questa classifica.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_SCORE</Path>
+        </E>
+        <E i="293">
+            <Value>Non hai ancora giocato questo tracciato.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_SESSION_SCORE</Path>
+        </E>
+        <E i="294">
+            <Value>Impossibile caricare i dati della sessione.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_SESSION_LOAD_ERROR</Path>
+        </E>
+        <E i="295">
+            <Value>Moto "%1" sbloccata!</Value>
+            <Path>NOTIFY_BIKE_UNLOCKED</Path>
+        </E>
+        <E i="296">
+            <Value>Torneo "%1" sbloccato!</Value>
+            <Path>NOTIFY_CHALLENGE_UNLOCKED</Path>
+        </E>
+        <E i="297">
+            <Value>Modalità di prova completata</Value>
+            <Path>NOTIFY_DEMO_FINISHED</Path>
+        </E>
+        <E i="298">
+            <Value>Difficoltà %1 sbloccata!</Value>
+            <Path>NOTIFY_DIFFICULTY_UNLOCKED</Path>
+        </E>
+        <E i="299">
+            <Value>Hai sbloccato le leggendarie medaglie di platino!</Value>
+            <Path>NOTIFY_PLATINUM_UNLOCKED</Path>
+        </E>
+        <E i="300">
+            <Value>Prova di abilità "%1" sbloccata!</Value>
+            <Path>NOTIFY_SKILLGAME_UNLOCKED</Path>
+        </E>
+        <E i="301">
+            <Value>%1 oggetti</Value>
+            <Path>OBJECTS_PLURAL</Path>
+        </E>
+        <E i="302">
+            <Value>%1 oggetto</Value>
+            <Path>OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="303">
+            <Value>Pareti</Value>
+            <Path>OBJECT_CATEGORY_0</Path>
+        </E>
+        <E i="304">
+            <Value>Oggetti di gioco</Value>
+            <Path>OBJECT_CATEGORY_1</Path>
+        </E>
+        <E i="305">
+            <Value>Strutture</Value>
+            <Path>OBJECT_CATEGORY_10</Path>
+        </E>
+        <E i="306">
+            <Value>Impalcatura</Value>
+            <Path>OBJECT_CATEGORY_11</Path>
+        </E>
+        <E i="307">
+            <Value>Rampe</Value>
+            <Path>OBJECT_CATEGORY_12</Path>
+        </E>
+        <E i="308">
+            <Value>Segnali</Value>
+            <Path>OBJECT_CATEGORY_13</Path>
+        </E>
+        <E i="309">
+            <Value>Decorazioni</Value>
+            <Path>OBJECT_CATEGORY_14</Path>
+        </E>
+        <E i="310">
+            <Value>Gruppi</Value>
+            <Path>OBJECT_CATEGORY_15</Path>
+        </E>
+        <E i="311">
+            <Value>Esplosivi</Value>
+            <Path>OBJECT_CATEGORY_16</Path>
+        </E>
+        <E i="312">
+            <Value>Terrazza</Value>
+            <Path>OBJECT_CATEGORY_17</Path>
+        </E>
+        <E i="313">
+            <Value>Effetti</Value>
+            <Path>OBJECT_CATEGORY_18</Path>
+        </E>
+        <E i="314">
+            <Value>Ogg. Prove abilità</Value>
+            <Path>OBJECT_CATEGORY_2</Path>
+        </E>
+        <E i="315">
+            <Value>Strumenti</Value>
+            <Path>OBJECT_CATEGORY_3</Path>
+        </E>
+        <E i="316">
+            <Value>Luci</Value>
+            <Path>OBJECT_CATEGORY_4</Path>
+        </E>
+        <E i="317">
+            <Value>Assi</Value>
+            <Path>OBJECT_CATEGORY_5</Path>
+        </E>
+        <E i="318">
+            <Value>Cilindri</Value>
+            <Path>OBJECT_CATEGORY_6</Path>
+        </E>
+        <E i="319">
+            <Value>Cubi</Value>
+            <Path>OBJECT_CATEGORY_7</Path>
+        </E>
+        <E i="320">
+            <Value>Pietre</Value>
+            <Path>OBJECT_CATEGORY_8</Path>
+        </E>
+        <E i="321">
+            <Value>Pedane</Value>
+            <Path>OBJECT_CATEGORY_9</Path>
+        </E>
+        <E i="322">
+            <Value>Download del ghost...</Value>
+            <Path>OPERATION_NAME_DOWNLOADING_GHOST</Path>
+        </E>
+        <E i="323">
+            <Value>Download del replay...</Value>
+            <Path>OPERATION_NAME_DOWNLOADING_REPLAY</Path>
+        </E>
+        <E i="324">
+            <Value>Download...</Value>
+            <Path>OPERATION_NAME_DOWNLOADING_TRACKS</Path>
+        </E>
+        <E i="325">
+            <Value>Caricamento tracciato...</Value>
+            <Path>OPERATION_NAME_LOADING_CUSTOM_TRACK</Path>
+        </E>
+        <E i="326">
+            <Value>Verifica dati...</Value>
+            <Path>OPERATION_NAME_LOAD_COMPARISON</Path>
+        </E>
+        <E i="327">
+            <Value>Ripresa Torneo...</Value>
+            <Path>OPERATION_NAME_RESUMING_CHALLENGE</Path>
+        </E>
+        <E i="328">
+            <Value>Salvataggio dati...</Value>
+            <Path>OPERATION_NAME_SAVE_RESULT</Path>
+        </E>
+        <E i="329">
+            <Value>Simulazione ghost...</Value>
+            <Path>OPERATION_NAME_SIMULATING_GHOST</Path>
+        </E>
+        <E i="330">
+            <Value>Caricamento...</Value>
+            <Path>OPERATION_NAME_UPLOADING_TRACKS</Path>
+        </E>
+        <E i="331">
+            <Value>Visualizza obiettivi</Value>
+            <Path>PAUSEMENU_INFO_ACHIEVEMENTS</Path>
+        </E>
+        <E i="332">
+            <Value>Interrompi il gioco</Value>
+            <Path>PAUSEMENU_INFO_EXIT_GAME</Path>
+        </E>
+        <E i="333">
+            <Value>Visualizza la guida e modifica le opzioni</Value>
+            <Path>PAUSEMENU_INFO_HELP_OPTIONS</Path>
+        </E>
+        <E i="334">
+            <Value>Visualizza i migliori punteggi</Value>
+            <Path>PAUSEMENU_INFO_LEADERBOARDS</Path>
+        </E>
+        <E i="335">
+            <Value>Riprendi il gioco</Value>
+            <Path>PAUSEMENU_INFO_RESUME</Path>
+        </E>
+        <E i="336">
+            <Value>Sblocca gioco completo</Value>
+            <Path>PAUSEMENU_INFO_UNLOCK</Path>
+        </E>
+        <E i="337">
+            <Value>%1 punti</Value>
+            <Path>POINT_PLURAL</Path>
+        </E>
+        <E i="338">
+            <Value>%1 punto</Value>
+            <Path>POINT_SINGULAR</Path>
+        </E>
+        <E i="339">
+            <Value>I punteggi conseguiti offline non possono essere salvati nelle classifiche Xbox LIVE. Valuta la possibilità di riconnetterti a Xbox LIVE.</Value>
+            <Path>PRETRACK_OFFLINE_WARNING_TEXT</Path>
+        </E>
+        <E i="340">
+            <Value>Avviso offline</Value>
+            <Path>PRETRACK_OFFLINE_WARNING_TITLE</Path>
+        </E>
+        <E i="341">
+            <Value>La periferica di memorizzazione potrebbe essere piena o non essere disponibile. Per evitare il rischio di una perdita di dati, progressi e impostazioni del profilo giocatore corrente non verranno salvati finché non ti sarai disconnesso e riconnesso nuovamente.</Value>
+            <Path>PROFILE_CREATION_FAILED_TEXT</Path>
+        </E>
+        <E i="342">
+            <Value>Inizializzazione delle impostazioni del profilo giocatore fallita</Value>
+            <Path>PROFILE_CREATION_FAILED_TITLE</Path>
+        </E>
+        <E i="343">
+            <Value>Impossibile salvare progressi e impostazioni quando il profilo giocatore non è disponibile.</Value>
+            <Path>PROFILE_SAVE_FAILED_TEXT</Path>
+        </E>
+        <E i="344">
+            <Value>Salvataggio delle impostazioni del profilo giocatore fallito</Value>
+            <Path>PROFILE_SAVE_FAILED_TITLE</Path>
+        </E>
+        <E i="345">
+            <Value>Tracciato personalizzato</Value>
+            <Path>PUBLISHED_TRACK_HEADER</Path>
+        </E>
+        <E i="346">
+            <Value>Immetti il nome del tracciato pubblicato:</Value>
+            <Path>PUBLISH_TRACK_NAME_DESC</Path>
+        </E>
+        <E i="347">
+            <Value>Immetti nome racciato pubblicato</Value>
+            <Path>PUBLISH_TRACK_NAME_TITLE</Path>
+        </E>
+        <E i="348">
+            <Value>Impossibile rinominare il tracciato selezionato. Il tracciato sembra essere danneggiato.</Value>
+            <Path>RENAME_TRACK_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="349">
+            <Value>Tracciato danneggiato</Value>
+            <Path>RENAME_TRACK_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="350">
+            <Value>La periferica di memorizzazione selezionata contiene già un tracciato di nome "%1". Scegli un altro nome.</Value>
+            <Path>RENAME_TRACK_DUPLICATE_TEXT</Path>
+        </E>
+        <E i="351">
+            <Value>Tracciato già esistente</Value>
+            <Path>RENAME_TRACK_DUPLICATE_TITLE</Path>
+        </E>
+        <E i="352">
+            <Value>Impossibile rinominare il tracciato selezionato. Il tracciato non è stato trovato.</Value>
+            <Path>RENAME_TRACK_MISSING_TEXT</Path>
+        </E>
+        <E i="353">
+            <Value>Tracciato mancante</Value>
+            <Path>RENAME_TRACK_MISSING_TITLE</Path>
+        </E>
+        <E i="354">
+            <Value>Impossibile rinominare. Spazio insufficiente sulla periferica di memorizzazione.</Value>
+            <Path>RENAME_TRACK_OUT_OF_SPACE_TEXT</Path>
+        </E>
+        <E i="355">
+            <Value>Spazio insufficiente</Value>
+            <Path>RENAME_TRACK_OUT_OF_SPACE_TITLE</Path>
+        </E>
+        <E i="356">
+            <Value>Download del replay interrotto.</Value>
+            <Path>REPLAY_DOWNLOAD_ABORTED_TEXT</Path>
+        </E>
+        <E i="357">
+            <Value>Download interrotto</Value>
+            <Path>REPLAY_DOWNLOAD_ABORTED_TITLE</Path>
+        </E>
+        <E i="358">
+            <Value>I dati del replay sono danneggiati e verranno eliminati.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="359">
+            <Value>Replay danneggiato</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="360">
+            <Value>Non hai ancora un replay per questo tracciato. Completa il tracciato per salvare un replay.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_FILE_TEXT</Path>
+        </E>
+        <E i="361">
+            <Value>Nessun replay disponibile</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_FILE_TITLE</Path>
+        </E>
+        <E i="362">
+            <Value>Impossibile caricare il replay. La periferica di memorizzazione su cui è salvato il tracciato non è disponibile.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_STORAGE_TEXT</Path>
+        </E>
+        <E i="363">
+            <Value>Nessun replay disponibile</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_STORAGE_TITLE</Path>
+        </E>
+        <E i="364">
+            <Value>Il tracciato selezionato è danneggiato. Impossibile mostrarne il replay. Eliminalo nel menu Gestisci tracciati.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_TRACK_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="365">
+            <Value>Tracciato danneggiato</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_TRACK_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="366">
+            <Value>Impossibile scaricare il replay. Verifica la connessione di rete e riprova.</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NETWORK_TEXT</Path>
+        </E>
+        <E i="367">
+            <Value>Download del replay fallito</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NETWORK_TITLE</Path>
+        </E>
+        <E i="368">
+            <Value>Non sono disponibili replay per la voce di classifica selezionata.</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NO_FILE_TEXT</Path>
+        </E>
+        <E i="369">
+            <Value>Download del replay fallito</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NO_FILE_TITLE</Path>
+        </E>
+        <E i="370">
+            <Value>La cache del replay di sessione è danneggiata e verrà eliminata.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="371">
+            <Value>Replay di sessione danneggiati</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="372">
+            <Value>Impossibile caricare il replay della sessione.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_FILE_TEXT</Path>
+        </E>
+        <E i="373">
+            <Value>Nessun replay disponibile</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_FILE_TITLE</Path>
+        </E>
+        <E i="374">
+            <Value>Non hai selezionato alcuna periferica di memorizzazione contenente un replay da caricare.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_STORAGE_TEXT</Path>
+        </E>
+        <E i="375">
+            <Value>Nessun replay disponibile</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_STORAGE_TITLE</Path>
+        </E>
+        <E i="376">
+            <Value>Impossibile salvare il replay.</Value>
+            <Path>REPLAY_SAVE_FAILED_TEXT</Path>
+        </E>
+        <E i="377">
+            <Value>Salvataggio replay fallito</Value>
+            <Path>REPLAY_SAVE_FAILED_TITLE</Path>
+        </E>
+        <E i="378">
+            <Value>Hai completato il tracciato vincendo la medaglia di bronzo!</Value>
+            <Path>RESULTS_BRONZE_PERFORMANCE</Path>
+        </E>
+        <E i="379">
+            <Value>Hai vinto la medaglia d'oro!</Value>
+            <Path>RESULTS_GOLD_PERFORMANCE</Path>
+        </E>
+        <E i="380">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>RESULTS_NO_PERFORMANCE_CHANGE</Path>
+        </E>
+        <E i="381">
+            <Value>Hai vinto la medaglia di platino!</Value>
+            <Path>RESULTS_PLATINUM_PERFORMANCE</Path>
+        </E>
+        <E i="382">
+            <Value>Hai vinto la medaglia d'argento!</Value>
+            <Path>RESULTS_SILVER_PERFORMANCE</Path>
+        </E>
+        <E i="383">
+            <Value>Salvataggio del risultato su Xbox LIVE interrotto!</Value>
+            <Path>RESULT_ABORTED</Path>
+        </E>
+        <E i="384">
+            <Value>La tua posizione: %POSITION</Value>
+            <Path>RESULT_DEMO_POSITION</Path>
+        </E>
+        <E i="385">
+            <Value>Non hai battuto il tuo record precedente</Value>
+            <Path>RESULT_DID_NOT_BEAT</Path>
+        </E>
+        <E i="386">
+            <Value>Nuovo record personale!!!</Value>
+            <Path>RESULT_NEW_BEST</Path>
+        </E>
+        <E i="387">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Fai rotolare la palla\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BALLX</Path>
+        </E>
+        <E i="388">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Fai rotolare la palla\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BALLX_OUT</Path>
+        </E>
+        <E i="389">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Hai vinto la medaglia di platino.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BEST</Path>
+        </E>
+        <E i="390">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="22">\r
+Hai vinto la medaglia di platino.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BEST_SKILLGAMES</Path>
+        </E>
+        <E i="391">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Rompi\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+ossa.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BONES</Path>
+        </E>
+        <E i="392">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Pilota\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_CART</Path>
+        </E>
+        <E i="393">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Completa il tracciato per vincere la medaglia di bronzo.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FIRST</Path>
+        </E>
+        <E i="394">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Pilota\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FLAMES</Path>
+        </E>
+        <E i="395">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Esegui \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+capriole.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FLIP</Path>
+        </E>
+        <E i="396">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Totalizza\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+punti.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FREESTYLE</Path>
+        </E>
+        <E i="397">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+Hai vinto la medaglia d'oro.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL</Path>
+        </E>
+        <E i="398">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Congratulazioni!\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL_EX</Path>
+        </E>
+        <E i="399">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="22">\r
+Hai vinto la medaglia d'oro.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL_SKILLGAMES</Path>
+        </E>
+        <E i="400">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="18">\r
+Congratulazioni!\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL_SKILLGAMES_EX</Path>
+        </E>
+        <E i="401">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Arrampicati\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_HILL</Path>
+        </E>
+        <E i="402">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Distruggi\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+oggetti in \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%SECONDARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_OBJECTS</Path>
+        </E>
+        <E i="403">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Vola\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_RIDER_X</Path>
+        </E>
+        <E i="404">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Salta\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_RIDER_Y</Path>
+        </E>
+        <E i="405">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Prendi\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+anelli.</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_RINGS</Path>
+        </E>
+        <E i="406">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Prendi\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+bersagli.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_TARGET</Path>
+        </E>
+        <E i="407">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Commetti meno di\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+errori e completa la <br> prova in meno di\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%SECONDARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_TRIALS</Path>
+        </E>
+        <E i="408">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+Impennata\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_WHEELIE</Path>
+        </E>
+        <E i="409">
+            <Value>Nella versione di prova i risultati non vengono salvati!</Value>
+            <Path>RESULT_NOT_SAVED_DEMO</Path>
+        </E>
+        <E i="410">
+            <Value>I risultati non sono stati salvati su Xbox LIVE!</Value>
+            <Path>RESULT_NOT_SAVED_OFFLINE</Path>
+        </E>
+        <E i="411">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+%PRAISE\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_PRAISE_FORMAT</Path>
+        </E>
+        <E i="412">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="18">\r
+%PRAISE\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_PRAISE_FORMAT_SKILLGAMES</Path>
+        </E>
+        <E i="413">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_BALLX_OUT_SINGULAR</Path>
+        </E>
+        <E i="414">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_BALLX_SINGULAR</Path>
+        </E>
+        <E i="415">
+            <Value>Totale danni alla moto</Value>
+            <Path>RESULT_STAT_BIKE_DAMAGE</Path>
+        </E>
+        <E i="416">
+            <Value>Totale ossa rotte</Value>
+            <Path>RESULT_STAT_BONES</Path>
+        </E>
+        <E i="417">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Ossa rotte:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_BONES_SINGULAR</Path>
+        </E>
+        <E i="418">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_CART_SINGULAR</Path>
+        </E>
+        <E i="419">
+            <Value>Numero totale di combo</Value>
+            <Path>RESULT_STAT_COMBOS</Path>
+        </E>
+        <E i="420">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+FALLIMENTO EPICO!\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_EPIC_FAIL</Path>
+        </E>
+        <E i="421">
+            <Value>Totale danni all'ambiente</Value>
+            <Path>RESULT_STAT_EVN_DAMAGE</Path>
+        </E>
+        <E i="422">
+            <Value>Totale errori</Value>
+            <Path>RESULT_STAT_FAULTS</Path>
+        </E>
+        <E i="423">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_FLAMES_SINGULAR</Path>
+        </E>
+        <E i="424">
+            <Value>Altezza totale in piedi</Value>
+            <Path>RESULT_STAT_FLIGHT_DISTANCE_FEETS</Path>
+        </E>
+        <E i="425">
+            <Value>Altezza totale in metri</Value>
+            <Path>RESULT_STAT_FLIGHT_DISTANCE_METERS</Path>
+        </E>
+        <E i="426">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Capriole:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="60">\r
+Tempo:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_FLIP_SINGULAR</Path>
+        </E>
+        <E i="427">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Punteggio:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_FREESTYLE_SINGULAR</Path>
+        </E>
+        <E i="428">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Altezza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_HILL_SINGULAR</Path>
+        </E>
+        <E i="429">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Oggetti distrutti:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="430">
+            <Value>Danni alla moto</Value>
+            <Path>RESULT_STAT_PREV_BIKE_DAMAGE</Path>
+        </E>
+        <E i="431">
+            <Value>Ossa rotte</Value>
+            <Path>RESULT_STAT_PREV_BONES</Path>
+        </E>
+        <E i="432">
+            <Value>Numero di combo</Value>
+            <Path>RESULT_STAT_PREV_COMBOS</Path>
+        </E>
+        <E i="433">
+            <Value>Danni all'ambiente</Value>
+            <Path>RESULT_STAT_PREV_EVN_DAMAGE</Path>
+        </E>
+        <E i="434">
+            <Value>Errori</Value>
+            <Path>RESULT_STAT_PREV_FAULTS</Path>
+        </E>
+        <E i="435">
+            <Value>Altezza in piedi</Value>
+            <Path>RESULT_STAT_PREV_FLIGHT_DISTANCE_FEETS</Path>
+        </E>
+        <E i="436">
+            <Value>Altezza in metri</Value>
+            <Path>RESULT_STAT_PREV_FLIGHT_DISTANCE_METERS</Path>
+        </E>
+        <E i="437">
+            <Value>Tempo</Value>
+            <Path>RESULT_STAT_PREV_TIME</Path>
+        </E>
+        <E i="438">
+            <Value>Numero di acrobazie</Value>
+            <Path>RESULT_STAT_PREV_TRICKS</Path>
+        </E>
+        <E i="439">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_RIDER_X_SINGULAR</Path>
+        </E>
+        <E i="440">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Altezza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_RIDER_Y_SINGULAR</Path>
+        </E>
+        <E i="441">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Anelli:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_RINGS_SINGULAR</Path>
+        </E>
+        <E i="442">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Bersagli:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="60">\r
+Tempo:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_TARGET_SINGULAR</Path>
+        </E>
+        <E i="443">
+            <Value>Numero partite giocate</Value>
+            <Path>RESULT_STAT_TIMES_PLAYED</Path>
+        </E>
+        <E i="444">
+            <Value>Tempo di gioco totale</Value>
+            <Path>RESULT_STAT_TIME_PLAYED</Path>
+        </E>
+        <E i="445">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Errori:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="60">\r
+Tempo:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_TRIALS_SINGULAR</Path>
+        </E>
+        <E i="446">
+            <Value>Totale acrobazie</Value>
+            <Path>RESULT_STAT_TRICKS</Path>
+        </E>
+        <E i="447">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+Distanza:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_WHEELIE_SINGULAR</Path>
+        </E>
+        <E i="448">
+            <Value>Non hai completato il tracciato!</Value>
+            <Path>RESULT_TRACK_FAILED</Path>
+        </E>
+        <E i="449">
+            <Value>Si è verificato un errore durante il caricamento dei contenuti di gioco. Verrai riportato alla Libreria giochi.</Value>
+            <Path>RETURN_TO_GAME_LIBRARY</Path>
+        </E>
+        <E i="450">
+            <Value>%1 anelli</Value>
+            <Path>RINGS_PLURAL</Path>
+        </E>
+        <E i="451">
+            <Value>%1 anello</Value>
+            <Path>RINGS_SINGULAR</Path>
+        </E>
+        <E i="452">
+            <Value>Nuovo tracciato</Value>
+            <Path>SAVETRACK_NAME_DEFAULT</Path>
+        </E>
+        <E i="453">
+            <Value>Immetti il nome del tuo tracciato:</Value>
+            <Path>SAVETRACK_NAME_DESC</Path>
+        </E>
+        <E i="454">
+            <Value>Immetti nome tracciato</Value>
+            <Path>SAVETRACK_NAME_TITLE</Path>
+        </E>
+        <E i="455">
+            <Value>Impossibile salvare il tracciato. Spazio insufficiente sulla periferica di memorizzazione selezionata.</Value>
+            <Path>SAVE_FAILED_MEMORY_FULL_TEXT</Path>
+        </E>
+        <E i="456">
+            <Value>Salvataggio tracciato fallito</Value>
+            <Path>SAVE_FAILED_MEMORY_FULL_TITLE</Path>
+        </E>
+        <E i="457">
+            <Value>Non puoi pubblicare il tuo punteggio sulle classifiche Xbox LIVE senza essere connesso a Xbox LIVE. Riconnettiti e riprova. In alternativa, puoi cancellare il tuo punteggio e continuare a giocare offline.</Value>
+            <Path>SAVE_FAILED_TEXT</Path>
+        </E>
+        <E i="458">
+            <Value>RICONNETTITI!</Value>
+            <Path>SAVE_FAILED_TITLE</Path>
+        </E>
+        <E i="459">
+            <Value>Salvataggio del contenuto. Non spegnere la console.</Value>
+            <Path>SAVE_WARNING_NORMAL</Path>
+        </E>
+        <E i="460">
+            <Value>Salvataggio...</Value>
+            <Path>SAVE_WARNING_SHORT</Path>
+        </E>
+        <E i="461">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="22">\r
+%1 \r
+</font>\r
+</div>]]></Value>
+            <Path>SCROLL_MESSAGE</Path>
+        </E>
+        <E i="462">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+Gioca %TYPE\r
+</font>\r
+</div>]]></Value>
+            <Path>SELECT_TRACK_RACING_TITLE</Path>
+        </E>
+        <E i="463">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+GIOCA %TYPE - %DIFF\r
+</font>\r
+</div>]]></Value>
+            <Path>SELECT_TRACK_TITLE</Path>
+        </E>
+        <E i="464">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="30">\r
+<img src="images/gamerscore_icon.dds" align="middle" />%SCORE \r
+</font>\r
+</div>]]></Value>
+            <Path>SELLING_ACH_GAMERSCORE</Path>
+        </E>
+        <E i="465">
+            <Value>Il Torneo che hai selezionato è disponibile solo nella versione completa del gioco. Acquistala subito!</Value>
+            <Path>SELLING_CHALLENGE_LOCKED_TEXT</Path>
+        </E>
+        <E i="466">
+            <Value>Acquista il gioco completo per sbloccare il Torneo!</Value>
+            <Path>SELLING_CHALLENGE_LOCKED_TITLE</Path>
+        </E>
+        <E i="467">
+            <Value>Il tracciato che hai selezionato è disponibile solo nella versione completa del gioco. Acquistala subito!</Value>
+            <Path>SELLING_TRACK_LOCKED_TEXT</Path>
+        </E>
+        <E i="468">
+            <Value>Acquista il gioco completo per sbloccare il tracciato!</Value>
+            <Path>SELLING_TRACK_LOCKED_TITLE</Path>
+        </E>
+        <E i="469">
+            <Value>Ti sei disconnesso da Xbox LIVE e non potrai più accedere alle funzionalità online.</Value>
+            <Path>SHARE_TRACKS_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="470">
+            <Value>DISCONNESSO!</Value>
+            <Path>SHARE_TRACKS_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="471">
+            <Value>ACCESSO RICHIESTO!</Value>
+            <Path>SHARE_TRACKS_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="472">
+            <Value>Connettiti a Xbox LIVE per accedere alle funzionalità online.</Value>
+            <Path>SHARE_TRACKS_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="473">
+            <Value>Tracciati selezionati %USED/%MAX.</Value>
+            <Path>SHARE_TRACKS_SHARED_COUNTER</Path>
+        </E>
+        <E i="474">
+            <Value>Sei stato riportato al menu principale dopo la disconnessione.</Value>
+            <Path>SIGNOUT_TO_MAIN_TEXT</Path>
+        </E>
+        <E i="475">
+            <Value>ESCI</Value>
+            <Path>SIGNOUT_TO_MAIN_TITLE</Path>
+        </E>
+        <E i="476">
+            <Value><![CDATA[<font color="#EBB40F" size="25">%1</font>]]></Value>
+            <Path>SKILLGAME_PRIMARY_FORMAT</Path>
+        </E>
+        <E i="477">
+            <Value><![CDATA[<font color="#D8C69A" size="16">%1</font>]]></Value>
+            <Path>SKILLGAME_SECONDARY_FORMAT</Path>
+        </E>
+        <E i="478">
+            <Value>Per sbloccare la Prova di abilità "%1", devi accumulare %RANK %MEDALS in modalità gara a livello di difficoltà %3.</Value>
+            <Path>SKILLGAME_UNLOCK_HELP_TEXT</Path>
+        </E>
+        <E i="479">
+            <Value>PROVA DI ABILITÀ BLOCCATA</Value>
+            <Path>SKILLGAME_UNLOCK_HELP_TITLE</Path>
+        </E>
+        <E i="480">
+            <Value>VIA!</Value>
+            <Path>START_GO</Path>
+        </E>
+        <E i="481">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+%DEVICE1 &nbsp;&nbsp; %DEVICE2<br>%DEVICE3\r
+</font>\r
+</div>]]></Value>
+            <Path>STORAGE_SPACE_BASE</Path>
+        </E>
+        <E i="482">
+            <Value><![CDATA[<img src="images/storage_hdd.dds" align="middle" width="32" height="32"/>\r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_HDD</Path>
+        </E>
+        <E i="483">
+            <Value><![CDATA[<img src="images/storage_mu-a.dds" align="middle" width="32" height="32" /> \r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_MU1</Path>
+        </E>
+        <E i="484">
+            <Value><![CDATA[<img src="images/storage_mu-b.dds" align="middle" width="32" height="32"/>\r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_MU2</Path>
+        </E>
+        <E i="485">
+            <Value><![CDATA[<img src="images/storage_mu-generic.dds" align="middle" width="32" height="32" /> \r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_MUG</Path>
+        </E>
+        <E i="486">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+Nessuna periferica selezionata\r
+</font>\r
+</div>]]></Value>
+            <Path>STORAGE_SPACE_NO_DEVICE_BASE</Path>
+        </E>
+        <E i="487">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+%DEVICE1\r
+</font>\r
+</div>]]></Value>
+            <Path>STORAGE_SPACE_SINGLE_BASE</Path>
+        </E>
+        <E i="488">
+            <Value>%1 bersagli</Value>
+            <Path>TARGET_PLURAL</Path>
+        </E>
+        <E i="489">
+            <Value>%1 bersaglio</Value>
+            <Path>TARGET_SINGULAR</Path>
+        </E>
+        <E i="490">
+            <Value>Tempo scaduto!</Value>
+            <Path>TIMED_OUT_TEXT</Path>
+        </E>
+        <E i="491">
+            <Value>%02d:%02d.%03d</Value>
+            <Path>TIME_FULL_LONG</Path>
+        </E>
+        <E i="492">
+            <Value>%02d:%02d</Value>
+            <Path>TIME_FULL_SHORT</Path>
+        </E>
+        <E i="493">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+Tempo rimasto:\r
+</font>\r
+<font color="#EBB40F" size="27">\r
+%1\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>TIME_LEFT</Path>
+        </E>
+        <E i="494">
+            <Value>%.1f secondi</Value>
+            <Path>TIME_LONG</Path>
+        </E>
+        <E i="495">
+            <Value>%d minuti</Value>
+            <Path>TIME_MINUTES_LONG</Path>
+        </E>
+        <E i="496">
+            <Value>%d min</Value>
+            <Path>TIME_MINUTES_SHORT</Path>
+        </E>
+        <E i="497">
+            <Value>%.1f s</Value>
+            <Path>TIME_SHORT</Path>
+        </E>
+        <E i="498">
+            <Value>Troppi errori!</Value>
+            <Path>TOO_MANY_FAULTS_TEXT</Path>
+        </E>
+        <E i="499">
+            <Value>La periferica di memorizzazione selezionata contiene già il tracciato "%1". Sovrascriverlo?</Value>
+            <Path>TRACK_ALREADY_EXISTS_TEXT</Path>
+        </E>
+        <E i="500">
+            <Value>Tracciato già esistente</Value>
+            <Path>TRACK_ALREADY_EXISTS_TITLE</Path>
+        </E>
+        <E i="501">
+            <Value>PRINCIPIANTE</Value>
+            <Path>TRACK_DIFFICULTY_0</Path>
+        </E>
+        <E i="502">
+            <Value>FACILE</Value>
+            <Path>TRACK_DIFFICULTY_1</Path>
+        </E>
+        <E i="503">
+            <Value>MEDIO</Value>
+            <Path>TRACK_DIFFICULTY_2</Path>
+        </E>
+        <E i="504">
+            <Value>DIFFICILE</Value>
+            <Path>TRACK_DIFFICULTY_3</Path>
+        </E>
+        <E i="505">
+            <Value>ESTREMO</Value>
+            <Path>TRACK_DIFFICULTY_4</Path>
+        </E>
+        <E i="506">
+            <Value>Impossibile scaricare i tracciati. Spazio insufficiente sulla periferica di memorizzazione selezionata. Scegli un'altra periferica di memorizzazione con più spazio libero.</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_NOSPACE_TEXT</Path>
+        </E>
+        <E i="507">
+            <Value>Download tracciato fallito</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_NOSPACE_TITLE</Path>
+        </E>
+        <E i="508">
+            <Value>Impossibile scaricare i tracciati. La periferica di memorizzazione selezionata contiene già il massimo di 100 tracciati.</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_TOOMANY_TEXT</Path>
+        </E>
+        <E i="509">
+            <Value>Download tracciato fallito</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_TOOMANY_TITLE</Path>
+        </E>
+        <E i="510">
+            <Value>Il tracciato selezionato è danneggiato e non può essere caricato.</Value>
+            <Path>TRACK_LOAD_FAILED_CORRUPT_TEXT</Path>
+        </E>
+        <E i="511">
+            <Value>File tracciato danneggiato</Value>
+            <Path>TRACK_LOAD_FAILED_CORRUPT_TITLE</Path>
+        </E>
+        <E i="512">
+            <Value>Impossibile caricare il tracciato selezionato. La periferica di memorizzazione su cui era archiviato è stata rimossa.</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_DEVICE_TEXT</Path>
+        </E>
+        <E i="513">
+            <Value>Caricamento tracciato fallito</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_DEVICE_TITLE</Path>
+        </E>
+        <E i="514">
+            <Value>Caricamento fallito. Il tracciato selezionato non è stato trovato.</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_FILE_TEXT</Path>
+        </E>
+        <E i="515">
+            <Value>Caricamento tracciato fallito</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_FILE_TITLE</Path>
+        </E>
+        <E i="516">
+            <Value>Impossibile caricare il tracciato selezionato. Verifica che sia ancora disponibile.</Value>
+            <Path>TRACK_LOAD_FAILED_TEXT</Path>
+        </E>
+        <E i="517">
+            <Value>Caricamento tracciato fallito</Value>
+            <Path>TRACK_LOAD_FAILED_TITLE</Path>
+        </E>
+        <E i="518">
+            <Value>Impossibile caricare tutti i tracciati selezionati. La selezione di tracciati condivisi è stata modificata per includere solo i tracciati che è stato possibile caricare.</Value>
+            <Path>TRACK_LOAD_FOR_SHARE_FAILED_TEXT</Path>
+        </E>
+        <E i="519">
+            <Value>Errori nel caricamento del tracciato</Value>
+            <Path>TRACK_LOAD_FOR_SHARE_FAILED_TITLE</Path>
+        </E>
+        <E i="520">
+            <Value>Tracciato bloccato</Value>
+            <Path>TRACK_LOCKED_TITLE</Path>
+        </E>
+        <E i="521">
+            <Value>Tracciato bloccato. Per sbloccarlo dovrai prima completare altri tracciati nei livelli più facili.</Value>
+            <Path>TRACK_LOCKED_VALUE</Path>
+        </E>
+        <E i="522">
+            <Value>Immetti un nome per il tracciato</Value>
+            <Path>TRACK_NAME_EMPTY_TEXT</Path>
+        </E>
+        <E i="523">
+            <Value>Nome tracciato vuoto</Value>
+            <Path>TRACK_NAME_EMPTY_TITLE</Path>
+        </E>
+        <E i="524">
+            <Value>%1 tracciati</Value>
+            <Path>TRACK_PLURAL</Path>
+        </E>
+        <E i="525">
+            <Value>Il tuo tracciato è stato salvato. Ora potrai giocarlo, condividerlo o modificarlo nell'Editor.</Value>
+            <Path>TRACK_SAVED_TEXT</Path>
+        </E>
+        <E i="526">
+            <Value>Tracciato salvato</Value>
+            <Path>TRACK_SAVED_TITLE</Path>
+        </E>
+        <E i="527">
+            <Value>Impossibile salvare il tracciato. La periferica di memorizzazione è stata rimossa.</Value>
+            <Path>TRACK_SAVE_FAILED_DEVICE_REMOVED_TEXT</Path>
+        </E>
+        <E i="528">
+            <Value>Salvataggio tracciato fallito</Value>
+            <Path>TRACK_SAVE_FAILED_DEVICE_REMOVED_TITLE</Path>
+        </E>
+        <E i="529">
+            <Value>Impossibile salvare il tracciato. La periferica di memorizzazione selezionata è stata rimossa.</Value>
+            <Path>TRACK_SAVE_FAILED_MISSING_DEVICE_TEXT</Path>
+        </E>
+        <E i="530">
+            <Value>Salvataggio tracciato fallito</Value>
+            <Path>TRACK_SAVE_FAILED_MISSING_DEVICE_TITLE</Path>
+        </E>
+        <E i="531">
+            <Value>Impossibile salvare il tracciato. Spazio insufficiente sulla periferica di memorizzazione.</Value>
+            <Path>TRACK_SAVE_FAILED_NOSPACE_TEXT</Path>
+        </E>
+        <E i="532">
+            <Value>Salvataggio tracciato fallito</Value>
+            <Path>TRACK_SAVE_FAILED_NOSPACE_TITLE</Path>
+        </E>
+        <E i="533">
+            <Value>Impossibile salvare il tracciato. La periferica di memorizzazione selezionata contiene già il massimo di 100 tracciati.</Value>
+            <Path>TRACK_SAVE_FAILED_TOOMANY_TEXT</Path>
+        </E>
+        <E i="534">
+            <Value>Salvataggio tracciato fallito</Value>
+            <Path>TRACK_SAVE_FAILED_TOOMANY_TITLE</Path>
+        </E>
+        <E i="535">
+            <Value>%1 tracciato</Value>
+            <Path>TRACK_SINGULAR</Path>
+        </E>
+        <E i="536">
+            <Value>Il tracciato non può essere salvato perché contiene troppi oggetti. Riduci il numero di oggetti e riprova.</Value>
+            <Path>TRACK_TOO_BUG_TEXT</Path>
+        </E>
+        <E i="537">
+            <Value>Tracciato troppo grande</Value>
+            <Path>TRACK_TOO_BUG_TITLE</Path>
+        </E>
+        <E i="538">
+            <Value>Tutorial</Value>
+            <Path>TRACK_TUTORIAL</Path>
+        </E>
+        <E i="539">
+            <Value>GARA</Value>
+            <Path>TRACK_TYPE_0</Path>
+        </E>
+        <E i="540">
+            <Value>Dentro la sfera</Value>
+            <Path>TRACK_TYPE_1</Path>
+        </E>
+        <E i="541">
+            <Value>Salto in alto</Value>
+            <Path>TRACK_TYPE_10</Path>
+        </E>
+        <E i="542">
+            <Value>Capriola</Value>
+            <Path>TRACK_TYPE_11</Path>
+        </E>
+        <E i="543">
+            <Value>Impennata</Value>
+            <Path>TRACK_TYPE_12</Path>
+        </E>
+        <E i="544">
+            <Value>Riconoscimenti</Value>
+            <Path>TRACK_TYPE_13</Path>
+        </E>
+        <E i="545">
+            <Value>Salto con gli sci</Value>
+            <Path>TRACK_TYPE_2</Path>
+        </E>
+        <E i="546">
+            <Value>Anelli di fuoco</Value>
+            <Path>TRACK_TYPE_3</Path>
+        </E>
+        <E i="547">
+            <Value>Consegna</Value>
+            <Path>TRACK_TYPE_4</Path>
+        </E>
+        <E i="548">
+            <Value>Giù per le scale</Value>
+            <Path>TRACK_TYPE_5</Path>
+        </E>
+        <E i="549">
+            <Value>In fiamme</Value>
+            <Path>TRACK_TYPE_6</Path>
+        </E>
+        <E i="550">
+            <Value>Caccia al bersaglio</Value>
+            <Path>TRACK_TYPE_7</Path>
+        </E>
+        <E i="551">
+            <Value>Arrampicata</Value>
+            <Path>TRACK_TYPE_8</Path>
+        </E>
+        <E i="552">
+            <Value>Sulla sfera</Value>
+            <Path>TRACK_TYPE_9</Path>
+        </E>
+        <E i="553">
+            <Value><![CDATA[<font color="#D7CAAD" size="60">\r
+Tutorial\r
+</font>\r
+<font color="#E8AD1E" size="35">\r
+%1\r
+</font>]]></Value>
+            <Path>TUTORIAL_HEADER</Path>
+        </E>
+        <E i="554">
+            <Value>Gioca ancora %1 %DIFFPREV tracciati per sbloccare il livello di difficoltà %DIFFNEXT</Value>
+            <Path>UNLOCK_DIFFICULTY_IN_SELECTOR_PLURAL</Path>
+        </E>
+        <E i="555">
+            <Value>Gioca ancora %1 %DIFFPREV tracciato per sbloccare il livello di difficoltà %DIFFNEXT</Value>
+            <Path>UNLOCK_DIFFICULTY_IN_SELECTOR_SINGULAR</Path>
+        </E>
+        <E i="556">
+            <Value>SBLOCCA GIOCO COMPLETO</Value>
+            <Path>UNLOCK_FULL_GAME</Path>
+        </E>
+        <E i="557">
+            <Value>Per sbloccare %1, devi ottenere %2 nel torneo "%3".</Value>
+            <Path>UNLOCK_HELP_CHALLENGE_TEXT</Path>
+        </E>
+        <E i="558">
+            <Value>Per sbloccare %1, devi prima sbloccare la difficoltà %2.</Value>
+            <Path>UNLOCK_HELP_DIFFICULTY_TEXT</Path>
+        </E>
+        <E i="559">
+            <Value>Per sbloccare %1, devi accumulare %NUM %RANK %MEDALS in modalità gara a livello di difficoltà %3.</Value>
+            <Path>UNLOCK_HELP_MEDALS_TEXT</Path>
+        </E>
+        <E i="560">
+            <Value>Per sbloccare %1, devi ottenere %2 nel tracciato "%3".</Value>
+            <Path>UNLOCK_HELP_TRACK_TEXT</Path>
+        </E>
+        <E i="561">
+            <Value><![CDATA[\r
+<div align="left">\r
+<font color="#D8C69A" size="20">\r
+%1\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>UNLOCK_TEXT</Path>
+        </E>
+        <E i="562">
+            <Value>moto "%1"</Value>
+            <Path>UNLOCK_WHAT_BIKE</Path>
+        </E>
+        <E i="563">
+            <Value>Prova di abilità "%1"</Value>
+            <Path>UNLOCK_WHAT_SKILLGAME</Path>
+        </E>
+        <E i="564">
+            <Value>Impossibile completare il caricamento del tracciato. Verifica la connessione di rete e, se necessario, riconnettiti a Xbox LIVE per riprovare.</Value>
+            <Path>UPLOAD_FAILED_NETWORK_TEXT</Path>
+        </E>
+        <E i="565">
+            <Value>Caricamento del tracciato fallito!</Value>
+            <Path>UPLOAD_FAILED_NETWORK_TITLE</Path>
+        </E>
+        <E i="566">
+            <Value><![CDATA[I seguenti tracciati non sono stati caricati perché i loro nomi sono stati ritenuti offensivi:\r
+]]></Value>
+            <Path>UPLOAD_FAILED_OFFENSIVE_TEXT</Path>
+        </E>
+        <E i="567">
+            <Value>NOMI TRACCIATO OFFENSIVI!</Value>
+            <Path>UPLOAD_FAILED_OFFENSIVE_TITLE</Path>
+        </E>
+        <E i="568">
+            <Value>Caricamento del tracciato interrotto dall'utente. È possibile che le informazioni relative al tracciato condiviso non siano state caricate correttamente.</Value>
+            <Path>UPLOAD_USER_ABORTED_TEXT</Path>
+        </E>
+        <E i="569">
+            <Value>CARICAMENTO DEL TRACCIATO INTERROTTO!</Value>
+            <Path>UPLOAD_USER_ABORTED_TITLE</Path>
+        </E>
+        <E i="570">
+            <Value>Tracciato Editor</Value>
+            <Path>USER_TRACK_HEADER</Path>
+        </E>
+        <E i="571">
+            <Value>Record personali</Value>
+            <Path>XCONTENT_PERSONAL_RECORDS</Path>
+        </E>
+        <E i="572">
+            <Value>Replay temporanei sessione</Value>
+            <Path>XCONTENT_SESSION_GHOSTS</Path>
+        </E>
+    </Entries>
+</XusFile>

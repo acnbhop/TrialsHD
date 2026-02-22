@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>返回</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+返回\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl1.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl1.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<DIV ALIGN=CENTER>\r
+<img src="images/title_logo.dds" align="middle" /> \r
+\r
+<font color="#E8AD1E" size="40">\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+RedLynx Trials HD Team\r
+<br>\r
+\r
+<font color="#D7CAAD" size="30">\r
+Sebastian Aaltonen\r
+<br>\r
+Ville Anttonen\r
+<br>\r
+Vesa Halonen\r
+<br>\r
+Toni Hollming\r
+<br>\r
+Antti Ilvessuo\r
+<br>\r
+Saku Jalkanen\r
+<br>\r
+Toni Lääveri\r
+<br>\r
+Kari Perho\r
+<br>\r
+Mikko Rautalahti\r
+<br>\r
+Sami Saarinen\r
+<br>\r
+Jorma Sainio\r
+<br>\r
+Matti Tuomela\r
+<br>\r
+Juho Äyräväinen\r
+<br>\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="40">\r
+Xbox LIVE Arcade Team\r
+<br>\r
+<br>\r
+\r
+<font color="#E8AD1E" size="35">\r
+Producer\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Peter Choi\r
+<br>\r
+<br>\r
+\r
+<font color="#E8AD1E" size="35">\r
+Test Lead\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Justin Swan\r
+<br>\r
+<br>\r
+\r
+<font color="#E8AD1E" size="35">\r
+Release Management Team\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Alex Shogren (Excell Data Corporation)\r
+<br>\r
+<br>\r
+\r
+<font color="#E8AD1E" size="35">\r
+Software Test Manager\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Matt Golz\r
+<br>\r
+<br>\r
+\r
+<font color="#E8AD1E" size="35">\r
+Product Planning & Business Team \r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Cherie Lutz \r
+<br>\r
+<br>\r
+\r
+<font color="#E8AD1E" size="35">\r
+Marketing\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Jason Ing\r
+<br>\r
+Jennifer Yi\r
+<br>\r
+Kristen Miyake\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+PR\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Julianne Diaz\r
+<br>\r
+<br>\r
+\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VMC MAT Tester Lead\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Jeremiah Armstrong\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VMC MAT Tester \r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Karl Wadesauer\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VMC Test Manager\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Scott R. Griffiths\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VMC Senior Test Lead\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Cala Posey\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VMC Test Lead\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Wes McDaniel\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VMC Test\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Ian Doble\r
+<br>\r
+Nick Hart\r
+<br>\r
+Joshua Sharp Daniels\r
+<br>\r
+Sam Tharp\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+Localization\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Malika Kherfi\r
+<br>\r
+Kevin Cooke\r
+<br>\r
+Francesco Sansone\r
+<br>\r
+Andy Liu\r
+<br>\r
+Lana Peng\r
+<br>\r
+Masato Ishida\r
+<br>\r
+Peter O’Grady\r
+<br>\r
+Robert Lin\r
+<br>\r
+Shinya Muto\r
+<br>\r
+Jae Youn Kim\r
+<br>\r
+Atsushi Horiuchi\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+Consumer Research\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+John Hopson\r
+<br>\r
+<br>\r
+\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+Special Thanks\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Oliver Miyashita\r
+<br>\r
+Kevin Salcedo\r
+<br>\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="35">\r
+VO Talents\r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Brandon DiCamillo\r
+<br>\r
+Art Webb\r
+<br>\r
+Rake Yohn\r
+<br>\r
+<br>\r
+<br>\r
+\r
+\r
+<font color="#E8AD1E" size="40">\r
+Special Thanks & Greetings From RedLynx \r
+<br>\r
+<font color="#D7CAAD" size="30">\r
+Atte Ilvessuo\r
+<br>\r
+Jukka Merinen\r
+<br>\r
+Joonas Tamminen\r
+<br>\r
+QcChopper and all the Trials Fan’s from previous versions! \r
+<br>\r
+<br>\r
+<br>\r
+Thanks for playing!\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+It’s the end of the credits.\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+Really.\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+Omg.. this forever lasting text credits joke is so old.\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+Well humor is based in repetition.\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+So let’s play with it then.\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+Let’s use this space as education then.\r
+<br>\r
+<br>\r
+<br>\r
+Let’s start from basics.\r
+<br>\r
+Mass and inertia is the same thing.\r
+<br>\r
+<br>\r
+<br>\r
+That was easy!\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+Ok then bit more advanced stuff.\r
+<br>\r
+<br>\r
+<br>\r
+Planck's constant is a physical constant used to describe the sizes of quanta in quantum mechanics. It is the proportionality constant between energy (E) of a photon and the frequency of its associated electromagnetic wave (v).\r
+<br>\r
+<br>\r
+<br>\r
+That’s it.\r
+<br>\r
+<br>\r
+<br>\r
+Bye!!\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>\r
+<br>]]></Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl1.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>製作群</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>返回</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+解除完整版遊戲鎖定\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[<div align="left">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" />\r
+返回遊戲庫\r
+\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup1.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" />\r
+返回遊戲\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup1.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="5">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="30">\r
+\r
+<b> \r
+50+ 個賽道<br>\r
+特技挑戰<br>\r
+多輛賽車<br>\r
+共享關卡<br>\r
+可修改車輛及騎士<br>\r
+</b>\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>XuiScene1.SellingScreenGroup.SellingText.Text</Path>
+        </E>
+        <E i="9">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

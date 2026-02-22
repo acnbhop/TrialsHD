@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>Air condenser</Value>
+            <Path>AIR_CONDENSER</Path>
+        </E>
+        <E i="1">
+            <Value>Air condenser small</Value>
+            <Path>AIR_CONDENSER_SMALL</Path>
+        </E>
+        <E i="2">
+            <Value>Background set 1</Value>
+            <Path>BACKGROUND_SET_1</Path>
+        </E>
+        <E i="3">
+            <Value>Background set 2</Value>
+            <Path>BACKGROUND_SET_2</Path>
+        </E>
+        <E i="4">
+            <Value>Background set 3</Value>
+            <Path>BACKGROUND_SET_3</Path>
+        </E>
+        <E i="5">
+            <Value>Background set 4</Value>
+            <Path>BACKGROUND_SET_4</Path>
+        </E>
+        <E i="6">
+            <Value>Barrel</Value>
+            <Path>BARREL</Path>
+        </E>
+        <E i="7">
+            <Value>Explosive Barrel</Value>
+            <Path>BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="8">
+            <Value>Open Explosive Barrel</Value>
+            <Path>BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="9">
+            <Value>Open Barrel</Value>
+            <Path>BARREL_OPEN</Path>
+        </E>
+        <E i="10">
+            <Value>Big Barrel</Value>
+            <Path>BIG_BARREL</Path>
+        </E>
+        <E i="11">
+            <Value>Big wooden box</Value>
+            <Path>BIG_BOX</Path>
+        </E>
+        <E i="12">
+            <Value>Afterburner</Value>
+            <Path>BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="13">
+            <Value>Bulb spotlight</Value>
+            <Path>BULB_SPOTLIGHT</Path>
+        </E>
+        <E i="14">
+            <Value>Bulb spotlight (Broken)</Value>
+            <Path>BULB_SPOTLIGHT_FLICKER</Path>
+        </E>
+        <E i="15">
+            <Value>Car tire</Value>
+            <Path>CAR_TIRE</Path>
+        </E>
+        <E i="16">
+            <Value>Join the local Trials Cup to prove to your friends that you can ride the bike!</Value>
+            <Path>CHALLENGE_DESCRIPTION_01</Path>
+        </E>
+        <E i="17">
+            <Value>Race against the best local riders to show your talent!</Value>
+            <Path>CHALLENGE_DESCRIPTION_02</Path>
+        </E>
+        <E i="18">
+            <Value>Race against the best riders where the sport was invented!</Value>
+            <Path>CHALLENGE_DESCRIPTION_03</Path>
+        </E>
+        <E i="19">
+            <Value>Meet the best of the old continent and beat them all!</Value>
+            <Path>CHALLENGE_DESCRIPTION_04</Path>
+        </E>
+        <E i="20">
+            <Value>New countries, new Trials pros. Are you ready for a new challenge and a big pay check?</Value>
+            <Path>CHALLENGE_DESCRIPTION_05</Path>
+        </E>
+        <E i="21">
+            <Value>This is it: the Trial Bike World Championships! This is where legends are made!</Value>
+            <Path>CHALLENGE_DESCRIPTION_06</Path>
+        </E>
+        <E i="22">
+            <Value>Tricks, danger and broken bones. No rules, no regret. Show these hotheads what you're really made of!</Value>
+            <Path>CHALLENGE_DESCRIPTION_07</Path>
+        </E>
+        <E i="23">
+            <Value>A trip around the most legendary Trials tracks in the world. Do you have the endurance for the ride - and the jet lag?</Value>
+            <Path>CHALLENGE_DESCRIPTION_08</Path>
+        </E>
+        <E i="24">
+            <Value>Backyard Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_01</Path>
+        </E>
+        <E i="25">
+            <Value>National Bike Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_02</Path>
+        </E>
+        <E i="26">
+            <Value>Regional Bike Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_03</Path>
+        </E>
+        <E i="27">
+            <Value>Masters' League</Value>
+            <Path>CHALLENGE_NAME_XLAST_04</Path>
+        </E>
+        <E i="28">
+            <Value>World Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_05</Path>
+        </E>
+        <E i="29">
+            <Value>World Championship</Value>
+            <Path>CHALLENGE_NAME_XLAST_06</Path>
+        </E>
+        <E i="30">
+            <Value>Underground Cup</Value>
+            <Path>CHALLENGE_NAME_XLAST_07</Path>
+        </E>
+        <E i="31">
+            <Value>Ultimate Endurance</Value>
+            <Path>CHALLENGE_NAME_XLAST_08</Path>
+        </E>
+        <E i="32">
+            <Value>Checkpoint</Value>
+            <Path>CHECKPOINT</Path>
+        </E>
+        <E i="33">
+            <Value>Concrete block</Value>
+            <Path>CONCRETE_BLOCK</Path>
+        </E>
+        <E i="34">
+            <Value>Concrete pipe</Value>
+            <Path>CONCRETE_PIPE</Path>
+        </E>
+        <E i="35">
+            <Value>Concrete pipe curve</Value>
+            <Path>CONCRETE_PIPE_CURVE</Path>
+        </E>
+        <E i="36">
+            <Value>Alternative end point</Value>
+            <Path>CRASH_GOAL_1</Path>
+        </E>
+        <E i="37">
+            <Value>Target hunt score</Value>
+            <Path>CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="38">
+            <Value>Dynamite Box</Value>
+            <Path>DYNAMITE_BOX</Path>
+        </E>
+        <E i="39">
+            <Value>Wood Box Breaking</Value>
+            <Path>EFFECT_BOX_BREAK_1</Path>
+        </E>
+        <E i="40">
+            <Value>Wood Box Exploding</Value>
+            <Path>EFFECT_BOX_EXPLODE_1</Path>
+        </E>
+        <E i="41">
+            <Value>Electric Arcs 1</Value>
+            <Path>EFFECT_ELECTRIC_ARCS_1</Path>
+        </E>
+        <E i="42">
+            <Value>Explosion 1</Value>
+            <Path>EFFECT_EXPLOSION_1</Path>
+        </E>
+        <E i="43">
+            <Value>Explosion 2</Value>
+            <Path>EFFECT_EXPLOSION_2</Path>
+        </E>
+        <E i="44">
+            <Value>Fire 1 (small)</Value>
+            <Path>EFFECT_FIRE_1</Path>
+        </E>
+        <E i="45">
+            <Value>Fire 2 (medium)</Value>
+            <Path>EFFECT_FIRE_2</Path>
+        </E>
+        <E i="46">
+            <Value>Fire 3 (large)</Value>
+            <Path>EFFECT_FIRE_3</Path>
+        </E>
+        <E i="47">
+            <Value>Long Fire 1</Value>
+            <Path>EFFECT_FIRE_4</Path>
+        </E>
+        <E i="48">
+            <Value>Ocean of Fire</Value>
+            <Path>EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="49">
+            <Value>Big Ring of Fire</Value>
+            <Path>EFFECT_FIRE_RING_1</Path>
+        </E>
+        <E i="50">
+            <Value>Barrel Breaking</Value>
+            <Path>EFFECT_METAL_BARREL_BREAKING_1</Path>
+        </E>
+        <E i="51">
+            <Value>Smoke 1 (small)</Value>
+            <Path>EFFECT_SMOKE_1</Path>
+        </E>
+        <E i="52">
+            <Value>Smoke 2 (medium)</Value>
+            <Path>EFFECT_SMOKE_2</Path>
+        </E>
+        <E i="53">
+            <Value>Smoke 3 (large)</Value>
+            <Path>EFFECT_SMOKE_3</Path>
+        </E>
+        <E i="54">
+            <Value>Steam 1 (slow)</Value>
+            <Path>EFFECT_STEAM_1</Path>
+        </E>
+        <E i="55">
+            <Value>Steam 2 (fast)</Value>
+            <Path>EFFECT_STEAM_2</Path>
+        </E>
+        <E i="56">
+            <Value>Water Dripping 1 (small)</Value>
+            <Path>EFFECT_WATER_DRIPPING_1</Path>
+        </E>
+        <E i="57">
+            <Value>Water Dripping 2 (medium)</Value>
+            <Path>EFFECT_WATER_DRIPPING_2</Path>
+        </E>
+        <E i="58">
+            <Value>Water Dripping 3 (large)</Value>
+            <Path>EFFECT_WATER_DRIPPING_3</Path>
+        </E>
+        <E i="59">
+            <Value>Water Falling 1 (small)</Value>
+            <Path>EFFECT_WATER_FALL_1</Path>
+        </E>
+        <E i="60">
+            <Value>Water Falling 2 (medium)</Value>
+            <Path>EFFECT_WATER_FALL_2</Path>
+        </E>
+        <E i="61">
+            <Value>Water Falling 3 (large)</Value>
+            <Path>EFFECT_WATER_FALL_3</Path>
+        </E>
+        <E i="62">
+            <Value>Wood Breaking</Value>
+            <Path>EFFECT_WOOD_BREAK_1</Path>
+        </E>
+        <E i="63">
+            <Value>Electric cabin</Value>
+            <Path>ELECTRIC_CABIN</Path>
+        </E>
+        <E i="64">
+            <Value>Flipper - big</Value>
+            <Path>FLIPPER</Path>
+        </E>
+        <E i="65">
+            <Value>Flipper - small</Value>
+            <Path>FLIPPER_SMALL</Path>
+        </E>
+        <E i="66">
+            <Value>Flipper - tiny</Value>
+            <Path>FLIPPER_TINY</Path>
+        </E>
+        <E i="67">
+            <Value>Flipper - wide 1</Value>
+            <Path>FLIPPER_WIDE</Path>
+        </E>
+        <E i="68">
+            <Value>Flipper - wide 2</Value>
+            <Path>FLIPPER_WIDE_2</Path>
+        </E>
+        <E i="69">
+            <Value>Fluorescent lamp</Value>
+            <Path>FLUOR_LAMP</Path>
+        </E>
+        <E i="70">
+            <Value>Fluorescent lamp (Broken)</Value>
+            <Path>FLUOR_LAMP_FLICKER</Path>
+        </E>
+        <E i="71">
+            <Value>Fluorescent lamp (Smashed)</Value>
+            <Path>FLUOR_LAMP_SMASHED</Path>
+        </E>
+        <E i="72">
+            <Value>Bowling cone</Value>
+            <Path>GAME_BOWL_CONE</Path>
+        </E>
+        <E i="73">
+            <Value>Ring of fire</Value>
+            <Path>GAME_FIRE_RING</Path>
+        </E>
+        <E i="74">
+            <Value>Giant iron ball</Value>
+            <Path>GIANT_IRON_BALL</Path>
+        </E>
+        <E i="75">
+            <Value>Giant iron ball inside</Value>
+            <Path>GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="76">
+            <Value>Glass 1</Value>
+            <Path>GLASS_1</Path>
+        </E>
+        <E i="77">
+            <Value>Glass clip 1</Value>
+            <Path>GLASS_CLIP_1</Path>
+        </E>
+        <E i="78">
+            <Value>Glass clip 1</Value>
+            <Path>GLASS_CLIP_2</Path>
+        </E>
+        <E i="79">
+            <Value>Goal</Value>
+            <Path>GOALPOINT</Path>
+        </E>
+        <E i="80">
+            <Value>Ramp and landing - big</Value>
+            <Path>GROUPS_RAMP_AND_LANG_BIG</Path>
+        </E>
+        <E i="81">
+            <Value>Ramp and landing - medium</Value>
+            <Path>GROUPS_RAMP_AND_LANG_MEDIUM</Path>
+        </E>
+        <E i="82">
+            <Value>Ramp and landing - short</Value>
+            <Path>GROUPS_RAMP_AND_LANG_SHORT</Path>
+        </E>
+        <E i="83">
+            <Value>Scaffold - big</Value>
+            <Path>GROUPS_SCAFFOLD_BIG</Path>
+        </E>
+        <E i="84">
+            <Value>Scaffold huge</Value>
+            <Path>GROUPS_SCAFFOLD_HUGE</Path>
+        </E>
+        <E i="85">
+            <Value>Terrace - huge</Value>
+            <Path>GROUPS_TERRACE_HUGE</Path>
+        </E>
+        <E i="86">
+            <Value>Terrace - small</Value>
+            <Path>GROUPS_TERRACE_SMALL</Path>
+        </E>
+        <E i="87">
+            <Value>Terrace - tiny</Value>
+            <Path>GROUPS_TERRACE_TINY</Path>
+        </E>
+        <E i="88">
+            <Value>I beam</Value>
+            <Path>I_BEAM</Path>
+        </E>
+        <E i="89">
+            <Value>I beam - huge</Value>
+            <Path>I_BEAM_HUGE</Path>
+        </E>
+        <E i="90">
+            <Value>Wall lamp 1</Value>
+            <Path>LAMP_WALL_1</Path>
+        </E>
+        <E i="91">
+            <Value>Log big - rounded</Value>
+            <Path>LOG_BIG_ROUNDED</Path>
+        </E>
+        <E i="92">
+            <Value>Log big - rounded, short</Value>
+            <Path>LOG_BIG_ROUNDED_SHORT</Path>
+        </E>
+        <E i="93">
+            <Value>Log big - square</Value>
+            <Path>LOG_BIG_SQUARE</Path>
+        </E>
+        <E i="94">
+            <Value>Log big - square, short</Value>
+            <Path>LOG_BIG_SQUARE_SHORT</Path>
+        </E>
+        <E i="95">
+            <Value>Log - rounded</Value>
+            <Path>LOG_ROUNDED</Path>
+        </E>
+        <E i="96">
+            <Value>Log - square</Value>
+            <Path>LOG_SQUARE</Path>
+        </E>
+        <E i="97">
+            <Value>Metal cage - big</Value>
+            <Path>METAL_CAGE_BIG</Path>
+        </E>
+        <E i="98">
+            <Value>Metal finish line</Value>
+            <Path>METAL_FINISH_LINE</Path>
+        </E>
+        <E i="99">
+            <Value>Metal finish line - small</Value>
+            <Path>METAL_FINISH_LINE_SMALL</Path>
+        </E>
+        <E i="100">
+            <Value>Metal finish line - wide</Value>
+            <Path>METAL_FINISH_LINE_WIDE</Path>
+        </E>
+        <E i="101">
+            <Value>Metal grid</Value>
+            <Path>METAL_GRID</Path>
+        </E>
+        <E i="102">
+            <Value>Metal stick - long</Value>
+            <Path>METAL_STICK_LONG</Path>
+        </E>
+        <E i="103">
+            <Value>Metal stick - medium</Value>
+            <Path>METAL_STICK_MED</Path>
+        </E>
+        <E i="104">
+            <Value>Metal stick - short</Value>
+            <Path>METAL_STICK_SHORT</Path>
+        </E>
+        <E i="105">
+            <Value>Big Bomb</Value>
+            <Path>NUKE</Path>
+        </E>
+        <E i="106">
+            <Value>Explosive. Explodes when hit!</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="107">
+            <Value>Explosive. Explodes when hit!</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="108">
+            <Value>Collectable afterburner thruster for the bike. Activates when picked up, lasts for 2 seconds.</Value>
+            <Path>OBJECT_HELP_TEXT_BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="109">
+            <Value>Allows player to continue from this point after a fault.</Value>
+            <Path>OBJECT_HELP_TEXT_CHECKPOINT</Path>
+        </E>
+        <E i="110">
+            <Value>Track alternative end point.</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_1</Path>
+        </E>
+        <E i="111">
+            <Value>Target hunt game mode breakable score item.</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="112">
+            <Value>Heavy explosive. Explodes when hit!</Value>
+            <Path>OBJECT_HELP_TEXT_DYNAMITE_BOX</Path>
+        </E>
+        <E i="113">
+            <Value>Sets player on fire. Small area.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_1</Path>
+        </E>
+        <E i="114">
+            <Value>Sets player on fire. Small area.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_2</Path>
+        </E>
+        <E i="115">
+            <Value>Sets player on fire. Medium area.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_3</Path>
+        </E>
+        <E i="116">
+            <Value>Sets player on fire. Medium area.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_4</Path>
+        </E>
+        <E i="117">
+            <Value>Sets player on fire. Large area.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="118">
+            <Value>Ring of Fire game mode score item. Gives player afterburner.</Value>
+            <Path>OBJECT_HELP_TEXT_GAME_FIRE_RING</Path>
+        </E>
+        <E i="119">
+            <Value>Giant Ball game mode tracks must have this object. Game ends when bike falls off it.</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL</Path>
+        </E>
+        <E i="120">
+            <Value>Giant Ball Inside game mode tracks must have this object.</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="121">
+            <Value>Super heavy explosive. Explodes when hit!</Value>
+            <Path>OBJECT_HELP_TEXT_NUKE</Path>
+        </E>
+        <E i="122">
+            <Value>Modifies camera view angle during gameplay when the bike is nearby</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="123">
+            <Value>Modifies camera view angle during replays when the bike is nearby</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="124">
+            <Value>Set track preview image using this camera object</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="125">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="126">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="127">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="128">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="129">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="130">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="131">
+            <Value>Can be glued between two physical objects to limit their relative movement</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="132">
+            <Value>Can be glued to physical objects to make them rotate.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="133">
+            <Value>Can be glued to physical objects to make them move.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="134">
+            <Value>Ring of Fire game mode starting trigger. Player is not allowed to touch walls after passing it.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="135">
+            <Value>Activates target object physical properties on contact</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="136">
+            <Value>Activates target object physical properties on contact</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="137">
+            <Value>Activates target object physical properties on contact</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="138">
+            <Value>Ski Jump game mode starting trigger. Place at the lip of the ramp.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="139">
+            <Value>Track waypoint. Allows creation of curved tracks.</Value>
+            <Path>OBJECT_HELP_TEXT_TRACKPOINT</Path>
+        </E>
+        <E i="140">
+            <Value>Heavy explosive. Explodes when hit!</Value>
+            <Path>OBJECT_HELP_TEXT_WWII_BOMB</Path>
+        </E>
+        <E i="141">
+            <Value>Metal pipe addition</Value>
+            <Path>PIPE_ADDITION</Path>
+        </E>
+        <E i="142">
+            <Value>Metal pipe corner</Value>
+            <Path>PIPE_CORNER</Path>
+        </E>
+        <E i="143">
+            <Value>Metal pipe corner add</Value>
+            <Path>PIPE_CORNER_ADDITION</Path>
+        </E>
+        <E i="144">
+            <Value>Metal pipe long - straight</Value>
+            <Path>PIPE_LONG_STRAIGHT</Path>
+        </E>
+        <E i="145">
+            <Value>Metal pipe - ring</Value>
+            <Path>PIPE_RING</Path>
+        </E>
+        <E i="146">
+            <Value>Metal pipe short - straight</Value>
+            <Path>PIPE_SHORT_STRAIGHT</Path>
+        </E>
+        <E i="147">
+            <Value>Metal pipe valve</Value>
+            <Path>PIPE_VALVE</Path>
+        </E>
+        <E i="148">
+            <Value>Extra long plank - thin</Value>
+            <Path>PLANK_EXTRA_LONG_THIN</Path>
+        </E>
+        <E i="149">
+            <Value>Long plank</Value>
+            <Path>PLANK_LONG</Path>
+        </E>
+        <E i="150">
+            <Value>Long plank - thin</Value>
+            <Path>PLANK_LONG_THIN</Path>
+        </E>
+        <E i="151">
+            <Value>Medium plank</Value>
+            <Path>PLANK_MED</Path>
+        </E>
+        <E i="152">
+            <Value>Short plank</Value>
+            <Path>PLANK_SHORT</Path>
+        </E>
+        <E i="153">
+            <Value>Wide plank - long</Value>
+            <Path>PLANK_WIDE_LONG</Path>
+        </E>
+        <E i="154">
+            <Value>Wide plank - medium</Value>
+            <Path>PLANK_WIDE_MEDIUM</Path>
+        </E>
+        <E i="155">
+            <Value>Wide plank - short</Value>
+            <Path>PLANK_WIDE_SHORT</Path>
+        </E>
+        <E i="156">
+            <Value>Plywood</Value>
+            <Path>PLYWOOD</Path>
+        </E>
+        <E i="157">
+            <Value>Plywood reinforcement</Value>
+            <Path>PLYWOOD_REIN</Path>
+        </E>
+        <E i="158">
+            <Value>Rack 1 left</Value>
+            <Path>RACK_1_LEFT</Path>
+        </E>
+        <E i="159">
+            <Value>Rack 1 right</Value>
+            <Path>RACK_1_RIGHT</Path>
+        </E>
+        <E i="160">
+            <Value>Metal ramp - big</Value>
+            <Path>RAMP_METAL_BIG</Path>
+        </E>
+        <E i="161">
+            <Value>Metal ramp plate - big</Value>
+            <Path>RAMP_METAL_PLATE_BIG</Path>
+        </E>
+        <E i="162">
+            <Value>Metal ramp plate - medium</Value>
+            <Path>RAMP_METAL_PLATE_MEDIUM</Path>
+        </E>
+        <E i="163">
+            <Value>Metal ramp plate - small</Value>
+            <Path>RAMP_METAL_PLATE_SMALL</Path>
+        </E>
+        <E i="164">
+            <Value>Metal ramp - short</Value>
+            <Path>RAMP_METAL_SHORT</Path>
+        </E>
+        <E i="165">
+            <Value>Wood ramp - big</Value>
+            <Path>RAMP_WOOD_BIG</Path>
+        </E>
+        <E i="166">
+            <Value>Wood ramp plate - big</Value>
+            <Path>RAMP_WOOD_PLATE_BIG</Path>
+        </E>
+        <E i="167">
+            <Value>Wood ramp plate - medium</Value>
+            <Path>RAMP_WOOD_PLATE_MEDIUM</Path>
+        </E>
+        <E i="168">
+            <Value>Wood ramp plate - small</Value>
+            <Path>RAMP_WOOD_PLATE_SMALL</Path>
+        </E>
+        <E i="169">
+            <Value>Wood ramp - short</Value>
+            <Path>RAMP_WOOD_SHORT</Path>
+        </E>
+        <E i="170">
+            <Value>Roof lamp 1</Value>
+            <Path>ROOF_LIGHT</Path>
+        </E>
+        <E i="171">
+            <Value>Roof lamp 1 (Broken)</Value>
+            <Path>ROOF_LIGHT_FLICKER</Path>
+        </E>
+        <E i="172">
+            <Value>Roof lamp 2</Value>
+            <Path>ROOF_LIGHT_WITH_GRID</Path>
+        </E>
+        <E i="173">
+            <Value>Rusty steel plate - big</Value>
+            <Path>RUSTY_STEEL_PLATE_BIG</Path>
+        </E>
+        <E i="174">
+            <Value>Rusty steel plate fence - big</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG</Path>
+        </E>
+        <E i="175">
+            <Value>Rusty steel plate fence - big 2</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG_2</Path>
+        </E>
+        <E i="176">
+            <Value>Rusty steel plate fence - med</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED</Path>
+        </E>
+        <E i="177">
+            <Value>Rusty steel plate fence - med 2</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED_2</Path>
+        </E>
+        <E i="178">
+            <Value>Rusty steel plate - long</Value>
+            <Path>RUSTY_STEEL_PLATE_LONG</Path>
+        </E>
+        <E i="179">
+            <Value>Rusty steel plate - short</Value>
+            <Path>RUSTY_STEEL_PLATE_SHORT</Path>
+        </E>
+        <E i="180">
+            <Value>Scaffold base</Value>
+            <Path>SCAFFOLD_BASE</Path>
+        </E>
+        <E i="181">
+            <Value>Scaffold loop</Value>
+            <Path>SCAFFOLD_LOOP</Path>
+        </E>
+        <E i="182">
+            <Value>Scaffold plate</Value>
+            <Path>SCAFFOLD_PLATE</Path>
+        </E>
+        <E i="183">
+            <Value>Scaffold plate loop</Value>
+            <Path>SCAFFOLD_PLATE_LOOP</Path>
+        </E>
+        <E i="184">
+            <Value>Scaffold posts</Value>
+            <Path>SCAFFOLD_POSTS</Path>
+        </E>
+        <E i="185">
+            <Value>Scaffold stairs</Value>
+            <Path>SCAFFOLD_STAIRS</Path>
+        </E>
+        <E i="186">
+            <Value>Ship container</Value>
+            <Path>SHIP_CONTAINER</Path>
+        </E>
+        <E i="187">
+            <Value>Accelerate</Value>
+            <Path>SIGN_ACCELERATE</Path>
+        </E>
+        <E i="188">
+            <Value>Arrow Sign</Value>
+            <Path>SIGN_ARROW</Path>
+        </E>
+        <E i="189">
+            <Value>Arrow down</Value>
+            <Path>SIGN_ARROW_DOWN</Path>
+        </E>
+        <E i="190">
+            <Value>Arrow up</Value>
+            <Path>SIGN_ARROW_UP</Path>
+        </E>
+        <E i="191">
+            <Value>Bandage Sign</Value>
+            <Path>SIGN_BANDAGE</Path>
+        </E>
+        <E i="192">
+            <Value>Beware Squirrels Sign</Value>
+            <Path>SIGN_BEWARE_SQUIRRELS</Path>
+        </E>
+        <E i="193">
+            <Value>Big jump</Value>
+            <Path>SIGN_BIG_JUMP</Path>
+        </E>
+        <E i="194">
+            <Value>Danger Explosives Sign</Value>
+            <Path>SIGN_DANGER_EXPLOSIVES</Path>
+        </E>
+        <E i="195">
+            <Value>Egg Shelter Sign</Value>
+            <Path>SIGN_EGG_SHELTER</Path>
+        </E>
+        <E i="196">
+            <Value>Explosions</Value>
+            <Path>SIGN_EXPLOSION</Path>
+        </E>
+        <E i="197">
+            <Value>Falling big objects</Value>
+            <Path>SIGN_FALLING_BIG_OBJECTS</Path>
+        </E>
+        <E i="198">
+            <Value>Falling Injury Sign</Value>
+            <Path>SIGN_FALLING_INJURY</Path>
+        </E>
+        <E i="199">
+            <Value>Fingers Crossed Sign</Value>
+            <Path>SIGN_FINGERS_CROSSED</Path>
+        </E>
+        <E i="200">
+            <Value>Huge Fall Sign</Value>
+            <Path>SIGN_HUGE_FALL</Path>
+        </E>
+        <E i="201">
+            <Value>No Bikes Sign</Value>
+            <Path>SIGN_NO_BIKES</Path>
+        </E>
+        <E i="202">
+            <Value>No Humans Sign</Value>
+            <Path>SIGN_NO_HUMANS</Path>
+        </E>
+        <E i="203">
+            <Value>No Jumping Sign</Value>
+            <Path>SIGN_NO_JUMPING</Path>
+        </E>
+        <E i="204">
+            <Value>Slow down</Value>
+            <Path>SIGN_SLOW_DOWN</Path>
+        </E>
+        <E i="205">
+            <Value>Speed Limit Sign</Value>
+            <Path>SIGN_SPEED_LIMIT</Path>
+        </E>
+        <E i="206">
+            <Value>Use Helmet Sign</Value>
+            <Path>SIGN_USE_HELMET</Path>
+        </E>
+        <E i="207">
+            <Value>Wall</Value>
+            <Path>SIGN_WALL</Path>
+        </E>
+        <E i="208">
+            <Value>Start</Value>
+            <Path>STARTPOINT</Path>
+        </E>
+        <E i="209">
+            <Value>Steel structure</Value>
+            <Path>STEEL_STRUCT_Q_1</Path>
+        </E>
+        <E i="210">
+            <Value>Stone 1</Value>
+            <Path>STONE_1</Path>
+        </E>
+        <E i="211">
+            <Value>Stone 2</Value>
+            <Path>STONE_2</Path>
+        </E>
+        <E i="212">
+            <Value>Stone 3</Value>
+            <Path>STONE_3</Path>
+        </E>
+        <E i="213">
+            <Value>Stone 4</Value>
+            <Path>STONE_4</Path>
+        </E>
+        <E i="214">
+            <Value>Terrace crosspillar</Value>
+            <Path>TERRACE_CROSSPILLAR</Path>
+        </E>
+        <E i="215">
+            <Value>Terrace pillar</Value>
+            <Path>TERRACE_PILLAR</Path>
+        </E>
+        <E i="216">
+            <Value>Terrace plate</Value>
+            <Path>TERRACE_PLATE</Path>
+        </E>
+        <E i="217">
+            <Value>Terrace plate - big</Value>
+            <Path>TERRACE_PLATE_BIG</Path>
+        </E>
+        <E i="218">
+            <Value>Terrace fence</Value>
+            <Path>TERRACE_PLATE_FENCE</Path>
+        </E>
+        <E i="219">
+            <Value>Terrace fence - simple</Value>
+            <Path>TERRACE_PLATE_FENCE_2</Path>
+        </E>
+        <E i="220">
+            <Value>Terrace plate - small</Value>
+            <Path>TERRACE_PLATE_SMALL</Path>
+        </E>
+        <E i="221">
+            <Value>Test item</Value>
+            <Path>TEST</Path>
+        </E>
+        <E i="222">
+            <Value>Game camera</Value>
+            <Path>TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="223">
+            <Value>Replay camera</Value>
+            <Path>TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="224">
+            <Value>Track preview camera</Value>
+            <Path>TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="225">
+            <Value><![CDATA[Ball & socket]]></Value>
+            <Path>TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="226">
+            <Value>Limited rotation hinge</Value>
+            <Path>TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="227">
+            <Value>Point to Point hard</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="228">
+            <Value>Point to Point soft</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="229">
+            <Value>Free rotation hinge</Value>
+            <Path>TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="230">
+            <Value>1 Meter slider</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="231">
+            <Value>2 Meter slider</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="232">
+            <Value>Rotation force</Value>
+            <Path>TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="233">
+            <Value>Makes objects rotate</Value>
+            <Path>TOOLS_FORCE_ROTATE_TURBO</Path>
+        </E>
+        <E i="234">
+            <Value>Transform force</Value>
+            <Path>TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="235">
+            <Value>Ring of fire start trigger</Value>
+            <Path>TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="236">
+            <Value>Trigger 8m</Value>
+            <Path>TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="237">
+            <Value>Trigger 4m</Value>
+            <Path>TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="238">
+            <Value>Trigger 2m</Value>
+            <Path>TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="239">
+            <Value>Ski jump lip trigger</Value>
+            <Path>TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="240">
+            <Value>Path tool</Value>
+            <Path>TRACKPOINT</Path>
+        </E>
+        <E i="241">
+            <Value>Every game has a beginning - time to get the hang of the basics.</Value>
+            <Path>TRACK_DESCRIPTION_01</Path>
+        </E>
+        <E i="242">
+            <Value>Logs and explosives, anyone?</Value>
+            <Path>TRACK_DESCRIPTION_02</Path>
+        </E>
+        <E i="243">
+            <Value>Have a nice day.</Value>
+            <Path>TRACK_DESCRIPTION_03</Path>
+        </E>
+        <E i="244">
+            <Value>Fun for the whole family! But can you find the fastest route?</Value>
+            <Path>TRACK_DESCRIPTION_04</Path>
+        </E>
+        <E i="245">
+            <Value>It goes up and up and up, but sooner or later, it'll come crashing down.</Value>
+            <Path>TRACK_DESCRIPTION_05</Path>
+        </E>
+        <E i="246">
+            <Value>Technical jumping on tires and pipes.</Value>
+            <Path>TRACK_DESCRIPTION_06</Path>
+        </E>
+        <E i="247">
+            <Value>Easy to finish, but which way is the fastest?</Value>
+            <Path>TRACK_DESCRIPTION_07</Path>
+        </E>
+        <E i="248">
+            <Value>We're inside our heads. This is our dream.</Value>
+            <Path>TRACK_DESCRIPTION_08</Path>
+        </E>
+        <E i="249">
+            <Value>There's a rock, and a drop behind it. Simple enough.</Value>
+            <Path>TRACK_DESCRIPTION_09</Path>
+        </E>
+        <E i="250">
+            <Value>What goes down, must come up.</Value>
+            <Path>TRACK_DESCRIPTION_10</Path>
+        </E>
+        <E i="251">
+            <Value>Try to remain on your bike inside the ball for as long as you can!</Value>
+            <Path>TRACK_DESCRIPTION_100</Path>
+        </E>
+        <E i="252">
+            <Value>Smash yourself against obstacles to break your bones! For once, pain is good!</Value>
+            <Path>TRACK_DESCRIPTION_101</Path>
+        </E>
+        <E i="253">
+            <Value>Make like an eagle and fly as far as you can! Don't forget to bail out!</Value>
+            <Path>TRACK_DESCRIPTION_102</Path>
+        </E>
+        <E i="254">
+            <Value>High jump with a twist. Try to get as high as possible and don't forget to bail out!</Value>
+            <Path>TRACK_DESCRIPTION_104</Path>
+        </E>
+        <E i="255">
+            <Value>Your bike is attached to a delivery cart, filled with explosives. See how far you get without blowing them up!</Value>
+            <Path>TRACK_DESCRIPTION_105</Path>
+        </E>
+        <E i="256">
+            <Value>Once you are engulfed in flames, only speed can douse them. To slow down is to burn!</Value>
+            <Path>TRACK_DESCRIPTION_106</Path>
+        </E>
+        <E i="257">
+            <Value>Flip it backwards or forwards. How many flips can you manage?</Value>
+            <Path>TRACK_DESCRIPTION_107</Path>
+        </E>
+        <E i="258">
+            <Value>Balance yourself on top of the ball and see how far you get before gravity proves to be a harsh mistress.</Value>
+            <Path>TRACK_DESCRIPTION_108</Path>
+        </E>
+        <E i="259">
+            <Value>Climb up, reach the skies. How high can you get?</Value>
+            <Path>TRACK_DESCRIPTION_109</Path>
+        </E>
+        <E i="260">
+            <Value>It's called 'extreme' for a reason.</Value>
+            <Path>TRACK_DESCRIPTION_11</Path>
+        </E>
+        <E i="261">
+            <Value>Gotta collect 'em all! Smash the targets with your bike.</Value>
+            <Path>TRACK_DESCRIPTION_110</Path>
+        </E>
+        <E i="262">
+            <Value>The bike's front wheel is loose! Ride with your front wheel up in the air as far as possible.</Value>
+            <Path>TRACK_DESCRIPTION_111</Path>
+        </E>
+        <E i="263">
+            <Value>Try flying through as many rings of fire as you can.</Value>
+            <Path>TRACK_DESCRIPTION_112</Path>
+        </E>
+        <E i="264">
+            <Value>Sometimes the solution is not quite that evident...</Value>
+            <Path>TRACK_DESCRIPTION_12</Path>
+        </E>
+        <E i="265">
+            <Value>It's not a pipe dream if you can ride on the pipe.</Value>
+            <Path>TRACK_DESCRIPTION_13</Path>
+        </E>
+        <E i="266">
+            <Value>Can you make it to the end? Speed is not the key.</Value>
+            <Path>TRACK_DESCRIPTION_14</Path>
+        </E>
+        <E i="267">
+            <Value>Hope you're up for an uphill struggle!</Value>
+            <Path>TRACK_DESCRIPTION_15</Path>
+        </E>
+        <E i="268">
+            <Value>Smooth humps for your driving pleasure.</Value>
+            <Path>TRACK_DESCRIPTION_16</Path>
+        </E>
+        <E i="269">
+            <Value>Ah, sweet memories... This one takes skill. </Value>
+            <Path>TRACK_DESCRIPTION_17</Path>
+        </E>
+        <E i="270">
+            <Value>Keep making those jumps, and you might pull this one off yet!</Value>
+            <Path>TRACK_DESCRIPTION_18</Path>
+        </E>
+        <E i="271">
+            <Value>Hard to get up. Harder to come down. Such is life.</Value>
+            <Path>TRACK_DESCRIPTION_19</Path>
+        </E>
+        <E i="272">
+            <Value>The environment! Use the environment!</Value>
+            <Path>TRACK_DESCRIPTION_20</Path>
+        </E>
+        <E i="273">
+            <Value>When the going gets tough, the tough get Old School.</Value>
+            <Path>TRACK_DESCRIPTION_21</Path>
+        </E>
+        <E i="274">
+            <Value>Sorry, no beer case for the winner this time!</Value>
+            <Path>TRACK_DESCRIPTION_22</Path>
+        </E>
+        <E i="275">
+            <Value>Oh no, not you again!</Value>
+            <Path>TRACK_DESCRIPTION_23</Path>
+        </E>
+        <E i="276">
+            <Value>Placeholder! Level not yet implemented!</Value>
+            <Path>TRACK_DESCRIPTION_24</Path>
+        </E>
+        <E i="277">
+            <Value>The faster you ride, the easier it gets. Jump!</Value>
+            <Path>TRACK_DESCRIPTION_25</Path>
+        </E>
+        <E i="278">
+            <Value>Things might break, but don't let it distract you!</Value>
+            <Path>TRACK_DESCRIPTION_26</Path>
+        </E>
+        <E i="279">
+            <Value>Don't rush it. Keep it steady.</Value>
+            <Path>TRACK_DESCRIPTION_27</Path>
+        </E>
+        <E i="280">
+            <Value>You're as smooth as a... rock?</Value>
+            <Path>TRACK_DESCRIPTION_28</Path>
+        </E>
+        <E i="281">
+            <Value>Lean forward. Most of the time. Probably.</Value>
+            <Path>TRACK_DESCRIPTION_29</Path>
+        </E>
+        <E i="282">
+            <Value>What a delightful morning!</Value>
+            <Path>TRACK_DESCRIPTION_30</Path>
+        </E>
+        <E i="283">
+            <Value>Throttle, brake, leaning and checkpoints. That's about it.</Value>
+            <Path>TRACK_DESCRIPTION_300</Path>
+        </E>
+        <E i="284">
+            <Value>Remember to lean and control the rider in the air. Fly like a bird! Just try not to land on your face.</Value>
+            <Path>TRACK_DESCRIPTION_301</Path>
+        </E>
+        <E i="285">
+            <Value>In the real world, objects tend to move when you push them. Wonder if that works in a video game?</Value>
+            <Path>TRACK_DESCRIPTION_302</Path>
+        </E>
+        <E i="286">
+            <Value>The class is in session for serious riders. This is where the real game begins. </Value>
+            <Path>TRACK_DESCRIPTION_303</Path>
+        </E>
+        <E i="287">
+            <Value>Collect targets and bail out. Simple and fun!</Value>
+            <Path>TRACK_DESCRIPTION_305</Path>
+        </E>
+        <E i="288">
+            <Value>A mid-day trip to the old playgrounds.</Value>
+            <Path>TRACK_DESCRIPTION_34</Path>
+        </E>
+        <E i="289">
+            <Value>Dusk falls upon the familiar neighborhood. It's quiet and peaceful, so better rev that engine!</Value>
+            <Path>TRACK_DESCRIPTION_35</Path>
+        </E>
+        <E i="290">
+            <Value>Going down can be a challenge of its own.</Value>
+            <Path>TRACK_DESCRIPTION_36</Path>
+        </E>
+        <E i="291">
+            <Value>Very easy? Sure, but things will get hard soon enough.</Value>
+            <Path>TRACK_DESCRIPTION_37</Path>
+        </E>
+        <E i="292">
+            <Value>A minefield of explosive action!</Value>
+            <Path>TRACK_DESCRIPTION_38</Path>
+        </E>
+        <E i="293">
+            <Value>Just ride it and be happy.</Value>
+            <Path>TRACK_DESCRIPTION_39</Path>
+        </E>
+        <E i="294">
+            <Value>Mother of All Jumps</Value>
+            <Path>TRACK_NAME_XLAST_01</Path>
+        </E>
+        <E i="295">
+            <Value>Logsplosive</Value>
+            <Path>TRACK_NAME_XLAST_02</Path>
+        </E>
+        <E i="296">
+            <Value>Trippin' the Plywood</Value>
+            <Path>TRACK_NAME_XLAST_03</Path>
+        </E>
+        <E i="297">
+            <Value>Container Rush</Value>
+            <Path>TRACK_NAME_XLAST_04</Path>
+        </E>
+        <E i="298">
+            <Value>Stock Market</Value>
+            <Path>TRACK_NAME_XLAST_05</Path>
+        </E>
+        <E i="299">
+            <Value>Technique</Value>
+            <Path>TRACK_NAME_XLAST_06</Path>
+        </E>
+        <E i="300">
+            <Value>Tired Hill</Value>
+            <Path>TRACK_NAME_XLAST_07</Path>
+        </E>
+        <E i="301">
+            <Value>Dreamscape</Value>
+            <Path>TRACK_NAME_XLAST_08</Path>
+        </E>
+        <E i="302">
+            <Value>Rock'n'Drop</Value>
+            <Path>TRACK_NAME_XLAST_09</Path>
+        </E>
+        <E i="303">
+            <Value>Under Ground</Value>
+            <Path>TRACK_NAME_XLAST_10</Path>
+        </E>
+        <E i="304">
+            <Value>Inside the Ball</Value>
+            <Path>TRACK_NAME_XLAST_100</Path>
+        </E>
+        <E i="305">
+            <Value>Down the Stairs</Value>
+            <Path>TRACK_NAME_XLAST_101</Path>
+        </E>
+        <E i="306">
+            <Value>Ski Jump</Value>
+            <Path>TRACK_NAME_XLAST_102</Path>
+        </E>
+        <E i="307">
+            <Value>Infernal Pinball</Value>
+            <Path>TRACK_NAME_XLAST_104</Path>
+        </E>
+        <E i="308">
+            <Value>Delivery</Value>
+            <Path>TRACK_NAME_XLAST_105</Path>
+        </E>
+        <E i="309">
+            <Value>In Flames</Value>
+            <Path>TRACK_NAME_XLAST_106</Path>
+        </E>
+        <E i="310">
+            <Value>Flip Hunter</Value>
+            <Path>TRACK_NAME_XLAST_107</Path>
+        </E>
+        <E i="311">
+            <Value>Outside the Ball</Value>
+            <Path>TRACK_NAME_XLAST_108</Path>
+        </E>
+        <E i="312">
+            <Value>Hill Climb</Value>
+            <Path>TRACK_NAME_XLAST_109</Path>
+        </E>
+        <E i="313">
+            <Value>Brown Boxes</Value>
+            <Path>TRACK_NAME_XLAST_11</Path>
+        </E>
+        <E i="314">
+            <Value>Target Hunt</Value>
+            <Path>TRACK_NAME_XLAST_110</Path>
+        </E>
+        <E i="315">
+            <Value>Loose Screw!</Value>
+            <Path>TRACK_NAME_XLAST_111</Path>
+        </E>
+        <E i="316">
+            <Value>Ring of Fire</Value>
+            <Path>TRACK_NAME_XLAST_112</Path>
+        </E>
+        <E i="317">
+            <Value>Dynamic Range</Value>
+            <Path>TRACK_NAME_XLAST_12</Path>
+        </E>
+        <E i="318">
+            <Value>Concrete Dreams</Value>
+            <Path>TRACK_NAME_XLAST_13</Path>
+        </E>
+        <E i="319">
+            <Value>Unfair Bombardment</Value>
+            <Path>TRACK_NAME_XLAST_14</Path>
+        </E>
+        <E i="320">
+            <Value>Goin' Up!</Value>
+            <Path>TRACK_NAME_XLAST_15</Path>
+        </E>
+        <E i="321">
+            <Value>Hello World!</Value>
+            <Path>TRACK_NAME_XLAST_16</Path>
+        </E>
+        <E i="322">
+            <Value>Classic</Value>
+            <Path>TRACK_NAME_XLAST_17</Path>
+        </E>
+        <E i="323">
+            <Value>Jolly Jumper</Value>
+            <Path>TRACK_NAME_XLAST_18</Path>
+        </E>
+        <E i="324">
+            <Value>The Rise and Fall</Value>
+            <Path>TRACK_NAME_XLAST_19</Path>
+        </E>
+        <E i="325">
+            <Value>Let's Get Physical</Value>
+            <Path>TRACK_NAME_XLAST_20</Path>
+        </E>
+        <E i="326">
+            <Value>Trials/Tribulations</Value>
+            <Path>TRACK_NAME_XLAST_21</Path>
+        </E>
+        <E i="327">
+            <Value>King of the Hill</Value>
+            <Path>TRACK_NAME_XLAST_22</Path>
+        </E>
+        <E i="328">
+            <Value>Inferno II</Value>
+            <Path>TRACK_NAME_XLAST_23</Path>
+        </E>
+        <E i="329">
+            <Value>PH: Speed of Jorma</Value>
+            <Path>TRACK_NAME_XLAST_24</Path>
+        </E>
+        <E i="330">
+            <Value>Where's the Ground?</Value>
+            <Path>TRACK_NAME_XLAST_25</Path>
+        </E>
+        <E i="331">
+            <Value>The Breakdown</Value>
+            <Path>TRACK_NAME_XLAST_26</Path>
+        </E>
+        <E i="332">
+            <Value>Building Blocks</Value>
+            <Path>TRACK_NAME_XLAST_27</Path>
+        </E>
+        <E i="333">
+            <Value>Smooth Jumps</Value>
+            <Path>TRACK_NAME_XLAST_28</Path>
+        </E>
+        <E i="334">
+            <Value>Upwardly Mobile</Value>
+            <Path>TRACK_NAME_XLAST_29</Path>
+        </E>
+        <E i="335">
+            <Value>Groundhog Begins</Value>
+            <Path>TRACK_NAME_XLAST_30</Path>
+        </E>
+        <E i="336">
+            <Value>Learning the Basics</Value>
+            <Path>TRACK_NAME_XLAST_300</Path>
+        </E>
+        <E i="337">
+            <Value>Hills and Jumps</Value>
+            <Path>TRACK_NAME_XLAST_301</Path>
+        </E>
+        <E i="338">
+            <Value>Tricky Obstacles</Value>
+            <Path>TRACK_NAME_XLAST_302</Path>
+        </E>
+        <E i="339">
+            <Value>Master Class</Value>
+            <Path>TRACK_NAME_XLAST_303</Path>
+        </E>
+        <E i="340">
+            <Value>Crash Time</Value>
+            <Path>TRACK_NAME_XLAST_305</Path>
+        </E>
+        <E i="341">
+            <Value>Groundhog Returns</Value>
+            <Path>TRACK_NAME_XLAST_34</Path>
+        </E>
+        <E i="342">
+            <Value>Groundhog Forever</Value>
+            <Path>TRACK_NAME_XLAST_35</Path>
+        </E>
+        <E i="343">
+            <Value>The Big Ride</Value>
+            <Path>TRACK_NAME_XLAST_36</Path>
+        </E>
+        <E i="344">
+            <Value>Basic Bumps</Value>
+            <Path>TRACK_NAME_XLAST_37</Path>
+        </E>
+        <E i="345">
+            <Value>Middle Name: Danger</Value>
+            <Path>TRACK_NAME_XLAST_38</Path>
+        </E>
+        <E i="346">
+            <Value>Easy Wheeling</Value>
+            <Path>TRACK_NAME_XLAST_39</Path>
+        </E>
+        <E i="347">
+            <Value>Wow! You're really getting good at this!</Value>
+            <Path>TRACK_PRAISE_01</Path>
+        </E>
+        <E i="348">
+            <Value>Impressive driving, explosive avoiding!</Value>
+            <Path>TRACK_PRAISE_02</Path>
+        </E>
+        <E i="349">
+            <Value>You seem to be unstoppable</Value>
+            <Path>TRACK_PRAISE_03</Path>
+        </E>
+        <E i="350">
+            <Value>Your speed cannot be contained!</Value>
+            <Path>TRACK_PRAISE_04</Path>
+        </E>
+        <E i="351">
+            <Value>Your stock's skyrocketing!</Value>
+            <Path>TRACK_PRAISE_05</Path>
+        </E>
+        <E i="352">
+            <Value>You got it! Oh baby, you got it!</Value>
+            <Path>TRACK_PRAISE_06</Path>
+        </E>
+        <E i="353">
+            <Value>Which way is the fastest? Your way, it seems!</Value>
+            <Path>TRACK_PRAISE_07</Path>
+        </E>
+        <E i="354">
+            <Value>Good to the last drop! Well driven!</Value>
+            <Path>TRACK_PRAISE_08</Path>
+        </E>
+        <E i="355">
+            <Value>Hail to the King, baby! Nice driving!</Value>
+            <Path>TRACK_PRAISE_09</Path>
+        </E>
+        <E i="356">
+            <Value>You went under but surfaced with your head held high! Nicely done!</Value>
+            <Path>TRACK_PRAISE_10</Path>
+        </E>
+        <E i="357">
+            <Value>Big wheel keep on rollin'!</Value>
+            <Path>TRACK_PRAISE_100</Path>
+        </E>
+        <E i="358">
+            <Value>Sticks and stones broke your bones!</Value>
+            <Path>TRACK_PRAISE_101</Path>
+        </E>
+        <E i="359">
+            <Value>Is that a bird? A plane? No! It's some crazy dude on a bike!</Value>
+            <Path>TRACK_PRAISE_102</Path>
+        </E>
+        <E i="360">
+            <Value>Then you got high! Really high, man! Dude!</Value>
+            <Path>TRACK_PRAISE_104</Path>
+        </E>
+        <E i="361">
+            <Value>Some of the best performances end with a bang. Or was that a whimper?</Value>
+            <Path>TRACK_PRAISE_105</Path>
+        </E>
+        <E i="362">
+            <Value>Flame on!</Value>
+            <Path>TRACK_PRAISE_106</Path>
+        </E>
+        <E i="363">
+            <Value>Well, that's world-class flippin'!</Value>
+            <Path>TRACK_PRAISE_107</Path>
+        </E>
+        <E i="364">
+            <Value>You are on top of your game!</Value>
+            <Path>TRACK_PRAISE_108</Path>
+        </E>
+        <E i="365">
+            <Value>I believe you can fly. I believe you can reach the skies!</Value>
+            <Path>TRACK_PRAISE_109</Path>
+        </E>
+        <E i="366">
+            <Value>There's no doubt about your riding skills!</Value>
+            <Path>TRACK_PRAISE_11</Path>
+        </E>
+        <E i="367">
+            <Value>You smash! You destroy! Yaaarrrrr!</Value>
+            <Path>TRACK_PRAISE_110</Path>
+        </E>
+        <E i="368">
+            <Value>Your screws are not loose at all!</Value>
+            <Path>TRACK_PRAISE_111</Path>
+        </E>
+        <E i="369">
+            <Value>You sure didn't just fly in circles!</Value>
+            <Path>TRACK_PRAISE_112</Path>
+        </E>
+        <E i="370">
+            <Value>Your driving is like an HDMI image in its beauty!</Value>
+            <Path>TRACK_PRAISE_12</Path>
+        </E>
+        <E i="371">
+            <Value>Sleep, dream, ride. You are it, man!</Value>
+            <Path>TRACK_PRAISE_13</Path>
+        </E>
+        <E i="372">
+            <Value>Even an orbital ion cannon wouldn't be able to hit you!</Value>
+            <Path>TRACK_PRAISE_14</Path>
+        </E>
+        <E i="373">
+            <Value>Up, up, and away! That. Was. Amazing!</Value>
+            <Path>TRACK_PRAISE_15</Path>
+        </E>
+        <E i="374">
+            <Value>And you dusted the world. Superb driving!</Value>
+            <Path>TRACK_PRAISE_16</Path>
+        </E>
+        <E i="375">
+            <Value>Rider of the lost ark!</Value>
+            <Path>TRACK_PRAISE_17</Path>
+        </E>
+        <E i="376">
+            <Value>You are faster than your own shadow!</Value>
+            <Path>TRACK_PRAISE_18</Path>
+        </E>
+        <E i="377">
+            <Value>Empires may come and go, but your skill remains unparalleled!</Value>
+            <Path>TRACK_PRAISE_19</Path>
+        </E>
+        <E i="378">
+            <Value>Fabulous! You've come to terms with your inner greatness!</Value>
+            <Path>TRACK_PRAISE_20</Path>
+        </E>
+        <E i="379">
+            <Value>You know, it just might be an actual crime to ride that well.</Value>
+            <Path>TRACK_PRAISE_21</Path>
+        </E>
+        <E i="380">
+            <Value>You seem to be unstoppable!</Value>
+            <Path>TRACK_PRAISE_22</Path>
+        </E>
+        <E i="381">
+            <Value>You are a Trials legend!</Value>
+            <Path>TRACK_PRAISE_23</Path>
+        </E>
+        <E i="382">
+            <Value>You seem to be unstoppable</Value>
+            <Path>TRACK_PRAISE_24</Path>
+        </E>
+        <E i="383">
+            <Value>Is there no limit to your skill?</Value>
+            <Path>TRACK_PRAISE_25</Path>
+        </E>
+        <E i="384">
+            <Value>Man, you don't slow down for anything, do you?</Value>
+            <Path>TRACK_PRAISE_26</Path>
+        </E>
+        <E i="385">
+            <Value>You ride like a pro. Excellent work!</Value>
+            <Path>TRACK_PRAISE_27</Path>
+        </E>
+        <E i="386">
+            <Value>Smooth and clean - you do it so well!</Value>
+            <Path>TRACK_PRAISE_28</Path>
+        </E>
+        <E i="387">
+            <Value>Did you notice where the stones come from?</Value>
+            <Path>TRACK_PRAISE_29</Path>
+        </E>
+        <E i="388">
+            <Value>What's got two legs and rides with pure perfection? You!</Value>
+            <Path>TRACK_PRAISE_30</Path>
+        </E>
+        <E i="389">
+            <Value></Value>
+            <Path>TRACK_PRAISE_300</Path>
+        </E>
+        <E i="390">
+            <Value></Value>
+            <Path>TRACK_PRAISE_301</Path>
+        </E>
+        <E i="391">
+            <Value></Value>
+            <Path>TRACK_PRAISE_302</Path>
+        </E>
+        <E i="392">
+            <Value></Value>
+            <Path>TRACK_PRAISE_303</Path>
+        </E>
+        <E i="393">
+            <Value></Value>
+            <Path>TRACK_PRAISE_305</Path>
+        </E>
+        <E i="394">
+            <Value>You are faster than a bird - faster than a robin!</Value>
+            <Path>TRACK_PRAISE_34</Path>
+        </E>
+        <E i="395">
+            <Value>Yeah, baby, yeah! You're going to Hollywood!</Value>
+            <Path>TRACK_PRAISE_35</Path>
+        </E>
+        <E i="396">
+            <Value>It's hard to even begin to describe your greatness!</Value>
+            <Path>TRACK_PRAISE_36</Path>
+        </E>
+        <E i="397">
+            <Value>Magnificent riding!</Value>
+            <Path>TRACK_PRAISE_37</Path>
+        </E>
+        <E i="398">
+            <Value>You came, you saw, you blew it all up.</Value>
+            <Path>TRACK_PRAISE_38</Path>
+        </E>
+        <E i="399">
+            <Value>There's just no stopping you!</Value>
+            <Path>TRACK_PRAISE_39</Path>
+        </E>
+        <E i="400">
+            <Value>Tractor tire</Value>
+            <Path>TRACTOR_TIRE</Path>
+        </E>
+        <E i="401">
+            <Value>Accelerate + controller (simple)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_BIG_SIMPLE</Path>
+        </E>
+        <E i="402">
+            <Value>Accelerate (simple)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_SIMPLE</Path>
+        </E>
+        <E i="403">
+            <Value>Backward driving</Value>
+            <Path>TRAFFIC_SIGN_BACKWARD_SIMPLE</Path>
+        </E>
+        <E i="404">
+            <Value>Bail out</Value>
+            <Path>TRAFFIC_SIGN_BAIL_OUT_SIMPLE</Path>
+        </E>
+        <E i="405">
+            <Value>Break + controller (simple)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_BIG_SIMPLE</Path>
+        </E>
+        <E i="406">
+            <Value>Break (simple)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_SIMPLE</Path>
+        </E>
+        <E i="407">
+            <Value>Double post</Value>
+            <Path>TRAFFIC_SIGN_DOUBLE_POST</Path>
+        </E>
+        <E i="408">
+            <Value>Dynamic punch</Value>
+            <Path>TRAFFIC_SIGN_DYNAMIC_PUNCH_SIMPLE</Path>
+        </E>
+        <E i="409">
+            <Value>Flying</Value>
+            <Path>TRAFFIC_SIGN_FLYING_BIG_SIMPLE</Path>
+        </E>
+        <E i="410">
+            <Value>Landing to hill</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_HILL_SIMPLE</Path>
+        </E>
+        <E i="411">
+            <Value>Landing to slope</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_SLOPE_SIMPLE</Path>
+        </E>
+        <E i="412">
+            <Value>Lean + controller (simple)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_BIG_SIMPLE</Path>
+        </E>
+        <E i="413">
+            <Value>Lean (simple)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_SIMPLE</Path>
+        </E>
+        <E i="414">
+            <Value>Roll back + controller (simple)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_BIG_SIMPLE</Path>
+        </E>
+        <E i="415">
+            <Value>Roll back (simple)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_SIMPLE</Path>
+        </E>
+        <E i="416">
+            <Value>Roll + controller (simple)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BIG_SIMPLE</Path>
+        </E>
+        <E i="417">
+            <Value>Roll (simple)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_SIMPLE</Path>
+        </E>
+        <E i="418">
+            <Value>Single post</Value>
+            <Path>TRAFFIC_SIGN_SINGLE_POST</Path>
+        </E>
+        <E i="419">
+            <Value>Trials flip</Value>
+            <Path>TRAFFIC_SIGN_TRIALS_FLIP_SIMPLE</Path>
+        </E>
+        <E i="420">
+            <Value>Uphill + controller (simple)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_BIG_SIMPLE</Path>
+        </E>
+        <E i="421">
+            <Value>Uphill (simple)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_SIMPLE</Path>
+        </E>
+        <E i="422">
+            <Value>Train cart</Value>
+            <Path>TRAIN_RAIL_CART_1</Path>
+        </E>
+        <E i="423">
+            <Value>Train rail down 45 degrees</Value>
+            <Path>TRAIN_RAIL_DOWN_45</Path>
+        </E>
+        <E i="424">
+            <Value>Train rail straight</Value>
+            <Path>TRAIN_RAIL_STRAIGHT_LONG</Path>
+        </E>
+        <E i="425">
+            <Value>Train rail turn 45 degrees</Value>
+            <Path>TRAIN_RAIL_TURN_RIGHT_45</Path>
+        </E>
+        <E i="426">
+            <Value>Train rail up 45 degrees</Value>
+            <Path>TRAIN_RAIL_UP_45</Path>
+        </E>
+        <E i="427">
+            <Value>High</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="428">
+            <Value>High</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="429">
+            <Value>High</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="430">
+            <Value>High</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="431">
+            <Value>High</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="432">
+            <Value>High</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="433">
+            <Value>High</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="434">
+            <Value>High</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="435">
+            <Value>High</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="436">
+            <Value>High</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="437">
+            <Value>High</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="438">
+            <Value>High</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="439">
+            <Value>High</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="440">
+            <Value>High</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="441">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="442">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="443">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="444">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="445">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="446">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="447">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="448">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="449">
+            <Value>Low</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="450">
+            <Value>Low</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="451">
+            <Value>Low</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="452">
+            <Value>Low</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="453">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="454">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="455">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="456">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="457">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="458">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="459">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="460">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="461">
+            <Value>Normal</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="462">
+            <Value>Normal</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="463">
+            <Value>Normal</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="464">
+            <Value>Normal</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="465">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="466">
+            <Value>Low</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="467">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="468">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="469">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="470">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="471">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="472">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="473">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="474">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="475">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="476">
+            <Value>Wall steel decoration</Value>
+            <Path>WALL_DECORATION_POST</Path>
+        </E>
+        <E i="477">
+            <Value>Woodbox</Value>
+            <Path>WOODBOX</Path>
+        </E>
+        <E i="478">
+            <Value>Woodbox w/o cover</Value>
+            <Path>WOODBOX_WO_COVER</Path>
+        </E>
+        <E i="479">
+            <Value>Wooden wall</Value>
+            <Path>WOODEN_WALL</Path>
+        </E>
+        <E i="480">
+            <Value>Wooden wall edges</Value>
+            <Path>WOODEN_WALL_EDGES</Path>
+        </E>
+        <E i="481">
+            <Value>Wooden wall plank</Value>
+            <Path>WOODEN_WALL_PLANK</Path>
+        </E>
+        <E i="482">
+            <Value>Wooden platform</Value>
+            <Path>WOOD_PLAT</Path>
+        </E>
+        <E i="483">
+            <Value>Wooden platform - big</Value>
+            <Path>WOOD_PLAT_PLATE</Path>
+        </E>
+        <E i="484">
+            <Value>Wood structure</Value>
+            <Path>WOOD_STRUCT_Q_1</Path>
+        </E>
+        <E i="485">
+            <Value>Missile</Value>
+            <Path>WWII_BOMB</Path>
+        </E>
+        <E i="486">
+            <Value>Scorpion 250cc</Value>
+            <Path>bike</Path>
+        </E>
+        <E i="487">
+            <Value>Turtle 80cc</Value>
+            <Path>bike_beginner</Path>
+        </E>
+        <E i="488">
+            <Value>Reptile 125cc</Value>
+            <Path>bike_easy</Path>
+        </E>
+        <E i="489">
+            <Value>Phoenix Evo 250cc</Value>
+            <Path>bike_hard</Path>
+        </E>
+        <E i="490">
+            <Value>Micro Donkey 60cc</Value>
+            <Path>bike_monkey</Path>
+        </E>
+        <E i="491">
+            <Value>Phoenix REV 250cc</Value>
+            <Path>bike_reverse</Path>
+        </E>
+        <E i="492">
+            <Value>Scorpion AIR 125cc</Value>
+            <Path>bike_ski</Path>
+        </E>
+        <E i="493">
+            <Value>Hauler 600cc</Value>
+            <Path>bike_with_cart</Path>
+        </E>
+    </Entries>
+</XusFile>

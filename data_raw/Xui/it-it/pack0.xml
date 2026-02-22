@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>Condensatore ad aria</Value>
+            <Path>AIR_CONDENSER</Path>
+        </E>
+        <E i="1">
+            <Value>Condensatore ad aria piccolo</Value>
+            <Path>AIR_CONDENSER_SMALL</Path>
+        </E>
+        <E i="2">
+            <Value>Set sfondo 1</Value>
+            <Path>BACKGROUND_SET_1</Path>
+        </E>
+        <E i="3">
+            <Value>Set sfondo 2</Value>
+            <Path>BACKGROUND_SET_2</Path>
+        </E>
+        <E i="4">
+            <Value>Set sfondo 3</Value>
+            <Path>BACKGROUND_SET_3</Path>
+        </E>
+        <E i="5">
+            <Value>Set sfondo 4</Value>
+            <Path>BACKGROUND_SET_4</Path>
+        </E>
+        <E i="6">
+            <Value>Barile</Value>
+            <Path>BARREL</Path>
+        </E>
+        <E i="7">
+            <Value>Barile esplosivo</Value>
+            <Path>BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="8">
+            <Value>Barile esplosivo aperto</Value>
+            <Path>BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="9">
+            <Value>Barile aperto</Value>
+            <Path>BARREL_OPEN</Path>
+        </E>
+        <E i="10">
+            <Value>Grosso barile</Value>
+            <Path>BIG_BARREL</Path>
+        </E>
+        <E i="11">
+            <Value>Grossa cassa di legno</Value>
+            <Path>BIG_BOX</Path>
+        </E>
+        <E i="12">
+            <Value>Postbruciatore</Value>
+            <Path>BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="13">
+            <Value>Faretto</Value>
+            <Path>BULB_SPOTLIGHT</Path>
+        </E>
+        <E i="14">
+            <Value>Lampada faretto (rotta)</Value>
+            <Path>BULB_SPOTLIGHT_FLICKER</Path>
+        </E>
+        <E i="15">
+            <Value>Pneumatico d'auto</Value>
+            <Path>CAR_TIRE</Path>
+        </E>
+        <E i="16">
+            <Value>Partecipa alla coppa locale di trial per dimostrare ai tuoi amici quanto vali!</Value>
+            <Path>CHALLENGE_DESCRIPTION_01</Path>
+        </E>
+        <E i="17">
+            <Value>Mostra il tuo talento contro i migliori piloti locali!</Value>
+            <Path>CHALLENGE_DESCRIPTION_02</Path>
+        </E>
+        <E i="18">
+            <Value>Misurati contro i migliori piloti di trial nella culla di questo sport!</Value>
+            <Path>CHALLENGE_DESCRIPTION_03</Path>
+        </E>
+        <E i="19">
+            <Value>Sfida i migliori piloti del vecchio continente e battili tutti!</Value>
+            <Path>CHALLENGE_DESCRIPTION_04</Path>
+        </E>
+        <E i="20">
+            <Value>Nuovi paesi, nuovi professionisti del trial: una sfida inedita con ricchi premi!</Value>
+            <Path>CHALLENGE_DESCRIPTION_05</Path>
+        </E>
+        <E i="21">
+            <Value>Campionato mondiale di trial: è qui che nascono le leggende!</Value>
+            <Path>CHALLENGE_DESCRIPTION_06</Path>
+        </E>
+        <E i="22">
+            <Value>Acrobazie, rischi e ossa rotte. Niente regole, niente rimpianti. Fai vedere a quelle teste calde di che pasta sei fatto!</Value>
+            <Path>CHALLENGE_DESCRIPTION_07</Path>
+        </E>
+        <E i="23">
+            <Value>Gareggia sui più leggendari tracciati di trial del mondo. Ci vuole una gran resistenza per pilotare la moto e combattere il jet lag!</Value>
+            <Path>CHALLENGE_DESCRIPTION_08</Path>
+        </E>
+        <E i="24">
+            <Value>Coppa di quartiere</Value>
+            <Path>CHALLENGE_NAME_XLAST_01</Path>
+        </E>
+        <E i="25">
+            <Value>Coppa nazionale</Value>
+            <Path>CHALLENGE_NAME_XLAST_02</Path>
+        </E>
+        <E i="26">
+            <Value>Coppa regionale</Value>
+            <Path>CHALLENGE_NAME_XLAST_03</Path>
+        </E>
+        <E i="27">
+            <Value>Campionato pro</Value>
+            <Path>CHALLENGE_NAME_XLAST_04</Path>
+        </E>
+        <E i="28">
+            <Value>Coppa del mondo</Value>
+            <Path>CHALLENGE_NAME_XLAST_05</Path>
+        </E>
+        <E i="29">
+            <Value>Campionato mondiale</Value>
+            <Path>CHALLENGE_NAME_XLAST_06</Path>
+        </E>
+        <E i="30">
+            <Value>Coppa sottoterra</Value>
+            <Path>CHALLENGE_NAME_XLAST_07</Path>
+        </E>
+        <E i="31">
+            <Value>Gara di resistenza</Value>
+            <Path>CHALLENGE_NAME_XLAST_08</Path>
+        </E>
+        <E i="32">
+            <Value>Checkpoint</Value>
+            <Path>CHECKPOINT</Path>
+        </E>
+        <E i="33">
+            <Value>Blocco di cemento</Value>
+            <Path>CONCRETE_BLOCK</Path>
+        </E>
+        <E i="34">
+            <Value>Tubo di cemento</Value>
+            <Path>CONCRETE_PIPE</Path>
+        </E>
+        <E i="35">
+            <Value>Tubo di cemento curvo</Value>
+            <Path>CONCRETE_PIPE_CURVE</Path>
+        </E>
+        <E i="36">
+            <Value>Traguardo alternativo</Value>
+            <Path>CRASH_GOAL_1</Path>
+        </E>
+        <E i="37">
+            <Value>Punteggio Caccia al bersaglio</Value>
+            <Path>CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="38">
+            <Value>Scatola di dinamite</Value>
+            <Path>DYNAMITE_BOX</Path>
+        </E>
+        <E i="39">
+            <Value>Cassa di legno che si rompe</Value>
+            <Path>EFFECT_BOX_BREAK_1</Path>
+        </E>
+        <E i="40">
+            <Value>Cassa di legno che esplode</Value>
+            <Path>EFFECT_BOX_EXPLODE_1</Path>
+        </E>
+        <E i="41">
+            <Value>Archi elettrici 1</Value>
+            <Path>EFFECT_ELECTRIC_ARCS_1</Path>
+        </E>
+        <E i="42">
+            <Value>Esplosione 1</Value>
+            <Path>EFFECT_EXPLOSION_1</Path>
+        </E>
+        <E i="43">
+            <Value>Esplosione 2</Value>
+            <Path>EFFECT_EXPLOSION_2</Path>
+        </E>
+        <E i="44">
+            <Value>Fuoco 1 (piccolo)</Value>
+            <Path>EFFECT_FIRE_1</Path>
+        </E>
+        <E i="45">
+            <Value>Fuoco 2 (medio)</Value>
+            <Path>EFFECT_FIRE_2</Path>
+        </E>
+        <E i="46">
+            <Value>Fuoco 3 (grande)</Value>
+            <Path>EFFECT_FIRE_3</Path>
+        </E>
+        <E i="47">
+            <Value>Fuoco lungo 1</Value>
+            <Path>EFFECT_FIRE_4</Path>
+        </E>
+        <E i="48">
+            <Value>Oceano di fuoco</Value>
+            <Path>EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="49">
+            <Value>Grande anello di fuoco</Value>
+            <Path>EFFECT_FIRE_RING_1</Path>
+        </E>
+        <E i="50">
+            <Value>Barile che si rompe</Value>
+            <Path>EFFECT_METAL_BARREL_BREAKING_1</Path>
+        </E>
+        <E i="51">
+            <Value>Fumo 1 (piccolo)</Value>
+            <Path>EFFECT_SMOKE_1</Path>
+        </E>
+        <E i="52">
+            <Value>Fumo 2 (medio)</Value>
+            <Path>EFFECT_SMOKE_2</Path>
+        </E>
+        <E i="53">
+            <Value>Fumo 3 (grande)</Value>
+            <Path>EFFECT_SMOKE_3</Path>
+        </E>
+        <E i="54">
+            <Value>Vapore 1 (lento)</Value>
+            <Path>EFFECT_STEAM_1</Path>
+        </E>
+        <E i="55">
+            <Value>Vapore 2 (rapido)</Value>
+            <Path>EFFECT_STEAM_2</Path>
+        </E>
+        <E i="56">
+            <Value>Acqua che sgocciola 1 (piccolo)</Value>
+            <Path>EFFECT_WATER_DRIPPING_1</Path>
+        </E>
+        <E i="57">
+            <Value>Acqua che sgocciola 2 (medio)</Value>
+            <Path>EFFECT_WATER_DRIPPING_2</Path>
+        </E>
+        <E i="58">
+            <Value>Acqua che sgocciola 3 (grande)</Value>
+            <Path>EFFECT_WATER_DRIPPING_3</Path>
+        </E>
+        <E i="59">
+            <Value>Acqua che cade 1 (piccolo)</Value>
+            <Path>EFFECT_WATER_FALL_1</Path>
+        </E>
+        <E i="60">
+            <Value>Acqua che cade 2 (medio)</Value>
+            <Path>EFFECT_WATER_FALL_2</Path>
+        </E>
+        <E i="61">
+            <Value>Acqua che cade 3 (grande)</Value>
+            <Path>EFFECT_WATER_FALL_3</Path>
+        </E>
+        <E i="62">
+            <Value>Legno che si rompe</Value>
+            <Path>EFFECT_WOOD_BREAK_1</Path>
+        </E>
+        <E i="63">
+            <Value>Cabina elettrica</Value>
+            <Path>ELECTRIC_CABIN</Path>
+        </E>
+        <E i="64">
+            <Value>Aletta di flipper (grande)</Value>
+            <Path>FLIPPER</Path>
+        </E>
+        <E i="65">
+            <Value>Aletta di flipper (piccola)</Value>
+            <Path>FLIPPER_SMALL</Path>
+        </E>
+        <E i="66">
+            <Value>Aletta di flipper (minuscola)</Value>
+            <Path>FLIPPER_TINY</Path>
+        </E>
+        <E i="67">
+            <Value>Aletta di flipper ampia 1</Value>
+            <Path>FLIPPER_WIDE</Path>
+        </E>
+        <E i="68">
+            <Value>Aletta di flipper ampia 2</Value>
+            <Path>FLIPPER_WIDE_2</Path>
+        </E>
+        <E i="69">
+            <Value>Neon</Value>
+            <Path>FLUOR_LAMP</Path>
+        </E>
+        <E i="70">
+            <Value>Neon (rotto)</Value>
+            <Path>FLUOR_LAMP_FLICKER</Path>
+        </E>
+        <E i="71">
+            <Value>Neon (frantumato)</Value>
+            <Path>FLUOR_LAMP_SMASHED</Path>
+        </E>
+        <E i="72">
+            <Value>Birillo da bowling</Value>
+            <Path>GAME_BOWL_CONE</Path>
+        </E>
+        <E i="73">
+            <Value>Anello di fuoco</Value>
+            <Path>GAME_FIRE_RING</Path>
+        </E>
+        <E i="74">
+            <Value>Sfera di ferro gigante</Value>
+            <Path>GIANT_IRON_BALL</Path>
+        </E>
+        <E i="75">
+            <Value>Interno sfera di ferro gigante</Value>
+            <Path>GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="76">
+            <Value>Vetro 1</Value>
+            <Path>GLASS_1</Path>
+        </E>
+        <E i="77">
+            <Value>Graffa vetro 1</Value>
+            <Path>GLASS_CLIP_1</Path>
+        </E>
+        <E i="78">
+            <Value>Graffa vetro 2</Value>
+            <Path>GLASS_CLIP_2</Path>
+        </E>
+        <E i="79">
+            <Value>Traguardo</Value>
+            <Path>GOALPOINT</Path>
+        </E>
+        <E i="80">
+            <Value>Rampa e pedana (grande)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_BIG</Path>
+        </E>
+        <E i="81">
+            <Value>Rampa e pedana (media)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_MEDIUM</Path>
+        </E>
+        <E i="82">
+            <Value>Rampa e pedana (corta)</Value>
+            <Path>GROUPS_RAMP_AND_LANG_SHORT</Path>
+        </E>
+        <E i="83">
+            <Value>Impalcatura grande</Value>
+            <Path>GROUPS_SCAFFOLD_BIG</Path>
+        </E>
+        <E i="84">
+            <Value>Impalcatura enorme</Value>
+            <Path>GROUPS_SCAFFOLD_HUGE</Path>
+        </E>
+        <E i="85">
+            <Value>Terrazza enorme</Value>
+            <Path>GROUPS_TERRACE_HUGE</Path>
+        </E>
+        <E i="86">
+            <Value>Terrazza piccola</Value>
+            <Path>GROUPS_TERRACE_SMALL</Path>
+        </E>
+        <E i="87">
+            <Value>Terrazza molto piccola</Value>
+            <Path>GROUPS_TERRACE_TINY</Path>
+        </E>
+        <E i="88">
+            <Value>Putrella</Value>
+            <Path>I_BEAM</Path>
+        </E>
+        <E i="89">
+            <Value>Putrella enorme</Value>
+            <Path>I_BEAM_HUGE</Path>
+        </E>
+        <E i="90">
+            <Value>Lampada a muro 1</Value>
+            <Path>LAMP_WALL_1</Path>
+        </E>
+        <E i="91">
+            <Value>Grosso tronco arrotondato</Value>
+            <Path>LOG_BIG_ROUNDED</Path>
+        </E>
+        <E i="92">
+            <Value>Grosso tronco arrotondato corto</Value>
+            <Path>LOG_BIG_ROUNDED_SHORT</Path>
+        </E>
+        <E i="93">
+            <Value>Grosso tronco squadrato</Value>
+            <Path>LOG_BIG_SQUARE</Path>
+        </E>
+        <E i="94">
+            <Value>Grosso tronco squadrato corto</Value>
+            <Path>LOG_BIG_SQUARE_SHORT</Path>
+        </E>
+        <E i="95">
+            <Value>Tronco arrotondato</Value>
+            <Path>LOG_ROUNDED</Path>
+        </E>
+        <E i="96">
+            <Value>Tronco squadrato</Value>
+            <Path>LOG_SQUARE</Path>
+        </E>
+        <E i="97">
+            <Value>Gabbia in metallo grande</Value>
+            <Path>METAL_CAGE_BIG</Path>
+        </E>
+        <E i="98">
+            <Value>Traguardo in metallo</Value>
+            <Path>METAL_FINISH_LINE</Path>
+        </E>
+        <E i="99">
+            <Value>Traguardo in metallo stretto</Value>
+            <Path>METAL_FINISH_LINE_SMALL</Path>
+        </E>
+        <E i="100">
+            <Value>Traguardo in metallo ampio</Value>
+            <Path>METAL_FINISH_LINE_WIDE</Path>
+        </E>
+        <E i="101">
+            <Value>Griglia di metallo</Value>
+            <Path>METAL_GRID</Path>
+        </E>
+        <E i="102">
+            <Value>Stecca di metallo lunga</Value>
+            <Path>METAL_STICK_LONG</Path>
+        </E>
+        <E i="103">
+            <Value>Stecca di metallo media</Value>
+            <Path>METAL_STICK_MED</Path>
+        </E>
+        <E i="104">
+            <Value>Stecca di metallo corta</Value>
+            <Path>METAL_STICK_SHORT</Path>
+        </E>
+        <E i="105">
+            <Value>Grossa bomba</Value>
+            <Path>NUKE</Path>
+        </E>
+        <E i="106">
+            <Value>Esplosivo. Deflagra all'impatto!</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE</Path>
+        </E>
+        <E i="107">
+            <Value>Esplosivo. Deflagra all'impatto!</Value>
+            <Path>OBJECT_HELP_TEXT_BARREL_EXPLOSIVE_OPEN</Path>
+        </E>
+        <E i="108">
+            <Value>Postbruciatore per la moto. Si attiva quando viene raccolto e dura per 2 secondi.</Value>
+            <Path>OBJECT_HELP_TEXT_BOOST_AFTER_BURNER</Path>
+        </E>
+        <E i="109">
+            <Value>Consente al giocatore di continuare da questo punto dopo un errore.</Value>
+            <Path>OBJECT_HELP_TEXT_CHECKPOINT</Path>
+        </E>
+        <E i="110">
+            <Value>Traguardo alternativo del tracciato.</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_1</Path>
+        </E>
+        <E i="111">
+            <Value>Oggetto da rompere per guadagnare punti in modalità Caccia al bersaglio.</Value>
+            <Path>OBJECT_HELP_TEXT_CRASH_GOAL_TARGET_1</Path>
+        </E>
+        <E i="112">
+            <Value>Esplosivo potente. Deflagra all'impatto!</Value>
+            <Path>OBJECT_HELP_TEXT_DYNAMITE_BOX</Path>
+        </E>
+        <E i="113">
+            <Value>Dà fuoco al giocatore. Area piccola.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_1</Path>
+        </E>
+        <E i="114">
+            <Value>Dà fuoco al giocatore. Area piccola.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_2</Path>
+        </E>
+        <E i="115">
+            <Value>Dà fuoco al giocatore. Area media.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_3</Path>
+        </E>
+        <E i="116">
+            <Value>Dà fuoco al giocatore. Area media.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_4</Path>
+        </E>
+        <E i="117">
+            <Value>Dà fuoco al giocatore. Area grande.</Value>
+            <Path>OBJECT_HELP_TEXT_EFFECT_FIRE_OCEAN_1</Path>
+        </E>
+        <E i="118">
+            <Value>Dà fuoco al giocatore. Area grande.</Value>
+            <Path>OBJECT_HELP_TEXT_GAME_FIRE_RING</Path>
+        </E>
+        <E i="119">
+            <Value>Questo oggetto deve essere incluso nei tracciati della modalità Sulla sfera. Il gioco termina se la moto cade dalla Sfera.</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL</Path>
+        </E>
+        <E i="120">
+            <Value>Questo oggetto deve essere incluso nei tracciati della modalità Nella sfera.</Value>
+            <Path>OBJECT_HELP_TEXT_GIANT_IRON_BALL_INSIDE</Path>
+        </E>
+        <E i="121">
+            <Value>Esplosivo potentissimo. Deflagra all'impatto!</Value>
+            <Path>OBJECT_HELP_TEXT_NUKE</Path>
+        </E>
+        <E i="122">
+            <Value>Modifica l'angolo di visuale durante il gioco quando la moto è vicina.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="123">
+            <Value>Modifica l'angolo di visuale durante i replay quando la moto è vicina.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="124">
+            <Value>Imposta la visualizzazione dell'anteprima del tracciato</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="125">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="126">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="127">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="128">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="129">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="130">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="131">
+            <Value>Può essere incollato tra due oggetti fisici per limitarne il movimento relativo.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="132">
+            <Value>Può essere incollato ad oggetti fisici per farli ruotare.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="133">
+            <Value>Può essere incollato ad oggetti fisici per farli muovere.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="134">
+            <Value>Trigger che attiva la modalità Anello di fuoco. Al giocatore non è consentito toccare le pareti dopo averlo oltrepassato.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="135">
+            <Value>Attiva le proprietà fisiche dell'oggetto target al contatto.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="136">
+            <Value>Attiva le proprietà fisiche dell'oggetto target al contatto.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="137">
+            <Value>Attiva le proprietà fisiche dell'oggetto target al contatto.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="138">
+            <Value>Trigger che attiva la modalità Salto con gli sci. Da collocare sul bordo della rampa.</Value>
+            <Path>OBJECT_HELP_TEXT_TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="139">
+            <Value>Punto rotta del tracciato. Permette di creare tracciati con curve.</Value>
+            <Path>OBJECT_HELP_TEXT_TRACKPOINT</Path>
+        </E>
+        <E i="140">
+            <Value>Esplosivo potente. Deflagra all'impatto!</Value>
+            <Path>OBJECT_HELP_TEXT_WWII_BOMB</Path>
+        </E>
+        <E i="141">
+            <Value>Tubo di metallo (raccordo)</Value>
+            <Path>PIPE_ADDITION</Path>
+        </E>
+        <E i="142">
+            <Value>Tubo di metallo (angolo)</Value>
+            <Path>PIPE_CORNER</Path>
+        </E>
+        <E i="143">
+            <Value>Tubo di metallo (raccordo angolo)</Value>
+            <Path>PIPE_CORNER_ADDITION</Path>
+        </E>
+        <E i="144">
+            <Value>Tubo di metallo dritto lungo</Value>
+            <Path>PIPE_LONG_STRAIGHT</Path>
+        </E>
+        <E i="145">
+            <Value>Tubo di metallo (anello)</Value>
+            <Path>PIPE_RING</Path>
+        </E>
+        <E i="146">
+            <Value>Tubo di metallo dritto corto</Value>
+            <Path>PIPE_SHORT_STRAIGHT</Path>
+        </E>
+        <E i="147">
+            <Value>Valvola per tubo di metallo</Value>
+            <Path>PIPE_VALVE</Path>
+        </E>
+        <E i="148">
+            <Value>Tavola molto lunga e sottile</Value>
+            <Path>PLANK_EXTRA_LONG_THIN</Path>
+        </E>
+        <E i="149">
+            <Value>Tavola lunga</Value>
+            <Path>PLANK_LONG</Path>
+        </E>
+        <E i="150">
+            <Value>Tavola lunga e sottile</Value>
+            <Path>PLANK_LONG_THIN</Path>
+        </E>
+        <E i="151">
+            <Value>Tavola media</Value>
+            <Path>PLANK_MED</Path>
+        </E>
+        <E i="152">
+            <Value>Tavola corta</Value>
+            <Path>PLANK_SHORT</Path>
+        </E>
+        <E i="153">
+            <Value>Tavola lunga e ampia</Value>
+            <Path>PLANK_WIDE_LONG</Path>
+        </E>
+        <E i="154">
+            <Value>Tavola ampia media</Value>
+            <Path>PLANK_WIDE_MEDIUM</Path>
+        </E>
+        <E i="155">
+            <Value>Tavola ampia corta</Value>
+            <Path>PLANK_WIDE_SHORT</Path>
+        </E>
+        <E i="156">
+            <Value>Compensato</Value>
+            <Path>PLYWOOD</Path>
+        </E>
+        <E i="157">
+            <Value>Rinforzo in compensato</Value>
+            <Path>PLYWOOD_REIN</Path>
+        </E>
+        <E i="158">
+            <Value>Supporto 1 sinistra</Value>
+            <Path>RACK_1_LEFT</Path>
+        </E>
+        <E i="159">
+            <Value>Supporto 1 destra</Value>
+            <Path>RACK_1_RIGHT</Path>
+        </E>
+        <E i="160">
+            <Value>Rampa di metallo grande</Value>
+            <Path>RAMP_METAL_BIG</Path>
+        </E>
+        <E i="161">
+            <Value>Pedana rampa di metallo grande</Value>
+            <Path>RAMP_METAL_PLATE_BIG</Path>
+        </E>
+        <E i="162">
+            <Value>Pedana rampa di metallo media</Value>
+            <Path>RAMP_METAL_PLATE_MEDIUM</Path>
+        </E>
+        <E i="163">
+            <Value>Pedana rampa di metallo piccola</Value>
+            <Path>RAMP_METAL_PLATE_SMALL</Path>
+        </E>
+        <E i="164">
+            <Value>Rampa di metallo corta</Value>
+            <Path>RAMP_METAL_SHORT</Path>
+        </E>
+        <E i="165">
+            <Value>Rampa di legno grande</Value>
+            <Path>RAMP_WOOD_BIG</Path>
+        </E>
+        <E i="166">
+            <Value>Pedana rampa di legno grande</Value>
+            <Path>RAMP_WOOD_PLATE_BIG</Path>
+        </E>
+        <E i="167">
+            <Value>Pedana rampa di legno media</Value>
+            <Path>RAMP_WOOD_PLATE_MEDIUM</Path>
+        </E>
+        <E i="168">
+            <Value>Pedana rampa di legno piccola</Value>
+            <Path>RAMP_WOOD_PLATE_SMALL</Path>
+        </E>
+        <E i="169">
+            <Value>Rampa di legno corta</Value>
+            <Path>RAMP_WOOD_SHORT</Path>
+        </E>
+        <E i="170">
+            <Value>Plafoniera 1</Value>
+            <Path>ROOF_LIGHT</Path>
+        </E>
+        <E i="171">
+            <Value>Plafoniera 1 (rotta)</Value>
+            <Path>ROOF_LIGHT_FLICKER</Path>
+        </E>
+        <E i="172">
+            <Value>Plafoniera 2</Value>
+            <Path>ROOF_LIGHT_WITH_GRID</Path>
+        </E>
+        <E i="173">
+            <Value>Lamiera acciaio arrugginito grande</Value>
+            <Path>RUSTY_STEEL_PLATE_BIG</Path>
+        </E>
+        <E i="174">
+            <Value>Recinto lamiera acciaio arrugginito grande</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG</Path>
+        </E>
+        <E i="175">
+            <Value>Recinto lamiera acciaio arrugginito grande 2</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_BIG_2</Path>
+        </E>
+        <E i="176">
+            <Value>Recinto lamiera acciaio arrugginito medio</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED</Path>
+        </E>
+        <E i="177">
+            <Value>Recinto lamiera acciaio arrugginito medio 2</Value>
+            <Path>RUSTY_STEEL_PLATE_FENCE_MED_2</Path>
+        </E>
+        <E i="178">
+            <Value>Lamiera acciaio arrugginito lunga</Value>
+            <Path>RUSTY_STEEL_PLATE_LONG</Path>
+        </E>
+        <E i="179">
+            <Value>Lamiera acciaio arrugginito corta</Value>
+            <Path>RUSTY_STEEL_PLATE_SHORT</Path>
+        </E>
+        <E i="180">
+            <Value>Base impalcatura</Value>
+            <Path>SCAFFOLD_BASE</Path>
+        </E>
+        <E i="181">
+            <Value>Loop impalcatura</Value>
+            <Path>SCAFFOLD_LOOP</Path>
+        </E>
+        <E i="182">
+            <Value>Pedana impalcatura</Value>
+            <Path>SCAFFOLD_PLATE</Path>
+        </E>
+        <E i="183">
+            <Value>Loop pedana impalcatura</Value>
+            <Path>SCAFFOLD_PLATE_LOOP</Path>
+        </E>
+        <E i="184">
+            <Value>Pali impalcatura</Value>
+            <Path>SCAFFOLD_POSTS</Path>
+        </E>
+        <E i="185">
+            <Value>Scale impalcatura</Value>
+            <Path>SCAFFOLD_STAIRS</Path>
+        </E>
+        <E i="186">
+            <Value>Container per nave</Value>
+            <Path>SHIP_CONTAINER</Path>
+        </E>
+        <E i="187">
+            <Value>Accelerare</Value>
+            <Path>SIGN_ACCELERATE</Path>
+        </E>
+        <E i="188">
+            <Value>Segnale freccia</Value>
+            <Path>SIGN_ARROW</Path>
+        </E>
+        <E i="189">
+            <Value>Freccia giù</Value>
+            <Path>SIGN_ARROW_DOWN</Path>
+        </E>
+        <E i="190">
+            <Value>Freccia su</Value>
+            <Path>SIGN_ARROW_UP</Path>
+        </E>
+        <E i="191">
+            <Value>Segnale Omino con bende</Value>
+            <Path>SIGN_BANDAGE</Path>
+        </E>
+        <E i="192">
+            <Value>Segnale Attraversamento scoiattoli</Value>
+            <Path>SIGN_BEWARE_SQUIRRELS</Path>
+        </E>
+        <E i="193">
+            <Value>Grosso salto</Value>
+            <Path>SIGN_BIG_JUMP</Path>
+        </E>
+        <E i="194">
+            <Value>Segnale Pericolo esplosivi</Value>
+            <Path>SIGN_DANGER_EXPLOSIVES</Path>
+        </E>
+        <E i="195">
+            <Value>Segnale Sospensorio</Value>
+            <Path>SIGN_EGG_SHELTER</Path>
+        </E>
+        <E i="196">
+            <Value>Esplosioni</Value>
+            <Path>SIGN_EXPLOSION</Path>
+        </E>
+        <E i="197">
+            <Value>Segnale Caduta oggetti</Value>
+            <Path>SIGN_FALLING_BIG_OBJECTS</Path>
+        </E>
+        <E i="198">
+            <Value>Segnale Rischio cadute</Value>
+            <Path>SIGN_FALLING_INJURY</Path>
+        </E>
+        <E i="199">
+            <Value>Segnale Dita incrociate</Value>
+            <Path>SIGN_FINGERS_CROSSED</Path>
+        </E>
+        <E i="200">
+            <Value>Segnale Dislivello enorme</Value>
+            <Path>SIGN_HUGE_FALL</Path>
+        </E>
+        <E i="201">
+            <Value>Segnale Divieto di accesso alle moto</Value>
+            <Path>SIGN_NO_BIKES</Path>
+        </E>
+        <E i="202">
+            <Value>Segnale Divieto di accesso agli umani</Value>
+            <Path>SIGN_NO_HUMANS</Path>
+        </E>
+        <E i="203">
+            <Value>Segnale Divieto di salto</Value>
+            <Path>SIGN_NO_JUMPING</Path>
+        </E>
+        <E i="204">
+            <Value>Rallentare</Value>
+            <Path>SIGN_SLOW_DOWN</Path>
+        </E>
+        <E i="205">
+            <Value>Segnale Limite di velocità</Value>
+            <Path>SIGN_SPEED_LIMIT</Path>
+        </E>
+        <E i="206">
+            <Value>Segnale Usare il casco</Value>
+            <Path>SIGN_USE_HELMET</Path>
+        </E>
+        <E i="207">
+            <Value>Parete</Value>
+            <Path>SIGN_WALL</Path>
+        </E>
+        <E i="208">
+            <Value>Partenza</Value>
+            <Path>STARTPOINT</Path>
+        </E>
+        <E i="209">
+            <Value>Struttura d'acciaio</Value>
+            <Path>STEEL_STRUCT_Q_1</Path>
+        </E>
+        <E i="210">
+            <Value>Pietra 1</Value>
+            <Path>STONE_1</Path>
+        </E>
+        <E i="211">
+            <Value>Pietra 2</Value>
+            <Path>STONE_2</Path>
+        </E>
+        <E i="212">
+            <Value>Pietra 3</Value>
+            <Path>STONE_3</Path>
+        </E>
+        <E i="213">
+            <Value>Pietra 4</Value>
+            <Path>STONE_4</Path>
+        </E>
+        <E i="214">
+            <Value>Pilastro trasversale terrazza</Value>
+            <Path>TERRACE_CROSSPILLAR</Path>
+        </E>
+        <E i="215">
+            <Value>Pilastro terrazza</Value>
+            <Path>TERRACE_PILLAR</Path>
+        </E>
+        <E i="216">
+            <Value>Base terrazza</Value>
+            <Path>TERRACE_PLATE</Path>
+        </E>
+        <E i="217">
+            <Value>Base terrazza grande</Value>
+            <Path>TERRACE_PLATE_BIG</Path>
+        </E>
+        <E i="218">
+            <Value>Recinto terrazza</Value>
+            <Path>TERRACE_PLATE_FENCE</Path>
+        </E>
+        <E i="219">
+            <Value>Recinto terrazza semplice</Value>
+            <Path>TERRACE_PLATE_FENCE_2</Path>
+        </E>
+        <E i="220">
+            <Value>Base terrazza piccola</Value>
+            <Path>TERRACE_PLATE_SMALL</Path>
+        </E>
+        <E i="221">
+            <Value>Oggetto di prova</Value>
+            <Path>TEST</Path>
+        </E>
+        <E i="222">
+            <Value>Telecamera di gioco</Value>
+            <Path>TOOLS_CAMERA_ACTION</Path>
+        </E>
+        <E i="223">
+            <Value>Telecamera replay</Value>
+            <Path>TOOLS_CAMERA_CINEMATIC</Path>
+        </E>
+        <E i="224">
+            <Value>Telecamera anteprima tracciato</Value>
+            <Path>TOOLS_CAMERA_CRASH</Path>
+        </E>
+        <E i="225">
+            <Value>Giunto a sfera</Value>
+            <Path>TOOLS_CONSTRAINT_BALL_SOCKET</Path>
+        </E>
+        <E i="226">
+            <Value>Cerniera rotazione limitata</Value>
+            <Path>TOOLS_CONSTRAINT_LIMITED_HINGE</Path>
+        </E>
+        <E i="227">
+            <Value>Punto a punto (rigida)</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_HARD</Path>
+        </E>
+        <E i="228">
+            <Value>Punto a punto (morbida)</Value>
+            <Path>TOOLS_CONSTRAINT_POINT_POINT_SOFT</Path>
+        </E>
+        <E i="229">
+            <Value>Cerniera rotazione libera</Value>
+            <Path>TOOLS_CONSTRAINT_ROTATIONAL_HINGE</Path>
+        </E>
+        <E i="230">
+            <Value>Giunto 1 metro</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_1M</Path>
+        </E>
+        <E i="231">
+            <Value>Giunto 2 metri</Value>
+            <Path>TOOLS_CONSTRAINT_SLIDER_2M</Path>
+        </E>
+        <E i="232">
+            <Value>Forza di rotazione</Value>
+            <Path>TOOLS_FORCE_ROTATE</Path>
+        </E>
+        <E i="233">
+            <Value>Fa ruotare gli oggetti</Value>
+            <Path>TOOLS_FORCE_ROTATE_TURBO</Path>
+        </E>
+        <E i="234">
+            <Value>Trasforma forza</Value>
+            <Path>TOOLS_FORCE_TRANSFORM</Path>
+        </E>
+        <E i="235">
+            <Value>Trigger avvio Anelli di fuoco</Value>
+            <Path>TOOLS_TRIGGER_RING_OF_FIRE</Path>
+        </E>
+        <E i="236">
+            <Value>Trigger 8 m</Value>
+            <Path>TOOLS_TRIGGER_SCALE_1</Path>
+        </E>
+        <E i="237">
+            <Value>Trigger 4 m</Value>
+            <Path>TOOLS_TRIGGER_SCALE_2</Path>
+        </E>
+        <E i="238">
+            <Value>Trigger 2 m</Value>
+            <Path>TOOLS_TRIGGER_SCALE_3</Path>
+        </E>
+        <E i="239">
+            <Value>Trigger Bordo trampolino da sci</Value>
+            <Path>TOOLS_TRIGGER_SKI</Path>
+        </E>
+        <E i="240">
+            <Value>Strumento sentiero</Value>
+            <Path>TRACKPOINT</Path>
+        </E>
+        <E i="241">
+            <Value>Ogni gioco ha un inizio. Partiamo dalle basi!</Value>
+            <Path>TRACK_DESCRIPTION_01</Path>
+        </E>
+        <E i="242">
+            <Value>Tronchi ed esplosivi, tanto per gradire.</Value>
+            <Path>TRACK_DESCRIPTION_02</Path>
+        </E>
+        <E i="243">
+            <Value>Buona giornata!</Value>
+            <Path>TRACK_DESCRIPTION_03</Path>
+        </E>
+        <E i="244">
+            <Value>Divertimento per tutti! Riuscirai a trovare la strada più veloce?</Value>
+            <Path>TRACK_DESCRIPTION_04</Path>
+        </E>
+        <E i="245">
+            <Value>Sale, sale, sale... e poi precipita vertiginosamente.</Value>
+            <Path>TRACK_DESCRIPTION_05</Path>
+        </E>
+        <E i="246">
+            <Value>Salti tecnici su pneumatici e tubi.</Value>
+            <Path>TRACK_DESCRIPTION_06</Path>
+        </E>
+        <E i="247">
+            <Value>Completarlo è facile, ma qual è la strada più veloce?</Value>
+            <Path>TRACK_DESCRIPTION_07</Path>
+        </E>
+        <E i="248">
+            <Value>Siamo nella nostra mente. Questo è il nostro sogno.</Value>
+            <Path>TRACK_DESCRIPTION_08</Path>
+        </E>
+        <E i="249">
+            <Value>Dopo la roccia c'è uno strapiombo. Semplice, no?</Value>
+            <Path>TRACK_DESCRIPTION_09</Path>
+        </E>
+        <E i="250">
+            <Value>Si sale... e si scende!</Value>
+            <Path>TRACK_DESCRIPTION_10</Path>
+        </E>
+        <E i="251">
+            <Value>Resta dentro la sfera più a lungo che puoi!</Value>
+            <Path>TRACK_DESCRIPTION_100</Path>
+        </E>
+        <E i="252">
+            <Value>Schiantati contro gli ostacoli per romperti le ossa! Vale la pena di farsi male!</Value>
+            <Path>TRACK_DESCRIPTION_101</Path>
+        </E>
+        <E i="253">
+            <Value>Vola come un'aquila, più lontano che puoi! Non dimenticare di smontare di sella!</Value>
+            <Path>TRACK_DESCRIPTION_102</Path>
+        </E>
+        <E i="254">
+            <Value>Salta più in alto che puoi e non dimenticare di smontare di sella!</Value>
+            <Path>TRACK_DESCRIPTION_104</Path>
+        </E>
+        <E i="255">
+            <Value>La tua moto è attaccata a un carrello per consegne carico di esplosivi. Vai più lontano che puoi senza farli esplodere!</Value>
+            <Path>TRACK_DESCRIPTION_105</Path>
+        </E>
+        <E i="256">
+            <Value>Quando sei avvolto dalle fiamme, solo la velocità può impedirti di bruciare vivo! Chi rallenta è perduto!</Value>
+            <Path>TRACK_DESCRIPTION_106</Path>
+        </E>
+        <E i="257">
+            <Value>Capriole in avanti, all'indietro... Quante riuscirai a farne?</Value>
+            <Path>TRACK_DESCRIPTION_107</Path>
+        </E>
+        <E i="258">
+            <Value>Tieniti in equilibrio in cima alla sfera e vai più lontano che puoi prima che la gravità esiga il suo tributo.</Value>
+            <Path>TRACK_DESCRIPTION_108</Path>
+        </E>
+        <E i="259">
+            <Value>Arrampicati fino al cielo. Fin dove arriverai?</Value>
+            <Path>TRACK_DESCRIPTION_109</Path>
+        </E>
+        <E i="260">
+            <Value>Perché credi si chiami "estremo"?</Value>
+            <Path>TRACK_DESCRIPTION_11</Path>
+        </E>
+        <E i="261">
+            <Value>Prendili tutti! Rompi i bersagli con la moto.</Value>
+            <Path>TRACK_DESCRIPTION_110</Path>
+        </E>
+        <E i="262">
+            <Value>La ruota anteriore della moto è allentata! Percorri quanta più strada possibile in impennata.</Value>
+            <Path>TRACK_DESCRIPTION_111</Path>
+        </E>
+        <E i="263">
+            <Value>Vola attraverso quanti più anelli di fuoco possibile.</Value>
+            <Path>TRACK_DESCRIPTION_112</Path>
+        </E>
+        <E i="264">
+            <Value>A volte la soluzione non è così evidente...</Value>
+            <Path>TRACK_DESCRIPTION_12</Path>
+        </E>
+        <E i="265">
+            <Value>Meglio guidare sui tubi che non capirci un tubo.</Value>
+            <Path>TRACK_DESCRIPTION_13</Path>
+        </E>
+        <E i="266">
+            <Value>Ce la farai ad arrivare fino in fondo? La velocità non è tutto.</Value>
+            <Path>TRACK_DESCRIPTION_14</Path>
+        </E>
+        <E i="267">
+            <Value>La salita è dura... Te la senti?</Value>
+            <Path>TRACK_DESCRIPTION_15</Path>
+        </E>
+        <E i="268">
+            <Value>Dolci declivi per il tuo piacere di guida.</Value>
+            <Path>TRACK_DESCRIPTION_16</Path>
+        </E>
+        <E i="269">
+            <Value>Ah, quanti ricordi! Qui dovrai mettercela tutta. </Value>
+            <Path>TRACK_DESCRIPTION_17</Path>
+        </E>
+        <E i="270">
+            <Value>Continua a saltare e forse riuscirai a cavartela!</Value>
+            <Path>TRACK_DESCRIPTION_18</Path>
+        </E>
+        <E i="271">
+            <Value>Difficile salire. Ancora più difficile scendere. È la vita!</Value>
+            <Path>TRACK_DESCRIPTION_19</Path>
+        </E>
+        <E i="272">
+            <Value>L'ambiente! Usa l'ambiente!</Value>
+            <Path>TRACK_DESCRIPTION_20</Path>
+        </E>
+        <E i="273">
+            <Value>Nel dubbio, meglio andare sul classico!</Value>
+            <Path>TRACK_DESCRIPTION_21</Path>
+        </E>
+        <E i="274">
+            <Value>Spiacente, stavolta niente birra per il vincitore!</Value>
+            <Path>TRACK_DESCRIPTION_22</Path>
+        </E>
+        <E i="275">
+            <Value>Oh no! Di nuovo tu?!</Value>
+            <Path>TRACK_DESCRIPTION_23</Path>
+        </E>
+        <E i="276">
+            <Value>Placeholder! Level not yet implemented!</Value>
+            <Path>TRACK_DESCRIPTION_24</Path>
+        </E>
+        <E i="277">
+            <Value>Più vai veloce, più diventa facile. Salta!</Value>
+            <Path>TRACK_DESCRIPTION_25</Path>
+        </E>
+        <E i="278">
+            <Value>Non farti distrarre dagli oggetti che si rompono!</Value>
+            <Path>TRACK_DESCRIPTION_26</Path>
+        </E>
+        <E i="279">
+            <Value>Non correre a rotta di collo. Mantieni un'andatura costante.</Value>
+            <Path>TRACK_DESCRIPTION_27</Path>
+        </E>
+        <E i="280">
+            <Value>Mantieni un'andatura sciolta.</Value>
+            <Path>TRACK_DESCRIPTION_28</Path>
+        </E>
+        <E i="281">
+            <Value>Sposta il peso in avanti. Quasi sempre. Forse.</Value>
+            <Path>TRACK_DESCRIPTION_29</Path>
+        </E>
+        <E i="282">
+            <Value>Che splendida mattinata!</Value>
+            <Path>TRACK_DESCRIPTION_30</Path>
+        </E>
+        <E i="283">
+            <Value>Dai gas, frena, piegati e supera i checkpoint. Tutto qui!</Value>
+            <Path>TRACK_DESCRIPTION_300</Path>
+        </E>
+        <E i="284">
+            <Value>Ricordati di piegarti e di controllare il pilota mentre è in aria. Vola come un'aquila, ma sta' attento a non atterrare di faccia!</Value>
+            <Path>TRACK_DESCRIPTION_301</Path>
+        </E>
+        <E i="285">
+            <Value>Nel mondo reale, gli oggetti si muovono quando li spingi. Varrà anche nei videogame?</Value>
+            <Path>TRACK_DESCRIPTION_302</Path>
+        </E>
+        <E i="286">
+            <Value>Una lezione per i veri piloti. D'ora in poi, si fa sul serio! </Value>
+            <Path>TRACK_DESCRIPTION_303</Path>
+        </E>
+        <E i="287">
+            <Value>Raccogli i bersagli e smonta al volo. Semplice e divertente!</Value>
+            <Path>TRACK_DESCRIPTION_305</Path>
+        </E>
+        <E i="288">
+            <Value>Una gita al vecchio parco giochi.</Value>
+            <Path>TRACK_DESCRIPTION_34</Path>
+        </E>
+        <E i="289">
+            <Value>Al crepuscolo, il quartiere è così tranquillo! Risveglialo facendo rombare quel motore!</Value>
+            <Path>TRACK_DESCRIPTION_35</Path>
+        </E>
+        <E i="290">
+            <Value>Scendere è molto meno facile di quanto sembri.</Value>
+            <Path>TRACK_DESCRIPTION_36</Path>
+        </E>
+        <E i="291">
+            <Value>Facile, eh? Ma le difficoltà sono dietro l'angolo!</Value>
+            <Path>TRACK_DESCRIPTION_37</Path>
+        </E>
+        <E i="292">
+            <Value>Un campo minato di azione esplosiva!</Value>
+            <Path>TRACK_DESCRIPTION_38</Path>
+        </E>
+        <E i="293">
+            <Value>Pensa solo a divertirti!</Value>
+            <Path>TRACK_DESCRIPTION_39</Path>
+        </E>
+        <E i="294">
+            <Value>Supersalto</Value>
+            <Path>TRACK_NAME_XLAST_01</Path>
+        </E>
+        <E i="295">
+            <Value>Tronchi esplosivi</Value>
+            <Path>TRACK_NAME_XLAST_02</Path>
+        </E>
+        <E i="296">
+            <Value>Sul compensato</Value>
+            <Path>TRACK_NAME_XLAST_03</Path>
+        </E>
+        <E i="297">
+            <Value>Corsa al container</Value>
+            <Path>TRACK_NAME_XLAST_04</Path>
+        </E>
+        <E i="298">
+            <Value>Mercato azionario</Value>
+            <Path>TRACK_NAME_XLAST_05</Path>
+        </E>
+        <E i="299">
+            <Value>Tecnica</Value>
+            <Path>TRACK_NAME_XLAST_06</Path>
+        </E>
+        <E i="300">
+            <Value>Fatica in collina</Value>
+            <Path>TRACK_NAME_XLAST_07</Path>
+        </E>
+        <E i="301">
+            <Value>Paesaggio onirico</Value>
+            <Path>TRACK_NAME_XLAST_08</Path>
+        </E>
+        <E i="302">
+            <Value>Rocce a strapiombo</Value>
+            <Path>TRACK_NAME_XLAST_09</Path>
+        </E>
+        <E i="303">
+            <Value>Sottoterra</Value>
+            <Path>TRACK_NAME_XLAST_10</Path>
+        </E>
+        <E i="304">
+            <Value>Dentro la sfera</Value>
+            <Path>TRACK_NAME_XLAST_100</Path>
+        </E>
+        <E i="305">
+            <Value>Giù per le scale</Value>
+            <Path>TRACK_NAME_XLAST_101</Path>
+        </E>
+        <E i="306">
+            <Value>Salto con gli sci</Value>
+            <Path>TRACK_NAME_XLAST_102</Path>
+        </E>
+        <E i="307">
+            <Value>Flipper infernale</Value>
+            <Path>TRACK_NAME_XLAST_104</Path>
+        </E>
+        <E i="308">
+            <Value>Consegna</Value>
+            <Path>TRACK_NAME_XLAST_105</Path>
+        </E>
+        <E i="309">
+            <Value>In fiamme</Value>
+            <Path>TRACK_NAME_XLAST_106</Path>
+        </E>
+        <E i="310">
+            <Value>Capriole a gogo</Value>
+            <Path>TRACK_NAME_XLAST_107</Path>
+        </E>
+        <E i="311">
+            <Value>Sulla sfera</Value>
+            <Path>TRACK_NAME_XLAST_108</Path>
+        </E>
+        <E i="312">
+            <Value>Arrampicata</Value>
+            <Path>TRACK_NAME_XLAST_109</Path>
+        </E>
+        <E i="313">
+            <Value>Scatole marroni</Value>
+            <Path>TRACK_NAME_XLAST_11</Path>
+        </E>
+        <E i="314">
+            <Value>Caccia al bersaglio</Value>
+            <Path>TRACK_NAME_XLAST_110</Path>
+        </E>
+        <E i="315">
+            <Value>Vite allentata!</Value>
+            <Path>TRACK_NAME_XLAST_111</Path>
+        </E>
+        <E i="316">
+            <Value>Anello di fuoco</Value>
+            <Path>TRACK_NAME_XLAST_112</Path>
+        </E>
+        <E i="317">
+            <Value>Range dinamico</Value>
+            <Path>TRACK_NAME_XLAST_12</Path>
+        </E>
+        <E i="318">
+            <Value>Sogni di cemento</Value>
+            <Path>TRACK_NAME_XLAST_13</Path>
+        </E>
+        <E i="319">
+            <Value>Bombardamento!</Value>
+            <Path>TRACK_NAME_XLAST_14</Path>
+        </E>
+        <E i="320">
+            <Value>Si sale!</Value>
+            <Path>TRACK_NAME_XLAST_15</Path>
+        </E>
+        <E i="321">
+            <Value>Salve, mondo!</Value>
+            <Path>TRACK_NAME_XLAST_16</Path>
+        </E>
+        <E i="322">
+            <Value>Classico</Value>
+            <Path>TRACK_NAME_XLAST_17</Path>
+        </E>
+        <E i="323">
+            <Value>Allegro saltatore</Value>
+            <Path>TRACK_NAME_XLAST_18</Path>
+        </E>
+        <E i="324">
+            <Value>Ascesa e declino</Value>
+            <Path>TRACK_NAME_XLAST_19</Path>
+        </E>
+        <E i="325">
+            <Value>Diamoci alla fisica</Value>
+            <Path>TRACK_NAME_XLAST_20</Path>
+        </E>
+        <E i="326">
+            <Value>I triboli del trial</Value>
+            <Path>TRACK_NAME_XLAST_21</Path>
+        </E>
+        <E i="327">
+            <Value>Re della collina</Value>
+            <Path>TRACK_NAME_XLAST_22</Path>
+        </E>
+        <E i="328">
+            <Value>Inferno II</Value>
+            <Path>TRACK_NAME_XLAST_23</Path>
+        </E>
+        <E i="329">
+            <Value>PH: Velocità di Jorma</Value>
+            <Path>TRACK_NAME_XLAST_24</Path>
+        </E>
+        <E i="330">
+            <Value>Dov'è la terra?</Value>
+            <Path>TRACK_NAME_XLAST_25</Path>
+        </E>
+        <E i="331">
+            <Value>Patatrac!</Value>
+            <Path>TRACK_NAME_XLAST_26</Path>
+        </E>
+        <E i="332">
+            <Value>Costruzioni</Value>
+            <Path>TRACK_NAME_XLAST_27</Path>
+        </E>
+        <E i="333">
+            <Value>Salti in scioltezza</Value>
+            <Path>TRACK_NAME_XLAST_28</Path>
+        </E>
+        <E i="334">
+            <Value>Mobilità verticale</Value>
+            <Path>TRACK_NAME_XLAST_29</Path>
+        </E>
+        <E i="335">
+            <Value>Gli inizi</Value>
+            <Path>TRACK_NAME_XLAST_30</Path>
+        </E>
+        <E i="336">
+            <Value>Imparare l'ABC</Value>
+            <Path>TRACK_NAME_XLAST_300</Path>
+        </E>
+        <E i="337">
+            <Value>Colline e salti</Value>
+            <Path>TRACK_NAME_XLAST_301</Path>
+        </E>
+        <E i="338">
+            <Value>Ostacoli insidiosi</Value>
+            <Path>TRACK_NAME_XLAST_302</Path>
+        </E>
+        <E i="339">
+            <Value>Specializzazione</Value>
+            <Path>TRACK_NAME_XLAST_303</Path>
+        </E>
+        <E i="340">
+            <Value>Tempo di schianti</Value>
+            <Path>TRACK_NAME_XLAST_305</Path>
+        </E>
+        <E i="341">
+            <Value>Il ritorno</Value>
+            <Path>TRACK_NAME_XLAST_34</Path>
+        </E>
+        <E i="342">
+            <Value>Trial forever</Value>
+            <Path>TRACK_NAME_XLAST_35</Path>
+        </E>
+        <E i="343">
+            <Value>La grande corsa</Value>
+            <Path>TRACK_NAME_XLAST_36</Path>
+        </E>
+        <E i="344">
+            <Value>Ostacoli di base</Value>
+            <Path>TRACK_NAME_XLAST_37</Path>
+        </E>
+        <E i="345">
+            <Value>Nato per rischiare</Value>
+            <Path>TRACK_NAME_XLAST_38</Path>
+        </E>
+        <E i="346">
+            <Value>A ruota libera</Value>
+            <Path>TRACK_NAME_XLAST_39</Path>
+        </E>
+        <E i="347">
+            <Value>Wow! Stai diventando davvero bravo!</Value>
+            <Path>TRACK_PRAISE_01</Path>
+        </E>
+        <E i="348">
+            <Value>Splendida guida, esplosivi evitati!</Value>
+            <Path>TRACK_PRAISE_02</Path>
+        </E>
+        <E i="349">
+            <Value>Sei davvero inarrestabile!</Value>
+            <Path>TRACK_PRAISE_03</Path>
+        </E>
+        <E i="350">
+            <Value>Per il tuo talento non basta un container!</Value>
+            <Path>TRACK_PRAISE_04</Path>
+        </E>
+        <E i="351">
+            <Value>Le tue quotazioni sono alle stelle!</Value>
+            <Path>TRACK_PRAISE_05</Path>
+        </E>
+        <E i="352">
+            <Value>Oh, sì! Hai un talento naturale!</Value>
+            <Path>TRACK_PRAISE_06</Path>
+        </E>
+        <E i="353">
+            <Value>Il modo più veloce? Il tuo!</Value>
+            <Path>TRACK_PRAISE_07</Path>
+        </E>
+        <E i="354">
+            <Value>Buono fino all'ultima goccia! Complimenti!</Value>
+            <Path>TRACK_PRAISE_08</Path>
+        </E>
+        <E i="355">
+            <Value>Lunga vita al re! Bella prestazione!</Value>
+            <Path>TRACK_PRAISE_09</Path>
+        </E>
+        <E i="356">
+            <Value>Sei andato sotto, ma sei riemerso a testa alta! Ben fatto!</Value>
+            <Path>TRACK_PRAISE_10</Path>
+        </E>
+        <E i="357">
+            <Value>Sei tu che fai girare il mondo!</Value>
+            <Path>TRACK_PRAISE_100</Path>
+        </E>
+        <E i="358">
+            <Value>Hai spaccato più ossa di un macellaio!</Value>
+            <Path>TRACK_PRAISE_101</Path>
+        </E>
+        <E i="359">
+            <Value>È un uccello? Un aereo? Superman? No! È un pazzo in sella a una moto!</Value>
+            <Path>TRACK_PRAISE_102</Path>
+        </E>
+        <E i="360">
+            <Value>Bella, amico, sei andato davvero in alto!</Value>
+            <Path>TRACK_PRAISE_104</Path>
+        </E>
+        <E i="361">
+            <Value>Le prestazioni migliori finiscono col botto!</Value>
+            <Path>TRACK_PRAISE_105</Path>
+        </E>
+        <E i="362">
+            <Value>Sei tutto un fuoco!</Value>
+            <Path>TRACK_PRAISE_106</Path>
+        </E>
+        <E i="363">
+            <Value>Sei un artista della capriola!</Value>
+            <Path>TRACK_PRAISE_107</Path>
+        </E>
+        <E i="364">
+            <Value>Hai il mondo sotto i piedi!</Value>
+            <Path>TRACK_PRAISE_108</Path>
+        </E>
+        <E i="365">
+            <Value>Vooolare, oh oh oh oh!</Value>
+            <Path>TRACK_PRAISE_109</Path>
+        </E>
+        <E i="366">
+            <Value>Nessuno può dubitare del tuo talento!</Value>
+            <Path>TRACK_PRAISE_11</Path>
+        </E>
+        <E i="367">
+            <Value>Spacca! Rompi! Distruggi! Aaaah!</Value>
+            <Path>TRACK_PRAISE_110</Path>
+        </E>
+        <E i="368">
+            <Value>Non basta una vite allentata per fermarti!</Value>
+            <Path>TRACK_PRAISE_111</Path>
+        </E>
+        <E i="369">
+            <Value>Wow! Sei il signore degli anelli!</Value>
+            <Path>TRACK_PRAISE_112</Path>
+        </E>
+        <E i="370">
+            <Value>La tua guida ha la bellezza di un'immagine in alta definizione!</Value>
+            <Path>TRACK_PRAISE_12</Path>
+        </E>
+        <E i="371">
+            <Value>Guidare, dormire, forse sognare... Sei grande, amico!</Value>
+            <Path>TRACK_PRAISE_13</Path>
+        </E>
+        <E i="372">
+            <Value>Nemmeno un cannone orbitale potrebbe fermarti!</Value>
+            <Path>TRACK_PRAISE_14</Path>
+        </E>
+        <E i="373">
+            <Value>Sempre più in alto! Una prova spettacolare!</Value>
+            <Path>TRACK_PRAISE_15</Path>
+        </E>
+        <E i="374">
+            <Value>Guarda e impara, mondo! Una guida superba!</Value>
+            <Path>TRACK_PRAISE_16</Path>
+        </E>
+        <E i="375">
+            <Value>Cavaliere dell'arca perduta!</Value>
+            <Path>TRACK_PRAISE_17</Path>
+        </E>
+        <E i="376">
+            <Value>Sei più veloce della tua ombra!</Value>
+            <Path>TRACK_PRAISE_18</Path>
+        </E>
+        <E i="377">
+            <Value>Gli imperi crollano, la tua abilità resta!</Value>
+            <Path>TRACK_PRAISE_19</Path>
+        </E>
+        <E i="378">
+            <Value>Favoloso! Hai attinto a piene mani alla tua grandezza!</Value>
+            <Path>TRACK_PRAISE_20</Path>
+        </E>
+        <E i="379">
+            <Value>Sei sicuro che non sia illegale guidare così bene?</Value>
+            <Path>TRACK_PRAISE_21</Path>
+        </E>
+        <E i="380">
+            <Value>E chi ti ferma più?!</Value>
+            <Path>TRACK_PRAISE_22</Path>
+        </E>
+        <E i="381">
+            <Value>Sei una leggenda di Trials!</Value>
+            <Path>TRACK_PRAISE_23</Path>
+        </E>
+        <E i="382">
+            <Value>Sei davvero inarrestabile!</Value>
+            <Path>TRACK_PRAISE_24</Path>
+        </E>
+        <E i="383">
+            <Value>Ma c'è un limite alla tua bravura?</Value>
+            <Path>TRACK_PRAISE_25</Path>
+        </E>
+        <E i="384">
+            <Value>Non ti fermi davanti a niente, eh?</Value>
+            <Path>TRACK_PRAISE_26</Path>
+        </E>
+        <E i="385">
+            <Value>Un lavoro da professionista!</Value>
+            <Path>TRACK_PRAISE_27</Path>
+        </E>
+        <E i="386">
+            <Value>Scioltezza è il tuo secondo nome!</Value>
+            <Path>TRACK_PRAISE_28</Path>
+        </E>
+        <E i="387">
+            <Value>Hai notato da dove arrivano le pietre?</Value>
+            <Path>TRACK_PRAISE_29</Path>
+        </E>
+        <E i="388">
+            <Value>Cosa ha due gambe e guida da dio? Tu!</Value>
+            <Path>TRACK_PRAISE_30</Path>
+        </E>
+        <E i="389">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TRACK_PRAISE_300</Path>
+        </E>
+        <E i="390">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TRACK_PRAISE_301</Path>
+        </E>
+        <E i="391">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TRACK_PRAISE_302</Path>
+        </E>
+        <E i="392">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TRACK_PRAISE_303</Path>
+        </E>
+        <E i="393">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TRACK_PRAISE_305</Path>
+        </E>
+        <E i="394">
+            <Value>Sei più veloce di un rondone!</Value>
+            <Path>TRACK_PRAISE_34</Path>
+        </E>
+        <E i="395">
+            <Value>Oh sì, baby! Hollywood ti aspetta!</Value>
+            <Path>TRACK_PRAISE_35</Path>
+        </E>
+        <E i="396">
+            <Value>Non ci sono parole per descrivere la tua grandezza!</Value>
+            <Path>TRACK_PRAISE_36</Path>
+        </E>
+        <E i="397">
+            <Value>Una magnifica prova di guida!</Value>
+            <Path>TRACK_PRAISE_37</Path>
+        </E>
+        <E i="398">
+            <Value>Veni, vidi... spaccai tutto!</Value>
+            <Path>TRACK_PRAISE_38</Path>
+        </E>
+        <E i="399">
+            <Value>Sei semplicemente inarrestabile!</Value>
+            <Path>TRACK_PRAISE_39</Path>
+        </E>
+        <E i="400">
+            <Value>Gomma di trattore</Value>
+            <Path>TRACTOR_TIRE</Path>
+        </E>
+        <E i="401">
+            <Value>Accelera + controller (semplice)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_BIG_SIMPLE</Path>
+        </E>
+        <E i="402">
+            <Value>Accelera (semplice)</Value>
+            <Path>TRAFFIC_SIGN_ACCELERATE_SIMPLE</Path>
+        </E>
+        <E i="403">
+            <Value>Guida in retromarcia</Value>
+            <Path>TRAFFIC_SIGN_BACKWARD_SIMPLE</Path>
+        </E>
+        <E i="404">
+            <Value>Smonta</Value>
+            <Path>TRAFFIC_SIGN_BAIL_OUT_SIMPLE</Path>
+        </E>
+        <E i="405">
+            <Value>Frena + controller (semplice)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_BIG_SIMPLE</Path>
+        </E>
+        <E i="406">
+            <Value>Frena (semplice)</Value>
+            <Path>TRAFFIC_SIGN_BREAK_SIMPLE</Path>
+        </E>
+        <E i="407">
+            <Value>Palo doppio</Value>
+            <Path>TRAFFIC_SIGN_DOUBLE_POST</Path>
+        </E>
+        <E i="408">
+            <Value>Pugno dinamico</Value>
+            <Path>TRAFFIC_SIGN_DYNAMIC_PUNCH_SIMPLE</Path>
+        </E>
+        <E i="409">
+            <Value>Volo</Value>
+            <Path>TRAFFIC_SIGN_FLYING_BIG_SIMPLE</Path>
+        </E>
+        <E i="410">
+            <Value>Atterraggio su collina</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_HILL_SIMPLE</Path>
+        </E>
+        <E i="411">
+            <Value>Atterraggio su pendio</Value>
+            <Path>TRAFFIC_SIGN_LANDING_TO_SLOPE_SIMPLE</Path>
+        </E>
+        <E i="412">
+            <Value>Piegati + controller (semplice)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_BIG_SIMPLE</Path>
+        </E>
+        <E i="413">
+            <Value>Piegati (semplice)</Value>
+            <Path>TRAFFIC_SIGN_LEAN_SIMPLE</Path>
+        </E>
+        <E i="414">
+            <Value>Rotola all'indietro + controller (semplice)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_BIG_SIMPLE</Path>
+        </E>
+        <E i="415">
+            <Value>Rotola all'indietro (semplice)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BACK_SIMPLE</Path>
+        </E>
+        <E i="416">
+            <Value>Rotola + controller (semplice)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_BIG_SIMPLE</Path>
+        </E>
+        <E i="417">
+            <Value>Rotola (semplice)</Value>
+            <Path>TRAFFIC_SIGN_ROLL_SIMPLE</Path>
+        </E>
+        <E i="418">
+            <Value>Palo singolo</Value>
+            <Path>TRAFFIC_SIGN_SINGLE_POST</Path>
+        </E>
+        <E i="419">
+            <Value>Capriola</Value>
+            <Path>TRAFFIC_SIGN_TRIALS_FLIP_SIMPLE</Path>
+        </E>
+        <E i="420">
+            <Value>Salita + controller (semplice)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_BIG_SIMPLE</Path>
+        </E>
+        <E i="421">
+            <Value>Salita (semplice)</Value>
+            <Path>TRAFFIC_SIGN_UPHILL_SIMPLE</Path>
+        </E>
+        <E i="422">
+            <Value>Carrello ferroviario</Value>
+            <Path>TRAIN_RAIL_CART_1</Path>
+        </E>
+        <E i="423">
+            <Value>Binario in discesa 45°</Value>
+            <Path>TRAIN_RAIL_DOWN_45</Path>
+        </E>
+        <E i="424">
+            <Value>Binario dritto</Value>
+            <Path>TRAIN_RAIL_STRAIGHT_LONG</Path>
+        </E>
+        <E i="425">
+            <Value>Binario svolta 45°</Value>
+            <Path>TRAIN_RAIL_TURN_RIGHT_45</Path>
+        </E>
+        <E i="426">
+            <Value>Binario in salita 45°</Value>
+            <Path>TRAIN_RAIL_UP_45</Path>
+        </E>
+        <E i="427">
+            <Value>Alto</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="428">
+            <Value>High</Value>
+            <Path>WALL1_H_XNEG</Path>
+        </E>
+        <E i="429">
+            <Value>High</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="430">
+            <Value>Alto</Value>
+            <Path>WALL1_H_XPOS</Path>
+        </E>
+        <E i="431">
+            <Value>High</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="432">
+            <Value>Alto</Value>
+            <Path>WALL1_H_YNEG</Path>
+        </E>
+        <E i="433">
+            <Value>Alto</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="434">
+            <Value>High</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="435">
+            <Value>High</Value>
+            <Path>WALL1_H_YPOS</Path>
+        </E>
+        <E i="436">
+            <Value>Alto</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="437">
+            <Value>High</Value>
+            <Path>WALL1_H_ZNEG</Path>
+        </E>
+        <E i="438">
+            <Value>Alto</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="439">
+            <Value>High</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="440">
+            <Value>High</Value>
+            <Path>WALL1_H_ZPOS</Path>
+        </E>
+        <E i="441">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="442">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="443">
+            <Value>Low</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="444">
+            <Value>Basso</Value>
+            <Path>WALL1_L_XNEG</Path>
+        </E>
+        <E i="445">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="446">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="447">
+            <Value>Basso</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="448">
+            <Value>Low</Value>
+            <Path>WALL1_L_XPOS</Path>
+        </E>
+        <E i="449">
+            <Value>Basso</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="450">
+            <Value>Low</Value>
+            <Path>WALL1_L_YNEG</Path>
+        </E>
+        <E i="451">
+            <Value>Low</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="452">
+            <Value>Basso</Value>
+            <Path>WALL1_L_YPOS</Path>
+        </E>
+        <E i="453">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="454">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="455">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="456">
+            <Value>Basso</Value>
+            <Path>WALL1_L_ZNEG</Path>
+        </E>
+        <E i="457">
+            <Value>Basso</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="458">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="459">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="460">
+            <Value>Low</Value>
+            <Path>WALL1_L_ZPOS</Path>
+        </E>
+        <E i="461">
+            <Value>Normal</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="462">
+            <Value>Normale</Value>
+            <Path>WALL1_N_XNEG</Path>
+        </E>
+        <E i="463">
+            <Value>Normal</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="464">
+            <Value>Normale</Value>
+            <Path>WALL1_N_XPOS</Path>
+        </E>
+        <E i="465">
+            <Value>Normale</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="466">
+            <Value>Low</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="467">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YNEG</Path>
+        </E>
+        <E i="468">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="469">
+            <Value>Normale</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="470">
+            <Value>Normal</Value>
+            <Path>WALL1_N_YPOS</Path>
+        </E>
+        <E i="471">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="472">
+            <Value>Normale</Value>
+            <Path>WALL1_N_ZNEG</Path>
+        </E>
+        <E i="473">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="474">
+            <Value>Normal</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="475">
+            <Value>Normale</Value>
+            <Path>WALL1_N_ZPOS</Path>
+        </E>
+        <E i="476">
+            <Value>Decorazione murale in acciaio</Value>
+            <Path>WALL_DECORATION_POST</Path>
+        </E>
+        <E i="477">
+            <Value>Cassa di legno</Value>
+            <Path>WOODBOX</Path>
+        </E>
+        <E i="478">
+            <Value>Cassa di legno senza coperchio</Value>
+            <Path>WOODBOX_WO_COVER</Path>
+        </E>
+        <E i="479">
+            <Value>Parete di legno</Value>
+            <Path>WOODEN_WALL</Path>
+        </E>
+        <E i="480">
+            <Value>Parete di legno (bordi)</Value>
+            <Path>WOODEN_WALL_EDGES</Path>
+        </E>
+        <E i="481">
+            <Value>Parete di legno (asse)</Value>
+            <Path>WOODEN_WALL_PLANK</Path>
+        </E>
+        <E i="482">
+            <Value>Piattaforma di legno</Value>
+            <Path>WOOD_PLAT</Path>
+        </E>
+        <E i="483">
+            <Value>Piattaforma di legno grande</Value>
+            <Path>WOOD_PLAT_PLATE</Path>
+        </E>
+        <E i="484">
+            <Value>Struttura di legno</Value>
+            <Path>WOOD_STRUCT_Q_1</Path>
+        </E>
+        <E i="485">
+            <Value>Missile</Value>
+            <Path>WWII_BOMB</Path>
+        </E>
+        <E i="486">
+            <Value>Scorpion 250cc</Value>
+            <Path>bike</Path>
+        </E>
+        <E i="487">
+            <Value>Turtle 80cc</Value>
+            <Path>bike_beginner</Path>
+        </E>
+        <E i="488">
+            <Value>Reptile 125cc</Value>
+            <Path>bike_easy</Path>
+        </E>
+        <E i="489">
+            <Value>Phoenix Evo 250cc</Value>
+            <Path>bike_hard</Path>
+        </E>
+        <E i="490">
+            <Value>Micro Donkey 60cc</Value>
+            <Path>bike_monkey</Path>
+        </E>
+        <E i="491">
+            <Value>Phoenix REV 250cc</Value>
+            <Path>bike_reverse</Path>
+        </E>
+        <E i="492">
+            <Value>Scorpion AIR 125cc</Value>
+            <Path>bike_ski</Path>
+        </E>
+        <E i="493">
+            <Value>Hauler 600cc</Value>
+            <Path>bike_with_cart</Path>
+        </E>
+    </Entries>
+</XusFile>

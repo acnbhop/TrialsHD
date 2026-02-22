@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XurFile>
+    <Version>5</Version>
+    <Flags>0</Flags>
+    <Sections>
+        <Section tag="STRN" index="0"/>
+        <Section tag="DATA" index="1">00010300020c00000006448c0000444080000000000001000205000314000000070003439f8000430200000000000004000400000000000000000500000001000000000600000002000000000700000003010000</Section>
+    </Sections>
+    <Strings>
+        <S i="0">XuiCanvas</S>
+        <S i="1">XuiVisual</S>
+        <S i="2">TrialsSceneBlankStartup</S>
+        <S i="3">Normal</S>
+        <S i="4">EndNormal</S>
+        <S i="5">Focus</S>
+        <S i="6">EndFocus</S>
+    </Strings>
+</XurFile>

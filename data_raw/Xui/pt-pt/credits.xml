@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Credits1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[John Smith\r
+John Smith\r
+John Smith\r
+John Smith\r
+John Smith\r
+John Smith\r
+]]></Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Credits1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Credits2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[John Smith\r
+John Smith\r
+John Smith\r
+John Smith\r
+John Smith\r
+John Smith\r
+]]></Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Credits2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>60.000000</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.MainTitle.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Ficha Técnica:</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.MainTitle.Text</Path>
+        </E>
+        <E i="6">
+            <Value>45.000000</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Title1.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Redlynx:</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Title1.Text</Path>
+        </E>
+        <E i="8">
+            <Value>45.000000</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Title2.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Microsoft:</Value>
+            <Path>XuiScene1.AnimGroup.CreditsGroup.Title2.Text</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

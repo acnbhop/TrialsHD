@@ -1,0 +1,3029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>게이머 프로필을 사용할 수 없기 때문에 도전 과제는 달성되지 않습니다.</Value>
+            <Path>ACHIEVEMENT_ERROR_NO_DATA_TEXT</Path>
+        </E>
+        <E i="1">
+            <Value>도전 과제 오류입니다.</Value>
+            <Path>ACHIEVEMENT_ERROR_NO_DATA_TITLE</Path>
+        </E>
+        <E i="2">
+            <Value>게이머 프로필을 사용할 수 없기 때문에 %NAME 도전 과제는 달성되지 않습니다.</Value>
+            <Path>ACHIEVEMENT_ERROR_TEXT</Path>
+        </E>
+        <E i="3">
+            <Value>도전 과제 오류입니다.</Value>
+            <Path>ACHIEVEMENT_ERROR_TITLE</Path>
+        </E>
+        <E i="4">
+            <Value>선택한 트랙은 이미 다운로드됐습니다.</Value>
+            <Path>ALREADY_HAVE_DOWNLOADED_TRACK_TEXT</Path>
+        </E>
+        <E i="5">
+            <Value>이미 존재하는 트랙입니다.</Value>
+            <Path>ALREADY_HAVE_DOWNLOADED_TRACK_TITLE</Path>
+        </E>
+        <E i="6">
+            <Value>Xbox LIVE에 접속하지 않으면 Xbox LIVE 순위표 등록이 불가능합니다. 다시 접속한 후 등록하십시오. 불가피할 경우, 점수를 삭제한 후 계속 오프라인으로 플레이하십시오.</Value>
+            <Path>ASK_FOR_RELOGIN_TEXT</Path>
+        </E>
+        <E i="7">
+            <Value>다시 연결하십시오!</Value>
+            <Path>ASK_FOR_RELOGIN_TITLE</Path>
+        </E>
+        <E i="8">
+            <Value>탈출!!!</Value>
+            <Path>BAILOUT_TEXT</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+최대한 오래 공 안에서 바이크를 타십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_ballx</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+최대한 오랫동안 공 위에서 버티십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_ballxoutside</Path>
+        </E>
+        <E i="11">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+<img src="images/help_icons_y.dds" align="middle" />로 탈출한 뒤, <img src="images/help_icons_thumbstick.dds" align="middle" />를 사용해 뼈를 부러뜨리십시오.<br><img src="images/help_icons_thumbstick_rotate.dds" align="middle" />로 라이더가 계단에서 굴러 떨어지게 하십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_bones</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+1분 안에 폭탄을 운반하십시오.\r
+<br>\r
+행운을 빕니다!\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_cart</Path>
+        </E>
+        <E i="13">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+화염이 커지지 않도록 빠른 속도로 주행하십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_flames</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+제한 시간은 1분입니다.\r
+<br>\r
+최대한 많이 공중제비를 도십시오!\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_flip</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+자신만의 스타일로 공중제비, 뒷바퀴 주행, 콤보를 펼치십시오.\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>BEGIN_HELP_freestyle</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+운전 실력을 발휘해 최대한 높이 올라가십시오.\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>BEGIN_HELP_hill</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_object</Path>
+        </E>
+        <E i="18">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+<img src="images/help_icons_y.dds" align="middle" />로 탈출하고 \r
+<img src="images/help_icons_thumbstick.dds" align="middle" />로 날아가십시오.\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>BEGIN_HELP_riderx</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+점프대를 이용해 최대한 높이 뛰십시오.\r
+<br>\r
+<img src="images/help_icons_y.dds" align="middle" />로 탈출하여 더 높이 올라가십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_ridery</Path>
+        </E>
+        <E i="20">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+<img src="images/help_icons_firering.dds" align="middle" />링을 통과하십시오. 부스트 기능을 사용할 수 있습니다 .\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_rings</Path>
+        </E>
+        <E i="21">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+최대한 많은 표적<img src="images/help_icons_target.dds" align="middle" />을 모으십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_target</Path>
+        </E>
+        <E i="22">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+앞바퀴의 나사가 풀렸습니다! 뒷바퀴로만 최대한 멀리 주행하십시오.\r
+\r
+</font>\r
+</div>]]></Value>
+            <Path>BEGIN_HELP_wheelie</Path>
+        </E>
+        <E i="23">
+            <Value>브레이크: 소프트</Value>
+            <Path>BIKE_BRAKE_1</Path>
+        </E>
+        <E i="24">
+            <Value>브레이크: 표준</Value>
+            <Path>BIKE_BRAKE_2</Path>
+        </E>
+        <E i="25">
+            <Value>브레이크: 표준</Value>
+            <Path>BIKE_BRAKE_3</Path>
+        </E>
+        <E i="26">
+            <Value>브레이크: 유압식 림</Value>
+            <Path>BIKE_BRAKE_4</Path>
+        </E>
+        <E i="27">
+            <Value>확장 후진 기어</Value>
+            <Path>BIKE_BRAKE_R</Path>
+        </E>
+        <E i="28">
+            <Value>선택한 바이크는 이 트랙에 적합하지 않습니다.</Value>
+            <Path>BIKE_NOT_ALLOWED_TEXT</Path>
+        </E>
+        <E i="29">
+            <Value>잘못된 바이크입니다.</Value>
+            <Path>BIKE_NOT_ALLOWED_TITLE</Path>
+        </E>
+        <E i="30">
+            <Value>잠겨 있는 바이크</Value>
+            <Path>BIKE_UNLOCK_HELP_TITLE</Path>
+        </E>
+        <E i="31">
+            <Value>부러진 뼈 %1개</Value>
+            <Path>BONES_PLURAL</Path>
+        </E>
+        <E i="32">
+            <Value>부러진 뼈 %1개</Value>
+            <Path>BONES_SINGULAR</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[<img src="images/menu_buttons_a_bg.dds" align="middle"/>%TXT_BTN_A]]></Value>
+            <Path>BTN_A</Path>
+        </E>
+        <E i="34">
+            <Value><![CDATA[<img src="images/menu_buttons_b_bg.dds" align="middle"/>%TXT_BTN_B]]></Value>
+            <Path>BTN_B</Path>
+        </E>
+        <E i="35">
+            <Value><![CDATA[<div align="center"><font color="#D7CAAD" size="27">%BUTTONS</font></div>]]></Value>
+            <Path>BTN_LIST</Path>
+        </E>
+        <E i="36">
+            <Value><![CDATA[<img src="images/menu_buttons_x_bg.dds" align="middle"/>%TXT_BTN_X]]></Value>
+            <Path>BTN_X</Path>
+        </E>
+        <E i="37">
+            <Value>취소</Value>
+            <Path>BUTTON_CANCEL</Path>
+        </E>
+        <E i="38">
+            <Value>삭제</Value>
+            <Path>BUTTON_DISCARD</Path>
+        </E>
+        <E i="39">
+            <Value>트랙 관리</Value>
+            <Path>BUTTON_MANAGE_TRACKS</Path>
+        </E>
+        <E i="40">
+            <Value>아니요</Value>
+            <Path>BUTTON_NO</Path>
+        </E>
+        <E i="41">
+            <Value>확인</Value>
+            <Path>BUTTON_OK</Path>
+        </E>
+        <E i="42">
+            <Value>다시시도</Value>
+            <Path>BUTTON_RETRY</Path>
+        </E>
+        <E i="43">
+            <Value>예</Value>
+            <Path>BUTTON_YES</Path>
+        </E>
+        <E i="44">
+            <Value>시야: %1</Value>
+            <Path>CAMERA_ANGLE</Path>
+        </E>
+        <E i="45">
+            <Value>카메라 범위: %1</Value>
+            <Path>CAMERA_RANGE</Path>
+        </E>
+        <E i="46">
+            <Value>트랙을 직접 편집할 수만 있습니다.</Value>
+            <Path>CANNOT_EDIT_OTHERS_TRACK_TEXT</Path>
+        </E>
+        <E i="47">
+            <Value>트랙을 편집할 수 없습니다.</Value>
+            <Path>CANNOT_EDIT_OTHERS_TRACK_TITLE</Path>
+        </E>
+        <E i="48">
+            <Value>직접 만든 트랙만 공유할 수 있습니다.</Value>
+            <Path>CANNOT_SHARE_OTHERS_TRACK_TEXT</Path>
+        </E>
+        <E i="49">
+            <Value>트랙 공유에 실패했습니다.</Value>
+            <Path>CANNOT_SHARE_OTHERS_TRACK_TITLE</Path>
+        </E>
+        <E i="50">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%TIME 안에 %TARGETS을(를) 통과했습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_CONTINUE_STATUS</Path>
+        </E>
+        <E i="51">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+총 점수는 %TARGETS개에 %TIME입니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_CONTINUE_STATUS_TOTAL</Path>
+        </E>
+        <E i="52">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%PASSED 통과 %LEFT 남음\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_CONTINUE_TRACKS</Path>
+        </E>
+        <E i="53">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+모든 트랙을 최대한 빠른 시간 내에 완주하고,\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_FIRST_STATUS</Path>
+        </E>
+        <E i="54">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+표적은 최대한 많이 부수십시오.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_FIRST_STATUS_TOTAL</Path>
+        </E>
+        <E i="55">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+총 %TRACKS 트랙\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_CRASH_FIRST_TRACKS</Path>
+        </E>
+        <E i="56">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%FAULTS회의 실수를 하고 %SCORE점을 획득했습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_CONTINUE_STATUS</Path>
+        </E>
+        <E i="57">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+현재 총 점수는 %FAULTS와 %SCORE입니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_CONTINUE_STATUS_TOTAL</Path>
+        </E>
+        <E i="58">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%PASSED 통과 %LEFT 남음\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_CONTINUE_TRACKS</Path>
+        </E>
+        <E i="59">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+각 트랙마다 손에 땀을 쥐는 스턴트를 선보이며\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_FIRST_STATUS</Path>
+        </E>
+        <E i="60">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+실수는 가능한 줄이십시오.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_FIRST_STATUS_TOTAL</Path>
+        </E>
+        <E i="61">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+총 %TRACKS 트랙\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_FREESTYLE_FIRST_TRACKS</Path>
+        </E>
+        <E i="62">
+            <Value>잠겨 있는 토너먼트</Value>
+            <Path>CHALLENGE_LOCKED_TITLE</Path>
+        </E>
+        <E i="63">
+            <Value><![CDATA[토너먼트를 즐기려면 우선 싱글 트랙 모드의 토너먼트 트랙을 전부 통과해야 합니다. 이 토너먼트는 다음의 트랙들을 보유하고 있습니다.\r
+%TRACK_NAMES\r
+]]></Value>
+            <Path>CHALLENGE_LOCKED_VALUE</Path>
+        </E>
+        <E i="64">
+            <Value>Xbox LIVE와의 연결이 끊겨 온라인 기능을 사용할 수 없습니다.</Value>
+            <Path>CHALLENGE_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="65">
+            <Value>연결 끊김!</Value>
+            <Path>CHALLENGE_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="66">
+            <Value><![CDATA[시간:\r
+실수 횟수:]]></Value>
+            <Path>CHALLENGE_TRACK_TIME_HEADER_RACING</Path>
+        </E>
+        <E i="67">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+이번 기록: %FAULTS,  %TIME\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_CONTINUE_STATUS</Path>
+        </E>
+        <E i="68">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+합계 기록: %FAULTS, %TIME\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_CONTINUE_STATUS_TOTAL</Path>
+        </E>
+        <E i="69">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+%PASSED / %TOTAL\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_CONTINUE_TRACKS</Path>
+        </E>
+        <E i="70">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+최대한 빠른 시간 내에 모든 트랙을 완주하고,\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_FIRST_STATUS</Path>
+        </E>
+        <E i="71">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+실수는 가능한 한 줄이십시오.\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_FIRST_STATUS_TOTAL</Path>
+        </E>
+        <E i="72">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+0 / %TRACKS\r
+</font>\r
+</div>]]></Value>
+            <Path>CHALLENGE_TRIALS_FIRST_TRACKS</Path>
+        </E>
+        <E i="73">
+            <Value>%CHALLENGE_NAME 게임을 즐길 수 있습니다.</Value>
+            <Path>CHALLENGE_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="74">
+            <Value>토너먼트를 즐길 수 있습니다.</Value>
+            <Path>CHALLENGE_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="75">
+            <Value><![CDATA[<font color="%s" size="18">%c%s</font>]]></Value>
+            <Path>CHECKPOINT_DIFF</Path>
+        </E>
+        <E i="76">
+            <Value>#447B1B</Value>
+            <Path>CHECKPOINT_GREEN</Path>
+        </E>
+        <E i="77">
+            <Value>#DB2F18</Value>
+            <Path>CHECKPOINT_RED</Path>
+        </E>
+        <E i="78">
+            <Value>전반적인 색</Value>
+            <Path>COLOR_SELECT_AMBIENT</Path>
+        </E>
+        <E i="79">
+            <Value>먼지 색</Value>
+            <Path>COLOR_SELECT_DUST</Path>
+        </E>
+        <E i="80">
+            <Value>햇빛 색</Value>
+            <Path>COLOR_SELECT_SUNLIGHT</Path>
+        </E>
+        <E i="81">
+            <Value><![CDATA[<div align="left">\r
+<font color="#D8C69A" size="25">\r
+총 %PERCENT % 완료\r
+</font>\r
+</div>]]></Value>
+            <Path>COMPLETE_INFO_BAR</Path>
+        </E>
+        <E i="82">
+            <Value>토너먼트 모드를 종료하시겠습니까? 저장하지 않은 부분은 잃게 됩니다!</Value>
+            <Path>CONFIRM_EXIT_CHALLENGE_TEXT</Path>
+        </E>
+        <E i="83">
+            <Value>토너먼트 모드 종료?</Value>
+            <Path>CONFIRM_EXIT_CHALLENGE_TITLE</Path>
+        </E>
+        <E i="84">
+            <Value>편집기를 종료하시겠습니까? 저장되지 않은 변경 사항은 잃게 됩니다.</Value>
+            <Path>CONFIRM_EXIT_EDITOR_TEXT</Path>
+        </E>
+        <E i="85">
+            <Value>종료 확인</Value>
+            <Path>CONFIRM_EXIT_EDITOR_TITLE</Path>
+        </E>
+        <E i="86">
+            <Value>게임에서 나가시겠습니까? 저장하지 않은 부분은 잃게 됩니다!</Value>
+            <Path>CONFIRM_EXIT_GAME_TEXT</Path>
+        </E>
+        <E i="87">
+            <Value>게임 나가기?</Value>
+            <Path>CONFIRM_EXIT_GAME_TITLE</Path>
+        </E>
+        <E i="88">
+            <Value>다른 트랙을 불러오시겠습니까? 저장되지 않은 변경 사항은 잃게 됩니다</Value>
+            <Path>CONFIRM_LOAD_TRACK_TEXT</Path>
+        </E>
+        <E i="89">
+            <Value>불러오기 확인</Value>
+            <Path>CONFIRM_LOAD_TRACK_TITLE</Path>
+        </E>
+        <E i="90">
+            <Value>이 트랙을 삭제하시겠습니까? 저장되지 않은 변경 사항은 잃게 됩니다.</Value>
+            <Path>CONFIRM_NEW_TRACK_TEXT</Path>
+        </E>
+        <E i="91">
+            <Value>새 트랙 확인</Value>
+            <Path>CONFIRM_NEW_TRACK_TITLE</Path>
+        </E>
+        <E i="92">
+            <Value>"%1" 트랙에 덮어쓰시겠습니까?</Value>
+            <Path>CONFIRM_OVERWRITE_TEXT</Path>
+        </E>
+        <E i="93">
+            <Value>덮어쓰기 확인?</Value>
+            <Path>CONFIRM_OVERWRITE_TITLE</Path>
+        </E>
+        <E i="94">
+            <Value>이 트랙은 아직 설치하지 않은 사용자 제작 콘텐츠 팩의 물체를 보유하고 있습니다</Value>
+            <Path>CONTENT_PACK_REQUIRED_TEXT</Path>
+        </E>
+        <E i="95">
+            <Value>콘텐츠 팩이 모두 사용 불가능합니다</Value>
+            <Path>CONTENT_PACK_REQUIRED_TITLE</Path>
+        </E>
+        <E i="96">
+            <Value>충돌!</Value>
+            <Path>CRASH_TEXT</Path>
+        </E>
+        <E i="97">
+            <Value>거리: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_BALLX_OUT_SINGULAR</Path>
+        </E>
+        <E i="98">
+            <Value>거리: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_BALLX_SINGULAR</Path>
+        </E>
+        <E i="99">
+            <Value>부러진 뼈: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_BONES_SINGULAR</Path>
+        </E>
+        <E i="100">
+            <Value>거리: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_CART_SINGULAR</Path>
+        </E>
+        <E i="101">
+            <Value>거리: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_FLAMES_SINGULAR</Path>
+        </E>
+        <E i="102">
+            <Value><![CDATA[공중제비: %PRIMARY\r
+시간: %SECONDARY]]></Value>
+            <Path>CUSTOM_RECORD_FLIP_SINGULAR</Path>
+        </E>
+        <E i="103">
+            <Value>점수: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_FREESTYLE_SINGULAR</Path>
+        </E>
+        <E i="104">
+            <Value>높이: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_HILL_SINGULAR</Path>
+        </E>
+        <E i="105">
+            <Value>파괴한 물체: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="106">
+            <Value>거리: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_RIDER_X_SINGULAR</Path>
+        </E>
+        <E i="107">
+            <Value>높이: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_RIDER_Y_SINGULAR</Path>
+        </E>
+        <E i="108">
+            <Value>링: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_RINGS_SINGULAR</Path>
+        </E>
+        <E i="109">
+            <Value>표적: %PRIMARY 시간: %SECONDARY</Value>
+            <Path>CUSTOM_RECORD_TARGET_SINGULAR</Path>
+        </E>
+        <E i="110">
+            <Value>실수: %PRIMARY 시간: %SECONDARY</Value>
+            <Path>CUSTOM_RECORD_TRIALS_SINGULAR</Path>
+        </E>
+        <E i="111">
+            <Value>거리: %PRIMARY</Value>
+            <Path>CUSTOM_RECORD_WHEELIE_SINGULAR</Path>
+        </E>
+        <E i="112">
+            <Value>제작한 트랙이 저장된 저장 장치가 제거되어 결과가 저장되지 않습니다.</Value>
+            <Path>CUSTOM_TRACK_LOST_TEXT</Path>
+        </E>
+        <E i="113">
+            <Value>저장 장치 변경되었습니다.</Value>
+            <Path>CUSTOM_TRACK_LOST_TITLE</Path>
+        </E>
+        <E i="114">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+선택한 장치가 없습니다.\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_DEVICE_HEADER</Path>
+        </E>
+        <E i="115">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+장치를 선택하지 않았습니다.\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_DEVICE_MESSAGE</Path>
+        </E>
+        <E i="116">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+선택한 트랙이 없습니다.\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_DEVICE_HEADER</Path>
+        </E>
+        <E i="117">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+선택한 저장 장치에 제작한 트랙이 없습니다.\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_DEVICE_MESSAGE</Path>
+        </E>
+        <E i="118">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+제작한 트랙이 없습니다.\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_HEADER</Path>
+        </E>
+        <E i="119">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="20">\r
+트랙 편집기를 이용해 트랙을 만들거나 친구의 트랙을 다운로드하십시오.\r
+</font>]]></Value>
+            <Path>CUSTOM_TRACK_NO_TRACKS_MESSAGE</Path>
+        </E>
+        <E i="120">
+            <Value>선택한 트랙은 손상되어서 다시보기를 사용할 수 없습니다. 트랙 관리 메뉴에서 삭제하십시오.</Value>
+            <Path>CUSTOM_TRACK_PLAY_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="121">
+            <Value>손상된 트랙입니다.</Value>
+            <Path>CUSTOM_TRACK_PLAY_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="122">
+            <Value>이 제작 트랙의 최고 점수가 손상되어서 이전 결과가 삭제되었습니다.</Value>
+            <Path>CUSTOM_TRACK_SCORE_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="123">
+            <Value>트랙 결과가 손상되었습니다.</Value>
+            <Path>CUSTOM_TRACK_SCORE_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="124">
+            <Value>파이프</Value>
+            <Path>DECORATION_1</Path>
+        </E>
+        <E i="125">
+            <Value>냉장고</Value>
+            <Path>DECORATION_2</Path>
+        </E>
+        <E i="126">
+            <Value>천</Value>
+            <Path>DECORATION_3</Path>
+        </E>
+        <E i="127">
+            <Value>"%1" 트랙을 삭제하시겠습니까? 삭제된 트랙은 복구할 수 없습니다.</Value>
+            <Path>DELETE_TRACK_TEXT</Path>
+        </E>
+        <E i="128">
+            <Value>트랙 삭제?</Value>
+            <Path>DELETE_TRACK_TITLE</Path>
+        </E>
+        <E i="129">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_BALLX_OUT_SINGULAR</Path>
+        </E>
+        <E i="130">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_BALLX_SINGULAR</Path>
+        </E>
+        <E i="131">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+부러진 뼈:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_BONES_SINGULAR</Path>
+        </E>
+        <E i="132">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_CART_SINGULAR</Path>
+        </E>
+        <E i="133">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_FLAMES_SINGULAR</Path>
+        </E>
+        <E i="134">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+공중제비:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="28">\r
+시간:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_FLIP_SINGULAR</Path>
+        </E>
+        <E i="135">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+점수:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_FREESTYLE_SINGULAR</Path>
+        </E>
+        <E i="136">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+높이:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_HILL_SINGULAR</Path>
+        </E>
+        <E i="137">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+파괴한 물체:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="138">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_RIDER_X_SINGULAR</Path>
+        </E>
+        <E i="139">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+높이:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_RIDER_Y_SINGULAR</Path>
+        </E>
+        <E i="140">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+링:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_RINGS_SINGULAR</Path>
+        </E>
+        <E i="141">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+표적:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="28">\r
+시간:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_TARGET_SINGULAR</Path>
+        </E>
+        <E i="142">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+실수:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="28">\r
+시간:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_TRIALS_SINGULAR</Path>
+        </E>
+        <E i="143">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="28">\r
+%PRIMARY\r
+</div>]]></Value>
+            <Path>DEMO_RESULT_STAT_WHEELIE_SINGULAR</Path>
+        </E>
+        <E i="144">
+            <Value>%1 %</Value>
+            <Path>DIFFICULTY_COMPLETION_PERCENT</Path>
+        </E>
+        <E i="145">
+            <Value>초급 난이도의 트랙들을 즐길 수 있습니다.</Value>
+            <Path>DIFFICULTY_EASY_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="146">
+            <Value>초급 난이도를 즐길 수 있습니다.</Value>
+            <Path>DIFFICULTY_EASY_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="147">
+            <Value>다음 난이도는 정말로 힘들 것입니다.</Value>
+            <Path>DIFFICULTY_HARD_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="148">
+            <Value>고급 난이도를 즐길 수 있습니다.</Value>
+            <Path>DIFFICULTY_HARD_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="149">
+            <Value>이 난이도는 통과할 수 없을 겁니다!</Value>
+            <Path>DIFFICULTY_INFERNAL_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="150">
+            <Value>익스트림 난이도를 즐길 수 있습니다.</Value>
+            <Path>DIFFICULTY_INFERNAL_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="151">
+            <Value>중급 난이도의 트랙들을 맞을 준비 하십시오.</Value>
+            <Path>DIFFICULTY_MEDIUM_UNLOCKED_TEXT</Path>
+        </E>
+        <E i="152">
+            <Value>중급 난이도를 즐길 수 있습니다.</Value>
+            <Path>DIFFICULTY_MEDIUM_UNLOCKED_TITLE</Path>
+        </E>
+        <E i="153">
+            <Value>%.2f피트</Value>
+            <Path>DISTANCE_LONG_IMPERIAL</Path>
+        </E>
+        <E i="154">
+            <Value>%.2f 미터</Value>
+            <Path>DISTANCE_LONG_METRIC</Path>
+        </E>
+        <E i="155">
+            <Value>%.2fft</Value>
+            <Path>DISTANCE_SHORT_IMPERIAL</Path>
+        </E>
+        <E i="156">
+            <Value>%.2fm</Value>
+            <Path>DISTANCE_SHORT_METRIC</Path>
+        </E>
+        <E i="157">
+            <Value>장치가 제거되었기 때문에 콘텐츠 팩을 설치할 수 없습니다.</Value>
+            <Path>DLCP_MOUNT_FAILED_REMOVED_TEXT</Path>
+        </E>
+        <E i="158">
+            <Value>콘텐츠 팩 설치에 실패했습니다.</Value>
+            <Path>DLCP_MOUNT_FAILED_REMOVED_TITLE</Path>
+        </E>
+        <E i="159">
+            <Value>"%1" 콘텐츠 팩이 손상되어 설치하지 못했습니다.</Value>
+            <Path>DLCP_MOUNT_FAILED_TEXT</Path>
+        </E>
+        <E i="160">
+            <Value>콘텐츠 팩 설치에 실패했습니다.</Value>
+            <Path>DLCP_MOUNT_FAILED_TITLE</Path>
+        </E>
+        <E i="161">
+            <Value>콘텐츠 다운로드</Value>
+            <Path>DOWNLOAD_CONTENT</Path>
+        </E>
+        <E i="162">
+            <Value>선택한 저장 장치의 공간이 부족하여 선택한 트랙을 다운로드하지 못했습니다.</Value>
+            <Path>DOWNLOAD_FAILED_MEMORY_FULL_TEXT</Path>
+        </E>
+        <E i="163">
+            <Value>트랙 다운로드에 실패했습니다.</Value>
+            <Path>DOWNLOAD_FAILED_MEMORY_FULL_TITLE</Path>
+        </E>
+        <E i="164">
+            <Value>선택한 트랙 중 일부가 손상되거나 손실되어 다운로드하지 못했습니다.</Value>
+            <Path>DOWNLOAD_FAILED_MISSING_TEXT</Path>
+        </E>
+        <E i="165">
+            <Value>트랙 다운로드에 실패했습니다.</Value>
+            <Path>DOWNLOAD_FAILED_MISSING_TITLE</Path>
+        </E>
+        <E i="166">
+            <Value>트랙 다운로드를 완료하지 못했습니다. 네트워크 연결 상태를 확인한 후, 필요하다면 Xbox LIVE에 다시 연결하십시오.</Value>
+            <Path>DOWNLOAD_FAILED_NETWORK_TEXT</Path>
+        </E>
+        <E i="167">
+            <Value>트랙 다운로드에 실패했습니다.</Value>
+            <Path>DOWNLOAD_FAILED_NETWORK_TITLE</Path>
+        </E>
+        <E i="168">
+            <Value>사용자가 트랙 다운로드를 중단했습니다. 선택한 트랙 중 일부가 다운로드되지 않았을 수 있습니다.</Value>
+            <Path>DOWNLOAD_USER_ABORTED_TEXT</Path>
+        </E>
+        <E i="169">
+            <Value>트랙 다운로드 중단!</Value>
+            <Path>DOWNLOAD_USER_ABORTED_TITLE</Path>
+        </E>
+        <E i="170">
+            <Value>고급 모드로 전환</Value>
+            <Path>EDITOR_BUTTON_SWITCH_TO_ADVANCED_MODE</Path>
+        </E>
+        <E i="171">
+            <Value>단순 모드로 전환</Value>
+            <Path>EDITOR_BUTTON_SWITCH_TO_SIMPLE_MODE</Path>
+        </E>
+        <E i="172">
+            <Value>트랙 테스트에 사용할 바이크를 선택하십시오.</Value>
+            <Path>EDITOR_INFO_CHOOSE_BIKE</Path>
+        </E>
+        <E i="173">
+            <Value>편집기 도움말을 봅니다.</Value>
+            <Path>EDITOR_INFO_HELP</Path>
+        </E>
+        <E i="174">
+            <Value>지난번에 직접 만든 트랙을 불러옵니다.</Value>
+            <Path>EDITOR_INFO_LOAD</Path>
+        </E>
+        <E i="175">
+            <Value>내장된 트랙을 사용자 제작 트랙의 시작점으로 사용합니다.</Value>
+            <Path>EDITOR_INFO_LOAD_ORIGINAL</Path>
+        </E>
+        <E i="176">
+            <Value>편집기를 종료합니다.</Value>
+            <Path>EDITOR_INFO_MAIN_MENU</Path>
+        </E>
+        <E i="177">
+            <Value>트랙을 삭제하거나 이름을 변경합니다.</Value>
+            <Path>EDITOR_INFO_MANAGE</Path>
+        </E>
+        <E i="178">
+            <Value>새로운 트랙을 만듭니다.</Value>
+            <Path>EDITOR_INFO_NEW_TRACK</Path>
+        </E>
+        <E i="179">
+            <Value>현재 트랙을 플레이 가능한 사용자 제작 트랙으로 복사합니다.</Value>
+            <Path>EDITOR_INFO_PUBLISH</Path>
+        </E>
+        <E i="180">
+            <Value>현재 트랙을 저장합니다.</Value>
+            <Path>EDITOR_INFO_SAVE</Path>
+        </E>
+        <E i="181">
+            <Value>새 이름을 쓰거나 다른 저장 장치를 사용해 현재 트랙을 저장합니다.</Value>
+            <Path>EDITOR_INFO_SAVE_AS</Path>
+        </E>
+        <E i="182">
+            <Value>고급 편집 기능을 사용합니다.</Value>
+            <Path>EDITOR_INFO_SWITCH_TO_ADVANCED_MODE</Path>
+        </E>
+        <E i="183">
+            <Value>고급 편집 기능을 사용하지 않습니다.</Value>
+            <Path>EDITOR_INFO_SWITCH_TO_SIMPLE_MODE</Path>
+        </E>
+        <E i="184">
+            <Value>현재 트랙에서 시험 운전합니다.</Value>
+            <Path>EDITOR_INFO_TEST_TRACK</Path>
+        </E>
+        <E i="185">
+            <Value>현재 트랙의 유형, 난이도, 기타 특성을 변경합니다.</Value>
+            <Path>EDITOR_INFO_TRACK_SETTINGS</Path>
+        </E>
+        <E i="186">
+            <Value>현재 트랙이 완성될 수 있는지를 확인합니다.</Value>
+            <Path>EDITOR_INFO_VERIFY</Path>
+        </E>
+        <E i="187">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+남은 실수 횟수:\r
+</font>\r
+<font color="#EBB40F" size="27">\r
+%1\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>FAULTS_LEFT</Path>
+        </E>
+        <E i="188">
+            <Value>실수 %1회</Value>
+            <Path>FAULT_PLURAL</Path>
+        </E>
+        <E i="189">
+            <Value>실수 %1회</Value>
+            <Path>FAULT_SINGULAR</Path>
+        </E>
+        <E i="190">
+            <Value>너무 많이 실수를 했습니다!</Value>
+            <Path>FINISH_FAULTOUT</Path>
+        </E>
+        <E i="191">
+            <Value>종료!</Value>
+            <Path>FINISH_FINISH</Path>
+        </E>
+        <E i="192">
+            <Value>시간이 다 됐습니다!</Value>
+            <Path>FINISH_TIMEOUT</Path>
+        </E>
+        <E i="193">
+            <Value>공중제비 %1회</Value>
+            <Path>FLIP_PLURAL</Path>
+        </E>
+        <E i="194">
+            <Value>공중제비 %1회</Value>
+            <Path>FLIP_SINGULAR</Path>
+        </E>
+        <E i="195">
+            <Value>Xbox LIVE와의 연결이 끊겨 온라인 기능을 사용할 수 없습니다.</Value>
+            <Path>FRIEND_TRACKS_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="196">
+            <Value>연결 끊김!</Value>
+            <Path>FRIEND_TRACKS_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="197">
+            <Value>정식 버전만 가능</Value>
+            <Path>FULL_ONLY</Path>
+        </E>
+        <E i="198">
+            <Value>초대형 공</Value>
+            <Path>GAME_MODE_NAME_BALLX</Path>
+        </E>
+        <E i="199">
+            <Value>계단에서 떨어지기</Value>
+            <Path>GAME_MODE_NAME_BONES</Path>
+        </E>
+        <E i="200">
+            <Value>배달</Value>
+            <Path>GAME_MODE_NAME_CART</Path>
+        </E>
+        <E i="201">
+            <Value>불길 속에서</Value>
+            <Path>GAME_MODE_NAME_FLAMES</Path>
+        </E>
+        <E i="202">
+            <Value>공중제비</Value>
+            <Path>GAME_MODE_NAME_FLIP</Path>
+        </E>
+        <E i="203">
+            <Value>비탈길 오르기</Value>
+            <Path>GAME_MODE_NAME_HILL</Path>
+        </E>
+        <E i="204">
+            <Value>스키 점프</Value>
+            <Path>GAME_MODE_NAME_RIDERX</Path>
+        </E>
+        <E i="205">
+            <Value>높이 뛰기</Value>
+            <Path>GAME_MODE_NAME_RIDERY</Path>
+        </E>
+        <E i="206">
+            <Value>화염 링</Value>
+            <Path>GAME_MODE_NAME_RING</Path>
+        </E>
+        <E i="207">
+            <Value>표적 사냥</Value>
+            <Path>GAME_MODE_NAME_TARGET</Path>
+        </E>
+        <E i="208">
+            <Value>나사가 풀렸다</Value>
+            <Path>GAME_MODE_NAME_WHEELIE</Path>
+        </E>
+        <E i="209">
+            <Value>장치를 선택하지 않았습니다. 사용자 제작 트랙을 저장하거나 다운로드하려면 장치를 선택해야 합니다. 장치를 선택하려면 "도움말 및 옵션" 메뉴로 가십시오.</Value>
+            <Path>GAME_WITHOUT_DEVICE_TEXT</Path>
+        </E>
+        <E i="210">
+            <Value>선택된 장치가 없습니다.</Value>
+            <Path>GAME_WITHOUT_DEVICE_TITLE</Path>
+        </E>
+        <E i="211">
+            <Value>선택한 장치가 없습니다. 트랙을 다운로드하려면 저장 장치를 선택하십시오.</Value>
+            <Path>GET_TRACKS_NO_DEVICE_TEXT</Path>
+        </E>
+        <E i="212">
+            <Value>장치 없음</Value>
+            <Path>GET_TRACKS_NO_DEVICE_TITLE</Path>
+        </E>
+        <E i="213">
+            <Value>다운로드를 진행하려면 먼저 트랙을 선택하십시오.</Value>
+            <Path>GET_TRACKS_NO_SELECTED_TRACKS_TEXT</Path>
+        </E>
+        <E i="214">
+            <Value>선택한 트랙이 없습니다!</Value>
+            <Path>GET_TRACKS_NO_SELECTED_TRACKS_TITLE</Path>
+        </E>
+        <E i="215">
+            <Value>Xbox LIVE와의 연결이 끊겨 온라인 기능을 사용할 수 없습니다.</Value>
+            <Path>GET_TRACKS_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="216">
+            <Value>연결 끊김!</Value>
+            <Path>GET_TRACKS_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="217">
+            <Value>로그인하십시오!</Value>
+            <Path>GET_TRACKS_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="218">
+            <Value>온라인 기능을 사용하려면 Xbox LIVE에 로그인해야 합니다.</Value>
+            <Path>GET_TRACKS_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="219">
+            <Value>접속 거부!</Value>
+            <Path>GET_TRACKS_REQUIRE_PRIVILEGES_TITLE</Path>
+        </E>
+        <E i="220">
+            <Value>친구가 만든 콘텐츠에 접속할 권한을 갖고 있지 않습니다.</Value>
+            <Path>GET_TRACKS_REQUIRE_PRIVILEGES_VALUE</Path>
+        </E>
+        <E i="221">
+            <Value>로그인하십시오!</Value>
+            <Path>GLOBAL_RANKING_DLC_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="222">
+            <Value>온라인 기능을 사용하려면 Xbox LIVE에 로그인해야 합니다.</Value>
+            <Path>GLOBAL_RANKING_DLC_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="223">
+            <Value>Xbox LIVE와의 연결이 끊겨 온라인 기능을 사용할 수 없습니다.</Value>
+            <Path>GLOBAL_RANKING_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="224">
+            <Value>연결 끊김!</Value>
+            <Path>GLOBAL_RANKING_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="225">
+            <Value>로그인하십시오!</Value>
+            <Path>GLOBAL_RANKING_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="226">
+            <Value>온라인 기능을 사용하려면 Xbox LIVE에 로그인해야 합니다.</Value>
+            <Path>GLOBAL_RANKING_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="227">
+            <Value>게스트 프로필이 차단됐습니다. 다른 게이머 프로필로 다시 로그인하십시오.</Value>
+            <Path>GUESTS_BLOCKED_TEXT</Path>
+        </E>
+        <E i="228">
+            <Value>다시 로그인하십시오!</Value>
+            <Path>GUESTS_BLOCKED_TITLE</Path>
+        </E>
+        <E i="229">
+            <Value>바이크 조작 방법을 확인합니다.</Value>
+            <Path>HELP_OPTIONS_INFO_CONTROLS</Path>
+        </E>
+        <E i="230">
+            <Value>Trials의 제작자들을 만나십시오!</Value>
+            <Path>HELP_OPTIONS_INFO_CREDITS</Path>
+        </E>
+        <E i="231">
+            <Value>기본적인 게임플레이 방법과 유용한 힌트를 확인합니다.</Value>
+            <Path>HELP_OPTIONS_INFO_HOWTOPLAY</Path>
+        </E>
+        <E i="232">
+            <Value>게임 설정을 변경합니다.</Value>
+            <Path>HELP_OPTIONS_INFO_SETTINGS</Path>
+        </E>
+        <E i="233">
+            <Value>뼈</Value>
+            <Path>LABEL_BONES</Path>
+        </E>
+        <E i="234">
+            <Value>거리</Value>
+            <Path>LABEL_DISTANCE</Path>
+        </E>
+        <E i="235">
+            <Value>실수</Value>
+            <Path>LABEL_FAULTS</Path>
+        </E>
+        <E i="236">
+            <Value>공중제비</Value>
+            <Path>LABEL_FLIPS</Path>
+        </E>
+        <E i="237">
+            <Value>높이</Value>
+            <Path>LABEL_HEIGHT</Path>
+        </E>
+        <E i="238">
+            <Value>파괴한 물체</Value>
+            <Path>LABEL_OBJECTS_DESTROYED</Path>
+        </E>
+        <E i="239">
+            <Value>점수</Value>
+            <Path>LABEL_POINTS</Path>
+        </E>
+        <E i="240">
+            <Value>링</Value>
+            <Path>LABEL_RINGS</Path>
+        </E>
+        <E i="241">
+            <Value>표적</Value>
+            <Path>LABEL_TARGETS</Path>
+        </E>
+        <E i="242">
+            <Value>시간</Value>
+            <Path>LABEL_TIME</Path>
+        </E>
+        <E i="243">
+            <Value>목록 수: %ENTRIES</Value>
+            <Path>LEADERBOARD_ITEM_COUNT</Path>
+        </E>
+        <E i="244">
+            <Value>Xbox LIVE와의 연결이 끊겨 온라인 기능을 사용할 수 없습니다.</Value>
+            <Path>LEADERBOARD_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="245">
+            <Value>연결 끊김!</Value>
+            <Path>LEADERBOARD_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="246">
+            <Value>난이도</Value>
+            <Path>LEVEL_PROPERTY_TITLE_DIFFICULTY</Path>
+        </E>
+        <E i="247">
+            <Value>스타일</Value>
+            <Path>LEVEL_PROPERTY_TITLE_TYPE</Path>
+        </E>
+        <E i="248">
+            <Value>Xbox LIVE에 접속하지 않으면 Xbox LIVE 순위표 등록이 불가능합니다. 다시 접속한 후 등록하십시오. 불가피할 경우, 점수를 삭제한 후 계속 오프라인으로 플레이하십시오.</Value>
+            <Path>LOAD_FAILED_TEXT</Path>
+        </E>
+        <E i="249">
+            <Value>다시 연결하십시오!</Value>
+            <Path>LOAD_FAILED_TITLE</Path>
+        </E>
+        <E i="250">
+            <Value>잠김</Value>
+            <Path>LOCKED</Path>
+        </E>
+        <E i="251">
+            <Value>선택한 저장 장치가 제거되었습니다. 다음에 트랙을 다운로드하려면 새로운 장치가 필요합니다. 만약 가능한 장치가 한 가지이면, 해당 장치가 자동으로 선택됩니다.</Value>
+            <Path>LOST_DEVICE_DOWNLOAD_TRACKS_TEXT</Path>
+        </E>
+        <E i="252">
+            <Value>저장 장치가 제거되었습니다.</Value>
+            <Path>LOST_DEVICE_DOWNLOAD_TRACKS_TITLE</Path>
+        </E>
+        <E i="253">
+            <Value>선택한 저장 장치가 제거되었습니다. 다음에 트랙을 불러오거나 저장할 때 새로운 장치가 필요합니다. 만약 가능한 장치가 한 가지이면, 해당 장치가 자동으로 선택됩니다.</Value>
+            <Path>LOST_DEVICE_EDITOR_TEXT</Path>
+        </E>
+        <E i="254">
+            <Value>저장 장치 제거 완료</Value>
+            <Path>LOST_DEVICE_EDITOR_TITLE</Path>
+        </E>
+        <E i="255">
+            <Value>도전 과제</Value>
+            <Path>MAIN_MENU_ACHIEVEMENT</Path>
+        </E>
+        <E i="256">
+            <Value>종료</Value>
+            <Path>MAIN_MENU_EXIT</Path>
+        </E>
+        <E i="257">
+            <Value>차고</Value>
+            <Path>MAIN_MENU_GARAGE</Path>
+        </E>
+        <E i="258">
+            <Value>콘텐츠 얻기</Value>
+            <Path>MAIN_MENU_GET_CONTENT</Path>
+        </E>
+        <E i="259">
+            <Value>도움말</Value>
+            <Path>MAIN_MENU_HELP</Path>
+        </E>
+        <E i="260">
+            <Value>순위표</Value>
+            <Path>MAIN_MENU_LEADERBOARDS</Path>
+        </E>
+        <E i="261">
+            <Value>게임 플레이</Value>
+            <Path>MAIN_MENU_PLAY_GAME</Path>
+        </E>
+        <E i="262">
+            <Value>스킬 게임</Value>
+            <Path>MAIN_MENU_SKILL_GAMES</Path>
+        </E>
+        <E i="263">
+            <Value>잠김 해제</Value>
+            <Path>MAIN_MENU_UNLOCK</Path>
+        </E>
+        <E i="264">
+            <Value>사용자 콘텐츠</Value>
+            <Path>MAIN_MENU_USER_CONTENT</Path>
+        </E>
+        <E i="265">
+            <Value>동</Value>
+            <Path>MEDAL_BRONZE</Path>
+        </E>
+        <E i="266">
+            <Value>동메달</Value>
+            <Path>MEDAL_FULL_BRONZE</Path>
+        </E>
+        <E i="267">
+            <Value>금메달</Value>
+            <Path>MEDAL_FULL_GOLD</Path>
+        </E>
+        <E i="268">
+            <Value>플래티넘 메달</Value>
+            <Path>MEDAL_FULL_PLATINUM</Path>
+        </E>
+        <E i="269">
+            <Value>은메달</Value>
+            <Path>MEDAL_FULL_SILVER</Path>
+        </E>
+        <E i="270">
+            <Value>금</Value>
+            <Path>MEDAL_GOLD</Path>
+        </E>
+        <E i="271">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D8C69A" size="25">\r
+메달\r
+<img src="images/medal_64_4.dds" align="middle" width="75" height="50" />\r
+%MEDAL1\r
+<img src="images/medal_64_3.dds" align="middle" width="57" height="57" /> \r
+%MEDAL2\r
+<img src="images/medal_64_2.dds" align="middle" width="57" height="57" /> \r
+%MEDAL3\r
+<img src="images/medal_64_1.dds" align="middle" width="57" height="57" />\r
+%MEDAL4\r
+</font>\r
+</div>]]></Value>
+            <Path>MEDAL_INFO_BAR</Path>
+        </E>
+        <E i="272">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D8C69A" size="25">\r
+메달\r
+<img src="images/medal_64_3.dds" align="middle" width="57" height="57" /> \r
+%MEDAL2\r
+<img src="images/medal_64_2.dds" align="middle" width="57" height="57" /> \r
+%MEDAL3\r
+<img src="images/medal_64_1.dds" align="middle" width="57" height="57" />\r
+%MEDAL4\r
+</font>\r
+</div>]]></Value>
+            <Path>MEDAL_INFO_BAR_THREE_MEDALS</Path>
+        </E>
+        <E i="273">
+            <Value>동메달</Value>
+            <Path>MEDAL_LONG_BRONZE</Path>
+        </E>
+        <E i="274">
+            <Value>금메달</Value>
+            <Path>MEDAL_LONG_GOLD</Path>
+        </E>
+        <E i="275">
+            <Value>메달 없음</Value>
+            <Path>MEDAL_LONG_NONE</Path>
+        </E>
+        <E i="276">
+            <Value>플래티넘 메달</Value>
+            <Path>MEDAL_LONG_PLATINUM</Path>
+        </E>
+        <E i="277">
+            <Value>은메달</Value>
+            <Path>MEDAL_LONG_SILVER</Path>
+        </E>
+        <E i="278">
+            <Value>플래티넘</Value>
+            <Path>MEDAL_PLATINUM</Path>
+        </E>
+        <E i="279">
+            <Value>%1메달</Value>
+            <Path>MEDAL_PLURAL</Path>
+        </E>
+        <E i="280">
+            <Value>은</Value>
+            <Path>MEDAL_SILVER</Path>
+        </E>
+        <E i="281">
+            <Value>%1메달</Value>
+            <Path>MEDAL_SINGULAR</Path>
+        </E>
+        <E i="282">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+도전 목표: %MEDAL메달\r
+</font>]]></Value>
+            <Path>NEXT_MEDAL</Path>
+        </E>
+        <E i="283">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="22">\r
+도전 목표: %MEDAL메달\r
+</font>]]></Value>
+            <Path>NEXT_MEDAL_SKILLGAMES</Path>
+        </E>
+        <E i="284">
+            <Value><![CDATA[<div align="center"><font color="#EBB40F" size="24">\r
+Xbox LIVE에 연결 장애가 있습니다. 연결 상태를 다시 확인한 후 시도하십시오.\r
+</font></div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_LOAD_ERROR_TEXT</Path>
+        </E>
+        <E i="285">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="28">\r
+친구 목록을 불러올 수 없습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_LOAD_ERROR_TITLE</Path>
+        </E>
+        <E i="286">
+            <Value><![CDATA[<div align="center"><font color="#EBB40F" size="24">\r
+현재 트랙을 공유 중인 친구가 없습니다.\r
+</font></div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_NO_FRIENDS_TEXT</Path>
+        </E>
+        <E i="287">
+            <Value><![CDATA[<div align="center"><font color="#EBB40F" size="28">\r
+공유 중인 친구가 없습니다\r
+</font></div>]]></Value>
+            <Path>NOTIFICATION_FRIENDS_WITH_TRACKS_NO_FRIENDS_TITLE</Path>
+        </E>
+        <E i="288">
+            <Value>온라인 순위표에 접속하려면 Xbox LIVE에 연결해야 합니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARDS_NOT_AVAILABLE</Path>
+        </E>
+        <E i="289">
+            <Value>Xbox LIVE에서 점수를 검색할 수 없습니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_LOAD_ERROR</Path>
+        </E>
+        <E i="290">
+            <Value>이 순위표에 등록된 친구가 없습니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_FRIEND_SCORE</Path>
+        </E>
+        <E i="291">
+            <Value>이 순위표에 등록된 적이 없습니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_PERSONAL_SCORE</Path>
+        </E>
+        <E i="292">
+            <Value>이 순위표에 등록된 점수가 없습니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_SCORE</Path>
+        </E>
+        <E i="293">
+            <Value>아직 플레이하지 않은 트랙입니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_NO_SESSION_SCORE</Path>
+        </E>
+        <E i="294">
+            <Value>세션 기록을 불러올 수 없습니다.</Value>
+            <Path>NOTIFICATION_LEADERBOARD_SESSION_LOAD_ERROR</Path>
+        </E>
+        <E i="295">
+            <Value>"%1" 바이크를 탈 수 있습니다!</Value>
+            <Path>NOTIFY_BIKE_UNLOCKED</Path>
+        </E>
+        <E i="296">
+            <Value>"%1" 토너먼트를 즐길 수 있습니다!</Value>
+            <Path>NOTIFY_CHALLENGE_UNLOCKED</Path>
+        </E>
+        <E i="297">
+            <Value>평가판 게임이 종료됐습니다</Value>
+            <Path>NOTIFY_DEMO_FINISHED</Path>
+        </E>
+        <E i="298">
+            <Value>%1 난이도의 트랙들을 즐길 수 있습니다!</Value>
+            <Path>NOTIFY_DIFFICULTY_UNLOCKED</Path>
+        </E>
+        <E i="299">
+            <Value>전설의 플래티넘 메달을 획득했습니다!</Value>
+            <Path>NOTIFY_PLATINUM_UNLOCKED</Path>
+        </E>
+        <E i="300">
+            <Value>"%1" 스킬 게임을 즐길 수 있습니다!</Value>
+            <Path>NOTIFY_SKILLGAME_UNLOCKED</Path>
+        </E>
+        <E i="301">
+            <Value>물체 %1개</Value>
+            <Path>OBJECTS_PLURAL</Path>
+        </E>
+        <E i="302">
+            <Value>물체 %1개</Value>
+            <Path>OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="303">
+            <Value>벽</Value>
+            <Path>OBJECT_CATEGORY_0</Path>
+        </E>
+        <E i="304">
+            <Value>게임용 물체</Value>
+            <Path>OBJECT_CATEGORY_1</Path>
+        </E>
+        <E i="305">
+            <Value>구조물</Value>
+            <Path>OBJECT_CATEGORY_10</Path>
+        </E>
+        <E i="306">
+            <Value>골조</Value>
+            <Path>OBJECT_CATEGORY_11</Path>
+        </E>
+        <E i="307">
+            <Value>경사로</Value>
+            <Path>OBJECT_CATEGORY_12</Path>
+        </E>
+        <E i="308">
+            <Value>표지판</Value>
+            <Path>OBJECT_CATEGORY_13</Path>
+        </E>
+        <E i="309">
+            <Value>장식물</Value>
+            <Path>OBJECT_CATEGORY_14</Path>
+        </E>
+        <E i="310">
+            <Value>그룹</Value>
+            <Path>OBJECT_CATEGORY_15</Path>
+        </E>
+        <E i="311">
+            <Value>폭발물</Value>
+            <Path>OBJECT_CATEGORY_16</Path>
+        </E>
+        <E i="312">
+            <Value>철제 테라스</Value>
+            <Path>OBJECT_CATEGORY_17</Path>
+        </E>
+        <E i="313">
+            <Value>특수 효과</Value>
+            <Path>OBJECT_CATEGORY_18</Path>
+        </E>
+        <E i="314">
+            <Value>스킬용 물체</Value>
+            <Path>OBJECT_CATEGORY_2</Path>
+        </E>
+        <E i="315">
+            <Value>도구</Value>
+            <Path>OBJECT_CATEGORY_3</Path>
+        </E>
+        <E i="316">
+            <Value>조명</Value>
+            <Path>OBJECT_CATEGORY_4</Path>
+        </E>
+        <E i="317">
+            <Value>판자</Value>
+            <Path>OBJECT_CATEGORY_5</Path>
+        </E>
+        <E i="318">
+            <Value>원통</Value>
+            <Path>OBJECT_CATEGORY_6</Path>
+        </E>
+        <E i="319">
+            <Value>큐브</Value>
+            <Path>OBJECT_CATEGORY_7</Path>
+        </E>
+        <E i="320">
+            <Value>바위</Value>
+            <Path>OBJECT_CATEGORY_8</Path>
+        </E>
+        <E i="321">
+            <Value>판</Value>
+            <Path>OBJECT_CATEGORY_9</Path>
+        </E>
+        <E i="322">
+            <Value>고스트 다운로드 중...</Value>
+            <Path>OPERATION_NAME_DOWNLOADING_GHOST</Path>
+        </E>
+        <E i="323">
+            <Value>다시보기 다운로드 중...</Value>
+            <Path>OPERATION_NAME_DOWNLOADING_REPLAY</Path>
+        </E>
+        <E i="324">
+            <Value>다운로드 중...</Value>
+            <Path>OPERATION_NAME_DOWNLOADING_TRACKS</Path>
+        </E>
+        <E i="325">
+            <Value>트랙 불러오는 중...</Value>
+            <Path>OPERATION_NAME_LOADING_CUSTOM_TRACK</Path>
+        </E>
+        <E i="326">
+            <Value>기록 확인 중...</Value>
+            <Path>OPERATION_NAME_LOAD_COMPARISON</Path>
+        </E>
+        <E i="327">
+            <Value>토너먼트 재개 중...</Value>
+            <Path>OPERATION_NAME_RESUMING_CHALLENGE</Path>
+        </E>
+        <E i="328">
+            <Value>기록 저장 중...</Value>
+            <Path>OPERATION_NAME_SAVE_RESULT</Path>
+        </E>
+        <E i="329">
+            <Value>고스트 시뮬레이션 중...</Value>
+            <Path>OPERATION_NAME_SIMULATING_GHOST</Path>
+        </E>
+        <E i="330">
+            <Value>업로드 중...</Value>
+            <Path>OPERATION_NAME_UPLOADING_TRACKS</Path>
+        </E>
+        <E i="331">
+            <Value>도전 과제를 확인합니다.</Value>
+            <Path>PAUSEMENU_INFO_ACHIEVEMENTS</Path>
+        </E>
+        <E i="332">
+            <Value>게임에서 나갑니다.</Value>
+            <Path>PAUSEMENU_INFO_EXIT_GAME</Path>
+        </E>
+        <E i="333">
+            <Value>도움말을 보고 옵션을 변경합니다.</Value>
+            <Path>PAUSEMENU_INFO_HELP_OPTIONS</Path>
+        </E>
+        <E i="334">
+            <Value>최고 점수를 확인합니다.</Value>
+            <Path>PAUSEMENU_INFO_LEADERBOARDS</Path>
+        </E>
+        <E i="335">
+            <Value>게임으로 돌아갑니다.</Value>
+            <Path>PAUSEMENU_INFO_RESUME</Path>
+        </E>
+        <E i="336">
+            <Value>정식 버전 게임을 구매합니다.</Value>
+            <Path>PAUSEMENU_INFO_UNLOCK</Path>
+        </E>
+        <E i="337">
+            <Value>%1점</Value>
+            <Path>POINT_PLURAL</Path>
+        </E>
+        <E i="338">
+            <Value>%1점</Value>
+            <Path>POINT_SINGULAR</Path>
+        </E>
+        <E i="339">
+            <Value>오프라인에서 기록된 점수는 Xbox LIVE 순위표에 저장되지 않습니다. Xbox LIVE에 다시 연결하십시오.</Value>
+            <Path>PRETRACK_OFFLINE_WARNING_TEXT</Path>
+        </E>
+        <E i="340">
+            <Value>오프라인 경고</Value>
+            <Path>PRETRACK_OFFLINE_WARNING_TITLE</Path>
+        </E>
+        <E i="341">
+            <Value>저장 장치가 다 찼거나 사용할 수 없는 것이 원인일 수 있습니다. 가능한 데이터 손실을 막기 위해 로그아웃하여 다시 로그인할 때까지는 진행과 설정이 현재 게이머 프로필이 저장되지 않습니다.</Value>
+            <Path>PROFILE_CREATION_FAILED_TEXT</Path>
+        </E>
+        <E i="342">
+            <Value>게이머 프로필 설정 초기화에 실패했습니다.</Value>
+            <Path>PROFILE_CREATION_FAILED_TITLE</Path>
+        </E>
+        <E i="343">
+            <Value>게이머 프로필을 사용할 수 없기 때문에 지금까지의 진행 및 설정을 저장할 수 없습니다.</Value>
+            <Path>PROFILE_SAVE_FAILED_TEXT</Path>
+        </E>
+        <E i="344">
+            <Value>게이머 프로필 설정 저장에 실패했습니다.</Value>
+            <Path>PROFILE_SAVE_FAILED_TITLE</Path>
+        </E>
+        <E i="345">
+            <Value>사용자 제작 트랙</Value>
+            <Path>PUBLISHED_TRACK_HEADER</Path>
+        </E>
+        <E i="346">
+            <Value>배포할 트랙 이름을 입력하십시오.</Value>
+            <Path>PUBLISH_TRACK_NAME_DESC</Path>
+        </E>
+        <E i="347">
+            <Value>배포할 트랙 이름을 입력하십시오.</Value>
+            <Path>PUBLISH_TRACK_NAME_TITLE</Path>
+        </E>
+        <E i="348">
+            <Value>선택한 트랙은 손상된 것으로 보여 이름을 변경하지 못했습니다.</Value>
+            <Path>RENAME_TRACK_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="349">
+            <Value>손상된 트랙입니다.</Value>
+            <Path>RENAME_TRACK_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="350">
+            <Value>선택한 저장 장치에 이미 "%1" 이름의 트랙이 존재합니다. 다른 이름으로 시도하십시오.</Value>
+            <Path>RENAME_TRACK_DUPLICATE_TEXT</Path>
+        </E>
+        <E i="351">
+            <Value>트랙이 이미 존재합니다.</Value>
+            <Path>RENAME_TRACK_DUPLICATE_TITLE</Path>
+        </E>
+        <E i="352">
+            <Value>선택한 트랙은 더 이상 존재하지 않아 이름을 변경하지 못했습니다.</Value>
+            <Path>RENAME_TRACK_MISSING_TEXT</Path>
+        </E>
+        <E i="353">
+            <Value>잃어 버린 트랙입니다.</Value>
+            <Path>RENAME_TRACK_MISSING_TITLE</Path>
+        </E>
+        <E i="354">
+            <Value>저장 공간에 작업 이름을 변경할 공간이 부족합니다.</Value>
+            <Path>RENAME_TRACK_OUT_OF_SPACE_TEXT</Path>
+        </E>
+        <E i="355">
+            <Value>공간이 부족합니다.</Value>
+            <Path>RENAME_TRACK_OUT_OF_SPACE_TITLE</Path>
+        </E>
+        <E i="356">
+            <Value>다시보기 다운로드가 중단됐습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_ABORTED_TEXT</Path>
+        </E>
+        <E i="357">
+            <Value>다운로드가 중단되었습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_ABORTED_TITLE</Path>
+        </E>
+        <E i="358">
+            <Value>다시보기 데이터가 손상되었으므로 삭제됩니다.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="359">
+            <Value>손상된 다시보기입니다.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="360">
+            <Value>이 트랙에는 다시보기가 없습니다. 먼저 트랙을 주행한 후 다시보기를 저장하십시오.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_FILE_TEXT</Path>
+        </E>
+        <E i="361">
+            <Value>사용 가능한 다시보기가 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_FILE_TITLE</Path>
+        </E>
+        <E i="362">
+            <Value>트랙이 저장된 장치가 사용 가능하지 않기 때문에 다시보기를 불러올 수 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_STORAGE_TEXT</Path>
+        </E>
+        <E i="363">
+            <Value>사용 가능한 다시보기가 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_NO_STORAGE_TITLE</Path>
+        </E>
+        <E i="364">
+            <Value>선택한 트랙은 손상되어서 다시보기를 사용할 수 없습니다. 트랙 관리 메뉴에서 삭제하십시오.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_TRACK_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="365">
+            <Value>손상된 트랙입니다.</Value>
+            <Path>REPLAY_DOWNLOAD_CUSTOM_TRACK_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="366">
+            <Value>다시보기를 다운로드할 수 없습니다. 네트워크 상태를 확인한 후 다시 시도하십시오.</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NETWORK_TEXT</Path>
+        </E>
+        <E i="367">
+            <Value>다시보기 다운로드에 실패했습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NETWORK_TITLE</Path>
+        </E>
+        <E i="368">
+            <Value>선택한 순위표 아이템은 다시보기가 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NO_FILE_TEXT</Path>
+        </E>
+        <E i="369">
+            <Value>다시보기 다운로드에 실패했습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_LIVE_NO_FILE_TITLE</Path>
+        </E>
+        <E i="370">
+            <Value>세션 다시보기 캐시가 손상됐으므로 삭제됩니다.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_CORRUPTED_TEXT</Path>
+        </E>
+        <E i="371">
+            <Value>손상된 세션 다시보기입니다.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_CORRUPTED_TITLE</Path>
+        </E>
+        <E i="372">
+            <Value>세션 다시보기를 불러올 수 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_FILE_TEXT</Path>
+        </E>
+        <E i="373">
+            <Value>사용 가능한 다시보기가 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_FILE_TITLE</Path>
+        </E>
+        <E i="374">
+            <Value>다시보기를 불러올 저장 장치가 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_STORAGE_TEXT</Path>
+        </E>
+        <E i="375">
+            <Value>사용 가능한 다시보기가 없습니다.</Value>
+            <Path>REPLAY_DOWNLOAD_SESSION_NO_STORAGE_TITLE</Path>
+        </E>
+        <E i="376">
+            <Value>다시보기를 저장하지 못했습니다.</Value>
+            <Path>REPLAY_SAVE_FAILED_TEXT</Path>
+        </E>
+        <E i="377">
+            <Value>다시보기 저장에 실패했습니다.</Value>
+            <Path>REPLAY_SAVE_FAILED_TITLE</Path>
+        </E>
+        <E i="378">
+            <Value>트랙을 통과하고 동메달을 획득했습니다!</Value>
+            <Path>RESULTS_BRONZE_PERFORMANCE</Path>
+        </E>
+        <E i="379">
+            <Value>금메달을 획득했습니다!</Value>
+            <Path>RESULTS_GOLD_PERFORMANCE</Path>
+        </E>
+        <E i="380">
+            <Value></Value>
+            <Path>RESULTS_NO_PERFORMANCE_CHANGE</Path>
+        </E>
+        <E i="381">
+            <Value>플래티넘 메달을 획득했습니다!</Value>
+            <Path>RESULTS_PLATINUM_PERFORMANCE</Path>
+        </E>
+        <E i="382">
+            <Value>은메달을 획득했습니다!</Value>
+            <Path>RESULTS_SILVER_PERFORMANCE</Path>
+        </E>
+        <E i="383">
+            <Value>Xbox LIVE에 결과 저장 도중 실패했습니다!</Value>
+            <Path>RESULT_ABORTED</Path>
+        </E>
+        <E i="384">
+            <Value>현재 순위: %POSITION</Value>
+            <Path>RESULT_DEMO_POSITION</Path>
+        </E>
+        <E i="385">
+            <Value>기록 경신 실패</Value>
+            <Path>RESULT_DID_NOT_BEAT</Path>
+        </E>
+        <E i="386">
+            <Value>새 최고 기록!!!</Value>
+            <Path>RESULT_NEW_BEST</Path>
+        </E>
+        <E i="387">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 거리: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BALLX</Path>
+        </E>
+        <E i="388">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 거리: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BALLX_OUT</Path>
+        </E>
+        <E i="389">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+플래티넘 메달을 획득했습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BEST</Path>
+        </E>
+        <E i="390">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="22">\r
+플래티넘 메달을 획득했습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BEST_SKILLGAMES</Path>
+        </E>
+        <E i="391">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 뼈: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+개\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_BONES</Path>
+        </E>
+        <E i="392">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 거리: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_CART</Path>
+        </E>
+        <E i="393">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+트랙을 통과하고 동메달을 획득하십시오.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FIRST</Path>
+        </E>
+        <E i="394">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 거리: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FLAMES</Path>
+        </E>
+        <E i="395">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 횟수:  \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+회\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FLIP</Path>
+        </E>
+        <E i="396">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 점수: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+점 \r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FREESTYLE</Path>
+        </E>
+        <E i="397">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="22">\r
+금메달을 획득했습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL</Path>
+        </E>
+        <E i="398">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+축하합니다!\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL_EX</Path>
+        </E>
+        <E i="399">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="22">\r
+금메달을 획득했습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL_SKILLGAMES</Path>
+        </E>
+        <E i="400">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="18">\r
+축하합니다!\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_FULL_SKILLGAMES_EX</Path>
+        </E>
+        <E i="401">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 높이: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_HILL</Path>
+        </E>
+        <E i="402">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 물체: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+개\r
+</font><font color="#EBB40F" size="18">\r
+목표 시간: \r
+</font>\r
+\r
+<font color="#D8C69A" size="18">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_OBJECTS</Path>
+        </E>
+        <E i="403">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 거리: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_RIDER_X</Path>
+        </E>
+        <E i="404">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 높이: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_RIDER_Y</Path>
+        </E>
+        <E i="405">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 링:\r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+개</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_RINGS</Path>
+        </E>
+        <E i="406">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 표적: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+개\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_TARGET</Path>
+        </E>
+        <E i="407">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+허용 실수: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+<font color="#EBB40F" size="18">\r
+회,  \r
+</font>\r
+<font color="#EBB40F" size="18">\r
+목표 시간: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%SECONDARY\r
+</font>\r
+<font color="#EBB40F" size="18">.\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_TRIALS</Path>
+        </E>
+        <E i="408">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+목표 거리: \r
+</font>\r
+<font color="#D8C69A" size="18">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_NEXT_MEDAL_WHEELIE</Path>
+        </E>
+        <E i="409">
+            <Value>평가판에서는 결과 저장이 불가능합니다!</Value>
+            <Path>RESULT_NOT_SAVED_DEMO</Path>
+        </E>
+        <E i="410">
+            <Value>Xbox LIVE에 결과가 저장되지 않았습니다!</Value>
+            <Path>RESULT_NOT_SAVED_OFFLINE</Path>
+        </E>
+        <E i="411">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="18">\r
+%PRAISE\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_PRAISE_FORMAT</Path>
+        </E>
+        <E i="412">
+            <Value><![CDATA[<div align="left">\r
+<font color="#EBB40F" size="18">\r
+%PRAISE\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_PRAISE_FORMAT_SKILLGAMES</Path>
+        </E>
+        <E i="413">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_BALLX_OUT_SINGULAR</Path>
+        </E>
+        <E i="414">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_BALLX_SINGULAR</Path>
+        </E>
+        <E i="415">
+            <Value>바이크가 받은 총 데미지</Value>
+            <Path>RESULT_STAT_BIKE_DAMAGE</Path>
+        </E>
+        <E i="416">
+            <Value>총 부러진 뼈의 수</Value>
+            <Path>RESULT_STAT_BONES</Path>
+        </E>
+        <E i="417">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+부러진 뼈:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_BONES_SINGULAR</Path>
+        </E>
+        <E i="418">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_CART_SINGULAR</Path>
+        </E>
+        <E i="419">
+            <Value>총 콤보 횟수</Value>
+            <Path>RESULT_STAT_COMBOS</Path>
+        </E>
+        <E i="420">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+완전 실패!\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_EPIC_FAIL</Path>
+        </E>
+        <E i="421">
+            <Value>주변 물체가 받은 총 데미지</Value>
+            <Path>RESULT_STAT_EVN_DAMAGE</Path>
+        </E>
+        <E i="422">
+            <Value>총 실패 횟수</Value>
+            <Path>RESULT_STAT_FAULTS</Path>
+        </E>
+        <E i="423">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_FLAMES_SINGULAR</Path>
+        </E>
+        <E i="424">
+            <Value>총 높이(피트)</Value>
+            <Path>RESULT_STAT_FLIGHT_DISTANCE_FEETS</Path>
+        </E>
+        <E i="425">
+            <Value>총 높이(미터)</Value>
+            <Path>RESULT_STAT_FLIGHT_DISTANCE_METERS</Path>
+        </E>
+        <E i="426">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+공중제비:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="60">\r
+시간:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_FLIP_SINGULAR</Path>
+        </E>
+        <E i="427">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+점수:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_FREESTYLE_SINGULAR</Path>
+        </E>
+        <E i="428">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+높이:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_HILL_SINGULAR</Path>
+        </E>
+        <E i="429">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+파괴한 물체:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_OBJECTS_SINGULAR</Path>
+        </E>
+        <E i="430">
+            <Value>바이크가 받은 데미지</Value>
+            <Path>RESULT_STAT_PREV_BIKE_DAMAGE</Path>
+        </E>
+        <E i="431">
+            <Value>부러진 뼈</Value>
+            <Path>RESULT_STAT_PREV_BONES</Path>
+        </E>
+        <E i="432">
+            <Value>총 콤보</Value>
+            <Path>RESULT_STAT_PREV_COMBOS</Path>
+        </E>
+        <E i="433">
+            <Value>주변 물체가 받은 데미지</Value>
+            <Path>RESULT_STAT_PREV_EVN_DAMAGE</Path>
+        </E>
+        <E i="434">
+            <Value>실수</Value>
+            <Path>RESULT_STAT_PREV_FAULTS</Path>
+        </E>
+        <E i="435">
+            <Value>최고 높이</Value>
+            <Path>RESULT_STAT_PREV_FLIGHT_DISTANCE_FEETS</Path>
+        </E>
+        <E i="436">
+            <Value>최고 높이</Value>
+            <Path>RESULT_STAT_PREV_FLIGHT_DISTANCE_METERS</Path>
+        </E>
+        <E i="437">
+            <Value>시간</Value>
+            <Path>RESULT_STAT_PREV_TIME</Path>
+        </E>
+        <E i="438">
+            <Value>총 묘기</Value>
+            <Path>RESULT_STAT_PREV_TRICKS</Path>
+        </E>
+        <E i="439">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_RIDER_X_SINGULAR</Path>
+        </E>
+        <E i="440">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+높이:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_RIDER_Y_SINGULAR</Path>
+        </E>
+        <E i="441">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+링:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_RINGS_SINGULAR</Path>
+        </E>
+        <E i="442">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+표적:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="60">\r
+시간:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_TARGET_SINGULAR</Path>
+        </E>
+        <E i="443">
+            <Value>총 플레이 시간</Value>
+            <Path>RESULT_STAT_TIMES_PLAYED</Path>
+        </E>
+        <E i="444">
+            <Value>총 플레이 시간</Value>
+            <Path>RESULT_STAT_TIME_PLAYED</Path>
+        </E>
+        <E i="445">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+실수:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+&nbsp;&nbsp;\r
+<font color="#EBB40F" size="60">\r
+시간:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%SECONDARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_TRIALS_SINGULAR</Path>
+        </E>
+        <E i="446">
+            <Value>총 묘기 횟수</Value>
+            <Path>RESULT_STAT_TRICKS</Path>
+        </E>
+        <E i="447">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="60">\r
+거리:\r
+</font>\r
+<font color="#EBEBEB" size="60">\r
+%PRIMARY\r
+</font>\r
+</div>]]></Value>
+            <Path>RESULT_STAT_WHEELIE_SINGULAR</Path>
+        </E>
+        <E i="448">
+            <Value>트랙 완주에 실패하였습니다!</Value>
+            <Path>RESULT_TRACK_FAILED</Path>
+        </E>
+        <E i="449">
+            <Value>게임 콘텐츠를 불러오는 도중 오류가 발생했습니다. 게임 라이브러리로 돌아갑니다.</Value>
+            <Path>RETURN_TO_GAME_LIBRARY</Path>
+        </E>
+        <E i="450">
+            <Value>링 %1개</Value>
+            <Path>RINGS_PLURAL</Path>
+        </E>
+        <E i="451">
+            <Value>링 %1개</Value>
+            <Path>RINGS_SINGULAR</Path>
+        </E>
+        <E i="452">
+            <Value>New track</Value>
+            <Path>SAVETRACK_NAME_DEFAULT</Path>
+        </E>
+        <E i="453">
+            <Value>트랙 이름을 입력하십시오.</Value>
+            <Path>SAVETRACK_NAME_DESC</Path>
+        </E>
+        <E i="454">
+            <Value>트랙 이름 입력</Value>
+            <Path>SAVETRACK_NAME_TITLE</Path>
+        </E>
+        <E i="455">
+            <Value>선택한 저장 장치의 공간이 부족하여 트랙을 저장하지 못했습니다.</Value>
+            <Path>SAVE_FAILED_MEMORY_FULL_TEXT</Path>
+        </E>
+        <E i="456">
+            <Value>트랙 저장에 실패했습니다.</Value>
+            <Path>SAVE_FAILED_MEMORY_FULL_TITLE</Path>
+        </E>
+        <E i="457">
+            <Value>Xbox LIVE에 접속하지 않으면 Xbox LIVE 순위표 등록이 불가능합니다. 다시 접속한 후 등록하십시오. 불가피할 경우, 점수를 삭제한 후 계속 오프라인으로 플레이하십시오.</Value>
+            <Path>SAVE_FAILED_TEXT</Path>
+        </E>
+        <E i="458">
+            <Value>다시 연결하십시오!</Value>
+            <Path>SAVE_FAILED_TITLE</Path>
+        </E>
+        <E i="459">
+            <Value>콘텐츠를 저장하고 있습니다. 본체를 끄지 마십시오.</Value>
+            <Path>SAVE_WARNING_NORMAL</Path>
+        </E>
+        <E i="460">
+            <Value>저장하는 중...</Value>
+            <Path>SAVE_WARNING_SHORT</Path>
+        </E>
+        <E i="461">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="22">\r
+%1 \r
+</font>\r
+</div>]]></Value>
+            <Path>SCROLL_MESSAGE</Path>
+        </E>
+        <E i="462">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+%TYPE 플레이\r
+</font>\r
+</div>]]></Value>
+            <Path>SELECT_TRACK_RACING_TITLE</Path>
+        </E>
+        <E i="463">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="50">\r
+%TYPE - %DIFF 난이도 플레이\r
+</font>\r
+</div>]]></Value>
+            <Path>SELECT_TRACK_TITLE</Path>
+        </E>
+        <E i="464">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="30">\r
+<img src="images/gamerscore_icon.dds" align="middle" />%SCORE \r
+</font>\r
+</div>]]></Value>
+            <Path>SELLING_ACH_GAMERSCORE</Path>
+        </E>
+        <E i="465">
+            <Value>선택한 토너먼트는 정식 버전 게임에서만 즐길 수 있습니다. 지금 당장 구매하십시오!</Value>
+            <Path>SELLING_CHALLENGE_LOCKED_TEXT</Path>
+        </E>
+        <E i="466">
+            <Value>토너먼트를 즐기려면 정식 버전 게임을 구매하십시오!</Value>
+            <Path>SELLING_CHALLENGE_LOCKED_TITLE</Path>
+        </E>
+        <E i="467">
+            <Value>선택한 트랙은 정식 버전 게임에서만 즐길 수 있습니다. 지금 당장 구매하십시오!</Value>
+            <Path>SELLING_TRACK_LOCKED_TEXT</Path>
+        </E>
+        <E i="468">
+            <Value>트랙을 얻기 위해서는 정식 버전 게임을 구매하십시오!</Value>
+            <Path>SELLING_TRACK_LOCKED_TITLE</Path>
+        </E>
+        <E i="469">
+            <Value>Xbox LIVE와의 연결이 끊겨 온라인 기능을 사용할 수 없습니다.</Value>
+            <Path>SHARE_TRACKS_REMOVED_FROM_ONLINE_TEXT</Path>
+        </E>
+        <E i="470">
+            <Value>연결 끊김!</Value>
+            <Path>SHARE_TRACKS_REMOVED_FROM_ONLINE_TITLE</Path>
+        </E>
+        <E i="471">
+            <Value>로그인하십시오!</Value>
+            <Path>SHARE_TRACKS_REQUIRE_ONLINE_TITLE</Path>
+        </E>
+        <E i="472">
+            <Value>온라인 기능을 사용하려면 Xbox LIVE에 로그인해야 합니다.</Value>
+            <Path>SHARE_TRACKS_REQUIRE_ONLINE_VALUE</Path>
+        </E>
+        <E i="473">
+            <Value>선택한 트랙 %USED/%MAX</Value>
+            <Path>SHARE_TRACKS_SHARED_COUNTER</Path>
+        </E>
+        <E i="474">
+            <Value>로그아웃하여 주 메뉴로 돌아왔습니다.</Value>
+            <Path>SIGNOUT_TO_MAIN_TEXT</Path>
+        </E>
+        <E i="475">
+            <Value>로그아웃</Value>
+            <Path>SIGNOUT_TO_MAIN_TITLE</Path>
+        </E>
+        <E i="476">
+            <Value><![CDATA[<font color="#EBB40F" size="25">%1</font>]]></Value>
+            <Path>SKILLGAME_PRIMARY_FORMAT</Path>
+        </E>
+        <E i="477">
+            <Value><![CDATA[<font color="#D8C69A" size="16">%1</font>]]></Value>
+            <Path>SKILLGAME_SECONDARY_FORMAT</Path>
+        </E>
+        <E i="478">
+            <Value>"%1" 스킬 게임을 즐기고 싶다면 %3 난이도의 레이싱 모드에서 %RANK%MEDALS을 획득해야 합니다.</Value>
+            <Path>SKILLGAME_UNLOCK_HELP_TEXT</Path>
+        </E>
+        <E i="479">
+            <Value>잠겨 있는 스킬 게임</Value>
+            <Path>SKILLGAME_UNLOCK_HELP_TITLE</Path>
+        </E>
+        <E i="480">
+            <Value>시작!</Value>
+            <Path>START_GO</Path>
+        </E>
+        <E i="481">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+%DEVICE1 &nbsp;&nbsp; %DEVICE2<br>%DEVICE3\r
+</font>\r
+</div>]]></Value>
+            <Path>STORAGE_SPACE_BASE</Path>
+        </E>
+        <E i="482">
+            <Value><![CDATA[<img src="images/storage_hdd.dds" align="middle" width="32" height="32"/>\r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_HDD</Path>
+        </E>
+        <E i="483">
+            <Value><![CDATA[<img src="images/storage_mu-a.dds" align="middle" width="32" height="32" /> \r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_MU1</Path>
+        </E>
+        <E i="484">
+            <Value><![CDATA[<img src="images/storage_mu-b.dds" align="middle" width="32" height="32"/>\r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_MU2</Path>
+        </E>
+        <E i="485">
+            <Value><![CDATA[<img src="images/storage_mu-generic.dds" align="middle" width="32" height="32" /> \r
+<font color="#EBB40F" size="16">\r
+&nbsp;\r
+%NAME: %SPACE/%MAX\r
+</font>]]></Value>
+            <Path>STORAGE_SPACE_MUG</Path>
+        </E>
+        <E i="486">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+선택한 장치가 없습니다.\r
+</font>\r
+</div>]]></Value>
+            <Path>STORAGE_SPACE_NO_DEVICE_BASE</Path>
+        </E>
+        <E i="487">
+            <Value><![CDATA[<div align="center">\r
+<font color="#EBB40F" size="16">\r
+%DEVICE1\r
+</font>\r
+</div>]]></Value>
+            <Path>STORAGE_SPACE_SINGLE_BASE</Path>
+        </E>
+        <E i="488">
+            <Value>표적 %1개</Value>
+            <Path>TARGET_PLURAL</Path>
+        </E>
+        <E i="489">
+            <Value>표적 %1개</Value>
+            <Path>TARGET_SINGULAR</Path>
+        </E>
+        <E i="490">
+            <Value>시간 초과!</Value>
+            <Path>TIMED_OUT_TEXT</Path>
+        </E>
+        <E i="491">
+            <Value>%02d:%02d.%03d</Value>
+            <Path>TIME_FULL_LONG</Path>
+        </E>
+        <E i="492">
+            <Value>%02d:%02d</Value>
+            <Path>TIME_FULL_SHORT</Path>
+        </E>
+        <E i="493">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+남은 시간:\r
+</font>\r
+<font color="#EBB40F" size="27">\r
+%1\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>TIME_LEFT</Path>
+        </E>
+        <E i="494">
+            <Value>%.1f초</Value>
+            <Path>TIME_LONG</Path>
+        </E>
+        <E i="495">
+            <Value>%d분</Value>
+            <Path>TIME_MINUTES_LONG</Path>
+        </E>
+        <E i="496">
+            <Value>%dmin</Value>
+            <Path>TIME_MINUTES_SHORT</Path>
+        </E>
+        <E i="497">
+            <Value>%.1fs</Value>
+            <Path>TIME_SHORT</Path>
+        </E>
+        <E i="498">
+            <Value>실수 남발!</Value>
+            <Path>TOO_MANY_FAULTS_TEXT</Path>
+        </E>
+        <E i="499">
+            <Value>선택한 저장 장치에 이미 "%1" 트랙이 존재합니다. 덮어쓰시겠습니까?</Value>
+            <Path>TRACK_ALREADY_EXISTS_TEXT</Path>
+        </E>
+        <E i="500">
+            <Value>트랙이 이미 존재합니다.</Value>
+            <Path>TRACK_ALREADY_EXISTS_TITLE</Path>
+        </E>
+        <E i="501">
+            <Value>입문</Value>
+            <Path>TRACK_DIFFICULTY_0</Path>
+        </E>
+        <E i="502">
+            <Value>초급</Value>
+            <Path>TRACK_DIFFICULTY_1</Path>
+        </E>
+        <E i="503">
+            <Value>중급</Value>
+            <Path>TRACK_DIFFICULTY_2</Path>
+        </E>
+        <E i="504">
+            <Value>고급</Value>
+            <Path>TRACK_DIFFICULTY_3</Path>
+        </E>
+        <E i="505">
+            <Value>익스트림</Value>
+            <Path>TRACK_DIFFICULTY_4</Path>
+        </E>
+        <E i="506">
+            <Value>선택한 저장 장치에 선택한 트랙을 저장할 공간이 없어 트랙을 다운로드하지 못했습니다. 저장 공간이 있는 다른 저장 장치를 선택하십시오.</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_NOSPACE_TEXT</Path>
+        </E>
+        <E i="507">
+            <Value>트랙 다운로드에 실패했습니다.</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_NOSPACE_TITLE</Path>
+        </E>
+        <E i="508">
+            <Value>선택한 저장 장치에 이미 최대 100개의 트랙이 있어 이 트랙을 저장하지 못했습니다.</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_TOOMANY_TEXT</Path>
+        </E>
+        <E i="509">
+            <Value>트랙 다운로드에 실패했습니다.</Value>
+            <Path>TRACK_DOWNLOAD_FAILED_TOOMANY_TITLE</Path>
+        </E>
+        <E i="510">
+            <Value>선택한 트랙은 손상됐기 때문에 불러올 수 없습니다.</Value>
+            <Path>TRACK_LOAD_FAILED_CORRUPT_TEXT</Path>
+        </E>
+        <E i="511">
+            <Value>트랙 파일 손상</Value>
+            <Path>TRACK_LOAD_FAILED_CORRUPT_TITLE</Path>
+        </E>
+        <E i="512">
+            <Value>저장 장치가 제거됐기 때문에 선택한 트랙을 불러올 수 없습니다.</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_DEVICE_TEXT</Path>
+        </E>
+        <E i="513">
+            <Value>트랙 불러오기에 실패했습니다.</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_DEVICE_TITLE</Path>
+        </E>
+        <E i="514">
+            <Value>선택한 트랙을 더 이상 찾지 못해 불러올 수 없습니다. </Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_FILE_TEXT</Path>
+        </E>
+        <E i="515">
+            <Value>트랙 불러오기에 실패했습니다.</Value>
+            <Path>TRACK_LOAD_FAILED_MISSING_FILE_TITLE</Path>
+        </E>
+        <E i="516">
+            <Value>선택한 트랙을 불러올 수 없습니다. 사용 가능한 트랙인지 확인하십시오.</Value>
+            <Path>TRACK_LOAD_FAILED_TEXT</Path>
+        </E>
+        <E i="517">
+            <Value>트랙 불러오기에 실패했습니다.</Value>
+            <Path>TRACK_LOAD_FAILED_TITLE</Path>
+        </E>
+        <E i="518">
+            <Value>선택한 모든 트랙을 업로드하지 못했습니다. 성공적으로 업로드한 트랙을 매치하기 위해 공유 트랙 선택이 수정되었습니다.</Value>
+            <Path>TRACK_LOAD_FOR_SHARE_FAILED_TEXT</Path>
+        </E>
+        <E i="519">
+            <Value>트랙 업로드를 하는 중 오류가 발생했습니다.</Value>
+            <Path>TRACK_LOAD_FOR_SHARE_FAILED_TITLE</Path>
+        </E>
+        <E i="520">
+            <Value>잠겨 있는 트랙</Value>
+            <Path>TRACK_LOCKED_TITLE</Path>
+        </E>
+        <E i="521">
+            <Value>트랙이 잠겨 있습니다. 이 트랙을 즐기고 싶다면 이전 난이도의 트랙을 더 많이 플레이해야 합니다.</Value>
+            <Path>TRACK_LOCKED_VALUE</Path>
+        </E>
+        <E i="522">
+            <Value>트랙 이름을 입력해 합니다.</Value>
+            <Path>TRACK_NAME_EMPTY_TEXT</Path>
+        </E>
+        <E i="523">
+            <Value>트랙 이름이 없습니다.</Value>
+            <Path>TRACK_NAME_EMPTY_TITLE</Path>
+        </E>
+        <E i="524">
+            <Value>트랙 %1개</Value>
+            <Path>TRACK_PLURAL</Path>
+        </E>
+        <E i="525">
+            <Value>트랙이 저장됐습니다. 지금 바로 즐기거나, 공유하거나, 편집기에서 편집할 수 있습니다.</Value>
+            <Path>TRACK_SAVED_TEXT</Path>
+        </E>
+        <E i="526">
+            <Value>트랙 저장됨</Value>
+            <Path>TRACK_SAVED_TITLE</Path>
+        </E>
+        <E i="527">
+            <Value>장치가 제거됐기 때문에 트랙이 저장되지 않았습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_DEVICE_REMOVED_TEXT</Path>
+        </E>
+        <E i="528">
+            <Value>트랙 저장에 실패했습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_DEVICE_REMOVED_TITLE</Path>
+        </E>
+        <E i="529">
+            <Value>선택한 저장 장치가 제거되어 트랙을 저장하지 못했습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_MISSING_DEVICE_TEXT</Path>
+        </E>
+        <E i="530">
+            <Value>트랙 저장에 실패했습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_MISSING_DEVICE_TITLE</Path>
+        </E>
+        <E i="531">
+            <Value>공간이 부족하여 트랙이 저장되지 않았습니다..</Value>
+            <Path>TRACK_SAVE_FAILED_NOSPACE_TEXT</Path>
+        </E>
+        <E i="532">
+            <Value>트랙 저장에 실패했습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_NOSPACE_TITLE</Path>
+        </E>
+        <E i="533">
+            <Value>선택한 저장 장치에 이미 최대 100개의 트랙이 있어 이 트랙을 저장하지 못했습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_TOOMANY_TEXT</Path>
+        </E>
+        <E i="534">
+            <Value>트랙 저장에 실패했습니다.</Value>
+            <Path>TRACK_SAVE_FAILED_TOOMANY_TITLE</Path>
+        </E>
+        <E i="535">
+            <Value>트랙 %1개</Value>
+            <Path>TRACK_SINGULAR</Path>
+        </E>
+        <E i="536">
+            <Value>개체가 너무 많아 트랙을 저장할 수 없습니다. 개체 수를 줄이고 다시 시도하십시오.</Value>
+            <Path>TRACK_TOO_BUG_TEXT</Path>
+        </E>
+        <E i="537">
+            <Value>트랙이 너무 큽니다.</Value>
+            <Path>TRACK_TOO_BUG_TITLE</Path>
+        </E>
+        <E i="538">
+            <Value>튜토리얼</Value>
+            <Path>TRACK_TUTORIAL</Path>
+        </E>
+        <E i="539">
+            <Value>레이싱</Value>
+            <Path>TRACK_TYPE_0</Path>
+        </E>
+        <E i="540">
+            <Value>공 안에서</Value>
+            <Path>TRACK_TYPE_1</Path>
+        </E>
+        <E i="541">
+            <Value>높이 뛰기</Value>
+            <Path>TRACK_TYPE_10</Path>
+        </E>
+        <E i="542">
+            <Value>공중제비</Value>
+            <Path>TRACK_TYPE_11</Path>
+        </E>
+        <E i="543">
+            <Value>뒷바퀴 주행</Value>
+            <Path>TRACK_TYPE_12</Path>
+        </E>
+        <E i="544">
+            <Value>제작진</Value>
+            <Path>TRACK_TYPE_13</Path>
+        </E>
+        <E i="545">
+            <Value>스키 점프</Value>
+            <Path>TRACK_TYPE_2</Path>
+        </E>
+        <E i="546">
+            <Value>화염 링</Value>
+            <Path>TRACK_TYPE_3</Path>
+        </E>
+        <E i="547">
+            <Value>배달</Value>
+            <Path>TRACK_TYPE_4</Path>
+        </E>
+        <E i="548">
+            <Value>계단에서 떨어지기</Value>
+            <Path>TRACK_TYPE_5</Path>
+        </E>
+        <E i="549">
+            <Value>불길 속에서</Value>
+            <Path>TRACK_TYPE_6</Path>
+        </E>
+        <E i="550">
+            <Value>표적 사냥</Value>
+            <Path>TRACK_TYPE_7</Path>
+        </E>
+        <E i="551">
+            <Value>비탈길 오르기</Value>
+            <Path>TRACK_TYPE_8</Path>
+        </E>
+        <E i="552">
+            <Value>공 위에서</Value>
+            <Path>TRACK_TYPE_9</Path>
+        </E>
+        <E i="553">
+            <Value><![CDATA[<font color="#D7CAAD" size="60">\r
+튜토리얼\r
+</font>\r
+<font color="#E8AD1E" size="35">\r
+%1\r
+</font>]]></Value>
+            <Path>TUTORIAL_HEADER</Path>
+        </E>
+        <E i="554">
+            <Value>%DIFFNEXT 난이도를 열기 위해서는 %DIFFPREV 트랙을 %1회 더 플레이해야 합니다</Value>
+            <Path>UNLOCK_DIFFICULTY_IN_SELECTOR_PLURAL</Path>
+        </E>
+        <E i="555">
+            <Value>%DIFFNEXT 난이도를 열기 위해서는 %DIFFPREV 트랙을 %1회 더 플레이해야 합니다</Value>
+            <Path>UNLOCK_DIFFICULTY_IN_SELECTOR_SINGULAR</Path>
+        </E>
+        <E i="556">
+            <Value>정식 버전 게임 구매</Value>
+            <Path>UNLOCK_FULL_GAME</Path>
+        </E>
+        <E i="557">
+            <Value>%1를 즐기고 싶다면 "%3" 토너먼트에서 %2을 획득해야 합니다.</Value>
+            <Path>UNLOCK_HELP_CHALLENGE_TEXT</Path>
+        </E>
+        <E i="558">
+            <Value>%1를 타려면  %2 난이도의 트랙들을 즐길 수 있어야 합니다.</Value>
+            <Path>UNLOCK_HELP_DIFFICULTY_TEXT</Path>
+        </E>
+        <E i="559">
+            <Value>%1을 즐기고 싶다면 %3 난이도의 레이싱 모드에서 %RANK%MEDALS %NUM개를 획득해야 합니다.</Value>
+            <Path>UNLOCK_HELP_MEDALS_TEXT</Path>
+        </E>
+        <E i="560">
+            <Value>%1을 즐기고 싶다면 "%3" 트랙에서 %2을 획득해야 합니다.</Value>
+            <Path>UNLOCK_HELP_TRACK_TEXT</Path>
+        </E>
+        <E i="561">
+            <Value><![CDATA[\r
+<div align="left">\r
+<font color="#D8C69A" size="20">\r
+%1\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>UNLOCK_TEXT</Path>
+        </E>
+        <E i="562">
+            <Value>"%1" 바이크</Value>
+            <Path>UNLOCK_WHAT_BIKE</Path>
+        </E>
+        <E i="563">
+            <Value>"%1" 스킬 게임</Value>
+            <Path>UNLOCK_WHAT_SKILLGAME</Path>
+        </E>
+        <E i="564">
+            <Value>트랙 업로드를 완료하지 못했습니다. 네트워크 연결 상태를 확인한 후, 필요하다면 Xbox LIVE에 다시 연결하십시오.</Value>
+            <Path>UPLOAD_FAILED_NETWORK_TEXT</Path>
+        </E>
+        <E i="565">
+            <Value>트랙 업로드에 실패했습니다.</Value>
+            <Path>UPLOAD_FAILED_NETWORK_TITLE</Path>
+        </E>
+        <E i="566">
+            <Value><![CDATA[다음의 트랙은 이름에 불쾌한 표현이 들어갔기 때문에 업로드되지 못했습니다.\r
+]]></Value>
+            <Path>UPLOAD_FAILED_OFFENSIVE_TEXT</Path>
+        </E>
+        <E i="567">
+            <Value>불쾌한 트랙 이름!</Value>
+            <Path>UPLOAD_FAILED_OFFENSIVE_TITLE</Path>
+        </E>
+        <E i="568">
+            <Value>사용자가 트랙 업로드를 중단했습니다. 공유한 트랙 정보가 잘못된 상태일 수 있습니다.</Value>
+            <Path>UPLOAD_USER_ABORTED_TEXT</Path>
+        </E>
+        <E i="569">
+            <Value>트랙 업로드 중단!</Value>
+            <Path>UPLOAD_USER_ABORTED_TITLE</Path>
+        </E>
+        <E i="570">
+            <Value>트랙 편집기</Value>
+            <Path>USER_TRACK_HEADER</Path>
+        </E>
+        <E i="571">
+            <Value>개인 최고 기록</Value>
+            <Path>XCONTENT_PERSONAL_RECORDS</Path>
+        </E>
+        <E i="572">
+            <Value>임시 세션 다시보기</Value>
+            <Path>XCONTENT_SESSION_GHOSTS</Path>
+        </E>
+    </Entries>
+</XusFile>

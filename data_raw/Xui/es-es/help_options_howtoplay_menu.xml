@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Atrás</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Volver\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HowToText.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HowToText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Carrera de trial\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+El objetivo del juego es llegar al final de la pista cometiendo tan pocas faltas como sea posible y en poco tiempo. Simplemente por superar la pista, se entregará una medalla de bronce, pero si lo haces mejor, se entregarán otras medallas.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Faltas\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Una falta ocurre cuando el conductor le da la vuelta a la moto o recibe mucho daño del exterior. Tras cometer una falta, la moto se coloca en el último punto de control que el conductor ha pasado.\r
+<br><br>\r
+Recuerda que las faltas son un factor principal a la hora de clasificar las puntuaciones. No importa lo rápido que hayas conducido, siempre es mejor si puedes acabar con pocas faltas, aunque hayas conducido más lento.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Juegos de habilidad\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Los Juegos de habilidad se desbloquean a medida que avanzas en el juego. Sus objetivos varían, y se muestran antes de que el juego comience. Trials HD utiliza un sistema de efectos físicos muy sofisticado, y nada se deja al azar en el juego. Los movimientos avanzados necesitan un mayor control, pero practicando se llega a la perfección. ¡Buena suerte!\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Movimiento avanzado: Salto de muelle - Realiza saltos más grandes\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Al acelerar hacia una rampa, inclínate hacia atrás. Justo antes del salto, lleva rápidamente el peso del conductor hacia delante. Con el Salto de muelle, ganarás más altura en las cuestas especialmente empinadas. Un buen lugar para practicar este truco es la segunda cuesta del tutorial del nivel difícil.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Movimiento avanzado: Salto de intercambio - Salta en el suelo firme\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Inclínate hacia delante, acelera y lleva rápidamente tu peso hacia atrás y a continuación hacia delante. Así aumentará el momento flector y podrás saltar más en el suelo firme. Un buen lugar para practicar este truco es el comienzo del tutorial del nivel difícil.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Movimiento avanzado: Vuelta - Salta más alto desde las rampas.\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Levanta la rueda delantera y acelera en cualquier salto. Mueve tu peso hacia delante y forzarás a la moto a dar una vuelta en esa dirección. Este truco puede ayudarte a aumentar el momento flector antes del salto y es especialmente útil cuando estás ante rampas que te lanzan directamente hacia arriba, en lugar de hacia abajo El mejor lugar para practicar este truco es el Juego de habilidad de Salto con esquís.\r
+<br><br>\r
+</font>]]></Value>
+            <Path>XuiScene.HowToText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>CÓMO SE JUEGA</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

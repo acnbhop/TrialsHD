@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Einfach</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Werkzeuge</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Erweitert</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Technikparcours</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Zurück</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Editor<br></font><font color="#D7CAAD" size="20">Der Strecken-Editor ist ein leistungsfähiges Tool zum Erstellen neuer Strecken, die du fahren und für Freunde freigeben kannst. Alle im Spiel enthaltenen Strecken wurden mit diesem Editor erstellt. Nichts hindert dich somit daran, Strecken zu erstellen, die genauso gut sind wie die vordefinierten Strecken im Spiel - oder sogar besser. Die Arbeit mit dem Editor lernst du am besten, indem du ihn einfach verwendest und mit den Features spielst. Nur zu! Es macht Spaß!<br><br>Der Strecken-Editor bietet zwei verschiedene Modi: <font color="#EBB40F"><b>Einfacher Modus</b></font> und <font color="#EBB40F"><b>Erweiterter Modus</b></font>. Im einfachen Modus kannst du einfache Strecken erstellen und die Kamera eingeschränkt steuern. Die Objektplatzierung und -auswahl sind auf die Spur beschränkt, auf der das Motorrad fährt. Im einfachen Modus kannst du den grundlegenden Aufbau der Strecke sehr leicht festlegen.<br><br>Im erweiterten Modus kannst du Kamera und Objektplatzierung präziser steuern, und es stehen mehr Objekte zur Auswahl. Außerdem lassen sich die Objekteigenschaften anpassen, um physikalische Effekte auszulösen. Hierdurch kannst du Objekte erstellen, die der Schwerkraft und anderen Kräften unterliegen. Im erweiterten Modus kannst du darüber hinaus Technikparcours bauen sowie eine Strecke präziser gestalten und optimieren.<br><br>In beiden Modi siehst du die jeweils verfügbaren Befehle unten auf dem Bildschirm. Du kannst verschiedene Elemente auswählen, sie drehen und an einer beliebigen Position auf der Strecke platzieren. Objekte bleiben an der Stelle, an der du sie platzierst (auch wenn sie in der Luft schweben), es sei denn, du aktivierst die physikalischen Eigenschaften des Objekts.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>Einfach</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">Übersicht der Werkzeuge<br></font><font color="#D7CAAD" size="20">Die Handhabung des Strecken-Editors ist ziemlich intuitiv. Achte einfach auf die Befehle, die unten auf dem Bildschirm angezeigt werden. Mit diesen Befehlen kannst du  Strecken erstellen. Die folgenden Funktionen sind  besonders hilfreich:<br><br><font color="#EBB40F" ><b>Kopieren</b></font> - Du kannst das ausgewählte Element kopieren, was Zeit und Mühe spart. Dieser Befehl ist insbesondere in Kombination mit der Mehrfachauswahl (siehe unten) nützlich, da du die Strecke sehr schnell mit Objekten füllen kannst. Du kannst das ausgewählte Objekt mit der <font color="#9DA0A4">(Y)</font>-Taste <img src="images/menu_buttons_y_bg_small.dds" align="middle" /> kopieren.<br><br><font color="#EBB40F"><b>An Fahrspur ausrichten</b></font> - Wenn du den <font color="#9DA0A4">(RECHTEN STICK)</font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" /> einmal drückst, wird das ausgewählte Objekt über der Fahrspur zentriert. Beim erneuten Drücken wird die Objektdrehung zurückgesetzt.<br><br><font color="#EBB40F"><b>Drehen/Einrasten</b></font> - Mit dem <font color="#9DA0A4">(LINKEN BUMPER)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> wird das Objekt 90 Grad um die ausgewählte Achse gedreht. Wenn das ausgewählte Objekt einen zufälligen Drehwinkel hat, wird es zuerst auf die ursprüngliche Drehung zurückgesetzt. Wenn du dann den <font color="#9DA0A4">(LINKEN BUMPER)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> drückst, wird das Objekt anschließend um jeweils 90 Grad gedreht.<br><br><font color="#EBB40F"><b>Mehrfachauswahl</b></font> - Mit der Mehrfachauswahl kannst du mehrere Objekte auswählen und gleichzeitig verschieben. Wenn du anschließend die Kopierfunktion verwendest, kannst du leicht und schnell große Abschnitte der Strecke duplizieren. Zum Auswählen mehrerer Objekte hältst du den <font color="#9DA0A4">(LINKEN BUMPER)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> gedrückt und wählst dann die gewünschten Objekte aus.<br><br><font color="#EBB40F"><b>Befestigen</b></font> - Mit dieser Option kannst du mehrere Objekte zu einem Objekt zusammenfügen. Hierdurch wird es einfacher, große, bearbeitete Abschnitte der Strecke zu erstellen. Zum Befestigen (oder Lösen) eines markierten Objekts wählst du in den Objekteigenschaften die Option "An Objekt befestigen".<br><br><font color="#EBB40F">Hinweis:</font> Zum Lösen musst du das befestigte Objekt innerhalb der Gruppe per Unterauswahl markieren.<br><br><font color="#EBB40F"><b>Unterauswahl</b></font> - Mit der Unterauswahl kannst du bestimmte Elemente eines größeren Objekts, das du durch Befestigen mehrerer Objekte erstellt hast, auswählen und bearbeiten. Die Unterauswahl erfolgt, indem du den <font color="#9DA0A4">(LINKEN BUMPER)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> gedrückt hältst und dann die gewünschten Elemente auswählst. Das Verfahren entspricht im Prinzip der Mehrfachauswahl.<br><br><font color="#EBB40F"><b>Kontrollpunktsprung</b></font> - Wenn du eine Strecke im Editor prüfst, kannst du durch Drücken des <font color="#9DA0A4">(LINKEN BUMPERS)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> oder des <font color="#9DA0A4">(RECHTEN BUMPERS)</font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" /> rückwärts und vorwärts zu den Kontrollpunkten springen, um den Level schnell und effizient zu testen.<br><br></font><font color="#EBB40F" size="30">Bereichskomplexität<br></font><font color="#D7CAAD" size="20">Für die Komplexität der Strecken gelten bestimmte Grenzen, die jedoch sehr großzügig bemessen sind. Solltest du jedoch beispielsweise versuchen, sehr viele physikalische Objekte auf engstem Raum unterzubringen, hätte dies zur Folge, dass das Spiel zu langsam ausgeführt würde. Wenn du die Komplexitätsgrenze erreicht hast, musst du die Abstände zwischen den Streckenelementen vergrößern oder Streckenelemente entfernen.<br><br></font><font color="#EBB40F" size="30">Kontrollpunkte<br></font><font color="#D7CAAD" size="20">Du kannst auf einer Strecke bis zu 15 Kontrollpunkte (inkl. des ersten und des letzten Kontrollpunkts) festlegen. Der letzte Kontrollpunkt in der Abfolge ist immer die Ziellinie, die der Spieler überqueren muss, um die Strecke zu absolvieren.<br><br></font><font color="#EBB40F" size="30">Erweiterungsräume<br></font><font color="#D7CAAD" size="20">Im erweiterten Modus kannst du die Räume durch Hinzufügen oder Entfernen von Räumen anpassen, wodurch du mehr Spielraum beim Streckenaufbau erhältst. Räume können wie jedes andere Objekt mit der <font color="#9DA0A4">(A)</font>-Taste <img src="images/menu_buttons_a_bg_small.dds" align="middle" /> ausgewählt werden. Drücke anschließend die <font color="#9DA0A4">(X)</font>-Taste <img src="images/menu_buttons_x_bg_small.dds" align="middle" />, um den Raum zu löschen, oder die <font color="#9DA0A4">(Y)</font>-Taste <img src="images/menu_buttons_y_bg_small.dds" align="middle" />, um einen Raum neben der ausgewählten Wand zu erstellen.<br><br></font><font color="#EBB40F" size="30">Editormenü<br></font><font color="#D7CAAD" size="20">Der Zugriff auf das Editormenü erfolgt durch Drücken der <font color="#9DA0A4">(START)</font>-Taste <img src="images/menu_buttons_start_bg_small.dds" align="middle" />. Von diesem Menü aus kannst du eine Testfahrt auf der Strecke absolvieren, das Motorrad für die Testfahrt auswählen und Streckeneinstellungen anpassen. Du kannst die soeben erstellte Strecke speichern, eine vorhandene Strecke laden, mit dem Erstellen einer neuen Strecke beginnen oder die vorhandenen Strecken verwalten. Über dieses Menü kannst du auch zwischen dem einfachen und dem erweiterten Modus wechseln. Außerdem kannst du von hier aus auf diesen Hilfetext zugreifen - was du aber vermutlich schon selbst herausgefunden hast!<br><br></font>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Werkzeuge</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Objekteigenschaften: Physik<br></font><font color="#D7CAAD" size="20">Im Strecken-Editor bezeichnet "Physik" ein objektspezifisches Konzept. Wenn die Einstellung "Physik" für ein Objekt aktiviert ist, wirken Schwerkraft, Impulskraft und andere Kräfte und Faktoren, z. B. das Motorrad des Spielers, auf das Objekt. Ein solches Objekt kann herunterfallen oder umkippen, und sein Gewicht und Schwung können sich auf andere physikalische Objekte auswirken - was auch für das Motorrad des Spielers gilt! Mit diesen Objekten lassen sich spannende Strecken erstellen, auf denen der Spieler in Interaktion mit den Objekten treten muss, um sich einen Weg zu bahnen, oder bei denen plötzlich Streckenänderungen auftreten, sobald der Spieler einen bestimmten Punkt erreicht. Du kannst feststellen, wie sich Schwerkraft und andere physikalische Eigenschaften praktisch auswirken, indem du die Funktion "Physik ein/aus" mit der <font color="#9DA0A4">(BACK)</font>-Taste <img src="images/menu_buttons_back_bg_small.dds" align="middle" /> auswählst.<br><br></font><font color="#EBB40F" size="30">Gelenke<br></font><font color="#D7CAAD" size="20">Ein Gelenk ist ein besonderes Objekt, das es dir ermöglich, komplexere physikalische Objekte wie Autos und Schaukeln zu erstellen. Gehe folgendermaßen vor, um ein funktionsfähiges Gelenk zu erstellen: Erstelle zuerst das Gelenk-Objekt. Befestige dann Objekte separat an beiden Seiten des Gelenks - das Gelenk selbst kann nicht an einem anderen Objekt befestigt werden; du musst andere Objekte am Gelenk befestigen. Nachdem du beide Objekte am Gelenk befestigt hast, aktivierst du die Einstellung "Physik" für die Objekte, die sich gemäß den Gesetzen der Physik verhalten sollen.<br><br></font><font color="#EBB40F" size="30">Auslöser<br></font><font color="#D7CAAD" size="20">Ein Auslöser ist ein Mechanismus, der auf der Strecke ein bestimmtes Ereignis auslöst, sobald der Spieler einen bestimmten Punkt auf der Strecke erreicht. Wenn du einen Auslöser auf der Strecke platzierst, musst du ihn mit einem anderen Objekt verknüpfen und angeben, welche Eigenschaften des Objekts durch diesen Auslöser aktiviert werden sollen. Wenn der Spieler über den Auslöser fährt, werden diese Eigenschaften aktiviert.<br><br><font color="#EBB40F"><b>Physik</b></font>- Schwerkraft und andere Kräfte wirken auf das Objekt. Gegenstände fallen herunter, prallen von anderen Objekten ab, können vom Motorrad weggestoßen werden usw.<br><br><font color="#EBB40F"><b>Explodieren/Zersplittern</b></font>- Das Objekt bricht auseinander oder explodiert, wenn sein Auslöser aktiviert wird.<br><br><font color="#EBB40F">Hinweis:</font> Nicht alle Objekte können zerstört werden.<br><br><font color="#EBB40F"><b>Licht</b></font>- Ein Licht wird ein- oder ausgeschaltet.<br><br><font color="#EBB40F"><b>Animation</b></font>- Löst die Bewegung eines animierten Objekts aus, z. B. der Flipper-Objekte. Wenn es zu Wechselwirkungen zwischen dem animierten Objekt und dem Spieler kommen soll, musst du neben "Animation" auch die Eigenschaft "Physik" auswählen.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>Erweitert</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Erstellen von Technikparcours<br></font><font color="#D7CAAD" size="20">Zum Auswählen des Technikparcours, den du erstellen möchtest, wählst du im Pausenmenü innerhalb des Editors die Option "Streckeneinstellungen" aus und passt dann den Streckenstil an. Zwölf verschiedene Technikparcours stehen zur Auswahl.<br><br><font color="#EBB40F">Hinweis:</font> Verwende bei allen Technikparcours <font color="#EBB40F">nur einen Kontrollpunkt</font> für den Start der Strecke. Mehrere Kontrollpunkte können zu unerwünschten Effekten führen.<br><br></font><font color="#EBB40F" size="30"><br>Kugel innen<br></font><font color="#D7CAAD" size="20">Ziel ist es, innerhalb der riesigen Eisenkugel so weit wie möglich zu kommen.<br><br><font color="#EBB40F">1:</font> Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objekte für Technikparcours -> Riesenkugel innen<br><font color="#EBB40F">2:</font> Wähle die neu erstellte Kugel aus, und drücke das <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" />, um auf die Eigenschaften zuzugreifen. Stelle sicher, dass "Physik" und "Auf Fahrspur fixieren" aktiviert sind.<br><font color="#EBB40F">3:</font> Zentriere die Kugel auf der Fahrspur, und platziere den Kontrollpunkt, sodass er auf den Mittelpunkt in der Riesenkugel zeigt.<br><br></font><font color="#EBB40F" size="30"><br>Skisprung<br></font><font color="#D7CAAD" size="20">Springe so weit wie möglich. Wenn du den Boden berührst, markiert dies das Ende und somit die Länge des Sprungs.<br><br><font color="#EBB40F">1:</font> Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objekte für Technikparcours -> Schanzenrandauslöser<br><font color="#EBB40F">2:</font> Platziere die Auslöserobjekte in der Luft hinter der Rampe. Die Aufzeichnung der Sprunglänge beginnt, sobald das Motorrad den Auslöser berührt.<br><br><font color="#EBB40F">Hinweis:</font> Stelle sicher, dass das Motorrad vollständig in der Luft ist, wenn der Auslöser aktiviert wird. Andernfalls wird der Sprung als Fehlsprung gewertet.<br><br>Als Motorrad kann nur das Scorpion Air 125cc verwendet werden.<br><br></font><font color="#EBB40F" size="30"><br>Feuerreifen<br></font><font color="#D7CAAD" size="20">Fliege durch möglichst viele Feuerreifen. Sobald du einen Feuerreifen passiert hast, erhältst du zusätzlichen Schub.<br><br><font color="#EBB40F">1:</font> Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objekte für Technikparcours -> Feuerreifen-Startauslöser<br><font color="#EBB40F">2:</font> Platziere das Auslöserobjekt in der Luft, sodass das Motorrad hindurchfliegt, bevor es den ersten Feuerreifen passiert.<br><font color="#EBB40F">3:</font> Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objekte für Technikparcours -> Feuerreifen<br><font color="#EBB40F">4:</font> Kopiere den Feuerreifen, und platziere ihn, um den gewünschten Level zu erstellen.<br><br><font color="#EBB40F">Hinweis 1:</font> Stelle sicher, dass das Motorrad vollständig in der Luft ist, wenn der Auslöser aktiviert wird. Andernfalls wird der Sprung als Fehlsprung gewertet.<br><font color="#EBB40F">Hinweis 2:</font> Du musst viele freie Räume bereitstellen, um Platz für den Sprung zu schaffen.<br><br></font><font color="#EBB40F" size="30"><br>Lieferung<br></font><font color="#D7CAAD" size="20">Transportiere die Bomben mit dem Auslieferungskarren möglichst weit. Stärkere Stöße und Aufschläge, die auf den Karren einwirken, führen dazu, dass die Bomben explodieren. Plane die Strecke also entsprechend.<br><br>Als Motorrad kann ausschließlich das Hauler 600cc verwendet werden.<br><br></font><font color="#EBB40F" size="30"><br>In Flammen<br></font><font color="#D7CAAD" size="20">Versuche, so lange wie möglich zu überleben, während du von Flammen eingeschlossen bist. Bedenke bei der Planung des Levels Folgendes: Je schneller du fährst, desto mehr bleibt das Feuer unter Kontrolle.<br><br><font color="#EBB40F">Hinweis:</font> Damit der Fahrer Feuer fängt, müssen entlang der Fahrspur Feuereffekte platziert werden, durch die das Motorrad fahren muss. Beispiel: Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Effekte -> Feuer 2, und platziere es auf der Fahrspur.<br><br></font><font color="#EBB40F" size="30"><br>Zielscheibenjagd<br></font><font color="#D7CAAD" size="20">Sammle so viele Zielscheiben wie möglich, ohne einen Fehler zu machen.<br><br><font color="#EBB40F">1:</font> Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objekte für Technikparcours ->  Zielscheibenjagd-Treffer<br><font color="#EBB40F">2:</font> Platziere die Crash-Zielscheiben überall im Level.<br><br></font><font color="#EBB40F" size="30"><br>Bergrennen<br></font><font color="#D7CAAD" size="20">Versuche, so hoch wie möglich zu kommen.<br><br><font color="#EBB40F">Hinweis:</font> Durch einen Absprung wird die Strecke beendet.<br><br></font><font color="#EBB40F" size="30"><br>Kugel außen<br></font><font color="#D7CAAD" size="20">Versuche, auf der Kugel so weit wie möglich zu kommen, ohne herunterzufallen.<br><br><font color="#EBB40F">1:</font> Erstelle das Objekt mit <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objekte für Technikparcours -> Riesenkugel außen<br><font color="#EBB40F">2:</font> Wähle die neu erstellte Kugel aus, und drücke das <font color="#9DA0A4">(STEUERKREUZ OBEN)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" />, um auf die Eigenschaften zuzugreifen. Stelle sicher, dass "Physik" und "Auf Fahrspur fixieren" aktiviert sind.<br><font color="#EBB40F">3:</font> Zentriere die Kugel auf der Fahrspur, und platziere den Kontrollpunkt so, dass er auf die Spitze der Riesenkugel zeigt.<br><br>Als Motorrad kann ausschließlich das Phoenix REV 250cc verwendet werden.<br><br></font><font color="#EBB40F" size="30"><br>Hochsprung<br></font><font color="#D7CAAD" size="20">Gewinne so viel Höhe wie möglich.<br><br><font color="#EBB40F">Hinweis:</font> Durch einen Absprung kannst du noch mehr Höhe gewinnen.<br><br></font><font color="#EBB40F" size="30"><br>Salto<br></font><font color="#D7CAAD" size="20">Führe möglichst viele Salti aus. Ein Fehler führt zur Beendigung des Spiels.<br><br><font color="#EBB40F">Hinweis:</font> Die Zeit ist auf 1 Minute begrenzt.<br><br></font><font color="#EBB40F" size="30"><br>Wheelie<br></font><font color="#D7CAAD" size="20">Fahre möglichst lange auf dem Hinterrad. Das Vorderrad darf den Boden nicht berühren.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Technikparcours</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>EDITORHILFE</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

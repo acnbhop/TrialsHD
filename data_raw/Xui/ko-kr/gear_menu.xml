@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.AccelerationProgressBar.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>가속력</Value>
+            <Path>XuiScene1.BikeInfoGroup.AccelerationProgressBar.Text</Path>
+        </E>
+        <E i="2">
+            <Value>17.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeDifficultyText.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value></Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeDifficultyText.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeNameText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value></Value>
+            <Path>XuiScene1.BikeInfoGroup.BikeNameText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.BrakesText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>브레이크:</Value>
+            <Path>XuiScene1.BikeInfoGroup.BrakesText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.HandlingProgressBar.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>제어력</Value>
+            <Path>XuiScene1.BikeInfoGroup.HandlingProgressBar.Text</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BikeInfoGroup.TopSpeedProgressBar.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>최고 속도</Value>
+            <Path>XuiScene1.BikeInfoGroup.TopSpeedProgressBar.Text</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+뒤로\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.Text</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="36">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="37">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="38">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="39">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="40">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="41">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="42">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="43">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="44">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="45">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="46">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="47">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="48">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="49">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="50">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="51">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="52">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="53">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="54">
+            <Value></Value>
+            <Path>XuiScene1.GearCategoryGroup.GearCategoryList.XuiListItem1.Text</Path>
+        </E>
+        <E i="55">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.Text</Path>
+        </E>
+        <E i="57">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="67">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="68">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="69">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="70">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="71">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="73">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="74">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="75">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="76">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="77">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="78">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="79">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="80">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="81">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="82">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="83">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="84">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="85">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="86">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="87">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="88">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="89">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="90">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="91">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="92">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="93">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="94">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="95">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="96">
+            <Value></Value>
+            <Path>XuiScene1.GearColorGroup.GearColorList.XuiListItem2.Text</Path>
+        </E>
+        <E i="97">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.PointSize</Path>
+        </E>
+        <E i="98">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.Text</Path>
+        </E>
+        <E i="99">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="100">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="101">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="102">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="103">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="104">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="105">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="106">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="107">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="108">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="109">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="110">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="111">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="112">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="113">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="114">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="115">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="116">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="117">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="118">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="119">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="120">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="121">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="122">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="123">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="124">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="125">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="126">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="127">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="128">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="129">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="130">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="131">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="132">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="133">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="134">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="135">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="136">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="137">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="138">
+            <Value></Value>
+            <Path>XuiScene1.GearItemGroup.GearItemList.XuiListItem1.Text</Path>
+        </E>
+        <E i="139">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.PointSize</Path>
+        </E>
+        <E i="140">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.Text</Path>
+        </E>
+        <E i="141">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="142">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="143">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="144">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="145">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="146">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="147">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="148">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="149">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="150">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="151">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="152">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="153">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="154">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="155">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="156">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="157">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="158">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="159">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="160">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="161">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="162">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="163">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="164">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="165">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="166">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="167">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="168">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="169">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="170">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="171">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="172">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="173">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="174">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="175">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="176">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="177">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="178">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="179">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="180">
+            <Value></Value>
+            <Path>XuiScene1.GearSelectBikeGroup.GearSelectBikeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="181">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.Text</Path>
+        </E>
+        <E i="183">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="184">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="185">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="186">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="187">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="188">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="189">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="190">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="191">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="192">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="193">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="194">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="195">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="196">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="197">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="198">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="199">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="200">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="201">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="202">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="203">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="204">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="205">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="206">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="207">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="208">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="209">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="210">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="211">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="212">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="213">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="214">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="215">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="216">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="217">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="218">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="219">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="220">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="221">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="222">
+            <Value></Value>
+            <Path>XuiScene1.GearTypeGroup.GearTypeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="223">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="224">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="225">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="226">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="227">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="228">
+            <Value>차고</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

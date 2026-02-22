@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.A-Button.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Video überspringen</Value>
+            <Path>XuiScene1.A-Button.Text</Path>
+        </E>
+        <E i="2">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Zurück</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.Grunge-BG-Animations.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Grunge-BG-Animations.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Aliquam eleifend, turpis eu auctor pretium.</Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<font color="#D7CAAD" size="60">\r
+Lernprogramm\r
+<font color="#E8AD1E" size="35">\r
+schwer\r
+</font>]]></Value>
+            <Path>XuiScene1.Title.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

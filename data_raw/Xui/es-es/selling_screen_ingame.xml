@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.AchievementGroup.AchievementDescription.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[ksjd skldjlksldks lsd lfks dfls dljksd flkjsdlfks l sldkfjsd sl \r
+lskjdlksd sldfjsl kfjslkdfj\r
+s dks fksdflksjdflksdf sldkf sd lsdf skdfjlskjf sdlf sdf\r
+ sldkfjs löklsdf]]></Value>
+            <Path>XuiScene1.AchievementGroup.AchievementDescription.Text</Path>
+        </E>
+        <E i="2">
+            <Value>28.000000</Value>
+            <Path>XuiScene1.AchievementGroup.AchievementName.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.AchievementGroup.AchievementName.Text</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="25">\r
+\r
+\r
+\r
+\r
+</font>\r
+</div>\r
+]]></Value>
+            <Path>XuiScene1.AchievementGroup.GamerScoreText.Text</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<table>\r
+<tr height="270" align="left" valign="middle">\r
+<td>\r
+<font color="#EBB40F" size="35">\r
+<b>\r
+Para conservar tu<br>\r
+logro<br>,\r
+¡hazte con el juego completo!\r
+</b>\r
+</font>\r
+</td>\r
+</tr>\r
+</table>]]></Value>
+            <Path>XuiScene1.AchievementGroup.SellingHTMLText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.AchievementGroup.SellingTitleText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>¡Desbloquea el juego completo para conseguir tu logro!</Value>
+            <Path>XuiScene1.AchievementGroup.SellingTitleText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Atrás</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Volver al juego\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+Desbloquear juego completo\r
+\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value><![CDATA[<table>\r
+<tr height="270" align="left" valign="middle">\r
+<td>\r
+<font color="#EBB40F" size="30">\r
+<b>\r
+¡Desbloquea el juego completo<br>\r
+para compartir y conseguir <br>\r
+pistas de tus amigos!\r
+</b>\r
+</font>\r
+</td>\r
+</tr>\r
+</table>]]></Value>
+            <Path>XuiScene1.CustomTrackGroup.SellingHTMLText.Text</Path>
+        </E>
+        <E i="12">
+            <Value>40.000000</Value>
+            <Path>XuiScene1.CustomTrackGroup.SellingTitleText.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>Desbloquea el juego completo para tener acceso a las pistas personalizadas</Value>
+            <Path>XuiScene1.CustomTrackGroup.SellingTitleText.Text</Path>
+        </E>
+        <E i="14">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.CustomTrackGroup.XuiText2.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CustomTrackGroup.XuiText2.Text</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[<table>\r
+<tr height="1" align="left" valign="middle">\r
+<td>\r
+<font color="#EBB40F" size="17">\r
+<b>\r
+¡Has pasado la versión de demostración! Ahora posees las habilidades <br>\r
+para meterte de lleno en la experiencia de la conducción en Trials.<br><br>\r
+</b>\r
+</font>\r
+</td>\r
+</tr>\r
+\r
+<tr height="1" align="center" valign="middle">\r
+<td>\r
+<font color="#D8C69A" size="23">\r
+<b>\r
+Más de 50 pistas<br>\r
+Juegos de habilidad<br>\r
+Múltiples motos <br>\r
+Niveles compartidos<br>\r
+Puesta a punto del conductor y de la moto <br>\r
+\r
+</b>\r
+</font>\r
+</td>\r
+</tr>\r
+</table>]]></Value>
+            <Path>XuiScene1.DemoFinishedGroup.SellingHTMLText.Text</Path>
+        </E>
+        <E i="17">
+            <Value>40.000000</Value>
+            <Path>XuiScene1.DemoFinishedGroup.SellingTitleText.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>¡Desbloquea el juego completo para jugar más!</Value>
+            <Path>XuiScene1.DemoFinishedGroup.SellingTitleText.Text</Path>
+        </E>
+        <E i="19">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.DemoFinishedGroup.XuiText2.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.DemoFinishedGroup.XuiText2.Text</Path>
+        </E>
+        <E i="21">
+            <Value><![CDATA[<table>\r
+<tr height="250" align="left" valign="middle">\r
+<td>\r
+<font color="#EBB40F" size="35">\r
+<b>\r
+Para cargar, guardar y<br>\r
+organizar tus pistas,<br>\r
+desbloquea el juego completo.\r
+</b>\r
+</font>\r
+</td>\r
+</tr>\r
+</table>]]></Value>
+            <Path>XuiScene1.EditorSaveGroup.SellingHTMLText.Text</Path>
+        </E>
+        <E i="22">
+            <Value>40.000000</Value>
+            <Path>XuiScene1.EditorSaveGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>¡Para guardar tu pista, desbloquea el juego completo!</Value>
+            <Path>XuiScene1.EditorSaveGroup.XuiText1.Text</Path>
+        </E>
+        <E i="24">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.EditorSaveGroup.XuiText2.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.EditorSaveGroup.XuiText2.Text</Path>
+        </E>
+        <E i="26">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="28">
+            <Value><![CDATA[<table>\r
+<tr height="280" align="left" valign="middle">\r
+<td>\r
+<font color="#EBB40F" size="35">\r
+<b>\r
+¡Desbloquea el<br>\r
+juego completo\r
+para conseguir<br>\r
+las más de 50 pistas!\r
+</b>\r
+</font>\r
+</td>\r
+</tr>\r
+</table>]]></Value>
+            <Path>XuiScene1.LockedTrackGroup.SellingHTMLText.Text</Path>
+        </E>
+        <E i="29">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.LockedTrackGroup.SellingText.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.LockedTrackGroup.SellingText.Text</Path>
+        </E>
+        <E i="31">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.LockedTrackGroup.SellingTitleText.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>PARA JUGAR EN ESTA PISTA, DESBLOQUEA EL JUEGO COMPLETO</Value>
+            <Path>XuiScene1.LockedTrackGroup.SellingTitleText.Text</Path>
+        </E>
+        <E i="33">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="35">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value>DESBLOQUEAR JUEGO COMPLETO</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+        <E i="37">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="28">\r
+Tu resultado ha sido\r
+</font>\r
+\r
+<font color="#D8C69A" size="28">\r
+01:23:456\r
+</font>\r
+\r
+<font color="#EBB40F" size="28">\r
+y\r
+</font>\r
+\r
+<font color="#D8C69A" size="28">\r
+66200\r
+</font>\r
+\r
+<font color="#EBB40F" size="28">\r
+faltas\r
+</font>\r
+\r
+\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.TrackResultGroup.ResultText.Text</Path>
+        </E>
+        <E i="38">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.TrackResultGroup.SellingText.PointSize</Path>
+        </E>
+        <E i="39">
+            <Value>¡Desbloquea el juego completo para guardar tu puntuación!</Value>
+            <Path>XuiScene1.TrackResultGroup.SellingText.Text</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Volver al juego\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+Reintentar\r
+\r
+<img src="images/menu_buttons_x_bg.dds" align="middle" /> \r
+Desbloquear juego completo\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.TrackResultGroup.XuiHtmlElement1.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

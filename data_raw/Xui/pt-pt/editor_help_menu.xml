@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Básicas</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Ferramentas</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Avançadas</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Jogos de Perícia</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Voltar</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Voltar\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Editor<br></font><font color="#D7CAAD" size="20">O Editor de Pistas é uma ferramenta potente que podes usar para criar novas pistas para jogares e partilhares com os teus amigos. Todas as pistas existentes no jogo são criadas com esta ferramenta, pelo que nada te impede de criar pistas tão boas como as do jogo - ou até melhores! A melhor maneira de aprenderes a usar o Editor de Pistas é utilizando-o e brincando com as funcionalidades. Experimenta, é divertido!<br><br>O Editor de Pistas está dividido em dois modos diferentes: o <font color="#EBB40F"><b>Modo Simples</b></font> e o <font color="#EBB40F"><b>Modo Avançado</b></font>. No Modo Simples podes criar pistas básicas e tens um controlo limitado sobre a câmara. A colocação e selecção de objectos é também limitada à linha que a mota percorre. No Modo Simples podes criar a estrutura básica da tua pista com grande facilidade.<br><br>No Modo Avançado tens mais controlo sobre a colocação da câmara e dos objectos e a variedade de objectos disponíveis é maior. Também podes ajustar as propriedades dos objectos para despoletar efeitos de física, podendo criar objectos que são afectados pela gravidade e outras forças. No Modo Avançado também podes criar pistas de Jogo de Perícia. No Modo Avançado podes afinar e alterar a tua pista em maior detalhe.<br><br>Em ambos os modos, podes encontrar os comandos actualmente disponíveis no fundo do ecrã. Podes seleccionar diversos itens, rodá-los e colocá-los onde queiras na pista. Os objectos ficam onde os colocares (mesmo que flutuem no ar) a não ser que actives a física nas suas propriedades.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>Básicas</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">Resumo das Ferramentas<br></font><font color="#D7CAAD" size="20">A utilização do editor de pistas é muito intuitiva. Basta prestares atenção aos comandos listados no fundo do ecrã do editor e isso ajudar-te-á a construir as pistas que pretendes. No entanto, as seguintes funcionalidades são especialmente úteis:<br>\r
+<br><font color="#EBB40F"><b>Copiar</b></font>- Podes copiar o elemento que seleccionaste. Isto poupa tempo e esforço, além de ser especialmente útil com a funcionalidade de multi-selecção (ver mais abaixo), pois permite-te encher a pista rapidamente. Podes copiar o objecto seleccionado com o botão <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" />.<br><br><font color="#EBB40F"><b>Alinhar à linha de condução</b></font>- Ao premires o botão <font color="#9DA0A4">(MANÍPULO ANALÓGICO DIREITO)</font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" /> uma vez, o objecto seleccionado ficará centrado na linha de condução. Ao premires o botão uma segunda vez, a rotação do objecto também é reposta.<br>\r
+<br><font color="#EBB40F"><b>Alinhar à rotação</b></font>-O botão <font color="#9DA0A4">(BOTÃO SUPERIOR ESQUERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> roda o objecto 90 graus sobre o eixo seleccionado. Se o objecto seleccionado se encontrar num ângulo arbitrário, primeiro é reposto na rotação original a partir da qual quando primes o botão <font color="#9DA0A4">(BOTÃO SUPERIOR ESQUERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> ele será rodado e alinhado a 90 graus.<br>\r
+<br><font color="#EBB40F"><b>Multi-selecção</b></font>- Com a opção multi-selecção podes seleccionar vários objectos e movê-los ao mesmo tempo. Se nessa altura utilizares a funcionalidade de cópia, podes duplicar com rapidez e facilidade grandes secções da mesma pista. Podes multi-seleccionar objectos mantendo o botão <font color="#9DA0A4">(BOTÃO SUPERIOR ESQUERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> premido e depois seleccionando objectos.<br><br><font color="#EBB40F"><b>Colar</b></font>- Com a opção de colar podes prender vários objectos a um único objecto, permitindo-te criar grandes secções da tua pista que se manipulam com maior facilidade. Podes colar (ou descolar) o objecto seleccionado seleccionando "Colar ao Objecto" nas propriedades do objecto. Nota: para descolares, deves utilizar Sub-selecção (ver mais abaixo) para seleccionares o objecto colado dentro do grupo.<br><br><font color="#EBB40F"><b>Sub-selecção</b></font>- Com a opção de sub-selecção podes seleccionar e manipular elementos específicos de um objecto maior que criaste colando vários objectos. Podes sub-seleccionar objectos mantendo o botão <font color="#9DA0A4">(BOTÃO SUPERIOR ESQUERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> premido e depois seleccionando os elementos que pretendes. Basicamente da mesma forma que na Multi-selecção.<br><br><font color="#EBB40F"><b>Saltar pontos de controlo</b></font>- Durante os testes da pista com o editor, prime o botão <font color="#9DA0A4">(BOTÃO SUPERIOR ESQUERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> ou <font color="#9DA0A4">(BOTÃO SUPERIOR DIREITO)</font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" /> para saltares para a frente e para trás nos pontos de controlo para testares o nível de forma mais rápida e fácil.<br><br></font><font color="#EBB40F" size="30">Complexidade da Área<br></font><font color="#D7CAAD" size="20">Há limites para a complexidade das tuas pistas. Não será fácil atingires estes limites mas, por exemplo, se tentares enfiar uma grande quantidade de objectos de física num espaço pequeno, o jogo ficará demasiado lento. Se atingires o limite de Complexidade da Área, terás de espaçar mais os elementos ou remover elementos da pista.<br><br></font><font color="#EBB40F" size="30">Pontos de Controlo<br></font><font color="#D7CAAD" size="20">Podes colocar um total de 15 pontos de controlo na pista; isto inclui o primeiro e o último ponto de controlo. O último ponto de controlo da sequência é sempre a última linha que o jogador deve atravessar para concluir a pista.<br><br></font><font color="#EBB40F" size="30">Abrir Salas<br></font><font color="#D7CAAD" size="20">No Modo Avançado podes ajustar as salas, adicionando ou removendo salas para permitir mais variedade no desenho da pista. As salas podem ser seleccionadas como qualquer outro objecto com o botão <font color="#9DA0A4">(A)</font><img src="images/menu_buttons_a_bg_small.dds" align="middle" /> e depois prime o botão <font color="#9DA0A4">(X)</font><img src="images/menu_buttons_x_bg_small.dds" align="middle" /> para eliminar a sala ou o botão <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> para criares um sala ao lado da parede seleccionada.<br><br></font><font color="#EBB40F" size="30">Menu de Edição<br></font><font color="#D7CAAD" size="20">Podes aceder ao Menu de Edição premindo o botão <font color="#9DA0A4">(START)</font><img src="images/menu_buttons_start_bg_small.dds" align="middle" />. A partir daqui podes dar uma volta de teste na pista, escolher a mota para a volta de teste e ajustar as definições da pista. Podes guardar a pista que acabaste de criar, carregar uma pista existente ou começar uma pista nova, bem como gerir as pistas existentes. Neste menu podes alternar entre o Modo Simples e o Modo Avançado. Também podes aceder a este texto de ajuda - embora já devas ter reparado nisso!<br><br></font>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Ferramentas</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Propriedades do objecto: Física<br></font><font color="#D7CAAD" size="20">No Editor de Pistas, a "física" é um conceito específico para cada objecto. Quando um objecto tem a física activada, isto quer dizer que é atraído pela gravidade, cinética e outras forças, tais como a mota do jogador. Este objecto pode cair ou virar-se, e o seu peso e cinética podem afectar outros objectos de física - mais uma vez, incluindo a mota do jogador! Os objectos de física podem ser usados para criar pistas divertidas, nas quais o jogador tem de interagir com eles para criar um caminho para avançar, ou nas quais a pista muda subitamente quando o jogador atinge um determinado ponto. Podes ver como os objectos que caem e outros elementos de física se comportam seleccionando a funcionalidade Física On/Off com o botão <font color="#9DA0A4">(BACK)</font><img src="images/menu_buttons_back_bg_small.dds" align="middle" />.<br><br></font><font color="#EBB40F" size="30">Dobradiças<br></font><font color="#D7CAAD" size="20">Uma dobradiça é um objecto especial que te permite criar objectos de física mais complexos, tais como carros e baloiços. Para criares uma dobradiça funcional: cria um objecto de dobradiça. A seguir deves colar objectos separadamente aos dois extremos da dobradiça - não podes colar a própria dobradiça, deves-lhe colar outros objectos. Além disso, depois de colares os dois objectos à dobradiça, deves activar a física nos objectos que desejas que se comportem segundo as leis da física.<br><br></font><font color="#EBB40F" size="30">Gatilhos<br></font><font color="#D7CAAD" size="20">Um gatilho é uma maneira de fazer algo acontecer na pista quando o jogador atinge um certo ponto da pista. Quando colocas uma zona de gatilho na pista, deves ligá-la a outro objecto e seleccionar as propriedades do objecto que pretendes que sejam activadas pelo gatilho. Quando um jogador passa sobre o gatilho, estas propriedades são activadas.<br><br><font color="#EBB40F"><b>Física</b></font>- a gravidade e outras forças começam a afectar o objecto. As coisas caem, ressaltam de outros objectos, podem ser empurradas pela mota, etc.<br><br><font color="#EBB40F"><b>Explodir/partir</b></font>- o objecto despedaça-se ou explode quando o gatilho é activado. Nota: nem todos os objectos podem ser partidos.<br><br><font color="#EBB40F"><b>Luz</b></font>- uma luz é ligada ou desligada.<br><br><font color="#EBB40F"><b>Animação</b></font>- activa o movimento de um objecto animado, tais como as pás de uma máquina de pinball. Se queres que o objecto animado interaja com o jogador, também deves seleccionar "física" além da "animação".<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>Avançadas</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Criar Jogos de Perícia<br></font><font color="#D7CAAD" size="20">Para escolheres o Jogo de Perícia que desejas criar, selecciona Definições da Pista no Menu de Pausa dentro do editor e a partir daí poderás ajustar o Estilo da Pista. Podes escolher de entre 12 Jogos de Perícia diferentes.<br><br><font color="#EBB40F">Nota:</font> em todos os Jogos de Perícia, <font color="#EBB40F">usa apenas um ponto de controlo</font> para começares a pista. Vários pontos de controlo podem ter efeitos indesejados.<br><br></font><font color="#EBB40F" size="30"><br>Bola Interior<br></font><font color="#D7CAAD" size="20">O teu objectivo é seguires o mais longe possível dentro da bola de ferro gigante.<br><br><font color="#EBB40F">#1:</font>Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Objectos de Jogo de Perícia -> Bola de Ferro Gigante Interior<br><font color="#EBB40F">#2:</font>Selecciona a bola que acabaste de criar e prime <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> para acederes às suas propriedades. Certifica-te de que Física e Prender à Linha de Condução estão activados.<br><font color="#EBB40F">#3:</font>Centra a bola na linha de condução e coloca o Ponto de Controlo de modo a que aponte para o centro do interior da Bola de Ferro Gigante.<br><br></font><font color="#EBB40F" size="30"><br>Salto de Esqui<br></font><font color="#D7CAAD" size="20">Salta o mais longe possível. Tocar no chão assinala o comprimento do teu salto.<br><br><font color="#EBB40F">#1:</font>Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Objectos de Jogo de Perícia -> Gatilho de Início de Salto de Esqui<br><font color="#EBB40F">#2:</font>Coloca os objectos do gatilho no ar, logo após a rampa. O comprimento do salto começa a ser gravado quando a mota toca no gatilho.<br><br><font color="#EBB40F">Nota:</font>certifica-te de que a mota está completamente no ar quando o gatilho é activado ou o salto será considerado falhado.<br><br>A mota está restrita à Scorpion Air 125cc e não pode ser utilizada qualquer outra mota.<br><br></font><font color="#EBB40F" size="30"><br>Anéis de Fogo<br></font><font color="#D7CAAD" size="20">Voa por dentro do máximo possível de Anéis de Fogo. Cada vez que passares por dentro de um Anel de Fogo, é adicionado combustível de foguetão.<br><br><font color="#EBB40F">#1:</font>Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Objectos de Jogo de Perícia -> Gatilho de Início de Anel de Fogo<br><font color="#EBB40F">#2:</font>Coloca os objectos de gatilho no ar para que a mota passe por eles antes de apanhar o primeiro Anel de Fogo.<br><font color="#EBB40F">#3:</font>Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Objectos de Jogo de Perícia -> Anel de Fogo<br><font color="#EBB40F">#4:</font>Copia e coloca o Anel de Fogo para criares o teu nível.<br><br><font color="#EBB40F">Nota 1:</font>certifica-te de que a mota está completamente no ar quando o gatilho é activado ou o voo será considerado falhado.<br><font color="#EBB40F">Nota 2:</font>será necessário esvaziares muitas salas para conseguires espaço para o voo.<br><br></font><font color="#EBB40F" size="30"><br>Entrega<br></font><font color="#D7CAAD" size="20">Move as bombas o mais possível para o interior do carrinho de entregas. Maiores ressaltos e impactos para o carrinho de entregas farão as bombas explodir, por isso planeia a tua pista tendo isso em conta.<br><br>A mota está restrita à Hauler 600cc e não pode ser utilizada qualquer outra mota.<br><br></font><font color="#EBB40F" size="30"><br>Em Chamas<br></font><font color="#D7CAAD" size="20">Tenta sobreviver o mais possível enquanto estás envolvido em chamas. Quando planeares o teu nível, lembra-te de que quanto mais depressa conduzires, mais longe o fogo ficará.<br><br><font color="#EBB40F">Nota:</font>para o condutor pegar fogo é necessário que haja efeitos de fogo na linha de condução pela qual a mota passará. Por exemplo: Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Efeitos -> Fogo 2 e coloca-o na linha de condução.<br><br></font><font color="#EBB40F" size="30"><br>Caça ao Alvo<br></font><font color="#D7CAAD" size="20">Apanha o máximo possível de alvos sem falhas.<br><br><font color="#EBB40F">#1:</font>Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Objectos de Jogo de Perícia -> Pontuação da caça ao alvo<br><font color="#EBB40F">#2:</font>Coloca os Alvos de Choque espalhados pelo nível.<br><br></font><font color="#EBB40F" size="30"><br>Subir a Colina<br></font><font color="#D7CAAD" size="20">Salta o mais alto possível.<br><br><font color="#EBB40F">Nota:</font>Ao saltares da mota terminarás a pista.<br><br></font><font color="#EBB40F" size="30"><br>Bola Exterior<br></font><font color="#D7CAAD" size="20">Viaja no topo da bola durante o máximo possível de tempo sem caíres.<br><br><font color="#EBB40F">#1:</font>Criar objecto <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> Objectos de Jogo de Perícia -> Bola de Ferro Gigante Exterior<br><font color="#EBB40F">#2</font>Selecciona a bola que acabaste de criar e prime <font color="#9DA0A4">(BOTÃO DIRECCIONAL PARA CIMA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> para acederes às suas propriedades. Certifica-te de que Física e Prender à Linha de Condução estão activados.<br><font color="#EBB40F">#3</font>Centra a bola na linha de condução e coloca o Ponto de Controlo de modo a que aponte para o topo da Bola de Ferro Gigante.<br><br>A mota está restrita à Extreme Sports R e não pode ser utilizada qualquer outra mota.<br><br></font><font color="#EBB40F" size="30"><br>Salto em Altura<br></font><font color="#D7CAAD" size="20">Adquire o máximo possível de altitude.<br><br><font color="#EBB40F">Nota:</font>podes saltar para atingir alturas ainda maiores.<br><br></font><font color="#EBB40F" size="30"><br>Mortal<br></font><font color="#D7CAAD" size="20">Faz o máximo possível de mortais. Se tiveres uma falha acabarás o jogo.<br><br><font color="#EBB40F">Nota:</font>o limite de tempo é 1 minuto.<br><br></font><font color="#EBB40F" size="30"><br>Cavalinho<br></font><font color="#D7CAAD" size="20">Faz cavalinho durante o máximo de tempo e distância. Evita deixar a roda da frente tocar no chão.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Jogos de Perícia</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>AJUDA PARA O EDITOR</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

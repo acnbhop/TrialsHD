@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>22.000000</Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.CrashMaxPointsText.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.CrashMaxPointsText.Text</Path>
+        </E>
+        <E i="2">
+            <Value>29.000000</Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.CrashPointsText.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.CrashPointsText.Text</Path>
+        </E>
+        <E i="4">
+            <Value>28.000000</Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.CrashTimeText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.CrashTimeText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>35.000000</Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.XuiText1.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)CrashPointsGroup.XuiText1.Text</Path>
+        </E>
+        <E i="8">
+            <Value>30.000000</Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestyleComboText.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestyleComboText.Text</Path>
+        </E>
+        <E i="10">
+            <Value>37.000000</Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestyleFaultsText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestyleFaultsText.Text</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestylePointsDifferenceText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>28.000000</Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestylePointsText.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.(OLD)FreestylePointsGroup.FreestylePointsText.Text</Path>
+        </E>
+        <E i="15">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ComboTextGroup.ComboIndicatorGroup.ComboText.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ComboTextGroup.ComboIndicatorGroup.ComboText.Text</Path>
+        </E>
+        <E i="17">
+            <Value>110.000000</Value>
+            <Path>XuiScene1.CountdownGroup1.CountdownText.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>3</Value>
+            <Path>XuiScene1.CountdownGroup1.CountdownText.Text</Path>
+        </E>
+        <E i="19">
+            <Value>110.000000</Value>
+            <Path>XuiScene1.CountdownGroup2.CountdownText.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>2</Value>
+            <Path>XuiScene1.CountdownGroup2.CountdownText.Text</Path>
+        </E>
+        <E i="21">
+            <Value>110.000000</Value>
+            <Path>XuiScene1.CountdownGroup3.CountdownText.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>1</Value>
+            <Path>XuiScene1.CountdownGroup3.CountdownText.Text</Path>
+        </E>
+        <E i="23">
+            <Value>110.000000</Value>
+            <Path>XuiScene1.CountdownGroup4.CountdownText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>LOS</Value>
+            <Path>XuiScene1.CountdownGroup4.CountdownText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>110.000000</Value>
+            <Path>XuiScene1.CountdownGroup5.CountdownText.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>BEREIT</Value>
+            <Path>XuiScene1.CountdownGroup5.CountdownText.Text</Path>
+        </E>
+        <E i="27">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+Am Anfang starten\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+Pause\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück zum letzten Kontrollpunkt\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.CrashOverlayGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="28">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+Pause\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück zum letzten Kontrollpunkt\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.CrashOverlayGroupChallengeMode.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="29">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_back_bg.dds" align="middle" /> \r
+Am Anfang starten\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+Pause\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück zum letzten Kontrollpunkt\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.CrashOverlayGroupCrashMode.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="30">
+            <Value>45.000000</Value>
+            <Path>XuiScene1.CrashTextGroup.CrashText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.CrashTextGroup.CrashText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>40.000000</Value>
+            <Path>XuiScene1.FaultGroup.FaultTextGroup.TooManyText.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value>Zeitüberschreitung!</Value>
+            <Path>XuiScene1.FaultGroup.FaultTextGroup.TooManyText.Text</Path>
+        </E>
+        <E i="34">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" />\r
+Abbrechen\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.FinishGroup.SavingGroup.CancelButton.XuiHtmlElement2.Text</Path>
+        </E>
+        <E i="35">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#D8C69A" size="20">\r
+Speichern ...\r
+</font>]]></Value>
+            <Path>XuiScene1.FinishGroup.SavingGroup.SavingTextGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="36">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.FinishGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="37">
+            <Value>ENDE!</Value>
+            <Path>XuiScene1.FinishGroup.TitleText.Text</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left">\r
+\r
+<font color="#D8C69A" size="18">\r
+Daten werden geschrieben. <br>\r
+Die Geräteverbindung darf nicht getrennt und die Konsole nicht ausgeschaltet werden.\r
+</font>\r
+\r
+</div>]]></Value>
+            <Path>XuiScene1.FinishGroup.WriteWarningGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="39">
+            <Value>32.000000</Value>
+            <Path>XuiScene1.FreestyleModeStatsGroup.FreestyleMultiplierGroup.FreestyleMultiplierText.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FreestyleModeStatsGroup.FreestyleMultiplierGroup.FreestyleMultiplierText.Text</Path>
+        </E>
+        <E i="41">
+            <Value><![CDATA[<div align="center" style="shadow"><font color="#E8AD1E" size="22" shadowcolor="#ff000000"> \r
+\r
+</font></div>]]></Value>
+            <Path>XuiScene1.FreestyleModeStatsGroup.FreestyleStuntText.StuntGroup1.StuntText.Text</Path>
+        </E>
+        <E i="42">
+            <Value><![CDATA[<div align="center"><font color="#E8AD1E" size="22">\r
+\r
+</font></div>]]></Value>
+            <Path>XuiScene1.FreestyleModeStatsGroup.FreestyleStuntText.StuntGroup2.StuntText.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[<div align="center"><font color="#E8AD1E" size="22">\r
+\r
+</font></div>]]></Value>
+            <Path>XuiScene1.FreestyleModeStatsGroup.FreestyleStuntText.StuntGroup3.StuntText.Text</Path>
+        </E>
+        <E i="44">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.FunGroup.HeatBarGroup.HeatBar.PointSize</Path>
+        </E>
+        <E i="45">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FunGroup.HeatBarGroup.HeatBar.Text</Path>
+        </E>
+        <E i="46">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.FunGroup.PenaltyText.PointSize</Path>
+        </E>
+        <E i="47">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FunGroup.PenaltyText.Text</Path>
+        </E>
+        <E i="48">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FunGroup.PrimaryLabelText.Text</Path>
+        </E>
+        <E i="49">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.FunGroup.ScoreBarGroup.ScoreBar.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FunGroup.ScoreBarGroup.ScoreBar.Text</Path>
+        </E>
+        <E i="51">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.FunGroup.ScrewBarGroup.ScrewBar.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FunGroup.ScrewBarGroup.ScrewBar.Text</Path>
+        </E>
+        <E i="53">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.FunGroup.SecondaryLabelText.Text</Path>
+        </E>
+        <E i="54">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.FunGroup.TimeLeftGroup.TimeLeftText.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value>00:00.000</Value>
+            <Path>XuiScene1.FunGroup.TimeLeftGroup.TimeLeftText.Text</Path>
+        </E>
+        <E i="56">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseButton.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.PauseButton.Text</Path>
+        </E>
+        <E i="58">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.BackButton.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.PauseGroup.BackButton.Text</Path>
+        </E>
+        <E i="60">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Auswählen\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.PauseGroup.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.AchievementsButton.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value>ERFOLGE</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.AchievementsButton.Text</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.ExitGameButton.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value>SPIEL VERLASSEN</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.ExitGameButton.Text</Path>
+        </E>
+        <E i="65">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.HelpButton.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value>HILFE UND OPTIONEN</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.HelpButton.Text</Path>
+        </E>
+        <E i="67">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.LeaderboardButton.PointSize</Path>
+        </E>
+        <E i="68">
+            <Value>BESTENLISTEN</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.LeaderboardButton.Text</Path>
+        </E>
+        <E i="69">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.ResumeButton.PointSize</Path>
+        </E>
+        <E i="70">
+            <Value>SPIEL FORTSETZEN</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.ResumeButton.Text</Path>
+        </E>
+        <E i="71">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.UnlockButton.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value>VOLLST. SPIEL FREISCHALTEN</Value>
+            <Path>XuiScene1.PauseGroup.IngamePauseButtonGroup.UnlockButton.Text</Path>
+        </E>
+        <E i="73">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.PauseGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="74">
+            <Value>PAUSE</Value>
+            <Path>XuiScene1.PauseGroup.TitleText.Text</Path>
+        </E>
+        <E i="75">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="76">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_rt_bg.dds" align="middle" /> \r
+Gas geben\r
+\r
+<img src="images/menu_buttons_lt_bg.dds" align="middle" /> \r
+Bremsen\r
+\r
+<img src="images/menu_buttons_ls2_bg.dds" align="middle" /> \r
+Neigen\r
+\r
+<img src="images/menu_buttons_y_bg.dds" align="middle" />\r
+Absprung\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.RaceButtonsGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="77">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup.FinishMeterText.PointSize</Path>
+        </E>
+        <E i="78">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.RaceProgressGroup.FinishMeterText.Text</Path>
+        </E>
+        <E i="79">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup0.MeterText.PointSize</Path>
+        </E>
+        <E i="80">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup0.MeterText.Text</Path>
+        </E>
+        <E i="81">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup1.MeterText.PointSize</Path>
+        </E>
+        <E i="82">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup1.MeterText.Text</Path>
+        </E>
+        <E i="83">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup2.MeterText.PointSize</Path>
+        </E>
+        <E i="84">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup2.MeterText.Text</Path>
+        </E>
+        <E i="85">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup3.MeterText.PointSize</Path>
+        </E>
+        <E i="86">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup3.MeterText.Text</Path>
+        </E>
+        <E i="87">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup4.MeterText.PointSize</Path>
+        </E>
+        <E i="88">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.RaceProgressGroup.MeterTextGroup4.MeterText.Text</Path>
+        </E>
+        <E i="89">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.RaceProgressGroup2.FriendAheadArrow.FriendAheadName.PointSize</Path>
+        </E>
+        <E i="90">
+            <Value>WMWMWMWMWMWMWMWM</Value>
+            <Path>XuiScene1.RaceProgressGroup2.FriendAheadArrow.FriendAheadName.Text</Path>
+        </E>
+        <E i="91">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ReplayGroup.CameraAngleText.PointSize</Path>
+        </E>
+        <E i="92">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ReplayGroup.CameraAngleText.Text</Path>
+        </E>
+        <E i="93">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Weiter\r
+\r
+<img src="images/menu_buttons_rb_bg.dds" align="middle" /> \r
+Vorlauf\r
+\r
+<img src="images/menu_buttons_rs2_bg.dds" align="middle" /> \r
+Alles ansehen\r
+\r
+<img src="images/menu_buttons_start_bg.dds" align="middle" /> \r
+Pause\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ReplayGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="94">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer0.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="95">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer0.ScorePointerText.Text</Path>
+        </E>
+        <E i="96">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer1.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="97">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer1.ScorePointerText.Text</Path>
+        </E>
+        <E i="98">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer10.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="99">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer10.ScorePointerText.Text</Path>
+        </E>
+        <E i="100">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer2.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="101">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer2.ScorePointerText.Text</Path>
+        </E>
+        <E i="102">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer3.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="103">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer3.ScorePointerText.Text</Path>
+        </E>
+        <E i="104">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer4.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="105">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer4.ScorePointerText.Text</Path>
+        </E>
+        <E i="106">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer5.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="107">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer5.ScorePointerText.Text</Path>
+        </E>
+        <E i="108">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer6.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="109">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer6.ScorePointerText.Text</Path>
+        </E>
+        <E i="110">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer7.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="111">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer7.ScorePointerText.Text</Path>
+        </E>
+        <E i="112">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer8.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="113">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer8.ScorePointerText.Text</Path>
+        </E>
+        <E i="114">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer9.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="115">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerGroup.ScorePointer9.ScorePointerText.Text</Path>
+        </E>
+        <E i="116">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer0.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="117">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer0.ScorePointerText.Text</Path>
+        </E>
+        <E i="118">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer1.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="119">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer1.ScorePointerText.Text</Path>
+        </E>
+        <E i="120">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer10.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="121">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer10.ScorePointerText.Text</Path>
+        </E>
+        <E i="122">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer11.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="123">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer11.ScorePointerText.Text</Path>
+        </E>
+        <E i="124">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer2.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="125">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer2.ScorePointerText.Text</Path>
+        </E>
+        <E i="126">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer3.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="127">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer3.ScorePointerText.Text</Path>
+        </E>
+        <E i="128">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer4.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="129">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer4.ScorePointerText.Text</Path>
+        </E>
+        <E i="130">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer5.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="131">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer5.ScorePointerText.Text</Path>
+        </E>
+        <E i="132">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer6.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="133">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer6.ScorePointerText.Text</Path>
+        </E>
+        <E i="134">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer7.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="135">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer7.ScorePointerText.Text</Path>
+        </E>
+        <E i="136">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer8.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="137">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer8.ScorePointerText.Text</Path>
+        </E>
+        <E i="138">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer9.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="139">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerSideGroup.ScorePointer9.ScorePointerText.Text</Path>
+        </E>
+        <E i="140">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer0.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="141">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer0.ScorePointerText.Text</Path>
+        </E>
+        <E i="142">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer1.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="143">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer1.ScorePointerText.Text</Path>
+        </E>
+        <E i="144">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer10.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="145">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer10.ScorePointerText.Text</Path>
+        </E>
+        <E i="146">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer11.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="147">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer11.ScorePointerText.Text</Path>
+        </E>
+        <E i="148">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer2.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="149">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer2.ScorePointerText.Text</Path>
+        </E>
+        <E i="150">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer3.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="151">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer3.ScorePointerText.Text</Path>
+        </E>
+        <E i="152">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer4.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="153">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer4.ScorePointerText.Text</Path>
+        </E>
+        <E i="154">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer5.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="155">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer5.ScorePointerText.Text</Path>
+        </E>
+        <E i="156">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer6.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="157">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer6.ScorePointerText.Text</Path>
+        </E>
+        <E i="158">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer7.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="159">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer7.ScorePointerText.Text</Path>
+        </E>
+        <E i="160">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer8.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="161">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer8.ScorePointerText.Text</Path>
+        </E>
+        <E i="162">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer9.ScorePointerText.PointSize</Path>
+        </E>
+        <E i="163">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.ScorePointerTopGroup.ScorePointer9.ScorePointerText.Text</Path>
+        </E>
+        <E i="164">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="32">\r
+\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.SkillGameInfoGroup.SkillGameInfo.Text</Path>
+        </E>
+        <E i="165">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Auswählen\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="166">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.EditorPauseButtonsGroup.ResumeEditingFromTestTrackPauseMenuButton.PointSize</Path>
+        </E>
+        <E i="167">
+            <Value>BEARB. FORTSETZEN</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.EditorPauseButtonsGroup.ResumeEditingFromTestTrackPauseMenuButton.Text</Path>
+        </E>
+        <E i="168">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.EditorPauseButtonsGroup.ResumeTestingFromTestTrackPauseMenuButton.PointSize</Path>
+        </E>
+        <E i="169">
+            <Value>TEST FORTSETZEN</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.EditorPauseButtonsGroup.ResumeTestingFromTestTrackPauseMenuButton.Text</Path>
+        </E>
+        <E i="170">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.TitleText.PointSize</Path>
+        </E>
+        <E i="171">
+            <Value>EDITOR - PAUSE</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.TitleText.Text</Path>
+        </E>
+        <E i="172">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.XuiBackButton.PointSize</Path>
+        </E>
+        <E i="173">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TestTrackPauseMenuGroup.XuiBackButton.Text</Path>
+        </E>
+        <E i="174">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="175">
+            <Value>37.000000</Value>
+            <Path>XuiScene1.TimeAndFaultsGroup.TrialsFaultsText.PointSize</Path>
+        </E>
+        <E i="176">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TimeAndFaultsGroup.TrialsFaultsText.Text</Path>
+        </E>
+        <E i="177">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TimeAndFaultsGroup.TrialsTimeDifferenceText.Text</Path>
+        </E>
+        <E i="178">
+            <Value><![CDATA[<font color="#000000" size="17">\r
+-00:12:293\r
+</font>]]></Value>
+            <Path>XuiScene1.TimeAndFaultsGroup.TrialsTimeDifferenceTextShadow.Text</Path>
+        </E>
+        <E i="179">
+            <Value>28.000000</Value>
+            <Path>XuiScene1.TimeAndFaultsGroup.TrialsTimeText.PointSize</Path>
+        </E>
+        <E i="180">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TimeAndFaultsGroup.TrialsTimeText.Text</Path>
+        </E>
+        <E i="181">
+            <Value>25.000000</Value>
+            <Path>XuiScene1.TutorialGroup.TutorialText.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TutorialGroup.TutorialText.Text</Path>
+        </E>
+        <E i="183">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Auswählen\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.TutorialGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="184">
+            <Value><![CDATA[<div align="right">\r
+\r
+<font color="#D7CAAD" size="27">\r
+Verbleibende Fehler:\r
+</font>\r
+\r
+<font color="#EBB40F" size="27">\r
+\r
+</font>\r
+\r
+\r
+</div>]]></Value>
+            <Path>XuiScene1.WarningFaultsGroup.WarningText.Text</Path>
+        </E>
+        <E i="185">
+            <Value><![CDATA[<div align="right">\r
+\r
+<font color="#D7CAAD" size="27">Verbleibende Zeit:\r
+</font>\r
+\r
+<font color="#EBB40F" size="27">\r
+\r
+</font>\r
+\r
+\r
+</div>]]></Value>
+            <Path>XuiScene1.WarningTimeGroup.WarningText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

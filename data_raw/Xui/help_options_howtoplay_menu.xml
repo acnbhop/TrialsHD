@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XurFile>
+    <Version>5</Version>
+    <Flags>0</Flags>
+    <Sections>
+        <Section tag="STRN" index="0"/>
+        <Section tag="VECT" index="1">440dc9884438104e0000000044800000440000000000000000000000440000000000000044800000000000000000000042fe000042ae0000000000003f8000003f99999a3f80000043270000433800000000000042700000443b800000000000428353f6c1469244000000003f4ccccd3f4ccccd3f80000043200000440f40000000000042fbffff42b400000000000043370001413000080000000042700000441b800000000000</Section>
+        <Section tag="DATA" index="2">00010300020c0000000644a0000044340000000000000100020700051400000007000244a00000443400000a0003000300040000000007000501000a2c0000024f0006431751e8424999a000000000000000000012040a00040100070101000058410000080300041c000000470009449fffff4433ffff000000000000000005000a0100051c0000000f000b4380000044000000000000010102000c000a0100051c0000000f000d4480000043800000000000020102000e000a0100051c0000000f000f43800000440000000000000301020010000a01000414000000070011448000004400000001020012000a010007240000001f0013448290e643e7199c0000000400000005090600140000003000150100092c0001004f0016446b2d2843c7f17600000006000000000112040a0017010018000008030005240000004f001944a0d7e442c0f5c400000007000000000000000001001a010006240000001f001b44a0dc2a428c9e7500000008000000090101001c001d01000b2c0000024f001e4471d70a427800000000000a0000000000212f001fffe8ad1eff0f0f0f41a0000000000411001d01000a240000004f002044790002428c7ade0000000b00000000212f0021ffe8ad1eff000000424800000000041500220100050c0000000900230000000c0108c0c000000906002400250000000800260000000000000000270000000e01000000280000000f00000000290000001d010000002a0000001e000000002b0000002c010000002c0000002d000000002d0000003b01000000000006002000000001010106000000080000000000000032000000000000000e000000323f8000000000000f000000323f8000000000001d00000032000000000000001e00000032000000000000002c000000323f8000000000002d000000323f8000000000003b0000003200000000001e00000001010106000000080000000000000032000000000000000e000000323f8000000000000f000000323f8000000000001d00000032000000000000001e00000032000000000000002c000000323f8000000000002d000000323f8000000000003b00000032000000000009000000010101060000000c00000000000000320000000000000007000000323f8000000000000e000000323f8000000000000f000000323f80000000000016000000323f8000000000001d00000032000000000000001e000000320000000000000025000000323f8000000000002c000000323f8000000000002d000000323f80000000000034000000323f8000000000003b000000320000000000190000000201010301010600000008000000000264643200000007000000000000000e000000320000000d3f8000000000000f000000320000000d3f8000000000001d0264643200000007000000000000001e0264643200000007000000000000002c000000320000000d3f8000000000002d000000320000000d3f8000000000003b0264643200000007000000000023000000010100000000000800000000000000320000000000010000003200000000000f000000320000000000100000003200000000001e0000003200000000001f0000003200000000002d00000032002e0000002e000000320000001600000001010206000000080000000000000032000000000000000e000000323f8000000000000f000000323f8000000000001d00000032000000000000001e00000032000000000000002c000000323f8000000000002d000000323f8000000000003b0000003200000000</Section>
+    </Sections>
+    <Strings>
+        <S i="0">XuiCanvas</S>
+        <S i="1">XuiScene</S>
+        <S i="2">HowToPlayMenu</S>
+        <S i="3">TrialsSceneBlank</S>
+        <S i="4">XuiBackButton</S>
+        <S i="5">BackButton</S>
+        <S i="6">Back</S>
+        <S i="7">XuiGroup</S>
+        <S i="8">BG_Graphics</S>
+        <S i="9">XuiImage</S>
+        <S i="10">Image3</S>
+        <S i="11">images\\the_background_1_4.dds</S>
+        <S i="12">Image2</S>
+        <S i="13">images\\the_background_1_3.dds</S>
+        <S i="14">Image1</S>
+        <S i="15">images\\the_background_1_2.dds</S>
+        <S i="16">Image</S>
+        <S i="17">images\\the_background_1_1.dds</S>
+        <S i="18">BGImage</S>
+        <S i="19">images\\leaderboard_list_bg.dds</S>
+        <S i="20">XuiHtmlControl</S>
+        <S i="21">HowToText</S>
+        <S i="22">TrialsTextbox-ScrollV</S>
+        <S i="23"><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Trials Race\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+The objective of the game is to finish the track with as few faults as possible and as quickly as possible. A Bronze medal is awarded for merely passing the track, but better performances are rewarded with other medals.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Faults\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+A fault occurs when the rider manages to flip the bike or receives too much damage from the environment. After a fault the bike is moved back to the last checkpoint the player has passed.\r
+<br><br>\r
+Remember that faults are the primary factor when ranking scores. No matter how fast the track has been driven, it is always better if you can finish with fewer faults, regardless if you drove the track slower.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Skills Games\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Skill Games are unlocked as you proceed through the game. Their objectives vary, and are displayed before the game begins. Trials HD utilizes a very sophisticated physics model, and nothing in the game is random. The advanced moves require a great deal of control, but practice makes perfect. Good luck!\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Advanced Move: Spring Jump - Perform bigger jumps\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Lean back when accelerating towards a ramp. Just before the jump, move the rider’s weight quickly forward. With Spring Jump, you’ll gain more height in deep uphill slopes. A good spot to practice this trick is the second slope of the Hard tutorial level.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Advanced Move: Switch Jump - Jump on the flat ground\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Lean forward, open the throttle and quickly move your weight back and then forward. This way you’ll gain more momentum and can jump higher on flat ground. A good spot to practice this trick is at the start of the Hard tutorial level.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Advanced Move: Flip Over - Do longer jumps from ramps.\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Raise the front wheel and speed towards any jump. Shift your weight forward and you’ll force the bike to flip in that direction. This trick can help you gain more forward momentum before the jump, and is especially useful when you encounter ramps that launch you directly upward, rather than forward. The best spot to practice this trick is the Ski Jump Skill Game.\r
+<br><br>\r
+</font>]]></S>
+        <S i="24">ButtonInfoGroup</S>
+        <S i="25">XuiHtmlElement</S>
+        <S i="26">XuiHtmlElement1</S>
+        <S i="27"><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Back\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></S>
+        <S i="28">XuiText</S>
+        <S i="29">InfoText</S>
+        <S i="30"><![CDATA[\r
+]]></S>
+        <S i="31">TitleText</S>
+        <S i="32">HOW TO PLAY</S>
+        <S i="33">XuiSoundXACT</S>
+        <S i="34">XuiSoundXACT1</S>
+        <S i="35">sounds\\Menu.xsb</S>
+        <S i="36">sounds\\Menu.xwb</S>
+        <S i="37">TransTo</S>
+        <S i="38">EndTransTo</S>
+        <S i="39">TransFrom</S>
+        <S i="40">EndTransFrom</S>
+        <S i="41">TransBackTo</S>
+        <S i="42">EndTransBackTo</S>
+        <S i="43">TransBackFrom</S>
+        <S i="44">EndTransBackFrom</S>
+        <S i="45">menu_back</S>
+    </Strings>
+</XurFile>

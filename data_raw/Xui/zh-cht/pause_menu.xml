@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.AchievementsButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>成就</Value>
+            <Path>XuiScene1.AchievementsButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>返回</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+選擇\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+返回\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ExitGameButton.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>離開遊戲</Value>
+            <Path>XuiScene1.ExitGameButton.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HelpButton.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>說明與選項</Value>
+            <Path>XuiScene1.HelpButton.Text</Path>
+        </E>
+        <E i="9">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.LeaderboardButton.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>排行榜</Value>
+            <Path>XuiScene1.LeaderboardButton.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ResumeButton.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>繼續遊戲</Value>
+            <Path>XuiScene1.ResumeButton.Text</Path>
+        </E>
+        <E i="16">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="17">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>暫停</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.UnlockButton.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>解除完整版遊戲鎖定</Value>
+            <Path>XuiScene1.UnlockButton.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

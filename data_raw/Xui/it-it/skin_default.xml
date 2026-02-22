@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>12.000.000</Value>
+            <Path>A_Button.text_ButtonText.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>12.000.000</Value>
+            <Path>X_Button.text_ButtonText.PointSize</Path>
+        </E>
+        <E i="2">
+            <Value>12.000.000</Value>
+            <Path>XuiBackButton.text_ButtonText.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>13.000.000</Value>
+            <Path>XuiButton.text_Label.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>14.000.000</Value>
+            <Path>XuiCheckbox.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBox.ComboBoxList.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBox.ComboBoxList.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBox.ComboBoxValue.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBox.ComboBoxValue.Text</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxDrop.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxDrop.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.Text</Path>
+        </E>
+        <E i="13">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxValue.AllowedChars</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxValue.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxValue.Text</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBoxListCtl.control_ListItem.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxListCtl.control_ListItem.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBoxListCtl.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxListCtl.control_ScrollDown.Text</Path>
+        </E>
+        <E i="20">
+            <Value>-1.000.000</Value>
+            <Path>XuiComboBoxListCtl.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiComboBoxListCtl.control_ScrollUp.Text</Path>
+        </E>
+        <E i="22">
+            <Value>13.000.000</Value>
+            <Path>XuiComboBoxPickerCtl.text_Label.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000.000</Value>
+            <Path>XuiEdit.Caret.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.Caret.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000.000</Value>
+            <Path>XuiEdit.ScrollDown.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollDown.Text</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000.000</Value>
+            <Path>XuiEdit.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollLeft.Text</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000.000</Value>
+            <Path>XuiEdit.ScrollRight.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollRight.Text</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000.000</Value>
+            <Path>XuiEdit.ScrollUp.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollUp.Text</Path>
+        </E>
+        <E i="33">
+            <Value>13.000.000</Value>
+            <Path>XuiEdit.Text.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value>-1.000.000</Value>
+            <Path>XuiGrid.control_ListItem.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiGrid.control_ListItem.Text</Path>
+        </E>
+        <E i="36">
+            <Value>-1.000.000</Value>
+            <Path>XuiGrid.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="37">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiGrid.control_ScrollDown.Text</Path>
+        </E>
+        <E i="38">
+            <Value>-1.000.000</Value>
+            <Path>XuiGrid.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="39">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiGrid.control_ScrollUp.Text</Path>
+        </E>
+        <E i="40">
+            <Value>-1.000.000</Value>
+            <Path>XuiGridHorizontal.control_ListItem.PointSize</Path>
+        </E>
+        <E i="41">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiGridHorizontal.control_ListItem.Text</Path>
+        </E>
+        <E i="42">
+            <Value>-1.000.000</Value>
+            <Path>XuiGridHorizontal.control_ScrollLeft.PointSize</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiGridHorizontal.control_ScrollLeft.Text</Path>
+        </E>
+        <E i="44">
+            <Value>-1.000.000</Value>
+            <Path>XuiGridHorizontal.control_ScrollRight.PointSize</Path>
+        </E>
+        <E i="45">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiGridHorizontal.control_ScrollRight.Text</Path>
+        </E>
+        <E i="46">
+            <Value>-1.000.000</Value>
+            <Path>XuiHtmlControl.ScrollDown.PointSize</Path>
+        </E>
+        <E i="47">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiHtmlControl.ScrollDown.Text</Path>
+        </E>
+        <E i="48">
+            <Value>-1.000.000</Value>
+            <Path>XuiHtmlControl.ScrollUp.PointSize</Path>
+        </E>
+        <E i="49">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiHtmlControl.ScrollUp.Text</Path>
+        </E>
+        <E i="50">
+            <Value>-1.000.000</Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollBar.PointSize</Path>
+        </E>
+        <E i="51">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollBar.Text</Path>
+        </E>
+        <E i="52">
+            <Value>-1.000.000</Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollDown.PointSize</Path>
+        </E>
+        <E i="53">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollDown.Text</Path>
+        </E>
+        <E i="54">
+            <Value>-1.000.000</Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollUp.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollUp.Text</Path>
+        </E>
+        <E i="56">
+            <Value>13.000.000</Value>
+            <Path>XuiLabel.Text.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value>12.000.000</Value>
+            <Path>XuiLabelSmall.Text.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value>-1.000.000</Value>
+            <Path>XuiList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList.control_ListItem.Text</Path>
+        </E>
+        <E i="60">
+            <Value>-1.000.000</Value>
+            <Path>XuiList.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList.control_ScrollDown.Text</Path>
+        </E>
+        <E i="62">
+            <Value>-1.000.000</Value>
+            <Path>XuiList.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList.control_ScrollUp.Text</Path>
+        </E>
+        <E i="64">
+            <Value>-1.000.000</Value>
+            <Path>XuiListCheckable.control_ListItem.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListCheckable.control_ListItem.Text</Path>
+        </E>
+        <E i="66">
+            <Value>-1.000.000</Value>
+            <Path>XuiListCheckable.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="67">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListCheckable.control_ScrollDown.Text</Path>
+        </E>
+        <E i="68">
+            <Value>-1.000.000</Value>
+            <Path>XuiListCheckable.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="69">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListCheckable.control_ScrollUp.Text</Path>
+        </E>
+        <E i="70">
+            <Value>-1.000.000</Value>
+            <Path>XuiListChooser.ListItem.PointSize</Path>
+        </E>
+        <E i="71">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListChooser.ListItem.Text</Path>
+        </E>
+        <E i="72">
+            <Value>-1.000.000</Value>
+            <Path>XuiListChooser.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="73">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListChooser.ScrollLeft.Text</Path>
+        </E>
+        <E i="74">
+            <Value>-1.000.000</Value>
+            <Path>XuiListChooser.ScrollRight.PointSize</Path>
+        </E>
+        <E i="75">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListChooser.ScrollRight.Text</Path>
+        </E>
+        <E i="76">
+            <Value>-1.000.000</Value>
+            <Path>XuiListHorizontal.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="77">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListHorizontal.ScrollLeft.Text</Path>
+        </E>
+        <E i="78">
+            <Value>-1.000.000</Value>
+            <Path>XuiListHorizontal.ScrollRight.PointSize</Path>
+        </E>
+        <E i="79">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListHorizontal.ScrollRight.Text</Path>
+        </E>
+        <E i="80">
+            <Value>-1.000.000</Value>
+            <Path>XuiListHorizontal.control _ListItem.PointSize</Path>
+        </E>
+        <E i="81">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiListHorizontal.control _ListItem.Text</Path>
+        </E>
+        <E i="82">
+            <Value>-1.000.000</Value>
+            <Path>XuiList_ScrollV.ScrollBar.PointSize</Path>
+        </E>
+        <E i="83">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList_ScrollV.ScrollBar.Text</Path>
+        </E>
+        <E i="84">
+            <Value>-1.000.000</Value>
+            <Path>XuiList_ScrollV.control_ListItem.PointSize</Path>
+        </E>
+        <E i="85">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList_ScrollV.control_ListItem.Text</Path>
+        </E>
+        <E i="86">
+            <Value>-1.000.000</Value>
+            <Path>XuiList_ScrollV.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="87">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList_ScrollV.control_ScrollDown.Text</Path>
+        </E>
+        <E i="88">
+            <Value>-1.000.000</Value>
+            <Path>XuiList_ScrollV.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="89">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiList_ScrollV.control_ScrollUp.Text</Path>
+        </E>
+        <E i="90">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox1.XuiScene1.BG.PointSize</Path>
+        </E>
+        <E i="91">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.BG.Text</Path>
+        </E>
+        <E i="92">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox1.XuiScene1.Button0.PointSize</Path>
+        </E>
+        <E i="93">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.Button0.Text</Path>
+        </E>
+        <E i="94">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.AllowedChars</Path>
+        </E>
+        <E i="95">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.PointSize</Path>
+        </E>
+        <E i="96">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.Text</Path>
+        </E>
+        <E i="97">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox1.XuiScene1.PointSize</Path>
+        </E>
+        <E i="98">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.Text</Path>
+        </E>
+        <E i="99">
+            <Value>13.000.000</Value>
+            <Path>XuiMessageBox1.XuiScene1.Title.PointSize</Path>
+        </E>
+        <E i="100">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox2.XuiScene1.BG.PointSize</Path>
+        </E>
+        <E i="101">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.BG.Text</Path>
+        </E>
+        <E i="102">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Button0.PointSize</Path>
+        </E>
+        <E i="103">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.Button0.Text</Path>
+        </E>
+        <E i="104">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Button1.PointSize</Path>
+        </E>
+        <E i="105">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.Button1.Text</Path>
+        </E>
+        <E i="106">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.AllowedChars</Path>
+        </E>
+        <E i="107">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.PointSize</Path>
+        </E>
+        <E i="108">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.Text</Path>
+        </E>
+        <E i="109">
+            <Value>-1.000.000</Value>
+            <Path>XuiMessageBox2.XuiScene1.PointSize</Path>
+        </E>
+        <E i="110">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.Text</Path>
+        </E>
+        <E i="111">
+            <Value>13.000.000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Title.PointSize</Path>
+        </E>
+        <E i="112">
+            <Value>13.000.000</Value>
+            <Path>XuiProgressBar.text_progressbar.PointSize</Path>
+        </E>
+        <E i="113">
+            <Value>13.000.000</Value>
+            <Path>XuiRadioButton.ButtonText.PointSize</Path>
+        </E>
+        <E i="114">
+            <Value>18.000.000</Value>
+            <Path>XuiScene.XuiTextPresenter.PointSize</Path>
+        </E>
+        <E i="115">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider.Text_Slider.PointSize</Path>
+        </E>
+        <E i="116">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider.text_Label.PointSize</Path>
+        </E>
+        <E i="117">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider_Bars.Text_Slider.PointSize</Path>
+        </E>
+        <E i="118">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider_Radial.Text_Slider.PointSize</Path>
+        </E>
+        <E i="119">
+            <Value>-1.000.000</Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMax.PointSize</Path>
+        </E>
+        <E i="120">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMax.Text</Path>
+        </E>
+        <E i="121">
+            <Value>-1.000.000</Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMin.PointSize</Path>
+        </E>
+        <E i="122">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMin.Text</Path>
+        </E>
+        <E i="123">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider_ScrollEnds.Text_Slider.PointSize</Path>
+        </E>
+        <E i="124">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider_ScrollEnds.text_Label.PointSize</Path>
+        </E>
+        <E i="125">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider_Vertical.Text_Slider.PointSize</Path>
+        </E>
+        <E i="126">
+            <Value>13.000.000</Value>
+            <Path>XuiSlider_Vertical.text_Label.PointSize</Path>
+        </E>
+        <E i="127">
+            <Value>12.000.000</Value>
+            <Path>Y_Button.text_ButtonText.PointSize</Path>
+        </E>
+    </Entries>
+</XusFile>

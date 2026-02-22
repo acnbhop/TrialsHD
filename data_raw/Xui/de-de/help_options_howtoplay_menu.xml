@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Zurück</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Zurück\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HowToText.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HowToText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Trials-Rennen\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Ziel dieses Spiels ist es, eine Strecke mit möglichst wenig Fehlern und so schnell wie möglich zu beenden. Für das bloße Absolvieren der Strecke gibt es eine Bronzemedaille. Bessere Leistungen werden mit anderen Medaillen belohnt.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Fehler\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Ein Fehler tritt auf, wenn sich das Motorrad überschlägt oder wenn es durch Umgebungsobjekte zu stark beschädigt wird. Nach einem Fehler wird das Motorrad auf den letzten Kontrollpunkt zurückgesetzt, den der Spieler passiert hat.\r
+<br><br>\r
+Denk daran, dass Fehler die wichtigste Größe bei der Vergabe von Punkten zur Ermittlung der Rangliste sind. Egal, wie schnell eine Strecke absolviert wird - es ist immer besser, die Strecke mit möglichst wenig Fehlern abzuschließen und dafür notfalls etwas langsamer zu fahren.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Technikparcours\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Mit zunehmendem Spielfortschritt werden Technikparcours freigeschaltet. Die Ziele dieser Parcours variieren und werden vor Spielbeginn angezeigt. In Trials HD wird ein ausgefeiltes physikalisches Modell angewendet; nichts geschieht zufällig. Komplexe Bewegungen erfordern ein hohes Maß an Können. Aber Übung macht den Meister. Viel Glück!\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Komplexe Bewegung: Spring-Jump - Durchführen größerer Sprünge\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Lehn dich zurück, während du bei der Fahrt auf eine Rampe beschleunigst. Verlagere unmittelbar vor dem Sprung das Gewicht des Fahrers schnell nach vorn. Mit einem Spring-Jump gewinnst du an steilen Anstiegen mehr Höhe. Der zweite Anstieg des schweren Lernprogrammlevels eignet sich am besten, um diesen Trick zu üben.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Komplexe Bewegung: Switch-Jump - Springen auf ebener Erde\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Lehn dich nach vorn, gib Vollgas, und verlagere dein Gewicht schnell nach hinten und dann wieder nach vorn. Hierdurch erhältst du mehr Schwung und kannst auf ebener Erde höher springen. Der Anfang des schweren Lernprogrammlevels eignet sich am besten, um diesen Trick zu üben.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Komplexe Bewegung: Überschlag - Längere Sprünge von Rampen.\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Zieh das Vorderrad in die Luft, und beschleunige bei der Fahrt auf eine beliebige Schanze. Verlagere dein Gewicht nach vorn. Hierdurch kippt das Motorrad in diese Richtung. Mit diesem Trick erhältst du vor dem Sprung mehr Schwung nach vorn, was besonders hilfreich bei Rampen ist, die dich direkt nach oben und nicht nach vorn katapultieren. Diesen Trick übst du am besten im Skisprung-Technikparcours.\r
+<br><br>\r
+</font>]]></Value>
+            <Path>XuiScene.HowToText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>SO WIRD GESPIELT</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

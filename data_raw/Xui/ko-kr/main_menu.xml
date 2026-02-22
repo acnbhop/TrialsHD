@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+선택\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="1">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="2">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="3">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.AchievementsButton.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>도전 과제</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.AchievementsButton.Text</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.GearButton.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>차고</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.GearButton.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.HelpButton.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>도움말 및 옵션</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.HelpButton.Text</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.LeaderboardButton.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>순위표</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.LeaderboardButton.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.PlayGameButton.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>게임 플레이</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.PlayGameButton.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.ReturnButton.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>게임 라이브러리로 돌아가기</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.ReturnButton.Text</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.SkillGamesButton.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>스킬 게임</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.SkillGamesButton.Text</Path>
+        </E>
+        <E i="17">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.UnlockDownloadButton.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>정식 버전 게임 구매</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.UnlockDownloadButton.Text</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.UserContentButton.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>사용자 콘텐츠</Value>
+            <Path>XuiScene1.MainMenuButtonGroup.UserContentButton.Text</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

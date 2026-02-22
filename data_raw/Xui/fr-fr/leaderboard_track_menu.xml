@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Retour</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Voir les meilleurs scores\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Retour\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="5">
+            <Value>22.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.DifficultyText.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>DIFFICULTÉ</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.DifficultyText.Text</Path>
+        </E>
+        <E i="7">
+            <Value>22.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.PositionText.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>TA MÉDAILLE</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.PositionText.Text</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.Text</Path>
+        </E>
+        <E i="18">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.Text</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.Text</Path>
+        </E>
+        <E i="20">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.Text</Path>
+        </E>
+        <E i="21">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.Text</Path>
+        </E>
+        <E i="22">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackList.XuiListItem1.Text</Path>
+        </E>
+        <E i="23">
+            <Value>22.000000</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackNameText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>NOM DE LA PISTE</Value>
+            <Path>XuiScene.LeaderboardTrackGroup.TrackNameText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>20.000000</Value>
+            <Path>XuiScene.NotificationGroup.NotificationText.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.NotificationGroup.NotificationText.Text</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="29">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>SCORES DE LA PISTE</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

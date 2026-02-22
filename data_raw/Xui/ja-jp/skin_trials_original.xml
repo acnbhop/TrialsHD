@@ -1,0 +1,2543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>12.000000</Value>
+            <Path>A_Button.text_ButtonText.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>22.000000</Value>
+            <Path>Trials-A-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="2">
+            <Value>22.000000</Value>
+            <Path>Trials-B-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>20.000000</Value>
+            <Path>Trials-Button-Gears.text_Label.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>27.000000</Value>
+            <Path>Trials-Button.text_Label.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value></Value>
+            <Path>Trials-List-Achieve.XuiListItem1.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value></Value>
+            <Path>Trials-List-Achieve.control_ScrollDown.Text</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value></Value>
+            <Path>Trials-List-Achieve.control_ScrollUp.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.control_ListItem.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Get.control_ListItem.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Get.control_ScrollDown.Text</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Get.control_ScrollUp.Text</Path>
+        </E>
+        <E i="17">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ListItem.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ListItem.Text</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ScrollDown.Text</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ScrollUp.Text</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.control_ListItem.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Play.control_ListItem.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Play.control_ScrollDown.Text</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Play.control_ScrollUp.Text</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.control_ListItem.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Share.control_ListItem.Text</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Share.control_ScrollDown.Text</Path>
+        </E>
+        <E i="33">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value></Value>
+            <Path>Trials-List-CustomTracks-Share.control_ScrollUp.Text</Path>
+        </E>
+        <E i="35">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Filter.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value></Value>
+            <Path>Trials-List-Filter.ScrollLeft.Text</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Filter.ScrollRight.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value></Value>
+            <Path>Trials-List-Filter.ScrollRight.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Filter.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value></Value>
+            <Path>Trials-List-Filter.XuiListItem1.Text</Path>
+        </E>
+        <E i="41">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value></Value>
+            <Path>Trials-List-Gear.ScrollLeft.Text</Path>
+        </E>
+        <E i="43">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear.ScrollRight.PointSize</Path>
+        </E>
+        <E i="44">
+            <Value></Value>
+            <Path>Trials-List-Gear.ScrollRight.Text</Path>
+        </E>
+        <E i="45">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value></Value>
+            <Path>Trials-List-Gear.XuiListItem1.Text</Path>
+        </E>
+        <E i="47">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="48">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.XuiListItem1.Text</Path>
+        </E>
+        <E i="49">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.control_ScrollDown.Text</Path>
+        </E>
+        <E i="51">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.control_ScrollUp.Text</Path>
+        </E>
+        <E i="53">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="54">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.XuiListItem1.Text</Path>
+        </E>
+        <E i="55">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.control_ScrollDown.Text</Path>
+        </E>
+        <E i="57">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.control_ScrollUp.Text</Path>
+        </E>
+        <E i="59">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Challenge.XuiListItem1.Text</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Challenge.control_ScrollDown.Text</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Challenge.control_ScrollUp.Text</Path>
+        </E>
+        <E i="65">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Global.XuiListItem1.Text</Path>
+        </E>
+        <E i="67">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="68">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Global.control_ScrollDown.Text</Path>
+        </E>
+        <E i="69">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="70">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Global.control_ScrollUp.Text</Path>
+        </E>
+        <E i="71">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value></Value>
+            <Path>Trials-List-Lboard-SingleStat.XuiListItem1.Text</Path>
+        </E>
+        <E i="73">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="74">
+            <Value></Value>
+            <Path>Trials-List-Lboard-SingleStat.control_ScrollDown.Text</Path>
+        </E>
+        <E i="75">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="76">
+            <Value></Value>
+            <Path>Trials-List-Lboard-SingleStat.control_ScrollUp.Text</Path>
+        </E>
+        <E i="77">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="78">
+            <Value></Value>
+            <Path>Trials-List-Lboard-SingleTrack.XuiListItem1.Text</Path>
+        </E>
+        <E i="79">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="80">
+            <Value></Value>
+            <Path>Trials-List-Lboard-SingleTrack.control_ScrollDown.Text</Path>
+        </E>
+        <E i="81">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="82">
+            <Value></Value>
+            <Path>Trials-List-Lboard-SingleTrack.control_ScrollUp.Text</Path>
+        </E>
+        <E i="83">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="84">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Tracks.XuiListItem1.Text</Path>
+        </E>
+        <E i="85">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="86">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Tracks.control_ScrollDown.Text</Path>
+        </E>
+        <E i="87">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="88">
+            <Value></Value>
+            <Path>Trials-List-Lboard-Tracks.control_ScrollUp.Text</Path>
+        </E>
+        <E i="89">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-TrackSelect.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="90">
+            <Value></Value>
+            <Path>Trials-List-TrackSelect.ScrollLeft.Text</Path>
+        </E>
+        <E i="91">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-TrackSelect.ScrollRight.PointSize</Path>
+        </E>
+        <E i="92">
+            <Value></Value>
+            <Path>Trials-List-TrackSelect.ScrollRight.Text</Path>
+        </E>
+        <E i="93">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-TrackSelect.control _ListItem.PointSize</Path>
+        </E>
+        <E i="94">
+            <Value></Value>
+            <Path>Trials-List-TrackSelect.control _ListItem.Text</Path>
+        </E>
+        <E i="95">
+            <Value>16.000000</Value>
+            <Path>Trials-ListItem-Achieve.XuiText1.PointSize</Path>
+        </E>
+        <E i="96">
+            <Value>フル スロットル</Value>
+            <Path>Trials-ListItem-Achieve.XuiText1.Text</Path>
+        </E>
+        <E i="97">
+            <Value>12.000000</Value>
+            <Path>Trials-ListItem-Achieve.XuiText2.PointSize</Path>
+        </E>
+        <E i="98">
+            <Value><![CDATA[レースで、一瞬たりともアクセルを緩めずに、\r
+特定のコースをクリア]]></Value>
+            <Path>Trials-ListItem-Achieve.XuiText2.Text</Path>
+        </E>
+        <E i="99">
+            <Value>25.000000</Value>
+            <Path>Trials-ListItem-Achieve.XuiText3.PointSize</Path>
+        </E>
+        <E i="100">
+            <Value>15</Value>
+            <Path>Trials-ListItem-Achieve.XuiText3.Text</Path>
+        </E>
+        <E i="101">
+            <Value>15.000000</Value>
+            <Path>Trials-ListItem-Achieve.text_Label1.PointSize</Path>
+        </E>
+        <E i="102">
+            <Value>12.000000</Value>
+            <Path>Trials-ListItem-Achieve.text_Label2.PointSize</Path>
+        </E>
+        <E i="103">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Achieve.text_Label3.PointSize</Path>
+        </E>
+        <E i="104">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Get.text_Label1.PointSize</Path>
+        </E>
+        <E i="105">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Get.text_Label2.PointSize</Path>
+        </E>
+        <E i="106">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label1.PointSize</Path>
+        </E>
+        <E i="107">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label2.PointSize</Path>
+        </E>
+        <E i="108">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label3.PointSize</Path>
+        </E>
+        <E i="109">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label4.PointSize</Path>
+        </E>
+        <E i="110">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label5.PointSize</Path>
+        </E>
+        <E i="111">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label1.PointSize</Path>
+        </E>
+        <E i="112">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label2.PointSize</Path>
+        </E>
+        <E i="113">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label3.PointSize</Path>
+        </E>
+        <E i="114">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label4.PointSize</Path>
+        </E>
+        <E i="115">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label5.PointSize</Path>
+        </E>
+        <E i="116">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label1.PointSize</Path>
+        </E>
+        <E i="117">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label2.PointSize</Path>
+        </E>
+        <E i="118">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label3.PointSize</Path>
+        </E>
+        <E i="119">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label4.PointSize</Path>
+        </E>
+        <E i="120">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label5.PointSize</Path>
+        </E>
+        <E i="121">
+            <Value>27.000000</Value>
+            <Path>Trials-ListItem-FilterText.text_Label.PointSize</Path>
+        </E>
+        <E i="122">
+            <Value>27.000000</Value>
+            <Path>Trials-ListItem-Gearlist.text_Label.PointSize</Path>
+        </E>
+        <E i="123">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label1.PointSize</Path>
+        </E>
+        <E i="124">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label2.PointSize</Path>
+        </E>
+        <E i="125">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label3.PointSize</Path>
+        </E>
+        <E i="126">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label4.PointSize</Path>
+        </E>
+        <E i="127">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Stat.text_Label1.PointSize</Path>
+        </E>
+        <E i="128">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Stat.text_Label2.PointSize</Path>
+        </E>
+        <E i="129">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Challenge.text_Label1.PointSize</Path>
+        </E>
+        <E i="130">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Challenge.text_Label2.PointSize</Path>
+        </E>
+        <E i="131">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Challenge.text_Label3.PointSize</Path>
+        </E>
+        <E i="132">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Global.text_Label1.PointSize</Path>
+        </E>
+        <E i="133">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Global.text_Label2.PointSize</Path>
+        </E>
+        <E i="134">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Global.text_Label3.PointSize</Path>
+        </E>
+        <E i="135">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleStats.text_Label1.PointSize</Path>
+        </E>
+        <E i="136">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleStats.text_Label2.PointSize</Path>
+        </E>
+        <E i="137">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label1.PointSize</Path>
+        </E>
+        <E i="138">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label2.PointSize</Path>
+        </E>
+        <E i="139">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label3.PointSize</Path>
+        </E>
+        <E i="140">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label4.PointSize</Path>
+        </E>
+        <E i="141">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Tracks.text_Label1.PointSize</Path>
+        </E>
+        <E i="142">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Tracks.text_Label2.PointSize</Path>
+        </E>
+        <E i="143">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Lboard-Tracks.text_Label3.PointSize</Path>
+        </E>
+        <E i="144">
+            <Value>27.000000</Value>
+            <Path>Trials-ListItem-TrackCard.text_Label.PointSize</Path>
+        </E>
+        <E i="145">
+            <Value>22.000000</Value>
+            <Path>Trials-X-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="146">
+            <Value>22.000000</Value>
+            <Path>Trials-Y-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="147">
+            <Value>12.000000</Value>
+            <Path>X_Button.text_ButtonText.PointSize</Path>
+        </E>
+        <E i="148">
+            <Value>12.000000</Value>
+            <Path>XuiBackButton.text_ButtonText.PointSize</Path>
+        </E>
+        <E i="149">
+            <Value>13.000000</Value>
+            <Path>XuiButton.text_Label.PointSize</Path>
+        </E>
+        <E i="150">
+            <Value>14.000000</Value>
+            <Path>XuiCheckbox.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="151">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.PointSize</Path>
+        </E>
+        <E i="152">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.Text</Path>
+        </E>
+        <E i="153">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="154">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="155">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="156">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="157">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="158">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="159">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="160">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="161">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="162">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="163">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="164">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="165">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="166">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="167">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="168">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="169">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="170">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="171">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="172">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="173">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="174">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="175">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="176">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="177">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="178">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="179">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="180">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="181">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="183">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="184">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="185">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="186">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="187">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="188">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="189">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="190">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="191">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="192">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="193">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="194">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="195">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="196">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="197">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="198">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="199">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="200">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="201">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="202">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="203">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="204">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="205">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="206">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="207">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="208">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="209">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="210">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="211">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="212">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="213">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="214">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="215">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="216">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="217">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="218">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="219">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="220">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="221">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="222">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="223">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="224">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="225">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="226">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="227">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="228">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="229">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="230">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="231">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="232">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="233">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="234">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="235">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="236">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="237">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="238">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="239">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="240">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="241">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="242">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="243">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="244">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="245">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="246">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="247">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="248">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="249">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="250">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="251">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="252">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="253">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="254">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="255">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="256">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="257">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="258">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="259">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="260">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="261">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="262">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="263">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="264">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="265">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="266">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="267">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="268">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="269">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="270">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="271">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="272">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="273">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="274">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="275">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="276">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="277">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="278">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="279">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="280">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="281">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="282">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="283">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="284">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="285">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="286">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="287">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="288">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="289">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="290">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="291">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="292">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="293">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="294">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="295">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="296">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="297">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="298">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="299">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="300">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="301">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="302">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="303">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="304">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="305">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="306">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="307">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="308">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="309">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="310">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="311">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="312">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="313">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="314">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="315">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="316">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="317">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="318">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="319">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="320">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="321">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="322">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="323">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="324">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="325">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="326">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="327">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="328">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="329">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="330">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="331">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="332">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="333">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBox.ComboBoxValue.PointSize</Path>
+        </E>
+        <E i="334">
+            <Value></Value>
+            <Path>XuiComboBox.ComboBoxValue.Text</Path>
+        </E>
+        <E i="335">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxDrop.PointSize</Path>
+        </E>
+        <E i="336">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxDrop.Text</Path>
+        </E>
+        <E i="337">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.PointSize</Path>
+        </E>
+        <E i="338">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.Text</Path>
+        </E>
+        <E i="339">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="340">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="341">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="342">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="343">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="344">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="345">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="346">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="347">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="348">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="349">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="350">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="351">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="352">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="353">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="354">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="355">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="356">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="357">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="358">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="359">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="360">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="361">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="362">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="363">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="364">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="365">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="366">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="367">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="368">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="369">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="370">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="371">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="372">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="373">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="374">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="375">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="376">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="377">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="378">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="379">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="380">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="381">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="382">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="383">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="384">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="385">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="386">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="387">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="388">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="389">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="390">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="391">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="392">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="393">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="394">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="395">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="396">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="397">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="398">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="399">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="400">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="401">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="402">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="403">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="404">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="405">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="406">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="407">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="408">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="409">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="410">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="411">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="412">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="413">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="414">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="415">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="416">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="417">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="418">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="419">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="420">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="421">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="422">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="423">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="424">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="425">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="426">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="427">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="428">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="429">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="430">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="431">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="432">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="433">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="434">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="435">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="436">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="437">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="438">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="439">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="440">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="441">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="442">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="443">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="444">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="445">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="446">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="447">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="448">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="449">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="450">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="451">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="452">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="453">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="454">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="455">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="456">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="457">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="458">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="459">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="460">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="461">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="462">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="463">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="464">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="465">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="466">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="467">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="468">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="469">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="470">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="471">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="472">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="473">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="474">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="475">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="476">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="477">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="478">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="479">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="480">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="481">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="482">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="483">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="484">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="485">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="486">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="487">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="488">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="489">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="490">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="491">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="492">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="493">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="494">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="495">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="496">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="497">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="498">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="499">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="500">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="501">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="502">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="503">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="504">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="505">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="506">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="507">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="508">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="509">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="510">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="511">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="512">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="513">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="514">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="515">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="516">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="517">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="518">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxList.control_ListItem.Text</Path>
+        </E>
+        <E i="519">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxValue.AllowedChars</Path>
+        </E>
+        <E i="520">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxValue.PointSize</Path>
+        </E>
+        <E i="521">
+            <Value></Value>
+            <Path>XuiComboBoxDropEdit.ComboBoxValue.Text</Path>
+        </E>
+        <E i="522">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxListCtl.control_ListItem.PointSize</Path>
+        </E>
+        <E i="523">
+            <Value></Value>
+            <Path>XuiComboBoxListCtl.control_ListItem.Text</Path>
+        </E>
+        <E i="524">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxListCtl.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="525">
+            <Value></Value>
+            <Path>XuiComboBoxListCtl.control_ScrollDown.Text</Path>
+        </E>
+        <E i="526">
+            <Value>-1.000000</Value>
+            <Path>XuiComboBoxListCtl.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="527">
+            <Value></Value>
+            <Path>XuiComboBoxListCtl.control_ScrollUp.Text</Path>
+        </E>
+        <E i="528">
+            <Value>13.000000</Value>
+            <Path>XuiComboBoxPickerCtl.text_Label.PointSize</Path>
+        </E>
+        <E i="529">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.Caret.PointSize</Path>
+        </E>
+        <E i="530">
+            <Value></Value>
+            <Path>XuiEdit.Caret.Text</Path>
+        </E>
+        <E i="531">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollDown.PointSize</Path>
+        </E>
+        <E i="532">
+            <Value></Value>
+            <Path>XuiEdit.ScrollDown.Text</Path>
+        </E>
+        <E i="533">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="534">
+            <Value></Value>
+            <Path>XuiEdit.ScrollLeft.Text</Path>
+        </E>
+        <E i="535">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollRight.PointSize</Path>
+        </E>
+        <E i="536">
+            <Value></Value>
+            <Path>XuiEdit.ScrollRight.Text</Path>
+        </E>
+        <E i="537">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollUp.PointSize</Path>
+        </E>
+        <E i="538">
+            <Value></Value>
+            <Path>XuiEdit.ScrollUp.Text</Path>
+        </E>
+        <E i="539">
+            <Value>13.000000</Value>
+            <Path>XuiEdit.Text.PointSize</Path>
+        </E>
+        <E i="540">
+            <Value>-1.000000</Value>
+            <Path>XuiGrid.control_ListItem.PointSize</Path>
+        </E>
+        <E i="541">
+            <Value></Value>
+            <Path>XuiGrid.control_ListItem.Text</Path>
+        </E>
+        <E i="542">
+            <Value>-1.000000</Value>
+            <Path>XuiGrid.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="543">
+            <Value></Value>
+            <Path>XuiGrid.control_ScrollDown.Text</Path>
+        </E>
+        <E i="544">
+            <Value>-1.000000</Value>
+            <Path>XuiGrid.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="545">
+            <Value></Value>
+            <Path>XuiGrid.control_ScrollUp.Text</Path>
+        </E>
+        <E i="546">
+            <Value>-1.000000</Value>
+            <Path>XuiGridHorizontal.control_ListItem.PointSize</Path>
+        </E>
+        <E i="547">
+            <Value></Value>
+            <Path>XuiGridHorizontal.control_ListItem.Text</Path>
+        </E>
+        <E i="548">
+            <Value>-1.000000</Value>
+            <Path>XuiGridHorizontal.control_ScrollLeft.PointSize</Path>
+        </E>
+        <E i="549">
+            <Value></Value>
+            <Path>XuiGridHorizontal.control_ScrollLeft.Text</Path>
+        </E>
+        <E i="550">
+            <Value>-1.000000</Value>
+            <Path>XuiGridHorizontal.control_ScrollRight.PointSize</Path>
+        </E>
+        <E i="551">
+            <Value></Value>
+            <Path>XuiGridHorizontal.control_ScrollRight.Text</Path>
+        </E>
+        <E i="552">
+            <Value>-1.000000</Value>
+            <Path>XuiHtmlControl.ScrollDown.PointSize</Path>
+        </E>
+        <E i="553">
+            <Value></Value>
+            <Path>XuiHtmlControl.ScrollDown.Text</Path>
+        </E>
+        <E i="554">
+            <Value>-1.000000</Value>
+            <Path>XuiHtmlControl.ScrollUp.PointSize</Path>
+        </E>
+        <E i="555">
+            <Value></Value>
+            <Path>XuiHtmlControl.ScrollUp.Text</Path>
+        </E>
+        <E i="556">
+            <Value>-1.000000</Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollBar.PointSize</Path>
+        </E>
+        <E i="557">
+            <Value></Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollBar.Text</Path>
+        </E>
+        <E i="558">
+            <Value>-1.000000</Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollDown.PointSize</Path>
+        </E>
+        <E i="559">
+            <Value></Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollDown.Text</Path>
+        </E>
+        <E i="560">
+            <Value>-1.000000</Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollUp.PointSize</Path>
+        </E>
+        <E i="561">
+            <Value></Value>
+            <Path>XuiHtmlControl_ScrollV.ScrollUp.Text</Path>
+        </E>
+        <E i="562">
+            <Value>13.000000</Value>
+            <Path>XuiLabel.Text.PointSize</Path>
+        </E>
+        <E i="563">
+            <Value>12.000000</Value>
+            <Path>XuiLabelSmall.Text.PointSize</Path>
+        </E>
+        <E i="564">
+            <Value>-1.000000</Value>
+            <Path>XuiList.control_ListItem.PointSize</Path>
+        </E>
+        <E i="565">
+            <Value></Value>
+            <Path>XuiList.control_ListItem.Text</Path>
+        </E>
+        <E i="566">
+            <Value>-1.000000</Value>
+            <Path>XuiList.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="567">
+            <Value></Value>
+            <Path>XuiList.control_ScrollDown.Text</Path>
+        </E>
+        <E i="568">
+            <Value>-1.000000</Value>
+            <Path>XuiList.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="569">
+            <Value></Value>
+            <Path>XuiList.control_ScrollUp.Text</Path>
+        </E>
+        <E i="570">
+            <Value>-1.000000</Value>
+            <Path>XuiListCheckable.control_ListItem.PointSize</Path>
+        </E>
+        <E i="571">
+            <Value></Value>
+            <Path>XuiListCheckable.control_ListItem.Text</Path>
+        </E>
+        <E i="572">
+            <Value>-1.000000</Value>
+            <Path>XuiListCheckable.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="573">
+            <Value></Value>
+            <Path>XuiListCheckable.control_ScrollDown.Text</Path>
+        </E>
+        <E i="574">
+            <Value>-1.000000</Value>
+            <Path>XuiListCheckable.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="575">
+            <Value></Value>
+            <Path>XuiListCheckable.control_ScrollUp.Text</Path>
+        </E>
+        <E i="576">
+            <Value>-1.000000</Value>
+            <Path>XuiListChooser.ListItem.PointSize</Path>
+        </E>
+        <E i="577">
+            <Value></Value>
+            <Path>XuiListChooser.ListItem.Text</Path>
+        </E>
+        <E i="578">
+            <Value>-1.000000</Value>
+            <Path>XuiListChooser.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="579">
+            <Value></Value>
+            <Path>XuiListChooser.ScrollLeft.Text</Path>
+        </E>
+        <E i="580">
+            <Value>-1.000000</Value>
+            <Path>XuiListChooser.ScrollRight.PointSize</Path>
+        </E>
+        <E i="581">
+            <Value></Value>
+            <Path>XuiListChooser.ScrollRight.Text</Path>
+        </E>
+        <E i="582">
+            <Value>-1.000000</Value>
+            <Path>XuiListHorizontal.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="583">
+            <Value></Value>
+            <Path>XuiListHorizontal.ScrollLeft.Text</Path>
+        </E>
+        <E i="584">
+            <Value>-1.000000</Value>
+            <Path>XuiListHorizontal.ScrollRight.PointSize</Path>
+        </E>
+        <E i="585">
+            <Value></Value>
+            <Path>XuiListHorizontal.ScrollRight.Text</Path>
+        </E>
+        <E i="586">
+            <Value>-1.000000</Value>
+            <Path>XuiListHorizontal.control _ListItem.PointSize</Path>
+        </E>
+        <E i="587">
+            <Value></Value>
+            <Path>XuiListHorizontal.control _ListItem.Text</Path>
+        </E>
+        <E i="588">
+            <Value>-1.000000</Value>
+            <Path>XuiList_ScrollV.ScrollBar.PointSize</Path>
+        </E>
+        <E i="589">
+            <Value></Value>
+            <Path>XuiList_ScrollV.ScrollBar.Text</Path>
+        </E>
+        <E i="590">
+            <Value>-1.000000</Value>
+            <Path>XuiList_ScrollV.control_ListItem.PointSize</Path>
+        </E>
+        <E i="591">
+            <Value></Value>
+            <Path>XuiList_ScrollV.control_ListItem.Text</Path>
+        </E>
+        <E i="592">
+            <Value>-1.000000</Value>
+            <Path>XuiList_ScrollV.control_ScrollDown.PointSize</Path>
+        </E>
+        <E i="593">
+            <Value></Value>
+            <Path>XuiList_ScrollV.control_ScrollDown.Text</Path>
+        </E>
+        <E i="594">
+            <Value>-1.000000</Value>
+            <Path>XuiList_ScrollV.control_ScrollUp.PointSize</Path>
+        </E>
+        <E i="595">
+            <Value></Value>
+            <Path>XuiList_ScrollV.control_ScrollUp.Text</Path>
+        </E>
+        <E i="596">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.BG.PointSize</Path>
+        </E>
+        <E i="597">
+            <Value></Value>
+            <Path>XuiMessageBox1.XuiScene1.BG.Text</Path>
+        </E>
+        <E i="598">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.Button0.PointSize</Path>
+        </E>
+        <E i="599">
+            <Value></Value>
+            <Path>XuiMessageBox1.XuiScene1.Button0.Text</Path>
+        </E>
+        <E i="600">
+            <Value></Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.AllowedChars</Path>
+        </E>
+        <E i="601">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.PointSize</Path>
+        </E>
+        <E i="602">
+            <Value></Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.Text</Path>
+        </E>
+        <E i="603">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.PointSize</Path>
+        </E>
+        <E i="604">
+            <Value></Value>
+            <Path>XuiMessageBox1.XuiScene1.Text</Path>
+        </E>
+        <E i="605">
+            <Value>13.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.Title.PointSize</Path>
+        </E>
+        <E i="606">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.BG.PointSize</Path>
+        </E>
+        <E i="607">
+            <Value></Value>
+            <Path>XuiMessageBox2.XuiScene1.BG.Text</Path>
+        </E>
+        <E i="608">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Button0.PointSize</Path>
+        </E>
+        <E i="609">
+            <Value></Value>
+            <Path>XuiMessageBox2.XuiScene1.Button0.Text</Path>
+        </E>
+        <E i="610">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Button1.PointSize</Path>
+        </E>
+        <E i="611">
+            <Value></Value>
+            <Path>XuiMessageBox2.XuiScene1.Button1.Text</Path>
+        </E>
+        <E i="612">
+            <Value></Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.AllowedChars</Path>
+        </E>
+        <E i="613">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.PointSize</Path>
+        </E>
+        <E i="614">
+            <Value></Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.Text</Path>
+        </E>
+        <E i="615">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.PointSize</Path>
+        </E>
+        <E i="616">
+            <Value></Value>
+            <Path>XuiMessageBox2.XuiScene1.Text</Path>
+        </E>
+        <E i="617">
+            <Value>13.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Title.PointSize</Path>
+        </E>
+        <E i="618">
+            <Value>13.000000</Value>
+            <Path>XuiProgressBar.text_progressbar.PointSize</Path>
+        </E>
+        <E i="619">
+            <Value>13.000000</Value>
+            <Path>XuiRadioButton.ButtonText.PointSize</Path>
+        </E>
+        <E i="620">
+            <Value>18.000000</Value>
+            <Path>XuiScene.XuiTextPresenter.PointSize</Path>
+        </E>
+        <E i="621">
+            <Value>13.000000</Value>
+            <Path>XuiSlider.Text_Slider.PointSize</Path>
+        </E>
+        <E i="622">
+            <Value>13.000000</Value>
+            <Path>XuiSlider.text_Label.PointSize</Path>
+        </E>
+        <E i="623">
+            <Value>13.000000</Value>
+            <Path>XuiSlider_Bars.Text_Slider.PointSize</Path>
+        </E>
+        <E i="624">
+            <Value>13.000000</Value>
+            <Path>XuiSlider_Radial.Text_Slider.PointSize</Path>
+        </E>
+        <E i="625">
+            <Value>-1.000000</Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMax.PointSize</Path>
+        </E>
+        <E i="626">
+            <Value></Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMax.Text</Path>
+        </E>
+        <E i="627">
+            <Value>-1.000000</Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMin.PointSize</Path>
+        </E>
+        <E i="628">
+            <Value></Value>
+            <Path>XuiSlider_ScrollEnds.ScrollMin.Text</Path>
+        </E>
+        <E i="629">
+            <Value>13.000000</Value>
+            <Path>XuiSlider_ScrollEnds.Text_Slider.PointSize</Path>
+        </E>
+        <E i="630">
+            <Value>13.000000</Value>
+            <Path>XuiSlider_ScrollEnds.text_Label.PointSize</Path>
+        </E>
+        <E i="631">
+            <Value>13.000000</Value>
+            <Path>XuiSlider_Vertical.Text_Slider.PointSize</Path>
+        </E>
+        <E i="632">
+            <Value>13.000000</Value>
+            <Path>XuiSlider_Vertical.text_Label.PointSize</Path>
+        </E>
+        <E i="633">
+            <Value>12.000000</Value>
+            <Path>Y_Button.text_ButtonText.PointSize</Path>
+        </E>
+    </Entries>
+</XusFile>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Voltar</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Voltar\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HowToText.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HowToText.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<div align="center">\r
+\r
+<font color="#EBB40F" size="25">\r
+Corrida de Trials\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+O objectivo do jogo é acabar a pista com o mínimo de falhas e o mais depressa possível. Ganhas uma medalha de Bronze por passar a meta, mas os melhores desempenhos são recompensados com outras medalhas.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Falhas\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Uma falha ocorre quando o piloto consegue virar a mota ou sofre demasiados danos do ambiente. Depois de uma falha, a mota é colocada no último ponto de controlo que o jogador ultrapassou.\r
+<br><br>\r
+Lembra-te de que as faltas são o principal factor quando as pontuações são classificadas. Não importa a rapidez com que conduziste pela pista, é sempre melhor acabares com poucas falhas, independentemente de teres conduzido mais devagar.\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Jogos de Perícia\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Os Jogos de perícia são desbloqueados à medida que avanças no jogo. Os seus objectivos variam e são apresentados antes de o jogo começar. Trials HD utiliza um modelo de física muito sofisticado, e nada no jogo é aleatório. Os movimentos avançados requerem um controlo muito preciso, mas a prática leva à perfeição. Boa sorte!\r
+<br><br>\r
+</font>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Movimento Avançado: Salto de Molas - Dá saltos maiores\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Inclina-te para trás quando aceleras para uma rampa. Logo antes do salto, desloca o peso do piloto rapidamente para a frente. Com o Salto de Mola, ganharás mais altura em subidas muito inclinadas. Um bom lugar para praticares este truque é a segunda encosta do jogo de aprendizagem Difícil.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Movimento Avançado: Salto de Troca - Saltar em terreno plano\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+Inclina-te para a frente, aumenta a aceleração e passa o teu peso rapidamente para trás e depois para a frente. Desta maneira ganharás mais cinética e poderás saltar mais alto em terreno plano. Um bom lugar para praticares este truque é o início do jogo de aprendizagem Difícil.\r
+<br><br>\r
+\r
+\r
+<font color="#EBB40F" size="25">\r
+Movimento Avançado: Mortal para Trás - Dá saltos mais rápidos de rampas.\r
+</font>\r
+\r
+<font color="#D8C69A" size="20">\r
+<br>\r
+levanta a roda da frente e acelera na direcção de qualquer salto. Passa o teu peso para a frente e obrigarás a mota a dar um mortal nessa direcção. Este truque pode ajudar-te a ganhar mais cinética para a frente antes do salto, e é especialmente útil quando encontras rampas que te lançam directamente para cima, em vez de para a frente. O melhor lugar para praticares este truque é o Jogo de Perícia Salto de Esqui.\r
+<br><br>\r
+</font>]]></Value>
+            <Path>XuiScene.HowToText.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="10">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>INSTRUÇÕES DE JOGO</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

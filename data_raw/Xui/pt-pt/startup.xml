@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>18.000000</Value>
+            <Path>XuiScene1.ESRBNoticeText.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>As interacções online não estão classificadas pela ESRB</Value>
+            <Path>XuiScene1.ESRBNoticeText.Text</Path>
+        </E>
+        <E i="2">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

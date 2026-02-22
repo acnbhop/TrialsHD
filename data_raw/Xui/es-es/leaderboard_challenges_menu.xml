@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Atrás</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Ver las puntuaciones más altas\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Atrás\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="15">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="16">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="18">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.ChallengeList.XuiListItem1.Text</Path>
+        </E>
+        <E i="19">
+            <Value>22.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.DifficultyText.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>NIVEL</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.DifficultyText.Text</Path>
+        </E>
+        <E i="21">
+            <Value>22.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.PlayerNameText.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>TU MEDALLA</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.PlayerNameText.Text</Path>
+        </E>
+        <E i="23">
+            <Value>22.000000</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.PositionText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>NOMBRE DEL TORNEO</Value>
+            <Path>XuiScene.LeaderboardChallengesGroup.PositionText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>25.000000</Value>
+            <Path>XuiScene.LoadingGroup.LoadingText.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>CARGANDO...</Value>
+            <Path>XuiScene.LoadingGroup.LoadingText.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene.NotificationGroup.NotificationText.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.NotificationGroup.NotificationText.Text</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="31">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>TORNEOS</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

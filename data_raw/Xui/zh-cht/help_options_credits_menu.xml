@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>返回</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="right">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+返回\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>28</Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl1.LineHeight</Path>
+        </E>
+        <E i="4">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl1.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value><![CDATA[<DIV ALIGN=CENTER><img src="images/title_logo.dds" align="middle" /> <font color="#E8AD1E" size="40"><br><br><br><br>RedLynx Trials HD Team<br><font color="#D7CAAD" size="30">Sebastian Aaltonen<br>Ville Anttonen<br>Vesa Halonen<br>Toni Hollming<br>Antti Ilvessuo<br>Saku Jalkanen<br>Toni Lääveri<br>Kari Perho<br>Mikko Rautalahti<br>Sami Saarinen<br>Jorma Sainio<br>Matti Tuomela<br>Juho Äyräväinen<br><br><br><font color="#E8AD1E" size="40">Xbox LIVE Arcade Team<br><br><font color="#E8AD1E" size="35">Producer<br><font color="#D7CAAD" size="30">Peter Choi<br><br><font color="#E8AD1E" size="35">Test Lead<br><font color="#D7CAAD" size="30">Justin Swan<br><br><font color="#E8AD1E" size="35">Release Management Team<br><font color="#D7CAAD" size="30">Alex Shogren (Excell Data Corporation)<br><br><font color="#E8AD1E" size="35">Software Test Manager<br><font color="#D7CAAD" size="30">Matt Golz<br><br><font color="#E8AD1E" size="35">Product Planning & Business Team <br><font color="#D7CAAD" size="30">Cherie Lutz <br><br><font color="#E8AD1E" size="35">Marketing<br><font color="#D7CAAD" size="30">Jason Ing<br>Jennifer Yi<br>Kristen Miyake<br><br><font color="#E8AD1E" size="35">PR<br><font color="#D7CAAD" size="30">Julianne Diaz<br><br><font color="#E8AD1E" size="35">VMC MAT Tester Lead<br><font color="#D7CAAD" size="30">Jeremiah Armstrong<br><br><font color="#E8AD1E" size="35">VMC MAT Tester <br><font color="#D7CAAD" size="30">Karl Wadesauer<br><br><font color="#E8AD1E" size="35">VMC Test Manager<br><font color="#D7CAAD" size="30">Scott R. Griffiths<br><br><font color="#E8AD1E" size="35">VMC Senior Test Lead<br><font color="#D7CAAD" size="30">Cala Posey<br><br><font color="#E8AD1E" size="35">VMC Test Lead<br><font color="#D7CAAD" size="30">Wes McDaniel<br><br><font color="#E8AD1E" size="35">VMC Test<br><font color="#D7CAAD" size="30">Ian Doble<br>Nick Hart<br>Joshua Sharp Daniels<br>Sam Tharp<br><br><font color="#E8AD1E" size="35">Localization<br><font color="#D7CAAD" size="30">Malika Kherfi<br>Kevin Cooke<br>Francesco Sansone<br>Lana Peng<br>Masato Ishida<br>Peter O’Grady<br>Robert Lin<br>Shinya Muto<br>Atsushi Horiuchi<br>Tomoko Kometani<br>Souichiro Shimano<br>Sachiko Nagasawa<br>Andy Chen An Liu<br>Christina Yu<br>Vincent Tsai<br>Jae Youn Kim<br>Hae Jung Lee<br>In Goo Kwon<br><br><font color="#E8AD1E" size="35">Consumer Research<br><font color="#D7CAAD" size="30">John Hopson<br><br><font color="#E8AD1E" size="35">Special Thanks<br><font color="#D7CAAD" size="30">Oliver Miyashita<br>Kevin Salcedo<br><br><br><font color="#E8AD1E" size="35">VO Talents<br><font color="#D7CAAD" size="30">Brandon DiCamillo<br>Art Webb<br>Rake Yohn<br><br><br><font color="#E8AD1E" size="40">Special Thanks & Greetings From RedLynx <br><font color="#D7CAAD" size="30">Atte Ilvessuo<br>Jukka Merinen<br>Joonas Tamminen<br>QcChopper and all the Trials Fans from previous versions! <br><br><br>謝謝您支持本遊戲]]></Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl1.Text</Path>
+        </E>
+        <E i="6">
+            <Value>28</Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl2.LineHeight</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl2.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value><![CDATA[<DIV ALIGN=CENTER><font color="#D7CAAD" size="30">製作群名單到此結束。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>真的啦，已經結束了！<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>天啊，這個玩笑實在太老掉牙了。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>話說回來，很多幽默的笑話都是以不斷重覆作為笑點的。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>我們既然製作了一款關於機車騎士的遊戲，我們當然也很幽默啊。<br><br><br><br><br><br><br>他撞上鋼條的時候就很好笑，經典！<br><br><br><br><br><br><br><br>那我們就來玩玩重覆這招吧。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>不要，我不要玩。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><font color="#FF0000" size="30">管理層的公開信：我們在此致歉。製作群名單之後的剩餘空間，不幸遭到笨蛋員工濫用，以吸引各位的注意。這名笨蛋目前正在接受本公司呆瓜團隊的管教。<br><br><br><br><br><br><br><br><br><br> RedLynx 公司承諾，我們不僅提供娛樂，更教育我們的顧客。因此，以下的剩餘篇幅將純粹用作教育用途。我們現在指派另一名笨蛋員工進行這項工作。謝謝您，並祝福您有愉快的一天。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><font color="#D7CAAD" size="30">嗯… 好的。艱難的知識！教育！你可以問我任何問題，我已經準備好了。我要教育你了，準備好受教育吧！<br><br><br><br><br><br><br><br><br>例如，質量和慣性基本上是一樣的。<br><br><br><br><br><br><br><br>很簡單吧？你已經學到東西了，對我來說真是易如反掌。哦，不客氣。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>還想聽別的？別太過份了，你會把我逼瘋的。這個怎麼樣：<br><br><br><br><br><br><br>量子力學中的普朗克常數 (Planck's constant) 是用來描述量子大小的。它是光子能量 (E) 和其電磁波頻率 (v) 的比值常數。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>哇哈！這樣的教育如何？你現在總算服氣了吧，我可以想見我對你的生活產生了多大的影響。這個定律在日常生活的應用可以說是無遠弗屆。<br><br><br><br><br><br><br><br><br><br>哦，再聽聽看這個：<br><br><br><br><br><br>希臘哲學家克利西波斯 (Chrysippus) 是著名的斯多葛學派 (Stoic) 哲學家，生活中極度缺乏娛樂。他曾經把一頭驢子灌醉，看它試著要吃無花果的樣子，活生把自己笑死了。真的。<br><br><br><br><br><br><br><br>老天，如果那時候有電視的話，一定可以救他老兄一命的。<br><br><br><br><br><br><br><br>不然，我猜溜溜球 (yo-yo) 也行，什麼都好。接下來：<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"我們只使用了大腦的 10%" 這個說法其實並不正確。呃… 除了對那些真的相信這個說法的人來說。因為他們很笨。<br><br><br><br><br><br><br><br><br>說到笨，我不認為世界末日會發生在 2012 年，不管古老的馬雅曆是怎麼說的。當然，馬雅文明很輝煌，但是他們竟然殺活人獻祭，甚至設法讓孩子變成永久性鬥雞眼，只因為他們覺得這樣很酷。我是說，如果我真的需要別人的建議，我不會第一個想到要問馬雅人，你懂我的意思吧？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>唉，這些馬雅人！<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>最後，有一件非常重要的事情。如果今天你只記得住一件事，一定要是這一件：<br><br><br><br><br><br><br><br>你必須摧毀殭屍的大腦，才能阻止他。還有，他已經不再是你最好的朋友了，他是恐怖的殭屍！也不要回去找你的小狗，就算你再愛它也別回頭。多愁善感只會讓你在殭屍復活的時候丟掉小命。這實在太重要了。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>好了，就這樣，我說完了。我可以回家了嗎？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>哈囉？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>有人在嗎？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>先生？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>真的沒人在嗎？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>媽咪？<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>我… 我好孤單哦…<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><font color="#FF0000" size="30">備忘：僱用聰明一點的笨蛋。]]></Value>
+            <Path>XuiScene.HelpCreditsGroup.CreditsScrollGroup.XuiHtmlControl2.Text</Path>
+        </E>
+        <E i="9">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[\r
+]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="13">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>製作群</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

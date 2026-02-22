@@ -1,0 +1,1596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>22.000000</Value>
+            <Path>Trials-A-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>22.000000</Value>
+            <Path>Trials-B-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="2">
+            <Value>22.000000</Value>
+            <Path>Trials-Back-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>29.000000</Value>
+            <Path>Trials-Button-Centered.text_Label.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>30.000000</Value>
+            <Path>Trials-Button-Difficulty.text_Label.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>25.000000</Value>
+            <Path>Trials-Button-GameMode.text_Label.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>30.000000</Value>
+            <Path>Trials-Button-Gears.text_Label.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>29.000000</Value>
+            <Path>Trials-Button-MessageBoxCentered.text_Label.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>20.000000</Value>
+            <Path>Trials-Button-Properties.text_Label.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>20.000000</Value>
+            <Path>Trials-Button-PropertiesArrow.text_Label.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>25.000000</Value>
+            <Path>Trials-Button-Settings.text_Label.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>30.000000</Value>
+            <Path>Trials-Button-Tournaments.text_Label.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>30.000000</Value>
+            <Path>Trials-Button-UserEditor.text_Label.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>30.000000</Value>
+            <Path>Trials-Button.text_Label.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>19.000000</Value>
+            <Path>Trials-Checkbox.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>19.000000</Value>
+            <Path>Trials-CheckboxTEST.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>22.000000</Value>
+            <Path>Trials-DPAD-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value>22.000000</Value>
+            <Path>Trials-Down-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>22.000000</Value>
+            <Path>Trials-LB-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value>22.000000</Value>
+            <Path>Trials-LS-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>22.000000</Value>
+            <Path>Trials-LS2-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>22.000000</Value>
+            <Path>Trials-LT-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>22.000000</Value>
+            <Path>Trials-Left-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.AchievementListItem.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Achieve.AchievementListItem.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.ScrollBar.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Achieve.ScrollBar.Text</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.ScrollDown.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Achieve.ScrollDown.Text</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Achieve.ScrollUp.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Achieve.ScrollUp.Text</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.ScrollBar.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.ScrollBar.Text</Path>
+        </E>
+        <E i="33">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.ScrollDown.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.ScrollDown.Text</Path>
+        </E>
+        <E i="35">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.ScrollUp.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.ScrollUp.Text</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.control_ListItem.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-FriendTracks.control_ListItem.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.ScrollBar.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Get.ScrollBar.Text</Path>
+        </E>
+        <E i="41">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.ScrollDown.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Get.ScrollDown.Text</Path>
+        </E>
+        <E i="43">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.ScrollUp.PointSize</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Get.ScrollUp.Text</Path>
+        </E>
+        <E i="45">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Get.control_ListItem.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Get.control_ListItem.Text</Path>
+        </E>
+        <E i="47">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Load.ScrollBar.PointSize</Path>
+        </E>
+        <E i="48">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Load.ScrollBar.Text</Path>
+        </E>
+        <E i="49">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Load.ScrollDown.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Load.ScrollDown.Text</Path>
+        </E>
+        <E i="51">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Load.ScrollUp.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Load.ScrollUp.Text</Path>
+        </E>
+        <E i="53">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Load.control_ListItem.PointSize</Path>
+        </E>
+        <E i="54">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Load.control_ListItem.Text</Path>
+        </E>
+        <E i="55">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.ScrollBar.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Manage.ScrollBar.Text</Path>
+        </E>
+        <E i="57">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.ScrollDown.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Manage.ScrollDown.Text</Path>
+        </E>
+        <E i="59">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.ScrollUp.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Manage.ScrollUp.Text</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ListItem.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Manage.control_ListItem.Text</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.ScrollBar.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Play.ScrollBar.Text</Path>
+        </E>
+        <E i="65">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.ScrollDown.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Play.ScrollDown.Text</Path>
+        </E>
+        <E i="67">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.ScrollUp.PointSize</Path>
+        </E>
+        <E i="68">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Play.ScrollUp.Text</Path>
+        </E>
+        <E i="69">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Play.control_ListItem.PointSize</Path>
+        </E>
+        <E i="70">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Play.control_ListItem.Text</Path>
+        </E>
+        <E i="71">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Publish.ScrollBar.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Publish.ScrollBar.Text</Path>
+        </E>
+        <E i="73">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Publish.ScrollDown.PointSize</Path>
+        </E>
+        <E i="74">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Publish.ScrollDown.Text</Path>
+        </E>
+        <E i="75">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Publish.ScrollUp.PointSize</Path>
+        </E>
+        <E i="76">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Publish.ScrollUp.Text</Path>
+        </E>
+        <E i="77">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Publish.control_ListItem.PointSize</Path>
+        </E>
+        <E i="78">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Publish.control_ListItem.Text</Path>
+        </E>
+        <E i="79">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.ScrollBar.PointSize</Path>
+        </E>
+        <E i="80">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Share.ScrollBar.Text</Path>
+        </E>
+        <E i="81">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.ScrollDown.PointSize</Path>
+        </E>
+        <E i="82">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Share.ScrollDown.Text</Path>
+        </E>
+        <E i="83">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.ScrollUp.PointSize</Path>
+        </E>
+        <E i="84">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Share.ScrollUp.Text</Path>
+        </E>
+        <E i="85">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-CustomTracks-Share.control_ListItem.PointSize</Path>
+        </E>
+        <E i="86">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-CustomTracks-Share.control_ListItem.Text</Path>
+        </E>
+        <E i="87">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorCategory.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="88">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorCategory.ScrollLeft.Text</Path>
+        </E>
+        <E i="89">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorCategory.ScrollRight.PointSize</Path>
+        </E>
+        <E i="90">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorCategory.ScrollRight.Text</Path>
+        </E>
+        <E i="91">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorCategory.control _ListItem.PointSize</Path>
+        </E>
+        <E i="92">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorCategory.control _ListItem.Text</Path>
+        </E>
+        <E i="93">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorObjects.XuiScrollEnd1.PointSize</Path>
+        </E>
+        <E i="94">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorObjects.XuiScrollEnd1.Text</Path>
+        </E>
+        <E i="95">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorObjects.XuiScrollEnd2.PointSize</Path>
+        </E>
+        <E i="96">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorObjects.XuiScrollEnd2.Text</Path>
+        </E>
+        <E i="97">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorObjects.control _ListItem.PointSize</Path>
+        </E>
+        <E i="98">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorObjects.control _ListItem.Text</Path>
+        </E>
+        <E i="99">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorTriggers.ScrollBar.PointSize</Path>
+        </E>
+        <E i="100">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorTriggers.ScrollBar.Text</Path>
+        </E>
+        <E i="101">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorTriggers.ScrollDown.PointSize</Path>
+        </E>
+        <E i="102">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorTriggers.ScrollDown.Text</Path>
+        </E>
+        <E i="103">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorTriggers.ScrollUp.PointSize</Path>
+        </E>
+        <E i="104">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorTriggers.ScrollUp.Text</Path>
+        </E>
+        <E i="105">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-EditorTriggers.control _ListItem.PointSize</Path>
+        </E>
+        <E i="106">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-EditorTriggers.control _ListItem.Text</Path>
+        </E>
+        <E i="107">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Filter.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="108">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Filter.ScrollLeft.Text</Path>
+        </E>
+        <E i="109">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Filter.ScrollRight.PointSize</Path>
+        </E>
+        <E i="110">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Filter.ScrollRight.Text</Path>
+        </E>
+        <E i="111">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Filter.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="112">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Filter.XuiListItem1.Text</Path>
+        </E>
+        <E i="113">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear-Color.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="114">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Gear-Color.ScrollLeft.Text</Path>
+        </E>
+        <E i="115">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear-Color.ScrollRight.PointSize</Path>
+        </E>
+        <E i="116">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Gear-Color.ScrollRight.Text</Path>
+        </E>
+        <E i="117">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear-Color.XuiListItem2.PointSize</Path>
+        </E>
+        <E i="118">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Gear-Color.XuiListItem2.Text</Path>
+        </E>
+        <E i="119">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Gear.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="120">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Gear.XuiListItem1.Text</Path>
+        </E>
+        <E i="121">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.ScrollBar.PointSize</Path>
+        </E>
+        <E i="122">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.ScrollBar.Text</Path>
+        </E>
+        <E i="123">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.ScrollDown.PointSize</Path>
+        </E>
+        <E i="124">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.ScrollDown.Text</Path>
+        </E>
+        <E i="125">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.ScrollUp.PointSize</Path>
+        </E>
+        <E i="126">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.ScrollUp.Text</Path>
+        </E>
+        <E i="127">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Hi.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="128">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Hi.XuiListItem1.Text</Path>
+        </E>
+        <E i="129">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.ScrollBar.PointSize</Path>
+        </E>
+        <E i="130">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.ScrollBar.Text</Path>
+        </E>
+        <E i="131">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.ScrollDown.PointSize</Path>
+        </E>
+        <E i="132">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.ScrollDown.Text</Path>
+        </E>
+        <E i="133">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.ScrollUp.PointSize</Path>
+        </E>
+        <E i="134">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.ScrollUp.Text</Path>
+        </E>
+        <E i="135">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Chal-Stat.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="136">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Chal-Stat.XuiListItem1.Text</Path>
+        </E>
+        <E i="137">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.ScrollBar.PointSize</Path>
+        </E>
+        <E i="138">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Challenge.ScrollBar.Text</Path>
+        </E>
+        <E i="139">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.ScrollDown.PointSize</Path>
+        </E>
+        <E i="140">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Challenge.ScrollDown.Text</Path>
+        </E>
+        <E i="141">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.ScrollUp.PointSize</Path>
+        </E>
+        <E i="142">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Challenge.ScrollUp.Text</Path>
+        </E>
+        <E i="143">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Challenge.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="144">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Challenge.XuiListItem1.Text</Path>
+        </E>
+        <E i="145">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.ScrollBar.PointSize</Path>
+        </E>
+        <E i="146">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Global.ScrollBar.Text</Path>
+        </E>
+        <E i="147">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.ScrollDown.PointSize</Path>
+        </E>
+        <E i="148">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Global.ScrollDown.Text</Path>
+        </E>
+        <E i="149">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.ScrollUp.PointSize</Path>
+        </E>
+        <E i="150">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Global.ScrollUp.Text</Path>
+        </E>
+        <E i="151">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Global.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="152">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Global.XuiListItem1.Text</Path>
+        </E>
+        <E i="153">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.ScrollBar.PointSize</Path>
+        </E>
+        <E i="154">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleStat.ScrollBar.Text</Path>
+        </E>
+        <E i="155">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.ScrollDown.PointSize</Path>
+        </E>
+        <E i="156">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleStat.ScrollDown.Text</Path>
+        </E>
+        <E i="157">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.ScrollUp.PointSize</Path>
+        </E>
+        <E i="158">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleStat.ScrollUp.Text</Path>
+        </E>
+        <E i="159">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleStat.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="160">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleStat.XuiListItem1.Text</Path>
+        </E>
+        <E i="161">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.ScrollBar.PointSize</Path>
+        </E>
+        <E i="162">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleTrack.ScrollBar.Text</Path>
+        </E>
+        <E i="163">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.ScrollDown.PointSize</Path>
+        </E>
+        <E i="164">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleTrack.ScrollDown.Text</Path>
+        </E>
+        <E i="165">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.ScrollUp.PointSize</Path>
+        </E>
+        <E i="166">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleTrack.ScrollUp.Text</Path>
+        </E>
+        <E i="167">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-SingleTrack.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="168">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-SingleTrack.XuiListItem1.Text</Path>
+        </E>
+        <E i="169">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.ScrollBar.PointSize</Path>
+        </E>
+        <E i="170">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Tracks.ScrollBar.Text</Path>
+        </E>
+        <E i="171">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.ScrollDown.PointSize</Path>
+        </E>
+        <E i="172">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Tracks.ScrollDown.Text</Path>
+        </E>
+        <E i="173">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.ScrollUp.PointSize</Path>
+        </E>
+        <E i="174">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Tracks.ScrollUp.Text</Path>
+        </E>
+        <E i="175">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Lboard-Tracks.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="176">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Lboard-Tracks.XuiListItem1.Text</Path>
+        </E>
+        <E i="177">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Popup.ScrollBar.PointSize</Path>
+        </E>
+        <E i="178">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Popup.ScrollBar.Text</Path>
+        </E>
+        <E i="179">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Popup.ScrollDown.PointSize</Path>
+        </E>
+        <E i="180">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Popup.ScrollDown.Text</Path>
+        </E>
+        <E i="181">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Popup.ScrollUp.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Popup.ScrollUp.Text</Path>
+        </E>
+        <E i="183">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Popup.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="184">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Popup.XuiListItem1.Text</Path>
+        </E>
+        <E i="185">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Properties.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="186">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Properties.ScrollLeft.Text</Path>
+        </E>
+        <E i="187">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Properties.ScrollRight.PointSize</Path>
+        </E>
+        <E i="188">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Properties.ScrollRight.Text</Path>
+        </E>
+        <E i="189">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Properties.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="190">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Properties.XuiListItem1.Text</Path>
+        </E>
+        <E i="191">
+            <Value>20.000000</Value>
+            <Path>Trials-List-Properties.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="192">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-Result-Stats.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="193">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-Result-Stats.XuiListItem1.Text</Path>
+        </E>
+        <E i="194">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SettingsFilter.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="195">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SettingsFilter.ScrollLeft.Text</Path>
+        </E>
+        <E i="196">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SettingsFilter.ScrollRight.PointSize</Path>
+        </E>
+        <E i="197">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SettingsFilter.ScrollRight.Text</Path>
+        </E>
+        <E i="198">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SettingsFilter.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="199">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SettingsFilter.XuiListItem1.Text</Path>
+        </E>
+        <E i="200">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SkillGames.ScrollBar.PointSize</Path>
+        </E>
+        <E i="201">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SkillGames.ScrollBar.Text</Path>
+        </E>
+        <E i="202">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SkillGames.ScrollDown.PointSize</Path>
+        </E>
+        <E i="203">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SkillGames.ScrollDown.Text</Path>
+        </E>
+        <E i="204">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SkillGames.ScrollUp.PointSize</Path>
+        </E>
+        <E i="205">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SkillGames.ScrollUp.Text</Path>
+        </E>
+        <E i="206">
+            <Value>-1.000000</Value>
+            <Path>Trials-List-SkillGames.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="207">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-List-SkillGames.XuiListItem1.Text</Path>
+        </E>
+        <E i="208">
+            <Value>16.000000</Value>
+            <Path>Trials-ListItem-Achieve.XuiText1.PointSize</Path>
+        </E>
+        <E i="209">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ListItem-Achieve.XuiText1.Text</Path>
+        </E>
+        <E i="210">
+            <Value>12.000000</Value>
+            <Path>Trials-ListItem-Achieve.XuiText2.PointSize</Path>
+        </E>
+        <E i="211">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ListItem-Achieve.XuiText2.Text</Path>
+        </E>
+        <E i="212">
+            <Value>25.000000</Value>
+            <Path>Trials-ListItem-Achieve.XuiText3.PointSize</Path>
+        </E>
+        <E i="213">
+            <Value>15</Value>
+            <Path>Trials-ListItem-Achieve.XuiText3.Text</Path>
+        </E>
+        <E i="214">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-FriendTracks.text_Label1.PointSize</Path>
+        </E>
+        <E i="215">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-FriendTracks.text_Label2.PointSize</Path>
+        </E>
+        <E i="216">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-FriendTracks.text_Label3.PointSize</Path>
+        </E>
+        <E i="217">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-FriendTracks.text_Label4.PointSize</Path>
+        </E>
+        <E i="218">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Get.text_Label1.PointSize</Path>
+        </E>
+        <E i="219">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Get.text_Label2.PointSize</Path>
+        </E>
+        <E i="220">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Load.text_Label1.PointSize</Path>
+        </E>
+        <E i="221">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Load.text_Label2.PointSize</Path>
+        </E>
+        <E i="222">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Load.text_Label3.PointSize</Path>
+        </E>
+        <E i="223">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Load.text_Label4.PointSize</Path>
+        </E>
+        <E i="224">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label1.PointSize</Path>
+        </E>
+        <E i="225">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label2.PointSize</Path>
+        </E>
+        <E i="226">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label3.PointSize</Path>
+        </E>
+        <E i="227">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Manage.text_Label5.PointSize</Path>
+        </E>
+        <E i="228">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label1.PointSize</Path>
+        </E>
+        <E i="229">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label2.PointSize</Path>
+        </E>
+        <E i="230">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label3.PointSize</Path>
+        </E>
+        <E i="231">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Play.text_Label5.PointSize</Path>
+        </E>
+        <E i="232">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Publish.text_Label1.PointSize</Path>
+        </E>
+        <E i="233">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Publish.text_Label2.PointSize</Path>
+        </E>
+        <E i="234">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Publish.text_Label3.PointSize</Path>
+        </E>
+        <E i="235">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Publish.text_Label4.PointSize</Path>
+        </E>
+        <E i="236">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label1.PointSize</Path>
+        </E>
+        <E i="237">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label2.PointSize</Path>
+        </E>
+        <E i="238">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label3.PointSize</Path>
+        </E>
+        <E i="239">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-CustomTracks-Share.text_Label4.PointSize</Path>
+        </E>
+        <E i="240">
+            <Value>16.000000</Value>
+            <Path>Trials-ListItem-EditorCategory.text_Label.PointSize</Path>
+        </E>
+        <E i="241">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-EditorObjects.text_Label.PointSize</Path>
+        </E>
+        <E i="242">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-FilterText.text_Label.PointSize</Path>
+        </E>
+        <E i="243">
+            <Value>18.000000</Value>
+            <Path>Trials-ListItem-Gearlist.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="244">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label1.PointSize</Path>
+        </E>
+        <E i="245">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label2.PointSize</Path>
+        </E>
+        <E i="246">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label3.PointSize</Path>
+        </E>
+        <E i="247">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Hi.text_Label4.PointSize</Path>
+        </E>
+        <E i="248">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Stat.text_Label1.PointSize</Path>
+        </E>
+        <E i="249">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Chal-Stat.text_Label2.PointSize</Path>
+        </E>
+        <E i="250">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Challenge.text_Label1.PointSize</Path>
+        </E>
+        <E i="251">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Challenge.text_Label3.PointSize</Path>
+        </E>
+        <E i="252">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Global.text_Label1.PointSize</Path>
+        </E>
+        <E i="253">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Global.text_Label2.PointSize</Path>
+        </E>
+        <E i="254">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Global.text_Label3.PointSize</Path>
+        </E>
+        <E i="255">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleStats.text_Label1.PointSize</Path>
+        </E>
+        <E i="256">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleStats.text_Label2.PointSize</Path>
+        </E>
+        <E i="257">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label1.PointSize</Path>
+        </E>
+        <E i="258">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label2.PointSize</Path>
+        </E>
+        <E i="259">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label3.PointSize</Path>
+        </E>
+        <E i="260">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-SingleTrack.text_Label4.PointSize</Path>
+        </E>
+        <E i="261">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Tracks.text_Label1.PointSize</Path>
+        </E>
+        <E i="262">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-Lboard-Tracks.text_Label3.PointSize</Path>
+        </E>
+        <E i="263">
+            <Value>24.000000</Value>
+            <Path>Trials-ListItem-Popup.text_Label1.PointSize</Path>
+        </E>
+        <E i="264">
+            <Value>19.000000</Value>
+            <Path>Trials-ListItem-Properties.text_Label.PointSize</Path>
+        </E>
+        <E i="265">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Result-Stats.text_Label1.PointSize</Path>
+        </E>
+        <E i="266">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-Result-Stats.text_Label2.PointSize</Path>
+        </E>
+        <E i="267">
+            <Value>21.000000</Value>
+            <Path>Trials-ListItem-ResultStats-NewFont.text_Label1.PointSize</Path>
+        </E>
+        <E i="268">
+            <Value>21.000000</Value>
+            <Path>Trials-ListItem-ResultStats-NewFont.text_Label2.PointSize</Path>
+        </E>
+        <E i="269">
+            <Value>21.000000</Value>
+            <Path>Trials-ListItem-ResultStats-NewFont.text_Label3.PointSize</Path>
+        </E>
+        <E i="270">
+            <Value>24.000000</Value>
+            <Path>Trials-ListItem-ResultStats-old.text_Label1.PointSize</Path>
+        </E>
+        <E i="271">
+            <Value>24.000000</Value>
+            <Path>Trials-ListItem-ResultStats-old.text_Label2.PointSize</Path>
+        </E>
+        <E i="272">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-ResultStats.text_Label1.PointSize</Path>
+        </E>
+        <E i="273">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-ResultStats.text_Label2.PointSize</Path>
+        </E>
+        <E i="274">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-ResultStats.text_Label3.PointSize</Path>
+        </E>
+        <E i="275">
+            <Value>20.000000</Value>
+            <Path>Trials-ListItem-ResultStats.text_Label4.PointSize</Path>
+        </E>
+        <E i="276">
+            <Value>24.000000</Value>
+            <Path>Trials-ListItem-ResultStats2.text_Label1.PointSize</Path>
+        </E>
+        <E i="277">
+            <Value>24.000000</Value>
+            <Path>Trials-ListItem-ResultStats2.text_Label2.PointSize</Path>
+        </E>
+        <E i="278">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsChallenge.text_Label1.PointSize</Path>
+        </E>
+        <E i="279">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsChallenge.text_Label2.PointSize</Path>
+        </E>
+        <E i="280">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsChallenge.text_Label3.PointSize</Path>
+        </E>
+        <E i="281">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsChallenge.text_Label4.PointSize</Path>
+        </E>
+        <E i="282">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsContChallenge.text_Label1.PointSize</Path>
+        </E>
+        <E i="283">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsContChallenge.text_Label2.PointSize</Path>
+        </E>
+        <E i="284">
+            <Value>22.000000</Value>
+            <Path>Trials-ListItem-ResultStatsContChallenge.text_Label3.PointSize</Path>
+        </E>
+        <E i="285">
+            <Value>24.000000</Value>
+            <Path>Trials-ListItem-SettingsFilterText.text_Label.PointSize</Path>
+        </E>
+        <E i="286">
+            <Value>18.000000</Value>
+            <Path>Trials-ListItem-SkillGames.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="287">
+            <Value>18.000000</Value>
+            <Path>Trials-ListItem-SkillGames.XuiTextPresenter2.PointSize</Path>
+        </E>
+        <E i="288">
+            <Value>19.000000</Value>
+            <Path>Trials-ListItem-Triggers.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="289">
+            <Value>18.000000</Value>
+            <Path>Trials-MedalFaults.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="290">
+            <Value>18.000000</Value>
+            <Path>Trials-MedalTimes.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="291">
+            <Value>20.000000</Value>
+            <Path>Trials-ProgressBar.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="292">
+            <Value>11.000000</Value>
+            <Path>Trials-ProgressBar.text_progressbar.PointSize</Path>
+        </E>
+        <E i="293">
+            <Value>20.000000</Value>
+            <Path>Trials-ProgressBar2.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="294">
+            <Value>11.000000</Value>
+            <Path>Trials-ProgressBar2.text_progressbar.PointSize</Path>
+        </E>
+        <E i="295">
+            <Value>20.000000</Value>
+            <Path>Trials-ProgressBarHeat.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="296">
+            <Value>11.000000</Value>
+            <Path>Trials-ProgressBarHeat.text_progressbar.PointSize</Path>
+        </E>
+        <E i="297">
+            <Value>20.000000</Value>
+            <Path>Trials-ProgressBarScore1.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="298">
+            <Value>11.000000</Value>
+            <Path>Trials-ProgressBarScore1.text_progressbar.PointSize</Path>
+        </E>
+        <E i="299">
+            <Value>20.000000</Value>
+            <Path>Trials-ProgressBarScore2.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="300">
+            <Value>11.000000</Value>
+            <Path>Trials-ProgressBarScore2.text_progressbar.PointSize</Path>
+        </E>
+        <E i="301">
+            <Value>20.000000</Value>
+            <Path>Trials-ProgressBarScrew.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="302">
+            <Value>11.000000</Value>
+            <Path>Trials-ProgressBarScrew.text_progressbar.PointSize</Path>
+        </E>
+        <E i="303">
+            <Value>22.000000</Value>
+            <Path>Trials-RB-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="304">
+            <Value>22.000000</Value>
+            <Path>Trials-RS-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="305">
+            <Value>22.000000</Value>
+            <Path>Trials-RS2-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="306">
+            <Value>22.000000</Value>
+            <Path>Trials-RT-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="307">
+            <Value>-1.000000</Value>
+            <Path>Trials-ResultStats-NewFont.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="308">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ResultStats-NewFont.XuiListItem1.Text</Path>
+        </E>
+        <E i="309">
+            <Value>-1.000000</Value>
+            <Path>Trials-ResultStats.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="310">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ResultStats.XuiListItem1.Text</Path>
+        </E>
+        <E i="311">
+            <Value>-1.000000</Value>
+            <Path>Trials-ResultStats2.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="312">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ResultStats2.XuiListItem1.Text</Path>
+        </E>
+        <E i="313">
+            <Value>-1.000000</Value>
+            <Path>Trials-ResultStatsChallenge.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="314">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ResultStatsChallenge.XuiListItem1.Text</Path>
+        </E>
+        <E i="315">
+            <Value>-1.000000</Value>
+            <Path>Trials-ResultStatsContChallenge.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="316">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>Trials-ResultStatsContChallenge.XuiListItem1.Text</Path>
+        </E>
+        <E i="317">
+            <Value>22.000000</Value>
+            <Path>Trials-Right-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="318">
+            <Value>22.000000</Value>
+            <Path>Trials-RightLeft-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="319">
+            <Value>25.000000</Value>
+            <Path>Trials-SettingsSlider.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="320">
+            <Value>25.000000</Value>
+            <Path>Trials-SettingsSoundsSlider.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="321">
+            <Value>20.000000</Value>
+            <Path>Trials-Slider.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="322">
+            <Value>22.000000</Value>
+            <Path>Trials-Start-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="323">
+            <Value>22.000000</Value>
+            <Path>Trials-Up-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="324">
+            <Value>22.000000</Value>
+            <Path>Trials-UpDown-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="325">
+            <Value>22.000000</Value>
+            <Path>Trials-X-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="326">
+            <Value>22.000000</Value>
+            <Path>Trials-Y-Button.XuiTextPresenter1.PointSize</Path>
+        </E>
+        <E i="327">
+            <Value>-1.000000</Value>
+            <Path>TrialsTextbox-ScrollV-Credits.ScrollBar.PointSize</Path>
+        </E>
+        <E i="328">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TrialsTextbox-ScrollV-Credits.ScrollBar.Text</Path>
+        </E>
+        <E i="329">
+            <Value>-1.000000</Value>
+            <Path>TrialsTextbox-ScrollV-Credits.ScrollDown.PointSize</Path>
+        </E>
+        <E i="330">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TrialsTextbox-ScrollV-Credits.ScrollDown.Text</Path>
+        </E>
+        <E i="331">
+            <Value>-1.000000</Value>
+            <Path>TrialsTextbox-ScrollV-Credits.ScrollUp.PointSize</Path>
+        </E>
+        <E i="332">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TrialsTextbox-ScrollV-Credits.ScrollUp.Text</Path>
+        </E>
+        <E i="333">
+            <Value>-1.000000</Value>
+            <Path>TrialsTextbox-ScrollV.ScrollBar.PointSize</Path>
+        </E>
+        <E i="334">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TrialsTextbox-ScrollV.ScrollBar.Text</Path>
+        </E>
+        <E i="335">
+            <Value>-1.000000</Value>
+            <Path>TrialsTextbox-ScrollV.ScrollDown.PointSize</Path>
+        </E>
+        <E i="336">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TrialsTextbox-ScrollV.ScrollDown.Text</Path>
+        </E>
+        <E i="337">
+            <Value>-1.000000</Value>
+            <Path>TrialsTextbox-ScrollV.ScrollUp.PointSize</Path>
+        </E>
+        <E i="338">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>TrialsTextbox-ScrollV.ScrollUp.Text</Path>
+        </E>
+        <E i="339">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.Caret.PointSize</Path>
+        </E>
+        <E i="340">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.Caret.Text</Path>
+        </E>
+        <E i="341">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollDown.PointSize</Path>
+        </E>
+        <E i="342">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollDown.Text</Path>
+        </E>
+        <E i="343">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollLeft.PointSize</Path>
+        </E>
+        <E i="344">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollLeft.Text</Path>
+        </E>
+        <E i="345">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollRight.PointSize</Path>
+        </E>
+        <E i="346">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollRight.Text</Path>
+        </E>
+        <E i="347">
+            <Value>-1.000000</Value>
+            <Path>XuiEdit.ScrollUp.PointSize</Path>
+        </E>
+        <E i="348">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiEdit.ScrollUp.Text</Path>
+        </E>
+        <E i="349">
+            <Value>22.000000</Value>
+            <Path>XuiEdit.Text.PointSize</Path>
+        </E>
+        <E i="350">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.Button0.PointSize</Path>
+        </E>
+        <E i="351">
+            <Value>a</Value>
+            <Path>XuiMessageBox1.XuiScene1.Button0.Text</Path>
+        </E>
+        <E i="352">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.AllowedChars</Path>
+        </E>
+        <E i="353">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.PointSize</Path>
+        </E>
+        <E i="354">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.MessageText.Text</Path>
+        </E>
+        <E i="355">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.PointSize</Path>
+        </E>
+        <E i="356">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox1.XuiScene1.Text</Path>
+        </E>
+        <E i="357">
+            <Value>26.000000</Value>
+            <Path>XuiMessageBox1.XuiScene1.Title.PointSize</Path>
+        </E>
+        <E i="358">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Button0.PointSize</Path>
+        </E>
+        <E i="359">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.Button0.Text</Path>
+        </E>
+        <E i="360">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Button1.PointSize</Path>
+        </E>
+        <E i="361">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.Button1.Text</Path>
+        </E>
+        <E i="362">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.AllowedChars</Path>
+        </E>
+        <E i="363">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.PointSize</Path>
+        </E>
+        <E i="364">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.MessageText.Text</Path>
+        </E>
+        <E i="365">
+            <Value>-1.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.PointSize</Path>
+        </E>
+        <E i="366">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiMessageBox2.XuiScene1.Text</Path>
+        </E>
+        <E i="367">
+            <Value>26.000000</Value>
+            <Path>XuiMessageBox2.XuiScene1.Title.PointSize</Path>
+        </E>
+    </Entries>
+</XusFile>

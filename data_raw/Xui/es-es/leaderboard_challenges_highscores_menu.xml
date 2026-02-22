@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Atrás</Value>
+            <Path>XuiScene.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[Amigos\r
+Mi puntuación\r
+General\r
+Sesión\r
+]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.ItemsText</Path>
+        </E>
+        <E i="3">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.Text</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="20">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="22">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="27">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="29">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="34">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="36">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="41">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="43">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="44">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="45">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="47">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="48">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="49">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="50">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="51">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="52">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="53">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="54">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="55">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="56">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="57">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="58">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="59">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="60">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="61">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="62">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="63">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="64">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="65">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="66">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="67">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="68">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="69">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="70">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="71">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="72">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="73">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="74">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="75">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="76">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="77">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="78">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="79">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="80">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="81">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="82">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="83">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="84">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="85">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="86">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="87">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="88">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="89">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="90">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="91">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="92">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="93">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="94">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="95">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="96">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="97">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="98">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="99">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="100">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="101">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="102">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="103">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="104">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="105">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="106">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="107">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="108">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="109">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="110">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="111">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="112">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="113">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="114">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="115">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="116">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="117">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="118">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="119">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="120">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="121">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="122">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="123">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="124">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="125">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="126">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="127">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="128">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="129">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="130">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="131">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="132">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="133">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="134">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="135">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="136">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="137">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="138">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="139">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="140">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="141">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="142">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="143">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="144">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="145">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="146">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="147">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="148">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.XuiListItem1.Text</Path>
+        </E>
+        <E i="149">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="150">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="151">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="152">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.PointSize</Path>
+        </E>
+        <E i="153">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.Text</Path>
+        </E>
+        <E i="154">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.Text</Path>
+        </E>
+        <E i="155">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.Text</Path>
+        </E>
+        <E i="156">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.BackgroundGroup.FilterList.control _ListItem.Text</Path>
+        </E>
+        <E i="157">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Volver\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ChallengeScores.ButtonBackInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="158">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Tarjeta de jugador\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Volver\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene.ChallengeScores.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="159">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.PointSize</Path>
+        </E>
+        <E i="160">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.Text</Path>
+        </E>
+        <E i="161">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="162">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="163">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="164">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="165">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="166">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.PointSize</Path>
+        </E>
+        <E i="167">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.Text</Path>
+        </E>
+        <E i="168">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.Text</Path>
+        </E>
+        <E i="169">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.Text</Path>
+        </E>
+        <E i="170">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.Text</Path>
+        </E>
+        <E i="171">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.Text</Path>
+        </E>
+        <E i="172">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.ChallengeScores.ChallengeScoreList.XuiListItem1.Text</Path>
+        </E>
+        <E i="173">
+            <Value>22.000000</Value>
+            <Path>XuiScene.ChallengeScores.FaultsText.PointSize</Path>
+        </E>
+        <E i="174">
+            <Value>FALTAS</Value>
+            <Path>XuiScene.ChallengeScores.FaultsText.Text</Path>
+        </E>
+        <E i="175">
+            <Value>22.000000</Value>
+            <Path>XuiScene.ChallengeScores.PlayerNameText.PointSize</Path>
+        </E>
+        <E i="176">
+            <Value>GAMERTAG</Value>
+            <Path>XuiScene.ChallengeScores.PlayerNameText.Text</Path>
+        </E>
+        <E i="177">
+            <Value>22.000000</Value>
+            <Path>XuiScene.ChallengeScores.PositionText.PointSize</Path>
+        </E>
+        <E i="178">
+            <Value>POSICIÓN</Value>
+            <Path>XuiScene.ChallengeScores.PositionText.Text</Path>
+        </E>
+        <E i="179">
+            <Value>22.000000</Value>
+            <Path>XuiScene.ChallengeScores.TimeText.PointSize</Path>
+        </E>
+        <E i="180">
+            <Value>TIEMPO</Value>
+            <Path>XuiScene.ChallengeScores.TimeText.Text</Path>
+        </E>
+        <E i="181">
+            <Value>20.000000</Value>
+            <Path>XuiScene.InfoText.PointSize</Path>
+        </E>
+        <E i="182">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.InfoText.Text</Path>
+        </E>
+        <E i="183">
+            <Value>25.000000</Value>
+            <Path>XuiScene.LoadingGroup.LoadingText.PointSize</Path>
+        </E>
+        <E i="184">
+            <Value>CARGANDO...</Value>
+            <Path>XuiScene.LoadingGroup.LoadingText.Text</Path>
+        </E>
+        <E i="185">
+            <Value>20.000000</Value>
+            <Path>XuiScene.NotificationGroup.NotificationText.PointSize</Path>
+        </E>
+        <E i="186">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.NotificationGroup.NotificationText.Text</Path>
+        </E>
+        <E i="187">
+            <Value>-1.000000</Value>
+            <Path>XuiScene.PointSize</Path>
+        </E>
+        <E i="188">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene.Text</Path>
+        </E>
+        <E i="189">
+            <Value>50.000000</Value>
+            <Path>XuiScene.TitleText.PointSize</Path>
+        </E>
+        <E i="190">
+            <Value>TORNEOS</Value>
+            <Path>XuiScene.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

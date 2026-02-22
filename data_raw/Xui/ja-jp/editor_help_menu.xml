@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Basic</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Tools</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Advance</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Skill Games</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>戻る</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+戻る\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">EDITOR<br></font><font color="#D7CAAD" size="20">EDITOR はオリジナルのコースを作成できるツールで、実際に走ることも、フレンドと共有することも可能です。本ゲームのコースはすべてこのツールで作成されているので、既存コースと同レベルか、それ以上のコースを作ることも可能です。実際に EDITOR の機能をいろいろと試して、楽しみながら使い方をマスターしましょう。<br><br>EDITOR は <font color="#EBB40F"><b>Simple Mode</b></font> と <font color="#EBB40F"><b>Advanced Mode</b></font> に分かれており、Simple Mode では、限定されたカメラ機能とアイテムによって、シンプルなコース デザインが可能です。<br><br>Advance Mode では、カメラ機能やアイテムの選択肢が増えます。またアイテムに物理効果を適用するなど、EDITOR の機能をフル活用して、細部にこだわったコース デザインが楽しめます。スキル ゲームのコースも作成できます。<br><br>どちらのモードでも、スクリーン下段のコマンドを使ってアイテムを選択し、回転させ、配置することができます。物理効果を有効にしない限り、たとえ空中でもアイテムは設置した場所に固定されます。<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>Basic</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">ツールについて<br></font><font color="#D7CAAD" size="20">EDITOR はコマンドの組み合わせで自由にコースを作成できる使いやすいツールで、次のような便利な機能を備えています。<br><br><font color="#EBB40F"><b>コピー</b></font>- 選択したアイテムをコピーできる機能です。後述の「マルチセレクト」との併用により、あっという間にコースが完成します。アイテムをコピーするには、選択してから <font color="#9DA0A4"></font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> を押します。<br><br><font color="#EBB40F"><b>オート アライン</b></font>- <font color="#9DA0A4"></font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" /> を 1 回押すと、選択したアイテムが走行ライン上に移動し、もう 1 回押すと、アイテムの回転がリセットされます。<br><br><font color="#EBB40F"><b>ローテーション</b></font>- <font color="#9DA0A4"></font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> を押すと、選択した軸を中心にしてアイテムを 90 度ずつ回転させることができます。選択したアイテムが任意の角度で設置されている場合は、<font color="#9DA0A4"></font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> を連続して押したときに 90 度ずつ回転するようになる角度までいったんリセットされます。<br><br><font color="#EBB40F"><b>マルチセレクト</b></font>- 一度に複数のアイテムを選択して移動することができます。コピーと併用すれば、あっという間にコースが完成します。マルチセレクトを実行するには、<font color="#9DA0A4"></font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> を押したままアイテムを選択します。<br><br><font color="#EBB40F"><b>グルー</b></font>- 複数のアイテムを結合できます。選択したアイテムを結合するには、[アイテム特性] から [アイテムに結合] を選択します。アイテムを分離したいときは、サブセレクト機能を使ってグループから切り離す必要があります。<br><br><font color="#EBB40F"><b>サブセレクト</b></font>- 結合したアイテムの一部を選択して、手を加えることができます。アイテムをサブセレクトするには、<font color="#9DA0A4"></font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> を押したまま任意のアイテムを選んでください。マルチセレクトと同じ要領です。<br><br><font color="#EBB40F"><b>ワープ</b></font>- EDITOR で作成したコースのテスト走行中、<font color="#9DA0A4"></font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />または<font color="#9DA0A4"></font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" /> を押すと、前後のチェックポイントにワープすることができます。<br><br></font><font color="#EBB40F" size="30">コースの複雑化<br></font><font color="#D7CAAD" size="20">1 か所に大量のアイテムを配置するなど、複雑すぎるコース デザインはゲームの挙動を遅くしてしまいます。[Room Complexity] が限度に達した場合には、アイテムを離して配置するか、コースから取り除いてください。<br><br></font><font color="#EBB40F" size="30">チェックポイント<br></font><font color="#D7CAAD" size="20">コース上には、スタート地点とゴール地点を含め、最大 30 個のチェックポイントを設置できます。どんな場合にも、ゴール地点が最終チェックポイントになります。<br><br></font><font color="#EBB40F" size="30">スペースの調節<br></font><font color="#D7CAAD" size="20">Advance Mode ではスペースを調節できます。スペースの追加や削除によって、さらにバラエティ豊かなコース デザインが可能です。スペースは通常のアイテム同様、<font color="#9DA0A4"></font><img src="images/menu_buttons_a_bg_small.dds" align="middle" /> で選択し、削除するには <font color="#9DA0A4"></font><img src="images/menu_buttons_x_bg_small.dds" align="middle" /> を、選択した壁の横にスペースを増設するには <font color="#9DA0A4"></font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> を押します。<br><br></font><font color="#EBB40F" size="30">EDITOR メニュー<br></font><font color="#D7CAAD" size="20"><font color="#9DA0A4"></font><img src="images/menu_buttons_start_bg_small.dds" align="middle" /> で表示することができ、テスト走行、テスト走行用バイクの選択、コース設定の変更、作成したコースの保存や読み込み、コースの新規作成、作成したコースの管理、モードの切り替えなどが可能です。このヘルプ画面にもアクセスできます。<br><br></font>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Tools</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">アイテム特性 : 物理効果<br></font><font color="#D7CAAD" size="20">EDITOR で使用される「物理効果」はアイテムに適用することのできる効果で、有効にするとアイテムが重力などの影響を受けるようになります。その結果、アイテムは落下したり、転倒したり、さらに別のアイテム (プレイヤーのバイクを含む) に影響を及ぼします。この特性を利用すれば、アイテムに接触しないと先に進めなかったり、途中でルートが変わったりするコースを作成することも可能です。物理効果のオン/オフは<font color="#9DA0A4"></font><img src="images/menu_buttons_back_bg_small.dds" align="middle" /> で行います。それぞれの物理効果がどのようなものなのか、実際に確かめてみましょう。<br><br></font><font color="#EBB40F" size="30">ヒンジ<br></font><font color="#D7CAAD" size="20">車などの複雑な構造物を作成するための特別なアイテムです。ヒンジの両側に他のアイテムを結合してから、任意のアイテムの物理効果を有効にしてください。<br><br></font><font color="#EBB40F" size="30">トリガー<br></font><font color="#D7CAAD" size="20">トリガーを通過すると、何らかのアクションが発生します。トリガーは他のアイテムと連動させて使うので、以下を参考にして、起動したいアイテム特性を指定してください。<br><br><font color="#EBB40F"><b>物理効果</b></font>- 重力などの影響により、アイテムが倒れたり、弾んだり、バイクで押せるようになったりします。<br><br><font color="#EBB40F"><b>ライト</b></font>- ライトがついたり消えたりします。<br><br><font color="#EBB40F"><b>アニメーション</b></font>- フリッパーなど、可動タイプのアイテムを作動させます。プレイヤーにも相互作用を及ばせる場合には、物理効果の特性もオンにしてください。<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>Advance</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">スキル ゲームの作成<br></font><font color="#D7CAAD" size="20">スキル ゲームを作成するには、EDITOR のポーズ メニューから [TRACK SETTINGS] を選択し、[スタイル] を選択してください。全部で 12 種類のスキル ゲームから選択できます。<br><br><font color="#EBB40F">注 :</font> すべてのスキル ゲームでは、<font color="#EBB40F">スタート地点以外のチェックポイントを設置しない</font>でください。複数のチェックポイントを設置すると、好ましい結果が得られない場合があります。<br><br></font><font color="#EBB40F" size="30"><br>Ball Inside<br></font><font color="#D7CAAD" size="20">鉄製の巨大なボールの内部をひたすら走り続けてください。<br><br><font color="#EBB40F">#1: </font>アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Skill 専用 -> ジャイアント ボール (内側)<br><font color="#EBB40F">#2: </font>作成したボールを選択し、<font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> を押して [アイテム特性] を表示します。[物理効果] と [走行ラインに固定] を有効にします。<br><font color="#EBB40F">#3: </font>オート アラインでボールを走行ラインに配置し、ボール内部の中心に向かうようにチェックポイントを設置します。<br><br></font><font color="#EBB40F" size="30"><br>Ski Jump<br></font><font color="#D7CAAD" size="20">できるだけ遠くへジャンプしてください。着地点までの距離を競います。<br><br><font color="#EBB40F">#1: </font>アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Skill 専用 -> Ski Jump トリガー<br><font color="#EBB40F">#2: </font>作成したトリガーを空中 (ランプの先) に設置します。ジャンプの距離を測定する始点となります。<br><br><font color="#EBB40F">注 :</font> バイクが完全にジャンプした状態でトリガーを起動させないと、ミス ジャンプとみなされます。<br><br>使用できるバイクは Scorpion Air 125cc のみです。<br><br></font><font color="#EBB40F" size="30"><br>Rings of Fire<br></font><font color="#D7CAAD" size="20">「炎のリング」を連続でくぐり抜けてください。1 つくぐり抜けるたびに、ブーストが得られます。<br><br><font color="#EBB40F">#1: </font>アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Skill 専用 -> Ring of Fire トリガー<br><font color="#EBB40F">#2: </font>空中にトリガーを設置します。このとき、バイクが最初の「炎のリング」をくぐり抜ける前にトリガーを通過するようにしてください。<br><font color="#EBB40F">#3: </font>アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Skill 専用 -> 炎のリング<br><font color="#EBB40F">#4: </font>「炎のリング」をコピーして配置します。<br><br><font color="#EBB40F">注 1: </font>バイクが完全にジャンプした状態でトリガーを起動させない、ミス ジャンプとみなされます。<br><font color="#EBB40F">注 2: </font>スペースを十分に確保する必要があります。<br><br></font><font color="#EBB40F" size="30"><br>Delivery<br></font><font color="#D7CAAD" size="20">カートに積んだ爆弾を、できるだけ遠くへ運んでください。爆弾は激しい衝撃を受けると爆発するので、その点を踏まえてコースを設計しましょう。<br><br>使用できるバイクは Hauler 600cc のみです。<br><br></font><font color="#EBB40F" size="30"><br>In Flames<br></font><font color="#D7CAAD" size="20">炎に包まれたまま走り続けてください。速く走るほど炎の勢いは弱まるので、その点を踏まえてコースを設計しましょう。<br><br><font color="#EBB40F">注 :</font> バイクの走行ライン上に炎がないと、炎はライダーに燃え移りません。例 : アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> エフェクト -> 炎 2 を選択し、走行ライン上に設置する<br><br></font><font color="#EBB40F" size="30"><br>Target Hunt<br></font><font color="#D7CAAD" size="20">ミスをせずに、できるだけ多くの的を手に入れてください。<br><br><font color="#EBB40F">#1: </font>アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Skill 専用 -> Target Hunt スコア<br><font color="#EBB40F">#2: </font>コース上に Target Hunt スコアを配置します。<br><br></font><font color="#EBB40F" size="30"><br>Hill Climb<br></font><font color="#D7CAAD" size="20">できるだけ高く上りつめてください。<br><br><font color="#EBB40F">注 :</font> ジャンプでゲーム終了です。<br><br></font><font color="#EBB40F" size="30"><br>Ball Outside<br></font><font color="#D7CAAD" size="20">ボールの上から落下しないように、なるべく長い距離を走ってください。<br><br><font color="#EBB40F">#1: </font>アイテムの作成 <font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Skill 専用 -> ジャイアント ボール<br><font color="#EBB40F">#2: </font>作成したボールを選択し、<font color="#9DA0A4"></font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> を押して [アイテム特性] を表示します。[物理効果] と [走行ラインに固定] を有効にします。<br><font color="#EBB40F">#3: </font>オート アラインでボールを走行ライン上に配置し、ボール上部に向くようにチェックポイントを設置します。<br><br>使用できるバイクは Phoenix REV 250cc のみです。<br><br></font><font color="#EBB40F" size="30"><br>Height Jump<br></font><font color="#D7CAAD" size="20">できるだけ高い場所まで到達してください。<br><br><font color="#EBB40F">注 :</font> ジャンプするとさらに上を目指すことができます。<br><br></font><font color="#EBB40F" size="30"><br>Flip<br></font><font color="#D7CAAD" size="20">宙返りを連続で決めてください。ミスをするとゲーム終了です。<br><br><font color="#EBB40F">注 :</font> 時間制限は 1 分です。<br><br></font><font color="#EBB40F" size="30"><br>Wheelie<br></font><font color="#D7CAAD" size="20">前輪が地面に触れないよう、ウィリーで走り続けてください。<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Skill Games</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>EDITOR HELP</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

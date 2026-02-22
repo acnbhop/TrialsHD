@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Básico</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Herramientas</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Avanzado</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Juegos de habilidad</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Atrás</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Volver\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Editor<br></font><font color="#D7CAAD" size="20">El editor de pistas es una herramienta muy eficaz que puedes usar para crear nuevas pistas y compartirlas con tus amigos. Todas las pistas disponibles en el juego están creadas con esta misma herramienta, así que ya nada te impide crear pistas tan buenas como las del juego, ¡o incluso mejores! La mejor manera de aprender a usar el editor de pistas es comenzar a usarlo y jugar con sus características. ¡Ánimo, es muy divertido!<br><br>El editor de pistas se compone de dos modos diferentes: el <font color="#EBB40F"><b>modo Sencillo</b></font> y el <font color="#EBB40F"><b>modo Avanzado</b></font>. En el modo Sencillo, puedes crear las pistas básicas y tienes un control limitado sobre la cámara. La colocación de objetos y la selección también se limitan a la línea sobre la que circula la moto. En el modo Sencillo, se puede definir fácilmente la estructura básica de la pista.<br><br>En el modo Avanzado, existe un mayor control sobre la cámara, y la colocación y la selección de objetos disponibles ofrecen más posibilidades. También puedes ajustar las propiedades de los objetos para desencadenar efectos físicos, de modo que puedes crear objetos a los que les afecta la gravedad y otras fuerzas. Además, en el modo Avanzado puedes crear pistas de juegos de habilidad. También es posible en este modo poner a punto la pista o crear curvas con más detalle.<br><br>En ambos modos, la lista de comandos disponibles aparece en la parte inferior de la pantalla. Puedes seleccionar varios objetos, girarlos y colocarlos donde tú quieras en la pista. Los objetos se quedarán donde los coloques (incluso si están flotando en el aire), a no ser que actives los efectos físicos de sus propiedades.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>Básico</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">Lista de herramientas<br></font><font color="#D7CAAD" size="20">El uso del editor de pistas es muy intuitivo; basta con prestar atención a los comandos que aparecen en la parte inferior de la pantalla del editor para crear las pistas que desees. No obstante, las siguientes funciones son especialmente útiles:<br><br><font color="#EBB40F"><b>Copiar</b></font>: puedes copiar el elemento que has seleccionado. Te ahorrará tiempo y esfuerzo y puede ser particularmente útil con la función de selección múltiple (se explica más adelante), ya que te permite llenar rápidamente la pista. Puedes copiar el objeto seleccionado con el Botón <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" />.<br><br><font color="#EBB40F"><b>Alinear con la línea de circulación</b></font>: si pulsas el botón de <font color="#9DA0A4">(STICK DERECHO)</font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" /> una vez, el objeto que está seleccionado se centrará en la línea de circulación. Si pulsas el botón por segunda vez, también se restablecerá la rotación del objeto.<br><br><font color="#EBB40F"><b>Ajustar la rotación</b></font>: <font color="#9DA0A4">el botón (SUPERIOR FRONTAL IZQUIERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> aplica al objeto una rotación de 90 grados alrededor del eje seleccionado. Si el objeto seleccionado forma un ángulo arbitrario, volverá a su ángulo de giro original. Desde ahí, si pulsas consecutivamente el botón <font color="#9DA0A4">(SUPERIOR FRONTAL IZQUIERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />, el ángulo de giro del objeto se ajustará en 90 grados.<br><br><font color="#EBB40F"><b>Selección múltiple</b></font>: con la opción de selección múltiple, puedes seleccionar varios objetos y moverlos a la vez. Si usas también la función de copia, puedes duplicar de una manera rápida y sencilla grandes secciones de la pista. Es posible seleccionar varios objetos a la vez manteniendo pulsado el botón <font color="#9DA0A4">(SUPERIOR FRONTAL IZQUIERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> y seleccionando después los objetos.<br><br><font color="#EBB40F"><b>Pegar</b></font>: con la opción para pegar, puedes juntar varios objetos como si se tratase de uno solo, para crear fácilmente grandes secciones modificadas de tu pista. Puedes pegar (o despegar) el objeto seleccionado “Pegar al objeto” en las propiedades del objeto. Nota: para despegar, debes usar la opción de subseleccionar (se explica a continuación) para seleccionar el objeto pegado dentro del grupo.<br><br><font color="#EBB40F"><b>Subseleccionar</b></font>: con la opción Subseleccionar, puedes seleccionar y manipular elementos específicos a partir de un objeto más grande que ha sido creado por unión de varios objetos pegándolos. Para subseleccionar objetos, mantén pulsado el botón <font color="#9DA0A4">(SUPERIOR FRONTAL IZQUIERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> y, a continuación, selecciona los elementos que desees. Es, en esencia, lo mismo que la opción de selección múltiple.<br><br><font color="#EBB40F"><b>Saltar el punto de control</b></font>: en el editor, al probar la pista, si pulsas el botón <font color="#9DA0A4">(SUPERIOR FRONTAL IZQUIERDO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" /> o el <font color="#9DA0A4">(SUPERIOR FRONTAL DERECHO)</font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" />, puedes retroceder o avanzar de un punto de control a otro para probar más fácilmente el nivel.<br><br></font><font color="#EBB40F" size="30">Complejidad de la zona<br></font><font color="#D7CAAD" size="20">Hay límites en la complejidad de las pistas. Descubrirás que estos límites no se alcanzan tan fácilmente, pero si intentas llenar un espacio pequeño con muchos objetos físicos, el juego irá muy despacio. Si alcanzas el límite de complejidad de la zona, tendrás que separar más los objetos de la pista o quitar algunos.<br><br></font><font color="#EBB40F" size="30">Puntos de control<br></font><font color="#D7CAAD" size="20">Puedes colocar hasta un máximo de 30 puntos de control en la pista, incluidos el primero y el último. El último punto de control de la secuencia siempre es la línea de meta que el jugador debe cruzar para finalizar la pista.<br><br></font><font color="#EBB40F" size="30">Espacios abiertos<br></font><font color="#D7CAAD" size="20">En el modo Avanzado, puedes ajustar los espacios agregándolos o quitándolos para permitir más variedad en el diseño de la pista. Los espacios pueden seleccionarse como cualquier otro objeto, con el Botón <font color="#9DA0A4">(A)</font><img src="images/menu_buttons_a_bg_small.dds" align="middle" /> y, a continuación, pulsando el Botón <font color="#9DA0A4">(X)</font><img src="images/menu_buttons_x_bg_small.dds" align="middle" /> para borrar el espacio o el Botón <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" /> para crear un espacio a continuación de la pared seleccionada.<br><br></font><font color="#EBB40F" size="30">Menú del editor<br></font><font color="#D7CAAD" size="20">Puedes tener acceso al menú del editor pulsado el Botón <font color="#9DA0A4">(START)</font><img src="images/menu_buttons_start_bg_small.dds" align="middle" />. Desde ahí, puedes probar la pista, elegir la moto para tu prueba y ajustar la configuración de la pista. Puedes guardar la pista que has creado, cargar una pista ya existente o comenzar una nueva pista desde el principio, así como organizar las que ya existen. Desde este menú, puedes cambiar entre los modos Sencillo y Avanzado. También puedes tener acceso a esta ayuda, ¡aunque suponemos que ya te has dado cuenta!<br><br></font>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Herramientas</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Propiedades de los objetos: Efectos físicos<br></font><font color="#D7CAAD" size="20">En el editor de pistas, los "efectos físicos" son un concepto específico de los objetos. Cuando un objeto tiene los efectos físicos activados, significa que será atraído por la gravedad, el momento flector y otras fuerzas, tales como la moto del jugador. Este objeto puede caer o ser derribado y su peso y momento flector pueden afectar a otros objetos físicos, ¡y otra vez nos referimos a la moto del jugador! Los objetos físicos se pueden usar para crear pistas divertidas en las que el jugador tiene que interactuar con ellos para poder avanzar, o pistas que cambian de repente cuando el jugador llega a cierto punto. Puedes ver cómo los objetos que caen y otros efectos físicos juegan su papel en la práctica activándolos o desactivándolos con el Botón <font color="#9DA0A4">(BACK)</font><img src="images/menu_buttons_back_bg_small.dds" align="middle" />.<br><br></font><font color="#EBB40F" size="30">Bisagras<br></font><font color="#D7CAAD" size="20">Una bisagra es un objeto especial que te permite crear objetos físicos más complejos, como coches o columpios. Para crear una bisagra de trabajo: crea el objeto “bisagra”. A continuación, debes pegar los objetos por separado a ambos extremos de la bisagra (no se puede pegar la bisagra a ella misma; se tienen que pegar otros objetos). Además, una vez pegados ambos objetos a la bisagra, debes activar los efectos físicos en los objetos que desees que se comporten de acuerdo con dichos efectos.<br><br></font><font color="#EBB40F" size="30">Desencadenantes<br></font><font color="#D7CAAD" size="20">Un desencadenante es una manera de hacer que algo ocurra en la pista cuando el jugador alcanza cierto punto. Al colocar una zona desencadenante en la pista, tienes que vincularla a otro objeto y seleccionar las propiedades del objeto que te gustaría que estuvieran vinculadas a ese desencadenante. Cuando el jugador pasa por ese desencadenante, las propiedades del objeto se activan.<br><br><font color="#EBB40F"><b>Efectos físicos</b></font>: la gravedad y otras fuerzas empiezan a afectar al objeto. Cosas que caen, que rebotan contra otros objetos, que pueden chocar con la moto, etc.<br><br><font color="#EBB40F"><b>Explotar/Hacerse añicos</b></font>: el objeto se hace añicos o explota al desencadenarse este efecto. Nota: no todos los objetos pueden romperse.<br><br><font color="#EBB40F"><b>Luz</b></font>: una luz se enciende o se apaga.<br><br><font color="#EBB40F"><b>Animación</b></font>: desencadena el movimiento de un objeto animado, tal como los flippers. Si quieres que el objeto animado interactúe con el jugador, además de la "animación", es preciso seleccionar los "efectos físicos".<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>Avanzado</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Crear juegos de habilidad<br></font><font color="#D7CAAD" size="20">Para elegir un juego de habilidad que desees crear, selecciona Configuración de la pista en el menú Pausa del editor y, a partir de ahí, ajusta el estilo de la pista. Hay 12 juegos de habilidad diferentes para elegir.<br><br><font color="#EBB40F">Nota:</font> en todos los juegos de habilidad, <font color="#EBB40F">usa únicamente un punto de control</font> para comenzar la pista. La presencia de varios puntos de control puede causar efectos no deseados.<br><br></font><font color="#EBB40F" size="30"><br>Interior de la bola<br></font><font color="#D7CAAD" size="20">Tu objetivo es avanzar todo lo que puedas montando dentro de la bola de hierro gigante.<br><br><font color="#EBB40F">nº 1:</font>Crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objetos de habilidad -> Interior de la bola gigante de hierro<br><font color="#EBB40F">nº 2:</font>Selecciona la bola recién creada y pulsa <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> para tener acceso a sus propiedades. Asegúrate de que las opciones Efectos físicos y En la línea de conducción están activadas.<br><font color="#EBB40F">nº 3:</font>Centra la bola en la línea de conducción y coloca el punto de control para que apunte al centro del interior de la gran bola de hierro.<br><br></font><font color="#EBB40F" size="30"><br>Salto con esquís<br></font><font color="#D7CAAD" size="20">Salta lo más lejos que puedas. Al tocar el suelo, se marcará la distancia de tu salto.<br><br><font color="#EBB40F">nº 1:</font>Crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objetos de habilidad -> Desencadenante del borde del Salto con esquís<br><font color="#EBB40F">nº 2:</font>Coloca los objetos desencadenantes en el aire, detrás de una rampa. La longitud del salto empieza a contarse cuando la moto alcanza el desencadenante.<br><br><font color="#EBB40F">Nota:</font> asegúrate de que la moto está completamente en el aire o, de lo contrario, el salto no será considerado válido.<br><br>Sólo puede usarse la moto Scorpion Air de 125 c.c., y no se admite ninguna otra moto.<br><br></font><font color="#EBB40F" size="30"><br>Anillos de fuego<br></font><font color="#D7CAAD" size="20">Intenta atravesar todos los anillos que puedas. Cada vez que pases a través de uno, se añadirá una cantidad extra de combustible para cohetes.<br><br><font color="#EBB40F">nº 1: </font>Crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objetos de habilidad -> Desencadenante del comienzo de los Anillos de fuego<br><font color="#EBB40F">nº 2: </font>Coloca los objetos desencadenantes en el aire para que la moto pueda pasar por ellos antes de recoger el primer anillo de fuego.<br><font color="#EBB40F">nº 3: </font>Crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objetos de habilidad -> Anillo de fuego<br><font color="#EBB40F">nº 4: </font>Copia y coloca el anillo de fuego para crear tu nivel.<br><br><font color="#EBB40F">Nota 1: </font>asegúrate de que la moto está completamente en el aire al activarse el desencadenante o, de lo contrario, el salto no será considerado válido.<br><font color="#EBB40F">Nota 2: </font>vas a tener que vaciar mucho espacio para dejar sitio para el vuelo.<br><br></font><font color="#EBB40F" size="30"><br>Transporte<br></font><font color="#D7CAAD" size="20">Llévate las bombas lo más lejos que puedas en el carrito de transporte. Los baches y los impactos más grandes afectan al carrito de entrega y harán que las bombas exploten, así que tenlo en cuenta al planificar tu pista.<br><br>Sólo puede usarse la moto Hauler de 600 c.c. y no se admite ninguna otra moto.<br><br></font><font color="#EBB40F" size="30"><br>En llamas<br></font><font color="#D7CAAD" size="20">Intenta sobrevivir cuanto sea posible mientras te envuelven las llamas. Cuando planifiques tu nivel, recuerda que cuanto más rápido conduzcas, más a raya mantendrás el fuego.<br><br><font color="#EBB40F">Nota: </font>para que se prenda fuego al piloto, es preciso que haya efectos de fuego en la línea de conducción y que la moto pase por ellos. Por ejemplo: crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Efectos -> Fuego 2 y colócalo en la línea de conducción.<br><br></font><font color="#EBB40F" size="30"><br>Caza de la diana<br></font><font color="#D7CAAD" size="20">Consigue tantos objetivos como puedas sin cometer ninguna falta.<br><br><font color="#EBB40F">nº 1: </font>Crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objetos de habilidad -> Puntuación de Caza de la diana<br><font color="#EBB40F">nº 2: </font>Coloca los objetivos a derribar por todo el nivel.<br><br></font><font color="#EBB40F" size="30"><br>Subida a la colina<br></font><font color="#D7CAAD" size="20">Sube lo más alto que puedas.<br><br><font color="#EBB40F">Nota: </font>si saltas de la moto, el juego en esta pista se dará por finalizado.<br><br></font><font color="#EBB40F" size="30"><br>Exterior de la bola<br></font><font color="#D7CAAD" size="20">Desplázate montando en la bola la máxima distancia que puedas sin caerte de ella.<br><br><font color="#EBB40F">nº 1: </font>Crea el objeto <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Objetos de habilidad -> Exterior de la bola gigante de hierro<br><font color="#EBB40F">nº 2: </font>Selecciona la bola que acabas de crear y pulsa <font color="#9DA0A4">(MANDO DE DIRECCIÓN HACIA ARRIBA)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> para tener acceso a sus propiedades. Asegúrate de que las opciones Efectos físicos y En la línea de conducción están activadas.<br><font color="#EBB40F">nº 3: </font>Centra la bola respecto a la línea de conducción y coloca el punto de control de modo que apunte a la parte superior de la bola gigante de hierro.<br><br>La única moto que puede usarse es la Phoenix REV de 250 cc, no se admite ninguna otra moto.<br><br></font><font color="#EBB40F" size="30"><br>Salto de altura<br></font><font color="#D7CAAD" size="20">Llega lo más alto como puedas.<br><br><font color="#EBB40F">Nota: </font>puedes saltar de la moto para alcanzar alturas mucho mayores.<br><br></font><font color="#EBB40F" size="30"><br>Pirueta<br></font><font color="#D7CAAD" size="20">Haz todas las piruetas que puedas. Si cometes una falta, se acabará el juego.<br><br><font color="#EBB40F">Nota: </font>el tiempo límite es 1 minuto.<br><br></font><font color="#EBB40F" size="30"><br>Caballito<br></font><font color="#D7CAAD" size="20">Aguanta todo lo que puedas haciendo un caballito. Evita que la rueda delantera toque el suelo.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Juegos de habilidad</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>AYUDA DEL EDITOR</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

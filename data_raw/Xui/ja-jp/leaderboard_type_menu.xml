@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>戻る</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+選択\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+戻る\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.ChallengesButton.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>TOURNAMENTS</Value>
+            <Path>XuiScene1.ChallengesButton.Text</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GlobalAllButton.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>WORLD RANKING + DLC</Value>
+            <Path>XuiScene1.GlobalAllButton.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.GlobalButton.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>WORLD RANKING</Value>
+            <Path>XuiScene1.GlobalButton.Text</Path>
+        </E>
+        <E i="9">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="11">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.RaceButton.PointSize</Path>
+        </E>
+        <E i="13">
+            <Value>RACE</Value>
+            <Path>XuiScene1.RaceButton.Text</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.SkillGamesButton.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>SKILL GAMES</Value>
+            <Path>XuiScene1.SkillGamesButton.Text</Path>
+        </E>
+        <E i="16">
+            <Value></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="17">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="18">
+            <Value>LEADERBOARDS</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

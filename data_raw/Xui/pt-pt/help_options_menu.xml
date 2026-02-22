@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Voltar</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="2">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_a_bg.dds" align="middle" /> \r
+Seleccionar\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Voltar\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="3">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.ControlsButton.PointSize</Path>
+        </E>
+        <E i="4">
+            <Value>CONTROLOS</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.ControlsButton.Text</Path>
+        </E>
+        <E i="5">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.CreditsButton.PointSize</Path>
+        </E>
+        <E i="6">
+            <Value>FICHA TÉCNICA</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.CreditsButton.Text</Path>
+        </E>
+        <E i="7">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.HowToPlayButton.PointSize</Path>
+        </E>
+        <E i="8">
+            <Value>INSTRUÇÕES DE JOGO</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.HowToPlayButton.Text</Path>
+        </E>
+        <E i="9">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.SettingsButton.PointSize</Path>
+        </E>
+        <E i="10">
+            <Value>DEFINIÇÕES</Value>
+            <Path>XuiScene1.HelpMenuButtonsGroup.SettingsButton.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="15">
+            <Value>50.000000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="16">
+            <Value>AJUDA E OPÇÕES</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>

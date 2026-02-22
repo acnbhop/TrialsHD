@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XusFile>
+    <Version>256</Version>
+    <Entries>
+        <E i="0">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.PointSize</Path>
+        </E>
+        <E i="1">
+            <Value>Semplice</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText1.Text</Path>
+        </E>
+        <E i="2">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.PointSize</Path>
+        </E>
+        <E i="3">
+            <Value>Strumenti</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText2.Text</Path>
+        </E>
+        <E i="4">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.PointSize</Path>
+        </E>
+        <E i="5">
+            <Value>Avanzata</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText3.Text</Path>
+        </E>
+        <E i="6">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.PointSize</Path>
+        </E>
+        <E i="7">
+            <Value>Prove di abilità</Value>
+            <Path>XuiScene1.BG_Graphics.XuiText4.Text</Path>
+        </E>
+        <E i="8">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.BackButton.PointSize</Path>
+        </E>
+        <E i="9">
+            <Value>Indietro</Value>
+            <Path>XuiScene1.BackButton.Text</Path>
+        </E>
+        <E i="10">
+            <Value><![CDATA[<div align="center">\r
+<font color="#D7CAAD" size="27">\r
+\r
+<img src="images/menu_buttons_b_bg.dds" align="middle" /> \r
+Indietro\r
+\r
+</font>\r
+</div>\r
+\r
+\r
+]]></Value>
+            <Path>XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text</Path>
+        </E>
+        <E i="11">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.InfoText.PointSize</Path>
+        </E>
+        <E i="12">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.InfoText.Text</Path>
+        </E>
+        <E i="13">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.PointSize</Path>
+        </E>
+        <E i="14">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.PointSize</Path>
+        </E>
+        <E i="15">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.LineHeight</Path>
+        </E>
+        <E i="16">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.PointSize</Path>
+        </E>
+        <E i="17">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Editor<br></font><font color="#D7CAAD" size="20">L'Editor di tracciati è un tool potente che potrai usare per creare nuovi tracciati da giocare e condividere con i tuoi amici. Anche i tracciati già presenti nel gioco sono stati creati con questo tool; nulla ti impedisce quindi di realizzarne di simili o persino di migliori! Il modo più rapido per imparare ad usare l'Editor è quello di sperimentare nella pratica le sue funzionalità. Provaci, è divertente!<br><br>L'Editor include due diverse modalità: <font color="#EBB40F"><b>Semplice</b></font> e <font color="#EBB40F"><b>Avanzata</b></font>. La modalità Semplice consente di creare tracciati non eccessivamente complessi e permette un controllo limitato della telecamera. La gamma di oggetti disponibile e le opzioni di posizionamento sono limitate alla linea di guida della moto. Usando la modalità Semplice potrai creare facilmente la struttura di base del tuo tracciato.<br><br>In modalità Avanzata avrai un controllo maggiore sulla telecamera e una più ampia disponibilità di oggetti e opzioni di posizionamento. Avrai la possibilità di regolare le proprietà dell'oggetto per attivare effetti fisici come la forza di gravità, e potrai creare Prove di abilità. La modalità Avanzata permette insomma di creare tracciati più complessi e dettagliati.<br><br>In entrambe le modalità, l'elenco dei comandi disponibili è visualizzato nella parte inferiore dello schermo. Puoi selezionare vari oggetti, ruotarli e collocarli dove vuoi sul tracciato. Ogni cosa resterà dove l'hai messa (anche sospesa in aria!), a meno di non attivare la Fisica nelle proprietà dell'oggetto.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.HelpText.Text</Path>
+        </E>
+        <E i="18">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.PointSize</Path>
+        </E>
+        <E i="19">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.Text</Path>
+        </E>
+        <E i="20">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.PointSize</Path>
+        </E>
+        <E i="21">
+            <Value>Semplice</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab1.XuiText1.Text</Path>
+        </E>
+        <E i="22">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.LineHeight</Path>
+        </E>
+        <E i="23">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.PointSize</Path>
+        </E>
+        <E i="24">
+            <Value><![CDATA[<div align=""><font color="#EBB40F" size="30">Funzioni del tool<br></font><font color="#D7CAAD" size="20">L'utilizzo dell'Editor di tracciati è piuttosto intuitivo e per costruire un tracciato basta prestare attenzione ai comandi elencati nella parte inferiore dello schermo. Di seguito troverai comunque descritte alcune delle funzioni più utili.<br><br><font color="#EBB40F"><b>Copia</b></font>- La possibilità di copiare un elemento selezionato fa risparmiare tempo e fatica e, abbinata alla funzione di Selezione multipla (vedi sotto), consente di popolare rapidamente il tracciato. Per copiare l'oggetto selezionato, premi il pulsante <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" />.<br><br><font color="#EBB40F"><b>Allinea alla linea di guida</b></font>- Premendo una volta il pulsante <font color="#9DA0A4">(LEVETTA DESTRA)</font><img src="images/menu_buttons_rs_bg_small.dds" align="middle" />, l'oggetto selezionato viene centrato sulla linea di guida. Premendolo una seconda volta, viene ripristinata la rotazione originale.<br><br><font color="#EBB40F"><b>Rotazione</b></font>- Il pulsante <font color="#9DA0A4">(PULSANTE DORSALE SINISTRO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />ruota l'oggetto di 90° intorno all'asse selezionato. Se l'oggetto selezionato è a un angolo arbitrario, la prima pressione del pulsante ripristina l'angolo originale. Premendo nuovamente il pulsante <font color="#9DA0A4">(PULSANTE DORSALE SINISTRO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />l'oggetto ruota di 90°. <br><br><font color="#EBB40F"><b>Selezione multipla</b></font>- L'opzione Selezione multipla consente di selezionare più oggetti contemporaneamente e di spostarli come un unico elemento. Con la funzione Copia sarà quindi possibile duplicare ampie sezioni del tracciato in modo facile e veloce. Per eseguire una selezione multipla, premi senza rilasciare il pulsante <font color="#9DA0A4">(PULSANTE DORSALE SINISTRO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />, quindi seleziona gli oggetti. <br><br><font color="#EBB40F"><b>Incolla</b></font>- Con l'opzione Incolla puoi attaccare insieme più oggetti per formare un elemento unico. Questo ti consentirà di creare ampie sezioni del tuo tracciato e di manipolarle con maggiore facilità. Puoi incollare (o staccare) l'oggetto selezionato selezionando “Incolla a oggetto” dalle proprietà. Nota: per staccare un oggetto incollato, usa la Sub-selezione (vedi sotto) per isolare un singolo elemento del gruppo. <br><br><font color="#EBB40F"><b>Sub-selezione</b></font>-La Sub-selezione permette di selezionare e manipolare specifici elementi di un oggetto più grande creato incollando insieme più oggetti. Per eseguire una Sub-selezione, premi senza rilasciare il pulsante <font color="#9DA0A4">(PULSANTE DORSALE SINISTRO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />e poi seleziona gli elementi desiderati, procedendo come per la Selezione multipla. <br><br><font color="#EBB40F"><b>Spostamento tra checkpoint</b></font>- Durante il collaudo del tracciato nell'ambiente dell'Editor, puoi premere i pulsanti <font color="#9DA0A4">(PULSANTE DORSALE SINISTRO)</font><img src="images/menu_buttons_lb_bg_small.dds" align="middle" />o <font color="#9DA0A4">(PULSANTE DORSALE DESTRO)</font><img src="images/menu_buttons_rb_bg_small.dds" align="middle" />per spostarti avanti e indietro tra i checkpoint e testare il livello in modo semplice e veloce.<br><br></font><font color="#EBB40F" size="30">Complessità dell'area <br></font><font color="#D7CAAD" size="20">La complessità di un tracciato non può aumentare illimitatamente. Tentare di inserire un gran numero di oggetti fisici in uno spazio ristretto, ad esempio, provocherebbe un rallentamento eccessivo del gioco. Se raggiungi il limite di Complessità dell'area, dovrai aumentare la distanza tra gli elementi del tracciato o rimuoverne alcuni.<br><br></font><font color="#EBB40F" size="30">Checkpoint<br></font><font color="#D7CAAD" size="20">Il tracciato può comprendere un totale di 15 checkpoint, compresi il primo e l'ultimo. L'ultimo è sempre in corrispondenza del traguardo.<br><br></font><font color="#EBB40F" size="30">Creazione di stanze<br></font><font color="#D7CAAD" size="20">In modalità Avanzata è possibile aggiungere o rimuovere stanze per rendere più vario il tracciato. Come qualunque altro oggetto, le stanze si selezionano con il pulsante <font color="#9DA0A4">(A)</font><img src="images/menu_buttons_a_bg_small.dds" align="middle" />; premi il pulsante <font color="#9DA0A4">(X)</font><img src="images/menu_buttons_x_bg_small.dds" align="middle" />per eliminare la stanza o il pulsante <font color="#9DA0A4">(Y)</font><img src="images/menu_buttons_y_bg_small.dds" align="middle" />per creare una stanza adiacente alla parete selezionata. <br><br></font><font color="#EBB40F" size="30">Menu dell'Editor<br></font><font color="#D7CAAD" size="20">Puoi accedere al menu dell'Editor premendo il pulsante <font color="#9DA0A4">(START)</font><img src="images/menu_buttons_start_bg_small.dds" align="middle" />. Qui potrai eseguire un giro di prova sul tracciato, scegliere la moto da usare per il collaudo e regolare le impostazioni del tracciato. Potrai salvare il tracciato appena creato, caricarne uno esistente o iniziarne uno nuovo, e gestire i vari tracciati. Infine, potrai passare dalla modalità Semplice a quella Avanzata e viceversa, e anche, come avrai già notato, accedere a questa guida!<br><br></font>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.HelpText.Text</Path>
+        </E>
+        <E i="25">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.PointSize</Path>
+        </E>
+        <E i="26">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.Text</Path>
+        </E>
+        <E i="27">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.PointSize</Path>
+        </E>
+        <E i="28">
+            <Value>Strumenti</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab2.XuiText2.Text</Path>
+        </E>
+        <E i="29">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.LineHeight</Path>
+        </E>
+        <E i="30">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.PointSize</Path>
+        </E>
+        <E i="31">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Proprietà dell'oggetto: Fisica<br></font><font color="#D7CAAD" size="20">Nell'Editor di tracciati, "fisica" è un concetto legato all'oggetto. Quando è attivata questa proprietà, l'oggetto risente di forze quali la gravità, il momento e altre, incluse quelle generate dalla moto del giocatore. Può cadere o rovesciarsi, e il suo peso e il suo momento possono incidere su altri oggetti fisici inclusa, anche in questo caso, la moto del giocatore! Grazie a questa proprietà, è possibile creare divertenti tracciati nei quali il giocatore deve interagire con i vari oggetti per farsi strada, o in cui il tracciato cambia improvvisamente una volta raggiunto un certo punto. Puoi vedere come si comportano in pratica gli oggetti con proprietà "fisiche" selezionando la funzione Fisica Sì/No con il pulsante <font color="#9DA0A4">(BACK)</font><img src="images/menu_buttons_back_bg_small.dds" align="middle" />. <br><br></font><font color="#EBB40F" size="30">Cerniere<br></font><font color="#D7CAAD" size="20">Una cerniera è un oggetto speciale che consente di creare oggetti fisici più complessi come auto ed elementi oscillanti. Per prima cosa crea l'oggetto cerniera. Ora incolla separatamente altri oggetti alle due estremità della cerniera. Non puoi incollare la cerniera in sé, devi incollare altri oggetti a essa. Fatto questo, attiva la fisica sugli oggetti che vuoi dotare di questa proprietà.<br><br></font><font color="#EBB40F" size="30">Trigger<br></font><font color="#D7CAAD" size="20">Un trigger fa sì che, al raggiungimento di un dato punto del tracciato, si verifichi un evento prestabilito. Quando posizioni un'area trigger sul tracciato, devi collegarla a un altro oggetto e selezionare quali proprietà dell'oggetto stesso verranno attivate dal trigger al passaggio della moto del giocatore.<br><br><font color="#EBB40F"><b>Fisica</b></font>- Quando il trigger è attivato, l'oggetto subisce l'effetto della gravità e di altre forze. Può ad esempio cadere, rimbalzare su altri oggetti o essere spazzato via dalla moto.<br><br><font color="#EBB40F"><b>Esplosione/rottura</b></font>- Attivato il trigger, l'oggetto si rompe o esplode. Nota: non tutti gli oggetti possono rompersi.<br><br><font color="#EBB40F"><b>Luce</b></font>-  L'attivazione del trigger determina  l'accensione o lo spegnimento di una luce.<br><br><font color="#EBB40F"><b>Animazione</b></font>- Il trigger attiva il movimento di un oggetto animato, come ad esempio l'aletta di un flipper. Se vuoi che l'oggetto animato interagisca con il giocatore, seleziona anche “fisica” oltre ad “animazione”.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.HelpText.Text</Path>
+        </E>
+        <E i="32">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.PointSize</Path>
+        </E>
+        <E i="33">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.Text</Path>
+        </E>
+        <E i="34">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.PointSize</Path>
+        </E>
+        <E i="35">
+            <Value>Avanzata</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab3.XuiText3.Text</Path>
+        </E>
+        <E i="36">
+            <Value>28</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.LineHeight</Path>
+        </E>
+        <E i="37">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.PointSize</Path>
+        </E>
+        <E i="38">
+            <Value><![CDATA[<div align="left"><font color="#EBB40F" size="30">Creare Prove di abilità<br></font><font color="#D7CAAD" size="20">Per scegliere la Prova di abilità che vuoi creare, seleziona Impostazioni tracciato dal menu di pausa dell'Editor e decidi lo Stile tracciato. Potrai scegliere tra 12 Prove di abilità diverse.<br><br><font color="#EBB40F">Nota:</font> in tutte le Prove di abilità, <font color="#EBB40F">usa un solo checkpoint </font>all'inizio del tracciato. La presenza di più checkpoint potrebbe causare effetti indesiderati.<br><br></font><font color="#EBB40F" size="30"><br>Dentro la sfera<br></font><font color="#D7CAAD" size="20">Il tuo obiettivo è di percorrere la maggior distanza possibile all'interno della sfera di ferro gigante.<br><br><font color="#EBB40F">#1:</font>Crea oggetto <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Ogg. Prove di abilità ->Interno sfera di ferro gigante<br><font color="#EBB40F">#2:</font>Seleziona la sfera appena creata e premi <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> per accedere alle sue proprietà. Verifica che Fisica e Fissa a linea di guida siano entrambe attivate.<br><font color="#EBB40F">#3:</font>Centra la sfera sulla linea di guida e colloca il checkpoint in modo che punti verso il centro della sfera di ferro gigante.<br><br></font><font color="#EBB40F" size="30"><br>Salto con gli sci<br></font><font color="#D7CAAD" size="20">Salta il più lontano possibile. La lunghezza del salto viene calcolata in base al punto in cui atterri.<br><br><font color="#EBB40F">#1:</font>Crea oggetto <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Ogg. Prove di abilità ->Trigger Bordo trampolino da sci<br><font color="#EBB40F">#2:</font>Posiziona gli oggetti trigger a mezz'aria, dopo una rampa. La registrazione della lunghezza del salto inizia nel momento in cui la moto tocca il trigger.<br><br><font color="#EBB40F">Nota:</font>accertati che la moto sia interamente in aria quando il trigger viene attivato o il salto sarà considerato nullo.<br><br>In questa prova è possibile usare esclusivamente la moto Scorpion Air 125cc.<br><br></font><font color="#EBB40F" size="30"><br>Anelli di fuoco<br></font><font color="#D7CAAD" size="20">Vola attraverso quanti più anelli di fuoco possibile. Ad ogni passaggio, riceverai un ulteriore rifornimento di carburante per razzi.<br><br><font color="#EBB40F">#1:</font>Crea oggetto<font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Ogg. Prove di abilità ->Trigger avvio Anelli di fuoco<br><font color="#EBB40F">#2:</font>Posiziona gli oggetti trigger a mezz'aria in modo che la moto li attraversi prima di raccogliere il primo anello di fuoco.<br><font color="#EBB40F">#3:</font>Crea oggetto <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Ogg. Prove di abilità ->Anello di fuoco<br><font color="#EBB40F">#4:</font>Copia e posiziona gli anelli di fuoco per creare il tuo livello.<br><br><font color="#EBB40F">Nota 1:</font>accertati che la moto sia interamente in aria quando il trigger viene attivato o il volo sarà considerato nullo.<br><font color="#EBB40F">Nota 2:</font>dovrai sgombrare parecchie stanze per avere spazio a sufficienza per il volo.<br><br></font><font color="#EBB40F" size="30"><br>Consegna<br></font><font color="#D7CAAD" size="20">Percorri quanta più strada possibile con il carrello per consegne carico di bombe. Pianifica accuratamente il tuo percorso, perché forti sobbalzi e urti faranno esplodere le bombe.<br><br>In questa prova è possibile usare esclusivamente la Hauler 600cc.<br><br></font><font color="#EBB40F" size="30"><br>In fiamme<br></font><font color="#D7CAAD" size="20">Cerca di sopravvivere il più a lungo possibile avvolto dalle fiamme. Quando pianifichi il tuo livello, ricorda che più veloce andrai, meglio riuscirai a tenere a bada il fuoco.<br><br><font color="#EBB40F">Nota:</font>perché il pilota venga avvolto dalle fiamme è necessario che vi siano effetti di fuoco sulla linea di guida che verrà percorsa dalla moto. Ad esempio, seleziona Crea oggetto <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Effetti ->Fuoco 2 e posizionalo sulla linea di guida.<br><br></font><font color="#EBB40F" size="30"><br>Caccia al bersaglio<br></font><font color="#D7CAAD" size="20">Colpisci quanti più bersagli possibile senza commettere errori.<br><br><font color="#EBB40F">#1:</font>Crea oggetto <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Ogg. Prove di abilità ->Bersaglio da colpire<br><font color="#EBB40F">#2:</font>Posiziona i Bersagli da colpire nel livello.<br><br></font><font color="#EBB40F" size="30"><br>Arrampicata<br></font><font color="#D7CAAD" size="20">Sali il più in alto possibile.<br><br><font color="#EBB40F">Nota:</font>se scendi di sella, la prova si conclude.<br><br></font><font color="#EBB40F" size="30"><br>Sulla sfera<br></font><font color="#D7CAAD" size="20">Percorri la maggior distanza possibile restando in equilibrio sulla sfera senza cadere.<br><br><font color="#EBB40F">#1:</font>Crea oggetto <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> -> Ogg. Prove di abilità ->Esterno sfera di ferro gigante<br><font color="#EBB40F">#2</font>Seleziona la sfera appena creata e premi <font color="#9DA0A4">(TASTO D SU)</font><img src="images/menu_buttons_dpad_up_bg_small.dds" align="middle" /> per accedere alle sue proprietà. Verifica che Fisica e Fissa a linea di guida siano entrambe attivate.<br><font color="#EBB40F">#3</font>Centra la sfera sulla linea di guida e colloca il checkpoint in modo che punti verso la sommità della sfera di ferro gigante.<br><br>In questa prova è possibile usare esclusivamente la moto Phoenix REV 250cc.<br><br></font><font color="#EBB40F" size="30"><br>Salto in alto<br></font><font color="#D7CAAD" size="20">Salta il più in alto possibile.<br><br><font color="#EBB40F">Nota:</font>puoi scendere di sella per raggiungere altezze ancora superiori.<br><br></font><font color="#EBB40F" size="30"><br>Capriola<br></font><font color="#D7CAAD" size="20">Esegui quante più capriole possibile. La prova termina al primo errore commesso.<br><br><font color="#EBB40F">Nota:</font>il tempo limite è di 1 minuto.<br><br></font><font color="#EBB40F" size="30"><br>Impennata<br></font><font color="#D7CAAD" size="20">Percorri la maggior distanza possibile in impennata. Non lasciare che la ruota anteriore tocchi terra.<br><br></font></div>]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.HelpText.Text</Path>
+        </E>
+        <E i="39">
+            <Value>-1.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.PointSize</Path>
+        </E>
+        <E i="40">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.Text</Path>
+        </E>
+        <E i="41">
+            <Value>20.000.000</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.PointSize</Path>
+        </E>
+        <E i="42">
+            <Value>Prove di abilità</Value>
+            <Path>XuiScene1.TabSceneRoot.Tab4.XuiText4.Text</Path>
+        </E>
+        <E i="43">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.TabSceneRoot.Text</Path>
+        </E>
+        <E i="44">
+            <Value><![CDATA[\r
+    ]]></Value>
+            <Path>XuiScene1.Text</Path>
+        </E>
+        <E i="45">
+            <Value>50.000.000</Value>
+            <Path>XuiScene1.TitleText.PointSize</Path>
+        </E>
+        <E i="46">
+            <Value>GUIDA DELL'EDITOR</Value>
+            <Path>XuiScene1.TitleText.Text</Path>
+        </E>
+    </Entries>
+</XusFile>
