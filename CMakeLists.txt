@@ -4,7 +4,7 @@ if(NOT MSVC_IDE AND NOT XCODE)
 endif()
 project(TrialsHD LANGUAGES CXX)
 
-find_package(LibXml2 REQUIRED)
+find_package(tinyxml2 REQUIRED)
 find_package(ZLIB REQUIRED)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -23,9 +23,7 @@ else()
     add_compile_options(/FI${CMAKE_CURRENT_SOURCE_DIR}/code/shared/build_defines.hpp)
 endif()
 
-include_directories(code
-    $<$<BOOL:${REDLYNX_LINUX}>:/usr/include/libxml2>
-)
+include_directories(code)
 
 add_library(shared STATIC
     code/shared/build_defines.hpp
@@ -45,6 +43,6 @@ add_executable(track_tool
     code/tools/track_tool.cpp
 )
 
-target_link_libraries(track_tool PRIVATE shared game LibXml2::LibXml2 ZLIB::ZLIB
+target_link_libraries(track_tool PRIVATE shared game tinyxml2::tinyxml2 ZLIB::ZLIB
     $<$<BOOL:${REDLYNX_LINUX}>:lzma>
 )

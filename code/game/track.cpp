@@ -16,8 +16,7 @@
 // External headers
 #include <lzma.h>
 #include <zlib.h>
-#include <libxml/parser.h>
-#include <libxml/tree.h>
+#include <tinyxml2.h>
 
 namespace redlynx::game
 {
@@ -191,155 +190,146 @@ bool Track::Save(const std::string& FilePath)
 // Exports the track data to a human readable XML format. This is used for editing tracks.
 bool Track::ExportXML(const std::string& FilePath) const
 {
-    xmlDocPtr Doc = xmlNewDoc(BAD_CAST "1.0");
-    xmlNodePtr Root = xmlNewNode(NULL, BAD_CAST "TrialsTrack");
-    xmlDocSetRootElement(Doc, Root);
+    tinyxml2::XMLDocument Doc;
+    Doc.InsertEndChild(Doc.NewDeclaration("xml version=\"1.0\" encoding=\"UTF-8\""));
 
-    xmlNewChild(Root, NULL, BAD_CAST "Header", BAD_CAST ToHex(OriginalHeader).c_str());
-    xmlNewChild(Root, NULL, BAD_CAST "CompMethod", BAD_CAST Compression.c_str());
-    xmlNewChild(Root, NULL, BAD_CAST "LzmaStripped", BAD_CAST (LzmaStripped ? "1" : "0"));
-    xmlNewChild(Root, NULL, BAD_CAST "PayloadType", BAD_CAST PayloadType.c_str());
+    tinyxml2::XMLElement* Root = Doc.NewElement("TrialsTrack");
+    Doc.InsertEndChild(Root);
+
+    auto AddChildText = [&](tinyxml2::XMLElement* Parent, const char* Name, const std::string& Text) {
+        tinyxml2::XMLElement* Element = Doc.NewElement(Name);
+        Element->SetText(Text.c_str());
+        Parent->InsertEndChild(Element);
+    };
+
+    AddChildText(Root, "Header", ToHex(OriginalHeader));
+    AddChildText(Root, "CompMethod", Compression);
+    AddChildText(Root, "LzmaStripped", LzmaStripped ? "1" : "0");
+    AddChildText(Root, "PayloadType", PayloadType);
 
     if (PayloadType == "OBJ5")
     {
-        xmlNewChild(Root, NULL, BAD_CAST "PreGlue", BAD_CAST ToHex(PreGlueData).c_str());
-        xmlNewChild(Root, NULL, BAD_CAST "PostGlue", BAD_CAST ToHex(PostGlueData).c_str());
+        AddChildText(Root, "PreGlue", ToHex(PreGlueData));
+        AddChildText(Root, "PostGlue", ToHex(PostGlueData));
 
-        xmlNodePtr ObjsNode = xmlNewChild(Root, NULL, BAD_CAST "Objects", NULL);
+        tinyxml2::XMLElement* ObjsNode = Doc.NewElement("Objects");
+        Root->InsertEndChild(ObjsNode);
         for (const auto& Obj : Objects)
         {
-            xmlNodePtr Node = xmlNewChild(ObjsNode, NULL, BAD_CAST "Obj", NULL);
-            xmlNewProp(Node, BAD_CAST "t", BAD_CAST std::to_string(Obj.TypeID).c_str());
-            xmlNewProp(Node, BAD_CAST "v", BAD_CAST std::to_string(Obj.Variant).c_str());
-            xmlNewProp(Node, BAD_CAST "x", BAD_CAST std::to_string(Obj.X).c_str());
-            xmlNewProp(Node, BAD_CAST "y", BAD_CAST std::to_string(Obj.Y).c_str());
-            xmlNewProp(Node, BAD_CAST "z", BAD_CAST std::to_string(Obj.Z).c_str());
-            xmlNewProp(Node, BAD_CAST "rx", BAD_CAST std::to_string(Obj.RotX).c_str());
-            xmlNewProp(Node, BAD_CAST "ry", BAD_CAST std::to_string(Obj.RotY).c_str());
-            xmlNewProp(Node, BAD_CAST "rz", BAD_CAST std::to_string(Obj.RotZ).c_str());
-            xmlNewProp(Node, BAD_CAST "s", BAD_CAST std::to_string(Obj.ScaleOrExtra).c_str());
+            tinyxml2::XMLElement* Node = Doc.NewElement("Obj");
+            Node->SetAttribute("t", std::to_string(Obj.TypeID).c_str());
+            Node->SetAttribute("v", std::to_string(Obj.Variant).c_str());
+            Node->SetAttribute("x", std::to_string(Obj.X).c_str());
+            Node->SetAttribute("y", std::to_string(Obj.Y).c_str());
+            Node->SetAttribute("z", std::to_string(Obj.Z).c_str());
+            Node->SetAttribute("rx", std::to_string(Obj.RotX).c_str());
+            Node->SetAttribute("ry", std::to_string(Obj.RotY).c_str());
+            Node->SetAttribute("rz", std::to_string(Obj.RotZ).c_str());
+            Node->SetAttribute("s", std::to_string(Obj.ScaleOrExtra).c_str());
+            ObjsNode->InsertEndChild(Node);
         }
 
-        xmlNodePtr JointsNode = xmlNewChild(Root, NULL, BAD_CAST "Joints", NULL);
+        tinyxml2::XMLElement* JointsNode = Doc.NewElement("Joints");
+        Root->InsertEndChild(JointsNode);
         for (const auto& Jt : Joints)
         {
-            xmlNodePtr Node = xmlNewChild(JointsNode, NULL, BAD_CAST "Joint", NULL);
-            xmlNewProp(Node, BAD_CAST "a", BAD_CAST std::to_string(Jt.ObjA).c_str());
-            xmlNewProp(Node, BAD_CAST "b", BAD_CAST std::to_string(Jt.ObjB).c_str());
-            xmlNewProp(Node, BAD_CAST "pA", BAD_CAST std::to_string(Jt.ParamA).c_str());
-            xmlNewProp(Node, BAD_CAST "pB", BAD_CAST std::to_string(Jt.ParamB).c_str());
+            tinyxml2::XMLElement* Node = Doc.NewElement("Joint");
+            Node->SetAttribute("a", std::to_string(Jt.ObjA).c_str());
+            Node->SetAttribute("b", std::to_string(Jt.ObjB).c_str());
+            Node->SetAttribute("pA", std::to_string(Jt.ParamA).c_str());
+            Node->SetAttribute("pB", std::to_string(Jt.ParamB).c_str());
+            JointsNode->InsertEndChild(Node);
         }
     }
     else if (PayloadType == "XML")
     {
-        xmlNodePtr RawNode = xmlNewChild(Root, NULL, BAD_CAST "RawXML", NULL);
-        xmlNodePtr CData = xmlNewCDataBlock(Doc, BAD_CAST RawXML.c_str(), RawXML.length());
-        xmlAddChild(RawNode, CData);
+        tinyxml2::XMLElement* RawNode = Doc.NewElement("RawXML");
+        tinyxml2::XMLText* CData = Doc.NewText(RawXML.c_str());
+        CData->SetCData(true);
+        RawNode->InsertEndChild(CData);
+        Root->InsertEndChild(RawNode);
     }
     else
     {
         // For Legacy OBJ formats and unknown data
-        xmlNewChild(Root, NULL, BAD_CAST "RawPayload", BAD_CAST RawXML.c_str());
+        AddChildText(Root, "RawPayload", RawXML);
     }
 
-    xmlSaveFormatFileEnc(FilePath.c_str(), Doc, "UTF-8", 1);
-    xmlFreeDoc(Doc);
-    xmlCleanupParser();
-
-    return true;
+    return Doc.SaveFile(FilePath.c_str()) == tinyxml2::XML_SUCCESS;
 }
 
 // Imports the track data from a human readable XML format. This is used for editing tracks.
 bool Track::ImportXML(const std::string& FilePath)
 {
-    xmlDocPtr Doc = xmlReadFile(FilePath.c_str(), NULL, 0);
-    if (Doc == NULL)
+    tinyxml2::XMLDocument Doc;
+    if (Doc.LoadFile(FilePath.c_str()) != tinyxml2::XML_SUCCESS)
     {
         std::fprintf(stderr, "[Error] [track.cpp] Failed to parse XML file: %s\n", FilePath.c_str());
         return false;
     }
 
-    xmlNodePtr Root = xmlDocGetRootElement(Doc);
+    tinyxml2::XMLElement* Root = Doc.RootElement();
+    if (!Root)
+    {
+        return false;
+    }
 
     Objects.clear();
     Joints.clear();
     LzmaStripped = false;
 
-    auto GetPropStr = [](xmlNodePtr Node, const char* PropName) -> std::string
+    auto GetPropStr = [](tinyxml2::XMLElement* Node, const char* PropName) -> std::string
     {
-        xmlChar* Prop = xmlGetProp(Node, BAD_CAST PropName);
+        const char* Prop = Node->Attribute(PropName);
         if (Prop)
         {
-            std::string Result = reinterpret_cast<char*>(Prop);
-            xmlFree(Prop);
-            return Result;
+            return std::string(Prop);
         }
         return "0";
     };
 
-    for (xmlNodePtr CurNode = Root->children; CurNode; CurNode = CurNode->next)
+    for (tinyxml2::XMLElement* CurNode = Root->FirstChildElement(); CurNode; CurNode = CurNode->NextSiblingElement())
     {
-        if (CurNode->type != XML_ELEMENT_NODE) continue;
-
-        std::string NodeName = reinterpret_cast<const char*>(CurNode->name);
+        std::string NodeName = CurNode->Name();
+        const char* ContentCStr = CurNode->GetText();
+        std::string Content = ContentCStr ? ContentCStr : "";
 
         if (NodeName == "Header")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) OriginalHeader = FromHex(reinterpret_cast<char*>(Content));
-            xmlFree(Content);
+            OriginalHeader = FromHex(Content);
         }
         else if (NodeName == "CompMethod")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) Compression = reinterpret_cast<char*>(Content);
-            xmlFree(Content);
+            Compression = Content;
         }
         else if (NodeName == "LzmaStripped")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) LzmaStripped = (std::string(reinterpret_cast<char*>(Content)) == "1");
-            xmlFree(Content);
+            LzmaStripped = (Content == "1");
         }
         else if (NodeName == "PayloadType")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) PayloadType = reinterpret_cast<char*>(Content);
-            xmlFree(Content);
+            PayloadType = Content;
         }
         else if (NodeName == "PreGlue")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) PreGlueData = FromHex(reinterpret_cast<char*>(Content));
-            xmlFree(Content);
+            PreGlueData = FromHex(Content);
         }
         else if (NodeName == "PostGlue")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) PostGlueData = FromHex(reinterpret_cast<char*>(Content));
-            xmlFree(Content);
+            PostGlueData = FromHex(Content);
         }
         else if (NodeName == "RawPayload")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content) RawXML = reinterpret_cast<char*>(Content);
-            xmlFree(Content);
+            RawXML = Content;
         }
         else if (NodeName == "RawXML")
         {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content)
-            {
-                RawXML = reinterpret_cast<char*>(Content);
-                xmlFree(Content);
-            }
+            RawXML = Content;
         }
         else if (NodeName == "Objects")
         {
-            for (xmlNodePtr ObjNode = CurNode->children; ObjNode; ObjNode = ObjNode->next)
+            for (tinyxml2::XMLElement* ObjNode = CurNode->FirstChildElement("Obj"); ObjNode; ObjNode = ObjNode->NextSiblingElement("Obj"))
             {
-                if (ObjNode->type != XML_ELEMENT_NODE) continue;
-
                 TrackObject Obj;
                 Obj.TypeID       = std::stoi(GetPropStr(ObjNode, "t"));
                 Obj.Variant      = std::stoi(GetPropStr(ObjNode, "v"));
@@ -355,10 +345,8 @@ bool Track::ImportXML(const std::string& FilePath)
         }
         else if (NodeName == "Joints")
         {
-            for (xmlNodePtr JtNode = CurNode->children; JtNode; JtNode = JtNode->next)
+            for (tinyxml2::XMLElement* JtNode = CurNode->FirstChildElement("Joint"); JtNode; JtNode = JtNode->NextSiblingElement("Joint"))
             {
-                if (JtNode->type != XML_ELEMENT_NODE) continue;
-
                 TrackJoint Jt;
                 Jt.ObjA   = std::stoi(GetPropStr(JtNode, "a"));
                 Jt.ObjB   = std::stoi(GetPropStr(JtNode, "b"));
@@ -369,8 +357,6 @@ bool Track::ImportXML(const std::string& FilePath)
         }
     }
 
-    xmlFreeDoc(Doc);
-    xmlCleanupParser();
     return true;
 }
 
