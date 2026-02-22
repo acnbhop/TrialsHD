@@ -11,4 +11,4 @@ endif()
 #
 # Our include directories
 #
-include_directories(code ${tinyxml2_SOURCE_DIR}/tinyxml2 ${xz_SOURCE_DIR}/src ${ZLIB_INCLUDE_DIRS})
+include_directories(code ${tinyxml2_SOURCE_DIR} ${xz_SOURCE_DIR}/src/liblzma/api ${ZLIB_INCLUDE_DIRS} ${zlib_SOURCE_DIR} ${zlib_BINARY_DIR})
