@@ -22,7 +22,6 @@
 
 #include <vector>
 #include <string>
-#include <span>
 
 namespace redlynx::game
 {
