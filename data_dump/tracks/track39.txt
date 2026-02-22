@@ -1,0 +1,896 @@
+[+] Extracted 659 Objects and 232 Joints.
+
+--- Objects ---
+ID: 0		| Type: 0		| Pos: (-47.77, 1.63, 5.35)
+ID: 1		| Type: 19		| Pos: (-42.70, 1.02, 6.35)
+ID: 2		| Type: 16		| Pos: (-13.84, 4.65, 6.35)
+ID: 3		| Type: 0		| Pos: (-36.35, 2.55, 6.35)
+ID: 4		| Type: 38		| Pos: (-7.91, 7.37, 6.35)
+ID: 5		| Type: 128		| Pos: (-31.38, 1.80, 5.92)
+ID: 6		| Type: 0		| Pos: (-21.39, 1.80, 5.92)
+ID: 7		| Type: 38		| Pos: (-31.13, 1.80, 14.33)
+ID: 8		| Type: 128		| Pos: (-25.71, 1.80, 23.18)
+ID: 9		| Type: 0		| Pos: (1.58, 1.76, 13.80)
+ID: 10		| Type: 38		| Pos: (-9.81, 1.76, 24.59)
+ID: 11		| Type: 128		| Pos: (-22.10, 1.80, 14.33)
+ID: 12		| Type: 0		| Pos: (-11.65, 1.74, 8.27)
+ID: 13		| Type: 38		| Pos: (-6.58, 1.85, -0.50)
+ID: 14		| Type: 128		| Pos: (-12.91, 1.85, -1.49)
+ID: 15		| Type: 0		| Pos: (-11.57, 1.89, -5.34)
+ID: 16		| Type: 56		| Pos: (-9.09, 5.56, -1.02)
+ID: 17		| Type: 128		| Pos: (-16.69, 1.80, 23.18)
+ID: 18		| Type: 0		| Pos: (1.58, 1.76, 22.82)
+ID: 19		| Type: 56		| Pos: (-9.81, 1.76, 33.61)
+ID: 20		| Type: 128		| Pos: (-23.46, 5.42, 14.33)
+ID: 21		| Type: 0		| Pos: (-30.63, 7.69, 14.18)
+ID: 22		| Type: 56		| Pos: (-57.31, 1.80, 6.52)
+ID: 23		| Type: 128		| Pos: (-56.65, 8.08, 8.69)
+ID: 24		| Type: 0		| Pos: (-56.88, 8.08, 4.80)
+ID: 25		| Type: 56		| Pos: (-21.83, 5.42, 23.18)
+ID: 26		| Type: 128		| Pos: (-12.39, 5.42, 22.70)
+ID: 27		| Type: 0		| Pos: (-17.83, 9.05, 23.18)
+ID: 28		| Type: 56		| Pos: (1.58, 5.38, 17.68)
+ID: 29		| Type: 128		| Pos: (1.57, 8.99, 19.40)
+ID: 30		| Type: 0		| Pos: (-9.81, 5.38, 28.47)
+ID: 31		| Type: 56		| Pos: (-3.04, 4.50, 6.21)
+ID: 32		| Type: 128		| Pos: (-3.24, 4.50, 1.65)
+ID: 33		| Type: 0		| Pos: (0.58, 4.51, 5.92)
+ID: 34		| Type: 56		| Pos: (0.80, 4.51, 2.17)
+ID: 35		| Type: 128		| Pos: (-18.62, 4.52, 5.35)
+ID: 36		| Type: 0		| Pos: (6.58, 10.52, 4.70)
+ID: 37		| Type: 56		| Pos: (41.04, 1.71, 4.91)
+ID: 38		| Type: 128		| Pos: (-47.83, 0.45, 6.35)
+ID: 39		| Type: 0		| Pos: (-41.02, 0.76, 5.41)
+ID: 40		| Type: 56		| Pos: (-43.38, 1.26, 9.47)
+ID: 41		| Type: 128		| Pos: (-54.10, 1.26, 9.58)
+ID: 42		| Type: 0		| Pos: (-53.77, 1.17, 8.74)
+ID: 43		| Type: 56		| Pos: (-50.99, 1.99, 7.70)
+ID: 44		| Type: 128		| Pos: (-50.96, 1.54, 8.49)
+ID: 45		| Type: 0		| Pos: (-53.22, 1.13, 6.47)
+ID: 46		| Type: 56		| Pos: (-41.45, 1.12, 10.89)
+ID: 47		| Type: 128		| Pos: (-27.71, 3.39, 6.35)
+ID: 48		| Type: 0		| Pos: (-49.78, 0.28, 6.57)
+ID: 49		| Type: 56		| Pos: (-46.59, 0.28, 6.72)
+ID: 50		| Type: 128		| Pos: (-51.09, 1.86, 12.39)
+ID: 51		| Type: 0		| Pos: (-45.38, 1.86, 12.39)
+ID: 52		| Type: 56		| Pos: (-50.53, 1.86, 12.39)
+ID: 53		| Type: 128		| Pos: (-49.94, 3.91, 12.37)
+ID: 54		| Type: 0		| Pos: (-49.94, 4.90, 12.37)
+ID: 55		| Type: 56		| Pos: (-49.94, 6.40, 12.37)
+ID: 56		| Type: 128		| Pos: (-49.94, 4.40, 12.37)
+ID: 57		| Type: 0		| Pos: (-49.94, 5.90, 12.37)
+ID: 58		| Type: 56		| Pos: (-49.94, 5.40, 12.37)
+ID: 59		| Type: 128		| Pos: (-49.94, 6.90, 12.37)
+ID: 60		| Type: 0		| Pos: (-46.27, 3.91, 12.39)
+ID: 61		| Type: 56		| Pos: (-46.27, 4.90, 12.39)
+ID: 62		| Type: 128		| Pos: (-46.27, 6.40, 12.39)
+ID: 63		| Type: 0		| Pos: (-46.27, 4.40, 12.39)
+ID: 64		| Type: 56		| Pos: (-46.27, 5.90, 12.39)
+ID: 65		| Type: 128		| Pos: (-46.27, 5.40, 12.39)
+ID: 66		| Type: 0		| Pos: (-46.27, 6.90, 12.39)
+ID: 67		| Type: 56		| Pos: (-44.81, 1.86, 12.39)
+ID: 68		| Type: 128		| Pos: (-48.16, 0.56, 5.75)
+ID: 69		| Type: 0		| Pos: (-48.16, 0.56, 5.46)
+ID: 70		| Type: 56		| Pos: (-48.16, 0.56, 5.19)
+ID: 71		| Type: 128		| Pos: (-48.16, 0.56, 4.95)
+ID: 72		| Type: 0		| Pos: (-51.32, 0.75, 6.66)
+ID: 73		| Type: 56		| Pos: (-50.27, 0.96, 6.70)
+ID: 74		| Type: 128		| Pos: (-38.23, 1.29, 2.28)
+ID: 75		| Type: 0		| Pos: (-41.53, 0.76, 4.40)
+ID: 76		| Type: 56		| Pos: (-41.70, 0.92, 2.24)
+ID: 77		| Type: 128		| Pos: (-38.20, 1.18, 4.35)
+ID: 78		| Type: 0		| Pos: (-44.66, 0.90, 2.19)
+ID: 79		| Type: 56		| Pos: (-43.80, 1.61, 2.14)
+ID: 80		| Type: 128		| Pos: (-38.18, 1.93, 4.35)
+ID: 81		| Type: 0		| Pos: (-50.27, 1.66, 6.70)
+ID: 82		| Type: 56		| Pos: (-38.31, 1.98, 2.28)
+ID: 83		| Type: 128		| Pos: (-41.55, 1.76, 4.40)
+ID: 84		| Type: 0		| Pos: (-41.63, 1.92, 2.24)
+ID: 85		| Type: 56		| Pos: (-41.55, 1.41, 4.50)
+ID: 86		| Type: 128		| Pos: (-41.64, 1.57, 2.14)
+ID: 87		| Type: 0		| Pos: (-38.25, 1.43, 2.24)
+ID: 88		| Type: 56		| Pos: (5.07, 8.04, 6.35)
+ID: 89		| Type: 128		| Pos: (5.07, 8.04, 4.56)
+ID: 90		| Type: 0		| Pos: (6.98, 9.24, 10.38)
+ID: 91		| Type: 56		| Pos: (10.05, 8.97, 3.53)
+ID: 92		| Type: 128		| Pos: (1.46, 9.82, 5.92)
+ID: 93		| Type: 0		| Pos: (14.52, 9.05, 3.07)
+ID: 94		| Type: 56		| Pos: (2.37, 9.48, 6.35)
+ID: 95		| Type: 128		| Pos: (19.52, 9.06, 11.74)
+ID: 96		| Type: 0		| Pos: (9.23, 9.24, 10.38)
+ID: 97		| Type: 56		| Pos: (13.76, 9.24, 10.38)
+ID: 98		| Type: 128		| Pos: (14.16, 9.24, 15.91)
+ID: 99		| Type: 0		| Pos: (13.85, 9.24, 11.83)
+ID: 100		| Type: 56		| Pos: (14.13, 9.24, 14.46)
+ID: 101		| Type: 128		| Pos: (8.97, 8.04, 6.35)
+ID: 102		| Type: 0		| Pos: (21.54, 4.67, 6.35)
+ID: 103		| Type: 56		| Pos: (24.35, 4.64, 6.35)
+ID: 104		| Type: 128		| Pos: (27.16, 4.64, 6.35)
+ID: 105		| Type: 0		| Pos: (27.77, 1.52, 6.35)
+ID: 106		| Type: 20		| Pos: (29.92, 4.64, 6.35)
+ID: 107		| Type: 16		| Pos: (34.56, 1.19, 6.35)
+ID: 108		| Type: 0		| Pos: (34.55, 4.00, 6.35)
+ID: 109		| Type: 20		| Pos: (22.70, 9.46, 17.84)
+ID: 110		| Type: 16		| Pos: (24.77, 9.55, 14.44)
+ID: 111		| Type: 0		| Pos: (29.14, 9.69, 15.69)
+ID: 112		| Type: 20		| Pos: (25.07, 9.46, 16.85)
+ID: 113		| Type: 16		| Pos: (28.41, 9.12, 16.90)
+ID: 114		| Type: 0		| Pos: (25.88, 9.61, 15.18)
+ID: 115		| Type: 235		| Pos: (24.02, 9.54, 15.70)
+ID: 116		| Type: 128		| Pos: (29.34, 4.29, 6.38)
+ID: 117		| Type: 0		| Pos: (32.22, 4.28, 6.38)
+ID: 118		| Type: 235		| Pos: (35.11, 4.61, 6.38)
+ID: 119		| Type: 128		| Pos: (26.49, 4.67, 6.35)
+ID: 120		| Type: 0		| Pos: (7.02, 9.46, 6.35)
+ID: 121		| Type: 235		| Pos: (5.54, 9.46, 6.35)
+ID: 122		| Type: 128		| Pos: (0.51, 10.50, 6.35)
+ID: 123		| Type: 0		| Pos: (-0.72, 9.31, 6.34)
+ID: 124		| Type: 235		| Pos: (-0.65, 9.55, 6.34)
+ID: 125		| Type: 128		| Pos: (-0.76, 9.75, 6.33)
+ID: 126		| Type: 0		| Pos: (-2.13, 9.22, 6.33)
+ID: 127		| Type: 235		| Pos: (-1.39, 9.25, 6.34)
+ID: 128		| Type: 128		| Pos: (8.50, 9.46, 4.55)
+ID: 129		| Type: 0		| Pos: (7.03, 9.46, 4.55)
+ID: 130		| Type: 235		| Pos: (19.06, 8.13, 14.92)
+ID: 131		| Type: 128		| Pos: (17.70, 8.18, 14.61)
+ID: 132		| Type: 0		| Pos: (18.99, 8.25, 13.59)
+ID: 133		| Type: 235		| Pos: (16.31, 8.09, 11.72)
+ID: 134		| Type: 128		| Pos: (20.03, 8.09, 9.38)
+ID: 135		| Type: 0		| Pos: (17.66, 8.09, 4.03)
+ID: 136		| Type: 235		| Pos: (19.30, 8.18, 8.54)
+ID: 137		| Type: 128		| Pos: (16.44, 8.17, 3.85)
+ID: 138		| Type: 0		| Pos: (17.50, 8.15, 2.25)
+ID: 139		| Type: 235		| Pos: (15.23, 8.74, 9.63)
+ID: 140		| Type: 128		| Pos: (14.91, 8.90, 10.95)
+ID: 141		| Type: 0		| Pos: (17.27, 8.23, 15.48)
+ID: 142		| Type: 235		| Pos: (8.70, 8.60, 8.96)
+ID: 143		| Type: 128		| Pos: (4.38, 8.10, 3.32)
+ID: 144		| Type: 0		| Pos: (46.46, 1.92, 6.35)
+ID: 145		| Type: 40		| Pos: (71.62, 1.92, 6.34)
+ID: 146		| Type: 128		| Pos: (40.23, 0.32, 6.35)
+ID: 147		| Type: 0		| Pos: (40.85, 0.32, 5.16)
+ID: 148		| Type: 40		| Pos: (40.41, 0.32, 4.71)
+ID: 149		| Type: 128		| Pos: (52.44, 4.31, 6.35)
+ID: 150		| Type: 0		| Pos: (50.47, 0.12, 6.35)
+ID: 151		| Type: 40		| Pos: (55.66, 1.53, 6.34)
+ID: 152		| Type: 128		| Pos: (55.66, 0.35, 6.34)
+ID: 153		| Type: 0		| Pos: (55.65, 0.94, 6.34)
+ID: 154		| Type: 40		| Pos: (62.94, 1.93, 6.35)
+ID: 155		| Type: 128		| Pos: (67.47, 0.17, 6.35)
+ID: 156		| Type: 0		| Pos: (65.70, 4.30, 6.34)
+ID: 157		| Type: 40		| Pos: (76.51, 0.31, 6.35)
+ID: 158		| Type: 128		| Pos: (86.78, 4.92, 6.35)
+ID: 159		| Type: 0		| Pos: (110.03, 8.70, 6.35)
+ID: 160		| Type: 40		| Pos: (115.96, 7.20, 4.36)
+ID: 161		| Type: 128		| Pos: (118.10, 7.20, 4.36)
+ID: 162		| Type: 0		| Pos: (117.33, 7.27, 6.35)
+ID: 163		| Type: 40		| Pos: (141.80, 8.18, 6.35)
+ID: 164		| Type: 128		| Pos: (155.58, 12.61, 6.35)
+ID: 165		| Type: 0		| Pos: (145.58, 0.52, 6.35)
+ID: 166		| Type: 40		| Pos: (169.80, 8.05, 6.34)
+ID: 167		| Type: 128		| Pos: (140.86, 0.15, 6.38)
+ID: 168		| Type: 0		| Pos: (83.61, 3.03, 6.35)
+ID: 169		| Type: 40		| Pos: (84.89, 1.38, 6.35)
+ID: 170		| Type: 128		| Pos: (106.54, 7.59, 6.35)
+ID: 171		| Type: 0		| Pos: (106.51, 1.91, 6.40)
+ID: 172		| Type: 40		| Pos: (102.06, 1.82, 6.40)
+ID: 173		| Type: 128		| Pos: (120.63, 1.87, 6.35)
+ID: 174		| Type: 0		| Pos: (111.84, 0.29, 6.33)
+ID: 175		| Type: 40		| Pos: (115.29, 1.63, 6.29)
+ID: 176		| Type: 128		| Pos: (113.65, 7.58, 6.35)
+ID: 177		| Type: 0		| Pos: (138.28, 7.16, 6.35)
+ID: 178		| Type: 40		| Pos: (151.94, 11.76, 6.35)
+ID: 179		| Type: 128		| Pos: (153.72, 11.61, 4.58)
+ID: 180		| Type: 0		| Pos: (150.44, 11.64, 4.58)
+ID: 181		| Type: 40		| Pos: (166.08, 15.65, 6.35)
+ID: 182		| Type: 128		| Pos: (169.43, 16.60, 6.35)
+ID: 183		| Type: 0		| Pos: (177.12, 16.30, 4.56)
+ID: 184		| Type: 40		| Pos: (179.18, 16.30, 3.90)
+ID: 185		| Type: 128		| Pos: (179.57, 17.92, 8.09)
+ID: 186		| Type: 0		| Pos: (182.77, 17.92, 8.09)
+ID: 187		| Type: 40		| Pos: (174.40, 16.30, 3.01)
+ID: 188		| Type: 128		| Pos: (176.18, 16.83, 4.11)
+ID: 189		| Type: 0		| Pos: (175.60, 16.83, 8.52)
+ID: 190		| Type: 40		| Pos: (175.63, 18.66, 8.60)
+ID: 191		| Type: 128		| Pos: (145.43, 4.12, 6.35)
+ID: 192		| Type: 0		| Pos: (170.38, 11.45, 6.35)
+ID: 193		| Type: 40		| Pos: (165.43, 9.46, 6.33)
+ID: 194		| Type: 128		| Pos: (160.81, 8.42, 6.35)
+ID: 195		| Type: 0		| Pos: (159.84, 8.38, 6.44)
+ID: 196		| Type: 40		| Pos: (150.70, 8.61, 6.35)
+ID: 197		| Type: 128		| Pos: (147.59, 8.80, 6.35)
+ID: 198		| Type: 0		| Pos: (140.71, 2.37, 6.38)
+ID: 199		| Type: 40		| Pos: (135.37, 0.76, 6.37)
+ID: 200		| Type: 128		| Pos: (80.45, 1.14, 6.35)
+ID: 201		| Type: 0		| Pos: (102.90, 7.49, 6.35)
+ID: 202		| Type: 40		| Pos: (106.27, 5.57, 6.40)
+ID: 203		| Type: 128		| Pos: (102.77, 5.42, 6.40)
+ID: 204		| Type: 0		| Pos: (119.66, 5.41, 6.35)
+ID: 205		| Type: 24		| Pos: (111.81, 4.01, 6.33)
+ID: 206		| Type: 128		| Pos: (111.73, 7.65, 6.35)
+ID: 207		| Type: 0		| Pos: (115.79, 5.09, 2.80)
+ID: 208		| Type: 24		| Pos: (115.80, 1.43, 2.80)
+ID: 209		| Type: 128		| Pos: (118.00, 5.09, 2.80)
+ID: 210		| Type: 0		| Pos: (118.02, 1.43, 2.80)
+ID: 211		| Type: 24		| Pos: (115.46, 5.13, 6.29)
+ID: 212		| Type: 128		| Pos: (100.91, 7.73, 5.19)
+ID: 213		| Type: 0		| Pos: (123.14, 7.69, 6.35)
+ID: 214		| Type: 24		| Pos: (134.74, 6.16, 6.35)
+ID: 215		| Type: 128		| Pos: (147.89, 12.11, 6.35)
+ID: 216		| Type: 0		| Pos: (149.75, 12.13, 6.35)
+ID: 217		| Type: 42		| Pos: (162.64, 14.30, 6.35)
+ID: 218		| Type: 128		| Pos: (145.31, 7.80, 6.35)
+ID: 219		| Type: 0		| Pos: (171.00, 15.06, 6.35)
+ID: 220		| Type: 24		| Pos: (164.72, 13.06, 6.35)
+ID: 221		| Type: 128		| Pos: (165.86, 16.30, 11.67)
+ID: 222		| Type: 0		| Pos: (184.81, 16.29, 8.69)
+ID: 223		| Type: 24		| Pos: (184.81, 17.34, 8.69)
+ID: 224		| Type: 128		| Pos: (184.81, 18.34, 8.69)
+ID: 225		| Type: 0		| Pos: (184.81, 19.41, 8.69)
+ID: 226		| Type: 24		| Pos: (165.88, 17.37, 11.73)
+ID: 227		| Type: 128		| Pos: (165.87, 18.47, 11.76)
+ID: 228		| Type: 0		| Pos: (165.87, 19.56, 11.82)
+ID: 229		| Type: 24		| Pos: (173.78, 16.30, 8.54)
+ID: 230		| Type: 128		| Pos: (192.72, 16.29, 5.55)
+ID: 231		| Type: 0		| Pos: (192.72, 17.34, 5.55)
+ID: 232		| Type: 24		| Pos: (192.72, 18.34, 5.55)
+ID: 233		| Type: 128		| Pos: (192.72, 19.41, 5.55)
+ID: 234		| Type: 0		| Pos: (173.79, 17.37, 8.60)
+ID: 235		| Type: 24		| Pos: (173.78, 18.47, 8.63)
+ID: 236		| Type: 128		| Pos: (173.78, 19.56, 8.69)
+ID: 237		| Type: 0		| Pos: (165.88, 16.86, 11.67)
+ID: 238		| Type: 24		| Pos: (184.83, 16.84, 8.69)
+ID: 239		| Type: 128		| Pos: (184.83, 17.89, 8.69)
+ID: 240		| Type: 0		| Pos: (184.83, 18.89, 8.69)
+ID: 241		| Type: 24		| Pos: (184.83, 19.96, 8.69)
+ID: 242		| Type: 128		| Pos: (165.89, 17.92, 11.73)
+ID: 243		| Type: 0		| Pos: (165.89, 19.02, 11.76)
+ID: 244		| Type: 24		| Pos: (165.89, 20.11, 11.82)
+ID: 245		| Type: 128		| Pos: (171.67, 16.30, 10.18)
+ID: 246		| Type: 0		| Pos: (190.62, 16.29, 7.19)
+ID: 247		| Type: 24		| Pos: (190.62, 17.34, 7.19)
+ID: 248		| Type: 128		| Pos: (190.62, 18.34, 7.19)
+ID: 249		| Type: 0		| Pos: (190.62, 19.41, 7.19)
+ID: 250		| Type: 24		| Pos: (171.69, 17.37, 10.23)
+ID: 251		| Type: 128		| Pos: (171.68, 18.47, 10.27)
+ID: 252		| Type: 0		| Pos: (171.68, 19.56, 10.33)
+ID: 253		| Type: 24		| Pos: (171.71, 16.86, 10.13)
+ID: 254		| Type: 128		| Pos: (190.65, 16.84, 7.14)
+ID: 255		| Type: 0		| Pos: (190.65, 17.89, 7.14)
+ID: 256		| Type: 24		| Pos: (190.65, 18.89, 7.14)
+ID: 257		| Type: 128		| Pos: (190.65, 19.96, 7.14)
+ID: 258		| Type: 0		| Pos: (171.72, 17.92, 10.18)
+ID: 259		| Type: 24		| Pos: (171.71, 19.02, 10.22)
+ID: 260		| Type: 128		| Pos: (171.71, 20.11, 10.28)
+ID: 261		| Type: 0		| Pos: (169.55, 16.30, 11.74)
+ID: 262		| Type: 24		| Pos: (188.50, 16.29, 8.76)
+ID: 263		| Type: 128		| Pos: (188.50, 17.34, 8.76)
+ID: 264		| Type: 0		| Pos: (188.50, 18.34, 8.76)
+ID: 265		| Type: 53		| Pos: (188.50, 19.41, 8.76)
+ID: 266		| Type: 128		| Pos: (169.57, 17.37, 11.80)
+ID: 267		| Type: 0		| Pos: (169.57, 18.47, 11.83)
+ID: 268		| Type: 53		| Pos: (169.57, 19.56, 11.89)
+ID: 269		| Type: 128		| Pos: (177.45, 16.30, 8.55)
+ID: 270		| Type: 0		| Pos: (179.57, 17.91, 8.62)
+ID: 271		| Type: 53		| Pos: (182.70, 17.91, 8.62)
+ID: 272		| Type: 128		| Pos: (181.14, 20.03, 8.71)
+ID: 273		| Type: 0		| Pos: (181.17, 20.03, 8.16)
+ID: 274		| Type: 53		| Pos: (196.39, 16.29, 5.57)
+ID: 275		| Type: 128		| Pos: (196.39, 17.34, 5.57)
+ID: 276		| Type: 0		| Pos: (196.39, 18.34, 5.57)
+ID: 277		| Type: 53		| Pos: (196.39, 19.41, 5.57)
+ID: 278		| Type: 128		| Pos: (177.46, 17.37, 8.61)
+ID: 279		| Type: 0		| Pos: (177.46, 18.47, 8.64)
+ID: 280		| Type: 53		| Pos: (177.46, 19.56, 8.71)
+ID: 281		| Type: 128		| Pos: (169.57, 16.86, 11.74)
+ID: 282		| Type: 0		| Pos: (188.51, 16.84, 8.76)
+ID: 283		| Type: 53		| Pos: (188.51, 17.89, 8.76)
+ID: 284		| Type: 128		| Pos: (188.51, 18.89, 8.76)
+ID: 285		| Type: 0		| Pos: (188.51, 19.96, 8.76)
+ID: 286		| Type: 53		| Pos: (169.58, 17.92, 11.80)
+ID: 287		| Type: 128		| Pos: (169.57, 19.02, 11.83)
+ID: 288		| Type: 0		| Pos: (169.57, 20.11, 11.89)
+ID: 289		| Type: 53		| Pos: (177.45, 16.86, 8.64)
+ID: 290		| Type: 128		| Pos: (196.39, 16.84, 5.65)
+ID: 291		| Type: 0		| Pos: (196.39, 17.89, 5.65)
+ID: 292		| Type: 53		| Pos: (196.39, 18.89, 5.65)
+ID: 293		| Type: 128		| Pos: (196.39, 19.96, 5.65)
+ID: 294		| Type: 0		| Pos: (177.46, 17.92, 8.70)
+ID: 295		| Type: 53		| Pos: (177.46, 19.02, 8.73)
+ID: 296		| Type: 128		| Pos: (177.46, 20.11, 8.79)
+ID: 297		| Type: 0		| Pos: (173.78, 16.86, 8.57)
+ID: 298		| Type: 53		| Pos: (192.74, 16.84, 5.58)
+ID: 299		| Type: 128		| Pos: (192.74, 17.89, 5.58)
+ID: 300		| Type: 0		| Pos: (192.74, 18.89, 5.58)
+ID: 301		| Type: 53		| Pos: (192.74, 19.96, 5.58)
+ID: 302		| Type: 128		| Pos: (173.80, 17.92, 8.63)
+ID: 303		| Type: 0		| Pos: (173.80, 19.02, 8.66)
+ID: 304		| Type: 53		| Pos: (173.80, 20.11, 8.72)
+ID: 305		| Type: 128		| Pos: (160.83, 12.08, 6.35)
+ID: 306		| Type: 0		| Pos: (154.00, 9.91, 6.43)
+ID: 307		| Type: 42		| Pos: (153.92, 9.80, 2.94)
+ID: 308		| Type: 128		| Pos: (150.62, 9.83, 3.06)
+ID: 309		| Type: 0		| Pos: (158.10, 11.56, 6.42)
+ID: 310		| Type: 42		| Pos: (140.60, 6.04, 6.38)
+ID: 311		| Type: 128		| Pos: (135.23, 4.46, 6.37)
+ID: 312		| Type: 0		| Pos: (89.67, 7.26, 6.35)
+ID: 313		| Type: 42		| Pos: (121.01, 7.51, 6.35)
+ID: 314		| Type: 128		| Pos: (145.14, 9.69, 6.35)
+ID: 315		| Type: 0		| Pos: (159.04, 13.59, 6.35)
+ID: 316		| Type: 42		| Pos: (76.52, 0.38, 3.96)
+ID: 317		| Type: 128		| Pos: (77.08, 0.38, 3.96)
+ID: 318		| Type: 0		| Pos: (78.62, 0.33, 5.04)
+ID: 319		| Type: 42		| Pos: (22.15, 6.01, 6.38)
+ID: 320		| Type: 128		| Pos: (36.56, 0.87, 6.75)
+ID: 321		| Type: 0		| Pos: (38.63, 8.20, 14.38)
+ID: 322		| Type: 42		| Pos: (36.94, 8.37, 14.34)
+ID: 323		| Type: 128		| Pos: (37.59, 8.46, 17.49)
+ID: 324		| Type: 0		| Pos: (37.49, 8.40, 12.60)
+ID: 325		| Type: 42		| Pos: (32.09, 8.67, 14.02)
+ID: 326		| Type: 128		| Pos: (36.21, 9.29, 16.08)
+ID: 327		| Type: 0		| Pos: (39.84, 11.30, 17.83)
+ID: 328		| Type: 42		| Pos: (37.98, 11.59, 18.47)
+ID: 329		| Type: 128		| Pos: (32.12, 9.47, 15.81)
+ID: 330		| Type: 0		| Pos: (41.00, 9.20, 12.83)
+ID: 331		| Type: 42		| Pos: (39.36, 9.59, 12.90)
+ID: 332		| Type: 128		| Pos: (76.77, 1.73, 4.72)
+ID: 333		| Type: 0		| Pos: (59.13, 6.53, 4.24)
+ID: 334		| Type: 42		| Pos: (127.94, 10.45, 4.65)
+ID: 335		| Type: 128		| Pos: (117.07, 8.57, 4.04)
+ID: 336		| Type: 0		| Pos: (96.13, 10.41, 4.48)
+ID: 337		| Type: 42		| Pos: (108.13, 10.44, -1.32)
+ID: 338		| Type: 128		| Pos: (152.12, 12.98, 4.49)
+ID: 339		| Type: 0		| Pos: (173.92, 17.06, 4.47)
+ID: 340		| Type: 42		| Pos: (117.54, 7.48, 4.35)
+ID: 341		| Type: 128		| Pos: (117.38, 7.48, 4.06)
+ID: 342		| Type: 0		| Pos: (117.42, 7.48, 3.73)
+ID: 343		| Type: 42		| Pos: (60.85, 3.65, 4.11)
+ID: 344		| Type: 128		| Pos: (81.42, 1.79, 13.73)
+ID: 345		| Type: 0		| Pos: (70.67, 1.79, 12.30)
+ID: 346		| Type: 42		| Pos: (77.09, 1.77, 31.55)
+ID: 347		| Type: 128		| Pos: (94.10, 1.77, 40.61)
+ID: 348		| Type: 0		| Pos: (80.34, 5.31, 41.17)
+ID: 349		| Type: 152		| Pos: (76.06, 1.63, 41.17)
+ID: 350		| Type: 128		| Pos: (68.09, 1.77, 31.55)
+ID: 351		| Type: 0		| Pos: (69.21, 1.77, 24.95)
+ID: 352		| Type: 152		| Pos: (67.93, 5.38, 24.95)
+ID: 353		| Type: 128		| Pos: (67.50, 8.88, 24.95)
+ID: 354		| Type: 0		| Pos: (85.10, 1.77, 40.61)
+ID: 355		| Type: 152		| Pos: (71.34, 5.31, 41.17)
+ID: 356		| Type: 128		| Pos: (81.29, 5.38, 15.29)
+ID: 357		| Type: 0		| Pos: (72.34, 5.43, 31.55)
+ID: 358		| Type: 152		| Pos: (89.35, 5.43, 40.61)
+ID: 359		| Type: 128		| Pos: (75.59, 8.97, 41.18)
+ID: 360		| Type: 0		| Pos: (57.27, 3.65, 5.31)
+ID: 361		| Type: 66		| Pos: (118.81, 1.37, 9.47)
+ID: 362		| Type: 128		| Pos: (118.85, 1.37, 1.58)
+ID: 363		| Type: 0		| Pos: (87.22, 1.29, 3.52)
+ID: 364		| Type: 66		| Pos: (111.23, 1.37, 15.86)
+ID: 365		| Type: 128		| Pos: (104.10, 1.37, 8.55)
+ID: 366		| Type: 0		| Pos: (137.21, 1.35, 11.99)
+ID: 367		| Type: 66		| Pos: (137.23, 1.35, 13.85)
+ID: 368		| Type: 128		| Pos: (137.23, 1.35, 15.72)
+ID: 369		| Type: 0		| Pos: (141.05, 1.35, 15.71)
+ID: 370		| Type: 66		| Pos: (140.77, 1.36, 13.75)
+ID: 371		| Type: 128		| Pos: (144.32, 1.36, 13.75)
+ID: 372		| Type: 0		| Pos: (140.74, 1.35, 11.99)
+ID: 373		| Type: 66		| Pos: (143.49, 1.34, 11.12)
+ID: 374		| Type: 128		| Pos: (143.57, 1.34, 4.25)
+ID: 375		| Type: 0		| Pos: (143.55, 1.34, 7.92)
+ID: 376		| Type: 66		| Pos: (118.81, 4.16, 9.47)
+ID: 377		| Type: 128		| Pos: (118.85, 4.16, 1.58)
+ID: 378		| Type: 0		| Pos: (87.22, 4.08, 3.52)
+ID: 379		| Type: 66		| Pos: (112.03, 1.27, 11.29)
+ID: 380		| Type: 128		| Pos: (104.95, 1.27, 3.17)
+ID: 381		| Type: 0		| Pos: (113.42, 1.31, 0.64)
+ID: 382		| Type: 66		| Pos: (81.81, 1.23, 2.68)
+ID: 383		| Type: 128		| Pos: (51.88, 1.04, 6.77)
+ID: 384		| Type: 0		| Pos: (35.31, 0.87, 1.83)
+ID: 385		| Type: 66		| Pos: (137.93, 1.35, 7.25)
+ID: 386		| Type: 128		| Pos: (138.81, 1.35, 2.46)
+ID: 387		| Type: 0		| Pos: (113.36, 1.27, 8.65)
+ID: 388		| Type: 66		| Pos: (111.23, 4.16, 15.86)
+ID: 389		| Type: 128		| Pos: (104.10, 4.16, 8.55)
+ID: 390		| Type: 0		| Pos: (137.21, 4.14, 11.99)
+ID: 391		| Type: 66		| Pos: (137.23, 4.14, 13.85)
+ID: 392		| Type: 128		| Pos: (137.23, 4.14, 15.72)
+ID: 393		| Type: 0		| Pos: (141.05, 4.14, 15.71)
+ID: 394		| Type: 66		| Pos: (140.77, 4.16, 13.75)
+ID: 395		| Type: 128		| Pos: (144.32, 4.16, 13.75)
+ID: 396		| Type: 0		| Pos: (140.74, 4.15, 11.99)
+ID: 397		| Type: 66		| Pos: (143.49, 4.13, 11.12)
+ID: 398		| Type: 128		| Pos: (143.57, 4.13, 4.25)
+ID: 399		| Type: 0		| Pos: (143.55, 4.13, 7.92)
+ID: 400		| Type: 66		| Pos: (118.85, 5.47, 9.44)
+ID: 401		| Type: 128		| Pos: (118.89, 5.47, 1.55)
+ID: 402		| Type: 0		| Pos: (87.26, 5.39, 3.48)
+ID: 403		| Type: 66		| Pos: (112.06, 2.58, 11.25)
+ID: 404		| Type: 128		| Pos: (104.99, 2.57, 3.13)
+ID: 405		| Type: 0		| Pos: (113.38, 2.62, 0.60)
+ID: 406		| Type: 66		| Pos: (81.77, 2.54, 2.64)
+ID: 407		| Type: 128		| Pos: (51.84, 2.34, 6.73)
+ID: 408		| Type: 0		| Pos: (35.35, 2.18, 1.80)
+ID: 409		| Type: 66		| Pos: (137.97, 2.66, 7.22)
+ID: 410		| Type: 128		| Pos: (138.78, 2.66, 2.42)
+ID: 411		| Type: 0		| Pos: (113.33, 2.58, 8.62)
+ID: 412		| Type: 66		| Pos: (111.22, 5.45, 15.82)
+ID: 413		| Type: 128		| Pos: (104.15, 5.45, 8.54)
+ID: 414		| Type: 0		| Pos: (137.21, 5.43, 11.95)
+ID: 415		| Type: 66		| Pos: (137.22, 5.43, 13.81)
+ID: 416		| Type: 128		| Pos: (137.22, 5.43, 15.68)
+ID: 417		| Type: 0		| Pos: (141.03, 5.43, 15.68)
+ID: 418		| Type: 66		| Pos: (140.78, 5.44, 13.79)
+ID: 419		| Type: 128		| Pos: (144.34, 5.44, 13.79)
+ID: 420		| Type: 0		| Pos: (140.74, 5.43, 11.95)
+ID: 421		| Type: 66		| Pos: (143.46, 5.42, 11.13)
+ID: 422		| Type: 128		| Pos: (143.53, 5.42, 4.26)
+ID: 423		| Type: 0		| Pos: (143.51, 5.42, 7.93)
+ID: 424		| Type: 66		| Pos: (111.24, 4.27, 13.41)
+ID: 425		| Type: 128		| Pos: (104.16, 4.27, 5.29)
+ID: 426		| Type: 0		| Pos: (115.54, 4.31, 1.43)
+ID: 427		| Type: 66		| Pos: (83.94, 4.23, 3.46)
+ID: 428		| Type: 128		| Pos: (54.00, 4.04, 7.56)
+ID: 429		| Type: 0		| Pos: (34.52, 3.87, 3.96)
+ID: 430		| Type: 66		| Pos: (137.14, 4.35, 9.38)
+ID: 431		| Type: 128		| Pos: (140.94, 4.35, 3.24)
+ID: 432		| Type: 0		| Pos: (115.49, 4.27, 9.44)
+ID: 433		| Type: 38		| Pos: (111.22, 6.68, 17.75)
+ID: 434		| Type: 128		| Pos: (102.21, 6.68, 8.13)
+ID: 435		| Type: 0		| Pos: (134.21, 6.69, 11.97)
+ID: 436		| Type: 38		| Pos: (145.71, 6.75, 10.46)
+ID: 437		| Type: 128		| Pos: (145.69, 6.75, 4.16)
+ID: 438		| Type: 0		| Pos: (121.76, 6.67, 9.48)
+ID: 439		| Type: 38		| Pos: (122.08, 6.67, 1.63)
+ID: 440		| Type: 128		| Pos: (89.85, 6.64, 3.38)
+ID: 441		| Type: 0		| Pos: (115.42, 1.39, 11.24)
+ID: 442		| Type: 38		| Pos: (108.34, 1.38, 3.12)
+ID: 443		| Type: 128		| Pos: (113.37, 1.42, -2.75)
+ID: 444		| Type: 0		| Pos: (81.77, 1.35, -0.71)
+ID: 445		| Type: 38		| Pos: (51.84, 1.15, 3.38)
+ID: 446		| Type: 128		| Pos: (38.70, 0.98, 1.79)
+ID: 447		| Type: 0		| Pos: (141.32, 1.46, 7.21)
+ID: 448		| Type: 38		| Pos: (138.78, 1.46, -0.94)
+ID: 449		| Type: 128		| Pos: (113.31, 1.39, 5.26)
+ID: 450		| Type: 0		| Pos: (152.16, 11.91, 4.82)
+ID: 451		| Type: 38		| Pos: (152.20, 11.91, 4.50)
+ID: 452		| Type: 128		| Pos: (152.02, 11.91, 4.19)
+ID: 453		| Type: 0		| Pos: (128.00, 8.73, 6.35)
+ID: 454		| Type: 38		| Pos: (128.00, 8.73, 4.50)
+ID: 455		| Type: 128		| Pos: (126.08, 9.07, 6.35)
+ID: 456		| Type: 0		| Pos: (131.63, 8.46, 6.35)
+ID: 457		| Type: 38		| Pos: (124.35, 8.40, 6.35)
+ID: 458		| Type: 128		| Pos: (129.89, 9.11, 6.35)
+ID: 459		| Type: 0		| Pos: (126.28, 8.54, 5.99)
+ID: 460		| Type: 38		| Pos: (124.67, 8.55, 16.21)
+ID: 461		| Type: 128		| Pos: (124.52, 10.55, 19.12)
+ID: 462		| Type: 0		| Pos: (124.67, 8.55, 14.64)
+ID: 463		| Type: 38		| Pos: (126.31, 8.54, 15.39)
+ID: 464		| Type: 128		| Pos: (131.27, 8.50, 9.30)
+ID: 465		| Type: 0		| Pos: (124.53, 8.55, 13.28)
+ID: 466		| Type: 38		| Pos: (123.96, 8.55, 11.97)
+ID: 467		| Type: 128		| Pos: (124.20, 9.54, 12.51)
+ID: 468		| Type: 0		| Pos: (130.01, 8.56, 16.58)
+ID: 469		| Type: 38		| Pos: (137.51, 6.19, 13.35)
+ID: 470		| Type: 128		| Pos: (139.42, 6.19, 15.53)
+ID: 471		| Type: 0		| Pos: (142.42, 6.19, 12.44)
+ID: 472		| Type: 40		| Pos: (126.99, 8.54, 9.42)
+ID: 473		| Type: 128		| Pos: (125.78, 8.56, 19.42)
+ID: 474		| Type: 0		| Pos: (130.25, 8.56, 3.72)
+ID: 475		| Type: 40		| Pos: (125.11, 8.56, 22.42)
+ID: 476		| Type: 128		| Pos: (130.38, 8.56, 22.32)
+ID: 477		| Type: 0		| Pos: (126.97, 8.56, 34.27)
+ID: 478		| Type: 40		| Pos: (127.46, 8.56, 32.32)
+ID: 479		| Type: 0		| Pos: (130.74, 8.56, 14.84)
+ID: 480		| Type: 0		| Pos: (139.38, 6.19, 13.09)
+ID: 481		| Type: 40		| Pos: (137.56, 6.19, 15.79)
+ID: 482		| Type: 128		| Pos: (144.18, 6.19, 13.12)
+ID: 483		| Type: 0		| Pos: (125.77, 8.52, 8.88)
+ID: 484		| Type: 40		| Pos: (126.88, 8.56, 20.95)
+ID: 485		| Type: 128		| Pos: (128.96, 8.56, 2.33)
+ID: 486		| Type: 0		| Pos: (125.12, 8.56, 23.82)
+ID: 487		| Type: 40		| Pos: (130.25, 8.56, 23.72)
+ID: 488		| Type: 128		| Pos: (128.38, 8.56, 34.27)
+ID: 489		| Type: 0		| Pos: (128.87, 8.56, 32.32)
+ID: 490		| Type: 40		| Pos: (130.39, 9.55, 15.18)
+ID: 491		| Type: 128		| Pos: (138.91, 7.18, 12.97)
+ID: 492		| Type: 0		| Pos: (138.03, 7.18, 15.91)
+ID: 493		| Type: 40		| Pos: (143.82, 7.18, 12.79)
+ID: 494		| Type: 128		| Pos: (126.77, 9.55, 20.47)
+ID: 495		| Type: 0		| Pos: (129.13, 9.55, 2.79)
+ID: 496		| Type: 40		| Pos: (125.12, 9.55, 23.33)
+ID: 497		| Type: 128		| Pos: (130.30, 9.55, 23.23)
+ID: 498		| Type: 0		| Pos: (127.88, 9.55, 34.27)
+ID: 499		| Type: 40		| Pos: (128.38, 9.55, 32.32)
+ID: 500		| Type: 128		| Pos: (131.38, 9.55, 14.19)
+ID: 501		| Type: 0		| Pos: (140.27, 7.18, 13.32)
+ID: 502		| Type: 40		| Pos: (136.67, 7.18, 15.56)
+ID: 503		| Type: 128		| Pos: (144.85, 7.18, 13.75)
+ID: 504		| Type: 0		| Pos: (125.06, 9.51, 8.30)
+ID: 505		| Type: 40		| Pos: (127.10, 9.55, 21.84)
+ID: 506		| Type: 0		| Pos: (128.64, 9.55, 1.47)
+ID: 507		| Type: 0		| Pos: (125.13, 9.55, 24.74)
+ID: 508		| Type: 40		| Pos: (130.16, 9.55, 24.63)
+ID: 509		| Type: 0		| Pos: (129.29, 9.55, 34.28)
+ID: 510		| Type: 0		| Pos: (129.78, 9.55, 32.33)
+ID: 511		| Type: 40		| Pos: (131.11, 10.54, 14.46)
+ID: 512		| Type: 0		| Pos: (139.89, 8.17, 13.22)
+ID: 513		| Type: 0		| Pos: (137.04, 8.17, 15.66)
+ID: 514		| Type: 40		| Pos: (138.53, 8.16, 12.86)
+ID: 515		| Type: 0		| Pos: (139.24, 9.14, 13.02)
+ID: 516		| Type: 0		| Pos: (143.31, 6.14, 4.35)
+ID: 517		| Type: 40		| Pos: (139.71, 6.14, 11.80)
+ID: 518		| Type: 0		| Pos: (140.05, 7.16, 11.99)
+ID: 519		| Type: 0		| Pos: (144.56, 8.17, 13.48)
+ID: 520		| Type: 40		| Pos: (127.01, 10.54, 21.47)
+ID: 521		| Type: 0		| Pos: (128.78, 10.54, 1.84)
+ID: 522		| Type: 0		| Pos: (125.13, 10.54, 24.36)
+ID: 523		| Type: 40		| Pos: (130.20, 10.54, 24.25)
+ID: 524		| Type: 0		| Pos: (130.31, 10.54, 22.37)
+ID: 525		| Type: 0		| Pos: (130.32, 11.53, 23.22)
+ID: 526		| Type: 40		| Pos: (128.91, 10.54, 34.28)
+ID: 527		| Type: 0		| Pos: (129.40, 10.54, 32.33)
+ID: 528		| Type: 0		| Pos: (129.92, 8.56, 18.02)
+ID: 529		| Type: 40		| Pos: (136.22, 6.19, 14.00)
+ID: 530		| Type: 0		| Pos: (140.71, 6.19, 14.88)
+ID: 531		| Type: 0		| Pos: (140.97, 6.19, 12.40)
+ID: 532		| Type: 40		| Pos: (127.95, 8.54, 8.35)
+ID: 533		| Type: 0		| Pos: (124.60, 8.56, 18.59)
+ID: 534		| Type: 0		| Pos: (131.52, 8.56, 4.40)
+ID: 535		| Type: 40		| Pos: (125.10, 8.56, 20.97)
+ID: 536		| Type: 0		| Pos: (130.53, 8.56, 20.88)
+ID: 537		| Type: 0		| Pos: (125.53, 8.56, 34.26)
+ID: 538		| Type: 40		| Pos: (126.02, 8.56, 32.31)
+ID: 539		| Type: 0		| Pos: (129.96, 9.55, 17.43)
+ID: 540		| Type: 0		| Pos: (136.74, 7.18, 13.73)
+ID: 541		| Type: 40		| Pos: (140.19, 7.18, 15.15)
+ID: 542		| Type: 0		| Pos: (141.56, 7.18, 12.41)
+ID: 543		| Type: 0		| Pos: (127.56, 9.53, 8.79)
+ID: 544		| Type: 40		| Pos: (125.09, 9.55, 18.92)
+ID: 545		| Type: 0		| Pos: (131.00, 9.55, 4.12)
+ID: 546		| Type: 0		| Pos: (127.04, 11.53, 21.67)
+ID: 547		| Type: 40		| Pos: (130.47, 9.55, 21.47)
+ID: 548		| Type: 0		| Pos: (126.13, 9.55, 34.26)
+ID: 549		| Type: 0		| Pos: (128.94, 11.52, 34.18)
+ID: 550		| Type: 40		| Pos: (127.42, 10.51, 33.41)
+ID: 551		| Type: 0		| Pos: (131.76, 8.56, 13.80)
+ID: 552		| Type: 0		| Pos: (140.79, 6.19, 13.45)
+ID: 553		| Type: 40		| Pos: (136.14, 6.19, 15.43)
+ID: 554		| Type: 0		| Pos: (145.24, 6.19, 14.11)
+ID: 555		| Type: 0		| Pos: (124.63, 8.52, 7.97)
+ID: 556		| Type: 40		| Pos: (127.22, 8.56, 22.36)
+ID: 557		| Type: 0		| Pos: (128.46, 8.56, 0.97)
+ID: 558		| Type: 0		| Pos: (125.13, 8.56, 25.28)
+ID: 559		| Type: 40		| Pos: (130.11, 8.56, 25.16)
+ID: 560		| Type: 0		| Pos: (129.83, 8.56, 34.28)
+ID: 561		| Type: 0		| Pos: (130.32, 8.56, 32.33)
+ID: 562		| Type: 40		| Pos: (129.50, 8.54, 6.47)
+ID: 563		| Type: 0		| Pos: (93.70, 8.69, 6.35)
+ID: 564		| Type: 0		| Pos: (91.82, 8.05, 6.35)
+ID: 565		| Type: 40		| Pos: (91.69, 8.12, 6.35)
+ID: 566		| Type: 0		| Pos: (91.70, 8.21, 6.38)
+ID: 567		| Type: 0		| Pos: (98.48, 8.69, 6.35)
+ID: 568		| Type: 40		| Pos: (96.13, 9.21, 6.35)
+ID: 569		| Type: 0		| Pos: (96.10, 9.21, 4.26)
+ID: 570		| Type: 0		| Pos: (96.13, 9.16, 6.35)
+ID: 571		| Type: 40		| Pos: (96.10, 9.16, 4.26)
+ID: 572		| Type: 0		| Pos: (79.95, 12.26, 26.07)
+ID: 573		| Type: 0		| Pos: (173.89, 16.06, 6.83)
+ID: 574		| Type: 40		| Pos: (183.97, 16.55, 10.32)
+ID: 575		| Type: 0		| Pos: (182.60, 16.32, 18.45)
+ID: 576		| Type: 0		| Pos: (186.46, 17.65, 18.87)
+ID: 577		| Type: 40		| Pos: (185.45, 17.48, 15.98)
+ID: 578		| Type: 0		| Pos: (177.08, 16.52, 20.05)
+ID: 579		| Type: 0		| Pos: (186.72, 16.54, 11.17)
+ID: 580		| Type: 40		| Pos: (182.02, 16.52, 21.10)
+ID: 581		| Type: 0		| Pos: (184.66, 16.85, 12.97)
+ID: 582		| Type: 0		| Pos: (180.11, 16.52, 19.18)
+ID: 583		| Type: 40		| Pos: (183.97, 17.85, 19.60)
+ID: 584		| Type: 0		| Pos: (181.46, 18.12, 19.28)
+ID: 585		| Type: 0		| Pos: (183.78, 17.50, 18.65)
+ID: 586		| Type: 40		| Pos: (186.42, 17.57, 14.63)
+ID: 587		| Type: 0		| Pos: (178.37, 16.69, 21.19)
+ID: 588		| Type: 0		| Pos: (183.50, 17.10, 14.84)
+ID: 589		| Type: 40		| Pos: (178.19, 16.52, 18.11)
+ID: 590		| Type: 0		| Pos: (187.35, 16.47, 16.84)
+ID: 591		| Type: 0		| Pos: (176.48, 16.52, 21.64)
+ID: 592		| Type: 40		| Pos: (185.90, 18.01, 11.76)
+ID: 593		| Type: 0		| Pos: (181.05, 17.45, 20.78)
+ID: 594		| Type: 0		| Pos: (179.38, 16.64, 11.17)
+ID: 595		| Type: 40		| Pos: (184.03, 16.64, 18.42)
+ID: 596		| Type: 0		| Pos: (185.40, 17.03, 18.42)
+ID: 597		| Type: 0		| Pos: (174.81, 16.52, 18.43)
+ID: 598		| Type: 40		| Pos: (181.35, 16.04, 12.28)
+ID: 599		| Type: 0		| Pos: (181.35, 16.04, 5.51)
+ID: 600		| Type: 0		| Pos: (181.39, 16.04, -0.60)
+ID: 601		| Type: 40		| Pos: (179.17, 16.04, 16.14)
+ID: 602		| Type: 128		| Pos: (182.68, 17.38, 9.07)
+ID: 603		| Type: 0		| Pos: (179.54, 17.38, 8.85)
+ID: 604		| Type: 40		| Pos: (156.70, 11.72, 8.57)
+ID: 605		| Type: 128		| Pos: (156.69, 11.72, 1.09)
+ID: 606		| Type: 0		| Pos: (156.70, 19.02, 8.57)
+ID: 607		| Type: 40		| Pos: (156.69, 19.02, 1.09)
+ID: 608		| Type: 128		| Pos: (156.71, 11.25, 4.64)
+ID: 609		| Type: 0		| Pos: (156.70, 11.25, -2.84)
+ID: 610		| Type: 40		| Pos: (156.71, 17.79, 4.54)
+ID: 611		| Type: 128		| Pos: (156.70, 17.79, -2.94)
+ID: 612		| Type: 0		| Pos: (156.81, 23.96, 4.46)
+ID: 613		| Type: 40		| Pos: (162.89, 11.72, 8.57)
+ID: 614		| Type: 128		| Pos: (162.88, 11.72, 1.09)
+ID: 615		| Type: 0		| Pos: (162.89, 19.02, 8.57)
+ID: 616		| Type: 40		| Pos: (162.88, 19.02, 1.09)
+ID: 617		| Type: 128		| Pos: (162.86, 11.25, 4.64)
+ID: 618		| Type: 0		| Pos: (162.85, 11.25, -2.84)
+ID: 619		| Type: 40		| Pos: (162.86, 17.79, 4.54)
+ID: 620		| Type: 128		| Pos: (162.85, 17.79, -2.94)
+ID: 621		| Type: 0		| Pos: (162.79, 23.96, 4.46)
+ID: 622		| Type: 40		| Pos: (159.78, 11.72, 5.12)
+ID: 623		| Type: 128		| Pos: (159.78, 11.72, -2.37)
+ID: 624		| Type: 0		| Pos: (159.78, 19.02, 5.12)
+ID: 625		| Type: 40		| Pos: (159.78, 19.02, -2.37)
+ID: 626		| Type: 128		| Pos: (-49.71, 1.09, 12.65)
+ID: 627		| Type: 0		| Pos: (-46.57, 0.99, 12.65)
+ID: 628		| Type: 40		| Pos: (-48.06, 10.56, 18.67)
+ID: 629		| Type: 128		| Pos: (-12.65, 4.15, 6.35)
+ID: 630		| Type: 0		| Pos: (-13.91, 3.55, 6.35)
+ID: 631		| Type: 40		| Pos: (-5.02, 8.00, 6.35)
+ID: 632		| Type: 128		| Pos: (-4.28, 8.33, 6.35)
+ID: 633		| Type: 0		| Pos: (-38.19, 1.21, 3.31)
+ID: 634		| Type: 40		| Pos: (-35.45, 1.21, -2.72)
+ID: 635		| Type: 128		| Pos: (-41.54, 1.22, 3.30)
+ID: 636		| Type: 0		| Pos: (-35.46, 1.22, 0.61)
+ID: 637		| Type: 40		| Pos: (-39.44, 0.04, 3.30)
+ID: 638		| Type: 128		| Pos: (-35.42, 0.04, 1.12)
+ID: 639		| Type: 0		| Pos: (-45.57, 0.04, 3.30)
+ID: 640		| Type: 40		| Pos: (-51.71, 0.04, 3.30)
+ID: 641		| Type: 128		| Pos: (184.50, 17.09, 6.35)
+ID: 642		| Type: 0		| Pos: (187.99, 17.09, 6.35)
+ID: 643		| Type: 40		| Pos: (74.06, 7.96, 14.63)
+ID: 644		| Type: 128		| Pos: (16.67, 17.11, 6.35)
+ID: 645		| Type: 0		| Pos: (-16.98, 12.62, 6.29)
+ID: 646		| Type: 40		| Pos: (-39.91, 0.64, 6.35)
+ID: 647		| Type: 128		| Pos: (-33.51, 2.72, 6.22)
+ID: 648		| Type: 0		| Pos: (128.03, 15.96, 20.54)
+ID: 649		| Type: 40		| Pos: (127.88, 15.96, 31.71)
+ID: 650		| Type: 128		| Pos: (-43.81, 1.08, 10.18)
+ID: 651		| Type: 0		| Pos: (-48.41, 8.68, 5.11)
+ID: 652		| Type: 40		| Pos: (-48.40, 12.78, 6.60)
+ID: 653		| Type: 128		| Pos: (-48.40, 12.78, 3.59)
+ID: 654		| Type: 0		| Pos: (181.15, 20.11, 7.94)
+ID: 655		| Type: 40		| Pos: (159.68, 20.59, 3.30)
+ID: 656		| Type: 128		| Pos: (-17.02, 18.52, 6.32)
+ID: 657		| Type: 0		| Pos: (16.65, 21.31, 6.41)
+ID: 658		| Type: 40		| Pos: (159.67, 22.92, 3.28)
+
+--- Joints ---
+Joint: 0		| Connects Obj 168 to Obj 200
+Joint: 1		| Connects Obj 168 to Obj 158
+Joint: 2		| Connects Obj 168 to Obj 312
+Joint: 3		| Connects Obj 177 to Obj 214
+Joint: 4		| Connects Obj 177 to Obj 163
+Joint: 5		| Connects Obj 177 to Obj 314
+Joint: 6		| Connects Obj 170 to Obj 201
+Joint: 7		| Connects Obj 176 to Obj 162
+Joint: 8		| Connects Obj 176 to Obj 313
+Joint: 9		| Connects Obj 191 to Obj 218
+Joint: 10		| Connects Obj 191 to Obj 165
+Joint: 11		| Connects Obj 198 to Obj 310
+Joint: 12		| Connects Obj 198 to Obj 167
+Joint: 13		| Connects Obj 199 to Obj 311
+Joint: 14		| Connects Obj 171 to Obj 202
+Joint: 15		| Connects Obj 173 to Obj 204
+Joint: 16		| Connects Obj 174 to Obj 205
+Joint: 17		| Connects Obj 175 to Obj 211
+Joint: 18		| Connects Obj 178 to Obj 215
+Joint: 19		| Connects Obj 178 to Obj 164
+Joint: 20		| Connects Obj 178 to Obj 315
+Joint: 21		| Connects Obj 181 to Obj 217
+Joint: 22		| Connects Obj 192 to Obj 219
+Joint: 23		| Connects Obj 192 to Obj 166
+Joint: 24		| Connects Obj 193 to Obj 220
+Joint: 25		| Connects Obj 194 to Obj 305
+Joint: 26		| Connects Obj 195 to Obj 309
+Joint: 27		| Connects Obj 172 to Obj 203
+Joint: 28		| Connects Obj 403 to Obj 441
+Joint: 29		| Connects Obj 403 to Obj 379
+Joint: 30		| Connects Obj 403 to Obj 424
+Joint: 31		| Connects Obj 400 to Obj 376
+Joint: 32		| Connects Obj 400 to Obj 361
+Joint: 33		| Connects Obj 412 to Obj 388
+Joint: 34		| Connects Obj 412 to Obj 364
+Joint: 35		| Connects Obj 411 to Obj 449
+Joint: 36		| Connects Obj 411 to Obj 387
+Joint: 37		| Connects Obj 411 to Obj 432
+Joint: 38		| Connects Obj 401 to Obj 377
+Joint: 39		| Connects Obj 401 to Obj 362
+Joint: 40		| Connects Obj 405 to Obj 443
+Joint: 41		| Connects Obj 405 to Obj 381
+Joint: 42		| Connects Obj 405 to Obj 426
+Joint: 43		| Connects Obj 409 to Obj 447
+Joint: 44		| Connects Obj 409 to Obj 385
+Joint: 45		| Connects Obj 409 to Obj 430
+Joint: 46		| Connects Obj 414 to Obj 390
+Joint: 47		| Connects Obj 414 to Obj 366
+Joint: 48		| Connects Obj 420 to Obj 396
+Joint: 49		| Connects Obj 420 to Obj 372
+Joint: 50		| Connects Obj 421 to Obj 397
+Joint: 51		| Connects Obj 421 to Obj 373
+Joint: 52		| Connects Obj 410 to Obj 448
+Joint: 53		| Connects Obj 410 to Obj 386
+Joint: 54		| Connects Obj 410 to Obj 431
+Joint: 55		| Connects Obj 422 to Obj 398
+Joint: 56		| Connects Obj 422 to Obj 374
+Joint: 57		| Connects Obj 406 to Obj 444
+Joint: 58		| Connects Obj 406 to Obj 382
+Joint: 59		| Connects Obj 406 to Obj 427
+Joint: 60		| Connects Obj 402 to Obj 378
+Joint: 61		| Connects Obj 402 to Obj 363
+Joint: 62		| Connects Obj 407 to Obj 445
+Joint: 63		| Connects Obj 407 to Obj 383
+Joint: 64		| Connects Obj 407 to Obj 428
+Joint: 65		| Connects Obj 408 to Obj 446
+Joint: 66		| Connects Obj 408 to Obj 384
+Joint: 67		| Connects Obj 408 to Obj 429
+Joint: 68		| Connects Obj 468 to Obj 528
+Joint: 69		| Connects Obj 468 to Obj 539
+Joint: 70		| Connects Obj 468 to Obj 490
+Joint: 71		| Connects Obj 468 to Obj 500
+Joint: 72		| Connects Obj 468 to Obj 551
+Joint: 73		| Connects Obj 468 to Obj 479
+Joint: 74		| Connects Obj 468 to Obj 511
+Joint: 75		| Connects Obj 475 to Obj 535
+Joint: 76		| Connects Obj 475 to Obj 546
+Joint: 77		| Connects Obj 475 to Obj 496
+Joint: 78		| Connects Obj 475 to Obj 507
+Joint: 79		| Connects Obj 475 to Obj 558
+Joint: 80		| Connects Obj 475 to Obj 486
+Joint: 81		| Connects Obj 475 to Obj 522
+Joint: 82		| Connects Obj 476 to Obj 536
+Joint: 83		| Connects Obj 476 to Obj 547
+Joint: 84		| Connects Obj 476 to Obj 497
+Joint: 85		| Connects Obj 476 to Obj 508
+Joint: 86		| Connects Obj 476 to Obj 559
+Joint: 87		| Connects Obj 476 to Obj 487
+Joint: 88		| Connects Obj 476 to Obj 523
+Joint: 89		| Connects Obj 477 to Obj 537
+Joint: 90		| Connects Obj 477 to Obj 548
+Joint: 91		| Connects Obj 477 to Obj 498
+Joint: 92		| Connects Obj 477 to Obj 509
+Joint: 93		| Connects Obj 477 to Obj 560
+Joint: 94		| Connects Obj 477 to Obj 488
+Joint: 95		| Connects Obj 477 to Obj 526
+Joint: 96		| Connects Obj 478 to Obj 538
+Joint: 97		| Connects Obj 478 to Obj 549
+Joint: 98		| Connects Obj 478 to Obj 499
+Joint: 99		| Connects Obj 478 to Obj 510
+Joint: 100		| Connects Obj 478 to Obj 561
+Joint: 101		| Connects Obj 478 to Obj 489
+Joint: 102		| Connects Obj 478 to Obj 527
+Joint: 103		| Connects Obj 474 to Obj 534
+Joint: 104		| Connects Obj 474 to Obj 545
+Joint: 105		| Connects Obj 474 to Obj 495
+Joint: 106		| Connects Obj 474 to Obj 506
+Joint: 107		| Connects Obj 474 to Obj 557
+Joint: 108		| Connects Obj 474 to Obj 485
+Joint: 109		| Connects Obj 474 to Obj 521
+Joint: 110		| Connects Obj 473 to Obj 533
+Joint: 111		| Connects Obj 473 to Obj 544
+Joint: 112		| Connects Obj 473 to Obj 494
+Joint: 113		| Connects Obj 473 to Obj 505
+Joint: 114		| Connects Obj 473 to Obj 556
+Joint: 115		| Connects Obj 473 to Obj 484
+Joint: 116		| Connects Obj 473 to Obj 520
+Joint: 117		| Connects Obj 472 to Obj 532
+Joint: 118		| Connects Obj 472 to Obj 543
+Joint: 119		| Connects Obj 472 to Obj 504
+Joint: 120		| Connects Obj 472 to Obj 555
+Joint: 121		| Connects Obj 472 to Obj 483
+Joint: 122		| Connects Obj 415 to Obj 391
+Joint: 123		| Connects Obj 415 to Obj 367
+Joint: 124		| Connects Obj 418 to Obj 394
+Joint: 125		| Connects Obj 418 to Obj 370
+Joint: 126		| Connects Obj 419 to Obj 395
+Joint: 127		| Connects Obj 419 to Obj 371
+Joint: 128		| Connects Obj 469 to Obj 529
+Joint: 129		| Connects Obj 469 to Obj 540
+Joint: 130		| Connects Obj 469 to Obj 491
+Joint: 131		| Connects Obj 469 to Obj 501
+Joint: 132		| Connects Obj 469 to Obj 552
+Joint: 133		| Connects Obj 469 to Obj 480
+Joint: 134		| Connects Obj 469 to Obj 512
+Joint: 135		| Connects Obj 471 to Obj 531
+Joint: 136		| Connects Obj 471 to Obj 542
+Joint: 137		| Connects Obj 471 to Obj 493
+Joint: 138		| Connects Obj 471 to Obj 503
+Joint: 139		| Connects Obj 471 to Obj 554
+Joint: 140		| Connects Obj 471 to Obj 482
+Joint: 141		| Connects Obj 471 to Obj 519
+Joint: 142		| Connects Obj 221 to Obj 261
+Joint: 143		| Connects Obj 237 to Obj 281
+Joint: 144		| Connects Obj 229 to Obj 269
+Joint: 145		| Connects Obj 281 to Obj 261
+Joint: 146		| Connects Obj 281 to Obj 253
+Joint: 147		| Connects Obj 281 to Obj 245
+Joint: 148		| Connects Obj 281 to Obj 297
+Joint: 149		| Connects Obj 281 to Obj 229
+Joint: 150		| Connects Obj 281 to Obj 289
+Joint: 151		| Connects Obj 226 to Obj 266
+Joint: 152		| Connects Obj 242 to Obj 286
+Joint: 153		| Connects Obj 234 to Obj 278
+Joint: 154		| Connects Obj 286 to Obj 266
+Joint: 155		| Connects Obj 286 to Obj 258
+Joint: 156		| Connects Obj 286 to Obj 250
+Joint: 157		| Connects Obj 286 to Obj 302
+Joint: 158		| Connects Obj 286 to Obj 234
+Joint: 159		| Connects Obj 286 to Obj 294
+Joint: 160		| Connects Obj 227 to Obj 267
+Joint: 161		| Connects Obj 243 to Obj 287
+Joint: 162		| Connects Obj 235 to Obj 279
+Joint: 163		| Connects Obj 287 to Obj 267
+Joint: 164		| Connects Obj 287 to Obj 259
+Joint: 165		| Connects Obj 287 to Obj 251
+Joint: 166		| Connects Obj 287 to Obj 303
+Joint: 167		| Connects Obj 287 to Obj 235
+Joint: 168		| Connects Obj 287 to Obj 295
+Joint: 169		| Connects Obj 222 to Obj 262
+Joint: 170		| Connects Obj 238 to Obj 282
+Joint: 171		| Connects Obj 230 to Obj 274
+Joint: 172		| Connects Obj 282 to Obj 262
+Joint: 173		| Connects Obj 282 to Obj 254
+Joint: 174		| Connects Obj 282 to Obj 246
+Joint: 175		| Connects Obj 282 to Obj 298
+Joint: 176		| Connects Obj 282 to Obj 230
+Joint: 177		| Connects Obj 282 to Obj 290
+Joint: 178		| Connects Obj 228 to Obj 268
+Joint: 179		| Connects Obj 244 to Obj 288
+Joint: 180		| Connects Obj 236 to Obj 280
+Joint: 181		| Connects Obj 288 to Obj 268
+Joint: 182		| Connects Obj 288 to Obj 260
+Joint: 183		| Connects Obj 288 to Obj 252
+Joint: 184		| Connects Obj 288 to Obj 304
+Joint: 185		| Connects Obj 288 to Obj 236
+Joint: 186		| Connects Obj 288 to Obj 296
+Joint: 187		| Connects Obj 223 to Obj 263
+Joint: 188		| Connects Obj 239 to Obj 283
+Joint: 189		| Connects Obj 231 to Obj 275
+Joint: 190		| Connects Obj 283 to Obj 263
+Joint: 191		| Connects Obj 283 to Obj 255
+Joint: 192		| Connects Obj 283 to Obj 247
+Joint: 193		| Connects Obj 283 to Obj 299
+Joint: 194		| Connects Obj 283 to Obj 231
+Joint: 195		| Connects Obj 283 to Obj 291
+Joint: 196		| Connects Obj 224 to Obj 264
+Joint: 197		| Connects Obj 240 to Obj 284
+Joint: 198		| Connects Obj 232 to Obj 276
+Joint: 199		| Connects Obj 284 to Obj 264
+Joint: 200		| Connects Obj 284 to Obj 256
+Joint: 201		| Connects Obj 284 to Obj 248
+Joint: 202		| Connects Obj 284 to Obj 300
+Joint: 203		| Connects Obj 284 to Obj 232
+Joint: 204		| Connects Obj 284 to Obj 292
+Joint: 205		| Connects Obj 225 to Obj 265
+Joint: 206		| Connects Obj 241 to Obj 285
+Joint: 207		| Connects Obj 233 to Obj 277
+Joint: 208		| Connects Obj 285 to Obj 265
+Joint: 209		| Connects Obj 285 to Obj 257
+Joint: 210		| Connects Obj 285 to Obj 249
+Joint: 211		| Connects Obj 285 to Obj 301
+Joint: 212		| Connects Obj 285 to Obj 233
+Joint: 213		| Connects Obj 285 to Obj 293
+Joint: 214		| Connects Obj 423 to Obj 399
+Joint: 215		| Connects Obj 423 to Obj 375
+Joint: 216		| Connects Obj 416 to Obj 392
+Joint: 217		| Connects Obj 416 to Obj 368
+Joint: 218		| Connects Obj 417 to Obj 393
+Joint: 219		| Connects Obj 417 to Obj 369
+Joint: 220		| Connects Obj 470 to Obj 530
+Joint: 221		| Connects Obj 470 to Obj 541
+Joint: 222		| Connects Obj 470 to Obj 492
+Joint: 223		| Connects Obj 470 to Obj 502
+Joint: 224		| Connects Obj 470 to Obj 553
+Joint: 225		| Connects Obj 470 to Obj 481
+Joint: 226		| Connects Obj 470 to Obj 513
+Joint: 227		| Connects Obj 404 to Obj 442
+Joint: 228		| Connects Obj 404 to Obj 380
+Joint: 229		| Connects Obj 404 to Obj 425
+Joint: 230		| Connects Obj 413 to Obj 389
+Joint: 231		| Connects Obj 413 to Obj 365
