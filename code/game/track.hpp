@@ -65,6 +65,15 @@ public:
     // I have no idea why RedLynx did this, maybe save space? Different tool versions? I don't know, don't care, just
     // need this shit to work. But it all of a sudden changing up on me is not making me very happy right now.
     //
+    // Oh, wanna know some more fuckery! They left older legacy maps, e.g., OBJ1, OBJ2, OBJ4 in the tracks! track101
+    // has an LZMA error, they forgot to strip LZMA size, they left DEADBABE wrapper, and it pushed a native 8-byte
+    // size directly into the encoder causing LZMA_DATA_ERROR!! Some tracks use DEADBEEF or 01 FF instead of DEADBEBE
+    // which leaves 13-byte LZMA header completely intact instead of stripping the size off!!!
+    //
+    // Quick question... before releasing a game, don't you wanna make sure the assets are consistent in the
+    // versioning at least? This seems kinda stupid having multiple versions of the same format in the codebase
+    // instead of updating it all to one w/o losing or screwing up data... That's what I'd do...
+    //
 
     std::string                 Compression;    // "LZMA", "ZLIB" or "NONE"
     std::string                 PayloadType;    // "OBJ5" or "XML"
