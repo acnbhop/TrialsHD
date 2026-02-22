@@ -1,0 +1,12 @@
+[+] XUS v0x0100 | Entries: 9
+
+--- Entries (9) ---
+  [  0] XuiScene1.BackButton.PointSize = "-1.000000"
+  [  1] XuiScene1.BackButton.Text = "아니요"
+  [  2] XuiScene1.ButtonInfoGroup.ButtonsText.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  3] XuiScene1.ErrorGroup.MessageText.PointSize = "22.000000"
+  [  4] XuiScene1.ErrorGroup.MessageText.Text = ""
+  [  5] XuiScene1.ErrorGroup.MessageTitleText.PointSize = "35.000000"
+  [  6] XuiScene1.ErrorGroup.MessageTitleText.Text = ""
+  [  7] XuiScene1.PointSize = "-1.000000"
+  [  8] XuiScene1.Text = ""

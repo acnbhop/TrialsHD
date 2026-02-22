@@ -1,0 +1,15 @@
+[+] XUS v0x0100 | Entries: 12
+
+--- Entries (12) ---
+  [  0] XuiScene1.AnimGroup.CreditsGroup.Credits1.PointSize = "35.000000"
+  [  1] XuiScene1.AnimGroup.CreditsGroup.Credits1.Text = "John Smith  John Smith  John Smith  John Smith  John Smit..."
+  [  2] XuiScene1.AnimGroup.CreditsGroup.Credits2.PointSize = "35.000000"
+  [  3] XuiScene1.AnimGroup.CreditsGroup.Credits2.Text = "John Smith  John Smith  John Smith  John Smith  John Smit..."
+  [  4] XuiScene1.AnimGroup.CreditsGroup.MainTitle.PointSize = "60.000000"
+  [  5] XuiScene1.AnimGroup.CreditsGroup.MainTitle.Text = "Ficha Técnica:"
+  [  6] XuiScene1.AnimGroup.CreditsGroup.Title1.PointSize = "45.000000"
+  [  7] XuiScene1.AnimGroup.CreditsGroup.Title1.Text = "Redlynx:"
+  [  8] XuiScene1.AnimGroup.CreditsGroup.Title2.PointSize = "45.000000"
+  [  9] XuiScene1.AnimGroup.CreditsGroup.Title2.Text = "Microsoft:"
+  [ 10] XuiScene1.PointSize = "-1.000000"
+  [ 11] XuiScene1.Text = "      "

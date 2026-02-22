@@ -1,0 +1,18 @@
+[+] XUS v0x0100 | Entries: 15
+
+--- Entries (15) ---
+  [  0] XuiScene1.BackButton.PointSize = "-1.000000"
+  [  1] XuiScene1.BackButton.Text = "Nein"
+  [  2] XuiScene1.ButtonInfoGroup.ButtonsText.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  3] XuiScene1.MessageGroup.MessageText.PointSize = "22.000000"
+  [  4] XuiScene1.MessageGroup.MessageText.Text = "Zum Freischalten eines Wettkampfes musst du zuerst jede W..."
+  [  5] XuiScene1.MessageGroup.MessageTitleText.PointSize = "35.000000"
+  [  6] XuiScene1.MessageGroup.MessageTitleText.Text = "Wettkampf gesperrt"
+  [  7] XuiScene1.MessageGroup.TrackList.PointSize = "-1.000000"
+  [  8] XuiScene1.MessageGroup.TrackList.Text = "      "
+  [  9] XuiScene1.MessageGroup.TrackList.XuiListItem1.PointSize = "-1.000000"
+  [ 10] XuiScene1.MessageGroup.TrackList.XuiListItem1.PointSize = "-1.000000"
+  [ 11] XuiScene1.MessageGroup.TrackList.XuiListItem1.Text = "      "
+  [ 12] XuiScene1.MessageGroup.TrackList.XuiListItem1.Text = "      "
+  [ 13] XuiScene1.PointSize = "-1.000000"
+  [ 14] XuiScene1.Text = "      "

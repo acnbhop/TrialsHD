@@ -1,0 +1,10 @@
+[+] XUS v0x0100 | Entries: 7
+
+--- Entries (7) ---
+  [  0] XuiScene1.LoadingGroup.LoadingText.PointSize = "25.000000"
+  [  1] XuiScene1.LoadingGroup.LoadingText.Text = "載入中...."
+  [  2] XuiScene1.LoadingGroup.ProgressGroup.ProgressBar.PointSize = "-1.000000"
+  [  3] XuiScene1.LoadingGroup.ProgressGroup.ProgressBar.Text = ""
+  [  4] XuiScene1.PointSize = "-1.000000"
+  [  5] XuiScene1.SimulatingButtonInfoGroup.XuiHtmlElement1.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  6] XuiScene1.Text = ""

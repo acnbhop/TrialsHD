@@ -1,0 +1,7 @@
+[+] XUS v0x0100 | Entries: 4
+
+--- Entries (4) ---
+  [  0] XuiScene1.NotificationGroup.ButtonInfoGroup.XuiHtmlElement1.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  1] XuiScene1.NotificationGroup.NotificationText.Text = "<div align="center">    <font color="#D8C69A" size="19"> ..."
+  [  2] XuiScene1.PointSize = "-1.000000"
+  [  3] XuiScene1.Text = "      "

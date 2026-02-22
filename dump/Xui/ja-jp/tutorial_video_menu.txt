@@ -1,0 +1,14 @@
+[+] XUS v0x0100 | Entries: 11
+
+--- Entries (11) ---
+  [  0] XuiScene1.A-Button.PointSize = "-1.000000"
+  [  1] XuiScene1.A-Button.Text = "Skip video"
+  [  2] XuiScene1.BackButton.PointSize = "-1.000000"
+  [  3] XuiScene1.BackButton.Text = "戻る"
+  [  4] XuiScene1.Grunge-BG-Animations.PointSize = "-1.000000"
+  [  5] XuiScene1.Grunge-BG-Animations.Text = ""
+  [  6] XuiScene1.InfoText.PointSize = "20.000000"
+  [  7] XuiScene1.InfoText.Text = "Aliquam eleifend, turpis eu auctor pretium."
+  [  8] XuiScene1.PointSize = "-1.000000"
+  [  9] XuiScene1.Text = ""
+  [ 10] XuiScene1.Title.Text = "<font color="#D7CAAD" size="60">  チュートリアル  ..."

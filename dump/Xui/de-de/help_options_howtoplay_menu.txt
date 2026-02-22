@@ -1,0 +1,15 @@
+[+] XUS v0x0100 | Entries: 12
+
+--- Entries (12) ---
+  [  0] XuiScene.BackButton.PointSize = "-1.000000"
+  [  1] XuiScene.BackButton.Text = "Zurück"
+  [  2] XuiScene.ButtonInfoGroup.XuiHtmlElement1.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  3] XuiScene.HowToText.LineHeight = "28"
+  [  4] XuiScene.HowToText.PointSize = "-1.000000"
+  [  5] XuiScene.HowToText.Text = "<div align="center">    <font color="#EBB40F" size="25"> ..."
+  [  6] XuiScene.InfoText.PointSize = "20.000000"
+  [  7] XuiScene.InfoText.Text = "      "
+  [  8] XuiScene.PointSize = "-1.000000"
+  [  9] XuiScene.Text = "      "
+  [ 10] XuiScene.TitleText.PointSize = "50.000000"
+  [ 11] XuiScene.TitleText.Text = "SO WIRD GESPIELT"

@@ -1,0 +1,10 @@
+[+] XUS v0x0100 | Entries: 7
+
+--- Entries (7) ---
+  [  0] XuiScene1.ButtonInfoChallengeGroup.XuiHtmlElement1.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  1] XuiScene1.ButtonInfoGroup.XuiHtmlElement1.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  2] XuiScene1.ButtonInfoReplayGroup.XuiHtmlElement1.Text = "<div align="center">  <font color="#D7CAAD" size="27">   ..."
+  [  3] XuiScene1.MedalGroup.MedalText.PointSize = "30.000000"
+  [  4] XuiScene1.MedalGroup.MedalText.Text = ""
+  [  5] XuiScene1.PointSize = "-1.000000"
+  [  6] XuiScene1.Text = ""

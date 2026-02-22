@@ -1,0 +1,7 @@
+[+] XUS v0x0100 | Entries: 4
+
+--- Entries (4) ---
+  [  0] XuiScene1.PointSize = "-1.000000"
+  [  1] XuiScene1.Text = "      "
+  [  2] XuiScene1.WarningGroup.MessageTitleText.PointSize = "25.000000"
+  [  3] XuiScene1.WarningGroup.MessageTitleText.Text = "Sauvegarde du contenu.  N'éteins pas ta console !"

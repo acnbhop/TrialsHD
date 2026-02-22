@@ -1,0 +1,7 @@
+[+] XUS v0x0100 | Entries: 4
+
+--- Entries (4) ---
+  [  0] XuiScene1.ESRBNoticeText.PointSize = "18.000000"
+  [  1] XuiScene1.ESRBNoticeText.Text = "Interacciones en línea no calificadas por la ESRB"
+  [  2] XuiScene1.PointSize = "-1.000000"
+  [  3] XuiScene1.Text = "      "
