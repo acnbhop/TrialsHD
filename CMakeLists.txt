@@ -4,6 +4,19 @@ if(NOT MSVC_IDE AND NOT XCODE)
 endif()
 project(TrialsHD LANGUAGES CXX)
 
+include(FetchContent)
+set(BUILD_DX11 OFF CACHE BOOL "" FORCE)
+set(BUILD_DX12 OFF CACHE BOOL "" FORCE)
+set(BUILD_TOOLS OFF CACHE BOOL "" FORCE)
+set(BUILD_SAMPLE OFF CACHE BOOL "" FORCE)
+
+FetchContent_Declare(
+    directxtex
+    GIT_REPOSITORY https://github.com/microsoft/DirectXTex.git
+    GIT_TAG        main 
+)
+FetchContent_MakeAvailable(directxtex)
+
 find_package(tinyxml2 REQUIRED)
 find_package(ZLIB REQUIRED)
 
@@ -33,6 +46,7 @@ add_library(shared STATIC
 )
 
 add_library(game STATIC
+    code/game/texture.cpp   code/game/texture.hpp
     code/game/track.cpp     code/game/track.hpp
 )
 
@@ -42,7 +56,11 @@ add_library(game STATIC
 add_executable(track_tool
     code/tools/track_tool.cpp
 )
+add_executable(tex_tool
+    code/tools/tex_tool.cpp
+)
 
 target_link_libraries(track_tool PRIVATE shared game tinyxml2::tinyxml2 ZLIB::ZLIB
     $<$<BOOL:${REDLYNX_LINUX}>:lzma>
 )
+target_link_libraries(tex_tool PRIVATE shared game DirectXTex::DirectXTex)
