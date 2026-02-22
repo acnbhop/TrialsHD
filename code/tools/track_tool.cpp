@@ -28,9 +28,9 @@ void PrintUsage(const char* ProgramName)
     std::cout << "  " << ProgramName << " --print-dump <folder>       Dumps summaries for all .trk files to .txt files\n";
 }
 
-int main(int argc, char* argv[]) 
+int main(int argc, char* argv[])
 {
-    if (argc < 2) 
+    if (argc < 2)
     {
         PrintUsage(argv[0]);
         return EXIT_FAILURE;
@@ -43,32 +43,32 @@ int main(int argc, char* argv[])
     std::string TargetPath = "";
 
     // Parse arguments
-    for (int i = 1; i < argc; ++i) 
+    for (int i = 1; i < argc; ++i)
     {
         std::string Arg = argv[i];
-        if (Arg == "--print") 
+        if (Arg == "--print")
         {
             PrintToFile = true;
-        } 
-        else if (Arg == "--print-console") 
+        }
+        else if (Arg == "--print-console")
         {
             PrintToConsole = true;
-        } 
-        else if (Arg == "--export") 
+        }
+        else if (Arg == "--export")
         {
             BatchExport = true;
-        } 
-        else if (Arg == "--print-dump") 
+        }
+        else if (Arg == "--print-dump")
         {
             BatchDump = true;
-        } 
-        else 
+        }
+        else
         {
             TargetPath = Arg;
         }
     }
 
-    if (TargetPath.empty()) 
+    if (TargetPath.empty())
     {
         std::cerr << "[-] No target file or folder specified.\n";
         PrintUsage(argv[0]);
@@ -88,7 +88,7 @@ int main(int argc, char* argv[])
         }
 
         std::cout << "[i] Starting batch processing in folder: " << TargetPath << "\n";
-        
+
         int ProcessedCount = 0;
 
         for (const auto& Entry : std::filesystem::directory_iterator(TargetPath))
@@ -102,7 +102,7 @@ int main(int argc, char* argv[])
             if (Ext == ".trk")
             {
                 std::cout << "  -> Loading: " << FilePath.filename().string() << " ... ";
-                
+
                 redlynx::game::Track TrackData;
                 if (!TrackData.Load(FilePath.string()))
                 {
@@ -135,7 +135,7 @@ int main(int argc, char* argv[])
                         std::cout.rdbuf(OutFile.rdbuf());
                         TrackData.PrintSummary();
                         std::cout.rdbuf(OldCoutBuf);
-                        
+
                         std::cout << "[TXT DUMPED]";
                     }
                     else
@@ -143,12 +143,12 @@ int main(int argc, char* argv[])
                         std::cout << "[TXT FAILED]";
                     }
                 }
-                
+
                 std::cout << "\n";
                 ProcessedCount++;
             }
         }
-        
+
         std::cout << "[+] Batch processing complete. Processed " << ProcessedCount << " files.\n";
         return EXIT_SUCCESS;
     }
@@ -163,50 +163,50 @@ int main(int argc, char* argv[])
 
     redlynx::game::Track TrackData;
 
-    if (Ext == ".trk") 
+    if (Ext == ".trk")
     {
-        if (PrintToFile || PrintToConsole) 
+        if (PrintToFile || PrintToConsole)
         {
             std::cout << "[i] Loading track for inspection: " << TargetPath << "\n";
-            if (!TrackData.Load(TargetPath)) 
+            if (!TrackData.Load(TargetPath))
             {
                 return EXIT_FAILURE;
             }
-            
-            if (PrintToFile) 
+
+            if (PrintToFile)
             {
                 std::filesystem::path OutputPath = InputPath;
                 OutputPath.replace_extension(".txt");
-                
+
                 std::ofstream OutFile(OutputPath);
-                if (OutFile) 
+                if (OutFile)
                 {
                     std::streambuf* OldCoutBuf = std::cout.rdbuf();
                     std::cout.rdbuf(OutFile.rdbuf());
                     TrackData.PrintSummary();
                     std::cout.rdbuf(OldCoutBuf);
                     std::cout << "[+] Summary written to " << OutputPath << "\n";
-                } 
-                else 
+                }
+                else
                 {
                     std::cerr << "[-] Failed to open output file: " << OutputPath << "\n";
                     return EXIT_FAILURE;
                 }
             }
-            
+
             if (PrintToConsole) TrackData.PrintSummary();
-            
+
             return EXIT_SUCCESS;
-        } 
-        else 
+        }
+        else
         {
             std::filesystem::path OutputPath = InputPath;
             OutputPath.replace_extension(".xml");
-            
+
             std::cout << "[i] Unpacking track: " << TargetPath << "\n";
-            if (TrackData.Load(TargetPath)) 
+            if (TrackData.Load(TargetPath))
             {
-                if (TrackData.ExportXML(OutputPath.string())) 
+                if (TrackData.ExportXML(OutputPath.string()))
                 {
                     std::cout << "[+] Successfully unpacked to " << OutputPath << "\n";
                     return EXIT_SUCCESS;
@@ -214,24 +214,24 @@ int main(int argc, char* argv[])
             }
             return EXIT_FAILURE;
         }
-    } 
-    else if (Ext == ".xml") 
+    }
+    else if (Ext == ".xml")
     {
         std::filesystem::path OutputPath = InputPath;
         OutputPath.replace_extension(".trk");
 
         std::cout << "[i] Packing XML: " << TargetPath << "\n";
-        if (TrackData.ImportXML(TargetPath)) 
+        if (TrackData.ImportXML(TargetPath))
         {
-            if (TrackData.Save(OutputPath.string())) 
+            if (TrackData.Save(OutputPath.string()))
             {
                 std::cout << "[+] Successfully packed to " << OutputPath << "\n";
                 return EXIT_SUCCESS;
             }
         }
         return EXIT_FAILURE;
-    } 
-    else 
+    }
+    else
     {
         std::cerr << "[-] Unsupported file extension: '" << Ext << "'. Must be .trk or .xml\n";
         return EXIT_FAILURE;
