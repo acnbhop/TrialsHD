@@ -54,7 +54,7 @@ bool Track::Load(const std::string& FilePath)
 // Saves the objects back into a playable .trk file.
 bool Track::Save(const std::string& FilePath)
 {
-    std::vector<uint8> Obj5;
+std::vector<uint8> Obj5;
 
     Obj5.push_back('O'); Obj5.push_back('B'); Obj5.push_back('J'); Obj5.push_back('5');
     WriteBE16(Obj5, Objects.size());
@@ -121,12 +121,6 @@ bool Track::Save(const std::string& FilePath)
         return false;
     }
 
-    uint32 RealUncompressedSize = Obj5.size();
-    OriginalHeader[8] = (RealUncompressedSize >> 24) & 0xFF;
-    OriginalHeader[9] = (RealUncompressedSize >> 16) & 0xFF;
-    OriginalHeader[10] = (RealUncompressedSize >> 8) & 0xFF;
-    OriginalHeader[11] = RealUncompressedSize & 0xFF;
-
     std::ofstream OutTrack(FilePath, std::ios::binary);
     if (!OutTrack)
     {
@@ -134,9 +128,29 @@ bool Track::Save(const std::string& FilePath)
         return false;
     }
 
-    OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
-    OutTrack.write(reinterpret_cast<char*>(CompressedStream.data()), 5);
-    OutTrack.write(reinterpret_cast<char*>(CompressedStream.data()) + 13, CompressedStream.size() - 13);
+    // Determine saving strategy based on the original header's magic bytes
+    uint32 Magic = ReadBE32(std::span<const uint8>(OriginalHeader), 0);
+
+    if (Magic == 0xDEADBABE)
+    {
+        uint32 RealUncompressedSize = Obj5.size();
+        OriginalHeader[8] = (RealUncompressedSize >> 24) & 0xFF;
+        OriginalHeader[9] = (RealUncompressedSize >> 16) & 0xFF;
+        OriginalHeader[10] = (RealUncompressedSize >> 8) & 0xFF;
+        OriginalHeader[11] = RealUncompressedSize & 0xFF;
+
+        OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
+        
+        // Strip standard LZMA 13-byte header down to Redlynx 5-byte header
+        OutTrack.write(reinterpret_cast<char*>(CompressedStream.data()), 5);
+        OutTrack.write(reinterpret_cast<char*>(CompressedStream.data()) + 13, CompressedStream.size() - 13);
+    }
+    else if (Magic == 0xDEADBEEF)
+    {
+        // DEADBEEF format expects the 13-byte LZMA header completely intact
+        OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
+        OutTrack.write(reinterpret_cast<char*>(CompressedStream.data()), CompressedStream.size());
+    }
 
     OutTrack.close();
     return true;
@@ -300,49 +314,93 @@ bool Track::ImportXML(const std::string& FilePath)
 // Decompresses the given LZMA compressed data and returns the decompressed data.
 std::vector<uint8> Track::_DecompressLZMA(const std::vector<uint8>& FileData)
 {
-    if (FileData.size() < 24)
+    if (FileData.size() < 17)
     {
         std::fprintf(stderr, "[Error] [track.cpp] File is too small to contain valid track header.\n");
         return {};
     }
 
-    std::span<const uint8> BufferSpan(FileData);
-    uint32 ExpectedSize = ReadBE32(BufferSpan, 8);
+    std::span<const uint8> BufSpan(FileData);
+    uint32 Magic = ReadBE32(BufSpan, 0);
 
+    std::vector<uint8> SynthBuffer;
+    uint32 ExpectedSize = 0;
     size LzmaOffset = 0;
-    for (size i = 16; i < std::min<size>(128, FileData.size() - 13); i++)
+
+    // DEADBABE (20-byte custom header, stripped LZMA header)
+    if (Magic == 0xDEADBABE)
     {
-        if (FileData[i] == 0x5D && FileData[i + 1] == 0x00 && FileData[i + 2] == 0x00)
+        
+        if (FileData.size() < 24) 
         {
-            LzmaOffset = i;
-            break;
+            return {};
+        }
+
+        ExpectedSize = ReadBE32(BufSpan, 8);
+
+        for (size i = 16; i < std::min<size>(128, FileData.size() - 13); i++)
+        {
+            if (FileData[i] == 0x5D && FileData[i + 1] == 0x00 && FileData[i + 2] == 0x00)
+            {
+                LzmaOffset = i;
+                break;
+            }
+        }
+
+        if (LzmaOffset == 0)
+        {
+            std::fprintf(stderr, "[Error] [track.cpp] Could not find LZMA property byte (0x5D).\n");
+            return {};
+        }
+
+        OriginalHeader.assign(FileData.begin(), FileData.begin() + LzmaOffset);
+
+        // Synthesize
+        SynthBuffer.reserve(13 + FileData.size() - LzmaOffset - 13);
+        for (int32 i = 0; i < 5; i++)
+        {
+            SynthBuffer.push_back(FileData[LzmaOffset + i]);
+        }
+
+        uint64 UncompSize64 = ExpectedSize;
+        for (int32 i = 0; i < 8; i++)
+        {
+            SynthBuffer.push_back((UncompSize64 >> (i * 8)) & 0xFF);
+        }
+        
+        for (size i = LzmaOffset + 13; i < FileData.size(); i++)
+        {
+            SynthBuffer.push_back(FileData[i]);
         }
     }
-
-    if (LzmaOffset == 0)
+    // DEADBEEF (4-byte header, standard intact LZMA stream)
+    else if (Magic == 0xDEADBEEF)
     {
-        std::fprintf(stderr, "[Error] [track.cpp] Could not find LZMA property byte (0x5D).\n");
+        LzmaOffset = 4;
+        
+        if (FileData[LzmaOffset] != 0x5D)
+        {
+            std::fprintf(stderr, "[Error] [track.cpp] DEADBEEF format missing 0x5D at offset 4.\n");
+            return {};
+        }
+
+        OriginalHeader.assign(FileData.begin(), FileData.begin() + LzmaOffset);
+
+        // Read the expected size from the little-endian 8-byte LZMA header (offset 4+5 = 9)
+        uint64 UncompSize64 = 0;
+        for (int32 i = 0; i < 8; i++) 
+        {
+            UncompSize64 |= (static_cast<uint64>(FileData[9 + i]) << (i * 8));
+        }
+        ExpectedSize = static_cast<uint32>(UncompSize64);
+
+        // The data already has a valid 13-byte header, so just copy it all
+        SynthBuffer.assign(FileData.begin() + LzmaOffset, FileData.end());
+    }
+    else
+    {
+        std::fprintf(stderr, "[Error] [track.cpp] Unknown magic bytes: 0x%08X\n", Magic);
         return {};
-    }
-
-    // Capture the original .trk header.
-    OriginalHeader.assign(FileData.begin(), FileData.begin() + LzmaOffset);
-    std::vector<uint8> SynthBuffer;
-    SynthBuffer.reserve(13 + FileData.size() - LzmaOffset - 13);
-    for (int32 i = 0; i < 5; i++)
-    {
-        SynthBuffer.push_back(FileData[LzmaOffset + i]);
-    }
-
-    uint64 UncompSize64 = ExpectedSize;
-    for (int32 i = 0; i < 8; i++)
-    {
-        SynthBuffer.push_back((UncompSize64 >> (i * 8)) & 0xFF);
-    }
-    
-    for (size i = LzmaOffset + 13; i < FileData.size(); i++)
-    {
-        SynthBuffer.push_back(FileData[i]);
     }
 
     std::vector<uint8> UncompressedData(ExpectedSize);
