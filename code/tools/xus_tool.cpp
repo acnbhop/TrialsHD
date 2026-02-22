@@ -26,6 +26,7 @@ void PrintUsage(const char* ProgramName)
     std::cout << "  " << ProgramName << " --export <folder>           Exports all .xus files in folder to .xml files\n";
     std::cout << "  " << ProgramName << " --print-dump <folder>       Dumps summaries for all .xus files to .txt files\n";
     std::cout << "\nOptions:\n";
+    std::cout << "  --output <folder>                    Output to a separate folder (mirrors directory structure)\n";
     std::cout << "  --exact                              Preserve exact line endings (\\r) for byte-perfect round-tripping\n";
 }
 
@@ -43,6 +44,7 @@ int main(int argc, char* argv[])
     bool BatchDump = false;
     bool ExactLineEndings = false;
     std::string TargetPath = "";
+    std::string OutputDir = "";
 
     // Parse arguments
     for (int i = 1; i < argc; ++i)
@@ -67,6 +69,18 @@ int main(int argc, char* argv[])
         else if (Arg == "--exact")
         {
             ExactLineEndings = true;
+        }
+        else if (Arg == "--output")
+        {
+            if (i + 1 < argc)
+            {
+                OutputDir = argv[++i];
+            }
+            else
+            {
+                std::cerr << "[-] --output requires a folder argument.\n";
+                return EXIT_FAILURE;
+            }
         }
         else
         {
@@ -94,10 +108,14 @@ int main(int argc, char* argv[])
         }
 
         std::cout << "[i] Starting batch processing in folder: " << TargetPath << "\n";
+        if (!OutputDir.empty())
+        {
+            std::cout << "[i] Output directory: " << OutputDir << "\n";
+        }
 
         int ProcessedCount = 0;
 
-        for (const auto& Entry : std::filesystem::directory_iterator(TargetPath))
+        for (const auto& Entry : std::filesystem::recursive_directory_iterator(TargetPath))
         {
             if (!Entry.is_regular_file()) continue;
 
@@ -107,7 +125,8 @@ int main(int argc, char* argv[])
 
             if (Ext == ".xus")
             {
-                std::cout << "  -> Loading: " << FilePath.filename().string() << " ... ";
+                std::filesystem::path RelPath = std::filesystem::relative(FilePath, TargetPath);
+                std::cout << "  -> Loading: " << RelPath.string() << " ... ";
 
                 redlynx::game::Xus XusData;
                 if (!XusData.Load(FilePath.string()))
@@ -118,8 +137,18 @@ int main(int argc, char* argv[])
 
                 if (BatchExport)
                 {
-                    std::filesystem::path OutPath = FilePath;
-                    OutPath.replace_extension(".xml");
+                    std::filesystem::path OutPath;
+                    if (!OutputDir.empty())
+                    {
+                        OutPath = std::filesystem::path(OutputDir) / RelPath;
+                        OutPath.replace_extension(".xml");
+                        std::filesystem::create_directories(OutPath.parent_path());
+                    }
+                    else
+                    {
+                        OutPath = FilePath;
+                        OutPath.replace_extension(".xml");
+                    }
                     if (XusData.ExportXML(OutPath.string(), ExactLineEndings))
                     {
                         std::cout << "[XML EXPORTED] ";
@@ -132,8 +161,18 @@ int main(int argc, char* argv[])
 
                 if (BatchDump)
                 {
-                    std::filesystem::path OutPath = FilePath;
-                    OutPath.replace_extension(".txt");
+                    std::filesystem::path OutPath;
+                    if (!OutputDir.empty())
+                    {
+                        OutPath = std::filesystem::path(OutputDir) / RelPath;
+                        OutPath.replace_extension(".txt");
+                        std::filesystem::create_directories(OutPath.parent_path());
+                    }
+                    else
+                    {
+                        OutPath = FilePath;
+                        OutPath.replace_extension(".txt");
+                    }
                     std::ofstream OutFile(OutPath);
                     if (OutFile)
                     {
