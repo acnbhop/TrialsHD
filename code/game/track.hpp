@@ -76,6 +76,7 @@ public:
     //
 
     std::string                 Compression;    // "LZMA", "ZLIB" or "NONE"
+    bool                        LzmaStripped;   // Tracks if the LZMA size header was stripped by engine or not.
     std::string                 PayloadType;    // "OBJ5" or "XML"
     std::string                 RawXML;         // Holds the data if PayloadType is "XML"
 
