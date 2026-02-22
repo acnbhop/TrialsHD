@@ -256,7 +256,7 @@ bool Xur::Save(const std::string& FilePath)
 }
 
 // Exports the XUR data to a human-readable XML format for editing.
-bool Xur::ExportXML(const std::string& FilePath) const
+bool Xur::ExportXML(const std::string& FilePath, bool ExactLineEndings) const
 {
     tinyxml2::XMLDocument Doc;
     Doc.InsertEndChild(Doc.NewDeclaration("xml version=\"1.0\" encoding=\"UTF-8\""));
@@ -317,18 +317,20 @@ bool Xur::ExportXML(const std::string& FilePath) const
         tinyxml2::XMLElement* StrNode = Doc.NewElement("S");
         StrNode->SetAttribute("i", static_cast<int32>(i));
 
+        std::string Str = ExactLineEndings ? EscapeCR(Strings[i]) : Strings[i];
+
         // Use CDATA for strings that contain special characters or newlines
-        if (Strings[i].find('\n') != std::string::npos ||
-            Strings[i].find('<') != std::string::npos ||
-            Strings[i].find('&') != std::string::npos)
+        if (Str.find('\n') != std::string::npos ||
+            Str.find('<') != std::string::npos ||
+            Str.find('&') != std::string::npos)
         {
-            tinyxml2::XMLText* CData = Doc.NewText(Strings[i].c_str());
+            tinyxml2::XMLText* CData = Doc.NewText(Str.c_str());
             CData->SetCData(true);
             StrNode->InsertEndChild(CData);
         }
         else
         {
-            StrNode->SetText(Strings[i].c_str());
+            StrNode->SetText(Str.c_str());
         }
 
         StringsNode->InsertEndChild(StrNode);
@@ -338,7 +340,7 @@ bool Xur::ExportXML(const std::string& FilePath) const
 }
 
 // Imports the XUR data from an XML file previously exported by ExportXML.
-bool Xur::ImportXML(const std::string& FilePath)
+bool Xur::ImportXML(const std::string& FilePath, bool ExactLineEndings)
 {
     tinyxml2::XMLDocument Doc;
     if (Doc.LoadFile(FilePath.c_str()) != tinyxml2::XML_SUCCESS)
@@ -424,7 +426,8 @@ bool Xur::ImportXML(const std::string& FilePath)
              StrNode; StrNode = StrNode->NextSiblingElement("S"))
         {
             const char* Text = StrNode->GetText();
-            Strings.push_back(Text ? std::string(Text) : "");
+            std::string Str = Text ? std::string(Text) : "";
+            Strings.push_back(ExactLineEndings ? UnescapeCR(Str) : Str);
         }
     }
 

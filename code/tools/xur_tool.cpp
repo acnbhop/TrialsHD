@@ -25,6 +25,8 @@ void PrintUsage(const char* ProgramName)
     std::cout << "\nBatch Processing Commands:\n";
     std::cout << "  " << ProgramName << " --export <folder>           Exports all .xur files in folder to .xml files\n";
     std::cout << "  " << ProgramName << " --print-dump <folder>       Dumps summaries for all .xur files to .txt files\n";
+    std::cout << "\nOptions:\n";
+    std::cout << "  --exact                              Preserve exact line endings (\\r) for byte-perfect round-tripping\n";
 }
 
 int main(int argc, char* argv[])
@@ -39,6 +41,7 @@ int main(int argc, char* argv[])
     bool PrintToConsole = false;
     bool BatchExport = false;
     bool BatchDump = false;
+    bool ExactLineEndings = false;
     std::string TargetPath = "";
 
     // Parse arguments
@@ -60,6 +63,10 @@ int main(int argc, char* argv[])
         else if (Arg == "--print-dump")
         {
             BatchDump = true;
+        }
+        else if (Arg == "--exact")
+        {
+            ExactLineEndings = true;
         }
         else
         {
@@ -113,7 +120,7 @@ int main(int argc, char* argv[])
                 {
                     std::filesystem::path OutPath = FilePath;
                     OutPath.replace_extension(".xml");
-                    if (XurData.ExportXML(OutPath.string()))
+                    if (XurData.ExportXML(OutPath.string(), ExactLineEndings))
                     {
                         std::cout << "[XML EXPORTED] ";
                     }
@@ -205,7 +212,7 @@ int main(int argc, char* argv[])
             std::cout << "[i] Unpacking XUR: " << TargetPath << "\n";
             if (XurData.Load(TargetPath))
             {
-                if (XurData.ExportXML(OutputPath.string()))
+                if (XurData.ExportXML(OutputPath.string(), ExactLineEndings))
                 {
                     std::cout << "[+] Successfully unpacked to " << OutputPath << "\n";
                     return EXIT_SUCCESS;
@@ -220,7 +227,7 @@ int main(int argc, char* argv[])
         OutputPath.replace_extension(".xur");
 
         std::cout << "[i] Packing XML: " << TargetPath << "\n";
-        if (XurData.ImportXML(TargetPath))
+        if (XurData.ImportXML(TargetPath, ExactLineEndings))
         {
             if (XurData.Save(OutputPath.string()))
             {

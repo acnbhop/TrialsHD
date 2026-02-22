@@ -84,10 +84,13 @@ public:
     bool Save(const std::string& FilePath);
 
     // Exports the XUR data to a human-readable XML format for editing.
-    bool ExportXML(const std::string& FilePath) const;
+    // When ExactLineEndings is true, \r characters are backslash-escaped so
+    // that XML round-tripping preserves them byte-for-byte.
+    bool ExportXML(const std::string& FilePath, bool ExactLineEndings = false) const;
 
     // Imports the XUR data from an XML file previously exported by ExportXML.
-    bool ImportXML(const std::string& FilePath);
+    // When ExactLineEndings is true, backslash-escaped \r sequences are restored.
+    bool ImportXML(const std::string& FilePath, bool ExactLineEndings = false);
 
     // Prints a summary of the XUR file to the console.
     void PrintSummary() const;
