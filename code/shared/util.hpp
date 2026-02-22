@@ -348,6 +348,43 @@ inline static uint16 _UTF8ToUTF16BE(const std::string& Str, std::vector<uint8>& 
     return CharCount;
 }
 
+//
+// Escapes carriage-return characters so they survive XML round-tripping.
+// \r -> \\r, \\ -> \\\\ (backslash-escaped).
+//
+inline std::string EscapeCR(const std::string& Input)
+{
+    std::string Result;
+    Result.reserve(Input.size());
+    for (char C : Input)
+    {
+        if (C == '\\') Result += "\\\\";
+        else if (C == '\r') Result += "\\r";
+        else Result.push_back(C);
+    }
+    return Result;
+}
+
+//
+// Reverses EscapeCR: \\r -> \r, \\\\ -> \\.
+//
+inline std::string UnescapeCR(const std::string& Input)
+{
+    std::string Result;
+    Result.reserve(Input.size());
+    for (size I = 0; I < Input.size(); I++)
+    {
+        if (Input[I] == '\\' && I + 1 < Input.size())
+        {
+            if (Input[I + 1] == 'r')       { Result.push_back('\r'); I++; }
+            else if (Input[I + 1] == '\\') { Result.push_back('\\'); I++; }
+            else Result.push_back(Input[I]);
+        }
+        else Result.push_back(Input[I]);
+    }
+    return Result;
+}
+
 #if 0
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 REDLYNX_NAMESPACE_END_TOOLS
