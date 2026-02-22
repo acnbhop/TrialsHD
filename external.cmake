@@ -64,3 +64,13 @@ else()
     # We alias it to ZLIB::ZLIB so our target_link_libraries works seamlessly either way!
     add_library(ZLIB::ZLIB ALIAS zlibstatic)
 endif()
+
+#
+# SDL3
+#
+FetchContent_Declare(
+    sdl3
+    GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
+    GIT_TAG        release-3.4.2
+)
+FetchContent_MakeAvailable(sdl3)
