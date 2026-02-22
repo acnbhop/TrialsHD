@@ -28,6 +28,7 @@ FetchContent_MakeAvailable(tinyxml2)
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 set(XZ_BUILD_CLITOOLS OFF CACHE BOOL "" FORCE)
 set(XZ_DOC OFF CACHE BOOL "" FORCE)
+set(BUILD_TESTING OFF CACHE BOOL "" FORCE)
 
 
 #
@@ -39,6 +40,10 @@ FetchContent_Declare(
     GIT_TAG        v5.4.5
 )
 FetchContent_MakeAvailable(xz)
+
+if(TARGET liblzma)
+    target_compile_options(liblzma PRIVATE -w)
+endif()
 
 #
 # Find if we have ZLIB, quietly since we want to be able to fall back to fetching it if we don't.

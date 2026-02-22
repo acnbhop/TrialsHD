@@ -38,6 +38,7 @@ endif()
 #
 if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
     set(REDLYNX_WINDOWS TRUE)
+    add_compile_options(-D_CRT_SECURE_NO_WARNINGS)
 else()
     set(REDLYNX_WINDOWS FALSE)
 endif()

@@ -63,6 +63,7 @@ target_include_directories(imgui_backend_win32 PUBLIC code/extern/imgui)
 endif()
 
 target_include_directories(imgui_backend_sdl3 PUBLIC code/extern/imgui)
+target_link_libraries(imgui_backend_sdl3 PRIVATE imgui SDL3::SDL3)
 
 if(USE_VULKAN)
 target_include_directories(imgui_backend_vulkan PUBLIC code/extern/imgui)
@@ -115,3 +116,4 @@ add_library(game STATIC
     code/game/xus.cpp       code/game/xus.hpp
 )
 target_link_libraries(game PRIVATE shared imgui)
+target_compile_definitions(game PUBLIC LZMA_API_STATIC)
