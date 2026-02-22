@@ -23,9 +23,11 @@ void PrintUsage(const char* ProgramName)
     std::cout << "  " << ProgramName << " --print <input.trk>         Prints the track summary to a .txt file\n";
     std::cout << "  " << ProgramName << " --print-console <input.trk> Prints the track summary to the console\n";
 
-    std::cout << "Batch Processing Commands:\n";
+    std::cout << "\nBatch Processing Commands:\n";
     std::cout << "  " << ProgramName << " --export <folder>           Exports all .trk files in folder to .xml files\n";
     std::cout << "  " << ProgramName << " --print-dump <folder>       Dumps summaries for all .trk files to .txt files\n";
+    std::cout << "\nOptions:\n";
+    std::cout << "  --output <folder>                    Output to a separate folder (mirrors directory structure)\n";
 }
 
 int main(int argc, char* argv[])
@@ -41,6 +43,7 @@ int main(int argc, char* argv[])
     bool BatchExport = false;
     bool BatchDump = false;
     std::string TargetPath = "";
+    std::string OutputDir = "";
 
     // Parse arguments
     for (int i = 1; i < argc; ++i)
@@ -61,6 +64,18 @@ int main(int argc, char* argv[])
         else if (Arg == "--print-dump")
         {
             BatchDump = true;
+        }
+        else if (Arg == "--output")
+        {
+            if (i + 1 < argc)
+            {
+                OutputDir = argv[++i];
+            }
+            else
+            {
+                std::cerr << "[-] --output requires a folder argument.\n";
+                return EXIT_FAILURE;
+            }
         }
         else
         {
@@ -88,10 +103,14 @@ int main(int argc, char* argv[])
         }
 
         std::cout << "[i] Starting batch processing in folder: " << TargetPath << "\n";
+        if (!OutputDir.empty())
+        {
+            std::cout << "[i] Output directory: " << OutputDir << "\n";
+        }
 
         int ProcessedCount = 0;
 
-        for (const auto& Entry : std::filesystem::directory_iterator(TargetPath))
+        for (const auto& Entry : std::filesystem::recursive_directory_iterator(TargetPath))
         {
             if (!Entry.is_regular_file()) continue;
 
@@ -101,7 +120,8 @@ int main(int argc, char* argv[])
 
             if (Ext == ".trk")
             {
-                std::cout << "  -> Loading: " << FilePath.filename().string() << " ... ";
+                std::filesystem::path RelPath = std::filesystem::relative(FilePath, TargetPath);
+                std::cout << "  -> Loading: " << RelPath.string() << " ... ";
 
                 redlynx::game::Track TrackData;
                 if (!TrackData.Load(FilePath.string()))
@@ -112,8 +132,18 @@ int main(int argc, char* argv[])
 
                 if (BatchExport)
                 {
-                    std::filesystem::path OutPath = FilePath;
-                    OutPath.replace_extension(".xml");
+                    std::filesystem::path OutPath;
+                    if (!OutputDir.empty())
+                    {
+                        OutPath = std::filesystem::path(OutputDir) / RelPath;
+                        OutPath.replace_extension(".xml");
+                        std::filesystem::create_directories(OutPath.parent_path());
+                    }
+                    else
+                    {
+                        OutPath = FilePath;
+                        OutPath.replace_extension(".xml");
+                    }
                     if (TrackData.ExportXML(OutPath.string()))
                     {
                         std::cout << "[XML EXPORTED] ";
@@ -126,8 +156,18 @@ int main(int argc, char* argv[])
 
                 if (BatchDump)
                 {
-                    std::filesystem::path OutPath = FilePath;
-                    OutPath.replace_extension(".txt");
+                    std::filesystem::path OutPath;
+                    if (!OutputDir.empty())
+                    {
+                        OutPath = std::filesystem::path(OutputDir) / RelPath;
+                        OutPath.replace_extension(".txt");
+                        std::filesystem::create_directories(OutPath.parent_path());
+                    }
+                    else
+                    {
+                        OutPath = FilePath;
+                        OutPath.replace_extension(".txt");
+                    }
                     std::ofstream OutFile(OutPath);
                     if (OutFile)
                     {
