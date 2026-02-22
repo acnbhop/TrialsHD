@@ -1,6 +1,9 @@
 /build/
 /data_temp/
 
+# Ignore subdirs in tools for now.
+/tools/*/
+
 *.vscode
 *.cache
 
