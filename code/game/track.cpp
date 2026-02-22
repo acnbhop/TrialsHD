@@ -390,16 +390,16 @@ void Track::PrintSummary() const
 
     std::cout << "[+] Extracted " << Objects.size() << " Objects and " << Joints.size() << " Joints.\n\n";
 
-    std::cout << "--- First 5 Objects ---\n";
-    for(size i = 0; i < std::min<size>(5, Objects.size()); i++)
+    std::cout << "--- Objects ---\n";
+    for(size i = 0; i < Objects.size(); i++)
     {
         std::cout << "ID: " << i << " | Type: " << (int32)Objects[i].TypeID
                   << " | Pos: (" << std::fixed << std::setprecision(2) << Objects[i].X << ", "
                   << Objects[i].Y << ", " << Objects[i].Z << ")\n";
     }
 
-    std::cout << "\n--- First 5 Joints ---\n";
-    for(size i = 0; i < std::min<size>(5, Joints.size()); i++)
+    std::cout << "\n--- Joints ---\n";
+    for(size i = 0; i < Joints.size(); i++)
     {
         std::cout << "Joint: " << i << " | Connects Obj " << Joints[i].ObjA
                   << " to Obj " << Joints[i].ObjB << "\n";
