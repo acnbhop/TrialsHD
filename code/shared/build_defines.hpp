@@ -213,7 +213,7 @@
 #define REDLYNX_IOS 0
 #endif
 
-#if defined(REDLYNX_LINUX) || defined(REDLYNX_APPLE)
+#if REDLYNX_LINUX || REDLYNX_APPLE
 #define REDLYNX_POSIX 1
 #else
 #define REDLYNX_POSIX 0
