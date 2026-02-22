@@ -32,3 +32,12 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
 else()
     set(REDLYNX_LINUX FALSE)
 endif()
+
+#
+# Windows
+#
+if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
+    set(REDLYNX_WINDOWS TRUE)
+else()
+    set(REDLYNX_WINDOWS FALSE)
+endif()
