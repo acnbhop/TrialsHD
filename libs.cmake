@@ -7,4 +7,5 @@ add_library(shared STATIC
 add_library(game STATIC
     code/game/track.cpp     code/game/track.hpp
     code/game/xur.cpp       code/game/xur.hpp
+    code/game/xus.cpp       code/game/xus.hpp
 )
