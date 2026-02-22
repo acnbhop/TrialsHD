@@ -4,6 +4,9 @@ Welcome! This is my little (*albiet pretty poopy*) attempt at reimplementation, 
 # Documentation
 I suggest reading `/docs/` whenever you get the chance, it has some interesting stuff in there. `misc/` contains just random documents that are important, and the root of it contains actual documentation that is valuable.
 
+# Building
+Simply just run `cmake -S . -B build` and you're good to go, it will fetch dependencies for you automatically.
+
 # Technical Info
 - Platform: Xbox 360
 - Architecture: PowerPC
