@@ -1,90 +1,172 @@
-# Trials HD Track Format `.trk`
+# Track File Format (.trk)
 
-## Overview
-The `.trk` file is a level serialization format used by RedLynx for Trials HD (Xbox 360). It contains all physical map geometry, logic triggers, physics constraints (joint), and environment settings.
+**Trials HD Level Data** — Serialized track format used by RedLynx for Trials HD on Xbox 360.
 
-Because the Xbox 360 uses a PowerPC architecture, the entire file is written in Big-Endian. All 16-bit integers, 32-bit integers and 32-bit IEEE 754 floating-point numbers must be byte-swapped when read on standard x86/64 (Little-Endian) hardware.
+TRK files contain all physical map geometry, logic triggers, physics constraints (joints),
+and environment settings that define a playable level. Because the Xbox 360 uses a PowerPC
+architecture, all multi-byte integers and IEEE 754 floats are stored in **big-endian** byte
+order and must be byte-swapped when read on x86/x64 (little-endian) hardware.
 
-# 1. File Container & Compression
-The file is wrapped in a 20-byte header, followed immediately by a stripped LZMA compression stream.
+---
 
-## Header Layout (20 bytes)
-| Offset | Type | Size | Description |
-|--------|------|------|-------------|
-`0x00` | `uint32` | 4 bytes | Magic Signature: `0xDEADBABE`
-`0x04` | `uint32` | 4 bytes | File Version / Hash: Unknown (e.g., `0x7004E8D0`)
-`0x08` | `uint32` | 4 bytes | Uncompressed Size: Exact size of the extracted payload in bytes.
-`0x0C` | `uint32` | 4 bytes | Padding / Reserved: Usually `0x00000000`
-`0x10` | `uint32` | 4 bytes | Compression Flag: Usually `0x00000001` (indicates LZMA is active).
+## File Layout Overview
 
-## The LZMA Stream
-Following the header offset `0x14`, is the LZMA compressed payload. To save space, RedLynx utilizes a stripped LZMA header:
-* Bytes 0-4 (Offset 0x14 - 0x18): LZMA Properties (usually `5D 00 00 02 00`).
-* Catch: Standard LZMA headers are 13 bytes long (5 bytes properties + 8 bytes uncompressed size). RedLynx drops the 8-byte size from the stream entirely.
-* Decompression: We must read the `Uncompressed Size` from the proprietary `DEADBABE` header (Offset 0x08), synthesize a fake 13-byte standard LZMA header in memory, then feed the remaining bytes to an LZMA encoder.
+```
+┌─────────────────────────────────────────┐
+│ Container Header (20 bytes)             │
+├─────────────────────────────────────────┤
+│ Stripped LZMA Stream                    │  ← Compressed payload (no 8-byte size field)
+│                                         │
+│  ┌───────────────────────────────────┐  │
+│  │ OBJ5 Master Header (6 bytes)      │  │
+│  ├───────────────────────────────────┤  │
+│  │ 9 × Structure-of-Arrays           │  │  ← Object data (SoA layout)
+│  ├───────────────────────────────────┤  │
+│  │ FourCC Chunks (TRP1, BGR16, ...)  │  │  ← Logic, lighting, backgrounds
+│  ├───────────────────────────────────┤  │
+│  │ GLUE Chunk                        │  │  ← Physics constraints (AoS layout)
+│  ├───────────────────────────────────┤  │
+│  │ Trailing Chunks (PACK, TEND, ...) │  │
+│  └───────────────────────────────────┘  │
+└─────────────────────────────────────────┘
+```
 
-# 2. Uncompressed Payload (`OBJ5` Map Data)
-Once decompressed, raw map data begins. To optimize for the Xbox 360's AltiVec SIMD processing, RedLynx did not use standard Object arrays (Arrays of Structures). Instead, they serialize map objects using Structure of Array (SoA).
+---
 
-## Master Header
-| Offset | Type | Description |
-|--------|------|-------------|
-| `0x00` | char[4] | Magic Signature: `OBJ5`
-| `0x04` | uint16 | Object Count: Total number of physics props/objects in the map.
+## Container Header (20 bytes)
 
-## Structure of Arrays (Object Data)
-Following the `Object Count` (at offset `0x06`), the engine lays out 9 consecutive arrays. To find the byte-offset of an array, you must multiply the `Object Count` by the byte-size of the previous arrays.
+| Offset | Size | Type   | Description                                                        |
+|--------|------|--------|--------------------------------------------------------------------|
+| `0x00` | 4    | uint32 | Magic signature: `0xDEADBABE`                                      |
+| `0x04` | 4    | uint32 | File version / hash (e.g. `0x7004E8D0`). Exact purpose unknown.    |
+| `0x08` | 4    | uint32 | Uncompressed size: exact byte count of the decompressed payload.   |
+| `0x0C` | 4    | uint32 | Reserved / padding: usually `0x00000000`.                          |
+| `0x10` | 4    | uint32 | Compression flag: usually `0x00000001` (indicates LZMA is active). |
 
-| Array Name | Data Type | Bytes Per Item | Description |
-|------------|-----------|----------------|-------------|
-Type IDs | `uint8` | 1 | The entity/mesh ID (e.g., 128 = Ramp, 211 = Barrel).
-Variants | `uint16` | 2 | Object flags, texture variants, or collision masks.
-X Coords | `float` | 4 | X-axis world position.
-Y Coords | `float` | 4 | Y-axis world position.
-Z Coords | `float` | 4 | Z-axis depth layer. Trials HD is 2.5D; Z is mostly static (e.g., `3.84` for the riding lane).
-Rotation X | `uint8` | 1 | Compressed Euler Pitch (0-255 mapped to 0-360 degrees).
-Rotation Y | `uint8` | 1 | Compressed Euler Yaw.
-Rotation Z | `uint8` | 1 | Compressed Euler Roll.
-Scale / Extra | `uint8` | 1 | Typically Uniform Scale (where `127` = 1.0x Scale).
+---
 
-To read a single object (e.g., Object Index `5`), you must index all 9 arrays at `[5]`.
+## LZMA Compression Stream
 
-# 3. Map Chunks (FourCC Tags)
-After the final Object Array (`Scale`), the file transitions into a sequential chunk format identified by Four-Character Codes (FourCCs). These dictate logic, lighting and physics links.
+Immediately following the header at offset `0x14` is the LZMA compressed payload.
+RedLynx uses a **stripped LZMA header** to save space:
 
-Common chunks include:
-* `TRP1` / `TRG2`: Triggers and checkpoints.
-* `BGR16`: Backgrounds and skyboxes.
-* `CMUL` / `EXT0`: Extra engine parameters.
-* `PACK` / `TEND`: End of file markers (`Track End`).
+- **Bytes 0–4** (file offset `0x14`–`0x18`): Standard 5-byte LZMA properties
+  (typically `5D 00 00 02 00`).
+- **Missing**: The standard 8-byte uncompressed size field that normally follows the
+  properties in a 13-byte LZMA header. RedLynx stores this in the container header
+  instead (offset `0x08`).
 
-# 4. Physics Constraints (`GLUE` Chunk)
-Unlike objects, the physics joints (hinges, sliders, welds) are serialized as an Array of Structures (AoS). This chunk connects two Object IDs together so they behave as a single dynamic obstacle.
+### Decompression Procedure
 
-## `GLUE` Header
-| Offset | Type | Size | Description |
-|--------|------|------|-------------|
-`0x00` | `char[4]` | 4 bytes | Magic Signature: `GLUE`
-`0x04` | `uint16` | 2 bytes | Joint Count: The total number of physics constraints.
+1. Read the `Uncompressed Size` from offset `0x08` of the container header.
+2. Read the 5-byte LZMA properties from offset `0x14`.
+3. Synthesize a standard 13-byte LZMA header in memory:
+   `[5 bytes properties] + [8 bytes little-endian uncompressed size]`.
+4. Feed the remaining bytes (from offset `0x19` onward) to an LZMA decoder.
 
-## Joint Structure (12 Bytes Per Joint)
-Following the `Joint Count` (Offset `0x06` relative to chunk start), the file contains an array of joints.
-| Offset | Type | Size | Description |
-|--------|------|------|-------------|
-`0x00` | `uint16` | 2 bytes | Object A Index: The SoA index of the first object.
-`0x02` | `uint16` | 2 bytes | Object B Index: The SoA index of the second object.
-`0x04` | `uint32` | 4 bytes | "Parameter A: Float or bitmask (Hinge limits, break force)."
-`0x08` | `uint32` | 4 bytes | Parameter B: Float or bitmask.
+---
 
-*Note: `0x9FCF33F2` is frequently used in Parameters A/B and represents a null/default engine value...*
+## Uncompressed Payload — `OBJ5` Map Data
 
-# Summary
-To mod or parse a `.trk` file, a program must execute these steps
+Once decompressed, the raw map data begins. To optimize for the Xbox 360's AltiVec SIMD
+processing, RedLynx serializes map objects using a **Structure of Arrays (SoA)** layout
+rather than standard Arrays of Structures.
 
-1. Read the header, extract uncompressed size and byte-swap to little-endian.
-2. Synthesize a 13-byte header and decompress the LZMA stream starting at `0x14`.
-3. Read the `OBJ5` magic and `Object Count`.
-4. Dynamically calculate memory boundaries for all 9 Object Arrays.
-5. Search the remainder of the file for the `GLUE` tag.
-6. Extract the `Joint Count` and parse the 12-byte AoS joint definitions.
-7. Quarantine the remaining binary blobs `PreGlue` and `PostGlue` to inject them back unmodified when repacking the track.
+### Master Header (6 bytes)
+
+| Offset | Size | Type   | Description                                            |
+|--------|------|--------|--------------------------------------------------------|
+| `0x00` | 4    | char[4]| Magic signature: `OBJ5`                                |
+| `0x04` | 2    | uint16 | Object count: total number of physics props in the map |
+
+---
+
+## Object Arrays (Structure of Arrays)
+
+Following the object count (at offset `0x06`), the engine lays out **9 consecutive arrays**.
+Each array contains one field for every object. To find the byte offset of array `N`, sum
+the sizes of all preceding arrays: `Object Count × Bytes Per Item` for each.
+
+| # | Array Name   | Type   | Bytes Per Item | Description                                                         |
+|---|--------------|--------|----------------|---------------------------------------------------------------------|
+| 0 | Type IDs     | uint8  | 1              | Entity/mesh ID (e.g. `128` = Ramp, `211` = Barrel)                  |
+| 1 | Variants     | uint16 | 2              | Object flags, texture variants, or collision masks                  |
+| 2 | X Coords     | float  | 4              | X-axis world position                                               |
+| 3 | Y Coords     | float  | 4              | Y-axis world position                                               |
+| 4 | Z Coords     | float  | 4              | Z-axis depth layer (Trials HD is 2.5D; typically `3.84` for rider)  |
+| 5 | Rotation X   | uint8  | 1              | Compressed Euler pitch (0–255 → 0°–360°)                            |
+| 6 | Rotation Y   | uint8  | 1              | Compressed Euler yaw                                                |
+| 7 | Rotation Z   | uint8  | 1              | Compressed Euler roll                                               |
+| 8 | Scale / Extra| uint8  | 1              | Uniform scale factor (`127` = 1.0×)                                 |
+
+To read a single object (e.g. object index `5`), index all 9 arrays at position `[5]`.
+
+```
+Array 0 (Type IDs):   [obj0][obj1][obj2][obj3][obj4][obj5]...
+Array 1 (Variants):   [obj0    ][obj1    ][obj2    ]...
+Array 2 (X Coords):   [obj0        ][obj1        ]...
+...and so on for all 9 arrays
+```
+
+---
+
+## FourCC Chunks
+
+After the final object array (`Scale / Extra`), the file transitions into a sequential
+chunk format identified by **Four-Character Codes** (FourCCs). These define logic,
+lighting, and physics links.
+
+| Tag    | Description                              |
+|--------|------------------------------------------|
+| `TRP1` | Triggers and checkpoints                 |
+| `TRG2` | Triggers and checkpoints (variant)       |
+| `BGR16`| Backgrounds and skyboxes                 |
+| `CMUL` | Color multiplier / lighting parameters   |
+| `EXT0` | Extra engine parameters                  |
+| `GLUE` | Physics constraints (see below)          |
+| `PACK` | End-of-file marker                       |
+| `TEND` | Track End marker                         |
+
+---
+
+## Physics Constraints — `GLUE` Chunk
+
+Unlike the SoA object data, physics joints (hinges, sliders, welds) are serialized as an
+**Array of Structures (AoS)**. This chunk connects two object indices together so they
+behave as a single dynamic obstacle.
+
+### `GLUE` Header (6 bytes)
+
+| Offset | Size | Type   | Description                                      |
+|--------|------|--------|--------------------------------------------------|
+| `0x00` | 4    | char[4]| Magic signature: `GLUE`                          |
+| `0x04` | 2    | uint16 | Joint count: total number of physics constraints |
+
+### Joint Structure (12 bytes per joint)
+
+Following the joint count (offset `0x06` relative to chunk start):
+
+| Offset | Size | Type   | Description                                                      |
+|--------|------|--------|------------------------------------------------------------------|
+| `0x00` | 2    | uint16 | Object A index: SoA index of the first object                    |
+| `0x02` | 2    | uint16 | Object B index: SoA index of the second object                   |
+| `0x04` | 4    | uint32 | Parameter A: float or bitmask (hinge limits, break force)        |
+| `0x08` | 4    | uint32 | Parameter B: float or bitmask                                    |
+
+**Note:** The value `0x9FCF33F2` appears frequently in Parameters A/B and represents a
+null/default engine sentinel value.
+
+---
+
+## Parsing Summary
+
+To mod or parse a `.trk` file, a program must execute these steps:
+
+1. Read the container header; extract uncompressed size and byte-swap to little-endian.
+2. Synthesize a 13-byte LZMA header and decompress the stream starting at offset `0x14`.
+3. Read the `OBJ5` magic and object count.
+4. Dynamically calculate memory boundaries for all 9 object arrays.
+5. Search the remainder of the file for `GLUE` and other FourCC tags.
+6. Extract the joint count and parse the 12-byte AoS joint definitions.
+7. Preserve unrecognized binary regions (`PreGlue` / `PostGlue`) as opaque blobs for
+   injection back into the file when repacking.
