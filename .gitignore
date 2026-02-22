@@ -4,6 +4,9 @@
 *.vscode
 *.cache
 
+# Zone identifier
+*:Zone.Identifier
+
 *.pak
 *.tex
 *.dds
