@@ -5,6 +5,7 @@ endif()
 project(TrialsHD LANGUAGES CXX)
 
 find_package(LibXml2 REQUIRED)
+find_package(ZLIB REQUIRED)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -44,6 +45,6 @@ add_executable(track_tool
     code/tools/track_tool.cpp
 )
 
-target_link_libraries(track_tool PRIVATE shared game LibXml2::LibXml2
+target_link_libraries(track_tool PRIVATE shared game LibXml2::LibXml2 ZLIB::ZLIB
     $<$<BOOL:${REDLYNX_LINUX}>:lzma>
 )
