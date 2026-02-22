@@ -51,10 +51,23 @@ bool Track::Load(const std::string& FilePath)
 
     // Determine what kind of uncompressed payload we are looking at
     if (RawData.size() >= 4 && RawData[0] == static_cast<uint8>('O') && RawData[1] == static_cast<uint8>('B') &&
-        RawData[2] == static_cast<uint8>('J') && RawData[3] == static_cast<uint8>('5'))
+        RawData[2] == static_cast<uint8>('J'))
     {
-        PayloadType = "OBJ5";
-        return _OBJ5_Parse(RawData);
+        char Version = static_cast<char>(RawData[3]);
+        if (Version == '5')
+        {
+            PayloadType = "OBJ5";
+            return _OBJ5_Parse(RawData);
+        }
+        else
+        {
+            // Legacy Map Format (OBJ1, OBJ2, OBJ4).
+            //
+            // Quarantine to Hex so it can be safely repacked.
+            PayloadType = std::string("OBJ") + Version;
+            RawXML = ToHex(RawData);
+            return true;
+        }
     }
     else if (RawData.size() >= 4 && RawData[0] == static_cast<uint8>('<'))
     {
@@ -65,8 +78,10 @@ bool Track::Load(const std::string& FilePath)
     }
     else
     {
-        std::fprintf(stderr, "[Error] [track.cpp] Unknown payload magic: %02X %02X %02X %02X\n", RawData[0], RawData[1], RawData[2], RawData[3]);
-        return false;
+        // Absolute unknown payload. Backup safely.
+        PayloadType = "RAW";
+        RawXML = ToHex(RawData);
+        return true;
     }
 }
 
@@ -112,6 +127,11 @@ bool Track::Save(const std::string& FilePath)
     {
         Payload.assign(RawXML.begin(), RawXML.end());
     }
+    else
+    {
+        // Recover legacy OBJ or RAW formats from Hex String
+        Payload = FromHex(RawXML);
+    }
 
     // Compress the payload
     std::vector<uint8> CompressedStream;
@@ -125,67 +145,47 @@ bool Track::Save(const std::string& FilePath)
     if (!OutTrack) return false;
 
     // Write original wrapper
-    OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
-
-    if (Compression == "LZMA")
+    if (!OriginalHeader.empty())
     {
-        uint32 Magic = OriginalHeader.size() >= 4 ? ReadBE32(std::span<const uint8>(OriginalHeader), 0) : 0;
-
-        if (Magic == 0xDEADBABE && OriginalHeader.size() >= 12)
+        if (Compression == "LZMA")
         {
-            // Inject the updated true payload size
-            uint32 RealUncompressedSize = Payload.size();
-            OriginalHeader[8] = (RealUncompressedSize >> 24) & 0xFF;
-            OriginalHeader[9] = (RealUncompressedSize >> 16) & 0xFF;
-            OriginalHeader[10] = (RealUncompressedSize >> 8) & 0xFF;
-            OriginalHeader[11] = RealUncompressedSize & 0xFF;
+            uint32 Magic = OriginalHeader.size() >= 4 ? ReadBE32(std::span<const uint8>(OriginalHeader), 0) : 0;
 
-            // Strip the 8-byte LZMA uncompressed size to match DEADBABE format
-            OutTrack.seekp(0);
-            OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
-            OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()), 5);
-            OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()) + 13, CompressedStream.size() - 13);
+            if (LzmaStripped && Magic == 0xDEADBABE && OriginalHeader.size() >= 12)
+            {
+                // Inject the updated true payload size
+                uint32 RealUncompressedSize = Payload.size();
+                OriginalHeader[8] = (RealUncompressedSize >> 24) & 0xFF;
+                OriginalHeader[9] = (RealUncompressedSize >> 16) & 0xFF;
+                OriginalHeader[10] = (RealUncompressedSize >> 8) & 0xFF;
+                OriginalHeader[11] = RealUncompressedSize & 0xFF;
+
+                // Strip the 8-byte LZMA uncompressed size to match DEADBABE format
+                OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
+                OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()), 5);
+                OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()) + 13, CompressedStream.size() - 13);
+            }
+            else
+            {
+                // Keep entire 13-byte standard LZMA header
+                OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
+                OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()), CompressedStream.size());
+            }
         }
         else
         {
-            // Keep entire 13-byte standard LZMA header
+            OutTrack.write(reinterpret_cast<const char*>(OriginalHeader.data()), OriginalHeader.size());
             OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()), CompressedStream.size());
         }
     }
     else
     {
+        // No header available (e.g. standard ZLIB starts immediately)
         OutTrack.write(reinterpret_cast<const char*>(CompressedStream.data()), CompressedStream.size());
     }
 
     OutTrack.close();
     return true;
-}
-
-// Prints an entire summary of the track to the console.
-void Track::PrintSummary() const
-{
-    if (PayloadType == "XML")
-    {
-        std::cout << "[+] Track contains a raw XML payload (" << RawXML.size() << " bytes).\n";
-        return;
-    }
-
-    std::cout << "[+] Extracted " << Objects.size() << " Objects and " << Joints.size() << " Joints.\n\n";
-
-    std::cout << "--- First 5 Objects ---\n";
-    for(size i = 0; i < std::min<size>(5, Objects.size()); i++)
-    {
-        std::cout << "ID: " << i << " | Type: " << (int32)Objects[i].TypeID
-                  << " | Pos: (" << std::fixed << std::setprecision(2) << Objects[i].X << ", "
-                  << Objects[i].Y << ", " << Objects[i].Z << ")\n";
-    }
-
-    std::cout << "\n--- First 5 Joints ---\n";
-    for(size i = 0; i < std::min<size>(5, Joints.size()); i++)
-    {
-        std::cout << "Joint: " << i << " | Connects Obj " << Joints[i].ObjA
-                  << " to Obj " << Joints[i].ObjB << "\n";
-    }
 }
 
 // Exports the track data to a human readable XML format. This is used for editing tracks.
@@ -197,6 +197,7 @@ bool Track::ExportXML(const std::string& FilePath) const
 
     xmlNewChild(Root, NULL, BAD_CAST "Header", BAD_CAST ToHex(OriginalHeader).c_str());
     xmlNewChild(Root, NULL, BAD_CAST "CompMethod", BAD_CAST Compression.c_str());
+    xmlNewChild(Root, NULL, BAD_CAST "LzmaStripped", BAD_CAST (LzmaStripped ? "1" : "0"));
     xmlNewChild(Root, NULL, BAD_CAST "PayloadType", BAD_CAST PayloadType.c_str());
 
     if (PayloadType == "OBJ5")
@@ -235,6 +236,11 @@ bool Track::ExportXML(const std::string& FilePath) const
         xmlNodePtr CData = xmlNewCDataBlock(Doc, BAD_CAST RawXML.c_str(), RawXML.length());
         xmlAddChild(RawNode, CData);
     }
+    else
+    {
+        // For Legacy OBJ formats and unknown data
+        xmlNewChild(Root, NULL, BAD_CAST "RawPayload", BAD_CAST RawXML.c_str());
+    }
 
     xmlSaveFormatFileEnc(FilePath.c_str(), Doc, "UTF-8", 1);
     xmlFreeDoc(Doc);
@@ -257,6 +263,7 @@ bool Track::ImportXML(const std::string& FilePath)
 
     Objects.clear();
     Joints.clear();
+    LzmaStripped = false;
 
     auto GetPropStr = [](xmlNodePtr Node, const char* PropName) -> std::string
     {
@@ -279,32 +286,53 @@ bool Track::ImportXML(const std::string& FilePath)
         if (NodeName == "Header")
         {
             xmlChar* Content = xmlNodeGetContent(CurNode);
-            OriginalHeader = FromHex(reinterpret_cast<char*>(Content));
+            if (Content) OriginalHeader = FromHex(reinterpret_cast<char*>(Content));
             xmlFree(Content);
         }
         else if (NodeName == "CompMethod")
         {
             xmlChar* Content = xmlNodeGetContent(CurNode);
-            Compression = reinterpret_cast<char*>(Content);
+            if (Content) Compression = reinterpret_cast<char*>(Content);
+            xmlFree(Content);
+        }
+        else if (NodeName == "LzmaStripped")
+        {
+            xmlChar* Content = xmlNodeGetContent(CurNode);
+            if (Content) LzmaStripped = (std::string(reinterpret_cast<char*>(Content)) == "1");
             xmlFree(Content);
         }
         else if (NodeName == "PayloadType")
         {
             xmlChar* Content = xmlNodeGetContent(CurNode);
-            PayloadType = reinterpret_cast<char*>(Content);
+            if (Content) PayloadType = reinterpret_cast<char*>(Content);
             xmlFree(Content);
         }
         else if (NodeName == "PreGlue")
         {
             xmlChar* Content = xmlNodeGetContent(CurNode);
-            PreGlueData = FromHex(reinterpret_cast<char*>(Content));
+            if (Content) PreGlueData = FromHex(reinterpret_cast<char*>(Content));
             xmlFree(Content);
         }
         else if (NodeName == "PostGlue")
         {
             xmlChar* Content = xmlNodeGetContent(CurNode);
-            PostGlueData = FromHex(reinterpret_cast<char*>(Content));
+            if (Content) PostGlueData = FromHex(reinterpret_cast<char*>(Content));
             xmlFree(Content);
+        }
+        else if (NodeName == "RawPayload")
+        {
+            xmlChar* Content = xmlNodeGetContent(CurNode);
+            if (Content) RawXML = reinterpret_cast<char*>(Content);
+            xmlFree(Content);
+        }
+        else if (NodeName == "RawXML")
+        {
+            xmlChar* Content = xmlNodeGetContent(CurNode);
+            if (Content)
+            {
+                RawXML = reinterpret_cast<char*>(Content);
+                xmlFree(Content);
+            }
         }
         else if (NodeName == "Objects")
         {
@@ -339,20 +367,43 @@ bool Track::ImportXML(const std::string& FilePath)
                 Joints.push_back(Jt);
             }
         }
-        else if (NodeName == "RawXML")
-        {
-            xmlChar* Content = xmlNodeGetContent(CurNode);
-            if (Content)
-            {
-                RawXML = reinterpret_cast<char*>(Content);
-                xmlFree(Content);
-            }
-        }
     }
 
     xmlFreeDoc(Doc);
     xmlCleanupParser();
     return true;
+}
+
+// Prints an entire summary of the track to the console.
+void Track::PrintSummary() const
+{
+    if (PayloadType == "XML")
+    {
+        std::cout << "[+] Track contains a raw XML payload (" << RawXML.size() << " bytes).\n";
+        return;
+    }
+    else if (PayloadType != "OBJ5")
+    {
+        std::cout << "[+] Track contains Legacy/Raw Format: " << PayloadType << " (" << RawXML.size() / 2 << " bytes)\n";
+        return;
+    }
+
+    std::cout << "[+] Extracted " << Objects.size() << " Objects and " << Joints.size() << " Joints.\n\n";
+
+    std::cout << "--- First 5 Objects ---\n";
+    for(size i = 0; i < std::min<size>(5, Objects.size()); i++)
+    {
+        std::cout << "ID: " << i << " | Type: " << (int32)Objects[i].TypeID
+                  << " | Pos: (" << std::fixed << std::setprecision(2) << Objects[i].X << ", "
+                  << Objects[i].Y << ", " << Objects[i].Z << ")\n";
+    }
+
+    std::cout << "\n--- First 5 Joints ---\n";
+    for(size i = 0; i < std::min<size>(5, Joints.size()); i++)
+    {
+        std::cout << "Joint: " << i << " | Connects Obj " << Joints[i].ObjA
+                  << " to Obj " << Joints[i].ObjB << "\n";
+    }
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -366,6 +417,7 @@ std::vector<uint8> Track::_Decompress(const std::vector<uint8>& FileData)
 
     size CompOffset = 0;
     Compression = "NONE";
+    LzmaStripped = false;
 
     // Scan for compression streams dynamically
     for (size i = 0; i <= FileData.size() - 4; i++)
@@ -403,56 +455,66 @@ std::vector<uint8> Track::_Decompress(const std::vector<uint8>& FileData)
 
     if (Compression == "LZMA")
     {
-        std::vector<uint8> SynthBuffer;
-        uint32 ExpectedSize = 0;
-        uint32 Magic = OriginalHeader.size() >= 4 ? ReadBE32(std::span<const uint8>(OriginalHeader), 0) : 0;
-
-        if (Magic == 0xDEADBABE && OriginalHeader.size() >= 12)
+        auto TryDecode = [](const std::vector<uint8>& synth_buf, std::vector<uint8>& out_data) -> bool
         {
-            ExpectedSize = ReadBE32(std::span<const uint8>(OriginalHeader), 8);
+            lzma_stream strm = LZMA_STREAM_INIT;
+            if (lzma_alone_decoder(&strm, UINT64_MAX) != LZMA_OK) return false;
 
-            SynthBuffer.reserve(13 + FileData.size() - CompOffset - 5);
-            for (int32 i = 0; i < 5; i++) SynthBuffer.push_back(FileData[CompOffset + i]);
+            strm.next_in = synth_buf.data();
+            strm.avail_in = synth_buf.size();
 
-            uint64 UncompSize64 = ExpectedSize;
-            for (int32 i = 0; i < 8; i++) SynthBuffer.push_back((UncompSize64 >> (i * 8)) & 0xFF);
+            uint8 chunk[16384];
+            bool success = true;
+            while (true)
+            {
+                strm.next_out = chunk;
+                strm.avail_out = sizeof(chunk);
+                lzma_ret ret = lzma_code(&strm, LZMA_RUN);
 
-            for (size i = CompOffset + 13; i < FileData.size(); i++) SynthBuffer.push_back(FileData[i]);
+                size have = sizeof(chunk) - strm.avail_out;
+                out_data.insert(out_data.end(), chunk, chunk + have);
+
+                if (ret == LZMA_STREAM_END) break;
+                if (ret != LZMA_OK) { success = false; break; }
+                if (strm.avail_out > 0 && strm.avail_in == 0) break;
+            }
+            lzma_end(&strm);
+            return success;
+        };
+
+        std::vector<uint8> SynthBufferIntact(FileData.begin() + CompOffset, FileData.end());
+        if (TryDecode(SynthBufferIntact, UncompressedData) && !UncompressedData.empty())
+        {
+            LzmaStripped = false;
         }
         else
         {
-            // Standard 13-byte intact header
-            uint64 UncompSize64 = 0;
-            for (int i = 0; i < 8; i++)
+            UncompressedData.clear();
+            std::vector<uint8> SynthBufferStripped;
+
+            uint32 ExpectedSize = 1024 * 1024 * 10;
+            if (OriginalHeader.size() >= 12 && OriginalHeader[0] == 0xDE && OriginalHeader[1] == 0xAD &&
+                OriginalHeader[2] == 0xBA && OriginalHeader[3] == 0xBE)
             {
-                UncompSize64 |= (static_cast<uint64>(FileData[CompOffset + 5 + i]) << (i * 8));
+                ExpectedSize = ReadBE32(std::span<const uint8>(OriginalHeader), 8);
             }
-            ExpectedSize = static_cast<uint32>(UncompSize64);
-            SynthBuffer.assign(FileData.begin() + CompOffset, FileData.end());
+
+            SynthBufferStripped.reserve(13 + FileData.size() - CompOffset - 5);
+            for (int32 i = 0; i < 5; i++) SynthBufferStripped.push_back(FileData[CompOffset + i]);
+            uint64 UncompSize64 = ExpectedSize;
+            for (int32 i = 0; i < 8; i++) SynthBufferStripped.push_back((UncompSize64 >> (i * 8)) & 0xFF);
+            for (size i = CompOffset + 5; i < FileData.size(); i++) SynthBufferStripped.push_back(FileData[i]);
+
+            if (TryDecode(SynthBufferStripped, UncompressedData) && !UncompressedData.empty())
+            {
+                LzmaStripped = true;
+            }
+            else
+            {
+                std::fprintf(stderr, "[-] Failed to decode LZMA stream.\n");
+                return {};
+            }
         }
-
-        lzma_stream strm = LZMA_STREAM_INIT;
-        if (lzma_alone_decoder(&strm, uint64_max) != LZMA_OK) return {};
-
-        strm.next_in = SynthBuffer.data();
-        strm.avail_in = SynthBuffer.size();
-
-        // Loop chunks to guarantee full decompression
-        uint8 chunk[16384];
-        while (true)
-        {
-            strm.next_out = chunk;
-            strm.avail_out = sizeof(chunk);
-            lzma_ret ret = lzma_code(&strm, LZMA_RUN);
-
-            size have = sizeof(chunk) - strm.avail_out;
-            UncompressedData.insert(UncompressedData.end(), chunk, chunk + have);
-
-            if (ret == LZMA_STREAM_END) break;
-            if (ret != LZMA_OK) break;
-            if (strm.avail_out > 0 && strm.avail_in == 0) break;
-        }
-        lzma_end(&strm);
     }
     else if (Compression == "ZLIB")
     {
@@ -463,6 +525,7 @@ std::vector<uint8> Track::_Decompress(const std::vector<uint8>& FileData)
         strm.avail_in = FileData.size() - CompOffset;
 
         uint8 chunk[16384];
+
         while (true)
         {
             strm.next_out = chunk;
@@ -476,6 +539,7 @@ std::vector<uint8> Track::_Decompress(const std::vector<uint8>& FileData)
             if (ret != Z_OK && ret != Z_BUF_ERROR) break;
             if (strm.avail_out > 0 && strm.avail_in == 0) break;
         }
+
         inflateEnd(&strm);
     }
 
@@ -491,7 +555,7 @@ std::vector<uint8> Track::_CompressLZMA(const std::vector<uint8>& FileData)
     lzma_stream strm = LZMA_STREAM_INIT;
     if (lzma_alone_encoder(&strm, &opt) != LZMA_OK)
     {
-        std::fprintf(stderr, "[Error] [track.cpp] Failed to initialize LZMA encoder.\n");
+        std::fprintf(stderr, "[-] Failed to initialize LZMA encoder.\n");
         return {};
     }
 
@@ -504,7 +568,6 @@ std::vector<uint8> Track::_CompressLZMA(const std::vector<uint8>& FileData)
     lzma_code(&strm, LZMA_FINISH);
     OutData.resize(OutData.capacity() - strm.avail_out);
     lzma_end(&strm);
-
     return OutData;
 }
 
@@ -514,7 +577,11 @@ std::vector<uint8> Track::_CompressZLIB(const std::vector<uint8>& FileData)
     std::vector<uint8> OutData(FileData.size() + 1024);
 
     z_stream strm = {};
-    if (deflateInit(&strm, Z_BEST_COMPRESSION) != Z_OK) return {};
+    if (deflateInit(&strm, Z_BEST_COMPRESSION) != Z_OK)
+    {
+        std::fprintf(stderr, "[-] Failed to initialize zlib encoder.\n");
+        return {};
+    }
 
     strm.next_in = (Bytef*)FileData.data();
     strm.avail_in = FileData.size();
