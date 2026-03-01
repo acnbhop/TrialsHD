@@ -1,0 +1,14 @@
+<properties>
+	<physics mass="70" friction="0.9" restitution="0.1" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="25.0"
+	enablePhysics="1"
+	enableAnimation="1"	
+	minimumDamage="2.0"
+	brokenobject=""
+	destructioneffect="effects\explosion_flybomb_1.gfx" 
+	material="metal"
+	collisionsound="Missile"
+	destructionscore="750"/>	
+</properties>
+
+
+

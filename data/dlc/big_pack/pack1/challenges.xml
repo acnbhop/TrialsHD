@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  Challenge:
+  
+    id              = track ID
+    type            = {racing | freestyle | crash }
+    leaderboard_id  = leaderboard stat view ID
+    context_id      = context ID
+    fullonly        = true if not in trial mode, false if available in trial mode
+    difficulty      = 1 (beginner), 2 (easy), 3 (medium), 4 (hard), 5 (inferno)
+    factor          = fault factor for global csore calculation
+
+    Limits:
+
+      pass          = minimum time to pass track (milliseconds)
+      gold,         = in racing mode, times to reach medals in this track (milliseconds)
+      silver,         in other modes, points to reach medals in this track
+      bronze
+      
+      pass_faults,  = maximum faults to pass this medal
+      gold_faults,
+      silver_faults,
+      bronze_faults
+
+-->
+<Challenges>
+
+  <!-- Pipe Network, Space Station, Speed Trap, Epic Jumps, Dangerous Ride -->
+  <Challenge id="9" type="racing" leaderboard_id="107" context_id="8" fullonly="true" difficulty="3" bikes="34M">  
+    <Track id="454"/>		
+    <Track id="467"/>		
+    <Track id="456"/>    
+    <Track id="464"/>		
+    <Track id="451"/>		
+    <!--Limits platinum="320000" gold="350000" silver="400000" platinum_faults="0" gold_faults="0" silver_faults="25" pass="10000"/-->
+    <!--Limits platinum="275000" gold="296000" silver="420000" platinum_faults="0" gold_faults="0" silver_faults="26" pass="10000"/-->
+	<Limits platinum="270000" gold="293000" silver="420000" platinum_faults="0" gold_faults="0" silver_faults="25" pass="1000"/>
+  </Challenge>
+
+  <!-- Pro Speedway, Smelting Hazard, Workshop of Secrets, Fantastic, Final Flashback -->
+  <Challenge id="10" type="racing" leaderboard_id="108" context_id="9" fullonly="true" difficulty="3" bikes="34M">
+    <Track id="458"/>
+    <Track id="459"/>        
+    <Track id="453"/>
+    <Track id="457"/>	
+    <Track id="468"/>     
+    <!--Limits platinum="260000" gold="310000" silver="985000" platinum_faults="0" gold_faults="5" silver_faults="30" pass="10000"/-->
+    <!--Limits platinum="217000" gold="253000" silver="409000" platinum_faults="0" gold_faults="4" silver_faults="31" pass="10000"/-->
+	<Limits platinum="220000" gold="255000" silver="420000" platinum_faults="0" gold_faults="4" silver_faults="30" pass="1000"/>
+  </Challenge>
+
+  <!-- Junkyard, 4 Bit Trip, Where's the sky, Shady Bunker -->
+  <Challenge id="11" type="racing" leaderboard_id="109" context_id="10" fullonly="true" difficulty="4" bikes="34">
+    <Track id="460"/>    
+    <Track id="465"/>
+    <Track id="455"/>    
+    <Track id="461"/>  	
+    <!--Limits platinum="300000" gold="340000" silver="410000" platinum_faults="0" gold_faults="2" silver_faults="25" pass="10000"/-->
+	<!--Limits platinum="259000" gold="296000" silver="451000" platinum_faults="0" gold_faults="2" silver_faults="26" pass="10000"/-->
+	<Limits platinum="260000" gold="296000" silver="450000" platinum_faults="0" gold_faults="2" silver_faults="25" pass="1000"/>
+  </Challenge>
+
+  <!-- Wheel of Wisfortune, Skyway, Prison break, Smoke and Mirrors, Isabelle -->
+  <Challenge id="12" type="racing" leaderboard_id="110" context_id="11" fullonly="true" difficulty="4" bikes="34">
+    <Track id="469"/>
+    <Track id="452"/>
+    <Track id="493"/>    
+    <Track id="470"/>    
+    <Track id="494"/>
+    <!--Limits platinum="300000" gold="380000" silver="560000" platinum_faults="0" gold_faults="25" silver_faults="70" pass="10000"/-->
+    <!--Limits platinum="255000" gold="326000" silver="869000" platinum_faults="0" gold_faults="28" silver_faults="77" pass="10000"/-->
+	<Limits platinum="250000" gold="340000" silver="840000" platinum_faults="0" gold_faults="30" silver_faults="75" pass="1000"/>
+  </Challenge>
+
+  <!-- All extremes -->
+  <Challenge id="13" type="racing" leaderboard_id="111" context_id="12" fullonly="true" difficulty="5" bikes="4">
+    <Track id="462"/>
+    <Track id="15"/>
+    <Track id="23"/>
+    <Track id="35"/>
+    <Track id="11"/>
+    <Track id="463"/>
+    <!--Limits platinum="360000" gold="420000" silver="600000" platinum_faults="6" gold_faults="20" silver_faults="60" pass="10000"/-->        
+	<!--Limits platinum="649000" gold="1437000" silver="3519000" platinum_faults="6" gold_faults="115" silver_faults="506" pass="10000"/-->
+	<Limits platinum="630000" gold="1390000" silver="3400000" platinum_faults="6" gold_faults="110" silver_faults="500" pass="1000"/>
+  </Challenge>
+
+</Challenges>

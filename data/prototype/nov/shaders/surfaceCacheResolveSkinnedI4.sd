@@ -1,0 +1,17 @@
+// Shader file
+shader shaders/surfaceCacheResolveSkinnedI4.fx
+
+// Vertex format
+vxf position HALF3 FLOAT3
+vxf weights FLOAT4 FLOAT4
+vxf index UBYTE4 UBYTE4
+
+// Textures
+tex 0 surfaceCacheFuture
+tex 0 surfaceCachePast
+
+// Constants
+constant matrixWVP 30
+constant matrixWVPSurfaceCache 30
+//constant objectID 0
+//constant frameMod 0

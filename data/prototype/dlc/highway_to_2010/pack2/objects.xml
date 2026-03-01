@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+  Object categories:
+
+      0 = Walls (not visible in editor)
+      1 = Lights
+      2 = Checkpoints
+      3 = Boxes
+      4 = Boards/Planks
+      5 = Tubes/Cylinders
+      6 = ...
+
+  Object properties:
+
+      Required:
+
+        file            = filename of the object
+        name            = key to localization file for the human-readable
+                          name of object visible in editor
+
+      Optional:
+
+        disablephysics  = set to true to prevent setting this object to
+                          physical (falling etc)
+        hidden          = set to true to hide from track editor menus
+-->
+
+<ObjectList>
+	<!-- Effects & Bonus -->
+	<Category id="18">
+	
+		<Object id="471" file="objects/firework_box_2.gfx" hidden="rel" name="FIREWORK_1" costf="1" costg="1"/>
+		<Object id="477" file="objects/firework_box_3.gfx" hidden="rel" name="FIREWORK_2" costf="1" costg="1"/>
+		<Object id="478" file="objects/firework_box_4.gfx" hidden="rel" name="FIREWORK_3" costf="1" costg="1"/>
+		<Object id="503" file="objects/firework_box_5.gfx" hidden="rel" name="FIREWORK_4" costf="1" costg="1"/>
+		<Object id="504" file="objects/firework_box_6.gfx" hidden="rel" name="FIREWORK_5" costf="1" costg="1"/>						
+	
+	</Category>
+  
+</ObjectList>

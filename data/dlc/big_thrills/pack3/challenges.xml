@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  Challenge:
+  
+    id              = track ID
+    type            = {racing | freestyle | crash }
+    leaderboard_id  = leaderboard stat view ID
+    context_id      = context ID
+    fullonly        = true if not in trial mode, false if available in trial mode
+    difficulty      = 1 (beginner), 2 (easy), 3 (medium), 4 (hard), 5 (inferno)
+    factor          = fault factor for global csore calculation
+
+    Limits:
+
+      pass          = minimum time to pass track (milliseconds)
+      gold,         = in racing mode, times to reach medals in this track (milliseconds)
+      silver,         in other modes, points to reach medals in this track
+      bronze
+      
+      pass_faults,  = maximum faults to pass this medal
+      gold_faults,
+      silver_faults,
+      bronze_faults
+
+-->
+<Challenges>
+
+   <!-- Junior Cup --> 
+   <Challenge id="16" type="racing" leaderboard_id="165" context_id="13" fullonly="true" difficulty="3" bikes="34">
+	<Track id="383"/>
+	<Track id="354"/>
+	<Track id="386"/>
+	<Track id="353"/>
+	<Track id="390"/>
+	<Limits platinum="145000" gold="162000" silver="185000" platinum_faults="0" gold_faults="3" silver_faults="10" pass="1000"/>
+   </Challenge>
+
+
+   <!-- Donkey's Year --> 
+   <Challenge id="14" type="racing" leaderboard_id="166" context_id="14" fullonly="true" difficulty="3" bikes="M">
+	<Track id="359"/>
+	<Track id="355"/>
+	<Track id="392"/>
+	<Track id="381"/>
+	<Limits platinum="150000" gold="168000" silver="200000" platinum_faults="0" gold_faults="8" silver_faults="40" pass="1000"/>
+   </Challenge>
+
+   <!-- Fantasy Cup -->
+   <Challenge id="18" type="racing" leaderboard_id="167" context_id="15" fullonly="true" difficulty="3" bikes="34">
+	<Track id="369"/>
+	<Track id="385"/>
+	<Track id="371"/>
+	<Track id="373"/>
+	<Track id="363"/>
+	<Track id="393"/>
+	<Limits platinum="240000" gold="330000" silver="480000" platinum_faults="0" gold_faults="20" silver_faults="75" pass="1000"/>
+   </Challenge>
+
+   <!-- Senior Circuit --> 
+   <Challenge id="17" type="racing" leaderboard_id="169" context_id="17" fullonly="true" difficulty="4" bikes="34">
+	<Track id="357"/>
+	<Track id="352"/>
+	<Track id="388"/>
+	<Track id="351"/>
+	<Track id="360"/>
+	<Track id="367"/>
+	<Limits platinum="240000" gold="290000" silver="375000" platinum_faults="0" gold_faults="10" silver_faults="30" pass="1000"/>
+   </Challenge>
+
+  <!-- Big Thrills Countdown -->
+  <Challenge id="19" type="racing" leaderboard_id="168" context_id="16" fullonly="true" difficulty="4" bikes="4">
+	<Track id="158"/>
+	<Track id="64"/>
+	<Track id="172"/>
+	<Track id="58"/>
+	<Track id="160"/>
+	<Track id="77"/>
+	<Track id="70"/>
+	<Track id="191"/>
+	<Track id="156"/>
+	<Track id="71"/>
+
+	<Limits platinum="515000" gold="645000" silver="900000" platinum_faults="0" gold_faults="25" silver_faults="100" pass="1000"/>
+   </Challenge>
+
+   <!-- Nervous Breakdown -->
+   <Challenge id="15" type="racing" leaderboard_id="170" context_id="18" fullonly="true" difficulty="5" bikes="4">
+	<Track id="380"/>
+	<Track id="370"/>
+	<Track id="362"/>
+	<Track id="379"/>
+	<Limits platinum="310000" gold="610000" silver="1300000" platinum_faults="0" gold_faults="100" silver_faults="300" pass="1000"/>
+   </Challenge>
+
+ 
+</Challenges>

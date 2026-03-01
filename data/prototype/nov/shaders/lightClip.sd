@@ -1,0 +1,12 @@
+// Shader file
+shader shaders/lightClip.fx
+
+// Vertex format
+vxf position FLOAT4 FLOAT3
+
+// Textures
+// NONE
+
+// Constants
+constant matrixWVP 0
+

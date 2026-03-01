@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+  Object categories:
+
+      0 = Walls (not visible in editor)
+      1 = Lights
+      2 = Checkpoints
+      3 = Boxes
+      4 = Boards/Planks
+      5 = Tubes/Cylinders
+      6 = ...
+
+  Object properties:
+
+      Required:
+
+        file            = filename of the object
+        name            = key to localization file for the human-readable
+                          name of object visible in editor
+
+      Optional:
+
+        disablephysics  = set to true to prevent setting this object to
+                          physical (falling etc)
+        hidden          = set to true to hide from track editor menus
+-->
+
+<ObjectList>
+  
+  <Category id="0" hidden="true">  
+  
+  <!-- Available empty Id's 101-118, 120 and 121 -->
+
+    <Object id="0"  file="objects/walls/wallset_1_brick_rough_xpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="1"  file="objects/walls/wallset_1_brick_rough_xneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="2"  file="objects/walls/wallset_1_brick_rough_yneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="3"  file="objects/walls/wallset_1_brick_rough_ypos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="4"  file="objects/walls/wallset_1_brick_rough_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="5"  file="objects/walls/wallset_1_brick_rough_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    
+    <Object id="6"  file="objects/walls/wallset_1_brick_xpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="7"  file="objects/walls/wallset_1_brick_xneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="8"  file="objects/walls/wallset_1_brick_yneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="9"  file="objects/walls/wallset_1_brick_ypos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="10" file="objects/walls/wallset_1_brick_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="11" file="objects/walls/wallset_1_brick_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />      
+    
+    <Object id="12" file="objects/walls/wallset_1_concrete_window_xpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="13" file="objects/walls/wallset_1_concrete_window_xneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="14" file="objects/walls/wallset_1_concrete_window_yneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="15" file="objects/walls/wallset_1_concrete_window_ypos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="16" file="objects/walls/wallset_1_concrete_window_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="17" file="objects/walls/wallset_1_concrete_window_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />        
+    
+    <Object id="18" file="objects/walls/wallset_1_concrete_xpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="34" file="objects/walls/wallset_1_concrete_xneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="46" file="objects/walls/wallset_1_concrete_yneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="48" file="objects/walls/wallset_1_concrete_ypos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="49" file="objects/walls/wallset_1_concrete_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="50" file="objects/walls/wallset_1_concrete_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />            
+    
+    <Object id="51" file="objects/walls/wallset_1_high_xpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="74" file="objects/walls/wallset_1_high_xneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="76" file="objects/walls/wallset_1_high_yneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="77" file="objects/walls/wallset_1_high_ypos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="80" file="objects/walls/wallset_1_high_ypos_2.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="81" file="objects/walls/wallset_1_high_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />                
+    <Object id="82" file="objects/walls/wallset_1_high_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="83" file="objects/walls/wallset_1_high_zpos_2.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />    
+    
+    <Object id="84" file="objects/walls/wallset_1_normal_xpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="85" file="objects/walls/wallset_1_normal_xneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="86" file="objects/walls/wallset_1_normal_yneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="87" file="objects/walls/wallset_1_normal_yneg_2.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="88" file="objects/walls/wallset_1_normal_ypos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />
+    <Object id="89" file="objects/walls/wallset_1_normal_ypos_2.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />                    
+
+    <Object id="90" file="objects/walls/wallset_1_normal_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />                    
+    <Object id="91" file="objects/walls/wallset_1_normal_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />                    
+    <Object id="92" file="objects/walls/wallset_1_normal_zpos_2.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />                                
+
+    <Object id="93" file="objects/walls/wallset_1_top_zpos_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />    
+    <Object id="94" file="objects/walls/wallset_1_top_zneg_1.gfx" name="WALL" disablephysics="true" hidden="true" costf="1" costg="1" />    
+    
+    <Object id="70" file="objects/tools_background_set_1.mdl" name="BACKGROUND_SET_1" disablephysics="true"  costf="1" costg="1" />
+    <Object id="71" file="objects/tools_background_set_2.mdl" name="BACKGROUND_SET_2" disablephysics="true"  costf="1" costg="1" />
+    <Object id="72" file="objects/tools_background_set_3.mdl" name="BACKGROUND_SET_3" disablephysics="true"  costf="1" costg="1" />
+    <Object id="73" file="objects/tools_background_set_4.mdl" name="BACKGROUND_SET_4" disablephysics="true"  costf="1" costg="1" />       
+        
+  </Category>
+
+<!-- Category 1 objects) -->
+  <Category id="1">
+    <Object id="19" file="objects/startpoint_flag_idle.gfx" gamecategory="checkpoint" name="STARTPOINT" disablephysics="true" hidden="true" costf="3" costg="3" />
+    <Object id="20" file="objects/checkpoint_flag_idle.gfx" gamecategory="checkpoint" name="CHECKPOINT" disablephysics="true" costf="3" costg="3" />
+    <Object id="21" file="objects/goalpoint_flag_idle.gfx" gamecategory="checkpoint" name="GOALPOINT" disablephysics="true" hidden="true"  costf="3" costg="3" />        
+<!--    <Object id="36" file="objects/tools_spline_point.mdl" name="TRACKPOINT" disablephysics="true" hidden="simple" costf="4" costg="4" />                     -->
+    <Object id="331" file="objects/delivery_bomb.gfx" name="DELIVERY_BOMB" hidden="true" costf="1" costg="1" />
+  </Category>
+  
+<!-- Category 2 Skill game-->
+  <Category id="2" hidden="simple">
+    <Object id="289" file="objects/giant_iron_ball.gfx" name="GIANT_IRON_BALL" costf="8" costg="6" />     
+    <Object id="290" file="objects/giant_iron_ball_inside.gfx" name="GIANT_IRON_BALL_INSIDE" costf="8" costg="6" />          
+    <Object id="314" file="objects/flipper.gfx" name="FLIPPER" costf="8" costg="3" />                     
+    <Object id="310" file="objects/flipper_small.gfx" name="FLIPPER_SMALL" costf="8" costg="3" />          
+    <Object id="315" file="objects/flipper_tiny.gfx" name="FLIPPER_TINY" costf="8" costg="2" />                     
+    <Object id="316" file="objects/flipper_wide.gfx" name="FLIPPER_WIDE" costf="8" costg="3" />
+    <Object id="317" file="objects/flipper_wide_2.gfx" name="FLIPPER_WIDE_2" costf="8" costg="3" />     
+    <Object id="231" file="objects/crash_goal_1.gfx" crashgoal="true" name="CRASH_GOAL_1" costf="4" costg="1" />
+    <Object id="232" file="objects/crash_target_1.gfx" crashtarget="true" name="CRASH_GOAL_TARGET_1" costf="2" costg="2" />    
+    <Object id="172" file="objects/crash_target_after_burner.gfx" gamecategory="booster" name="BOOST_AFTER_BURNER" costf="4" costg="2" />
+    <Object id="311" file="objects/game_fire_ring.gfx" crashtarget="true" gamecategory="booster" name="GAME_FIRE_RING" costf="2" costg="6" />                    
+    <Object id="313" file="objects/bowl_cone.gfx" name="GAME_BOWL_CONE" costf="3" costg="1" />   
+    <Object id="319" file="objects/tools_ski_trigger.gfx" gamecategory="trigger" name="TOOLS_TRIGGER_SKI" costf="4" costg="4" />				                  
+    <Object id="320" file="objects/tools_ring_of_fire_trigger.gfx" gamecategory="trigger" name="TOOLS_TRIGGER_RING_OF_FIRE" costf="4" costg="4" />  
+  </Category> 
+  
+<!-- Category 3 Tools -->    
+  <Category id="3" hidden="simple">
+    <!--Object id="147" file="objects/tools_force_rotate.gfx" gamecategory="tool" name="TOOLS_FORCE_ROTATE" costf="2" costg="1" />			  
+    <Object id="148" file="objects/tools_force_transform.gfx" gamecategory="tool" name="TOOLS_FORCE_TRANSFORM" costf="2" costg="1" /-->			  	
+    <Object id="167" file="objects/tools_trigger_scale_1.gfx" gamecategory="trigger" name="TOOLS_TRIGGER_SCALE_1" costf="4" costg="4" />				
+    <Object id="168" file="objects/tools_trigger_scale_2.gfx" gamecategory="trigger" name="TOOLS_TRIGGER_SCALE_2" costf="4" costg="4" />				
+    <Object id="169" file="objects/tools_trigger_scale_3.gfx" gamecategory="trigger" name="TOOLS_TRIGGER_SCALE_3" costf="4" costg="4" />						
+    <Object id="300" file="objects/constraints/rotational_hinge.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_ROTATIONAL_HINGE" costf="1" costg="1" />						
+    <Object id="301" file="objects/constraints/turning_hinge.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_LIMITED_HINGE" costf="1" costg="1" />						
+    <!--Object id="302" file="objects/constraints/ball_socket.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_BALL_SOCKET" costf="2" costg="1" /-->						
+    <!--Object id="303" file="objects/constraints/slider_1m.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_SLIDER_1M" costf="2" costg="1" /-->						
+    <!--Object id="304" file="objects/constraints/slider_2m.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_SLIDER_2M" costf="2" costg="1" /-->						
+    <Object id="305" file="objects/constraints/point_point_soft.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_POINT_POINT_SOFT" costf="1" costg="1" />						
+    <Object id="306" file="objects/constraints/point_point_hard.gfx" gamecategory="tool" name="TOOLS_CONSTRAINT_POINT_POINT_HARD" costf="1" costg="1" />						
+    <!--Object id="307" file="objects/constraints/chain.gfx" name="TOOLS_CONSTRAINT_CHAIN" costf="8" costg="2" /-->						
+    <Object id="174" file="objects/tools_explosion_range.gfx" gamecategory="tool" name="TEST" disablephysics="true" hidden="true" costf="1" costg="1" />	  						
+    <Object id="139" file="objects/error.mdl" name="TEST" disablephysics="true" hidden="true" costf="1" costg="1" />	          
+    <Object id="164" file="objects/tools_camera_action.gfx" gamecategory="tool" name="TOOLS_CAMERA_ACTION" costf="2" costg="2" />	
+    <Object id="165" file="objects/tools_camera_cinematic.gfx" gamecategory="tool" hidden="rel" name="TOOLS_CAMERA_CINEMATIC" costf="2" costg="2" />	
+    <Object id="166" file="objects/tools_camera_crash.gfx" gamecategory="tool" hidden="rel" name="TOOLS_CAMERA_CRASH" costf="2" costg="2" />			        
+  </Category>      
+  
+  <!-- Category 4 Lights -->
+  <Category id="4">
+     <Object id="27" file="objects/lights/fluorescent_lamp.gfx" name="FLUOR_LAMP" costf="1" costg="8" />
+	 <Object id="98" file="objects/lights/fluorescent_lamp_flicker.gfx" name="FLUOR_LAMP_FLICKER" costf="1" costg="8" />          
+	 <Object id="106" file="objects/lights/fluorescent_lamp_smashed.gfx" name="FLUOR_LAMP_SMASHED" costf="1" costg="8" />          	 	      
+     <Object id="35" file="objects/bulb_spotlight.gfx" name="BULB_SPOTLIGHT" costf="1" costg="8" />
+     <Object id="107" file="objects/lights/bulb_spotlight_flicker.gfx" name="BULB_SPOTLIGHT_FLICKER" costf="1" costg="8" />               
+     <Object id="119" file="objects/lamp_wall_1.gfx" name="LAMP_WALL_1" costf="1" costg="8" />     
+     <Object id="103" file="objects/lights/roof_rounded_light.gfx" name="ROOF_LIGHT" costf="1" costg="8" />     
+     <Object id="108" file="objects/lights/roof_rounded_light_flicker.gfx" name="ROOF_LIGHT_FLICKER" costf="1" costg="8" />          
+     <!--Object id="104" file="objects/lights/roof_rounded_light_with_grid.gfx" name="ROOF_LIGHT_WITH_GRID" costf="1" costg="8" /-->
+  </Category>
+  
+  <!-- Category 5 Planks -->
+  <Category id="5">
+    <Object id="23" file="objects/plank_short_1.gfx" name="PLANK_SHORT" costf="1" costg="1" />
+    <Object id="31" file="objects/plank_medium_1.gfx" name="PLANK_MED" costf="1" costg="1" />
+    <Object id="24" file="objects/plank_long_1.gfx" name="PLANK_LONG" costf="1" costg="1" />
+    <Object id="180" file="objects/plank_long_thin_1.gfx" name="PLANK_LONG_THIN" costf="1" costg="1" />
+    <Object id="324" file="objects/plank_extra_long_thin.gfx" name="PLANK_EXTRA_LONG_THIN" costf="1" costg="1" />
+    <Object id="233" file="objects/plank_wide_short_1.gfx" name="PLANK_WIDE_SHORT" costf="1" costg="1" />
+    <Object id="234" file="objects/plank_wide_medium_1.gfx" name="PLANK_WIDE_MEDIUM" costf="1" costg="1" />
+    <Object id="235" file="objects/plank_wide_long_1.gfx" name="PLANK_WIDE_LONG" costf="1" costg="1" />        
+  </Category>
+  
+  <!-- Category 6 Cylinder -->
+  <Category id="6">
+    <Object id="25" file="objects/metal_barrel_1.gfx" name="BARREL" costf="1" costg="1" />
+    <Object id="26" file="objects/metal_barrel_open_1.mdl" name="BARREL_OPEN"  costf="3" costg="1" />    
+    <Object id="287" file="objects/big_barrel_1.gfx" name="BIG_BARREL" costf="1" costg="1" />       
+    <Object id="33" file="objects/car_tire.gfx" name="CAR_TIRE"  costf="2" costg="1" />
+    <Object id="39" file="objects/tractor_tire.gfx" name="TRACTOR_TIRE"  costf="4" costg="2" />    
+    <Object id="57" file="objects/concrete_pipe.mdl" name="CONCRETE_PIPE"  costf="6" costg="2" />
+    <Object id="69" file="objects/concrete_pipe_curve.mdl" name="CONCRETE_PIPE_CURVE" costf="6" costg="2" />                   
+  </Category>  
+  
+  <!-- Category 7 Cubes -->
+  <Category id="7">  
+    <Object id="22" file="objects/wooden_box_big.gfx" name="BIG_BOX" costf="2" costg="1" />
+    <Object id="56" file="objects/ship_container.gfx" name="SHIP_CONTAINER" costf="8" costg="2" />
+    <Object id="75" file="objects/metal_cage_big.gfx" name="METAL_CAGE_BIG" costf="8" costg="3" />    
+    <Object id="78" file="objects/woodbox.gfx" name="WOODBOX" costf="2" costg="1" />
+    <Object id="79" file="objects/woodbox_wo_cover.gfx" name="WOODBOX_WO_COVER" costf="2" costg="1" />            
+    <Object id="330" file="objects/air_condenser_1.gfx" name="AIR_CONDENSER" costf="8" costg="3" />                
+    <Object id="332" file="objects/air_condenser_small_1.gfx" name="AIR_CONDENSER_SMALL" costf="6" costg="3" />                    
+    <Object id="105" file="objects/concrete_block.gfx" name="CONCRETE_BLOCK" costf="8" costg="2" />                       
+  </Category>  
+  
+  <!-- Category 8 Stones -->  
+  <Category id="8">
+    <Object id="142" file="objects/stones/rough_stone_1.mdl" name="STONE_1" costf="4" costg="2" />	
+    <Object id="143" file="objects/stones/rough_stone_2.mdl" name="STONE_2" costf="4" costg="2" />	
+    <Object id="144" file="objects/stones/rough_stone_3.mdl" name="STONE_3" costf="4" costg="2" />		
+    <Object id="145" file="objects/stones/rough_stone_4.mdl" name="STONE_4" costf="4" costg="2" />			         
+  </Category>
+  
+  <!-- Category 9 Plates -->
+  <Category id="9">
+    <Object id="29" file="objects/plywood.gfx" name="PLYWOOD" costf="1" costg="1" />
+    <Object id="30" file="objects/plywood_curve.mdl" name="PLYWOOD_REIN" costf="3" costg="1" />    
+    <!--Object id="30" file="objects/plywood_reinforcement.gfx" name="PLYWOOD_REIN" costf="1" costg="1" /-->
+    <!--Object id="120" file="objects/plywood_curve.gfx" name="PLYWOOD" costf="1" costg="1" /-->      
+    <Object id="32" file="objects/wooden_platform.gfx" name="WOOD_PLAT" costf="4" costg="1" />
+    <Object id="288" file="objects/wooden_platform_big.gfx" name="WOOD_PLAT_PLATE" costf="2" costg="1" />           
+    <Object id="173" file="objects/rusty_steel_plate_big.gfx" name="RUSTY_STEEL_PLATE_BIG" costf="3" costg="2" />	
+    <Object id="175" file="objects/rusty_steel_plate_long.gfx" name="RUSTY_STEEL_PLATE_LONG" costf="2" costg="2" />		
+    <Object id="176" file="objects/rusty_steel_plate_short.gfx" name="RUSTY_STEEL_PLATE_SHORT" costf="1" costg="1" />				
+  </Category>   
+  
+  <!-- Category 10 Structures -->      
+  <Category id="10">
+    <Object id="37" file="objects/i_beam.gfx" name="I_BEAM" costf="2" costg="1" />
+    <Object id="38" file="objects/i_beam_huge.gfx" name="I_BEAM_HUGE" costf="2" costg="1" />
+    <Object id="40" file="objects/log_square.gfx" name="LOG_SQUARE" costf="1" costg="1" />
+    <Object id="325" file="objects/log_big_square.gfx" name="LOG_BIG_SQUARE" costf="2" costg="1" />    
+    <Object id="328" file="objects/log_big_square_short.gfx" name="LOG_BIG_SQUARE_SHORT" costf="2" costg="1" />        
+    <Object id="41" file="objects/log_rounded.gfx" name="LOG_ROUNDED" costf="1" costg="1" />    
+    <Object id="327" file="objects/log_big_rounded.gfx" name="LOG_BIG_ROUNDED" costf="2" costg="1" />        
+    <Object id="329" file="objects/log_big_rounded_short.gfx" name="LOG_BIG_ROUNDED_SHORT" costf="2" costg="1" />               
+    <Object id="318" file="objects/walls/wallset_1_tutam_1.gfx" name="WALL_DECORATION_POST" costf="1" costg="2" />   
+    <Object id="321" file="objects/groups/wood_structures/wood_structure_quad_1.gfx" name="WOOD_STRUCT_Q_1" costf="1" costg="8" hidden="rel"/>       
+    <Object id="326" file="objects/groups/steel_structures/steel_structure_quad_1.gfx" name="STEEL_STRUCT_Q_1" costf="1" costg="8" hidden="rel"/>               
+	<Object id="95" file="objects/wooden_wall.gfx" name="WOODEN_WALL" costf="6" costg="8" />           
+	<Object id="96" file="objects/wooden_wall_edges.gfx" name="WOODEN_WALL_EDGES" costf="4" costg="2" />           	
+	<Object id="97" file="objects/wooden_wall_plank.gfx" name="WOODEN_WALL_PLANK" costf="1" costg="1" />           		
+	<Object id="101" file="objects/metal_grid.gfx" name="METAL_GRID" costf="6" costg="5" />   	
+	<Object id="109" file="objects/metal_stick_short.gfx" name="METAL_STICK_SHORT" costf="1" costg="1" />   				
+	<Object id="110" file="objects/metal_stick_med.gfx" name="METAL_STICK_MED" costf="1" costg="1" />   	
+	<Object id="111" file="objects/metal_stick_long.gfx" name="METAL_STICK_LONG" costf="2" costg="1" />   
+  </Category>      
+  
+<!-- Category 11 Scaffold --> 
+  <Category id="11">
+    <Object id="42" file="objects/scaffold_base.gfx" name="SCAFFOLD_BASE" costf="4" costg="1" />
+    <Object id="43" file="objects/scaffold_loop.gfx" name="SCAFFOLD_LOOP" costf="3" costg="1" />
+    <Object id="44" file="objects/scaffold_plate.gfx" name="SCAFFOLD_PLATE" costf="2" costg="1" />
+    <Object id="47" file="objects/scaffold_plate_loop.gfx" name="SCAFFOLD_PLATE_LOOP" costf="2" costg="1" />
+    <Object id="45" file="objects/scaffold_stairs.gfx" name="SCAFFOLD_STAIRS" costf="8" costg="2" />
+    <Object id="195" file="objects/scaffold_posts.gfx" name="SCAFFOLD_POSTS" costf="2" costg="1" />        
+  </Category>
+  
+<!-- Category 12 Ramps -->
+  <Category id="12">
+    <Object id="52" file="objects/ramp_metal_big.gfx" name="RAMP_METAL_BIG" costf="6" costg="2" />
+    <Object id="53" file="objects/ramp_metal_short.gfx" name="RAMP_METAL_SHORT" costf="4" costg="2" />
+    <Object id="54" file="objects/ramp_metal_plate_big.gfx" name="RAMP_METAL_PLATE_BIG" costf="1" costg="1" />
+    <Object id="65" file="objects/ramp_metal_plate_medium.gfx" name="RAMP_METAL_PLATE_MEDIUM" costf="1" costg="1" />      
+    <Object id="66" file="objects/ramp_metal_plate_small.gfx" name="RAMP_METAL_PLATE_SMALL" costf="1" costg="1" />            
+    <Object id="55" file="objects/ramp_wood_big.gfx" name="RAMP_WOOD_BIG" costf="6" costg="2" />
+    <Object id="151" file="objects/ramp_wood_short.gfx" name="RAMP_WOOD_SHORT" costf="4" costg="2" />      
+    <Object id="62" file="objects/ramp_wood_plate.gfx" name="RAMP_WOOD_PLATE_BIG" costf="1" costg="1" />
+    <Object id="152" file="objects/ramp_wood_plate_medium.gfx" name="RAMP_WOOD_PLATE_MEDIUM" costf="1" costg="1" />            
+    <Object id="68" file="objects/ramp_wood_plate_small.gfx" name="RAMP_WOOD_PLATE_SMALL" costf="1" costg="1" />            
+  </Category>  
+  
+<!-- Category 13 Signs -->  
+  <Category id="13" hidden="simple">
+    <Object id="146" file="objects/sign_bandages.gfx" name="SIGN_BANDAGE" costf="1" costg="1" />
+    <Object id="149" file="objects/sign_arrow.gfx" name="SIGN_ARROW" costf="1" costg="1" />
+    <Object id="150" file="objects/sign_beware_squirrels.gfx" name="SIGN_BEWARE_SQUIRRELS" costf="1" costg="1" />
+    <Object id="154" file="objects/sign_danger_explosives.gfx" name="SIGN_DANGER_EXPLOSIVES" costf="1" costg="1" />
+    <Object id="155" file="objects/sign_egg_shelter.gfx" name="SIGN_EGG_SHELTER" costf="1" costg="1" />
+    <Object id="156" file="objects/sign_falling_injury.gfx" name="SIGN_FALLING_INJURY" costf="1" costg="1" />
+    <Object id="157" file="objects/sign_fingers_crossed.gfx" name="SIGN_FINGERS_CROSSED" costf="1" costg="1" />
+    <Object id="158" file="objects/sign_huge_fall.gfx" name="SIGN_HUGE_FALL" costf="1" costg="1" />
+    <Object id="159" file="objects/sign_no_bikes.gfx" name="SIGN_NO_BIKES" costf="1" costg="1" />
+    <Object id="160" file="objects/sign_no_humans.gfx" name="SIGN_NO_HUMANS" costf="1" costg="1" />
+    <Object id="161" file="objects/sign_no_jumping.gfx" name="SIGN_NO_JUMPING" costf="1" costg="1" />
+    <Object id="162" file="objects/sign_speed_limit.gfx" name="SIGN_SPEED_LIMIT" costf="1" costg="1" />
+    <Object id="163" file="objects/sign_use_helmet.gfx" name="SIGN_USE_HELMET" costf="1" costg="1" />		
+    <Object id="263" file="objects/sign_accelerate.gfx" name="SIGN_ACCELERATE" costf="1" costg="1" />
+    <Object id="264" file="objects/sign_arrow_up.gfx" name="SIGN_ARROW_UP" costf="1" costg="1" />
+    <Object id="265" file="objects/sign_arrow_down.gfx" name="SIGN_ARROW_DOWN"  costf="1" costg="1" />
+    <Object id="266" file="objects/sign_falling_big_objects.gfx" name="SIGN_FALLING_BIG_OBJECTS" costf="1" costg="1" />
+    <Object id="267" file="objects/sign_slow_down.gfx" name="SIGN_SLOW_DOWN" costf="1" costg="1" />
+    <Object id="268" file="objects/sign_big_jump.gfx" name="SIGN_BIG_JUMP" costf="1" costg="1" />
+    <Object id="269" file="objects/sign_wall.gfx" name="SIGN_WALL" costf="1" costg="1" />
+    <Object id="270" file="objects/sign_explosion.gfx" name="SIGN_EXPLOSION" costf="1" costg="1" />    
+    <Object id="261" file="objects/traffic_sign_single_post.gfx" name="TRAFFIC_SIGN_SINGLE_POST" costf="1" costg="1" />
+    <Object id="262" file="objects/traffic_sign_double_post.gfx" name="TRAFFIC_SIGN_DOUBLE_POST" costf="1" costg="1" />
+  </Category>    
+  
+  <!-- Category 14 Decoration -->  
+  <Category id="14" hidden="simple">    
+    <Object id="211" file="objects/train_rail_straight_long.gfx" name="TRAIN_RAIL_STRAIGHT_LONG" costf="4" costg="2" />          
+    <Object id="212" file="objects/train_rail_up_45.gfx" name="TRAIN_RAIL_UP_45" costf="4" costg="2" />              
+    <Object id="213" file="objects/train_rail_down_45.gfx" name="TRAIN_RAIL_DOWN_45" costf="4" costg="2" />                  
+    <Object id="214" file="objects/train_rail_turn_right_45.gfx" name="TRAIN_RAIL_TURN_RIGHT_45" costf="4" costg="2" />             
+    <!--Object id="215" file="objects/train_cart_1.gfx" name="TRAIN_RAIL_CART_1" costf="1" costg="1" /-->        
+    <Object id="28"  file="objects/electricity_cabinet.gfx" name="ELECTRIC_CABIN" costf="2" costg="1" />
+    <Object id="200" file="objects/glass_1.gfx" name="GLASS_1" costf="2" costg="2" />  
+    <Object id="205" file="objects/glass_clip_1.gfx" name="GLASS_CLIP_1" costf="1" costg="1" />      
+    <Object id="206" file="objects/glass_clip_2.gfx" name="GLASS_CLIP_2" costf="1" costg="1" />
+    <Object id="178" file="objects/rack_1_right.gfx" name="RACK_1_RIGHT" costf="4" costg="1" />
+    <Object id="179" file="objects/rack_1_left.gfx" name="RACK_1_LEFT" costf="4" costg="1" />    
+    <Object id="181" file="objects/pipe_long_straight.gfx" name="PIPE_LONG_STRAIGHT" costf="1" costg="1" />            
+    <Object id="182" file="objects/pipe_short_straight.gfx" name="PIPE_SHORT_STRAIGHT" costf="1" costg="1" />            
+    <Object id="183" file="objects/pipe_corner.mdl" name="PIPE_CORNER" costf="4" costg="1" />            
+    <Object id="194" file="objects/pipe_corner_addition.gfx" name="PIPE_CORNER_ADDITION" costf="2" costg="1" />                
+    <Object id="184" file="objects/pipe_addition.mdl" name="PIPE_ADDITION" costf="4" costg="1" />            
+    <Object id="185" file="objects/pipe_ring.gfx" name="PIPE_RING" costf="1" costg="1" />     
+    <Object id="193" file="objects/pipe_valve.gfx" name="PIPE_VALVE" costf="1" costg="1" />        
+    <Object id="196" file="objects/rusty_steel_plate_fence_med.gfx" name="RUSTY_STEEL_PLATE_FENCE_MED" costf="1" costg="1" />			
+    <Object id="197" file="objects/rusty_steel_plate_fence_med_2.gfx" name="RUSTY_STEEL_PLATE_FENCE_MED_2" costf="1" costg="1" />			
+    <Object id="198" file="objects/rusty_steel_plate_fence_big.gfx" name="RUSTY_STEEL_PLATE_FENCE_BIG" costf="3" costg="1" />						
+    <Object id="199" file="objects/rusty_steel_plate_fence_big_2.gfx" name="RUSTY_STEEL_PLATE_FENCE_BIG_2" costf="3" costg="1" />								                 	        
+    <Object id="284" file="objects/metal_finish_line.gfx" name="METAL_FINISH_LINE" costf="1" costg="1" />         
+    <Object id="285" file="objects/metal_finish_line_small.gfx" name="METAL_FINISH_LINE_SMALL" costf="1" costg="1" />              
+    <Object id="286" file="objects/metal_finish_line_wide.gfx" name="METAL_FINISH_LINE_WIDE" costf="1" costg="1" />        
+  </Category>
+  
+<!-- Category 15 Groups -->    
+  <Category id="15" hidden="rel">
+    <Object id="216" file="objects/groups/scaffold_huge.gfx" name="GROUPS_SCAFFOLD_HUGE" costf="8" costg="4" />         
+    <Object id="217" file="objects/groups/scaffold_big.gfx" name="GROUPS_SCAFFOLD_BIG" costf="8" costg="4" />                  
+  </Category>   
+   
+<!-- Category 16 Explosives -->    
+  <Category id="16"  hidden="simple">    
+    <Object id="123" file="objects/metal_barrel_open_explosive_1.gfx" name="BARREL_EXPLOSIVE_OPEN" costf="2" costg="1" />
+    <Object id="122" file="objects/metal_barrel_explosive_1.gfx" name="BARREL_EXPLOSIVE" costf="2" costg="1" />              
+    <Object id="125" file="objects/dynamite_box.gfx" name="DYNAMITE_BOX" costf="3" costg="1" />   
+    <Object id="126" file="objects/WWII_bomb.gfx" name="WWII_BOMB" costf="3" costg="1" />      
+    <Object id="140" file="objects/fatman.gfx" name="NUKE" costf="4" costg="2" />      
+  </Category>    
+  
+<!-- Category 17 Terrace set-->    
+  <Category id="17" hidden="simple">    
+    <Object id="58" file="objects/terrace_pillar.gfx" name="TERRACE_PILLAR" costf="1" costg="1" />
+    <Object id="59" file="objects/terrace_crosspillar.gfx" name="TERRACE_CROSSPILLAR" costf="1" costg="1" />
+    <Object id="60" file="objects/terrace_plate_big.gfx" name="TERRACE_PLATE_BIG" costf="4" costg="2" />
+    <Object id="63" file="objects/terrace_plate.gfx" name="TERRACE_PLATE" costf="3" costg="1" />
+    <Object id="64" file="objects/terrace_plate_small.gfx" name="TERRACE_PLATE_SMALL" costf="1" costg="1" />    
+    <Object id="61" file="objects/terrace_metalfence_fence.gfx" name="TERRACE_PLATE_FENCE" costf="3" costg="2" /> 
+    <Object id="67" file="objects/terrace_metalfence_fence_2.gfx" name="TERRACE_PLATE_FENCE_2" costf="3" costg="2" />    
+    <Object id="271" file="objects/groups/terrace_huge.gfx" name="GROUPS_TERRACE_HUGE" hidden="true" costf="8" costg="8" />
+    <Object id="272" file="objects/groups/terrace_small.gfx" name="GROUPS_TERRACE_SMALL" costf="1" costg="6" hidden="rel"/>  
+    <Object id="322" file="objects/groups/terrace_tiny.gfx" name="GROUPS_TERRACE_TINY" costf="1" costg="4" />          									    
+  </Category>    
+  
+<!-- Category 18 Effects --> 
+  <Category id="18" hidden="simple">    
+    <Object id="99" file="effects/fire_1.gfx" name="EFFECT_FIRE_1" costf="1" costg="4" />
+    <Object id="100" file="effects/fire_2.gfx" name="EFFECT_FIRE_2" costf="1" costg="5" />
+    <Object id="127" file="effects/fire_3.gfx" name="EFFECT_FIRE_3" costf="1" costg="6" />
+    <Object id="283" file="effects/long_fire.gfx" name="EFFECT_FIRE_4" costf="1" costg="5" />
+    <Object id="128" file="effects/smoke_1.gfx" name="EFFECT_SMOKE_1" costf="1" costg="3" />
+    <Object id="129" file="effects/smoke_2.gfx" name="EFFECT_SMOKE_2" costf="1" costg="4" />
+    <Object id="130" file="effects/smoke_3.gfx" name="EFFECT_SMOKE_3" costf="1" costg="5" />
+    <Object id="102" file="effects/steam_1.gfx" name="EFFECT_STEAM_1" costf="1" costg="3" />
+    <Object id="131" file="effects/steam_2.gfx" name="EFFECT_STEAM_2" costf="1" costg="3" />
+    <Object id="135" file="effects/waterfall_1.gfx" name="EFFECT_WATER_FALL_1" costf="1" costg="3" />
+    <Object id="136" file="effects/waterfall_2.gfx" name="EFFECT_WATER_FALL_2" costf="1" costg="4" />
+    <Object id="137" file="effects/waterfall_3.gfx" name="EFFECT_WATER_FALL_3" costf="1" costg="5" />
+    <Object id="138" file="effects/electric_arcs_1.gfx" name="EFFECT_ELECTRIC_ARCS_1" costf="1" costg="2" />
+    <Object id="308" file="effects/fire_ring.gfx" name="EFFECT_FIRE_RING_1" costf="1" costg="8" />  		
+    <Object id="309" file="effects/fire_ocean.gfx" name="EFFECT_FIRE_OCEAN_1" costf="1" costg="8" />  			        
+  </Category>      
+  
+<!-- Category 19 Tutorial signs --> 
+  <Category id="19" hidden="rel">
+    <Object id="238" file="objects/traffic_sign_accelerate_simple.gfx" name="TRAFFIC_SIGN_ACCELERATE_SIMPLE" costf="1" costg="1" />               
+    <Object id="240" file="objects/traffic_sign_accelerate_big_simple.gfx" name="TRAFFIC_SIGN_ACCELERATE_BIG_SIMPLE" costf="1" costg="1" />                              
+    <Object id="242" file="objects/traffic_sign_break_simple.gfx" name="TRAFFIC_SIGN_BREAK_SIMPLE"  costf="1" costg="1" />        
+    <Object id="244" file="objects/traffic_sign_break_big_simple.gfx" name="TRAFFIC_SIGN_BREAK_BIG_SIMPLE" costf="1" costg="1" />                    
+    <Object id="246" file="objects/traffic_sign_lean_simple.gfx" name="TRAFFIC_SIGN_LEAN_SIMPLE" costf="1" costg="1" />            
+    <Object id="248" file="objects/traffic_sign_lean_big_simple.gfx" name="TRAFFIC_SIGN_LEAN_BIG_SIMPLE" costf="1" costg="1" />                        
+    <Object id="250" file="objects/traffic_sign_roll_simple.gfx" name="TRAFFIC_SIGN_ROLL_SIMPLE" costf="1" costg="1" />  
+    <Object id="252" file="objects/traffic_sign_roll_big_simple.gfx" name="TRAFFIC_SIGN_ROLL_BIG_SIMPLE" costf="1" costg="1" />              
+    <Object id="254" file="objects/traffic_sign_roll_back_simple.gfx" name="TRAFFIC_SIGN_ROLL_BACK_SIMPLE" costf="1" costg="1" />    
+    <Object id="256" file="objects/traffic_sign_roll_back_big_simple.gfx" name="TRAFFIC_SIGN_ROLL_BACK_BIG_SIMPLE" costf="1" costg="1" />                   
+    <Object id="258" file="objects/traffic_sign_uphill_simple.gfx" name="TRAFFIC_SIGN_UPHILL_SIMPLE" costf="1" costg="1" />                    
+    <Object id="276" file="objects/traffic_sign_backward_simple.gfx" name="TRAFFIC_SIGN_BACKWARD_SIMPLE" costf="1" costg="1" />
+    <Object id="277" file="objects/traffic_sign_dynamic_punch_simple.gfx" name="TRAFFIC_SIGN_DYNAMIC_PUNCH_SIMPLE" costf="1" costg="1" />
+    <Object id="278" file="objects/traffic_sign_landing_to_hill_simple.gfx" name="TRAFFIC_SIGN_LANDING_TO_HILL_SIMPLE" costf="1" costg="1" />
+    <Object id="279" file="objects/traffic_sign_landing_to_slope_simple.gfx" name="TRAFFIC_SIGN_LANDING_TO_SLOPE_SIMPLE" costf="1" costg="1" />
+    <Object id="280" file="objects/traffic_sign_trials_flip_simple.gfx" name="TRAFFIC_SIGN_TRIALS_FLIP_SIMPLE" costf="1" costg="1" />                    
+    <Object id="281" file="objects/traffic_sign_bail_out.gfx" name="TRAFFIC_SIGN_BAIL_OUT_SIMPLE" costf="1" costg="1" />                    
+    <Object id="282" file="objects/traffic_sign_flying_big.gfx" name="TRAFFIC_SIGN_FLYING_BIG_SIMPLE" costf="1" costg="1" />                               
+    <Object id="260" file="objects/traffic_sign_uphill_big_simple.gfx" name="TRAFFIC_SIGN_UPHILL_BIG_SIMPLE" costf="1" costg="1" />                             
+  </Category>       
+  
+<!-- Category 20 NONE -->        
+  <Category id="20" hidden="true">
+  <!--
+	<Object id="218" file="objects/groups/dev_runover_1.gfx" name="PERSON_01" hidden="false" costf="1" costg="1" />
+	<Object id="219" file="objects/groups/dev_runover_2.gfx" name="PERSON_02" hidden="false" costf="1" costg="1" />
+	<Object id="220" file="objects/groups/dev_runover_3.gfx" name="PERSON_03" hidden="false" costf="1" costg="1" />
+	<Object id="221" file="objects/groups/dev_runover_4.gfx" name="PERSON_04" hidden="false" costf="1" costg="1" />
+	<Object id="222" file="objects/groups/dev_runover_5.gfx" name="PERSON_05" hidden="false" costf="1" costg="1" />
+	<Object id="223" file="objects/groups/dev_runover_6.gfx" name="PERSON_06" hidden="false" costf="1" costg="1" />
+	<Object id="224" file="objects/groups/dev_runover_7.gfx" name="PERSON_07" hidden="false" costf="1" costg="1" />
+	<Object id="225" file="objects/groups/dev_runover_8.gfx" name="PERSON_08" hidden="false" costf="1" costg="1" />
+	<Object id="226" file="objects/groups/dev_runover_9.gfx" name="PERSON_09" hidden="false" costf="1" costg="1" />
+	<Object id="227" file="objects/groups/dev_runover_10.gfx" name="PERSON_10" hidden="false" costf="1" costg="1" />
+	<Object id="228" file="objects/groups/dev_runover_11.gfx" name="PERSON_11" hidden="false" costf="1" costg="1" />
+	<Object id="229" file="objects/groups/dev_runover_12.gfx" name="PERSON_12" hidden="false" costf="1" costg="1" />
+	<Object id="230" file="objects/groups/dev_runover_13.gfx" name="PERSON_13" hidden="false" />  
+	-->
+  </Category>
+  
+  <!-- Category 21 Content pack: MOVED TO DLC PACK 0 -->        
+
+<!--
+  <Category id="21">	
+	<Object id="420" file="objects/car_police_1.gfx" name="CAR_POLICE_1" />				
+	<Object id="421" file="objects/tranpoline_1.gfx" name="TRANPOLINE_1" />	  
+  </Category>
+-->
+  
+  <!-- Category 22 NONE -->        
+  <Category id="22" hidden="true">	
+  </Category>
+  
+  <!-- Category 23 NONE -->        
+  <Category id="23" hidden="true">	
+  </Category>			           
+
+  <!-- background set 0 is the decoration set -->
+  <BackgroundSet id="0">
+    <Object id="1" level="normal" face="xneg" /> <!-- pipe -->
+    <Object id="2" level="normal" face="xneg" /> <!-- drape -->
+    <Object id="3" level="normal" face="xneg" /> <!-- fridge -->
+  </BackgroundSet>
+  
+  <BackgroundSet id="1">     
+
+	<Object id="51"  level="high2" face="xneg" />	
+	<Object id="74"  level="high2" face="xpos" />	
+	<Object id="76"  level="high2" face="yneg" />
+	<Object id="77"  level="high2" face="ypos" prob="100" />		
+	<Object id="80"  level="high2" face="ypos" prob="40" />
+	<Object id="94"  level="high2" face="zneg" />	
+	<Object id="93"  level="high2" face="zpos" />
+
+	<Object id="51"  level="high" face="xneg" />	
+	<Object id="74"  level="high" face="xpos" />	
+	<Object id="76"  level="high" face="yneg" />
+	<Object id="77"  level="high" face="ypos" prob="100" />		
+	<Object id="80"  level="high" face="ypos" prob="40" />
+	<Object id="81"  level="high" face="zneg" />	
+	<Object id="82"  level="high" face="zpos" />
+	<Object id="83"  level="high" face="zpos" />	
+
+	<Object id="84"  level="normal" face="xneg" />	
+	<Object id="85"  level="normal" face="xpos" />	
+	<Object id="86"  level="normal" face="yneg" />	
+	<Object id="88"  level="normal" face="ypos" />
+	<Object id="89"  level="normal" face="ypos" />		
+	<Object id="90"  level="normal" face="zneg" />	
+	<Object id="91"  level="normal" face="zpos" />
+	<Object id="92"  level="normal" face="zpos" />		
+	
+	<Object id="12"  level="low" face="xneg" />
+	<Object id="13"  level="low" face="xpos" />
+	<Object id="18"  level="low" face="xneg" />
+	<Object id="34"  level="low" face="xpos" />	
+	<Object id="16"  level="low" face="zneg" />
+	<Object id="17"  level="low" face="zpos" />
+	<Object id="49"  level="low" face="zneg" />
+	<Object id="50"  level="low" face="zpos" />	
+	<Object id="15"  level="low" face="ypos" />		
+	<Object id="14"  level="low" face="yneg" />			
+	
+	<Object id="6"  level="low2" face="xneg" />	
+	<Object id="7"  level="low2" face="xpos" />	
+	<Object id="10" level="low2" face="zneg" />	
+	<Object id="11" level="low2" face="zpos" />	
+	<Object id="9"  level="low2" face="ypos" />		
+	<Object id="8"  level="low2" face="yneg" />			
+		
+	<Object id="0"  level="low3" face="xneg" />
+	<Object id="1"  level="low3" face="xpos" />
+	<Object id="4"  level="low3" face="zneg" />
+	<Object id="5"  level="low3" face="zpos" />
+	<Object id="3"  level="low3" face="ypos" />			
+	<Object id="2"  level="low3" face="yneg" />
+	
+  </BackgroundSet>  
+  
+</ObjectList>

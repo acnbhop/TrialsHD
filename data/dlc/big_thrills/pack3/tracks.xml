@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  Track:
+  
+    id              = track ID
+    type            = {racing | freestyle | crash }
+    leaderboard_id  = leaderboard stat view ID
+    context_id      = context ID
+    fullonly        = true if not in trial mode, false if available in trial mode
+    difficulty      = 1 (beginner), 2 (easy), 3 (medium), 4 (hard), 5 (inferno)
+    factor          = fault factor for global csore calculation
+
+    Limits:
+
+      pass          = minimum time to pass track (milliseconds)
+      gold,         = in racing mode, times to reach medals in this track (milliseconds)
+      silver,         in other modes, points to reach medals in this track
+      bronze
+      
+      pass_faults,  = maximum faults to pass this medal
+      gold_faults,
+      silver_faults,
+      bronze_faults
+
+-->
+<TrackSet>
+<!-- Beginner -->	
+
+
+	<!-- Ode to Joy -->
+	
+	<Track id="354" type="racing" leaderboard_id="126" context_id="63" fullonly="true"  difficulty="1" factor="0.1" maxReplays="5000" bikes="1234M">
+		<Limits platinum="33100" gold="35000" silver="40000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>  	
+	
+<!-- Easy --> 
+
+	<!-- Daredevil -->
+	
+	<Track id="353" type="racing" leaderboard_id="125" context_id="62" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="18900" gold="20200" silver="25000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>
+	
+
+
+	<!-- Demo princess -->
+	<Track id="390" type="racing" leaderboard_id="162" context_id="99" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="24500" gold="28000" silver="32000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>
+	
+	
+	<!-- Rooftop rush -->
+	<Track id="381" type="racing" leaderboard_id="153" context_id="90" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="26000" gold="29000" silver="33000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>
+	
+
+	<!-- Aftershock -->
+	<Track id="386" type="racing" leaderboard_id="158" context_id="95" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="31300" gold="34000" silver="38000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>
+	
+
+	<!-- Bouncy Castle -->
+	<Track id="359" type="racing" leaderboard_id="131" context_id="68" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="15800" gold="18000" silver="21000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>
+
+
+	<!-- The Great Wall -->
+	<Track id="388" type="racing" leaderboard_id="160" context_id="97" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="43300" gold="51000" silver="65000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>
+
+	<!-- Boot Camp -->
+	<Track id="387" type="racing" leaderboard_id="159" context_id="96" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="36500" gold="40000" silver="48000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>    	
+	
+
+	<!-- Underwater -->
+	<Track id="383" type="racing" leaderboard_id="155" context_id="92" fullonly="true"  difficulty="2" factor="0.1" maxReplays="5000" bikes="234M">
+		<Limits platinum="30000" gold="36500" silver="41000" platinum_faults="0" gold_faults="0" silver_faults="0" pass="1000"/>
+	</Track>  	   	
+	
+
+<!-- Medium -->	
+
+	<!-- Secret Base -->
+	<Track id="352" type="racing" leaderboard_id="124" context_id="61" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="26300" gold="30000" silver="41000" platinum_faults="0" gold_faults="0" silver_faults="3" pass="1000"/>
+	</Track>
+
+
+	<!-- Race or Die -->
+	<Track id="357" type="racing" leaderboard_id="129" context_id="66" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="35000" gold="44000" silver="60000" platinum_faults="0" gold_faults="0" silver_faults="3" pass="1000"/>
+	</Track> 
+
+
+	<!-- Wierd Science -->
+	<Track id="355" type="racing" leaderboard_id="127" context_id="64" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="32000" gold="37000" silver="41000" platinum_faults="0" gold_faults="0" silver_faults="3" pass="1000"/>
+	</Track> 
+	
+	
+	<!-- Rail Highway -->
+	<Track id="360" type="racing" leaderboard_id="132" context_id="69" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="34000" gold="40000" silver="60000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>
+	
+
+	<!-- House of Horrors -->
+	<Track id="369" type="racing" leaderboard_id="141" context_id="78" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="33000" gold="40000" silver="52000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>
+
+	<!-- The subsittute -->
+	<Track id="392" type="racing" leaderboard_id="161" context_id="98" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="35000" gold="41200" silver="50000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>
+
+	<!-- Lee's Lair -->	
+	<Track id="393" type="racing" leaderboard_id="156" context_id="93" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34">
+		<Limits platinum="55000" gold="65000" silver="100000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+
+	<!-- Norfair -->
+	<Track id="158" type="racing" leaderboard_id="149" context_id="86" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="34000" gold="36500" silver="42000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+
+	<!-- GENERAL RAM -->
+	<Track id="77" type="racing" leaderboard_id="138" context_id="75" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34">
+		<Limits platinum="48500" gold="57000" silver="65000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+
+
+	<!-- ShiftySamurai -->
+	<Track id="172" type="racing" leaderboard_id="150" context_id="87" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="44000" gold="53000" silver="65000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+
+	<!-- DrittesAuge -->
+	<Track id="71" type="racing" leaderboard_id="137" context_id="74" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34">
+		<Limits platinum="60000" gold="80000" silver="120000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+	
+	
+	<!-- nannerdw -->
+	<Track id="156" type="racing" leaderboard_id="128" context_id="65" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="34000" gold="39000" silver="52000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+
+	<!-- CrowsBeak -->
+	<Track id="64" type="racing" leaderboard_id="140" context_id="77" fullonly="true"  difficulty="3" factor="0.1" maxReplays="5000" bikes="34M">
+		<Limits platinum="28000" gold="36000" silver="60000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>  
+
+
+
+
+
+ 
+<!-- HARD -->		
+		
+
+	<!-- Barrel of Laughs -->
+ 	<Track id="351" type="racing" leaderboard_id="123" context_id="60" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="41500" gold="49000" silver="60000" platinum_faults="0" gold_faults="2" silver_faults="5" pass="1000"/>
+	</Track>
+
+
+
+	<!-- Container Jam -->
+	<Track id="376" type="racing" leaderboard_id="148" context_id="85" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="38500" gold="50000" silver="70000" platinum_faults="0" gold_faults="3" silver_faults="5" pass="1000"/>
+	</Track>
+
+	<!-- Garbage Chute -->
+	<Track id="375" type="racing" leaderboard_id="147" context_id="84" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="37000" gold="55000" silver="70000" platinum_faults="0" gold_faults="2" silver_faults="5" pass="1000"/>
+	</Track>
+	
+
+
+	<!-- Foundations -->	
+	<Track id="372" type="racing" leaderboard_id="144" context_id="81" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="35500" gold="42000" silver="50000" platinum_faults="0" gold_faults="3" silver_faults="6" pass="1000"/>
+	</Track>
+
+
+	<!-- King of the Spill -->	
+	<Track id="367" type="racing" leaderboard_id="139" context_id="76" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="39800" gold="47000" silver="55000" platinum_faults="0" gold_faults="2" silver_faults="5" pass="1000"/>
+	</Track>    
+
+
+	<!-- Clockwork -->	
+	<Track id="363" type="racing" leaderboard_id="135" context_id="72" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="44500" gold="52000" silver="76000" platinum_faults="0" gold_faults="2" silver_faults="12" pass="1000"/>
+	</Track>  	
+
+	<!-- Vertigo -->	
+	<Track id="364" type="racing" leaderboard_id="136" context_id="73" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="37000" gold="49000" silver="95000" platinum_faults="0" gold_faults="4" silver_faults="10" pass="1000"/>
+	</Track>
+
+
+	<!-- Chains of Despair -->	
+	<Track id="371" type="racing" leaderboard_id="143" context_id="80" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="43500" gold="58000" silver="72000" platinum_faults="0" gold_faults="3" silver_faults="8" pass="1000"/>
+	</Track>
+
+	<!-- Sauna -->	
+	<Track id="373" type="racing" leaderboard_id="145" context_id="82" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="37000" gold="50000" silver="90000" platinum_faults="0" gold_faults="5" silver_faults="10" pass="1000"/>
+	</Track>
+
+	<!-- Lost in Transmission -->	
+	<Track id="385" type="racing" leaderboard_id="157" context_id="94" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34">
+		<Limits platinum="39000" gold="50000" silver="90000" platinum_faults="0" gold_faults="4" silver_faults="15" pass="1000"/>
+	</Track>
+
+
+	<!-- Reality Check -->	
+	<Track id="370" type="racing" leaderboard_id="142" context_id="79" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="37000" gold="58000" silver="90000" platinum_faults="0" gold_faults="4" silver_faults="10" pass="1000"/>
+	</Track> 
+
+	<!-- BlueMageFTW -->
+	<Track id="58" type="racing" leaderboard_id="130" context_id="67" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="50000" gold="65000" silver="80000" platinum_faults="0" gold_faults="3" silver_faults="10" pass="1000"/>
+	</Track>  
+
+	<!-- Dr Pepso -->
+	<Track id="70" type="racing" leaderboard_id="133" context_id="70" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="68000" gold="80000" silver="140000" platinum_faults="0" gold_faults="3" silver_faults="10" pass="1000"/>
+	</Track>  
+
+	<!-- o SKUMBAG o -->
+	<Track id="160" type="racing" leaderboard_id="146" context_id="83" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="54000" gold="65000" silver="85000" platinum_faults="0" gold_faults="4" silver_faults="10" pass="1000"/>
+	</Track>  
+	
+
+	<!-- xIRON WARLORDx -->
+	<Track id="191" type="racing" leaderboard_id="154" context_id="91" fullonly="true"  difficulty="4" factor="0.5" maxReplays="5000" bikes="34M">
+		<Limits platinum="45000" gold="62000" silver="120000" platinum_faults="0" gold_faults="4" silver_faults="10" pass="1000"/>
+	</Track>  
+
+	  	  	 	  
+	
+<!-- Extreme -->
+	
+	<!-- Attica Dominatus -->	
+	<Track id="362" type="racing" leaderboard_id="134" context_id="71" fullonly="true"  difficulty="5" factor="0.75" maxReplays="5000" bikes="34">
+		<Limits platinum="55000" gold="90000" silver="180000" platinum_faults="0" gold_faults="10" silver_faults="30" pass="1000"/>
+	</Track>
+
+
+	<!-- Pilgrimage -->	
+	<Track id="380" type="racing" leaderboard_id="152" context_id="89" fullonly="true"  difficulty="5" factor="0.8" maxReplays="5000" bikes="4">
+		<Limits platinum="48000" gold="150000" silver="300000" platinum_faults="0" gold_faults="30" silver_faults="80" pass="1000"/>
+	</Track>
+
+
+	<!-- Blast From the Past -->	
+	<Track id="379" type="racing" leaderboard_id="151" context_id="88" fullonly="true"  difficulty="5" factor="0.8" maxReplays="5000" bikes="34">
+		<Limits platinum="140000" gold="260000" silver="600000" platinum_faults="0" gold_faults="30" silver_faults="80" pass="1000"/>
+	</Track>  	  	  	  	
+	
+
+</TrackSet>

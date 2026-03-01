@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+  Object categories:
+
+      0 = Walls (not visible in editor)
+      1 = Lights
+      2 = Checkpoints
+      3 = Boxes
+      4 = Boards/Planks
+      5 = Tubes/Cylinders
+      6 = ...
+
+  Object properties:
+
+      Required:
+
+        file            = filename of the object
+        name            = key to localization file for the human-readable
+                          name of object visible in editor
+
+      Optional:
+
+        disablephysics  = set to true to prevent setting this object to
+                          physical (falling etc)
+        hidden          = set to true to hide from track editor menus
+-->
+
+  	<!-- ID 420 = first content pack item -->
+
+<ObjectList>
+
+	<!-- Category 1 objects)
+	  <Category id="1">
+	    <Object id="36" file="objects/tools_spline_point.mdl" name="TRACKPOINT" disablephysics="true" hidden="simple" costf="4" costg="1" />                    
+	    <Object id="500" file="objects/tools_spline_point.mdl" name="TRACKPOINT" disablephysics="true" hidden="simple" costf="4" costg="1" />                    
+	    <Object id="501" file="objects/tools_spline_point.mdl" name="TRACKPOINT" disablephysics="true" hidden="simple" costf="4" costg="1" />                    
+	    <Object id="502" file="objects/tools_spline_point.mdl" name="TRACKPOINT" disablephysics="true" hidden="simple" costf="4" costg="1" />                    
+	  </Category>
+	 -->
+	
+	<!-- Car -->
+	<Category id="21">  
+	
+		<Object id="420" file="objects/cars/car_1.gfx" name="CAR_1" costf="8" costg="4" cost="10" />						
+		<Object id="421" file="objects/cars/car_1_smashed_1.gfx" name="CAR_1_SMASHED_1" costf="8" costg="4" cost="4" />
+		<Object id="422" file="objects/cars/car_1_smashed_2.gfx" name="CAR_1_SMASHED_2" costf="8" costg="4" cost="4" />        	
+		<Object id="427" file="objects/cars/car_1_smashed_3.gfx" name="CAR_1_SMASHED_3" costf="8" costg="4" cost="4" />        	
+		<Object id="428" file="objects/cars/car_1_smashed_4.gfx" name="CAR_1_SMASHED_4" costf="8" costg="4" cost="3" />        	
+		<Object id="429" file="objects/cars/car_1_smashed_5.gfx" name="CAR_1_SMASHED_5" costf="8" costg="4" cost="3" />        	
+		<Object id="430" file="objects/cars/car_1_smashed_6.gfx" name="CAR_1_SMASHED_6" costf="8" costg="4" cost="3" />  	                    
+		        						    
+	</Category>
+  
+	<!-- Tools -->
+	<Category id="22">
+	
+		<Object id="423" file="objects/piston_push.gfx" name="PISTON_PUSH" costf="6" costg="2" />        
+		<Object id="424" file="objects/piston_pull.gfx" name="PISTON_PULL" costf="6" costg="2" />	
+		<Object id="425" file="objects/piston_push_slow.gfx" name="PISTON_PUSH_SLOW" costf="6" costg="2" />        
+		<Object id="426" file="objects/piston_pull_slow.gfx" name="PISTON_PULL_SLOW" costf="6" costg="2" />	
+						
+		<Object id="432" file="objects/wind_weak.gfx" name="WIND_WEAK" costf="6" costg="1" cost="2" gamecategory="tool" />
+		<Object id="433" file="objects/wind_medium.gfx" name="WIND_MEDIUM" costf="6" costg="1" cost="2" gamecategory="tool" />
+		<Object id="434" file="objects/wind_strong.gfx" name="WIND_STRONG" costf="6" costg="1" cost="2" gamecategory="tool" />            
+		
+		<Object id="438" file="objects/tools_motor_slow.gfx" gamecategory="tool" name="TOOLS_FORCE_ROT_SLOW" costf="2" costg="1"/>
+		<Object id="439" file="objects/tools_motor_medium.gfx" gamecategory="tool" name="TOOLS_FORCE_ROT_MED" costf="2" costg="1"/>    
+		<Object id="440" file="objects/tools_motor_fast.gfx" gamecategory="tool" name="TOOLS_FORCE_ROT_FAST" costf="2" costg="1"/>            		
+		<Object id="460" file="objects/tools_dummy.gfx" gamecategory="tool" name="TOOLS_DUMMY" costf="1" costg="1"/>            		
+		<Object id="473" file="objects/tools_slider.gfx" gamecategory="tool" name="TOOLS_SLIDER" costf="2" costg="1"/>            		
+		<Object id="474" file="objects/tools_damp_linear.gfx" gamecategory="tool" name="TOOLS_LINEAR_DAMPER" costf="2" costg="1"/>            		
+		<Object id="475" file="objects/tools_damp_angular.gfx" gamecategory="tool" name="TOOLS_ANGULAR_DAMPER" costf="2" costg="1"/>            		
+		
+		<Object id="476" file="objects/gravity_field.gfx" gamecategory="tool" name="GRAVITY_FIELD" costf="1" costg="1" cost="20"/>            		
+				
+	</Category>  
+	
+	<!-- Objects -->
+	<Category id="23">
+	
+		<!-- Achievment items -->
+		<Object id="431" file="objects/tranpoline_1.gfx" name="TRANPOLINE_1" costf="1" costg="2" />							
+			
+		<Object id="441" file="objects/huge_air_vent.gfx" name="HUGE_AIR_VENT" costf="6" costg="3" cost="2" />				     
+		<Object id="451" file="objects/air_vent.gfx" name="AIR_VENT" costf="6" costg="2" cost="2" />    		
+		<Object id="450" file="objects/fan.gfx" name="FAN" costf="4" costg="2" cost="2" />     		
+						
+		<!-- Ventilation -->
+		<Object id="445" file="objects/ventilation_shaft.gfx" name="VENTI_SHAFT" costf="2" costg="2"/>
+		<Object id="446" file="objects/ventilation_corner.gfx" name="VENTI_CORNER" costf="4" costg="1"/>
+		<Object id="447" file="objects/ventilation_grating.gfx" name="VENTI_GRATING" costf="1" costg="1"/>
+		<Object id="448" file="objects/ventilation_grating_broken.gfx" name="VENTI_GRATING_BROKEN" costf="1" costg="1"/>    
+		<Object id="449" file="objects/ventilation_corner_gentle.gfx" name="VENTI_CORNER_GEN" costf="3" costg="1"/>
+		<Object id="486" file="objects/ventilation_plate.gfx" name="VENTI_PLATE" costf="2" costg="2"/>								
+				
+		<Object id="452" file="objects/big_wooden_plate.gfx" name="BIG_WOODEN_PLATE" costf="2" costg="2"/>        
+		
+		<!-- Concrete -->
+		<Object id="453" file="objects/concrete_steps_side_edge_1.gfx" name="CONC_STEPS_EDGE_1" costf="2" costg="2"/>            
+		<Object id="454" file="objects/concrete_steps_side_edge_2.gfx" name="CONC_STEPS_EDGE_2" costf="2" costg="2"/>        
+		<Object id="455" file="objects/concrete_steps_end_edge.gfx" name="CONC_STEPS_END_EDGE" costf="2" costg="2"/>        
+		<Object id="456" file="objects/concrete_steps_step.gfx" name="CONC_STEPS_STEP" costf="1" costg="1"/>                        		
+		<Object id="463" file="objects/concrete_steps_level.gfx" name="CONC_STEPS_LEVEL" costf="1" costg="1"/>								
+		<Object id="464" file="objects/concrete_steps_group_fullsize.gfx" name="CONC_STEPS_FULLSTEPS" costf="8" costg="4" cost="2"/>												
+		<Object id="466" file="objects/concrete_tile_1.gfx" name="CONCRETE_TILE_1" costf="1" costg="1"/>
+		<Object id="467" file="objects/concrete_tile_2.gfx" name="CONCRETE_TILE_2" costf="1" costg="1"/>
+		<Object id="468" file="objects/concrete_tile_3.gfx" name="CONCRETE_TILE_3" costf="1" costg="1"/>
+		<Object id="469" file="objects/concrete_tile_4.gfx" name="CONCRETE_TILE_4" costf="1" costg="1"/>						
+				
+		<!-- Curved grid -->
+		<Object id="457" file="objects/curved_grid_plate_90.gfx" name="CURVED_GRID_PLATE_90" costf="6" costg="4" cost="2"/>
+		<Object id="458" file="objects/curved_grid_plate_45.gfx" name="CURVED_GRID_PLATE_45" costf="6" costg="3" cost="2"/>		
+		
+		<!-- Locker -->
+		<Object id="459" file="objects/metal_locker_base.gfx" name="LOCKER_BASE" costf="2" costg="1"/>
+		<Object id="461" file="objects/metal_locker_with_door.gfx" name="LOCKER_WITH_DOOR" costf="2" costg="1"/>		
+		<Object id="462" file="objects/metal_locker_door.gfx" name="LOCKER_DOOR" costf="1" costg="1"/>				
+		
+		<!-- Others -->
+		<Object id="437" file="objects/turbine.gfx" name="TURBINE" costf="8" costg="8" cost="2"/>        
+		<Object id="435" file="objects/missile.gfx" name="MISSILE" costf="8" costg="8" cost="2"/>            				
+		
+		<Object id="465" file="objects/red_metal_fence.gfx" name="RED_METAL_FENCE" costf="3" costg="2"/>												
+		<Object id="472" file="objects/red_metal_fence_angle.gfx" name="RED_METAL_FENCE_ANGLE" costf="3" costg="2"/>				
+		
+		<Object id="444" file="objects/weight_1.mdl" name="WEIGHT_2K" costf="1" costg="1"/>	    				
+
+		<!--Object id="442" file="objects/squirrel.gfx" name="SQUIRREL" costf="16" costg="5"/-->	
+		<!--bject id="443" file="objects/squirrel_doll.gfx" name="SQUIRREL_DOLL" costf="14" costg="5"/-->
+		<Object id="489" file="objects/squirrel_static.gfx" hidden="rel" name="SQUIRREL" costf="1" costg="1"/>										
+					
+	</Category>
+	
+	<!-- Effects & Bonus -->
+	<Category id="24">
+	
+		<Object id="436" file="objects/dust.gfx" name="DUST" costf="1" costg="2"/>	    	
+		<Object id="470" file="objects/light_null.gfx" name="LIGHT_NULL" costf="1" costg="8"/>
+		<Object id="490" file="objects/light_small_range_null.gfx" name="LIGHT_SMALL_RANGE_NULL" costf="1" costg="6"/>		
+				
+		<Object id="479" file="objects/sign_strange_1.gfx" hidden="rel" name="SIGN_STRANGE_1" costf="1" costg="1"/>			
+		<Object id="480" file="objects/sign_strange_2.gfx" hidden="rel" name="SIGN_STRANGE_2" costf="1" costg="1"/>			
+		<Object id="481" file="objects/sign_strange_3.gfx" hidden="rel" name="SIGN_STRANGE_3" costf="1" costg="1"/>			
+		<Object id="482" file="objects/sign_strange_4.gfx" hidden="rel" name="SIGN_STRANGE_4" costf="1" costg="1"/>											
+		<Object id="483" file="objects/sign_strange_5.gfx" hidden="rel" name="SIGN_STRANGE_5" costf="1" costg="1"/>
+		<Object id="484" file="objects/sign_strange_6.gfx" hidden="rel" name="SIGN_STRANGE_6" costf="1" costg="1"/>				
+		<Object id="487" file="objects/sign_strange_7.gfx" hidden="rel" name="SIGN_STRANGE_7" costf="1" costg="1"/>				
+		<Object id="488" file="objects/sign_strange_8.gfx" hidden="rel" name="SIGN_STRANGE_8" costf="1" costg="1"/>								
+		
+		<Object id="485" file="objects/piri_reis_missing_piece_1.gfx" hidden="rel" name="MISSING_PIECE" costf="1" costg="1"/>						
+		<Object id="491" file="objects/secret_box_1.gfx" hidden="rel" name="SECRET_BOX" costf="1" costg="1"/>				
+	
+	</Category>		
+    
+</ObjectList>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  Challenge:
+  
+    id              = track ID
+    type            = {racing | freestyle | crash }
+    leaderboard_id  = leaderboard stat view ID
+    context_id      = context ID
+    fullonly        = true if not in trial mode, false if available in trial mode
+    difficulty      = 1 (beginner), 2 (easy), 3 (medium), 4 (hard), 5 (inferno)
+    factor          = fault factor for global csore calculation
+
+    Limits:
+
+      pass          = minimum time to pass track (milliseconds)
+      gold,         = in racing mode, times to reach medals in this track (milliseconds)
+      silver,         in other modes, points to reach medals in this track
+      bronze
+      
+      pass_faults,  = maximum faults to pass this medal
+      gold_faults,
+      silver_faults,
+      bronze_faults
+
+-->
+<Challenges>
+   <Challenge id="16" type="racing" leaderboard_id="165" context_id="13" fullonly="true" difficulty="3" bikes="34">
+	<Track id="383"/>
+	<Track id="354"/>
+	<Track id="386"/>
+	<Track id="361"/>
+	<Track id="389"/>
+	<Limits platinum="158000" gold="179550" silver="205800" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+   </Challenge>
+
+   <Challenge id="14" type="racing" leaderboard_id="166" context_id="14" fullonly="true" difficulty="3" bikes="M">
+	<Track id="359"/>
+	<Track id="365"/>
+	<Track id="387"/>
+	<Track id="383"/>
+	<Track id="381"/>
+	<Limits platinum="180000" gold="240100" silver="317150" platinum_faults="0" gold_faults="8" silver_faults="40" pass="1000"/>
+   </Challenge>
+
+   <Challenge id="18" type="racing" leaderboard_id="167" context_id="15" fullonly="true" difficulty="3" bikes="34">
+	<Track id="371"/>
+	<Track id="390"/>
+	<Track id="366"/>
+	<Track id="384"/>
+	<Track id="369"/>
+	<Track id="355"/>
+	<Track id="358"/>
+	<Track id="359"/>
+	<Limits platinum="260000" gold="315105" silver="370965" platinum_faults="0" gold_faults="10" silver_faults="30" pass="1000"/>
+   </Challenge>
+
+   <Challenge id="19" type="racing" leaderboard_id="168" context_id="16" fullonly="true" difficulty="4" bikes="34">
+	<Track id="385"/>
+	<Track id="352"/>
+	<Track id="387"/>
+	<Track id="363"/>
+	<Track id="373"/>
+	<Track id="388"/>
+	<Track id="381"/>
+	<Track id="391"/>
+	<Track id="353"/>
+	<Track id="357"/>
+	<Limits platinum="340000" gold="398160" silver="578550" platinum_faults="0" gold_faults="16" silver_faults="55" pass="1000"/>
+   </Challenge>
+
+   <Challenge id="17" type="racing" leaderboard_id="169" context_id="17" fullonly="true" difficulty="4" bikes="34">
+	<Track id="364"/>
+	<Track id="360"/>
+	<Track id="375"/>
+	<Track id="368"/>
+	<Track id="386"/>
+	<Track id="389"/>
+	<Track id="351"/>
+	<Track id="357"/>
+	<Track id="376"/>
+	<Track id="353"/>
+	<Track id="367"/>
+	<Track id="377"/>
+	<Track id="372"/>
+	<Track id="358"/>
+	<Track id="356"/>
+	<Limits platinum="600000" gold="674910" silver="892050" platinum_faults="0" gold_faults="25" silver_faults="70" pass="1000"/>
+   </Challenge>
+
+   <Challenge id="15" type="racing" leaderboard_id="170" context_id="18" fullonly="true" difficulty="5" bikes="4">
+	<Track id="379"/>
+	<Track id="385"/>
+	<Track id="380"/>
+	<Track id="378"/>
+	<Track id="382"/>
+	<Track id="362"/>
+	<Limits platinum="510900" gold="701500" silver="1112000" platinum_faults="5" gold_faults="100" silver_faults="320" pass="1000"/>
+   </Challenge>
+
+</Challenges>

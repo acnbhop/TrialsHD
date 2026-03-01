@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pack>
+  <Strings name="file://content:/pack1.xus" />
+  <Tracks name="pack1\tracks.xml" />
+  <Objects name="pack1\objects.xml" />
+  <Challenges name="pack1\challenges.xml" />
+</Pack>

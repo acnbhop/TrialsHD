@@ -1,0 +1,6 @@
+<properties>
+	<physics mass="50" friction="0.9" restitution="0.1" angularDamping="0" linearDamping="0" hitpoints="0"/>
+</properties>
+
+
+

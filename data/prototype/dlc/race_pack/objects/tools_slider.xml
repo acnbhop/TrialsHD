@@ -1,0 +1,9 @@
+<properties>
+	<physics mass="1" friction="0.0" restitution="0.0" hitpoints="0" linearDamping="0.25" angularDamping="0.99"
+	enablePhysics="1"
+	forceDefaultPhysics="0"
+	enableAnimation="0"/>
+</properties>
+
+
+

@@ -1,0 +1,12 @@
+// Shader file
+shader shaders/line2D.fx
+
+// Vertex format
+vxf positiont FLOAT4 FLOAT4
+vxf color COLORDW COLORDW
+
+// Textures
+//tex 0 mapColor
+
+// Constants
+// NONE

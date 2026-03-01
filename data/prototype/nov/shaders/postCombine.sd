@@ -1,0 +1,14 @@
+// Shader file
+shader shaders/postCombine.fx
+
+// Vertex format
+vxf position FLOAT4 FLOAT4
+vxf texcoords FLOAT2 FLOAT2
+vxf texcoords2 FLOAT3 FLOAT3
+
+// Textures
+tex 0 postProcessInput
+tex 0 postProcessInput2
+tex 0 postProcessInput3
+tex 0 postProcessInput4
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  Challenge:
+  
+    id              = track ID
+    type            = {racing | freestyle | crash }
+    leaderboard_id  = leaderboard stat view ID
+    context_id      = context ID
+    fullonly        = true if not in trial mode, false if available in trial mode
+    difficulty      = 1 (beginner), 2 (easy), 3 (medium), 4 (hard), 5 (inferno)
+    factor          = fault factor for global csore calculation
+
+    Limits:
+
+      pass          = minimum time to pass track (milliseconds)
+      gold,         = in racing mode, times to reach medals in this track (milliseconds)
+      silver,         in other modes, points to reach medals in this track
+      bronze
+      
+      pass_faults,  = maximum faults to pass this medal
+      gold_faults,
+      silver_faults,
+      bronze_faults
+
+-->
+<Challenges>
+
+</Challenges>

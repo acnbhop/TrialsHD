@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  Track:
+  
+    id              = track ID
+    type            = {racing | freestyle | crash }
+    leaderboard_id  = leaderboard stat view ID
+    context_id      = context ID
+    fullonly        = true if not in trial mode, false if available in trial mode
+    difficulty      = 1 (beginner), 2 (easy), 3 (medium), 4 (hard), 5 (inferno)
+    factor          = fault factor for global csore calculation
+
+    Limits:
+
+      pass          = minimum time to pass track (milliseconds)
+      gold,         = in racing mode, times to reach medals in this track (milliseconds)
+      silver,         in other modes, points to reach medals in this track
+      bronze
+      
+      pass_faults,  = maximum faults to pass this medal
+      gold_faults,
+      silver_faults,
+      bronze_faults
+
+-->
+<TrackSet>
+
+	<!-- Content pack 1 tracks -->
+	
+	<!-- Medium -->
+	<Track id="501" type="racing" leaderboard_id="82" context_id="36"  fullonly="true" difficulty="3" factor="0.1" bikes="34M">
+		<!--Limits platinum="45000" gold="50000" silver="55000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/-->
+		<Limits platinum="48000" gold="52000" silver="80000" platinum_faults="0" gold_faults="0" silver_faults="5" pass="1000"/>
+	</Track>
+
+
+
+</TrackSet>
