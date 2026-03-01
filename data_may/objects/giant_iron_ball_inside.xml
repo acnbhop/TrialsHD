@@ -1,0 +1,7 @@
+<properties>
+	<physics mass="1400" friction="0.9" restitution="0.01" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="0"
+	enablePhysics="1"
+	material="metal"
+	collisionsound="GiantBallHit"
+	/>
+</properties>

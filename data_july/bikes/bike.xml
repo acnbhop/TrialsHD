@@ -1,0 +1,71 @@
+<config>
+		<rider 
+			gameSpeedSlowMotionBailCharge="1.0" 
+			healSpeed="0.03" 
+			minimumDamageThreshold="2.0"  
+			detachDamageThreshold="7" 
+			detachDamageThresholdCrash="7" 
+			detachedStiffness="0.35" 
+			unconsciousDamageThreshold="2500" 
+			unconsciousDamageThresholdCrash="3500" 
+			unconsciousStiffness="0.25" 
+			boneSnapThreshold="10" 
+			bailStanceSpeed="1.00" 
+			bailChargeSpeed="80000.0" 
+			bailChargeLimit="300" 
+			ejectionForce="200"
+			boosterForce="1700"
+			boosterDuration="120"
+			boosterDamping="500"
+			bailStancePower="0.0"
+			fireGrowth="0.0025" 
+			nudgeDelay="60" 
+			nudgeReduction="0.75" 
+			fireReduction="0.01">
+
+			<fakeForceFly 
+				front="1.0" 
+				back="1.0" 
+				up="1.0" 
+				down="1.0"
+			/>
+		</rider>
+		<bike 
+			accelerationPower="26" 
+			accelerationBrake="25"
+			accelerationBodyForce="0.01"
+
+			curveLeanAmount="3.0"
+			curveLeanAmountFront="-0.5"
+			curveLeanAmountBack="-0.25"
+			curveClampAmount="100.0"
+			curveDetachAmount="1.0"
+			curveSlowAmount="1.0"
+			curveHandleAmount="1.5"
+			curveForceAmount="3.0"
+
+			brakePowerBack="0.5" 
+			brakePowerFront="0.5" 
+			maxReverse="400" 
+			fakeForce="10.00" 
+			fakeForceVelocityReduce="8.0" 
+			fakeForceDude="5.0" 
+			leanSpeed="0.001" 
+			fakeForceDelayOnBackWheel="10" 
+			fireGrowth="0.0025" 
+			fireReduction="0.01" 
+			explosionFilename="effects/explosion_bike_1.gfx">
+			<lean>
+				<frontPivot>
+					<front x="1.0" y="1.0"/> 
+					<mid x="0.5" y="1.2"/>
+					<back x="0.5" y="0.9"/>
+				</frontPivot>
+				<backPivot>
+					<front x="0.25" y="0.85"/>
+					<mid x="-0.2" y="0.9"/>
+					<back x="-0.5" y="0.6"/>
+				</backPivot>
+			</lean>
+		</bike>
+</config>

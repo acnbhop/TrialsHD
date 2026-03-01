@@ -1,0 +1,15 @@
+// Shader file
+shader shaders/softShadow.fx
+
+// Vertex format
+vxf position FLOAT4 FLOAT4
+vxf texcoords FLOAT2 FLOAT2
+vxf texcoords2 FLOAT3 FLOAT3
+
+// Textures
+tex 0 gbufferMotionVectors
+
+// Constants
+constant gbufferSize 0
+//constant userInput 0
+

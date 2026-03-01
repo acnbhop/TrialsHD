@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Gear>
+  <!--
+  
+  BIKE
+  
+    type    affects models
+    ====    ==============
+    
+    plastic:	back_fender, front_fender, front_suspension_cover, tank, headlight
+	rims:  		back_wheel, front_wheel
+	frame:  	front_suspension, back_suspension, handlebar, frame, engine
+	exhaust: 	exhaust
+  
+  CHARACTER
+  
+    type    affects models
+    ====    ==============
+    
+    skin:   torso
+    helmet: helmet
+    jacket: shirt
+    gloves: gloves
+    legs:   pants, knees
+    boots:  boots
+    
+  -->
+  <Colors>
+    <Color rgb="FF0C00" name="dark_red" id="1" texture="bronze_color" specular="1.0" diffuse="1.0" gloss="0.5"/>
+    <Color rgb="ED1B23" name="color_a" id="2"/>
+    <Color rgb="C93728" name="color_b" id="3"/>
+    <Color rgb="F26521" name="color_c" id="4"/>
+    <Color rgb="FFA800" name="color_d" id="5"/>
+    <Color rgb="FFE400" name="color_e" id="6"/>
+    <Color rgb="8DC63F" name="color_f" id="7"/>
+    <Color rgb="28D740" name="color_g" id="8"/>
+    <Color rgb="00A983" name="color_h" id="9"/>
+    <Color rgb="6DCFFA" name="color_i" id="10"/>
+    <Color rgb="006ED4" name="color_j" id="11"/>
+    <Color rgb="004A8F" name="color_k" id="12"/>
+    <Color rgb="1F2D5C" name="color_l" id="13"/>
+    <Color rgb="5D6A7C" name="color_m" id="14"/>
+    <Color rgb="743E9D" name="color_n" id="15"/>
+    <Color rgb="F559FF" name="color_o" id="16"/>
+    <Color rgb="EC008C" name="color_p" id="17"/>
+    <Color rgb="FF8164" name="color_q" id="18"/>
+    <Color rgb="C7B299" name="color_r" id="19"/>
+    <Color rgb="988675" name="color_s" id="20"/>
+    <Color rgb="726257" name="color_t" id="21"/>
+    <Color rgb="534640" name="color_u" id="22"/>
+    <Color rgb="352E2C" name="color_v" id="23"/>
+    <Color rgb="C69C6D" name="color_w" id="24"/>
+    <Color rgb="997845" name="color_x" id="25"/>
+    <Color rgb="6A5331" name="color_y" id="26"/>
+    <Color rgb="754C23" name="color_z" id="27"/>
+    <Color rgb="4D6126" name="color_1" id="28"/>
+    <Color rgb="6DA43C" name="color_2" id="29"/>
+    <Color rgb="959A62" name="color_3" id="30"/>
+    <Color rgb="000000" name="color_4" id="31"/>
+    <Color rgb="4E4E50" name="color_5" id="32"/>
+    <Color rgb="77787B" name="color_6" id="33"/>
+    <Color rgb="F6F6EF" name="color_7" id="34"/>
+    <Color rgb="CE8967" name="skin_light" id="35"/>
+    <Color rgb="C1884A" name="skin_medium" id="36"/>
+    <Color rgb="4C3025" name="skin_dark" id="37"/>     
+    <Color rgb="FFFFFF" name="frame_white" id="38"/>
+    <Color rgb="959595" name="frame_gray" id="39"/>
+    <Color rgb="000000" name="frame_black" id="40"/>   
+    <Color rgb="534640" name="frame_brown" id="41"/>  
+    <Color rgb="364138" name="frame_dark_green" id="42"/>
+    <Color rgb="2D465F" name="frame_dark_blue" id="43"/>
+    <Color rgb="0071BC" name="frame_light_blue" id="44"/>    
+    <Color rgb="D456A1" name="frame_pink" id="45"/>        
+    <Color rgb="ED1B23" name="frame_red" id="46"/>        
+    <Color rgb="F7941C" name="frame_orange" id="47"/>
+    <Color rgb="FFD200" name="frame_yellow" id="48"/>    
+    <Color rgb="DDAF46" name="frame_gold" id="49"/>  
+  </Colors>
+
+  <ColorSet name="basic_colors_1">
+    <Color name="color_a"/>
+    <Color name="color_b"/>
+    <Color name="color_c"/>
+    <Color name="color_d"/>
+    <Color name="color_e"/>
+    <Color name="color_f"/>
+    <Color name="color_g"/>
+    <Color name="color_h"/>         
+    <Color name="color_i"/>
+    <Color name="color_j"/>
+    <Color name="color_k"/>
+    <Color name="color_l"/>
+    <Color name="color_m"/>
+    <Color name="color_n"/>
+    <Color name="color_o"/>
+    <Color name="color_p"/>     
+    <Color name="color_q"/>
+    <Color name="color_r"/>     
+    <Color name="color_s"/>
+    <Color name="color_t"/>                                                           
+    <Color name="color_u"/>
+    <Color name="color_v"/>
+    <Color name="color_w"/>
+    <Color name="color_x"/>
+    <Color name="color_y"/>    
+    <Color name="color_z"/>
+    <Color name="color_1"/>
+    <Color name="color_2"/>
+    <Color name="color_3"/>
+    <Color name="color_4"/>
+    <Color name="color_5"/>
+    <Color name="color_6"/>
+    <Color name="color_7"/>               
+  </ColorSet> 
+  
+  <ColorSet name="skin_colors">
+    <Color name="skin_light"/>
+    <Color name="skin_medium"/>
+    <Color name="skin_dark"/>
+  </ColorSet>    
+
+  <ColorSet name="frame_colors">
+    <Color name="frame_white"/>
+    <Color name="frame_gray"/>
+    <Color name="frame_black"/>
+    <Color name="frame_brown"/>
+    <Color name="frame_dark_green"/>
+    <Color name="frame_dark_blue"/>
+    <Color name="frame_light_blue"/>
+    <Color name="frame_pink"/>
+    <Color name="frame_red"/>
+    <Color name="frame_orange"/>
+    <Color name="frame_yellow"/>
+    <Color name="frame_gold"/>                                               
+  </ColorSet>    
+  
+  <ColorSet name="bronze_colors">
+    <Color name="color_c"/>
+    <Color name="color_d"/>
+  </ColorSet>
+
+  <Bikes>
+  
+    <!--
+      The bike name is used this way:
+      
+        [bike name].gfx       = Bike model in game
+        [bike name]_gear.gfx  = Bike model in gear menu
+        [bike name].xml       = bike config
+        
+    plastic:	back_fender, front_fender, front_suspension_cover, tank, headlight
+	rims:  		back_wheel, front_wheel
+	frame:  	front_suspension, back_suspension, handlebar, frame
+	exhaust: 	exhaust
+	        
+    -->
+    
+    <Bike key="1" name="bike_beginner" unlock=" " topspeed="0.1" acceleration="0.3" handling="0.2" level="0" brake="BIKE_BRAKE_1">
+      <Category type="plastic" default_color_id="3">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>                
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>        
+    <Bike key="2" name="bike_easy" unlock="difficulty_unlocked=easy" topspeed="0.5" acceleration="0.5" handling="0.6" level="1" brake="BIKE_BRAKE_2">
+      <Category type="plastic" default_color_id="5">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>            
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>    
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>         
+    <Bike key="3" name="bike" unlock="difficulty_unlocked=medium" topspeed="1.0" acceleration="0.8" handling="0.7" level="2" brake="BIKE_BRAKE_3">
+      <Category type="plastic" default_color_id="31">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>    
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>     
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>       
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>    
+    <Bike key="4" name="bike_hard" unlock="difficulty_unlocked=hard" topspeed="0.9" acceleration="1.0" handling="1.0" level="3" brake="BIKE_BRAKE_4">
+      <Category type="plastic" default_color_id="13">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>            
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>    
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>      
+    <Bike key="M" name="bike_monkey" unlock="challenge_2=gold" topspeed="0.7" acceleration="1.0" handling="0.9" level="3" brake="BIKE_BRAKE_2">
+      <Category type="plastic" default_color_id="3">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>            
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>    
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>      
+    <Bike key="C" name="bike_with_cart" unlock=" " topspeed="0.3" acceleration="0.4" handling="0.1" level="2" brake="BIKE_BRAKE_2">
+      <Category type="plastic" default_color_id="28">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>            
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>    
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>      
+    <Bike key="R" name="bike_reverse" unlock=" " topspeed="0.5" acceleration="0.5" handling="0.6" level="2" brake="BIKE_BRAKE_R">
+      <Category type="plastic" default_color_id="31">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>            
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>    
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>
+    <Bike key="S" name="bike_ski" unlock=" " topspeed="1.0" acceleration="0.8" handling="0.7" level="2" brake="BIKE_BRAKE_3">
+      <Category type="plastic" default_color_id="13">
+        <Item index="0" icon="images\gear_item_icon_plastic_01.dds">
+          <ColorSet name="basic_colors_1" />
+        </Item>
+      </Category>            
+      <Category type="rims" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_rim_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>    
+      <Category type="frame" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_frame_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>
+      <Category type="exhaust" default_color_id="39">
+        <Item index="0" icon="images\gear_item_icon_exhaust_01.dds">
+          <ColorSet name="frame_colors" />
+        </Item>
+      </Category>          
+    </Bike>      
+  </Bikes>  
+  <Character>
+    <Category type="skin" default_color_id="35">
+      <Item index="0" icon="images\item_icons_skin_01.dds">
+        <ColorSet name="skin_colors" />  
+      </Item>     
+    </Category>
+    <Category type="helmet" default_color_id="32">
+      <Item index="0" icon="images\item_icons_helmet_01.dds">
+        <ColorSet name="basic_colors_1" />  
+      </Item>
+    </Category>  
+    <Category type="jacket" default_color_id="3">
+      <Item index="0" icon="images\item_icons_shirt_01.dds">
+        <ColorSet name="basic_colors_1" />
+      </Item>
+    </Category>      
+    <Category type="gloves" default_color_id="3">
+      <Item index="0" icon="images\item_icons_gloves_01.dds">
+        <ColorSet name="basic_colors_1" />
+      </Item>
+    </Category>      
+    <Category type="legs" default_color_id="32">
+      <Item index="0" icon="images\item_icons_pants_01.dds">
+        <ColorSet name="basic_colors_1" />
+      </Item>
+    </Category>    
+    <Category type="boots" default_color_id="3">    
+      <Item index="0" icon="images\item_icons_boots_01.dds">
+        <ColorSet name="basic_colors_1" />
+      </Item>        
+    </Category>       
+    <Category type="knees" default_color_id="3">
+      <Item index="0" icon="images\item_icons_knees_01.dds">
+        <ColorSet name="basic_colors_1" />
+      </Item>
+    </Category>
+  </Character>
+</Gear>

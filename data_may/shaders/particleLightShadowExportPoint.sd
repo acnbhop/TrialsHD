@@ -1,0 +1,17 @@
+// Shader file
+shader shaders/particleLightShadowExportPoint.fx
+
+// Vertex format
+vxf position FLOAT4 FLOAT4
+vxf position2 FLOAT4 FLOAT4
+vxf position3 COLORDW COLORDW
+
+// Textures
+tex 0 lightMapTexture
+tex 1 lightMapTexture
+tex 2 lightMapTexture
+tex 0 gbufferMotionVectors
+
+// Constants
+constant matrixV 0
+constant matrixVP 0
