@@ -1,6 +1,18 @@
 Final Build		July 16th, 2009
 Release Date	Aug 12th, 2009
 
+Links
+
+	Use the July 16th build for primary research.
+
+	https://files.hiddenpalace.org/6/64/Trials_HD_%28May_11%2C_2009_prototype%29.rar
+	https://files.hiddenpalace.org/6/6b/Trials_HD_%28Jul_16_2009%29.rar
+	https://files.hiddenpalace.org/9/97/Trials_HD_%28Nov_12%2C_2009_prototype%29.7z
+	https://files.hiddenpalace.org/6/6d/Trials_HD_%28Feb_1%2C_2010_prototype%29.7z
+	https://files.hiddenpalace.org/e/e9/Trials_HD_%28DLC_Big_Thrills_prototype%29.zip
+	https://files.hiddenpalace.org/4/40/Trials_HD_%28DLC_Highway_to_2010_prototype%29.zip
+	https://files.hiddenpalace.org/3/34/Trials_HD_%28DLC_Race_Pack_prototype%29.zip
+
 Builds
 				May 11th, 2009
 					Press RB in Main Menu to unlock full game.
