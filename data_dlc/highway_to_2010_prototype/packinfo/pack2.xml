@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Pack>
+  <Strings name="file://content:/pack2.xus" />
+  <Tracks name="pack2\tracks.xml" />
+  <Objects name="pack2\objects.xml" />
+  <Challenges name="pack2\challenges.xml" />
+
+  <WaveBank name="XACT/DLC01.xwb" />
+  <SoundBank name="XACT/DLC01.xsb" />
+</Pack>
