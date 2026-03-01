@@ -1,0 +1,23 @@
+Final Build		July 16th, 2009
+Release Date	Aug 12th, 2009
+
+Builds
+				May 11th, 2009
+					Press RB in Main Menu to unlock full game.
+				July 16th, 2009
+					default.xex has some different bytes compared to the
+					final version.
+				Nov 12th, 2009
+					Postdates final build by four months.
+				Feb 1st, 2010
+					Postdates final build by almost seven months.
+
+English			Trials HD			Trials HD motorcycle game
+Japanese		Trials HD			Trials HD: モトトライアル ゲーム
+German			Trials HD			Trials HD Motorrad-Spiel
+French			Trials HD			Trials HD jeu de motos
+Spanish 		Trials HD			Trials HD juego de motos
+Italian 		Trials HD			Trials HD gioco di motociclismo
+6				Trials HD			Trials HD: 바이크 게임
+7				Trials HD			Trials HD 越野摩托車遊戲
+8				Trials HD			Trials HD jogo de motas
