@@ -1,7 +1,0 @@
-<properties>
-	<physics mass="1000" friction="0.9" restitution="0.1" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="0"
-	material="stone"/>
-</properties>
-
-
-

@@ -1,7 +1,0 @@
-<properties>
-	<physics mass="2500" friction="0.9" restitution="0.01" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="0"
-	material="metal"
-	collisionsound="ContainerMetalLarge"
-	enableAnimation="1"
-	/>
-</properties>

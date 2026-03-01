@@ -1,9 +1,0 @@
-<properties>
-	<physics mass="15" friction="0.7" restitution="0.05" angularDamping="0.2" linearDamping="0.2" convexClass="2" hitpoints="0.01" hitActivation="1" destructionTimer="120"
-	enablePhysics="1"
-	minimumDamage="0.01"
-	brokenobject="objects/broken/crash_target_1_destruction.gfx"
-	destructioneffect="effects/score_collect_1.gfx"
-	material="glass"
-	destructionscore="250"/>	
-</properties>

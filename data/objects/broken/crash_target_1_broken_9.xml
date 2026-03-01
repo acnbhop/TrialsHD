@@ -1,4 +1,0 @@
-<properties>
-	<physics mass="15" friction="0.7" restitution="0" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="1"
-	material="glass" />	
-</properties>

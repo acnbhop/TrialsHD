@@ -1,6 +1,0 @@
-<properties>
-	<physics mass="50" friction="0.2" restitution="0.60" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="0"
-	material="rubber"
-	collisionsound="TireRubberBasic"
-/>
-</properties>

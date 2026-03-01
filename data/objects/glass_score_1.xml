@@ -1,7 +1,0 @@
-<properties>
-	<physics mass="75" friction="0.7" restitution="0.05" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="1"
-	brokenobject="objects/broken/glass_score_1_destruction.gfx"
-	destructioneffect="effects/score_collect_1.gfx"
-	material="glass"
-	destructionscore="250"/>	
-</properties>

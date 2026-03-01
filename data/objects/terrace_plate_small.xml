@@ -1,6 +1,0 @@
-<properties>
-	<physics mass="150" friction="0.9" restitution="0.05" angularDamping="0" linearDamping="0" convexClass="2" hitpoints="0"
-	material="metal"
-	collisionsound="BoardMetalLarge"
-/>
-</properties>
