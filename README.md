@@ -10,7 +10,7 @@ Simply just run `cmake -S . -B build` and you're good to go, it will fetch depen
 Building the old Bullet library is done like this:
 ```
 cmake -S extern/bullet-2.74 -B build/extern/bullet-2.74
-cmake --build build/extern/bullet-2.74
+cmake --build build/extern/bullet-2.74 -j
 ```
 
 # Technical Info
