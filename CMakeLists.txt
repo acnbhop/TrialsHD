@@ -359,8 +359,6 @@ add_library(game STATIC
     code/game/data/game_config.hpp
     code/game/data/gear.cpp
     code/game/data/gear.hpp
-    code/game/data/gfx.cpp
-    code/game/data/gfx.hpp
     code/game/data/object.cpp
     code/game/data/object.hpp
     code/game/data/objectlist.cpp
