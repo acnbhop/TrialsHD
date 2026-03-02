@@ -34,7 +34,7 @@ daeElement *daeMetaGroup::placeElement( daeElement *parent, daeElement *child, d
 		nm = child->getTypeName();
 	}
 	if ( findChild( nm ) == NULL ) {
-		return false;
+		return NULL;
 	}
 	daeElementRef el;
 #if 0
@@ -136,4 +136,3 @@ void daeMetaGroup::getChildren( daeElement *parent, daeElementRefArray &array ) 
 	}
 	//_elementContainer->_elementType->getChildren( parent, array );
 }
-

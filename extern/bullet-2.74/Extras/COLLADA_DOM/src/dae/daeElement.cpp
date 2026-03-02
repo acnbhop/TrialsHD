@@ -320,7 +320,7 @@ daeBool daeElement::hasAttribute( daeString attrName ) {
 
 daeMemoryRef daeElement::getAttributeValue( daeString attrName ) {
 	if (_meta == NULL)
-		return false;
+		return NULL;
 	
 	daeMetaAttributeRefArray& metaAttrs = _meta->getMetaAttributes();
 	int n = (int)metaAttrs.getCount();
@@ -344,7 +344,7 @@ daeBool daeElement::hasValue() {
 
 daeMemoryRef daeElement::getValuePointer() {
 	if (_meta == NULL)
-		return false;
+		return NULL;
 	
 	if ( _meta->getValueAttribute() != NULL )
 	{

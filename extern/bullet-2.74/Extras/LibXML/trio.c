@@ -63,6 +63,10 @@
 # include "triostr.h"
 #endif
 
+#if defined(__APPLE__) || defined(__linux__)
+#include <unistd.h>
+#endif
+
 /**************************************************************************
  *
  * Definitions

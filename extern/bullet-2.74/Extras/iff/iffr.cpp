@@ -36,7 +36,7 @@ IFFP OpenRIFF(BPTR file0, GroupContext *new0,ClientFrame *clientFrame)
 	newtmp->ckHdr.ckSize = newtmp->bytesSoFar = 0;
 
 	/* Set newtmp->bound. AmigaDOS specific code.*/
-	if (file <= 0)   return(NO_FILE);
+	if (file == 0)   return(NO_FILE);
 	Seek(file, 0L, OFFSET_END);         /* Seek to end of file.*/
 	newtmp->bound = ftell(file);//Seek(file, 0L, OFFSET_CURRENT);   /* Pos'n == #bytes in file.*/
 	if (newtmp->bound < 0)   return(DOS_ERROR);   /* DOS being absurd.*/

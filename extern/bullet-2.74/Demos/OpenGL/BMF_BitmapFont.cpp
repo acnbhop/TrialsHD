@@ -44,7 +44,7 @@
 		#include <GL/gl.h>
 	#else // WIN32
 		// __APPLE__ is defined
-		#include <AGL/gl.h>
+		#include <OpenGL/gl.h>
 	#endif // WIN32
 #else // defined(WIN32) || defined(__APPLE__)
 	#include <GL/gl.h>
