@@ -3,7 +3,7 @@
 //
 
 // Engine headers
-#include "engine/xus.hpp"
+#include "engine/asset/xus.hpp"
 
 // Standard headers
 #include <iostream>

@@ -3,7 +3,7 @@
 //
 
 // Engine headers
-#include "engine/xur.hpp"
+#include "engine/asset/xur.hpp"
 
 // Standard headers
 #include <iostream>

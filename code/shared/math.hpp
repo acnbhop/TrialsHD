@@ -1,0 +1,5 @@
+//
+// math.hpp
+//
+
+#pragma once

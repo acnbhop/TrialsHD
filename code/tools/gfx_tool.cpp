@@ -3,7 +3,7 @@
 //
 
 // Engine headers
-#include "engine/gfx.hpp"
+#include "engine/asset/gfx.hpp"
 
 // Standard headers
 #include <iostream>
