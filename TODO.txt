@@ -9,3 +9,5 @@
   xml data structures in there, but decided I'd leave it to be in asset/ if the
   file is a binary blob, and if the file is actually xml data, we can just put
   correct parsing and whatnot into xmldata/
+
+- Move stuff that is important to the /code/engine/ folder.
