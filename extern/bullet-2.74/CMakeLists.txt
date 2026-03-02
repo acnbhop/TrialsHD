@@ -3,12 +3,23 @@ cmake_minimum_required(VERSION 3.5)
 PROJECT(BULLET_PHYSICS)
 SET(BULLET_VERSION 2.74)
 
+set(CMAKE_CXX_STANDARD 98)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS ON)
+
 IF (NOT CMAKE_BUILD_TYPE)
 # SET(CMAKE_BUILD_TYPE "Debug")
  SET(CMAKE_BUILD_TYPE "Release")
 ENDIF (NOT CMAKE_BUILD_TYPE)
 
-
+if(APPLE)
+  add_compile_options(
+    -Wno-c++11-narrowing
+    -Wno-deprecated-declarations
+    -Wno-error=implicit-function-declaration
+    -DGL_SILENCE_DEPRECATION
+  )
+endif()
 
 IF(COMMAND cmake_policy)
    cmake_policy(SET CMP0003 NEW)
