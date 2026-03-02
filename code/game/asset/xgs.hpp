@@ -1,3 +1,5 @@
 //
 // xgs.hpp
 //
+
+#pragma once

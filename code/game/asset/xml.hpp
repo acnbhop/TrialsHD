@@ -1,3 +1,5 @@
 //
 // xml.hpp
 //
+
+#pragma once

@@ -1,3 +1,5 @@
 //
 // actor.hpp
 //
+
+#pragma once

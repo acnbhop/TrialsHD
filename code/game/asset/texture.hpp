@@ -1,3 +1,5 @@
 //
 // texture.hpp
 //
+
+#pragma once

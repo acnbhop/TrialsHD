@@ -1,3 +1,5 @@
 //
 // renderer.hpp
 //
+
+#pragma once

@@ -1,3 +1,5 @@
 //
 // shader.hpp
 //
+
+#pragma once

@@ -1,3 +1,5 @@
 //
 // challenges.hpp
 //
+
+#pragma once

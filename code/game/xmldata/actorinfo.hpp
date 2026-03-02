@@ -1,3 +1,5 @@
 //
 // actorinfo.hpp
 //
+
+#pragma once

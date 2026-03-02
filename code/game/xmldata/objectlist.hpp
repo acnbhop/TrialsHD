@@ -1,3 +1,5 @@
 //
 // objectlist.hpp
 //
+
+#pragma once

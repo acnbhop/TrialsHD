@@ -1,3 +1,5 @@
 //
 // anim.hpp
 //
+
+#pragma once

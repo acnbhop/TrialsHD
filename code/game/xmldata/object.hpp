@@ -1,3 +1,5 @@
 //
 // object.hpp
 //
+
+#pragma once

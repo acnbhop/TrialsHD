@@ -1,3 +1,5 @@
 //
 // xsb.hpp
 //
+
+#pragma once
