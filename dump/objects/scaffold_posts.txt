@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 779 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 735
+  Post-data payload size: 28 bytes
+  Scene data: 735 bytes (offsets 0..734)
+  Post data: 44 bytes (offsets 735..778)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed1    | Type: Unknown      | Hash: 0xd63b38a9 | IHash: 0xd63b38a9 | ID: Decomposed1 | @516
+  [ 1] Mesh9          | Type: Unknown      | Hash: 0x7bb64f05 | IHash: 0x1fe565c2 | ID: 198571696 | @683
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  524: [ 11] Decomposed1
+  @  539: [ 11] Decomposed1
+  @  573: [ 26] objects\scaffold_posts.mdl
+  @  691: [  9] 198571696
+  @  704: [  5] Mesh9
+  @  747: [  7] default

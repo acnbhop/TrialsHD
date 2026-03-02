@@ -1,0 +1,84 @@
+[+] GFX v1 | Size: 6997 bytes | Root: SceneObject | Nodes: 12 | Strings: 55
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2964
+  Post-data payload size: 4017 bytes
+  Scene data: 2964 bytes (offsets 0..2963)
+  Post data: 4033 bytes (offsets 2964..6996)
+
+--- Child Nodes (12) ---
+  [ 0] PhysicalMesh6  | Type: Unknown      | Hash: 0x8b034a9f | IHash: 0x3bf4b8d0 | ID: 247441370 | @415
+  [ 1] base           | Type: Unknown      | Hash: 0xf41f3916 | IHash: 0xf41f3916 | ID: base | @585
+  [ 2] arm            | Type: Unknown      | Hash: 0xab5c1f03 | IHash: 0xab5c1f03 | ID: arm | @755
+  [ 3] light_top      | Type: Unknown      | Hash: 0xd6987913 | IHash: 0xd6987913 | ID: light_top | @925
+  [ 4] light_middle   | Type: Unknown      | Hash: 0x2b45ee1f | IHash: 0x2b45ee1f | ID: light_middle | @1107
+  [ 5] light_bottom   | Type: Unknown      | Hash: 0xa9e5beca | IHash: 0xa9e5beca | ID: light_bottom | @1295
+  [ 6] pointlight     | Type: Unknown      | Hash: 0x15e3160f | IHash: 0x15e3160f | ID: pointlight | @1445
+  [ 7] Acrs           | Type: Unknown      | Hash: 0x6dbbc083 | IHash: 0x6849beca | ID: 4826115 | @1691
+  [ 8] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0xd38bf7b6 | ID: 272382480 | @2061
+  [ 9] CountDownSound | Type: Unknown      | Hash: 0xcfafd166 | IHash: 0xcfafd166 | ID: CountDownSound | @2426
+  [10] SoundGO        | Type: Unknown      | Hash: 0x1cd563fb | IHash: 0x1cd563fb | ID: SoundGO | @2641
+  [11] SoundCount     | Type: Unknown      | Hash: 0x7cac46dd | IHash: 0x7cac46dd | ID: SoundCount | @2844
+
+--- Strings (55) ---
+  @  100: [ 11] SceneObject
+  @  423: [  9] 247441370
+  @  436: [ 13] PhysicalMesh6
+  @  474: [ 27] objects\startpoint_flag.mdl
+  @  593: [  4] base
+  @  601: [  4] base
+  @  640: [ 31] objects\startpoint_flag_arm.mdl
+  @  763: [  3] arm
+  @  770: [  3] arm
+  @  808: [ 33] objects\startpoint_flag_light.mdl
+  @  933: [  9] light_top
+  @  946: [  9] light_top
+  @  990: [ 33] objects\startpoint_flag_light.mdl
+  @ 1115: [ 12] light_middle
+  @ 1131: [ 12] light_middle
+  @ 1178: [ 33] objects\startpoint_flag_light.mdl
+  @ 1303: [ 12] light_bottom
+  @ 1319: [ 12] light_bottom
+  @ 1453: [ 10] pointlight
+  @ 1467: [ 10] pointlight
+  @ 1699: [  7] 4826115
+  @ 1710: [  4] Acrs
+  @ 2069: [  9] 272382480
+  @ 2082: [  6] Sparks
+  @ 2434: [ 14] CountDownSound
+  @ 2452: [ 14] CountDownSound
+  @ 2649: [  7] SoundGO
+  @ 2660: [  7] SoundGO
+  @ 2852: [ 10] SoundCount
+  @ 2866: [ 10] SoundCount
+  @ 2976: [  7] default
+  @ 3004: [  6] ColorR
+  @ 3101: [  6] ColorG
+  @ 3181: [  6] ColorB
+  @ 3227: [  8] Emissive
+  @ 3292: [  6] ColorB
+  @ 3338: [  6] ColorG
+  @ 3418: [  6] ColorR
+  @ 3532: [  8] Emissive
+  @ 3614: [  8] Emissive
+  @ 3696: [  6] ColorR
+  @ 3810: [  6] ColorG
+  @ 3890: [  6] ColorB
+  @ 3936: [  3] arm
+  @ 5233: [ 11] m_diffuse.r
+  @ 5335: [ 11] m_diffuse.g
+  @ 5420: [ 10] pointlight
+  @ 5704: [ 11] m_intensity
+  @ 5772: [  9] BirthRate
+  @ 5896: [ 13] ParticleFrame
+  @ 5983: [  9] BirthRate
+  @ 6095: [  6] m_play
+  @ 6489: [  7] m_pitch
+  @ 6582: [  6] m_play
+  @ 6715: [  6] m_play

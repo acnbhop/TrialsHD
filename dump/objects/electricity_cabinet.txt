@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 774 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 730
+  Post-data payload size: 28 bytes
+  Scene data: 730 bytes (offsets 0..729)
+  Post data: 44 bytes (offsets 730..773)
+
+--- Child Nodes (2) ---
+  [ 0] Box8           | Type: Unknown      | Hash: 0x42d7ba08 | IHash: 0x81428a3a | ID: 22515745 | @516
+  [ 1] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x0ccfd023 | ID: 328878121 | @678
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  524: [  8] 22515745
+  @  536: [  4] Box8
+  @  563: [ 31] objects\electricity_cabinet.mdl
+  @  686: [  9] 328878121
+  @  699: [  5] Mesh7
+  @  742: [  7] default

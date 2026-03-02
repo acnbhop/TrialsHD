@@ -1,0 +1,31 @@
+[+] GFX v1 | Size: 702 bytes | Root: SceneObject | Nodes: 3 | Strings: 11
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 658
+  Post-data payload size: 28 bytes
+  Scene data: 658 bytes (offsets 0..657)
+  Post data: 44 bytes (offsets 658..701)
+
+--- Child Nodes (3) ---
+  [ 0] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xd7331993 | ID: 867867870 | @222
+  [ 1] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x1de2e74e | ID: 110389171 | @399
+  [ 2] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x7a4b6381 | ID: 7759108 | @573
+
+--- Strings (11) ---
+  @  100: [ 11] SceneObject
+  @  230: [  9] 867867870
+  @  243: [ 11] Serialized0
+  @  275: [ 29] objects\terrace_plate_big.gfx
+  @  407: [  9] 110389171
+  @  420: [ 11] Serialized0
+  @  452: [ 26] objects\terrace_pillar.gfx
+  @  581: [  7] 7759108
+  @  592: [ 11] Serialized0
+  @  624: [ 26] objects\terrace_pillar.gfx
+  @  670: [  7] default

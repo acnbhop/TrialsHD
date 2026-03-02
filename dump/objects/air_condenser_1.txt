@@ -1,0 +1,61 @@
+[+] GFX v1 | Size: 6145 bytes | Root: SceneObject | Nodes: 11 | Strings: 33
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2265
+  Post-data payload size: 3864 bytes
+  Scene data: 2265 bytes (offsets 0..2264)
+  Post data: 3880 bytes (offsets 2265..6144)
+
+--- Child Nodes (11) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xb2fb53cd | ID: 42531104 | @581
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x52a9a885 | ID: 2803170 | @739
+  [ 2] Dummy0         | Type: Unknown      | Hash: 0xa13af16b | IHash: 0xea17200e | ID: 72436548 | @874
+  [ 3] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x39ff4ec6 | ID: 36703212 | @1048
+  [ 4] Dummy0         | Type: Unknown      | Hash: 0xa13af16b | IHash: 0x6165eca3 | ID: 142142208 | @1186
+  [ 5] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x7616d5f2 | ID: 170306255 | @1361
+  [ 6] Dummy0         | Type: Unknown      | Hash: 0xa13af16b | IHash: 0x40cdef9a | ID: 176124520 | @1500
+  [ 7] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x6f58d28c | ID: 11681094 | @1675
+  [ 8] Dummy0         | Type: Unknown      | Hash: 0xa13af16b | IHash: 0x57574562 | ID: 1899480 | @1813
+  [ 9] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x0d0d93c2 | ID: 265094640 | @1986
+  [10] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0xc3a55807 | ID: 626576720 | @2126
+
+--- Strings (33) ---
+  @  100: [ 11] SceneObject
+  @  589: [  8] 42531104
+  @  601: [  4] Box0
+  @  628: [ 27] objects\air_condenser_1.mdl
+  @  747: [  7] 2803170
+  @  758: [  5] Mesh0
+  @  882: [  8] 72436548
+  @  894: [  6] Dummy0
+  @  931: [ 33] objects\air_condenser_wheel_1.mdl
+  @ 1056: [  8] 36703212
+  @ 1068: [  5] Mesh2
+  @ 1194: [  9] 142142208
+  @ 1207: [  6] Dummy0
+  @ 1244: [ 33] objects\air_condenser_wheel_1.mdl
+  @ 1369: [  9] 170306255
+  @ 1382: [  5] Mesh2
+  @ 1508: [  9] 176124520
+  @ 1521: [  6] Dummy0
+  @ 1558: [ 33] objects\air_condenser_wheel_1.mdl
+  @ 1683: [  8] 11681094
+  @ 1695: [  5] Mesh2
+  @ 1821: [  7] 1899480
+  @ 1832: [  6] Dummy0
+  @ 1869: [ 33] objects\air_condenser_wheel_1.mdl
+  @ 1994: [  9] 265094640
+  @ 2007: [  5] Mesh2
+  @ 2134: [  9] 626576720
+  @ 2147: [  6] Sound0
+  @ 2277: [  7] default
+  @ 2305: [  5] Mesh2
+  @ 3264: [  5] Mesh2
+  @ 4223: [  5] Mesh2
+  @ 5182: [  5] Mesh2

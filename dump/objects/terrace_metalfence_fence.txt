@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 782 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 738
+  Post-data payload size: 28 bytes
+  Scene data: 738 bytes (offsets 0..737)
+  Post data: 44 bytes (offsets 738..781)
+
+--- Child Nodes (2) ---
+  [ 0] Box21          | Type: Unknown      | Hash: 0x7edfc1c1 | IHash: 0xc2523fff | ID: 281372310 | @516
+  [ 1] Mesh20         | Type: Unknown      | Hash: 0x30b48d6f | IHash: 0x47962a8f | ID: 322089948 | @685
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  524: [  9] 281372310
+  @  537: [  5] Box21
+  @  565: [ 36] objects\terrace_metalfence_fence.mdl
+  @  693: [  9] 322089948
+  @  706: [  6] Mesh20
+  @  750: [  7] default

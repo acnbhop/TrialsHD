@@ -1,0 +1,33 @@
+[+] GFX v1 | Size: 1299 bytes | Root: SceneObject | Nodes: 4 | Strings: 12
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1255
+  Post-data payload size: 28 bytes
+  Scene data: 1255 bytes (offsets 0..1254)
+  Post data: 44 bytes (offsets 1255..1298)
+
+--- Child Nodes (4) ---
+  [ 0] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0xae6f854d | ID: 33871208 | @388
+  [ 1] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0xc36c0e28 | ID: 44528904 | @643
+  [ 2] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0x125bcc89 | ID: 79620450 | @947
+  [ 3] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0xdadcf4f4 | ID: 45397781 | @1202
+
+--- Strings (12) ---
+  @  100: [ 11] SceneObject
+  @  396: [  8] 33871208
+  @  408: [  4] Box7
+  @  501: [ 58] objects\broken\metal_barrel_1_exp_broken_part_big_side.mdl
+  @  651: [  8] 44528904
+  @  663: [  5] Mesh7
+  @  955: [  8] 79620450
+  @  967: [  4] Box7
+  @ 1060: [ 58] objects\broken\metal_barrel_1_exp_broken_part_med_side.mdl
+  @ 1210: [  8] 45397781
+  @ 1222: [  5] Mesh8
+  @ 1267: [  7] default

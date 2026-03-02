@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 645 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 601
+  Post-data payload size: 28 bytes
+  Scene data: 601 bytes (offsets 0..600)
+  Post data: 44 bytes (offsets 601..644)
+
+--- Child Nodes (2) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd94d17ba | ID: 95125690 | @388
+  [ 1] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x755c96a2 | ID: 299031760 | @547
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  396: [  8] 95125690
+  @  408: [  4] Box0
+  @  437: [ 26] objects\concrete_block.mdl
+  @  555: [  9] 299031760
+  @  568: [  5] Mesh1
+  @  613: [  7] default

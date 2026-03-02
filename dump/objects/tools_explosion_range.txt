@@ -1,0 +1,27 @@
+[+] GFX v1 | Size: 766 bytes | Root: SceneObject | Nodes: 1 | Strings: 9
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 305
+  Post-data payload size: 445 bytes
+  Scene data: 305 bytes (offsets 0..304)
+  Post data: 461 bytes (offsets 305..765)
+
+--- Child Nodes (1) ---
+  [ 0] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x86143328 | ID: 269326412 | @254
+
+--- Strings (9) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 27] objects\tools_alphaball.mdl
+  @  262: [  9] 269326412
+  @  275: [  5] Mesh0
+  @  317: [  7] default
+  @  345: [  5] Mesh0
+  @  624: [  6] ColorR
+  @  670: [  6] ColorG
+  @  716: [  6] ColorB

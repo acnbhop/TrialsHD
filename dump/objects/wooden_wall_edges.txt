@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 788 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 744
+  Post-data payload size: 28 bytes
+  Scene data: 744 bytes (offsets 0..743)
+  Post data: 44 bytes (offsets 744..787)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed1    | Type: Unknown      | Hash: 0xd63b38a9 | IHash: 0xd63b38a9 | ID: Decomposed1 | @518
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x70391f43 | ID: 223755399 | @690
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  526: [ 11] Decomposed1
+  @  541: [ 11] Decomposed1
+  @  577: [ 29] objects\wooden_wall_edges.mdl
+  @  698: [  9] 223755399
+  @  711: [  5] Mesh0
+  @  756: [  7] default

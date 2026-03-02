@@ -1,0 +1,40 @@
+[+] GFX v1 | Size: 1782 bytes | Root: SceneObject | Nodes: 6 | Strings: 17
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1738
+  Post-data payload size: 28 bytes
+  Scene data: 1738 bytes (offsets 0..1737)
+  Post data: 44 bytes (offsets 1738..1781)
+
+--- Child Nodes (6) ---
+  [ 0] big_base       | Type: Unknown      | Hash: 0xc8206f44 | IHash: 0xc8206f44 | ID: big_base | @435
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x69fac6fb | ID: 2962962 | @622
+  [ 2] leg            | Type: Unknown      | Hash: 0x4fb426f4 | IHash: 0x4fb426f4 | ID: leg | @972
+  [ 3] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0xefe151f7 | ID: 298604712 | @1149
+  [ 4] plank          | Type: Unknown      | Hash: 0x119b59fe | IHash: 0x119b59fe | ID: plank | @1503
+  [ 5] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x0a369f7d | ID: 453741250 | @1686
+
+--- Strings (17) ---
+  @  100: [ 11] SceneObject
+  @  443: [  8] big_base
+  @  455: [  8] big_base
+  @  486: [ 52] objects\broken\wooden_platform_broken_part_big_1.mdl
+  @  630: [  7] 2962962
+  @  641: [  5] Mesh0
+  @  980: [  3] leg
+  @  987: [  3] leg
+  @ 1013: [ 52] objects\broken\wooden_platform_broken_part_leg_1.mdl
+  @ 1157: [  9] 298604712
+  @ 1170: [  5] Mesh3
+  @ 1511: [  5] plank
+  @ 1520: [  5] plank
+  @ 1548: [ 54] objects\broken\wooden_platform_broken_part_plank_1.mdl
+  @ 1694: [  9] 453741250
+  @ 1707: [  5] Mesh6
+  @ 1750: [  7] default

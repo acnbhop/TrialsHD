@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 920 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 876
+  Post-data payload size: 28 bytes
+  Scene data: 876 bytes (offsets 0..875)
+  Post data: 44 bytes (offsets 876..919)
+
+--- Child Nodes (2) ---
+  [ 0] Box5           | Type: Unknown      | Hash: 0xf071124b | IHash: 0x187caca9 | ID: 23236578 | @648
+  [ 1] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x1ae0ba9c | ID: 905529240 | @822
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  656: [  8] 23236578
+  @  668: [  4] Box5
+  @  697: [ 41] objects\walls\wallset_1_normal_zpos_2.mdl
+  @  830: [  9] 905529240
+  @  843: [  5] Mesh3
+  @  888: [  7] default

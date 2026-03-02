@@ -1,0 +1,23 @@
+[+] GFX v1 | Size: 362 bytes | Root: SceneObject | Nodes: 1 | Strings: 5
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 318
+  Post-data payload size: 28 bytes
+  Scene data: 318 bytes (offsets 0..317)
+  Post data: 44 bytes (offsets 318..361)
+
+--- Child Nodes (1) ---
+  [ 0] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xf3c243c4 | ID: 95550679 | @222
+
+--- Strings (5) ---
+  @  100: [ 11] SceneObject
+  @  230: [  8] 95550679
+  @  242: [ 11] Serialized0
+  @  274: [ 36] objects\groups\terrace_base_quad.gfx
+  @  330: [  7] default

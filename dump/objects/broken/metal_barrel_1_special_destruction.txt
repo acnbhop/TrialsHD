@@ -1,0 +1,61 @@
+[+] GFX v1 | Size: 3524 bytes | Root: SceneObject | Nodes: 12 | Strings: 32
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 3480
+  Post-data payload size: 28 bytes
+  Scene data: 3480 bytes (offsets 0..3479)
+  Post data: 44 bytes (offsets 3480..3523)
+
+--- Child Nodes (12) ---
+  [ 0] Cylinder6      | Type: Unknown      | Hash: 0xe040687e | IHash: 0xbfa3ab3d | ID: 444217422 | @388
+  [ 1] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x709ce34e | ID: 373619856 | @642
+  [ 2] Cylinder6      | Type: Unknown      | Hash: 0xe040687e | IHash: 0x353c5950 | ID: 19026984 | @947
+  [ 3] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xfe739036 | ID: 223920254 | @1200
+  [ 4] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0xdf0823cd | ID: 39395664 | @1505
+  [ 5] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xf85989b7 | ID: 41239539 | @1756
+  [ 6] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0xe228c001 | ID: 154189695 | @2060
+  [ 7] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x90a9ed0c | ID: 262619368 | @2312
+  [ 8] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0x7123a549 | ID: 268236558 | @2617
+  [ 9] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xa965adc7 | ID: 196614600 | @2869
+  [10] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0xee2fcce1 | ID: 460729850 | @3174
+  [11] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xd1a2a4ab | ID: 310789380 | @3426
+
+--- Strings (32) ---
+  @  100: [ 11] SceneObject
+  @  396: [  9] 444217422
+  @  409: [  9] Cylinder6
+  @  507: [ 51] objects\broken\metal_barrel_1_broken_part_cover.mdl
+  @  650: [  9] 373619856
+  @  663: [  5] Mesh5
+  @  955: [  8] 19026984
+  @  967: [  9] Cylinder6
+  @ 1065: [ 51] objects\broken\metal_barrel_1_broken_part_cover.mdl
+  @ 1208: [  9] 223920254
+  @ 1221: [  5] Mesh5
+  @ 1513: [  8] 39395664
+  @ 1525: [  4] Box7
+  @ 1618: [ 54] objects\broken\metal_barrel_1_broken_part_med_side.mdl
+  @ 1764: [  8] 41239539
+  @ 1776: [  5] Mesh2
+  @ 2068: [  9] 154189695
+  @ 2081: [  4] Box7
+  @ 2174: [ 54] objects\broken\metal_barrel_1_broken_part_med_side.mdl
+  @ 2320: [  9] 262619368
+  @ 2333: [  5] Mesh2
+  @ 2625: [  9] 268236558
+  @ 2638: [  4] Box7
+  @ 2731: [ 54] objects\broken\metal_barrel_1_broken_part_med_side.mdl
+  @ 2877: [  9] 196614600
+  @ 2890: [  5] Mesh2
+  @ 3182: [  9] 460729850
+  @ 3195: [  4] Box7
+  @ 3288: [ 54] objects\broken\metal_barrel_1_broken_part_med_side.mdl
+  @ 3434: [  9] 310789380
+  @ 3447: [  5] Mesh2
+  @ 3492: [  7] default

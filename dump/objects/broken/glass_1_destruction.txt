@@ -1,0 +1,47 @@
+[+] GFX v1 | Size: 2212 bytes | Root: SceneObject | Nodes: 8 | Strings: 22
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2168
+  Post-data payload size: 28 bytes
+  Scene data: 2168 bytes (offsets 0..2167)
+  Post data: 44 bytes (offsets 2168..2211)
+
+--- Child Nodes (8) ---
+  [ 0] PhysicalMesh0  | Type: Unknown      | Hash: 0x3e90bc2f | IHash: 0x5e3fc2cc | ID: 198301028 | @418
+  [ 1] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x9ca05b22 | ID: 80094080 | @591
+  [ 2] PhysicalMesh2  | Type: Unknown      | Hash: 0x580c40ff | IHash: 0x9c86e8c4 | ID: 497700036 | @925
+  [ 3] Mesh9          | Type: Unknown      | Hash: 0x7bb64f05 | IHash: 0x2f6c4d4e | ID: 202178640 | @1098
+  [ 4] PhysicalMesh4  | Type: Unknown      | Hash: 0x7187c5cf | IHash: 0x2e2736ad | ID: 848399179 | @1433
+  [ 5] Mesh10         | Type: Unknown      | Hash: 0x19ab57b4 | IHash: 0xfff0ce2b | ID: 477182889 | @1606
+  [ 6] PhysicalMesh6  | Type: Unknown      | Hash: 0x8b034a9f | IHash: 0x477bfe2b | ID: 116968509 | @1942
+  [ 7] Mesh11         | Type: Unknown      | Hash: 0x286d5b2d | IHash: 0x93ddf5da | ID: 361541498 | @2115
+
+--- Strings (22) ---
+  @  100: [ 11] SceneObject
+  @  426: [  9] 198301028
+  @  439: [ 13] PhysicalMesh0
+  @  475: [ 32] objects\broken\glass_1_part1.mdl
+  @  599: [  8] 80094080
+  @  611: [  5] Mesh8
+  @  933: [  9] 497700036
+  @  946: [ 13] PhysicalMesh2
+  @  982: [ 32] objects\broken\glass_1_part2.mdl
+  @ 1106: [  9] 202178640
+  @ 1119: [  5] Mesh9
+  @ 1441: [  9] 848399179
+  @ 1454: [ 13] PhysicalMesh4
+  @ 1490: [ 32] objects\broken\glass_1_part3.mdl
+  @ 1614: [  9] 477182889
+  @ 1627: [  6] Mesh10
+  @ 1950: [  9] 116968509
+  @ 1963: [ 13] PhysicalMesh6
+  @ 1999: [ 32] objects\broken\glass_1_part4.mdl
+  @ 2123: [  9] 361541498
+  @ 2136: [  6] Mesh11
+  @ 2180: [  7] default

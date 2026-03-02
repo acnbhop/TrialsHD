@@ -1,0 +1,385 @@
+[+] GFX v1 | Size: 39034 bytes | Root: SceneObject | Nodes: 102 | Strings: 266
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 29585
+  Post-data payload size: 28 bytes
+  Scene data: 29585 bytes (offsets 0..29584)
+  Post data: 9449 bytes (offsets 29585..39033)
+
+--- Child Nodes (102) ---
+  [ 0] BikeDummy      | Type: Unknown      | Hash: 0x4ff08f15 | IHash: 0x4ff08f15 | ID: BikeDummy | @222
+  [ 1] BackWheel      | Type: Unknown      | Hash: 0x8d32199b | IHash: 0x8d32199b | ID: BackWheel | @526
+  [ 2] back_wheel     | Type: Unknown      | Hash: 0x0c44ed6c | IHash: 0x0c44ed6c | ID: back_wheel | @701
+  [ 3] BackSuspension | Type: Unknown      | Hash: 0x455e5241 | IHash: 0x455e5241 | ID: BackSuspension | @1010
+  [ 4] back_suspension | Type: Unknown      | Hash: 0xd1d66020 | IHash: 0xd1d66020 | ID: back_suspension | @1200
+  [ 5] FrontSuspension | Type: Unknown      | Hash: 0x6d886067 | IHash: 0x6d886067 | ID: FrontSuspension | @1519
+  [ 6] front_suspension | Type: Unknown      | Hash: 0xbd8af758 | IHash: 0xbd8af758 | ID: front_suspension | @1712
+  [ 7] FrontWheel     | Type: Unknown      | Hash: 0xf84642f0 | IHash: 0xf84642f0 | ID: FrontWheel | @2033
+  [ 8] front_wheel    | Type: Unknown      | Hash: 0x131ca53f | IHash: 0x131ca53f | ID: front_wheel | @2210
+  [ 9] BikeBody       | Type: Unknown      | Hash: 0x1329aad5 | IHash: 0x1329aad5 | ID: BikeBody | @2846
+  [10] frame          | Type: Unknown      | Hash: 0x476419f7 | IHash: 0x476419f7 | ID: frame | @3014
+  [11] frontlight     | Type: Unknown      | Hash: 0x50e22f17 | IHash: 0x50e22f17 | ID: frontlight | @3174
+  [12] bench          | Type: Unknown      | Hash: 0x51b8f95d | IHash: 0x51b8f95d | ID: bench | @3356
+  [13] frontlight_spot | Type: Unknown      | Hash: 0xc6b53764 | IHash: 0xc6b53764 | ID: frontlight_spot | @3490
+  [14] BackFender     | Type: Unknown      | Hash: 0xf4bf984b | IHash: 0xf4bf984b | ID: BackFender | @3908
+  [15] back_fender    | Type: Unknown      | Hash: 0x67e0a99c | IHash: 0x67e0a99c | ID: back_fender | @4086
+  [16] HandleBar      | Type: Unknown      | Hash: 0xcedf47bb | IHash: 0xcedf47bb | ID: HandleBar | @4657
+  [17] handlebar      | Type: Unknown      | Hash: 0xfcaa443b | IHash: 0xfcaa443b | ID: handlebar | @4830
+  [18] FrontFender    | Type: Unknown      | Hash: 0x52955482 | IHash: 0x52955482 | ID: FrontFender | @5137
+  [19] RiderDummy     | Type: Unknown      | Hash: 0x3a05dccc | IHash: 0x3a05dccc | ID: RiderDummy | @5275
+  [20] Head           | Type: Unknown      | Hash: 0x5bd7085d | IHash: 0xbb4ae3fa | ID: 129670637 | @5581
+  [21] LeftFoot       | Type: Unknown      | Hash: 0x5244798f | IHash: 0xd4da98b0 | ID: 164188388 | @6127
+  [22] LeftHand       | Type: Unknown      | Hash: 0xd63242fc | IHash: 0xedc77c68 | ID: 325354263 | @6681
+  [23] LeftLowerArm   | Type: Unknown      | Hash: 0x175fa32b | IHash: 0x6044c3b4 | ID: 13498740 | @7235
+  [24] LeftLowLeg     | Type: Unknown      | Hash: 0x42c3a027 | IHash: 0x2e6d5b60 | ID: 164060104 | @7796
+  [25] LeftShoulder   | Type: Unknown      | Hash: 0x46ea6895 | IHash: 0xcb8793db | ID: 325693459 | @8354
+  [26] LeftUpLeg      | Type: Unknown      | Hash: 0x21437909 | IHash: 0x82d9fae3 | ID: 44205840 | @8916
+  [27] LeftUpperArm   | Type: Unknown      | Hash: 0xc62e3d47 | IHash: 0xb0238021 | ID: 3000450 | @9471
+  [28] RightFoot      | Type: Unknown      | Hash: 0x97a644b9 | IHash: 0x696d1f5b | ID: 490960215 | @10031
+  [29] RightHand      | Type: Unknown      | Hash: 0x5bee113b | IHash: 0xba27ec1a | ID: 206226692 | @10587
+  [30] RightLowerArm  | Type: Unknown      | Hash: 0x461b6c35 | IHash: 0xa826d9ea | ID: 101125800 | @11143
+  [31] RightLowLeg    | Type: Unknown      | Hash: 0xd8f1c6f0 | IHash: 0x439eeb31 | ID: 54696650 | @11707
+  [32] RightShoulder  | Type: Unknown      | Hash: 0xb289b07a | IHash: 0x4432f59a | ID: 84731332 | @12266
+  [33] RightUpLeg     | Type: Unknown      | Hash: 0x5a429b0d | IHash: 0x5d60a2c4 | ID: 250417011 | @12829
+  [34] RightUpperArm  | Type: Unknown      | Hash: 0xdd700bb8 | IHash: 0x7d0c284a | ID: 247328892 | @13387
+  [35] Spine1         | Type: Unknown      | Hash: 0x330b811d | IHash: 0x4bd6ad59 | ID: 363403990 | @13951
+  [36] shirt          | Type: Unknown      | Hash: 0x3cd2990a | IHash: 0x3cd2990a | ID: shirt | @14372
+  [37] pants          | Type: Unknown      | Hash: 0xc29db6bd | IHash: 0xc29db6bd | ID: pants | @14542
+  [38] helmet         | Type: Unknown      | Hash: 0x926237ca | IHash: 0x926237ca | ID: helmet | @14713
+  [39] boots          | Type: Unknown      | Hash: 0xdcf02d58 | IHash: 0xdcf02d58 | ID: boots | @14885
+  [40] gloves         | Type: Unknown      | Hash: 0x42bef245 | IHash: 0x42bef245 | ID: gloves | @15056
+  [41] knees          | Type: Unknown      | Hash: 0xdb20d38a | IHash: 0xdb20d38a | ID: knees | @15228
+  [42] Spine2         | Type: Unknown      | Hash: 0x41cd8496 | IHash: 0xb26db64a | ID: 179642530 | @15527
+  [43] torso          | Type: Unknown      | Hash: 0x9f431662 | IHash: 0x9f431662 | ID: torso | @15948
+  [44] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x4dc159d3 | ID: 152821485 | @16248
+  [45] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe10f1ac4 | ID: 312886629 | @16405
+  [46] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xa00ebd95 | ID: 55701582 | @16708
+  [47] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x35937572 | ID: 584287264 | @16864
+  [48] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x9f93ad22 | ID: 58000753 | @17167
+  [49] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe024d191 | ID: 136115736 | @17323
+  [50] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xb6ef415c | ID: 67307183 | @17626
+  [51] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xc9250efd | ID: 381176424 | @17782
+  [52] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xc6d5ad56 | ID: 322040580 | @18085
+  [53] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xd83c207c | ID: 25583769 | @18242
+  [54] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x86ac24d3 | ID: 380135308 | @18544
+  [55] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x7b74b9f4 | ID: 148266150 | @18701
+  [56] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x4f174e0b | ID: 548130698 | @19004
+  [57] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x49c03cfc | ID: 102784110 | @19161
+  [58] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xa1c8233b | ID: 622629048 | @19464
+  [59] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x37d6d927 | ID: 128122995 | @19621
+  [60] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd799e9e1 | ID: 73855760 | @19924
+  [61] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xd592f0b0 | ID: 965632920 | @20080
+  [62] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x9a6bcc6a | ID: 23720000 | @20383
+  [63] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe180bba2 | ID: 13901094 | @20539
+  [64] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x8e98452f | ID: 28175222 | @20841
+  [65] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x46a4fd0a | ID: 19258275 | @20997
+  [66] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x84e45dc7 | ID: 18486 | @21299
+  [67] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x72a1fc8c | ID: 519704479 | @21452
+  [68] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x6cb612ad | ID: 231369232 | @21755
+  [69] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe249d5a8 | ID: 162839280 | @21912
+  [70] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xf7074fa4 | ID: 112805979 | @22215
+  [71] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xad624403 | ID: 26067597 | @22372
+  [72] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x05cba1c6 | ID: 127654875 | @22674
+  [73] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xd82de484 | ID: 537378738 | @22831
+  [74] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x375934cb | ID: 378379001 | @23134
+  [75] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xd3d0e6b6 | ID: 164822112 | @23291
+  [76] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xfab8b2f1 | ID: 313655940 | @23594
+  [77] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xf4b7dabb | ID: 34047317 | @23751
+  [78] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xdda1dce9 | ID: 83071164 | @24053
+  [79] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xfa0cf4f0 | ID: 45345523 | @24209
+  [80] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x25345b68 | ID: 374391644 | @24511
+  [81] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x66c7064a | ID: 443287958 | @24668
+  [82] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x625a0dab | ID: 413140992 | @24971
+  [83] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x44ccb26f | ID: 651409680 | @25128
+  [84] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xf92efd90 | ID: 33440622 | @25431
+  [85] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x89212943 | ID: 484067775 | @25587
+  [86] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd22a10c6 | ID: 247164060 | @25890
+  [87] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x81915212 | ID: 313828053 | @26047
+  [88] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x2c36a702 | ID: 207338432 | @26350
+  [89] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x7ae84195 | ID: 180745704 | @26507
+  [90] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x2e36e6c2 | ID: 605361750 | @26810
+  [91] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x404266fc | ID: 134528736 | @26967
+  [92] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x4d7b1fee | ID: 388867092 | @27270
+  [93] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x45972a28 | ID: 399790853 | @27427
+  [94] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd48c95c4 | ID: 265574454 | @27730
+  [95] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x37db4b0d | ID: 40390125 | @27887
+  [96] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xf995d7c9 | ID: 17995460 | @28189
+  [97] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xaf8438df | ID: 175942303 | @28345
+  [98] Cylinder0      | Type: Unknown      | Hash: 0x4f72df78 | IHash: 0xae7b299e | ID: 398947680 | @28648
+  [99] Cylinder0      | Type: Unknown      | Hash: 0x4f72df78 | IHash: 0x2f080d65 | ID: 561972523 | @28945
+  [100] Cylinder0      | Type: Unknown      | Hash: 0x4f72df78 | IHash: 0x7f59730f | ID: 108817560 | @29242
+  [101] Cylinder0      | Type: Unknown      | Hash: 0x4f72df78 | IHash: 0x7bc7312c | ID: 819082800 | @29539
+
+--- Strings (266) ---
+  @  100: [ 11] SceneObject
+  @  230: [  9] BikeDummy
+  @  243: [  9] BikeDummy
+  @  534: [  9] BackWheel
+  @  547: [  9] BackWheel
+  @  579: [ 38] objects\bike\bike_01_back_wheel_01.mdl
+  @  709: [ 10] back_wheel
+  @  723: [ 10] back_wheel
+  @ 1018: [ 14] BackSuspension
+  @ 1036: [ 14] BackSuspension
+  @ 1073: [ 43] objects\bike\bike_01_back_suspension_01.mdl
+  @ 1208: [ 15] back_suspension
+  @ 1227: [ 15] back_suspension
+  @ 1527: [ 15] FrontSuspension
+  @ 1546: [ 15] FrontSuspension
+  @ 1584: [ 44] objects\bike\bike_01_front_suspension_01.mdl
+  @ 1720: [ 16] front_suspension
+  @ 1740: [ 16] front_suspension
+  @ 2041: [ 10] FrontWheel
+  @ 2055: [ 10] FrontWheel
+  @ 2088: [ 38] objects\bike\bike_01_frontwheel_01.mdl
+  @ 2218: [ 11] front_wheel
+  @ 2233: [ 11] front_wheel
+  @ 2854: [  8] BikeBody
+  @ 2866: [  8] BikeBody
+  @ 2897: [ 33] objects\bike\bike_01_frame_01.mdl
+  @ 3022: [  5] frame
+  @ 3031: [  5] frame
+  @ 3069: [ 21] objects\spotlight.mdl
+  @ 3182: [ 10] frontlight
+  @ 3196: [ 10] frontlight
+  @ 3239: [ 33] objects\bike\bike_01_bench_01.mdl
+  @ 3364: [  5] bench
+  @ 3373: [  5] bench
+  @ 3498: [ 15] frontlight_spot
+  @ 3517: [ 15] frontlight_spot
+  @ 3916: [ 10] BackFender
+  @ 3930: [ 10] BackFender
+  @ 3963: [ 39] objects\bike\bike_01_back_fender_01.mdl
+  @ 4094: [ 11] back_fender
+  @ 4109: [ 11] back_fender
+  @ 4665: [  9] HandleBar
+  @ 4678: [  9] HandleBar
+  @ 4710: [ 36] objects\bike\bike_01_steering_01.mdl
+  @ 4838: [  9] handlebar
+  @ 4851: [  9] handlebar
+  @ 5145: [ 11] FrontFender
+  @ 5160: [ 11] FrontFender
+  @ 5283: [ 10] RiderDummy
+  @ 5297: [ 10] RiderDummy
+  @ 5589: [  9] 129670637
+  @ 5602: [  4] Head
+  @ 5720: [  4] Head
+  @ 6135: [  9] 164188388
+  @ 6148: [  8] LeftFoot
+  @ 6270: [  8] LeftFoot
+  @ 6689: [  9] 325354263
+  @ 6702: [  8] LeftHand
+  @ 6824: [  8] LeftHand
+  @ 7243: [  8] 13498740
+  @ 7255: [ 12] LeftLowerArm
+  @ 7381: [ 12] LeftLowerArm
+  @ 7804: [  9] 164060104
+  @ 7817: [ 10] LeftLowLeg
+  @ 7941: [ 10] LeftLowLeg
+  @ 8362: [  9] 325693459
+  @ 8375: [ 12] LeftShoulder
+  @ 8501: [ 12] LeftShoulder
+  @ 8924: [  8] 44205840
+  @ 8936: [  9] LeftUpLeg
+  @ 9059: [  9] LeftUpLeg
+  @ 9479: [  7] 3000450
+  @ 9490: [ 12] LeftUpperArm
+  @ 9616: [ 12] LeftUpperArm
+  @10039: [  9] 490960215
+  @10052: [  9] RightFoot
+  @10175: [  9] RightFoot
+  @10595: [  9] 206226692
+  @10608: [  9] RightHand
+  @10731: [  9] RightHand
+  @11151: [  9] 101125800
+  @11164: [ 13] RightLowerArm
+  @11291: [ 13] RightLowerArm
+  @11715: [  8] 54696650
+  @11727: [ 11] RightLowLeg
+  @11852: [ 11] RightLowLeg
+  @12274: [  8] 84731332
+  @12286: [ 13] RightShoulder
+  @12413: [ 13] RightShoulder
+  @12837: [  9] 250417011
+  @12850: [ 10] RightUpLeg
+  @12974: [ 10] RightUpLeg
+  @13395: [  9] 247328892
+  @13408: [ 13] RightUpperArm
+  @13535: [ 13] RightUpperArm
+  @13959: [  9] 363403990
+  @13972: [  6] Spine1
+  @14092: [  6] Spine1
+  @14257: [ 31] objects\characters\shirt_01.mdl
+  @14380: [  5] shirt
+  @14389: [  5] shirt
+  @14427: [ 31] objects\characters\pants_01.mdl
+  @14550: [  5] pants
+  @14559: [  5] pants
+  @14597: [ 32] objects\characters\helmet_01.mdl
+  @14721: [  6] helmet
+  @14731: [  6] helmet
+  @14770: [ 31] objects\characters\boots_01.mdl
+  @14893: [  5] boots
+  @14902: [  5] boots
+  @14940: [ 32] objects\characters\gloves_01.mdl
+  @15064: [  6] gloves
+  @15074: [  6] gloves
+  @15113: [ 31] objects\characters\knees_01.mdl
+  @15236: [  5] knees
+  @15245: [  5] knees
+  @15535: [  9] 179642530
+  @15548: [  6] Spine2
+  @15668: [  6] Spine2
+  @15833: [ 31] objects\characters\rider_01.mdl
+  @15956: [  5] torso
+  @15965: [  5] torso
+  @16256: [  9] 152821485
+  @16269: [  4] Box0
+  @16296: [ 25] objects\plank_short_1.mdl
+  @16413: [  9] 312886629
+  @16426: [  5] Mesh0
+  @16716: [  8] 55701582
+  @16728: [  4] Box0
+  @16755: [ 25] objects\plank_short_1.mdl
+  @16872: [  9] 584287264
+  @16885: [  5] Mesh0
+  @17175: [  8] 58000753
+  @17187: [  4] Box0
+  @17214: [ 25] objects\plank_short_1.mdl
+  @17331: [  9] 136115736
+  @17344: [  5] Mesh0
+  @17634: [  8] 67307183
+  @17646: [  4] Box0
+  @17673: [ 25] objects\plank_short_1.mdl
+  @17790: [  9] 381176424
+  @17803: [  5] Mesh0
+  @18093: [  9] 322040580
+  @18106: [  4] Box0
+  @18133: [ 25] objects\plank_short_1.mdl
+  @18250: [  8] 25583769
+  @18262: [  5] Mesh0
+  @18552: [  9] 380135308
+  @18565: [  4] Box0
+  @18592: [ 25] objects\plank_short_1.mdl
+  @18709: [  9] 148266150
+  @18722: [  5] Mesh0
+  @19012: [  9] 548130698
+  @19025: [  4] Box0
+  @19052: [ 25] objects\plank_short_1.mdl
+  @19169: [  9] 102784110
+  @19182: [  5] Mesh0
+  @19472: [  9] 622629048
+  @19485: [  4] Box0
+  @19512: [ 25] objects\plank_short_1.mdl
+  @19629: [  9] 128122995
+  @19642: [  5] Mesh0
+  @19932: [  8] 73855760
+  @19944: [  4] Box0
+  @19971: [ 25] objects\plank_short_1.mdl
+  @20088: [  9] 965632920
+  @20101: [  5] Mesh0
+  @20391: [  8] 23720000
+  @20403: [  4] Box0
+  @20430: [ 25] objects\plank_short_1.mdl
+  @20547: [  8] 13901094
+  @20559: [  5] Mesh0
+  @20849: [  8] 28175222
+  @20861: [  4] Box0
+  @20888: [ 25] objects\plank_short_1.mdl
+  @21005: [  8] 19258275
+  @21017: [  5] Mesh0
+  @21307: [  5] 18486
+  @21316: [  4] Box0
+  @21343: [ 25] objects\plank_short_1.mdl
+  @21460: [  9] 519704479
+  @21473: [  5] Mesh0
+  @21763: [  9] 231369232
+  @21776: [  4] Box0
+  @21803: [ 25] objects\plank_short_1.mdl
+  @21920: [  9] 162839280
+  @21933: [  5] Mesh0
+  @22223: [  9] 112805979
+  @22236: [  4] Box0
+  @22263: [ 25] objects\plank_short_1.mdl
+  @22380: [  8] 26067597
+  @22392: [  5] Mesh0
+  @22682: [  9] 127654875
+  @22695: [  4] Box0
+  @22722: [ 25] objects\plank_short_1.mdl
+  @22839: [  9] 537378738
+  @22852: [  5] Mesh0
+  @23142: [  9] 378379001
+  @23155: [  4] Box0
+  @23182: [ 25] objects\plank_short_1.mdl
+  @23299: [  9] 164822112
+  @23312: [  5] Mesh0
+  @23602: [  9] 313655940
+  @23615: [  4] Box0
+  @23642: [ 25] objects\plank_short_1.mdl
+  @23759: [  8] 34047317
+  @23771: [  5] Mesh0
+  @24061: [  8] 83071164
+  @24073: [  4] Box0
+  @24100: [ 25] objects\plank_short_1.mdl
+  @24217: [  8] 45345523
+  @24229: [  5] Mesh0
+  @24519: [  9] 374391644
+  @24532: [  4] Box0
+  @24559: [ 25] objects\plank_short_1.mdl
+  @24676: [  9] 443287958
+  @24689: [  5] Mesh0
+  @24979: [  9] 413140992
+  @24992: [  4] Box0
+  @25019: [ 25] objects\plank_short_1.mdl
+  @25136: [  9] 651409680
+  @25149: [  5] Mesh0
+  @25439: [  8] 33440622
+  @25451: [  4] Box0
+  @25478: [ 25] objects\plank_short_1.mdl
+  @25595: [  9] 484067775
+  @25608: [  5] Mesh0
+  @25898: [  9] 247164060
+  @25911: [  4] Box0
+  @25938: [ 25] objects\plank_short_1.mdl
+  @26055: [  9] 313828053
+  @26068: [  5] Mesh0
+  @26358: [  9] 207338432
+  @26371: [  4] Box0
+  @26398: [ 25] objects\plank_short_1.mdl
+  @26515: [  9] 180745704
+  @26528: [  5] Mesh0
+  @26818: [  9] 605361750
+  @26831: [  4] Box0
+  @26858: [ 25] objects\plank_short_1.mdl
+  @26975: [  9] 134528736
+  @26988: [  5] Mesh0
+  @27278: [  9] 388867092
+  @27291: [  4] Box0
+  @27318: [ 25] objects\plank_short_1.mdl
+  @27435: [  9] 399790853
+  @27448: [  5] Mesh0
+  @27738: [  9] 265574454
+  @27751: [  4] Box0
+  @27778: [ 25] objects\plank_short_1.mdl
+  @27895: [  8] 40390125
+  @27907: [  5] Mesh0
+  @28197: [  8] 17995460
+  @28209: [  4] Box0
+  @28236: [ 25] objects\plank_short_1.mdl
+  @28353: [  9] 175942303
+  @28366: [  5] Mesh0
+  @28656: [  9] 398947680
+  @28669: [  9] Cylinder0
+  @28953: [  9] 561972523
+  @28966: [  9] Cylinder0
+  @29250: [  9] 108817560
+  @29263: [  9] Cylinder0
+  @29547: [  9] 819082800
+  @29560: [  9] Cylinder0
+  @29597: [  7] default

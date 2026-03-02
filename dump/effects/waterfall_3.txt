@@ -1,0 +1,37 @@
+[+] GFX v1 | Size: 2062 bytes | Root: SceneObject | Nodes: 4 | Strings: 16
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1384
+  Post-data payload size: 662 bytes
+  Scene data: 1384 bytes (offsets 0..1383)
+  Post data: 678 bytes (offsets 1384..2061)
+
+--- Child Nodes (4) ---
+  [ 0] Sphere0        | Type: Unknown      | Hash: 0x2c3cdd75 | IHash: 0xdf31dad5 | ID: 534830088 | @388
+  [ 1] Emitter5       | Type: Unknown      | Hash: 0x6f721dbf | IHash: 0x6f721dbf | ID: Emitter5 | @520
+  [ 2] Emitter4       | Type: Unknown      | Hash: 0x428f24fa | IHash: 0x84ee6edc | ID: 33658260 | @890
+  [ 3] Sound1         | Type: Unknown      | Hash: 0x3eb5ad8e | IHash: 0x2001d62b | ID: 9890740 | @1260
+
+--- Strings (16) ---
+  @  100: [ 11] SceneObject
+  @  396: [  9] 534830088
+  @  409: [  7] Sphere0
+  @  528: [  8] Emitter5
+  @  540: [  8] Emitter5
+  @  898: [  8] 33658260
+  @  910: [  8] Emitter4
+  @ 1268: [  7] 9890740
+  @ 1279: [  6] Sound1
+  @ 1396: [  7] default
+  @ 1424: [ 12] ParticleSize
+  @ 1534: [ 15] ParticleStretch
+  @ 1635: [ 14] ParticleColorA
+  @ 1735: [ 14] ParticleColorA
+  @ 1847: [ 12] ParticleSize
+  @ 1957: [ 15] ParticleStretch

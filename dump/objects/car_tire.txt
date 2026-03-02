@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 638 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 594
+  Post-data payload size: 28 bytes
+  Scene data: 594 bytes (offsets 0..593)
+  Post data: 44 bytes (offsets 594..637)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder4      | Type: Unknown      | Hash: 0xaffbe57c | IHash: 0xf44c2879 | ID: 25081224 | @386
+  [ 1] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xbb1bd4d8 | ID: 387127818 | @542
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 25081224
+  @  406: [  9] Cylinder4
+  @  438: [ 20] objects\car_tire.mdl
+  @  550: [  9] 387127818
+  @  563: [  5] Mesh2
+  @  606: [  7] default

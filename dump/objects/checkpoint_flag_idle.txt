@@ -1,0 +1,56 @@
+[+] GFX v1 | Size: 3877 bytes | Root: SceneObject | Nodes: 8 | Strings: 31
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2171
+  Post-data payload size: 1690 bytes
+  Scene data: 2171 bytes (offsets 0..2170)
+  Post data: 1706 bytes (offsets 2171..3876)
+
+--- Child Nodes (8) ---
+  [ 0] PhysicalMesh0  | Type: Unknown      | Hash: 0x3e90bc2f | IHash: 0xedcdef1d | ID: 507113667 | @415
+  [ 1] arm            | Type: Unknown      | Hash: 0xab5c1f03 | IHash: 0xab5c1f03 | ID: arm | @589
+  [ 2] base           | Type: Unknown      | Hash: 0xf41f3916 | IHash: 0xf41f3916 | ID: base | @753
+  [ 3] light          | Type: Unknown      | Hash: 0x60c718df | IHash: 0x60c718df | ID: light | @925
+  [ 4] pointlight     | Type: Unknown      | Hash: 0x15e3160f | IHash: 0x15e3160f | ID: pointlight | @1061
+  [ 5] Acrs           | Type: Unknown      | Hash: 0x6dbbc083 | IHash: 0x04fb3938 | ID: 615787326 | @1306
+  [ 6] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0xd6e07476 | ID: 186528520 | @1678
+  [ 7] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0xa2587543 | ID: 21735324 | @1893
+
+--- Strings (31) ---
+  @  100: [ 11] SceneObject
+  @  423: [  9] 507113667
+  @  436: [ 13] PhysicalMesh0
+  @  474: [ 31] objects\checkpoint_flag_arm.mdl
+  @  597: [  3] arm
+  @  604: [  3] arm
+  @  642: [ 27] objects\checkpoint_flag.mdl
+  @  761: [  4] base
+  @  769: [  4] base
+  @  808: [ 33] objects\startpoint_flag_light.mdl
+  @  933: [  5] light
+  @  942: [  5] light
+  @ 1069: [ 10] pointlight
+  @ 1083: [ 10] pointlight
+  @ 1314: [  9] 615787326
+  @ 1327: [  4] Acrs
+  @ 1686: [  9] 186528520
+  @ 1699: [  6] Sound0
+  @ 1901: [  8] 21735324
+  @ 1913: [  6] Sparks
+  @ 2183: [  7] default
+  @ 2211: [  3] arm
+  @ 3168: [  8] Emissive
+  @ 3233: [  6] ColorB
+  @ 3279: [  6] ColorG
+  @ 3342: [  6] ColorR
+  @ 3388: [ 11] m_intensity
+  @ 3456: [ 13] ParticleFrame
+  @ 3526: [  9] BirthRate
+  @ 3633: [  9] BirthRate
+  @ 3740: [  6] m_play

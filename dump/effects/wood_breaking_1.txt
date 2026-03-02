@@ -1,0 +1,36 @@
+[+] GFX v1 | Size: 1794 bytes | Root: SceneObject | Nodes: 3 | Strings: 16
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1068
+  Post-data payload size: 710 bytes
+  Scene data: 1068 bytes (offsets 0..1067)
+  Post data: 726 bytes (offsets 1068..1793)
+
+--- Child Nodes (3) ---
+  [ 0] Pieces         | Type: Unknown      | Hash: 0x084bea84 | IHash: 0x084bea84 | ID: Pieces | @222
+  [ 1] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @587
+  [ 2] Sound1         | Type: Unknown      | Hash: 0x3eb5ad8e | IHash: 0x63e5280a | ID: 757541070 | @945
+
+--- Strings (16) ---
+  @  100: [ 11] SceneObject
+  @  230: [  6] Pieces
+  @  240: [  6] Pieces
+  @  595: [  5] Smoke
+  @  604: [  5] Smoke
+  @  953: [  9] 757541070
+  @  966: [  6] Sound1
+  @ 1080: [  7] default
+  @ 1108: [  9] BirthRate
+  @ 1186: [ 14] ParticleColorA
+  @ 1269: [ 14] ParticleColorA
+  @ 1381: [ 12] ParticleSize
+  @ 1491: [ 16] ParticleRotation
+  @ 1564: [  9] BirthRate
+  @ 1642: [ 16] ParticleRotation
+  @ 1715: [  6] m_play

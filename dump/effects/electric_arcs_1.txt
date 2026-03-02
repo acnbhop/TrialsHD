@@ -1,0 +1,40 @@
+[+] GFX v1 | Size: 3592 bytes | Root: SceneObject | Nodes: 5 | Strings: 18
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1599
+  Post-data payload size: 1977 bytes
+  Scene data: 1599 bytes (offsets 0..1598)
+  Post data: 1993 bytes (offsets 1599..3591)
+
+--- Child Nodes (5) ---
+  [ 0] Sphere8        | Type: Unknown      | Hash: 0xac24556d | IHash: 0x63250510 | ID: 26636120 | @386
+  [ 1] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @515
+  [ 2] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0xbed3e8d1 | ID: 245091444 | @875
+  [ 3] Acrs           | Type: Unknown      | Hash: 0x6dbbc083 | IHash: 0x6dbbc083 | ID: Acrs | @1083
+  [ 4] Light0         | Type: Unknown      | Hash: 0xfe65f713 | IHash: 0x1269bc0c | ID: 46479750 | @1448
+
+--- Strings (18) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 26636120
+  @  406: [  7] Sphere8
+  @  523: [  6] Sparks
+  @  533: [  6] Sparks
+  @  883: [  9] 245091444
+  @  896: [  6] Sound0
+  @ 1091: [  4] Acrs
+  @ 1099: [  4] Acrs
+  @ 1456: [  8] 46479750
+  @ 1468: [  6] Light0
+  @ 1611: [  7] default
+  @ 1639: [ 13] ParticleFrame
+  @ 1709: [ 14] ParticleColorA
+  @ 1850: [ 14] ParticleColorA
+  @ 1991: [  6] m_play
+  @ 2112: [  9] BirthRate
+  @ 2756: [ 11] m_intensity

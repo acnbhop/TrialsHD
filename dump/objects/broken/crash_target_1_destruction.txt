@@ -1,0 +1,82 @@
+[+] GFX v1 | Size: 5115 bytes | Root: SceneObject | Nodes: 18 | Strings: 47
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 5071
+  Post-data payload size: 28 bytes
+  Scene data: 5071 bytes (offsets 0..5070)
+  Post data: 44 bytes (offsets 5071..5114)
+
+--- Child Nodes (18) ---
+  [ 0] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0xc48cdd2d | ID: 187076428 | @516
+  [ 1] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xaf407167 | ID: 39747120 | @690
+  [ 2] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x46c86a8b | ID: 117094040 | @1122
+  [ 3] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x4dde4207 | ID: 20632554 | @1296
+  [ 4] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x2d81db42 | ID: 56694720 | @1728
+  [ 5] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0xa84fc5e7 | ID: 57341984 | @1901
+  [ 6] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x9d5dbec2 | ID: 119799610 | @2203
+  [ 7] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xda7e1774 | ID: 22726800 | @2377
+  [ 8] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0xf1fa07db | ID: 283057755 | @2809
+  [ 9] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0x77a381a5 | ID: 34174250 | @2983
+  [10] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x933ac9da | ID: 150677187 | @3415
+  [11] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x2a951dca | ID: 754969880 | @3589
+  [12] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x529f8c4b | ID: 598224127 | @3892
+  [13] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x0dece939 | ID: 155811663 | @4066
+  [14] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x9f0c877e | ID: 338272902 | @4369
+  [15] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x2de334e5 | ID: 222138405 | @4543
+  [16] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0xc71cc6a7 | ID: 187666402 | @4846
+  [17] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x0d1a0190 | ID: 61817925 | @5020
+
+--- Strings (47) ---
+  @  100: [ 11] SceneObject
+  @  524: [  9] 187076428
+  @  537: [  4] Box9
+  @  564: [ 42] objects\broken\crash_target_1_broken_2.mdl
+  @  698: [  8] 39747120
+  @  710: [  5] Mesh1
+  @ 1130: [  9] 117094040
+  @ 1143: [  4] Box9
+  @ 1170: [ 42] objects\broken\crash_target_1_broken_3.mdl
+  @ 1304: [  8] 20632554
+  @ 1316: [  5] Mesh2
+  @ 1736: [  8] 56694720
+  @ 1748: [  4] Box9
+  @ 1775: [ 42] objects\broken\crash_target_1_broken_4.mdl
+  @ 1909: [  8] 57341984
+  @ 1921: [  5] Mesh3
+  @ 2211: [  9] 119799610
+  @ 2224: [  4] Box9
+  @ 2251: [ 42] objects\broken\crash_target_1_broken_6.mdl
+  @ 2385: [  8] 22726800
+  @ 2397: [  5] Mesh5
+  @ 2817: [  9] 283057755
+  @ 2830: [  4] Box9
+  @ 2857: [ 42] objects\broken\crash_target_1_broken_5.mdl
+  @ 2991: [  8] 34174250
+  @ 3003: [  5] Mesh4
+  @ 3423: [  9] 150677187
+  @ 3436: [  4] Box9
+  @ 3463: [ 42] objects\broken\crash_target_1_broken_9.mdl
+  @ 3597: [  9] 754969880
+  @ 3610: [  5] Mesh8
+  @ 3900: [  9] 598224127
+  @ 3913: [  4] Box9
+  @ 3940: [ 42] objects\broken\crash_target_1_broken_8.mdl
+  @ 4074: [  9] 155811663
+  @ 4087: [  5] Mesh7
+  @ 4377: [  9] 338272902
+  @ 4390: [  4] Box9
+  @ 4417: [ 42] objects\broken\crash_target_1_broken_7.mdl
+  @ 4551: [  9] 222138405
+  @ 4564: [  5] Mesh6
+  @ 4854: [  9] 187666402
+  @ 4867: [  4] Box9
+  @ 4894: [ 42] objects\broken\crash_target_1_broken_1.mdl
+  @ 5028: [  8] 61817925
+  @ 5040: [  5] Mesh0
+  @ 5083: [  7] default

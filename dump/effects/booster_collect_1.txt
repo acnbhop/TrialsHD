@@ -1,0 +1,51 @@
+[+] GFX v1 | Size: 4155 bytes | Root: SceneObject | Nodes: 6 | Strings: 28
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2051
+  Post-data payload size: 2088 bytes
+  Scene data: 2051 bytes (offsets 0..2050)
+  Post data: 2104 bytes (offsets 2051..4154)
+
+--- Child Nodes (6) ---
+  [ 0] Explosion2     | Type: Unknown      | Hash: 0x70217247 | IHash: 0x70217247 | ID: Explosion2 | @224
+  [ 1] Flashes1       | Type: Unknown      | Hash: 0xd760f55e | IHash: 0xae813885 | ID: 306268341 | @593
+  [ 2] Explosion1     | Type: Unknown      | Hash: 0x3ce3d957 | IHash: 0x11026ea1 | ID: 273285222 | @959
+  [ 3] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0xb69d3270 | ID: 145069335 | @1327
+  [ 4] Rings          | Type: Unknown      | Hash: 0xe8d5fb64 | IHash: 0xe8d5fb64 | ID: Rings | @1539
+  [ 5] Light0         | Type: Unknown      | Hash: 0xfe65f713 | IHash: 0x6314ff91 | ID: 775536 | @1901
+
+--- Strings (28) ---
+  @  100: [ 11] SceneObject
+  @  232: [ 10] Explosion2
+  @  246: [ 10] Explosion2
+  @  601: [  9] 306268341
+  @  614: [  8] Flashes1
+  @  967: [  9] 273285222
+  @  980: [ 10] Explosion1
+  @ 1335: [  9] 145069335
+  @ 1348: [  6] Sound0
+  @ 1547: [  5] Rings
+  @ 1556: [  5] Rings
+  @ 1909: [  6] 775536
+  @ 1919: [  6] Light0
+  @ 2063: [  7] default
+  @ 2091: [  9] BirthRate
+  @ 2300: [ 14] ParticleColorA
+  @ 2777: [ 12] ParticleSize
+  @ 2858: [ 12] ParticleSize
+  @ 2939: [ 14] ParticleColorA
+  @ 3039: [  9] BirthRate
+  @ 3134: [  9] BirthRate
+  @ 3314: [ 14] ParticleColorA
+  @ 3617: [ 12] ParticleSize
+  @ 3698: [ 12] ParticleSize
+  @ 3779: [ 14] ParticleColorA
+  @ 3891: [ 16] ParticleRotation
+  @ 3964: [  9] BirthRate
+  @ 4042: [ 11] m_intensity

@@ -1,0 +1,33 @@
+[+] GFX v1 | Size: 1314 bytes | Root: SceneObject | Nodes: 4 | Strings: 12
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1270
+  Post-data payload size: 28 bytes
+  Scene data: 1270 bytes (offsets 0..1269)
+  Post data: 44 bytes (offsets 1270..1313)
+
+--- Child Nodes (4) ---
+  [ 0] base_collision | Type: Unknown      | Hash: 0x6249d028 | IHash: 0x6249d028 | ID: base_collision | @388
+  [ 1] base           | Type: Unknown      | Hash: 0xf41f3916 | IHash: 0xf41f3916 | ID: base | @655
+  [ 2] cover_collision | Type: Unknown      | Hash: 0x01f531e2 | IHash: 0x01f531e2 | ID: cover_collision | @954
+  [ 3] cover          | Type: Unknown      | Hash: 0x7a6ae892 | IHash: 0x7a6ae892 | ID: cover | @1220
+
+--- Strings (12) ---
+  @  100: [ 11] SceneObject
+  @  396: [ 14] base_collision
+  @  414: [ 14] base_collision
+  @  517: [ 54] objects\broken\metal_barrel_1_broken_part_big_side.mdl
+  @  663: [  4] base
+  @  671: [  4] base
+  @  962: [ 15] cover_collision
+  @  981: [ 15] cover_collision
+  @ 1085: [ 51] objects\broken\metal_barrel_1_broken_part_cover.mdl
+  @ 1228: [  5] cover
+  @ 1237: [  5] cover
+  @ 1282: [  7] default

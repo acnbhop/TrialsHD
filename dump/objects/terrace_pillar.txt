@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 641 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 597
+  Post-data payload size: 28 bytes
+  Scene data: 597 bytes (offsets 0..596)
+  Post data: 44 bytes (offsets 597..640)
+
+--- Child Nodes (2) ---
+  [ 0] Box17          | Type: Unknown      | Hash: 0x279c5dd8 | IHash: 0xe1fb90bf | ID: 30033360 | @386
+  [ 1] Mesh16         | Type: Unknown      | Hash: 0x72376c8a | IHash: 0x47140c0a | ID: 135217808 | @544
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 30033360
+  @  406: [  5] Box17
+  @  434: [ 26] objects\terrace_pillar.mdl
+  @  552: [  9] 135217808
+  @  565: [  6] Mesh16
+  @  609: [  7] default

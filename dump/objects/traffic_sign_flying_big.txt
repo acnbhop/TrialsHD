@@ -1,0 +1,30 @@
+[+] GFX v1 | Size: 853 bytes | Root: SceneObject | Nodes: 3 | Strings: 10
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 809
+  Post-data payload size: 28 bytes
+  Scene data: 809 bytes (offsets 0..808)
+  Post data: 44 bytes (offsets 809..852)
+
+--- Child Nodes (3) ---
+  [ 0] Decomposed1    | Type: Unknown      | Hash: 0xd63b38a9 | IHash: 0xd63b38a9 | ID: Decomposed1 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x92c42f98 | ID: 69058446 | @568
+  [ 2] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xbb027cda | ID: 452003475 | @705
+
+--- Strings (10) ---
+  @  100: [ 11] SceneObject
+  @  394: [ 11] Decomposed1
+  @  409: [ 11] Decomposed1
+  @  443: [ 41] objects\traffic_sign_base_single_post.mdl
+  @  576: [  8] 69058446
+  @  588: [  5] Mesh0
+  @  713: [  9] 452003475
+  @  726: [ 11] Serialized0
+  @  758: [ 42] objects\traffic_sign_flying_big_simple.gfx
+  @  821: [  7] default

@@ -1,0 +1,40 @@
+[+] GFX v1 | Size: 1758 bytes | Root: SceneObject | Nodes: 6 | Strings: 17
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1714
+  Post-data payload size: 28 bytes
+  Scene data: 1714 bytes (offsets 0..1713)
+  Post data: 44 bytes (offsets 1714..1757)
+
+--- Child Nodes (6) ---
+  [ 0] big_part_1     | Type: Unknown      | Hash: 0x611e48b5 | IHash: 0x611e48b5 | ID: big_part_1 | @427
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x38b5dcff | ID: 7289028 | @610
+  [ 2] big_part_2     | Type: Unknown      | Hash: 0x945be1a5 | IHash: 0x945be1a5 | ID: big_part_2 | @952
+  [ 3] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x6aee1405 | ID: 386652375 | @1135
+  [ 4] big_part_3     | Type: Unknown      | Hash: 0xc7997a95 | IHash: 0xc7997a95 | ID: big_part_3 | @1479
+  [ 5] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x8f4ecf38 | ID: 427869619 | @1662
+
+--- Strings (17) ---
+  @  100: [ 11] SceneObject
+  @  435: [ 10] big_part_1
+  @  449: [ 10] big_part_1
+  @  482: [ 44] objects\broken\plywood_broken_part_big_1.mdl
+  @  618: [  7] 7289028
+  @  629: [  5] Mesh0
+  @  960: [ 10] big_part_2
+  @  974: [ 10] big_part_2
+  @ 1007: [ 44] objects\broken\plywood_broken_part_big_2.mdl
+  @ 1143: [  9] 386652375
+  @ 1156: [  5] Mesh3
+  @ 1487: [ 10] big_part_3
+  @ 1501: [ 10] big_part_3
+  @ 1534: [ 44] objects\broken\plywood_broken_part_big_3.mdl
+  @ 1670: [  9] 427869619
+  @ 1683: [  5] Mesh6
+  @ 1726: [  7] default

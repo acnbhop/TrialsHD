@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 926 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 882
+  Post-data payload size: 28 bytes
+  Scene data: 882 bytes (offsets 0..881)
+  Post data: 44 bytes (offsets 882..925)
+
+--- Child Nodes (2) ---
+  [ 0] PhysicalComposition | Type: Unknown      | Hash: 0xffd912a2 | IHash: 0xffd912a2 | ID: PhysicalComposition | @646
+  [ 1] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0x26742a74 | ID: 404465697 | @830
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  654: [ 19] PhysicalComposition
+  @  677: [ 19] PhysicalComposition
+  @  719: [ 27] objects\wooden_platform.mdl
+  @  838: [  9] 404465697
+  @  851: [  5] Mesh4
+  @  894: [  7] default

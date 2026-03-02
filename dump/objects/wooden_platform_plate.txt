@@ -1,0 +1,54 @@
+[+] GFX v1 | Size: 2187 bytes | Root: SceneObject | Nodes: 9 | Strings: 28
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2143
+  Post-data payload size: 28 bytes
+  Scene data: 2143 bytes (offsets 0..2142)
+  Post data: 44 bytes (offsets 2143..2186)
+
+--- Child Nodes (9) ---
+  [ 0] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0x91a562a7 | ID: 46199920 | @776
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x5800cd6a | ID: 45752400 | @934
+  [ 2] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xa3b1f47e | ID: 531026691 | @1103
+  [ 3] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xf4f7cf08 | ID: 178723090 | @1273
+  [ 4] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x842f2923 | ID: 634872924 | @1443
+  [ 5] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x65f41076 | ID: 280690767 | @1605
+  [ 6] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xa1eb009c | ID: 572316560 | @1767
+  [ 7] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xfd2196f8 | ID: 348210570 | @1929
+  [ 8] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xcf3118a7 | ID: 130062856 | @2091
+
+--- Strings (28) ---
+  @  100: [ 11] SceneObject
+  @  784: [  8] 46199920
+  @  796: [  4] Box7
+  @  823: [ 27] objects\wooden_platform.mdl
+  @  942: [  8] 45752400
+  @  954: [  5] Mesh0
+  @  992: [ 27] objects\wooden_platform.mdl
+  @ 1111: [  9] 531026691
+  @ 1124: [  5] Mesh0
+  @ 1162: [ 27] objects\wooden_platform.mdl
+  @ 1281: [  9] 178723090
+  @ 1294: [  5] Mesh0
+  @ 1332: [ 27] objects\wooden_platform.mdl
+  @ 1451: [  9] 634872924
+  @ 1464: [  5] Mesh0
+  @ 1502: [ 19] objects\plywood.mdl
+  @ 1613: [  9] 280690767
+  @ 1626: [  5] Mesh1
+  @ 1664: [ 19] objects\plywood.mdl
+  @ 1775: [  9] 572316560
+  @ 1788: [  5] Mesh1
+  @ 1826: [ 19] objects\plywood.mdl
+  @ 1937: [  9] 348210570
+  @ 1950: [  5] Mesh1
+  @ 1988: [ 19] objects\plywood.mdl
+  @ 2099: [  9] 130062856
+  @ 2112: [  5] Mesh1
+  @ 2155: [  7] default

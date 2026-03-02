@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 773 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 729
+  Post-data payload size: 28 bytes
+  Scene data: 729 bytes (offsets 0..728)
+  Post data: 44 bytes (offsets 729..772)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder8      | Type: Unknown      | Hash: 0x1084eb80 | IHash: 0xbfe1e19a | ID: 12934362 | @516
+  [ 1] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0xea8caa34 | ID: 632422812 | @677
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  524: [  8] 12934362
+  @  536: [  9] Cylinder8
+  @  568: [ 25] objects\sign_big_jump.mdl
+  @  685: [  9] 632422812
+  @  698: [  5] Mesh4
+  @  741: [  7] default

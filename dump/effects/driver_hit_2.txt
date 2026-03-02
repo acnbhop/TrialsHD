@@ -1,0 +1,53 @@
+[+] GFX v1 | Size: 3467 bytes | Root: SceneObject | Nodes: 5 | Strings: 31
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1933
+  Post-data payload size: 1518 bytes
+  Scene data: 1933 bytes (offsets 0..1932)
+  Post data: 1534 bytes (offsets 1933..3466)
+
+--- Child Nodes (5) ---
+  [ 0] Splat1         | Type: Unknown      | Hash: 0xc6afa6c2 | IHash: 0xc6afa6c2 | ID: Splat1 | @222
+  [ 1] Splat2         | Type: Unknown      | Hash: 0xd571aa3b | IHash: 0xd571aa3b | ID: Splat2 | @582
+  [ 2] Splat3         | Type: Unknown      | Hash: 0xe433adb4 | IHash: 0xe433adb4 | ID: Splat3 | @942
+  [ 3] Splat4         | Type: Unknown      | Hash: 0xf2f5b12d | IHash: 0xf2f5b12d | ID: Splat4 | @1302
+  [ 4] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @1662
+
+--- Strings (31) ---
+  @  100: [ 11] SceneObject
+  @  230: [  6] Splat1
+  @  240: [  6] Splat1
+  @  590: [  6] Splat2
+  @  600: [  6] Splat2
+  @  950: [  6] Splat3
+  @  960: [  6] Splat3
+  @ 1310: [  6] Splat4
+  @ 1320: [  6] Splat4
+  @ 1670: [  5] Smoke
+  @ 1679: [  5] Smoke
+  @ 1945: [  7] default
+  @ 1973: [  9] BirthRate
+  @ 2051: [ 12] ParticleSize
+  @ 2132: [ 16] ParticleRotation
+  @ 2205: [ 14] ParticleColorA
+  @ 2288: [ 14] ParticleColorA
+  @ 2371: [ 16] ParticleRotation
+  @ 2444: [ 12] ParticleSize
+  @ 2525: [  9] BirthRate
+  @ 2603: [  9] BirthRate
+  @ 2681: [ 14] ParticleColorA
+  @ 2764: [ 16] ParticleRotation
+  @ 2837: [ 12] ParticleSize
+  @ 2918: [  9] BirthRate
+  @ 2996: [ 14] ParticleColorA
+  @ 3079: [ 12] ParticleSize
+  @ 3160: [ 16] ParticleRotation
+  @ 3233: [  9] BirthRate
+  @ 3311: [ 14] ParticleColorA
+  @ 3394: [ 12] ParticleSize

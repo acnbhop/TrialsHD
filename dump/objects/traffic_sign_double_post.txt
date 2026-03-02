@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 793 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 749
+  Post-data payload size: 28 bytes
+  Scene data: 749 bytes (offsets 0..748)
+  Post data: 44 bytes (offsets 749..792)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed1    | Type: Unknown      | Hash: 0xd63b38a9 | IHash: 0xd63b38a9 | ID: Decomposed1 | @516
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x92c42f98 | ID: 69058446 | @698
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  524: [ 11] Decomposed1
+  @  539: [ 11] Decomposed1
+  @  573: [ 41] objects\traffic_sign_base_double_post.mdl
+  @  706: [  8] 69058446
+  @  718: [  5] Mesh0
+  @  761: [  7] default

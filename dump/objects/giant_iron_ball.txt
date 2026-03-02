@@ -1,0 +1,30 @@
+[+] GFX v1 | Size: 907 bytes | Root: SceneObject | Nodes: 3 | Strings: 10
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 817
+  Post-data payload size: 74 bytes
+  Scene data: 817 bytes (offsets 0..816)
+  Post data: 90 bytes (offsets 817..906)
+
+--- Child Nodes (3) ---
+  [ 0] Sphere2        | Type: Unknown      | Hash: 0x8c36bb73 | IHash: 0xf32c494f | ID: 79553940 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xee95238e | ID: 37565605 | @545
+  [ 2] RollingSound   | Type: Unknown      | Hash: 0x3506b215 | IHash: 0x3506b215 | ID: RollingSound | @682
+
+--- Strings (10) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 79553940
+  @  406: [  7] Sphere2
+  @  436: [ 25] objects\thunderdome_1.mdl
+  @  553: [  8] 37565605
+  @  565: [  5] Mesh0
+  @  690: [ 12] RollingSound
+  @  706: [ 12] RollingSound
+  @  829: [  7] default
+  @  857: [  6] m_play

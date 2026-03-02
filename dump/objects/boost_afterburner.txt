@@ -1,0 +1,44 @@
+[+] GFX v1 | Size: 4151 bytes | Root: SceneObject | Nodes: 5 | Strings: 22
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1005
+  Post-data payload size: 3130 bytes
+  Scene data: 1005 bytes (offsets 0..1004)
+  Post data: 3146 bytes (offsets 1005..4150)
+
+--- Child Nodes (5) ---
+  [ 0] icon           | Type: Unknown      | Hash: 0xcf97d2e5 | IHash: 0xcf97d2e5 | ID: icon | @256
+  [ 1] arrow_4        | Type: Unknown      | Hash: 0x30283bd2 | IHash: 0x30283bd2 | ID: arrow_4 | @426
+  [ 2] arrow_2        | Type: Unknown      | Hash: 0xd02e5dd4 | IHash: 0xd02e5dd4 | ID: arrow_2 | @602
+  [ 3] arrow_3        | Type: Unknown      | Hash: 0x002b4cd3 | IHash: 0x002b4cd3 | ID: arrow_3 | @778
+  [ 4] arrow_1        | Type: Unknown      | Hash: 0xa0316ed5 | IHash: 0xa0316ed5 | ID: arrow_1 | @954
+
+--- Strings (22) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 29] objects\boost_afterburner.mdl
+  @  264: [  4] icon
+  @  272: [  4] icon
+  @  309: [ 33] objects\boost_indicator_arrow.mdl
+  @  434: [  7] arrow_4
+  @  445: [  7] arrow_4
+  @  485: [ 33] objects\boost_indicator_arrow.mdl
+  @  610: [  7] arrow_2
+  @  621: [  7] arrow_2
+  @  661: [ 33] objects\boost_indicator_arrow.mdl
+  @  786: [  7] arrow_3
+  @  797: [  7] arrow_3
+  @  837: [ 33] objects\boost_indicator_arrow.mdl
+  @  962: [  7] arrow_1
+  @  973: [  7] arrow_1
+  @ 1017: [  7] default
+  @ 1045: [  7] arrow_3
+  @ 1666: [  7] arrow_4
+  @ 2287: [  7] arrow_1
+  @ 2908: [  7] arrow_2
+  @ 3529: [  4] icon

@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 636 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 592
+  Post-data payload size: 28 bytes
+  Scene data: 592 bytes (offsets 0..591)
+  Post data: 44 bytes (offsets 592..635)
+
+--- Child Nodes (2) ---
+  [ 0] Box1           | Type: Unknown      | Hash: 0x8292dd4f | IHash: 0xe5055f3d | ID: 475483456 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x5a0bcb41 | ID: 221996720 | @540
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 475483456
+  @  407: [  4] Box1
+  @  434: [ 22] objects\sign_arrow.mdl
+  @  548: [  9] 221996720
+  @  561: [  5] Mesh0
+  @  604: [  7] default

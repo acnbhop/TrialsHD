@@ -1,0 +1,76 @@
+[+] GFX v1 | Size: 5470 bytes | Root: SceneObject | Nodes: 11 | Strings: 48
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2885
+  Post-data payload size: 2569 bytes
+  Scene data: 2885 bytes (offsets 0..2884)
+  Post data: 2585 bytes (offsets 2885..5469)
+
+--- Child Nodes (11) ---
+  [ 0] Box3           | Type: Unknown      | Hash: 0xb981f7cd | IHash: 0xd525f0da | ID: 5063310 | @518
+  [ 1] base           | Type: Unknown      | Hash: 0xf41f3916 | IHash: 0xf41f3916 | ID: base | @677
+  [ 2] light_bottom   | Type: Unknown      | Hash: 0xa9e5beca | IHash: 0xa9e5beca | ID: light_bottom | @849
+  [ 3] light_middle   | Type: Unknown      | Hash: 0x2b45ee1f | IHash: 0x2b45ee1f | ID: light_middle | @1037
+  [ 4] light_top      | Type: Unknown      | Hash: 0xd6987913 | IHash: 0xd6987913 | ID: light_top | @1225
+  [ 5] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x69ffd002 | ID: 321472560 | @1404
+  [ 6] pointlight     | Type: Unknown      | Hash: 0x15e3160f | IHash: 0x15e3160f | ID: pointlight | @1544
+  [ 7] Sound2         | Type: Unknown      | Hash: 0x4d77b107 | IHash: 0x2d134e90 | ID: 539205909 | @1789
+  [ 8] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @2003
+  [ 9] Acrs           | Type: Unknown      | Hash: 0x6dbbc083 | IHash: 0x6dbbc083 | ID: Acrs | @2365
+  [10] Light1         | Type: Light        | Hash: 0x0d27fa8c | IHash: 0x9720d95e | ID: 47069638 | @2732
+
+--- Strings (48) ---
+  @  100: [ 11] SceneObject
+  @  526: [  7] 5063310
+  @  537: [  4] Box3
+  @  566: [ 27] objects\startpoint_flag.mdl
+  @  685: [  4] base
+  @  693: [  4] base
+  @  732: [ 33] objects\startpoint_flag_light.mdl
+  @  857: [ 12] light_bottom
+  @  873: [ 12] light_bottom
+  @  920: [ 33] objects\startpoint_flag_light.mdl
+  @ 1045: [ 12] light_middle
+  @ 1061: [ 12] light_middle
+  @ 1108: [ 33] objects\startpoint_flag_light.mdl
+  @ 1233: [  9] light_top
+  @ 1246: [  9] light_top
+  @ 1290: [ 30] objects\goalpoint_flag_arm.mdl
+  @ 1412: [  9] 321472560
+  @ 1425: [  5] Mesh1
+  @ 1552: [ 10] pointlight
+  @ 1566: [ 10] pointlight
+  @ 1797: [  9] 539205909
+  @ 1810: [  6] Sound2
+  @ 2011: [  6] Sparks
+  @ 2021: [  6] Sparks
+  @ 2373: [  4] Acrs
+  @ 2381: [  4] Acrs
+  @ 2740: [  8] 47069638
+  @ 2752: [  6] Light1
+  @ 2897: [  7] default
+  @ 2925: [  6] ColorR
+  @ 2971: [  6] ColorG
+  @ 3034: [  6] ColorB
+  @ 3080: [  8] Emissive
+  @ 3145: [  6] ColorB
+  @ 3191: [  6] ColorG
+  @ 3254: [  6] ColorR
+  @ 3300: [  8] Emissive
+  @ 3365: [  8] Emissive
+  @ 3430: [  6] ColorR
+  @ 3476: [  6] ColorG
+  @ 3539: [  6] ColorB
+  @ 3585: [ 11] m_intensity
+  @ 3653: [  9] BirthRate
+  @ 3765: [  9] BirthRate
+  @ 3884: [ 13] ParticleFrame
+  @ 3954: [  6] m_play
+  @ 4087: [  5] Mesh1
+  @ 5386: [ 11] m_intensity

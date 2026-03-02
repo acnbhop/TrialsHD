@@ -1,0 +1,220 @@
+[+] GFX v1 | Size: 24801 bytes | Root: SceneObject | Nodes: 51 | Strings: 152
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 17985
+  Post-data payload size: 943 bytes
+  Scene data: 17985 bytes (offsets 0..17984)
+  Post data: 6816 bytes (offsets 17985..24800)
+
+--- Child Nodes (51) ---
+  [ 0] BikeDummy      | Type: Unknown      | Hash: 0x4ff08f15 | IHash: 0x4ff08f15 | ID: BikeDummy | @224
+  [ 1] BackWheel      | Type: Unknown      | Hash: 0x8d32199b | IHash: 0x8d32199b | ID: BackWheel | @530
+  [ 2] back_wheel     | Type: Unknown      | Hash: 0x0c44ed6c | IHash: 0x0c44ed6c | ID: back_wheel | @707
+  [ 3] BackSuspension | Type: Unknown      | Hash: 0x455e5241 | IHash: 0x455e5241 | ID: BackSuspension | @1018
+  [ 4] back_suspension | Type: Unknown      | Hash: 0xd1d66020 | IHash: 0xd1d66020 | ID: back_suspension | @1210
+  [ 5] FrontSuspension | Type: Unknown      | Hash: 0x6d886067 | IHash: 0x6d886067 | ID: FrontSuspension | @1531
+  [ 6] front_suspension | Type: Unknown      | Hash: 0xbd8af758 | IHash: 0xbd8af758 | ID: front_suspension | @1726
+  [ 7] FrontWheel     | Type: Unknown      | Hash: 0xf84642f0 | IHash: 0xf84642f0 | ID: FrontWheel | @2049
+  [ 8] front_wheel    | Type: Unknown      | Hash: 0x131ca53f | IHash: 0x131ca53f | ID: front_wheel | @2228
+  [ 9] BikeBody       | Type: Unknown      | Hash: 0x1329aad5 | IHash: 0x1329aad5 | ID: BikeBody | @2866
+  [10] frame          | Type: Unknown      | Hash: 0x476419f7 | IHash: 0x476419f7 | ID: frame | @3036
+  [11] frontlight_spot | Type: Unknown      | Hash: 0xc6b53764 | IHash: 0xc6b53764 | ID: frontlight_spot | @3172
+  [12] tank           | Type: Unknown      | Hash: 0x763f94d3 | IHash: 0x763f94d3 | ID: tank | @3466
+  [13] bench          | Type: Unknown      | Hash: 0x51b8f95d | IHash: 0x51b8f95d | ID: bench | @3640
+  [14] exhaust        | Type: Unknown      | Hash: 0x5f5aa896 | IHash: 0x5f5aa896 | ID: exhaust | @3813
+  [15] headlight      | Type: Unknown      | Hash: 0x12d7b090 | IHash: 0x12d7b090 | ID: headlight | @4001
+  [16] Exhaust Smoke  | Type: Unknown      | Hash: 0xba6e4af5 | IHash: 0x360d482b | ID: 209066813 | @4145
+  [17] engine         | Type: Unknown      | Hash: 0x886cfe93 | IHash: 0x886cfe93 | ID: engine | @4562
+  [18] BackFender     | Type: Unknown      | Hash: 0xf4bf984b | IHash: 0xf4bf984b | ID: BackFender | @4865
+  [19] back_fender    | Type: Unknown      | Hash: 0x67e0a99c | IHash: 0x67e0a99c | ID: back_fender | @5047
+  [20] FrontFender    | Type: Unknown      | Hash: 0x52955482 | IHash: 0x52955482 | ID: FrontFender | @5490
+  [21] front_fender   | Type: Unknown      | Hash: 0xccf0647c | IHash: 0xccf0647c | ID: front_fender | @5675
+  [22] HandleBar      | Type: Unknown      | Hash: 0xcedf47bb | IHash: 0xcedf47bb | ID: HandleBar | @6250
+  [23] handlebar      | Type: Unknown      | Hash: 0xfcaa443b | IHash: 0xfcaa443b | ID: handlebar | @6425
+  [24] RiderDummy     | Type: Unknown      | Hash: 0x3a05dccc | IHash: 0x3a05dccc | ID: RiderDummy | @6571
+  [25] Head           | Type: Unknown      | Hash: 0x5bd7085d | IHash: 0xbb4ae3fa | ID: 129670637 | @6879
+  [26] LeftFoot       | Type: Unknown      | Hash: 0x5244798f | IHash: 0xd4da98b0 | ID: 164188388 | @7429
+  [27] LeftHand       | Type: Unknown      | Hash: 0xd63242fc | IHash: 0xedc77c68 | ID: 325354263 | @7987
+  [28] LeftLowerArm   | Type: Unknown      | Hash: 0x175fa32b | IHash: 0x6044c3b4 | ID: 13498740 | @8545
+  [29] LeftLowLeg     | Type: Unknown      | Hash: 0x42c3a027 | IHash: 0x2e6d5b60 | ID: 164060104 | @9110
+  [30] LeftShoulder   | Type: Unknown      | Hash: 0x46ea6895 | IHash: 0xcb8793db | ID: 325693459 | @9672
+  [31] LeftUpLeg      | Type: Unknown      | Hash: 0x21437909 | IHash: 0x82d9fae3 | ID: 44205840 | @10238
+  [32] LeftUpperArm   | Type: Unknown      | Hash: 0xc62e3d47 | IHash: 0xb0238021 | ID: 3000450 | @10797
+  [33] RightFoot      | Type: Unknown      | Hash: 0x97a644b9 | IHash: 0x696d1f5b | ID: 490960215 | @11361
+  [34] RightHand      | Type: Unknown      | Hash: 0x5bee113b | IHash: 0xba27ec1a | ID: 206226692 | @11921
+  [35] RightLowerArm  | Type: Unknown      | Hash: 0x461b6c35 | IHash: 0xa826d9ea | ID: 101125800 | @12481
+  [36] RightLowLeg    | Type: Unknown      | Hash: 0xd8f1c6f0 | IHash: 0x439eeb31 | ID: 54696650 | @13049
+  [37] RightShoulder  | Type: Unknown      | Hash: 0xb289b07a | IHash: 0x4432f59a | ID: 84731332 | @13612
+  [38] RightUpLeg     | Type: Unknown      | Hash: 0x5a429b0d | IHash: 0x5d60a2c4 | ID: 250417011 | @14179
+  [39] RightUpperArm  | Type: Unknown      | Hash: 0xdd700bb8 | IHash: 0x7d0c284a | ID: 247328892 | @14741
+  [40] Spine1         | Type: Unknown      | Hash: 0x330b811d | IHash: 0x4bd6ad59 | ID: 363403990 | @15309
+  [41] shirt          | Type: Unknown      | Hash: 0x3cd2990a | IHash: 0x3cd2990a | ID: shirt | @15734
+  [42] pants          | Type: Unknown      | Hash: 0xc29db6bd | IHash: 0xc29db6bd | ID: pants | @15906
+  [43] helmet         | Type: Unknown      | Hash: 0x926237ca | IHash: 0x926237ca | ID: helmet | @16079
+  [44] boots          | Type: Unknown      | Hash: 0xdcf02d58 | IHash: 0xdcf02d58 | ID: boots | @16253
+  [45] gloves         | Type: Unknown      | Hash: 0x42bef245 | IHash: 0x42bef245 | ID: gloves | @16426
+  [46] knees          | Type: Unknown      | Hash: 0xdb20d38a | IHash: 0xdb20d38a | ID: knees | @16600
+  [47] Spine2         | Type: Unknown      | Hash: 0x41cd8496 | IHash: 0xb26db64a | ID: 179642530 | @16901
+  [48] torso          | Type: Unknown      | Hash: 0x9f431662 | IHash: 0x9f431662 | ID: torso | @17326
+  [49] WeightFront    | Type: Unknown      | Hash: 0xd5820030 | IHash: 0xd5820030 | ID: WeightFront | @17628
+  [50] WeightBottom   | Type: Unknown      | Hash: 0xcd4722e8 | IHash: 0xcd4722e8 | ID: WeightBottom | @17931
+
+--- Strings (152) ---
+  @  100: [ 11] SceneObject
+  @  232: [  9] BikeDummy
+  @  245: [  9] BikeDummy
+  @  538: [  9] BackWheel
+  @  551: [  9] BackWheel
+  @  585: [ 38] objects\bike\bike_01_back_wheel_01.mdl
+  @  715: [ 10] back_wheel
+  @  729: [ 10] back_wheel
+  @ 1026: [ 14] BackSuspension
+  @ 1044: [ 14] BackSuspension
+  @ 1083: [ 43] objects\bike\bike_01_back_suspension_01.mdl
+  @ 1218: [ 15] back_suspension
+  @ 1237: [ 15] back_suspension
+  @ 1539: [ 15] FrontSuspension
+  @ 1558: [ 15] FrontSuspension
+  @ 1598: [ 44] objects\bike\bike_01_front_suspension_01.mdl
+  @ 1734: [ 16] front_suspension
+  @ 1754: [ 16] front_suspension
+  @ 2057: [ 10] FrontWheel
+  @ 2071: [ 10] FrontWheel
+  @ 2106: [ 38] objects\bike\bike_01_frontwheel_01.mdl
+  @ 2236: [ 11] front_wheel
+  @ 2251: [ 11] front_wheel
+  @ 2874: [  8] BikeBody
+  @ 2886: [  8] BikeBody
+  @ 2919: [ 33] objects\bike\bike_01_frame_01.mdl
+  @ 3044: [  5] frame
+  @ 3053: [  5] frame
+  @ 3180: [ 15] frontlight_spot
+  @ 3199: [ 15] frontlight_spot
+  @ 3348: [ 34] objects\bike\bike_easy_tank_01.mdl
+  @ 3474: [  4] tank
+  @ 3482: [  4] tank
+  @ 3521: [ 35] objects\bike\bike_easy_bench_01.mdl
+  @ 3648: [  5] bench
+  @ 3657: [  5] bench
+  @ 3697: [ 32] objects\bike\bike_01_exhaust.mdl
+  @ 3821: [  7] exhaust
+  @ 3832: [  7] exhaust
+  @ 3874: [ 43] objects\bike\bike_beginner_headlight_01.mdl
+  @ 4009: [  9] headlight
+  @ 4022: [  9] headlight
+  @ 4153: [  9] 209066813
+  @ 4166: [ 13] Exhaust Smoke
+  @ 4438: [ 40] objects\bike\bike_beginner_engine_01.mdl
+  @ 4570: [  6] engine
+  @ 4580: [  6] engine
+  @ 4873: [ 10] BackFender
+  @ 4887: [ 10] BackFender
+  @ 4922: [ 41] objects\bike\bike_easy_back_fender_01.mdl
+  @ 5055: [ 11] back_fender
+  @ 5070: [ 11] back_fender
+  @ 5498: [ 11] FrontFender
+  @ 5513: [ 11] FrontFender
+  @ 5549: [ 42] objects\bike\bike_easy_front_fender_01.mdl
+  @ 5683: [ 12] front_fender
+  @ 5699: [ 12] front_fender
+  @ 6258: [  9] HandleBar
+  @ 6271: [  9] HandleBar
+  @ 6305: [ 36] objects\bike\bike_01_steering_01.mdl
+  @ 6433: [  9] handlebar
+  @ 6446: [  9] handlebar
+  @ 6579: [ 10] RiderDummy
+  @ 6593: [ 10] RiderDummy
+  @ 6887: [  9] 129670637
+  @ 6900: [  4] Head
+  @ 7020: [  4] Head
+  @ 7437: [  9] 164188388
+  @ 7450: [  8] LeftFoot
+  @ 7574: [  8] LeftFoot
+  @ 7995: [  9] 325354263
+  @ 8008: [  8] LeftHand
+  @ 8132: [  8] LeftHand
+  @ 8553: [  8] 13498740
+  @ 8565: [ 12] LeftLowerArm
+  @ 8693: [ 12] LeftLowerArm
+  @ 9118: [  9] 164060104
+  @ 9131: [ 10] LeftLowLeg
+  @ 9257: [ 10] LeftLowLeg
+  @ 9680: [  9] 325693459
+  @ 9693: [ 12] LeftShoulder
+  @ 9821: [ 12] LeftShoulder
+  @10246: [  8] 44205840
+  @10258: [  9] LeftUpLeg
+  @10383: [  9] LeftUpLeg
+  @10805: [  7] 3000450
+  @10816: [ 12] LeftUpperArm
+  @10944: [ 12] LeftUpperArm
+  @11369: [  9] 490960215
+  @11382: [  9] RightFoot
+  @11507: [  9] RightFoot
+  @11929: [  9] 206226692
+  @11942: [  9] RightHand
+  @12067: [  9] RightHand
+  @12489: [  9] 101125800
+  @12502: [ 13] RightLowerArm
+  @12631: [ 13] RightLowerArm
+  @13057: [  8] 54696650
+  @13069: [ 11] RightLowLeg
+  @13196: [ 11] RightLowLeg
+  @13620: [  8] 84731332
+  @13632: [ 13] RightShoulder
+  @13761: [ 13] RightShoulder
+  @14187: [  9] 250417011
+  @14200: [ 10] RightUpLeg
+  @14326: [ 10] RightUpLeg
+  @14749: [  9] 247328892
+  @14762: [ 13] RightUpperArm
+  @14891: [ 13] RightUpperArm
+  @15317: [  9] 363403990
+  @15330: [  6] Spine1
+  @15452: [  6] Spine1
+  @15619: [ 31] objects\characters\shirt_01.mdl
+  @15742: [  5] shirt
+  @15751: [  5] shirt
+  @15791: [ 31] objects\characters\pants_01.mdl
+  @15914: [  5] pants
+  @15923: [  5] pants
+  @15963: [ 32] objects\characters\helmet_01.mdl
+  @16087: [  6] helmet
+  @16097: [  6] helmet
+  @16138: [ 31] objects\characters\boots_01.mdl
+  @16261: [  5] boots
+  @16270: [  5] boots
+  @16310: [ 32] objects\characters\gloves_01.mdl
+  @16434: [  6] gloves
+  @16444: [  6] gloves
+  @16485: [ 31] objects\characters\knees_01.mdl
+  @16608: [  5] knees
+  @16617: [  5] knees
+  @16909: [  9] 179642530
+  @16922: [  6] Spine2
+  @17044: [  6] Spine2
+  @17211: [ 31] objects\characters\rider_01.mdl
+  @17334: [  5] torso
+  @17343: [  5] torso
+  @17636: [ 11] WeightFront
+  @17651: [ 11] WeightFront
+  @17939: [ 12] WeightBottom
+  @17955: [ 12] WeightBottom
+  @17997: [  7] default
+  @18025: [ 14] ParticleColorA
+  @18137: [ 12] ParticleSize
+  @18247: [  9] VelocityX
+  @18296: [  6] ColorR
+  @18371: [  6] ColorG
+  @18446: [  6] ColorB
+  @18521: [  6] ColorA
+  @18596: [  9] BirthRate
+  @18674: [  7] LifeLow
+  @18750: [  8] LifeHigh
+  @18827: [ 15] ParticleStretch

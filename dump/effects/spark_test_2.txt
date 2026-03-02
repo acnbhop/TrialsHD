@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 840 bytes | Root: SceneObject | Nodes: 1 | Strings: 8
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 470
+  Post-data payload size: 354 bytes
+  Scene data: 470 bytes (offsets 0..469)
+  Post data: 370 bytes (offsets 470..839)
+
+--- Child Nodes (1) ---
+  [ 0] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @222
+
+--- Strings (8) ---
+  @  100: [ 11] SceneObject
+  @  230: [  6] Sparks
+  @  240: [  6] Sparks
+  @  482: [  7] default
+  @  510: [  9] BirthRate
+  @  588: [ 14] ParticleColorA
+  @  671: [ 15] ParticleStretch
+  @  755: [ 12] ParticleSize

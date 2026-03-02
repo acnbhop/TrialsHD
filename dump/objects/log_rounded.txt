@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 641 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 597
+  Post-data payload size: 28 bytes
+  Scene data: 597 bytes (offsets 0..596)
+  Post data: 44 bytes (offsets 597..640)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder2      | Type: Unknown      | Hash: 0x7fb7627a | IHash: 0x9130ba2d | ID: 22169088 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xb6db65b2 | ID: 645584214 | @545
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 22169088
+  @  406: [  9] Cylinder2
+  @  438: [ 23] objects\log_rounded.mdl
+  @  553: [  9] 645584214
+  @  566: [  5] Mesh0
+  @  609: [  7] default

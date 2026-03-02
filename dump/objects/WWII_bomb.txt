@@ -1,0 +1,27 @@
+[+] GFX v1 | Size: 1158 bytes | Root: SceneObject | Nodes: 2 | Strings: 8
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 821
+  Post-data payload size: 321 bytes
+  Scene data: 821 bytes (offsets 0..820)
+  Post data: 337 bytes (offsets 821..1157)
+
+--- Child Nodes (2) ---
+  [ 0] composed_phys_model | Type: Unknown      | Hash: 0xf96e3e1f | IHash: 0xf96e3e1f | ID: composed_phys_model | @581
+  [ 1] visible_mesh   | Type: Unknown      | Hash: 0xf5187203 | IHash: 0xf5187203 | ID: visible_mesh | @759
+
+--- Strings (8) ---
+  @  100: [ 11] SceneObject
+  @  589: [ 19] composed_phys_model
+  @  612: [ 19] composed_phys_model
+  @  654: [ 21] objects\wwii_bomb.mdl
+  @  767: [ 12] visible_mesh
+  @  783: [ 12] visible_mesh
+  @  833: [  7] default
+  @  861: [ 19] composed_phys_model

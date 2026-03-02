@@ -1,0 +1,35 @@
+[+] GFX v1 | Size: 2716 bytes | Root: SceneObject | Nodes: 4 | Strings: 14
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2108
+  Post-data payload size: 592 bytes
+  Scene data: 2108 bytes (offsets 0..2107)
+  Post data: 608 bytes (offsets 2108..2715)
+
+--- Child Nodes (4) ---
+  [ 0] left_col       | Type: Unknown      | Hash: 0x827a2696 | IHash: 0x827a2696 | ID: left_col | @906
+  [ 1] rack_left      | Type: Unknown      | Hash: 0x794018c5 | IHash: 0x794018c5 | ID: rack_left | @1064
+  [ 2] righ_col       | Type: Unknown      | Hash: 0xfd2c7ae0 | IHash: 0xfd2c7ae0 | ID: righ_col | @1891
+  [ 3] rack_right     | Type: Unknown      | Hash: 0x83feed2b | IHash: 0x83feed2b | ID: rack_right | @2050
+
+--- Strings (14) ---
+  @  100: [ 11] SceneObject
+  @  914: [  8] left_col
+  @  926: [  8] left_col
+  @  957: [ 23] objects\rack_1_left.mdl
+  @ 1072: [  9] rack_left
+  @ 1085: [  9] rack_left
+  @ 1899: [  8] righ_col
+  @ 1911: [  8] righ_col
+  @ 1942: [ 24] objects\rack_1_right.mdl
+  @ 2058: [ 10] rack_right
+  @ 2072: [ 10] rack_right
+  @ 2120: [  7] default
+  @ 2148: [  8] left_col
+  @ 2430: [  8] righ_col

@@ -1,0 +1,73 @@
+[+] GFX v1 | Size: 5499 bytes | Root: SceneObject | Nodes: 9 | Strings: 47
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2949
+  Post-data payload size: 2534 bytes
+  Scene data: 2949 bytes (offsets 0..2948)
+  Post data: 2550 bytes (offsets 2949..5498)
+
+--- Child Nodes (9) ---
+  [ 0] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @222
+  [ 1] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @588
+  [ 2] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @948
+  [ 3] Flash          | Type: Unknown      | Hash: 0x08a385a4 | IHash: 0x08a385a4 | ID: Flash | @1306
+  [ 4] Effector0      | Type: Unknown      | Hash: 0x7b77f62c | IHash: 0xedba6d90 | ID: 369678104 | @1663
+  [ 5] Pointlight     | Type: Unknown      | Hash: 0x15e314cf | IHash: 0x15e314cf | ID: Pointlight | @1839
+  [ 6] WoodPieces     | Type: Unknown      | Hash: 0x265fa738 | IHash: 0x265fa738 | ID: WoodPieces | @2082
+  [ 7] FireTrail      | Type: Unknown      | Hash: 0x3c441edf | IHash: 0x3c441edf | ID: FireTrail | @2455
+  [ 8] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0x2ff3aa15 | ID: Sound0 | @2826
+
+--- Strings (47) ---
+  @  100: [ 11] SceneObject
+  @  230: [  4] Fire
+  @  238: [  4] Fire
+  @  596: [  6] Sparks
+  @  606: [  6] Sparks
+  @  956: [  5] Smoke
+  @  965: [  5] Smoke
+  @ 1314: [  5] Flash
+  @ 1323: [  5] Flash
+  @ 1671: [  9] 369678104
+  @ 1684: [  9] Effector0
+  @ 1847: [ 10] Pointlight
+  @ 1861: [ 10] Pointlight
+  @ 2090: [ 10] WoodPieces
+  @ 2104: [ 10] WoodPieces
+  @ 2463: [  9] FireTrail
+  @ 2476: [  9] FireTrail
+  @ 2834: [  6] Sound0
+  @ 2844: [  6] Sound0
+  @ 2961: [  7] default
+  @ 2989: [  9] BirthRate
+  @ 3067: [ 12] ParticleSize
+  @ 3177: [ 14] ParticleColorA
+  @ 3289: [ 16] ParticleRotation
+  @ 3362: [  9] BirthRate
+  @ 3440: [ 14] ParticleColorA
+  @ 3523: [ 15] ParticleStretch
+  @ 3607: [  9] BirthRate
+  @ 3714: [ 14] ParticleColorA
+  @ 3826: [ 12] ParticleSize
+  @ 3936: [ 16] ParticleRotation
+  @ 4009: [ 14] ParticleColorR
+  @ 4121: [ 14] ParticleColorG
+  @ 4233: [ 14] ParticleColorA
+  @ 4345: [ 12] ParticleSize
+  @ 4455: [ 12] ParticleSize
+  @ 4536: [  6] Reject
+  @ 4645: [  9] BirthRate
+  @ 4723: [ 11] m_intensity
+  @ 4832: [  8] m_radius
+  @ 4938: [  9] BirthRate
+  @ 5016: [ 16] ParticleRotation
+  @ 5089: [ 14] ParticleColorA
+  @ 5189: [  9] BirthRate
+  @ 5267: [ 14] ParticleColorA
+  @ 5350: [ 13] ParticleFrame
+  @ 5420: [  6] m_play

@@ -1,0 +1,23 @@
+[+] GFX v1 | Size: 357 bytes | Root: SceneObject | Nodes: 1 | Strings: 5
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 313
+  Post-data payload size: 28 bytes
+  Scene data: 313 bytes (offsets 0..312)
+  Post data: 44 bytes (offsets 313..356)
+
+--- Child Nodes (1) ---
+  [ 0] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x0992b7b6 | ID: 578446176 | @262
+
+--- Strings (5) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 35] objects\metal_finish_line_small.mdl
+  @  270: [  9] 578446176
+  @  283: [  5] Mesh0
+  @  325: [  7] default

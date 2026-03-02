@@ -1,0 +1,27 @@
+[+] GFX v1 | Size: 1452 bytes | Root: SceneObject | Nodes: 2 | Strings: 8
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 449
+  Post-data payload size: 987 bytes
+  Scene data: 449 bytes (offsets 0..448)
+  Post data: 1003 bytes (offsets 449..1451)
+
+--- Child Nodes (2) ---
+  [ 0] Dummy0         | Type: Unknown      | Hash: 0xa13af16b | IHash: 0xd2bb3671 | ID: 247630740 | @222
+  [ 1] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xfa9f826a | ID: 917495648 | @397
+
+--- Strings (8) ---
+  @  100: [ 11] SceneObject
+  @  230: [  9] 247630740
+  @  243: [  6] Dummy0
+  @  280: [ 33] objects\air_condenser_wheel_1.mdl
+  @  405: [  9] 917495648
+  @  418: [  5] Mesh2
+  @  461: [  7] default
+  @  489: [  5] Mesh2

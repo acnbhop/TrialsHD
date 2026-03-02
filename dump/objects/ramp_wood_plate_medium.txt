@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 852 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 808
+  Post-data payload size: 28 bytes
+  Scene data: 808 bytes (offsets 0..807)
+  Post data: 44 bytes (offsets 808..851)
+
+--- Child Nodes (2) ---
+  [ 0] Composition    | Type: Unknown      | Hash: 0x2a36b3ac | IHash: 0x2a36b3ac | ID: Composition | @581
+  [ 1] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0xcbe34eb3 | ID: 274163448 | @756
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  589: [ 11] Composition
+  @  604: [ 11] Composition
+  @  638: [ 34] objects\ramp_wood_plate_medium.mdl
+  @  764: [  9] 274163448
+  @  777: [  5] Mesh7
+  @  820: [  7] default

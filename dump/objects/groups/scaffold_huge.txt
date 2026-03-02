@@ -1,0 +1,107 @@
+[+] GFX v1 | Size: 4036 bytes | Root: SceneObject | Nodes: 22 | Strings: 68
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 3992
+  Post-data payload size: 28 bytes
+  Scene data: 3992 bytes (offsets 0..3991)
+  Post data: 44 bytes (offsets 3992..4035)
+
+--- Child Nodes (22) ---
+  [ 0] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xd80d91f7 | ID: 14930909 | @222
+  [ 1] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x1f544c58 | ID: 6919425 | @394
+  [ 2] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x092be3a5 | ID: 591482028 | @565
+  [ 3] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x42380ae4 | ID: 86363316 | @739
+  [ 4] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x499342dc | ID: 834360555 | @911
+  [ 5] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x2c7f1ceb | ID: 397073192 | @1084
+  [ 6] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0xc60cc3ae | ID: 407868096 | @1257
+  [ 7] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0xc362acac | ID: 452112464 | @1430
+  [ 8] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x414f73b9 | ID: 350970375 | @1603
+  [ 9] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0xc51878bb | ID: 205837925 | @1777
+  [10] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0xe63b37b9 | ID: 37849437 | @1962
+  [11] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x34d8c6d8 | ID: 1801182 | @2134
+  [12] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x2e96b948 | ID: 213481338 | @2317
+  [13] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x804d8db3 | ID: 564135702 | @2502
+  [14] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x317b4ecc | ID: 565027680 | @2687
+  [15] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x00e688c6 | ID: 12374802 | @2860
+  [16] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0xe8ee7842 | ID: 87421296 | @3032
+  [17] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x0f87b978 | ID: 120321610 | @3216
+  [18] Serialized1    | Type: Unknown      | Hash: 0x1cb58530 | IHash: 0x3ccc628e | ID: 45217096 | @3389
+  [19] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xfc29f4a8 | ID: 115511268 | @3561
+  [20] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x46e2fec3 | ID: 201986269 | @3734
+  [21] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xb5631103 | ID: 26701935 | @3907
+
+--- Strings (68) ---
+  @  100: [ 11] SceneObject
+  @  230: [  8] 14930909
+  @  242: [ 11] Serialized0
+  @  274: [ 25] objects\scaffold_base.gfx
+  @  402: [  7] 6919425
+  @  413: [ 11] Serialized0
+  @  445: [ 25] objects\scaffold_base.gfx
+  @  573: [  9] 591482028
+  @  586: [ 11] Serialized0
+  @  618: [ 26] objects\scaffold_plate.gfx
+  @  747: [  8] 86363316
+  @  759: [ 11] Serialized0
+  @  791: [ 25] objects\scaffold_base.gfx
+  @  919: [  9] 834360555
+  @  932: [ 11] Serialized0
+  @  964: [ 25] objects\scaffold_base.gfx
+  @ 1092: [  9] 397073192
+  @ 1105: [ 11] Serialized1
+  @ 1137: [ 25] objects\scaffold_loop.gfx
+  @ 1265: [  9] 407868096
+  @ 1278: [ 11] Serialized1
+  @ 1310: [ 25] objects\scaffold_loop.gfx
+  @ 1438: [  9] 452112464
+  @ 1451: [ 11] Serialized1
+  @ 1483: [ 25] objects\scaffold_loop.gfx
+  @ 1611: [  9] 350970375
+  @ 1624: [ 11] Serialized0
+  @ 1656: [ 26] objects\scaffold_plate.gfx
+  @ 1785: [  9] 205837925
+  @ 1798: [ 11] Serialized1
+  @ 1830: [ 37] objects\scaffold_plate_small_loop.gfx
+  @ 1970: [  8] 37849437
+  @ 1982: [ 11] Serialized1
+  @ 2014: [ 25] objects\scaffold_loop.gfx
+  @ 2142: [  7] 1801182
+  @ 2153: [ 11] Serialized1
+  @ 2185: [ 37] objects\scaffold_plate_small_loop.gfx
+  @ 2325: [  9] 213481338
+  @ 2338: [ 11] Serialized1
+  @ 2370: [ 37] objects\scaffold_plate_small_loop.gfx
+  @ 2510: [  9] 564135702
+  @ 2523: [ 11] Serialized1
+  @ 2555: [ 37] objects\scaffold_plate_small_loop.gfx
+  @ 2695: [  9] 565027680
+  @ 2708: [ 11] Serialized1
+  @ 2740: [ 25] objects\scaffold_loop.gfx
+  @ 2868: [  8] 12374802
+  @ 2880: [ 11] Serialized1
+  @ 2912: [ 25] objects\scaffold_loop.gfx
+  @ 3040: [  8] 87421296
+  @ 3052: [ 11] Serialized1
+  @ 3084: [ 37] objects\scaffold_plate_small_loop.gfx
+  @ 3224: [  9] 120321610
+  @ 3237: [ 11] Serialized1
+  @ 3269: [ 25] objects\scaffold_loop.gfx
+  @ 3397: [  8] 45217096
+  @ 3409: [ 11] Serialized1
+  @ 3441: [ 25] objects\scaffold_loop.gfx
+  @ 3569: [  9] 115511268
+  @ 3582: [ 11] Serialized0
+  @ 3614: [ 25] objects\scaffold_base.gfx
+  @ 3742: [  9] 201986269
+  @ 3755: [ 11] Serialized0
+  @ 3787: [ 25] objects\scaffold_base.gfx
+  @ 3915: [  8] 26701935
+  @ 3927: [ 11] Serialized0
+  @ 3959: [ 25] objects\scaffold_base.gfx
+  @ 4004: [  7] default

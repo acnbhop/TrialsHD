@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 846 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 802
+  Post-data payload size: 28 bytes
+  Scene data: 802 bytes (offsets 0..801)
+  Post data: 44 bytes (offsets 802..845)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed4    | Type: Unknown      | Hash: 0x21922940 | IHash: 0xf6412d50 | ID: 12000844 | @583
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x4d99dd15 | ID: 360234624 | @748
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  591: [  8] 12000844
+  @  603: [ 11] Decomposed4
+  @  639: [ 25] objects\plywood_curve.mdl
+  @  756: [  9] 360234624
+  @  769: [  5] Mesh0
+  @  814: [  7] default

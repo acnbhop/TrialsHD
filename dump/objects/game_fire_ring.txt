@@ -1,0 +1,137 @@
+[+] GFX v1 | Size: 13178 bytes | Root: SceneObject | Nodes: 18 | Strings: 102
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 6558
+  Post-data payload size: 6604 bytes
+  Scene data: 6558 bytes (offsets 0..6557)
+  Post data: 6620 bytes (offsets 6558..13177)
+
+--- Child Nodes (18) ---
+  [ 0] Cylinder0      | Type: Unknown      | Hash: 0x4f72df78 | IHash: 0x36417915 | ID: 410748132 | @386
+  [ 1] Fire01         | Type: Unknown      | Hash: 0xd1b9ab2a | IHash: 0x72ce72d3 | ID: 303215316 | @518
+  [ 2] Fire02         | Type: Unknown      | Hash: 0xe07baea3 | IHash: 0xe07baea3 | ID: Fire02 | @891
+  [ 3] Fire03         | Type: Unknown      | Hash: 0xef3db21c | IHash: 0xef3db21c | ID: Fire03 | @1261
+  [ 4] Fire04         | Type: Unknown      | Hash: 0xfdffb595 | IHash: 0x9698f4f0 | ID: 346661876 | @1631
+  [ 5] Fire05         | Type: Unknown      | Hash: 0x0cc1b90e | IHash: 0x0cc1b90e | ID: Fire05 | @2004
+  [ 6] Fire06         | Type: Unknown      | Hash: 0x1b83bc87 | IHash: 0x1b83bc87 | ID: Fire06 | @2374
+  [ 7] Fire07         | Type: Unknown      | Hash: 0x2a45c000 | IHash: 0x2a45c000 | ID: Fire07 | @2744
+  [ 8] Fire08         | Type: Unknown      | Hash: 0x3907c379 | IHash: 0x3907c379 | ID: Fire08 | @3114
+  [ 9] Fire09         | Type: Unknown      | Hash: 0x47c9c6f2 | IHash: 0x47c9c6f2 | ID: Fire09 | @3484
+  [10] Fire10         | Type: Unknown      | Hash: 0xda00dd6c | IHash: 0xda00dd6c | ID: Fire10 | @3854
+  [11] Fire11         | Type: Unknown      | Hash: 0xe8c2e0e5 | IHash: 0xe8c2e0e5 | ID: Fire11 | @4224
+  [12] Fire12         | Type: Unknown      | Hash: 0xf784e45e | IHash: 0xf784e45e | ID: Fire12 | @4594
+  [13] Fire13         | Type: Unknown      | Hash: 0x0646e7d7 | IHash: 0x0646e7d7 | ID: Fire13 | @4964
+  [14] Fire14         | Type: Unknown      | Hash: 0x1508eb50 | IHash: 0x1508eb50 | ID: Fire14 | @5334
+  [15] Fire15         | Type: Unknown      | Hash: 0x23caeec9 | IHash: 0x23caeec9 | ID: Fire15 | @5704
+  [16] Fire16         | Type: Unknown      | Hash: 0x328cf242 | IHash: 0x328cf242 | ID: Fire16 | @6074
+  [17] Sound1         | Type: Unknown      | Hash: 0x3eb5ad8e | IHash: 0xe0358f98 | ID: 460696422 | @6444
+
+--- Strings (102) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 410748132
+  @  407: [  9] Cylinder0
+  @  526: [  9] 303215316
+  @  539: [  6] Fire01
+  @  899: [  6] Fire02
+  @  909: [  6] Fire02
+  @ 1269: [  6] Fire03
+  @ 1279: [  6] Fire03
+  @ 1639: [  9] 346661876
+  @ 1652: [  6] Fire04
+  @ 2012: [  6] Fire05
+  @ 2022: [  6] Fire05
+  @ 2382: [  6] Fire06
+  @ 2392: [  6] Fire06
+  @ 2752: [  6] Fire07
+  @ 2762: [  6] Fire07
+  @ 3122: [  6] Fire08
+  @ 3132: [  6] Fire08
+  @ 3492: [  6] Fire09
+  @ 3502: [  6] Fire09
+  @ 3862: [  6] Fire10
+  @ 3872: [  6] Fire10
+  @ 4232: [  6] Fire11
+  @ 4242: [  6] Fire11
+  @ 4602: [  6] Fire12
+  @ 4612: [  6] Fire12
+  @ 4972: [  6] Fire13
+  @ 4982: [  6] Fire13
+  @ 5342: [  6] Fire14
+  @ 5352: [  6] Fire14
+  @ 5712: [  6] Fire15
+  @ 5722: [  6] Fire15
+  @ 6082: [  6] Fire16
+  @ 6092: [  6] Fire16
+  @ 6452: [  9] 460696422
+  @ 6465: [  6] Sound1
+  @ 6570: [  7] default
+  @ 6598: [ 14] ParticleColorA
+  @ 6727: [ 12] ParticleSize
+  @ 6866: [ 16] ParticleRotation
+  @ 6939: [ 13] ParticleFrame
+  @ 7009: [ 14] ParticleColorA
+  @ 7138: [ 12] ParticleSize
+  @ 7277: [ 16] ParticleRotation
+  @ 7350: [ 13] ParticleFrame
+  @ 7420: [ 14] ParticleColorA
+  @ 7549: [ 12] ParticleSize
+  @ 7688: [ 16] ParticleRotation
+  @ 7761: [ 13] ParticleFrame
+  @ 7831: [ 14] ParticleColorA
+  @ 7960: [ 12] ParticleSize
+  @ 8099: [ 16] ParticleRotation
+  @ 8172: [ 13] ParticleFrame
+  @ 8242: [ 14] ParticleColorA
+  @ 8371: [ 12] ParticleSize
+  @ 8510: [ 16] ParticleRotation
+  @ 8583: [ 13] ParticleFrame
+  @ 8653: [ 14] ParticleColorA
+  @ 8782: [ 12] ParticleSize
+  @ 8921: [ 16] ParticleRotation
+  @ 8994: [ 13] ParticleFrame
+  @ 9064: [ 14] ParticleColorA
+  @ 9193: [ 12] ParticleSize
+  @ 9332: [ 16] ParticleRotation
+  @ 9405: [ 13] ParticleFrame
+  @ 9475: [ 14] ParticleColorA
+  @ 9604: [ 12] ParticleSize
+  @ 9743: [ 16] ParticleRotation
+  @ 9816: [ 13] ParticleFrame
+  @ 9886: [ 14] ParticleColorA
+  @10015: [ 12] ParticleSize
+  @10154: [ 16] ParticleRotation
+  @10227: [ 13] ParticleFrame
+  @10297: [ 14] ParticleColorA
+  @10426: [ 12] ParticleSize
+  @10565: [ 16] ParticleRotation
+  @10638: [ 13] ParticleFrame
+  @10708: [ 14] ParticleColorA
+  @10837: [ 12] ParticleSize
+  @10976: [ 16] ParticleRotation
+  @11049: [ 13] ParticleFrame
+  @11119: [ 14] ParticleColorA
+  @11248: [ 12] ParticleSize
+  @11387: [ 16] ParticleRotation
+  @11460: [ 13] ParticleFrame
+  @11530: [ 14] ParticleColorA
+  @11659: [ 12] ParticleSize
+  @11798: [ 16] ParticleRotation
+  @11871: [ 13] ParticleFrame
+  @11941: [ 14] ParticleColorA
+  @12070: [ 12] ParticleSize
+  @12209: [ 16] ParticleRotation
+  @12282: [ 13] ParticleFrame
+  @12352: [ 14] ParticleColorA
+  @12481: [ 12] ParticleSize
+  @12620: [ 16] ParticleRotation
+  @12693: [ 13] ParticleFrame
+  @12763: [ 14] ParticleColorA
+  @12892: [ 12] ParticleSize
+  @13031: [ 16] ParticleRotation
+  @13104: [ 13] ParticleFrame

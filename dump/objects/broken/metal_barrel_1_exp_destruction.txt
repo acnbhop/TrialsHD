@@ -1,0 +1,40 @@
+[+] GFX v1 | Size: 1870 bytes | Root: SceneObject | Nodes: 6 | Strings: 17
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1826
+  Post-data payload size: 28 bytes
+  Scene data: 1826 bytes (offsets 0..1825)
+  Post data: 44 bytes (offsets 1826..1869)
+
+--- Child Nodes (6) ---
+  [ 0] cover_collision | Type: Unknown      | Hash: 0x01f531e2 | IHash: 0x01f531e2 | ID: cover_collision | @388
+  [ 1] cover          | Type: Unknown      | Hash: 0x7a6ae892 | IHash: 0x7a6ae892 | ID: cover | @658
+  [ 2] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0xae6f854d | ID: 33871208 | @959
+  [ 3] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0xc36c0e28 | ID: 44528904 | @1214
+  [ 4] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0x125bcc89 | ID: 79620450 | @1518
+  [ 5] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0xdadcf4f4 | ID: 45397781 | @1773
+
+--- Strings (17) ---
+  @  100: [ 11] SceneObject
+  @  396: [ 15] cover_collision
+  @  415: [ 15] cover_collision
+  @  519: [ 55] objects\broken\metal_barrel_1_exp_broken_part_cover.mdl
+  @  666: [  5] cover
+  @  675: [  5] cover
+  @  967: [  8] 33871208
+  @  979: [  4] Box7
+  @ 1072: [ 58] objects\broken\metal_barrel_1_exp_broken_part_big_side.mdl
+  @ 1222: [  8] 44528904
+  @ 1234: [  5] Mesh7
+  @ 1526: [  8] 79620450
+  @ 1538: [  4] Box7
+  @ 1631: [ 58] objects\broken\metal_barrel_1_exp_broken_part_med_side.mdl
+  @ 1781: [  8] 45397781
+  @ 1793: [  5] Mesh8
+  @ 1838: [  7] default

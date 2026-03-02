@@ -1,0 +1,60 @@
+[+] GFX v1 | Size: 4460 bytes | Root: SceneObject | Nodes: 6 | Strings: 37
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2090
+  Post-data payload size: 2354 bytes
+  Scene data: 2090 bytes (offsets 0..2089)
+  Post data: 2370 bytes (offsets 2090..4459)
+
+--- Child Nodes (6) ---
+  [ 0] Fire Back Wheel | Type: Unknown      | Hash: 0x56917683 | IHash: 0x56917683 | ID: Fire Back Wheel | @222
+  [ 1] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @610
+  [ 2] Fire Hull      | Type: Unknown      | Hash: 0x1209ca03 | IHash: 0x7d929a83 | ID: 7252336 | @968
+  [ 3] Fire Front Wheel | Type: Unknown      | Hash: 0x5f8e34f0 | IHash: 0xb56273d2 | ID: 12357192 | @1342
+  [ 4] Sound3         | Type: Unknown      | Hash: 0x5c39b480 | IHash: 0x6fc26da3 | ID: 180556620 | @1724
+  [ 5] Pointlight     | Type: Unknown      | Hash: 0x15e314cf | IHash: 0x09836f36 | ID: 17438124 | @1936
+
+--- Strings (37) ---
+  @  100: [ 11] SceneObject
+  @  230: [ 15] Fire Back Wheel
+  @  249: [ 15] Fire Back Wheel
+  @  618: [  5] Smoke
+  @  627: [  5] Smoke
+  @  976: [  7] 7252336
+  @  987: [  9] Fire Hull
+  @ 1350: [  8] 12357192
+  @ 1362: [ 16] Fire Front Wheel
+  @ 1732: [  9] 180556620
+  @ 1745: [  6] Sound3
+  @ 1944: [  8] 17438124
+  @ 1956: [ 10] Pointlight
+  @ 2102: [  7] default
+  @ 2130: [ 14] ParticleColorA
+  @ 2259: [ 12] ParticleSize
+  @ 2398: [ 16] ParticleRotation
+  @ 2471: [ 14] ParticleColorA
+  @ 2583: [ 12] ParticleSize
+  @ 2710: [ 16] ParticleRotation
+  @ 2783: [ 13] ParticleFrame
+  @ 2853: [  9] BirthRate
+  @ 2977: [  9] BirthRate
+  @ 3043: [ 14] ParticleColorA
+  @ 3172: [ 12] ParticleSize
+  @ 3311: [ 16] ParticleRotation
+  @ 3384: [ 13] ParticleFrame
+  @ 3454: [  9] BirthRate
+  @ 3549: [ 14] ParticleColorA
+  @ 3678: [ 12] ParticleSize
+  @ 3817: [ 16] ParticleRotation
+  @ 3890: [ 13] ParticleFrame
+  @ 3960: [  9] BirthRate
+  @ 4084: [  9] Explosion
+  @ 4191: [  9] Explosion
+  @ 4269: [  9] Explosion
+  @ 4347: [ 11] m_intensity

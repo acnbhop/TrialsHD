@@ -1,0 +1,54 @@
+[+] GFX v1 | Size: 3583 bytes | Root: SceneObject | Nodes: 10 | Strings: 27
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 3539
+  Post-data payload size: 28 bytes
+  Scene data: 3539 bytes (offsets 0..3538)
+  Post data: 44 bytes (offsets 3539..3582)
+
+--- Child Nodes (10) ---
+  [ 0] Box5           | Type: Unknown      | Hash: 0xf071124b | IHash: 0xf50938ab | ID: 119024816 | @581
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xf550b3ef | ID: 326985461 | @751
+  [ 2] Box6           | Type: Unknown      | Hash: 0x0be89f8a | IHash: 0xc11d6309 | ID: 149319184 | @1379
+  [ 3] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0x194b32ee | ID: 469797447 | @1549
+  [ 4] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0x88be96f1 | ID: 373479718 | @2112
+  [ 5] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xef80ebf0 | ID: 25764864 | @2282
+  [ 6] Box8           | Type: Unknown      | Hash: 0x42d7ba08 | IHash: 0x99c3198b | ID: 567122618 | @2714
+  [ 7] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x446d536c | ID: 260598832 | @2884
+  [ 8] Box9           | Type: Unknown      | Hash: 0x5e4f4747 | IHash: 0x014e9502 | ID: 512486790 | @3317
+  [ 9] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0xbb8fa8ae | ID: 648008658 | @3487
+
+--- Strings (27) ---
+  @  100: [ 11] SceneObject
+  @  589: [  9] 119024816
+  @  602: [  4] Box5
+  @  629: [ 38] objects\broken\glass_score_1_part1.mdl
+  @  759: [  9] 326985461
+  @  772: [  5] Mesh0
+  @ 1387: [  9] 149319184
+  @ 1400: [  4] Box6
+  @ 1427: [ 38] objects\broken\glass_score_1_part5.mdl
+  @ 1557: [  9] 469797447
+  @ 1570: [  5] Mesh4
+  @ 2120: [  9] 373479718
+  @ 2133: [  4] Box7
+  @ 2160: [ 38] objects\broken\glass_score_1_part3.mdl
+  @ 2290: [  8] 25764864
+  @ 2302: [  5] Mesh2
+  @ 2722: [  9] 567122618
+  @ 2735: [  4] Box8
+  @ 2762: [ 38] objects\broken\glass_score_1_part2.mdl
+  @ 2892: [  9] 260598832
+  @ 2905: [  5] Mesh1
+  @ 3325: [  9] 512486790
+  @ 3338: [  4] Box9
+  @ 3365: [ 38] objects\broken\glass_score_1_part4.mdl
+  @ 3495: [  9] 648008658
+  @ 3508: [  5] Mesh3
+  @ 3551: [  7] default

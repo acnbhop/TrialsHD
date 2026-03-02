@@ -1,0 +1,23 @@
+[+] GFX v1 | Size: 354 bytes | Root: SceneObject | Nodes: 1 | Strings: 5
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 310
+  Post-data payload size: 28 bytes
+  Scene data: 310 bytes (offsets 0..309)
+  Post data: 44 bytes (offsets 310..353)
+
+--- Child Nodes (1) ---
+  [ 0] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0x638d3d25 | ID: 203186025 | @259
+
+--- Strings (5) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 32] objects\characters\helmet_01.mdl
+  @  267: [  9] 203186025
+  @  280: [  5] Mesh4
+  @  322: [  7] default

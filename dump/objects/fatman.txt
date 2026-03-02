@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 1036 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 992
+  Post-data payload size: 28 bytes
+  Scene data: 992 bytes (offsets 0..991)
+  Post data: 44 bytes (offsets 992..1035)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed1    | Type: Unknown      | Hash: 0xd63b38a9 | IHash: 0xd63b38a9 | ID: Decomposed1 | @778
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x53cd2228 | ID: 75408853 | @939
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  786: [ 11] Decomposed1
+  @  801: [ 11] Decomposed1
+  @  837: [ 18] objects\fatman.mdl
+  @  947: [  8] 75408853
+  @  959: [  5] Mesh0
+  @ 1004: [  7] default

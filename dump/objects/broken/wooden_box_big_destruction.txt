@@ -1,0 +1,61 @@
+[+] GFX v1 | Size: 3271 bytes | Root: SceneObject | Nodes: 12 | Strings: 32
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 3227
+  Post-data payload size: 28 bytes
+  Scene data: 3227 bytes (offsets 0..3226)
+  Post data: 44 bytes (offsets 3227..3270)
+
+--- Child Nodes (12) ---
+  [ 0] left           | Type: Unknown      | Hash: 0x35fcd0e2 | IHash: 0x35fcd0e2 | ID: left | @421
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x196ff0d2 | ID: 4429648 | @586
+  [ 2] back           | Type: Unknown      | Hash: 0x29f64880 | IHash: 0x29f64880 | ID: back | @927
+  [ 3] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x4fef1ea0 | ID: 71761950 | @1097
+  [ 4] front          | Type: Unknown      | Hash: 0x97560033 | IHash: 0x97560033 | ID: front | @1440
+  [ 5] Mesh9          | Type: Unknown      | Hash: 0x7bb64f05 | IHash: 0x94dd5490 | ID: 294386022 | @1613
+  [ 6] right          | Type: Unknown      | Hash: 0x60c718fd | IHash: 0x60c718fd | ID: right | @1957
+  [ 7] Mesh15         | Type: Unknown      | Hash: 0x63756911 | IHash: 0xa6507d81 | ID: 289847826 | @2130
+  [ 8] top            | Type: Unknown      | Hash: 0x5928476c | IHash: 0x5928476c | ID: top | @2473
+  [ 9] Mesh21         | Type: Unknown      | Hash: 0x3f7690e8 | IHash: 0x29676981 | ID: 238580469 | @2640
+  [10] bottom_legs    | Type: Unknown      | Hash: 0xf7d2ea69 | IHash: 0xf7d2ea69 | ID: bottom_legs | @2988
+  [11] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe8300112 | ID: 80578980 | @3176
+
+--- Strings (32) ---
+  @  100: [ 11] SceneObject
+  @  429: [  4] left
+  @  437: [  4] left
+  @  464: [ 38] objects\broken\wooden_box_big_left.mdl
+  @  594: [  7] 4429648
+  @  605: [  5] Mesh0
+  @  935: [  4] back
+  @  943: [  4] back
+  @  970: [ 43] objects\broken\wooden_box_big_part_back.mdl
+  @ 1105: [  8] 71761950
+  @ 1117: [  5] Mesh3
+  @ 1448: [  5] front
+  @ 1457: [  5] front
+  @ 1485: [ 44] objects\broken\wooden_box_big_part_front.mdl
+  @ 1621: [  9] 294386022
+  @ 1634: [  5] Mesh9
+  @ 1965: [  5] right
+  @ 1974: [  5] right
+  @ 2002: [ 44] objects\broken\wooden_box_big_part_right.mdl
+  @ 2138: [  9] 289847826
+  @ 2151: [  6] Mesh15
+  @ 2481: [  3] top
+  @ 2488: [  3] top
+  @ 2514: [ 42] objects\broken\wooden_box_big_part_top.mdl
+  @ 2648: [  9] 238580469
+  @ 2661: [  6] Mesh21
+  @ 2996: [ 11] bottom_legs
+  @ 3011: [ 11] bottom_legs
+  @ 3045: [ 47] objects\broken\wooden_box_broken_part_big_1.mdl
+  @ 3184: [  8] 80578980
+  @ 3196: [  5] Mesh0
+  @ 3239: [  7] default

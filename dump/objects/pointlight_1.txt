@@ -1,0 +1,29 @@
+[+] GFX v1 | Size: 868 bytes | Root: SceneObject | Nodes: 3 | Strings: 9
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 824
+  Post-data payload size: 28 bytes
+  Scene data: 824 bytes (offsets 0..823)
+  Post data: 44 bytes (offsets 824..867)
+
+--- Child Nodes (3) ---
+  [ 0] Box3           | Type: Unknown      | Hash: 0xb981f7cd | IHash: 0xd4100328 | ID: 148557668 | @383
+  [ 1] Light0         | Type: Unknown      | Hash: 0xfe65f713 | IHash: 0x0ae2cdee | ID: 341496544 | @510
+  [ 2] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x245970e5 | ID: 370287504 | @772
+
+--- Strings (9) ---
+  @  100: [ 11] SceneObject
+  @  391: [  9] 148557668
+  @  404: [  4] Box3
+  @  518: [  9] 341496544
+  @  531: [  6] Light0
+  @  654: [ 34] objects\tools_background_set_3.mdl
+  @  780: [  9] 370287504
+  @  793: [  5] Mesh2
+  @  836: [  7] default

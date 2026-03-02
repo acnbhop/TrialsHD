@@ -1,0 +1,33 @@
+[+] GFX v1 | Size: 1481 bytes | Root: SceneObject | Nodes: 4 | Strings: 12
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1437
+  Post-data payload size: 28 bytes
+  Scene data: 1437 bytes (offsets 0..1436)
+  Post data: 44 bytes (offsets 1437..1480)
+
+--- Child Nodes (4) ---
+  [ 0] back_and_bottom_col | Type: Unknown      | Hash: 0x7990e1f0 | IHash: 0x7990e1f0 | ID: back_and_bottom_col | @581
+  [ 1] mesh0          | Type: Unknown      | Hash: 0x65793cac | IHash: 0x65793cac | ID: mesh0 | @783
+  [ 2] Box8           | Type: Unknown      | Hash: 0x42d7ba08 | IHash: 0xb34bb5de | ID: 154630461 | @1212
+  [ 3] mesh1          | Type: Unknown      | Hash: 0x8463941d | IHash: 0x8463941d | ID: mesh1 | @1389
+
+--- Strings (12) ---
+  @  100: [ 11] SceneObject
+  @  589: [ 19] back_and_bottom_col
+  @  612: [ 19] back_and_bottom_col
+  @  654: [ 45] objects\broken\dynamite_box_broken_part_1.mdl
+  @  791: [  5] mesh0
+  @  800: [  5] mesh0
+  @ 1220: [  9] 154630461
+  @ 1233: [  4] Box8
+  @ 1260: [ 45] objects\broken\dynamite_box_broken_part_2.mdl
+  @ 1397: [  5] mesh1
+  @ 1406: [  5] mesh1
+  @ 1449: [  7] default

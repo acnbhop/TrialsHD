@@ -1,0 +1,27 @@
+[+] GFX v1 | Size: 1446 bytes | Root: SceneObject | Nodes: 2 | Strings: 8
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1120
+  Post-data payload size: 310 bytes
+  Scene data: 1120 bytes (offsets 0..1119)
+  Post data: 326 bytes (offsets 1120..1445)
+
+--- Child Nodes (2) ---
+  [ 0] left_col       | Type: Unknown      | Hash: 0x827a2696 | IHash: 0x827a2696 | ID: left_col | @906
+  [ 1] rack_left      | Type: Unknown      | Hash: 0x794018c5 | IHash: 0x794018c5 | ID: rack_left | @1064
+
+--- Strings (8) ---
+  @  100: [ 11] SceneObject
+  @  914: [  8] left_col
+  @  926: [  8] left_col
+  @  957: [ 23] objects\rack_1_left.mdl
+  @ 1072: [  9] rack_left
+  @ 1085: [  9] rack_left
+  @ 1132: [  7] default
+  @ 1160: [  8] left_col

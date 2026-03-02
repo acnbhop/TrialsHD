@@ -1,0 +1,41 @@
+[+] GFX v1 | Size: 2287 bytes | Root: SceneObject | Nodes: 3 | Strings: 21
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1076
+  Post-data payload size: 1195 bytes
+  Scene data: 1076 bytes (offsets 0..1075)
+  Post data: 1211 bytes (offsets 1076..2286)
+
+--- Child Nodes (3) ---
+  [ 0] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @222
+  [ 1] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @588
+  [ 2] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0xaa22b659 | ID: 7411712 | @946
+
+--- Strings (21) ---
+  @  100: [ 11] SceneObject
+  @  230: [  4] Fire
+  @  238: [  4] Fire
+  @  596: [  5] Smoke
+  @  605: [  5] Smoke
+  @  954: [  7] 7411712
+  @  965: [  6] Sound0
+  @ 1088: [  7] default
+  @ 1116: [ 14] ParticleColorA
+  @ 1245: [ 12] ParticleSize
+  @ 1384: [ 16] ParticleRotation
+  @ 1469: [ 14] ParticleColorA
+  @ 1581: [ 12] ParticleSize
+  @ 1720: [ 16] ParticleRotation
+  @ 1793: [  9] BirthRate
+  @ 1859: [  9] BirthRate
+  @ 1925: [ 13] ParticleFrame
+  @ 1995: [  8] LifeHigh
+  @ 2060: [  7] LifeLow
+  @ 2124: [  6] m_play
+  @ 2199: [ 15] m_instanceValue

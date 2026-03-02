@@ -1,0 +1,51 @@
+[+] GFX v1 | Size: 4251 bytes | Root: SceneObject | Nodes: 7 | Strings: 27
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2030
+  Post-data payload size: 2205 bytes
+  Scene data: 2030 bytes (offsets 0..2029)
+  Post data: 2221 bytes (offsets 2030..4250)
+
+--- Child Nodes (7) ---
+  [ 0] Cylinder1      | Type: Unknown      | Hash: 0x679520f9 | IHash: 0x03a078e3 | ID: 36777660 | @581
+  [ 1] Dummy3         | Type: Unknown      | Hash: 0xcd80fbd6 | IHash: 0x1bcd627c | ID: 45899847 | @712
+  [ 2] Dummy2         | Type: Unknown      | Hash: 0xbebef85d | IHash: 0xff6cf39d | ID: 405704651 | @848
+  [ 3] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @985
+  [ 4] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @1351
+  [ 5] Light1         | Type: Light        | Hash: 0x0d27fa8c | IHash: 0xfedb7af0 | ID: 662340250 | @1709
+  [ 6] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xbef9aceb | ID: 49757500 | @1979
+
+--- Strings (27) ---
+  @  100: [ 11] SceneObject
+  @  589: [  8] 36777660
+  @  601: [  9] Cylinder1
+  @  720: [  8] 45899847
+  @  732: [  6] Dummy3
+  @  856: [  9] 405704651
+  @  869: [  6] Dummy2
+  @  993: [  4] Fire
+  @ 1001: [  4] Fire
+  @ 1359: [  5] Smoke
+  @ 1368: [  5] Smoke
+  @ 1717: [  9] 662340250
+  @ 1730: [  6] Light1
+  @ 1870: [ 25] objects\glass_score_4.mdl
+  @ 1987: [  8] 49757500
+  @ 1999: [  5] Mesh0
+  @ 2042: [  7] default
+  @ 2070: [ 14] ParticleColorA
+  @ 2199: [ 12] ParticleSize
+  @ 2338: [ 16] ParticleRotation
+  @ 2411: [ 14] ParticleColorA
+  @ 2540: [ 12] ParticleSize
+  @ 2637: [  5] @img?
+  @ 2679: [ 16] ParticleRotation
+  @ 2752: [ 13] ParticleFrame
+  @ 2822: [ 11] m_intensity
+  @ 3627: [  6] Dummy2

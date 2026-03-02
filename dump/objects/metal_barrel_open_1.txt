@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 650 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 606
+  Post-data payload size: 28 bytes
+  Scene data: 606 bytes (offsets 0..605)
+  Post data: 44 bytes (offsets 606..649)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder1      | Type: Unknown      | Hash: 0x679520f9 | IHash: 0x9cdcd602 | ID: 309111066 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x26567ab3 | ID: 586936200 | @554
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 309111066
+  @  407: [  9] Cylinder1
+  @  439: [ 31] objects\metal_barrel_open_1.mdl
+  @  562: [  9] 586936200
+  @  575: [  5] Mesh0
+  @  618: [  7] default

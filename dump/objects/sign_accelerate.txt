@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 645 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 601
+  Post-data payload size: 28 bytes
+  Scene data: 601 bytes (offsets 0..600)
+  Post data: 44 bytes (offsets 601..644)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder3      | Type: Unknown      | Hash: 0x97d9a3fb | IHash: 0x5ff0ac83 | ID: 127845176 | @386
+  [ 1] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x4a02d53d | ID: 43028414 | @550
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 127845176
+  @  407: [  9] Cylinder3
+  @  439: [ 27] objects\sign_accelerate.mdl
+  @  558: [  8] 43028414
+  @  570: [  5] Mesh2
+  @  613: [  7] default

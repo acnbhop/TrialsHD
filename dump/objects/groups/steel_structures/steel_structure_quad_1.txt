@@ -1,0 +1,298 @@
+[+] GFX v1 | Size: 12010 bytes | Root: SceneObject | Nodes: 70 | Strings: 211
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 11966
+  Post-data payload size: 28 bytes
+  Scene data: 11966 bytes (offsets 0..11965)
+  Post data: 44 bytes (offsets 11966..12009)
+
+--- Child Nodes (70) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xad241062 | ID: 601032698 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xbf93bf37 | ID: 54265728 | @550
+  [ 2] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xea15a693 | ID: 623912742 | @727
+  [ 3] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x076772d5 | ID: 124678048 | @902
+  [ 4] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x9973caef | ID: 183405035 | @1080
+  [ 5] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xd3bc35e7 | ID: 1789624 | @1255
+  [ 6] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x30880ade | ID: 314903862 | @1431
+  [ 7] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x9643000f | ID: 303238624 | @1592
+  [ 8] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x55475913 | ID: 410830350 | @1770
+  [ 9] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x1ac2c189 | ID: 50093784 | @1931
+  [10] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x61f4ad00 | ID: 38519467 | @2108
+  [11] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xc4a9f69c | ID: 269367285 | @2268
+  [12] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x47cfb701 | ID: 332780864 | @2446
+  [13] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x442da346 | ID: 23628357 | @2621
+  [14] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x104a1817 | ID: 311920020 | @2798
+  [15] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x5d671a21 | ID: 33044583 | @2959
+  [16] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe3c35c4d | ID: 386372515 | @3136
+  [17] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x8eba633e | ID: 405205871 | @3311
+  [18] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x4e1433d3 | ID: 163896010 | @3486
+  [19] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x29dfe1d6 | ID: 264592258 | @3647
+  [20] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xd398dad2 | ID: 202436656 | @3808
+  [21] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x28bc8f04 | ID: 249962961 | @3984
+  [22] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x0125726d | ID: 120075912 | @4145
+  [23] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x71bc409b | ID: 12412736 | @4306
+  [24] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x00801c3b | ID: 254715276 | @4466
+  [25] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x18384fff | ID: 543754551 | @4627
+  [26] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x43a86531 | ID: 74162529 | @4788
+  [27] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xd3151286 | ID: 272002050 | @4948
+  [28] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x2a178ddb | ID: 685502988 | @5109
+  [29] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xb017475f | ID: 56951191 | @5270
+  [30] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x478e2489 | ID: 304611360 | @5430
+  [31] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xfef87906 | ID: 139493977 | @5591
+  [32] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x8341d63e | ID: 65441856 | @5752
+  [33] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x7633f4b8 | ID: 540429006 | @5912
+  [34] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x0b372e5d | ID: 7781735 | @6073
+  [35] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x24d57f0e | ID: 704886756 | @6232
+  [36] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x9a317906 | ID: 704020863 | @6393
+  [37] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x7a78a8b6 | ID: 557718998 | @6554
+  [38] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x12215943 | ID: 32950470 | @6715
+  [39] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x1fa5c766 | ID: 635795900 | @6875
+  [40] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x844e689c | ID: 155473228 | @7036
+  [41] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x23b02aca | ID: 882972195 | @7197
+  [42] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x49a388bd | ID: 177610296 | @7358
+  [43] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x31363bd8 | ID: 295388640 | @7519
+  [44] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x7bff8f59 | ID: 14297766 | @7680
+  [45] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x127dd5af | ID: 89830632 | @7840
+  [46] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0xb8f37aa3 | ID: 592599350 | @8005
+  [47] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0x339d28bc | ID: 12591810 | @8181
+  [48] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x8706eeac | ID: 782562352 | @8346
+  [49] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x5e7bb981 | ID: 157812399 | @8512
+  [50] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xf0dcb06d | ID: 709613348 | @8678
+  [51] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x6690c4d1 | ID: 267322368 | @8844
+  [52] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x1d52ff7d | ID: 639462 | @9010
+  [53] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x1f0dc474 | ID: 456295580 | @9173
+  [54] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xc73de490 | ID: 60017094 | @9339
+  [55] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x2a716c3c | ID: 195210558 | @9504
+  [56] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xf2cbd0b2 | ID: 62394335 | @9670
+  [57] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x952b05ad | ID: 127022056 | @9835
+  [58] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0x7cbb9764 | ID: 144267408 | @10001
+  [59] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0xc9175258 | ID: 15197372 | @10179
+  [60] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0xd7039e87 | ID: 171860274 | @10344
+  [61] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x276cdc41 | ID: 244931331 | @10510
+  [62] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x77096ce0 | ID: 525153464 | @10676
+  [63] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x778939fb | ID: 452304384 | @10853
+  [64] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x028a8663 | ID: 553095540 | @11030
+  [65] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x4211a748 | ID: 56744980 | @11207
+  [66] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0xcd3e6be1 | ID: 493214576 | @11383
+  [67] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0xefc7ab78 | ID: 145186146 | @11560
+  [68] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x64576b3f | ID: 575196084 | @11737
+  [69] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0xa6884f6b | ID: 431700152 | @11914
+
+--- Strings (211) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 601032698
+  @  407: [  4] Box0
+  @  434: [ 32] objects\ramp_metal_plate_big.mdl
+  @  558: [  8] 54265728
+  @  570: [  5] Mesh0
+  @  608: [ 35] objects\rusty_steel_plate_short.mdl
+  @  735: [  9] 623912742
+  @  748: [  5] Mesh0
+  @  786: [ 32] objects\ramp_metal_plate_big.mdl
+  @  910: [  9] 124678048
+  @  923: [  5] Mesh0
+  @  961: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 1088: [  9] 183405035
+  @ 1101: [  5] Mesh0
+  @ 1139: [ 32] objects\ramp_metal_plate_big.mdl
+  @ 1263: [  7] 1789624
+  @ 1274: [  5] Mesh0
+  @ 1312: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 1439: [  9] 314903862
+  @ 1452: [  5] Mesh0
+  @ 1490: [ 18] objects\i_beam.mdl
+  @ 1600: [  9] 303238624
+  @ 1613: [  5] Mesh0
+  @ 1651: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 1778: [  9] 410830350
+  @ 1791: [  5] Mesh0
+  @ 1829: [ 18] objects\i_beam.mdl
+  @ 1939: [  8] 50093784
+  @ 1951: [  5] Mesh0
+  @ 1989: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 2116: [  8] 38519467
+  @ 2128: [  5] Mesh0
+  @ 2166: [ 18] objects\i_beam.mdl
+  @ 2276: [  9] 269367285
+  @ 2289: [  5] Mesh0
+  @ 2327: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 2454: [  9] 332780864
+  @ 2467: [  5] Mesh0
+  @ 2505: [ 32] objects\ramp_metal_plate_big.mdl
+  @ 2629: [  8] 23628357
+  @ 2641: [  5] Mesh0
+  @ 2679: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 2806: [  9] 311920020
+  @ 2819: [  5] Mesh0
+  @ 2857: [ 18] objects\i_beam.mdl
+  @ 2967: [  8] 33044583
+  @ 2979: [  5] Mesh0
+  @ 3017: [ 35] objects\rusty_steel_plate_short.mdl
+  @ 3144: [  9] 386372515
+  @ 3157: [  5] Mesh0
+  @ 3195: [ 32] objects\ramp_metal_plate_big.mdl
+  @ 3319: [  9] 405205871
+  @ 3332: [  5] Mesh0
+  @ 3370: [ 32] objects\ramp_metal_plate_big.mdl
+  @ 3494: [  9] 163896010
+  @ 3507: [  5] Mesh0
+  @ 3545: [ 18] objects\i_beam.mdl
+  @ 3655: [  9] 264592258
+  @ 3668: [  5] Mesh0
+  @ 3706: [ 18] objects\i_beam.mdl
+  @ 3816: [  9] 202436656
+  @ 3829: [  5] Mesh2
+  @ 3867: [ 33] objects\rusty_steel_plate_big.mdl
+  @ 3992: [  9] 249962961
+  @ 4005: [  5] Mesh2
+  @ 4043: [ 18] objects\i_beam.mdl
+  @ 4153: [  9] 120075912
+  @ 4166: [  5] Mesh2
+  @ 4204: [ 18] objects\i_beam.mdl
+  @ 4314: [  8] 12412736
+  @ 4326: [  5] Mesh2
+  @ 4364: [ 18] objects\i_beam.mdl
+  @ 4474: [  9] 254715276
+  @ 4487: [  5] Mesh2
+  @ 4525: [ 18] objects\i_beam.mdl
+  @ 4635: [  9] 543754551
+  @ 4648: [  5] Mesh2
+  @ 4686: [ 18] objects\i_beam.mdl
+  @ 4796: [  8] 74162529
+  @ 4808: [  5] Mesh2
+  @ 4846: [ 18] objects\i_beam.mdl
+  @ 4956: [  9] 272002050
+  @ 4969: [  5] Mesh2
+  @ 5007: [ 18] objects\i_beam.mdl
+  @ 5117: [  9] 685502988
+  @ 5130: [  5] Mesh2
+  @ 5168: [ 18] objects\i_beam.mdl
+  @ 5278: [  8] 56951191
+  @ 5290: [  5] Mesh2
+  @ 5328: [ 18] objects\i_beam.mdl
+  @ 5438: [  9] 304611360
+  @ 5451: [  5] Mesh2
+  @ 5489: [ 18] objects\i_beam.mdl
+  @ 5599: [  9] 139493977
+  @ 5612: [  5] Mesh2
+  @ 5650: [ 18] objects\i_beam.mdl
+  @ 5760: [  8] 65441856
+  @ 5772: [  5] Mesh2
+  @ 5810: [ 18] objects\i_beam.mdl
+  @ 5920: [  9] 540429006
+  @ 5933: [  5] Mesh2
+  @ 5971: [ 18] objects\i_beam.mdl
+  @ 6081: [  7] 7781735
+  @ 6092: [  5] Mesh2
+  @ 6130: [ 18] objects\i_beam.mdl
+  @ 6240: [  9] 704886756
+  @ 6253: [  5] Mesh2
+  @ 6291: [ 18] objects\i_beam.mdl
+  @ 6401: [  9] 704020863
+  @ 6414: [  5] Mesh2
+  @ 6452: [ 18] objects\i_beam.mdl
+  @ 6562: [  9] 557718998
+  @ 6575: [  5] Mesh2
+  @ 6613: [ 18] objects\i_beam.mdl
+  @ 6723: [  8] 32950470
+  @ 6735: [  5] Mesh2
+  @ 6773: [ 18] objects\i_beam.mdl
+  @ 6883: [  9] 635795900
+  @ 6896: [  5] Mesh2
+  @ 6934: [ 18] objects\i_beam.mdl
+  @ 7044: [  9] 155473228
+  @ 7057: [  5] Mesh2
+  @ 7095: [ 18] objects\i_beam.mdl
+  @ 7205: [  9] 882972195
+  @ 7218: [  5] Mesh2
+  @ 7256: [ 18] objects\i_beam.mdl
+  @ 7366: [  9] 177610296
+  @ 7379: [  5] Mesh3
+  @ 7417: [ 18] objects\i_beam.mdl
+  @ 7527: [  9] 295388640
+  @ 7540: [  5] Mesh3
+  @ 7578: [ 18] objects\i_beam.mdl
+  @ 7688: [  8] 14297766
+  @ 7700: [  5] Mesh3
+  @ 7738: [ 18] objects\i_beam.mdl
+  @ 7848: [  8] 89830632
+  @ 7860: [  5] Mesh3
+  @ 7898: [ 23] objects\i_beam_huge.mdl
+  @ 8013: [  9] 592599350
+  @ 8026: [  5] Mesh4
+  @ 8064: [ 33] objects\rusty_steel_plate_big.mdl
+  @ 8189: [  8] 12591810
+  @ 8201: [  5] Mesh4
+  @ 8239: [ 23] objects\i_beam_huge.mdl
+  @ 8354: [  9] 782562352
+  @ 8367: [  5] Mesh5
+  @ 8405: [ 23] objects\i_beam_huge.mdl
+  @ 8520: [  9] 157812399
+  @ 8533: [  5] Mesh5
+  @ 8571: [ 23] objects\i_beam_huge.mdl
+  @ 8686: [  9] 709613348
+  @ 8699: [  5] Mesh5
+  @ 8737: [ 23] objects\i_beam_huge.mdl
+  @ 8852: [  9] 267322368
+  @ 8865: [  5] Mesh5
+  @ 8903: [ 23] objects\i_beam_huge.mdl
+  @ 9018: [  6] 639462
+  @ 9028: [  5] Mesh5
+  @ 9066: [ 23] objects\i_beam_huge.mdl
+  @ 9181: [  9] 456295580
+  @ 9194: [  5] Mesh5
+  @ 9232: [ 23] objects\i_beam_huge.mdl
+  @ 9347: [  8] 60017094
+  @ 9359: [  5] Mesh5
+  @ 9397: [ 23] objects\i_beam_huge.mdl
+  @ 9512: [  9] 195210558
+  @ 9525: [  5] Mesh5
+  @ 9563: [ 23] objects\i_beam_huge.mdl
+  @ 9678: [  8] 62394335
+  @ 9690: [  5] Mesh5
+  @ 9728: [ 23] objects\i_beam_huge.mdl
+  @ 9843: [  9] 127022056
+  @ 9856: [  5] Mesh5
+  @ 9894: [ 23] objects\i_beam_huge.mdl
+  @10009: [  9] 144267408
+  @10022: [  5] Mesh5
+  @10060: [ 35] objects\rusty_steel_plate_short.mdl
+  @10187: [  8] 15197372
+  @10199: [  5] Mesh6
+  @10237: [ 23] objects\i_beam_huge.mdl
+  @10352: [  9] 171860274
+  @10365: [  5] Mesh7
+  @10403: [ 23] objects\i_beam_huge.mdl
+  @10518: [  9] 244931331
+  @10531: [  5] Mesh7
+  @10569: [ 23] objects\i_beam_huge.mdl
+  @10684: [  9] 525153464
+  @10697: [  5] Mesh7
+  @10735: [ 34] objects\ramp_metal_plate_small.mdl
+  @10861: [  9] 452304384
+  @10874: [  5] Mesh8
+  @10912: [ 34] objects\ramp_metal_plate_small.mdl
+  @11038: [  9] 553095540
+  @11051: [  5] Mesh8
+  @11089: [ 34] objects\ramp_metal_plate_small.mdl
+  @11215: [  8] 56744980
+  @11227: [  5] Mesh8
+  @11265: [ 34] objects\ramp_metal_plate_small.mdl
+  @11391: [  9] 493214576
+  @11404: [  5] Mesh8
+  @11442: [ 34] objects\ramp_metal_plate_small.mdl
+  @11568: [  9] 145186146
+  @11581: [  5] Mesh8
+  @11619: [ 34] objects\ramp_metal_plate_small.mdl
+  @11745: [  9] 575196084
+  @11758: [  5] Mesh8
+  @11796: [ 34] objects\ramp_metal_plate_small.mdl
+  @11922: [  9] 431700152
+  @11935: [  5] Mesh8
+  @11978: [  7] default

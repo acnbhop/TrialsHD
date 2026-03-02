@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 1170 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1126
+  Post-data payload size: 28 bytes
+  Scene data: 1126 bytes (offsets 0..1125)
+  Post data: 44 bytes (offsets 1126..1169)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed6    | Type: Unknown      | Hash: 0x53cc1efa | IHash: 0x53cc1efa | ID: Decomposed6 | @906
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x85afcb60 | ID: 718198269 | @1074
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  914: [ 11] Decomposed6
+  @  929: [ 11] Decomposed6
+  @  963: [ 27] objects\ramp_wood_short.mdl
+  @ 1082: [  9] 718198269
+  @ 1095: [  5] Mesh0
+  @ 1138: [  7] default

@@ -1,0 +1,33 @@
+[+] GFX v1 | Size: 1133 bytes | Root: SceneObject | Nodes: 4 | Strings: 12
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1089
+  Post-data payload size: 28 bytes
+  Scene data: 1089 bytes (offsets 0..1088)
+  Post data: 44 bytes (offsets 1089..1132)
+
+--- Child Nodes (4) ---
+  [ 0] Box2           | Type: Box          | Hash: 0x9e0a6a8e | IHash: 0x487fb2b5 | ID: 617069856 | @386
+  [ 1] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x7815870c | ID: 806360818 | @560
+  [ 2] Box2           | Type: Box          | Hash: 0x9e0a6a8e | IHash: 0xcae0f3a2 | ID: 962685888 | @863
+  [ 3] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x6dc68999 | ID: 259472124 | @1037
+
+--- Strings (12) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 617069856
+  @  407: [  4] Box2
+  @  434: [ 42] objects\broken\plank_long_thin_1_part2.mdl
+  @  568: [  9] 806360818
+  @  581: [  5] Mesh1
+  @  871: [  9] 962685888
+  @  884: [  4] Box2
+  @  911: [ 42] objects\broken\plank_long_thin_1_part1.mdl
+  @ 1045: [  9] 259472124
+  @ 1058: [  5] Mesh0
+  @ 1101: [  7] default

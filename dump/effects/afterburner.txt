@@ -1,0 +1,64 @@
+[+] GFX v1 | Size: 4787 bytes | Root: SceneObject | Nodes: 6 | Strings: 41
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2046
+  Post-data payload size: 2725 bytes
+  Scene data: 2046 bytes (offsets 0..2045)
+  Post data: 2741 bytes (offsets 2046..4786)
+
+--- Child Nodes (6) ---
+  [ 0] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @224
+  [ 1] Rings          | Type: Unknown      | Hash: 0xe8d5fb64 | IHash: 0xe8d5fb64 | ID: Rings | @584
+  [ 2] Stars          | Type: Unknown      | Hash: 0x4bfed3b1 | IHash: 0x4bfed3b1 | ID: Stars | @946
+  [ 3] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xf7388223 | ID: 222588702 | @1305
+  [ 4] Sound3         | Type: Unknown      | Hash: 0x5c39b480 | IHash: 0xdf4a7a29 | ID: 88266234 | @1678
+  [ 5] Light0         | Type: Unknown      | Hash: 0xfe65f713 | IHash: 0x7116a3a8 | ID: 164542536 | @1893
+
+--- Strings (41) ---
+  @  100: [ 11] SceneObject
+  @  232: [  5] Smoke
+  @  241: [  5] Smoke
+  @  592: [  5] Rings
+  @  601: [  5] Rings
+  @  954: [  5] Stars
+  @  963: [  5] Stars
+  @ 1313: [  9] 222588702
+  @ 1326: [  4] Fire
+  @ 1686: [  8] 88266234
+  @ 1698: [  6] Sound3
+  @ 1901: [  9] 164542536
+  @ 1914: [  6] Light0
+  @ 2058: [  7] default
+  @ 2086: [ 14] ParticleColorA
+  @ 2198: [ 12] ParticleSize
+  @ 2337: [ 15] ParticleStretch
+  @ 2450: [ 13] ParticleFrame
+  @ 2520: [ 16] ParticleRotation
+  @ 2593: [ 14] ParticleColorA
+  @ 2705: [ 16] ParticleRotation
+  @ 2778: [ 14] ParticleColorA
+  @ 2890: [ 12] ParticleSize
+  @ 3000: [ 12] ParticleSize
+  @ 3110: [  9] BirthRate
+  @ 3234: [  9] BirthRate
+  @ 3300: [  9] BirthRate
+  @ 3366: [  9] VelocityX
+  @ 3478: [  8] SizeHigh
+  @ 3572: [  7] SizeLow
+  @ 3665: [ 14] ParticleColorA
+  @ 3777: [ 12] ParticleSize
+  @ 3887: [ 15] ParticleStretch
+  @ 4000: [ 13] ParticleFrame
+  @ 4070: [  9] BirthRate
+  @ 4194: [  9] VelocityX
+  @ 4306: [  8] SizeHigh
+  @ 4400: [  7] SizeLow
+  @ 4493: [  6] m_play
+  @ 4556: [ 11] m_intensity
+  @ 4665: [ 15] m_instanceValue

@@ -1,0 +1,23 @@
+[+] GFX v1 | Size: 353 bytes | Root: SceneObject | Nodes: 1 | Strings: 5
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 309
+  Post-data payload size: 28 bytes
+  Scene data: 309 bytes (offsets 0..308)
+  Post data: 44 bytes (offsets 309..352)
+
+--- Child Nodes (1) ---
+  [ 0] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x149d6a6a | ID: 467858973 | @258
+
+--- Strings (5) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 31] objects\characters\knees_01.mdl
+  @  266: [  9] 467858973
+  @  279: [  5] Mesh6
+  @  321: [  7] default

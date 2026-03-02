@@ -1,0 +1,30 @@
+[+] GFX v1 | Size: 819 bytes | Root: SceneObject | Nodes: 3 | Strings: 10
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 775
+  Post-data payload size: 28 bytes
+  Scene data: 775 bytes (offsets 0..774)
+  Post data: 44 bytes (offsets 775..818)
+
+--- Child Nodes (3) ---
+  [ 0] Box1           | Type: Unknown      | Hash: 0x8292dd4f | IHash: 0xb661aaab | ID: 124880882 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x1219a8e1 | ID: 273411072 | @547
+  [ 2] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xe28b43f8 | ID: 874438840 | @723
+
+--- Strings (10) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 124880882
+  @  407: [  4] Box1
+  @  434: [ 29] objects\tools_ski_trigger.mdl
+  @  555: [  9] 273411072
+  @  568: [  5] Mesh0
+  @  606: [ 33] objects\game_trigger_icon_ski.mdl
+  @  731: [  9] 874438840
+  @  744: [  5] Mesh0
+  @  787: [  7] default

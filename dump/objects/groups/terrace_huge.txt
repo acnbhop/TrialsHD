@@ -1,0 +1,51 @@
+[+] GFX v1 | Size: 1695 bytes | Root: SceneObject | Nodes: 8 | Strings: 26
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1651
+  Post-data payload size: 28 bytes
+  Scene data: 1651 bytes (offsets 0..1650)
+  Post data: 44 bytes (offsets 1651..1694)
+
+--- Child Nodes (8) ---
+  [ 0] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xc1a7ea9d | ID: 80045104 | @222
+  [ 1] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xb54396a0 | ID: 57021370 | @412
+  [ 2] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xe6d84ed2 | ID: 901552778 | @601
+  [ 3] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x0d54690f | ID: 4350640 | @791
+  [ 4] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x0c5622b9 | ID: 224659050 | @979
+  [ 5] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x6920c982 | ID: 9908952 | @1170
+  [ 6] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xb981fae9 | ID: 255221630 | @1358
+  [ 7] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x6483f65b | ID: 38975840 | @1548
+
+--- Strings (26) ---
+  @  100: [ 11] SceneObject
+  @  230: [  8] 80045104
+  @  242: [ 11] Serialized0
+  @  274: [ 43] objects\groups\terrace_base_single_loop.gfx
+  @  420: [  8] 57021370
+  @  432: [ 11] Serialized0
+  @  464: [ 42] objects\groups\terrace_base_single_end.gfx
+  @  609: [  9] 901552778
+  @  622: [ 11] Serialized0
+  @  654: [ 42] objects\groups\terrace_base_single_end.gfx
+  @  799: [  7] 4350640
+  @  810: [ 11] Serialized0
+  @  842: [ 42] objects\groups\terrace_base_single_end.gfx
+  @  987: [  9] 224659050
+  @ 1000: [ 11] Serialized0
+  @ 1032: [ 43] objects\groups\terrace_base_single_loop.gfx
+  @ 1178: [  7] 9908952
+  @ 1189: [ 11] Serialized0
+  @ 1221: [ 42] objects\groups\terrace_base_single_end.gfx
+  @ 1366: [  9] 255221630
+  @ 1379: [ 11] Serialized0
+  @ 1411: [ 42] objects\groups\terrace_base_single_end.gfx
+  @ 1556: [  8] 38975840
+  @ 1568: [ 11] Serialized0
+  @ 1600: [ 43] objects\groups\terrace_base_single_loop.gfx
+  @ 1663: [  7] default

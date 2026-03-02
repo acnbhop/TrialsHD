@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 838 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 794
+  Post-data payload size: 28 bytes
+  Scene data: 794 bytes (offsets 0..793)
+  Post data: 44 bytes (offsets 794..837)
+
+--- Child Nodes (2) ---
+  [ 0] Box1           | Type: Unknown      | Hash: 0x8292dd4f | IHash: 0xeeec13f7 | ID: 292708500 | @583
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x70391f43 | ID: 223755399 | @740
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  591: [  9] 292708500
+  @  604: [  4] Box1
+  @  633: [ 23] objects\wooden_wall.mdl
+  @  748: [  9] 223755399
+  @  761: [  5] Mesh0
+  @  806: [  7] default

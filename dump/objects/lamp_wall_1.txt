@@ -1,0 +1,29 @@
+[+] GFX v1 | Size: 872 bytes | Root: SceneObject | Nodes: 3 | Strings: 9
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 828
+  Post-data payload size: 28 bytes
+  Scene data: 828 bytes (offsets 0..827)
+  Post data: 44 bytes (offsets 828..871)
+
+--- Child Nodes (3) ---
+  [ 0] Box2           | Type: Box          | Hash: 0x9e0a6a8e | IHash: 0xcc189de8 | ID: 87063625 | @386
+  [ 1] Light1         | Type: Light        | Hash: 0x0d27fa8c | IHash: 0xb270b416 | ID: 16722237 | @512
+  [ 2] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x46625ec7 | ID: 94134216 | @777
+
+--- Strings (9) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 87063625
+  @  406: [  4] Box2
+  @  520: [  8] 16722237
+  @  532: [  6] Light1
+  @  670: [ 23] objects\lamp_wall_1.mdl
+  @  785: [  8] 94134216
+  @  797: [  5] Mesh0
+  @  840: [  7] default

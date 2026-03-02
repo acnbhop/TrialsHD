@@ -1,0 +1,82 @@
+[+] GFX v1 | Size: 6590 bytes | Root: SceneObject | Nodes: 10 | Strings: 55
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 3338
+  Post-data payload size: 3236 bytes
+  Scene data: 3338 bytes (offsets 0..3337)
+  Post data: 3252 bytes (offsets 3338..6589)
+
+--- Child Nodes (10) ---
+  [ 0] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @222
+  [ 1] Smoke Mushroom | Type: Unknown      | Hash: 0x708a817d | IHash: 0x708a817d | ID: Smoke Mushroom | @582
+  [ 2] Flash          | Type: Unknown      | Hash: 0x08a385a4 | IHash: 0x08a385a4 | ID: Flash | @958
+  [ 3] Effector0      | Type: Unknown      | Hash: 0x7b77f62c | IHash: 0xedba6d90 | ID: 369678104 | @1315
+  [ 4] Pointlight     | Type: Unknown      | Hash: 0x15e314cf | IHash: 0x15e314cf | ID: Pointlight | @1487
+  [ 5] Fire Pilar     | Type: Unknown      | Hash: 0x808c91e1 | IHash: 0x808c91e1 | ID: Fire Pilar | @1730
+  [ 6] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @2108
+  [ 7] Smoke Pilar    | Type: Unknown      | Hash: 0x019bfc6c | IHash: 0x7e208db4 | ID: 76547525 | @2474
+  [ 8] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0x2ff3aa15 | ID: Sound0 | @2841
+  [ 9] Fire Mushroom  | Type: Unknown      | Hash: 0xad3b6c30 | IHash: 0x6a2f9531 | ID: 129505398 | @3045
+
+--- Strings (55) ---
+  @  100: [ 11] SceneObject
+  @  230: [  6] Sparks
+  @  240: [  6] Sparks
+  @  590: [ 14] Smoke Mushroom
+  @  608: [ 14] Smoke Mushroom
+  @  966: [  5] Flash
+  @  975: [  5] Flash
+  @ 1323: [  9] 369678104
+  @ 1336: [  9] Effector0
+  @ 1495: [ 10] Pointlight
+  @ 1509: [ 10] Pointlight
+  @ 1738: [ 10] Fire Pilar
+  @ 1752: [ 10] Fire Pilar
+  @ 2116: [  4] Fire
+  @ 2124: [  4] Fire
+  @ 2482: [  8] 76547525
+  @ 2494: [ 11] Smoke Pilar
+  @ 2849: [  6] Sound0
+  @ 2859: [  6] Sound0
+  @ 3053: [  9] 129505398
+  @ 3066: [ 13] Fire Mushroom
+  @ 3350: [  7] default
+  @ 3378: [  9] BirthRate
+  @ 3456: [ 14] ParticleColorA
+  @ 3568: [ 15] ParticleStretch
+  @ 3652: [  9] BirthRate
+  @ 3759: [ 14] ParticleColorA
+  @ 3888: [ 12] ParticleSize
+  @ 3998: [ 14] ParticleColorR
+  @ 4081: [ 14] ParticleColorG
+  @ 4164: [ 14] ParticleColorA
+  @ 4276: [ 12] ParticleSize
+  @ 4386: [ 12] ParticleSize
+  @ 4496: [  6] Reject
+  @ 4617: [  9] BirthRate
+  @ 4695: [ 11] m_intensity
+  @ 4804: [  8] m_radius
+  @ 4910: [ 16] ParticleRotation
+  @ 4983: [ 14] ParticleColorB
+  @ 5037: [ 12] ParticleSize
+  @ 5118: [ 14] ParticleColorA
+  @ 5247: [  9] BirthRate
+  @ 5342: [  9] BirthRate
+  @ 5420: [ 14] ParticleColorA
+  @ 5520: [ 13] ParticleFrame
+  @ 5590: [ 12] ParticleSize
+  @ 5729: [ 14] ParticleColorA
+  @ 5858: [  9] BirthRate
+  @ 5953: [ 13] ParticleFrame
+  @ 6023: [ 16] ParticleRotation
+  @ 6096: [  6] ColorA
+  @ 6246: [  6] ColorA
+  @ 6338: [  9] BirthRate
+  @ 6416: [ 14] ParticleColorA
+  @ 6516: [ 13] ParticleFrame

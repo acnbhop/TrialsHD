@@ -1,0 +1,62 @@
+[+] GFX v1 | Size: 4378 bytes | Root: SceneObject | Nodes: 7 | Strings: 38
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2206
+  Post-data payload size: 2156 bytes
+  Scene data: 2206 bytes (offsets 0..2205)
+  Post data: 2172 bytes (offsets 2206..4377)
+
+--- Child Nodes (7) ---
+  [ 0] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @222
+  [ 1] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @588
+  [ 2] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @948
+  [ 3] Flash          | Type: Unknown      | Hash: 0x08a385a4 | IHash: 0x08a385a4 | ID: Flash | @1306
+  [ 4] Effector0      | Type: Unknown      | Hash: 0x7b77f62c | IHash: 0xedba6d90 | ID: 369678104 | @1663
+  [ 5] Pointlight     | Type: Unknown      | Hash: 0x15e314cf | IHash: 0x15e314cf | ID: Pointlight | @1839
+  [ 6] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0x3991d0c1 | ID: 748291950 | @2082
+
+--- Strings (38) ---
+  @  100: [ 11] SceneObject
+  @  230: [  4] Fire
+  @  238: [  4] Fire
+  @  596: [  6] Sparks
+  @  606: [  6] Sparks
+  @  956: [  5] Smoke
+  @  965: [  5] Smoke
+  @ 1314: [  5] Flash
+  @ 1323: [  5] Flash
+  @ 1671: [  9] 369678104
+  @ 1684: [  9] Effector0
+  @ 1847: [ 10] Pointlight
+  @ 1861: [ 10] Pointlight
+  @ 2090: [  9] 748291950
+  @ 2103: [  6] Sound0
+  @ 2218: [  7] default
+  @ 2246: [  9] BirthRate
+  @ 2324: [ 12] ParticleSize
+  @ 2434: [ 14] ParticleColorA
+  @ 2534: [ 16] ParticleRotation
+  @ 2607: [  9] BirthRate
+  @ 2685: [ 14] ParticleColorA
+  @ 2768: [ 15] ParticleStretch
+  @ 2852: [  9] BirthRate
+  @ 2959: [ 14] ParticleColorA
+  @ 3071: [ 12] ParticleSize
+  @ 3169: [ 16] ParticleRotation
+  @ 3242: [ 14] ParticleColorR
+  @ 3354: [ 14] ParticleColorG
+  @ 3466: [ 14] ParticleColorA
+  @ 3578: [ 12] ParticleSize
+  @ 3688: [ 12] ParticleSize
+  @ 3798: [  6] Reject
+  @ 3936: [  9] BirthRate
+  @ 4014: [ 11] m_intensity
+  @ 4123: [  8] m_radius
+  @ 4229: [ 13] ParticleFrame
+  @ 4299: [  6] m_play

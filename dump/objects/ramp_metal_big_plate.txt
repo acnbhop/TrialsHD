@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 646 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 602
+  Post-data payload size: 28 bytes
+  Scene data: 602 bytes (offsets 0..601)
+  Post data: 44 bytes (offsets 602..645)
+
+--- Child Nodes (2) ---
+  [ 0] Box1           | Type: Unknown      | Hash: 0x8292dd4f | IHash: 0xd51a0a49 | ID: 601335098 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xd41266a0 | ID: 226017051 | @550
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 601335098
+  @  407: [  4] Box1
+  @  434: [ 32] objects\ramp_metal_big_plate.mdl
+  @  558: [  9] 226017051
+  @  571: [  5] Mesh0
+  @  614: [  7] default

@@ -1,0 +1,41 @@
+[+] GFX v1 | Size: 1635 bytes | Root: SceneObject | Nodes: 6 | Strings: 18
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1415
+  Post-data payload size: 28 bytes
+  Scene data: 1415 bytes (offsets 0..1414)
+  Post data: 220 bytes (offsets 1415..1634)
+
+--- Child Nodes (6) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x7baf7803 | ID: 424205163 | @386
+  [ 1] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x3dac1c4a | ID: 155321052 | @551
+  [ 2] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x2755c57b | ID: 429450130 | @724
+  [ 3] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x0b1efbc1 | ID: 199800018 | @1027
+  [ 4] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xcc77f474 | ID: 52845094 | @1192
+  [ 5] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xc36e8654 | ID: 55890691 | @1364
+
+--- Strings (18) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 424205163
+  @  407: [  4] Box0
+  @  434: [ 33] objects\tools_trigger_scale_3.mdl
+  @  559: [  9] 155321052
+  @  572: [  5] Mesh1
+  @  610: [ 30] objects\tools_force_rotate.mdl
+  @  732: [  9] 429450130
+  @  745: [  5] Mesh0
+  @ 1035: [  9] 199800018
+  @ 1048: [  4] Box0
+  @ 1075: [ 33] objects\tools_trigger_scale_3.mdl
+  @ 1200: [  8] 52845094
+  @ 1212: [  5] Mesh1
+  @ 1250: [ 30] objects\tools_force_rotate.mdl
+  @ 1372: [  8] 55890691
+  @ 1384: [  5] Mesh0
+  @ 1427: [  7] default

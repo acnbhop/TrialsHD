@@ -1,0 +1,45 @@
+[+] GFX v1 | Size: 2870 bytes | Root: SceneObject | Nodes: 4 | Strings: 24
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1494
+  Post-data payload size: 1360 bytes
+  Scene data: 1494 bytes (offsets 0..1493)
+  Post data: 1376 bytes (offsets 1494..2869)
+
+--- Child Nodes (4) ---
+  [ 0] Fire Trail     | Type: Unknown      | Hash: 0x2e562474 | IHash: 0x2e562474 | ID: Fire Trail | @222
+  [ 1] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @600
+  [ 2] Pointlight     | Type: Unknown      | Hash: 0x15e314cf | IHash: 0x15e314cf | ID: Pointlight | @958
+  [ 3] Fire Back Wheel | Type: Unknown      | Hash: 0x56917683 | IHash: 0x1f524115 | ID: 4901750 | @1201
+
+--- Strings (24) ---
+  @  100: [ 11] SceneObject
+  @  230: [ 10] Fire Trail
+  @  244: [ 10] Fire Trail
+  @  608: [  5] Smoke
+  @  617: [  5] Smoke
+  @  966: [ 10] Pointlight
+  @  980: [ 10] Pointlight
+  @ 1209: [  7] 4901750
+  @ 1220: [ 15] Fire Back Wheel
+  @ 1506: [  7] default
+  @ 1534: [ 14] ParticleColorA
+  @ 1663: [ 12] ParticleSize
+  @ 1802: [ 16] ParticleRotation
+  @ 1875: [ 14] ParticleColorA
+  @ 1987: [ 12] ParticleSize
+  @ 2114: [ 16] ParticleRotation
+  @ 2187: [ 13] ParticleFrame
+  @ 2257: [  9] BirthRate
+  @ 2323: [  9] BirthRate
+  @ 2389: [ 14] ParticleColorA
+  @ 2518: [ 12] ParticleSize
+  @ 2657: [ 16] ParticleRotation
+  @ 2730: [ 13] ParticleFrame
+  @ 2800: [  9] BirthRate

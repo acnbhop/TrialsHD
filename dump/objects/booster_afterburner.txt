@@ -1,0 +1,24 @@
+[+] GFX v1 | Size: 632 bytes | Root: SceneObject | Nodes: 1 | Strings: 6
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 309
+  Post-data payload size: 307 bytes
+  Scene data: 309 bytes (offsets 0..308)
+  Post data: 323 bytes (offsets 309..631)
+
+--- Child Nodes (1) ---
+  [ 0] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x1081accf | ID: 183660759 | @258
+
+--- Strings (6) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 31] objects\booster_afterburner.mdl
+  @  266: [  9] 183660759
+  @  279: [  5] Mesh1
+  @  321: [  7] default
+  @  349: [  5] Mesh1

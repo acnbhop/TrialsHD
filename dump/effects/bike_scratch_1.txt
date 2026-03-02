@@ -1,0 +1,38 @@
+[+] GFX v1 | Size: 2034 bytes | Root: SceneObject | Nodes: 4 | Strings: 17
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1437
+  Post-data payload size: 581 bytes
+  Scene data: 1437 bytes (offsets 0..1436)
+  Post data: 597 bytes (offsets 1437..2033)
+
+--- Child Nodes (4) ---
+  [ 0] Pieces         | Type: Unknown      | Hash: 0x084bea84 | IHash: 0x084bea84 | ID: Pieces | @222
+  [ 1] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @582
+  [ 2] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @940
+  [ 3] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0x2009c1d3 | ID: 108458624 | @1300
+
+--- Strings (17) ---
+  @  100: [ 11] SceneObject
+  @  230: [  6] Pieces
+  @  240: [  6] Pieces
+  @  590: [  5] Smoke
+  @  599: [  5] Smoke
+  @  948: [  6] Sparks
+  @  958: [  6] Sparks
+  @ 1308: [  9] 108458624
+  @ 1321: [  6] Sound0
+  @ 1449: [  7] default
+  @ 1477: [ 14] ParticleColorA
+  @ 1560: [ 12] ParticleSize
+  @ 1641: [ 14] ParticleColorA
+  @ 1724: [ 12] ParticleSize
+  @ 1793: [ 16] ParticleRotation
+  @ 1866: [ 14] ParticleColorA
+  @ 1949: [ 12] ParticleSize

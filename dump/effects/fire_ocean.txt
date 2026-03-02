@@ -1,0 +1,45 @@
+[+] GFX v1 | Size: 3724 bytes | Root: SceneObject | Nodes: 6 | Strings: 22
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1755
+  Post-data payload size: 1953 bytes
+  Scene data: 1755 bytes (offsets 0..1754)
+  Post data: 1969 bytes (offsets 1755..3723)
+
+--- Child Nodes (6) ---
+  [ 0] Sphere13       | Type: Sphere       | Hash: 0x7b250b76 | IHash: 0xfcb1fb40 | ID: 11948460 | @388
+  [ 1] Sparks         | Type: Unknown      | Hash: 0x36fc4825 | IHash: 0x36fc4825 | ID: Sparks | @520
+  [ 2] Sound2         | Type: Unknown      | Hash: 0x4d77b107 | IHash: 0x5b65f9b3 | ID: 90745308 | @882
+  [ 3] Light1         | Type: Light        | Hash: 0x0d27fa8c | IHash: 0xe5243ba4 | ID: 284840676 | @1085
+  [ 4] FireSource     | Type: FireSource   | Hash: 0xc72c550b | IHash: 0x89d87f95 | ID: 357009564 | @1325
+  [ 5] Fire01         | Type: Unknown      | Hash: 0xd1b9ab2a | IHash: 0xd1b9ab2a | ID: Fire01 | @1469
+
+--- Strings (22) ---
+  @  100: [ 11] SceneObject
+  @  396: [  8] 11948460
+  @  408: [  8] Sphere13
+  @  528: [  6] Sparks
+  @  538: [  6] Sparks
+  @  890: [  8] 90745308
+  @  902: [  6] Sound2
+  @ 1093: [  9] 284840676
+  @ 1106: [  6] Light1
+  @ 1333: [  9] 357009564
+  @ 1346: [ 10] FireSource
+  @ 1477: [  6] Fire01
+  @ 1487: [  6] Fire01
+  @ 1767: [  7] default
+  @ 1795: [ 14] ParticleColorA
+  @ 1907: [ 12] ParticleSize
+  @ 2017: [ 16] ParticleRotation
+  @ 2102: [ 12] ParticleSize
+  @ 2212: [ 14] ParticleColorA
+  @ 2353: [ 13] ParticleFrame
+  @ 2423: [ 11] m_intensity
+  @ 2590: [  6] Light1

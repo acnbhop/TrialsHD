@@ -1,0 +1,134 @@
+[+] GFX v1 | Size: 5206 bytes | Root: SceneObject | Nodes: 29 | Strings: 88
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 5162
+  Post-data payload size: 28 bytes
+  Scene data: 5162 bytes (offsets 0..5161)
+  Post data: 44 bytes (offsets 5162..5205)
+
+--- Child Nodes (29) ---
+  [ 0] Box2           | Type: Box          | Hash: 0x9e0a6a8e | IHash: 0xdfa474fe | ID: 567748158 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x46e0a9ea | ID: 963630213 | @549
+  [ 2] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xb0d70a39 | ID: 719493538 | @723
+  [ 3] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x379476d0 | ID: 35634900 | @897
+  [ 4] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x7a120277 | ID: 49763062 | @1070
+  [ 5] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x502a4911 | ID: 380729972 | @1243
+  [ 6] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x0c45986e | ID: 62789636 | @1410
+  [ 7] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x2a954fb8 | ID: 56544948 | @1576
+  [ 8] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x54c9d8aa | ID: 355419456 | @1742
+  [ 9] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xffb01e57 | ID: 48737068 | @1909
+  [10] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xeb629b1e | ID: 6244222 | @2075
+  [11] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x3c4b49a6 | ID: 249503736 | @2240
+  [12] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x862dd552 | ID: 391661181 | @2407
+  [13] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x30bad7a4 | ID: 75419616 | @2574
+  [14] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xf3bb2a90 | ID: 495767449 | @2740
+  [15] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x8f307bc6 | ID: 489893376 | @2907
+  [16] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x819d5d28 | ID: 304947084 | @3074
+  [17] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xe9cf9477 | ID: 235631688 | @3241
+  [18] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x4d44b77a | ID: 39410133 | @3411
+  [19] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0xeb761260 | ID: 153972691 | @3580
+  [20] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x9cdfb304 | ID: 58803892 | @3750
+  [21] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x6fd0ea40 | ID: 661821750 | @3919
+  [22] Mesh6          | Type: Unknown      | Hash: 0x1ef748b2 | IHash: 0x4fbe6956 | ID: 94120684 | @4089
+  [23] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x0832dbbc | ID: 512821628 | @4258
+  [24] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x1050d593 | ID: 193593156 | @4428
+  [25] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x8ca63b4b | ID: 313429776 | @4598
+  [26] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0xcf2ab5a1 | ID: 814140140 | @4768
+  [27] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0xcc938e24 | ID: 276952200 | @4938
+  [28] Mesh8          | Type: Unknown      | Hash: 0x5ccbf794 | IHash: 0x0a96a61b | ID: 560038644 | @5110
+
+--- Strings (88) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 567748158
+  @  407: [  4] Box2
+  @  434: [ 31] objects\wooden_platform_big.mdl
+  @  557: [  9] 963630213
+  @  570: [  5] Mesh0
+  @  608: [ 31] objects\wooden_platform_big.mdl
+  @  731: [  9] 719493538
+  @  744: [  5] Mesh0
+  @  782: [ 31] objects\wooden_platform_big.mdl
+  @  905: [  8] 35634900
+  @  917: [  5] Mesh0
+  @  955: [ 31] objects\wooden_platform_big.mdl
+  @ 1078: [  8] 49763062
+  @ 1090: [  5] Mesh0
+  @ 1128: [ 31] objects\wooden_platform_big.mdl
+  @ 1251: [  9] 380729972
+  @ 1264: [  5] Mesh0
+  @ 1302: [ 24] objects\plank_long_1.mdl
+  @ 1418: [  8] 62789636
+  @ 1430: [  5] Mesh2
+  @ 1468: [ 24] objects\plank_long_1.mdl
+  @ 1584: [  8] 56544948
+  @ 1596: [  5] Mesh2
+  @ 1634: [ 24] objects\plank_long_1.mdl
+  @ 1750: [  9] 355419456
+  @ 1763: [  5] Mesh2
+  @ 1801: [ 24] objects\plank_long_1.mdl
+  @ 1917: [  8] 48737068
+  @ 1929: [  5] Mesh2
+  @ 1967: [ 24] objects\plank_long_1.mdl
+  @ 2083: [  7] 6244222
+  @ 2094: [  5] Mesh2
+  @ 2132: [ 24] objects\plank_long_1.mdl
+  @ 2248: [  9] 249503736
+  @ 2261: [  5] Mesh2
+  @ 2299: [ 24] objects\plank_long_1.mdl
+  @ 2415: [  9] 391661181
+  @ 2428: [  5] Mesh2
+  @ 2466: [ 24] objects\plank_long_1.mdl
+  @ 2582: [  8] 75419616
+  @ 2594: [  5] Mesh2
+  @ 2632: [ 24] objects\plank_long_1.mdl
+  @ 2748: [  9] 495767449
+  @ 2761: [  5] Mesh2
+  @ 2799: [ 24] objects\plank_long_1.mdl
+  @ 2915: [  9] 489893376
+  @ 2928: [  5] Mesh2
+  @ 2966: [ 24] objects\plank_long_1.mdl
+  @ 3082: [  9] 304947084
+  @ 3095: [  5] Mesh2
+  @ 3133: [ 24] objects\plank_long_1.mdl
+  @ 3249: [  9] 235631688
+  @ 3262: [  5] Mesh2
+  @ 3300: [ 27] objects\ramp_wood_plate.mdl
+  @ 3419: [  8] 39410133
+  @ 3431: [  5] Mesh6
+  @ 3469: [ 27] objects\ramp_wood_plate.mdl
+  @ 3588: [  9] 153972691
+  @ 3601: [  5] Mesh6
+  @ 3639: [ 27] objects\ramp_wood_plate.mdl
+  @ 3758: [  8] 58803892
+  @ 3770: [  5] Mesh6
+  @ 3808: [ 27] objects\ramp_wood_plate.mdl
+  @ 3927: [  9] 661821750
+  @ 3940: [  5] Mesh6
+  @ 3978: [ 27] objects\ramp_wood_plate.mdl
+  @ 4097: [  8] 94120684
+  @ 4109: [  5] Mesh6
+  @ 4147: [ 27] objects\plank_wide_long.mdl
+  @ 4266: [  9] 512821628
+  @ 4279: [  5] Mesh7
+  @ 4317: [ 27] objects\plank_wide_long.mdl
+  @ 4436: [  9] 193593156
+  @ 4449: [  5] Mesh7
+  @ 4487: [ 27] objects\plank_wide_long.mdl
+  @ 4606: [  9] 313429776
+  @ 4619: [  5] Mesh7
+  @ 4657: [ 27] objects\plank_wide_long.mdl
+  @ 4776: [  9] 814140140
+  @ 4789: [  5] Mesh7
+  @ 4827: [ 27] objects\plank_wide_long.mdl
+  @ 4946: [  9] 276952200
+  @ 4959: [  5] Mesh7
+  @ 4997: [ 29] objects\plank_wide_medium.mdl
+  @ 5118: [  9] 560038644
+  @ 5131: [  5] Mesh8
+  @ 5174: [  7] default

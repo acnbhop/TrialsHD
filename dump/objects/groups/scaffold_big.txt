@@ -1,0 +1,43 @@
+[+] GFX v1 | Size: 1229 bytes | Root: SceneObject | Nodes: 6 | Strings: 20
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1185
+  Post-data payload size: 28 bytes
+  Scene data: 1185 bytes (offsets 0..1184)
+  Post data: 44 bytes (offsets 1185..1228)
+
+--- Child Nodes (6) ---
+  [ 0] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0xd80d91f7 | ID: 14930909 | @224
+  [ 1] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x1f544c58 | ID: 6919425 | @398
+  [ 2] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x092be3a5 | ID: 591482028 | @571
+  [ 3] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x1fb96947 | ID: 311880608 | @747
+  [ 4] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x42380ae4 | ID: 86363316 | @923
+  [ 5] Serialized0    | Type: Serialized   | Hash: 0x03988a53 | IHash: 0x499342dc | ID: 834360555 | @1097
+
+--- Strings (20) ---
+  @  100: [ 11] SceneObject
+  @  232: [  8] 14930909
+  @  244: [ 11] Serialized0
+  @  278: [ 25] objects\scaffold_base.gfx
+  @  406: [  7] 6919425
+  @  417: [ 11] Serialized0
+  @  451: [ 25] objects\scaffold_base.gfx
+  @  579: [  9] 591482028
+  @  592: [ 11] Serialized0
+  @  626: [ 26] objects\scaffold_plate.gfx
+  @  755: [  9] 311880608
+  @  768: [ 11] Serialized0
+  @  802: [ 26] objects\scaffold_plate.gfx
+  @  931: [  8] 86363316
+  @  943: [ 11] Serialized0
+  @  977: [ 25] objects\scaffold_base.gfx
+  @ 1105: [  9] 834360555
+  @ 1118: [ 11] Serialized0
+  @ 1152: [ 25] objects\scaffold_base.gfx
+  @ 1197: [  7] default

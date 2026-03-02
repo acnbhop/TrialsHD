@@ -1,0 +1,46 @@
+[+] GFX v1 | Size: 2867 bytes | Root: SceneObject | Nodes: 8 | Strings: 21
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1989
+  Post-data payload size: 740 bytes
+  Scene data: 1989 bytes (offsets 0..1988)
+  Post data: 878 bytes (offsets 1989..2866)
+
+--- Child Nodes (8) ---
+  [ 0] Dummy0         | Type: Unknown      | Hash: 0xa13af16b | IHash: 0x13093a11 | ID: 273948706 | @222
+  [ 1] TargetDummy    | Type: Unknown      | Hash: 0x10bc124d | IHash: 0x10bc124d | ID: TargetDummy | @359
+  [ 2] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x81402d5c | ID: 90876386 | @994
+  [ 3] Force1         | Type: Unknown      | Hash: 0x8a950663 | IHash: 0xcd45b32d | ID: 238168914 | @1120
+  [ 4] Force1         | Type: Unknown      | Hash: 0x8a950663 | IHash: 0xcd45b32d | ID: 238168914 | @1240
+  [ 5] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x8c4756ad | ID: 126380931 | @1437
+  [ 6] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x1754ac84 | ID: 529510293 | @1740
+  [ 7] FlipperSound   | Type: Unknown      | Hash: 0x74c6a378 | IHash: 0xc9a2da3e | ID: 13567670 | @1868
+
+--- Strings (21) ---
+  @  100: [ 11] SceneObject
+  @  230: [  9] 273948706
+  @  243: [  6] Dummy0
+  @  367: [ 11] TargetDummy
+  @  382: [ 11] TargetDummy
+  @ 1002: [  8] 90876386
+  @ 1014: [  4] Box0
+  @ 1128: [  9] 238168914
+  @ 1141: [  6] Force1
+  @ 1248: [  9] 238168914
+  @ 1261: [  6] Force1
+  @ 1334: [ 19] objects\flipper.mdl
+  @ 1445: [  9] 126380931
+  @ 1458: [  5] Mesh0
+  @ 1748: [  9] 529510293
+  @ 1761: [  4] Box0
+  @ 1876: [  8] 13567670
+  @ 1888: [ 12] FlipperSound
+  @ 2001: [  7] default
+  @ 2029: [ 11] TargetDummy
+  @ 2654: [  6] m_play

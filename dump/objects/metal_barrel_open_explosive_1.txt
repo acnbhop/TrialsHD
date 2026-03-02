@@ -1,0 +1,46 @@
+[+] GFX v1 | Size: 1488 bytes | Root: SceneObject | Nodes: 7 | Strings: 22
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1444
+  Post-data payload size: 28 bytes
+  Scene data: 1444 bytes (offsets 0..1443)
+  Post data: 44 bytes (offsets 1444..1487)
+
+--- Child Nodes (7) ---
+  [ 0] Cylinder0      | Type: Unknown      | Hash: 0x4f72df78 | IHash: 0x3714743a | ID: 47113472 | @388
+  [ 1] barrel         | Type: Unknown      | Hash: 0x4bdeabbf | IHash: 0x4bdeabbf | ID: barrel | @567
+  [ 2] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x3e6f1396 | ID: 246302109 | @730
+  [ 3] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x54773be2 | ID: 186456714 | @895
+  [ 4] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0xc11815a6 | ID: 400966224 | @1060
+  [ 5] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x6eb28646 | ID: 826677532 | @1225
+  [ 6] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x5461dda1 | ID: 550536052 | @1390
+
+--- Strings (22) ---
+  @  100: [ 11] SceneObject
+  @  396: [  8] 47113472
+  @  408: [  9] Cylinder0
+  @  442: [ 41] objects\metal_barrel_open_explosive_1.mdl
+  @  575: [  6] barrel
+  @  585: [  6] barrel
+  @  626: [ 20] objects\dynamite.mdl
+  @  738: [  9] 246302109
+  @  751: [  5] Mesh2
+  @  791: [ 20] objects\dynamite.mdl
+  @  903: [  9] 186456714
+  @  916: [  5] Mesh2
+  @  956: [ 20] objects\dynamite.mdl
+  @ 1068: [  9] 400966224
+  @ 1081: [  5] Mesh2
+  @ 1121: [ 20] objects\dynamite.mdl
+  @ 1233: [  9] 826677532
+  @ 1246: [  5] Mesh2
+  @ 1286: [ 20] objects\dynamite.mdl
+  @ 1398: [  9] 550536052
+  @ 1411: [  5] Mesh2
+  @ 1456: [  7] default

@@ -1,0 +1,79 @@
+[+] GFX v1 | Size: 10065 bytes | Root: SceneObject | Nodes: 10 | Strings: 52
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 3632
+  Post-data payload size: 6417 bytes
+  Scene data: 3632 bytes (offsets 0..3631)
+  Post data: 6433 bytes (offsets 3632..10064)
+
+--- Child Nodes (10) ---
+  [ 0] GreenShit      | Type: Unknown      | Hash: 0x7c743228 | IHash: 0x7c743228 | ID: GreenShit | @222
+  [ 1] BlueShit       | Type: Unknown      | Hash: 0xe2da0936 | IHash: 0xe2da0936 | ID: BlueShit | @587
+  [ 2] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @950
+  [ 3] Smoke1         | Type: Unknown      | Hash: 0x323f17e6 | IHash: 0x323f17e6 | ID: Smoke1 | @1316
+  [ 4] Flashes2       | Type: Unknown      | Hash: 0x0443ee23 | IHash: 0x0443ee23 | ID: Flashes2 | @1676
+  [ 5] Explosion2     | Type: Unknown      | Hash: 0x70217247 | IHash: 0x70217247 | ID: Explosion2 | @2039
+  [ 6] WoodPieces     | Type: Unknown      | Hash: 0x265fa738 | IHash: 0x265fa738 | ID: WoodPieces | @2406
+  [ 7] Flashes1       | Type: Unknown      | Hash: 0xd760f55e | IHash: 0xae813885 | ID: 306268341 | @2779
+  [ 8] Explosion1     | Type: Unknown      | Hash: 0x3ce3d957 | IHash: 0x11026ea1 | ID: 273285222 | @3143
+  [ 9] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0xb69d3270 | ID: 145069335 | @3509
+
+--- Strings (52) ---
+  @  100: [ 11] SceneObject
+  @  230: [  9] GreenShit
+  @  243: [  9] GreenShit
+  @  595: [  8] BlueShit
+  @  607: [  8] BlueShit
+  @  958: [  4] Fire
+  @  966: [  4] Fire
+  @ 1324: [  6] Smoke1
+  @ 1334: [  6] Smoke1
+  @ 1684: [  8] Flashes2
+  @ 1696: [  8] Flashes2
+  @ 2047: [ 10] Explosion2
+  @ 2061: [ 10] Explosion2
+  @ 2414: [ 10] WoodPieces
+  @ 2428: [ 10] WoodPieces
+  @ 2787: [  9] 306268341
+  @ 2800: [  8] Flashes1
+  @ 3151: [  9] 273285222
+  @ 3164: [ 10] Explosion1
+  @ 3517: [  9] 145069335
+  @ 3530: [  6] Sound0
+  @ 3644: [  7] default
+  @ 3672: [ 14] ParticleColorA
+  @ 4219: [ 12] ParticleSize
+  @ 4300: [  9] BirthRate
+  @ 4395: [ 14] ParticleColorA
+  @ 4942: [ 12] ParticleSize
+  @ 5023: [  9] BirthRate
+  @ 5118: [ 15] ParticleStretch
+  @ 5248: [ 14] ParticleColorA
+  @ 5360: [  4] Fire
+  @ 7355: [  9] BirthRate
+  @ 7462: [ 12] ParticleSize
+  @ 7572: [ 14] ParticleColorA
+  @ 7684: [ 16] ParticleRotation
+  @ 7757: [  9] BirthRate
+  @ 7852: [ 12] ParticleSize
+  @ 7933: [ 14] ParticleColorA
+  @ 8033: [  9] BirthRate
+  @ 8128: [  9] BirthRate
+  @ 8337: [ 14] ParticleColorA
+  @ 8814: [ 12] ParticleSize
+  @ 8895: [  9] BirthRate
+  @ 8973: [ 14] ParticleColorA
+  @ 9073: [ 12] ParticleSize
+  @ 9154: [ 14] ParticleColorA
+  @ 9254: [  9] BirthRate
+  @ 9349: [  9] BirthRate
+  @ 9529: [ 14] ParticleColorA
+  @ 9832: [ 12] ParticleSize
+  @ 9913: [ 16] ParticleRotation
+  @ 9986: [  6] m_play

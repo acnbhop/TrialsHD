@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 893 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 849
+  Post-data payload size: 28 bytes
+  Scene data: 849 bytes (offsets 0..848)
+  Post data: 44 bytes (offsets 849..892)
+
+--- Child Nodes (2) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x8013241d | ID: 730778137 | @646
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x9af20938 | ID: 188535501 | @797
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  654: [  9] 730778137
+  @  667: [  4] Box0
+  @  694: [ 19] objects\flipper.mdl
+  @  805: [  9] 188535501
+  @  818: [  5] Mesh0
+  @  861: [  7] default

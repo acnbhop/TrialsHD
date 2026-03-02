@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 1553 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1509
+  Post-data payload size: 28 bytes
+  Scene data: 1509 bytes (offsets 0..1508)
+  Post data: 44 bytes (offsets 1509..1552)
+
+--- Child Nodes (2) ---
+  [ 0] Box3           | Type: Unknown      | Hash: 0xb981f7cd | IHash: 0x9fcf33f2 | ID: 399506760 | @1296
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0xf25b035a | ID: 54177205 | @1458
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @ 1304: [  9] 399506760
+  @ 1317: [  4] Box3
+  @ 1344: [ 30] objects\train_rail_down_45.mdl
+  @ 1466: [  8] 54177205
+  @ 1478: [  5] Mesh0
+  @ 1521: [  7] default

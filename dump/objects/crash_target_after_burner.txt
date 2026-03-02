@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 650 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 606
+  Post-data payload size: 28 bytes
+  Scene data: 606 bytes (offsets 0..605)
+  Post data: 44 bytes (offsets 606..649)
+
+--- Child Nodes (2) ---
+  [ 0] Box8           | Type: Unknown      | Hash: 0x42d7ba08 | IHash: 0xc42b0502 | ID: 24066484 | @386
+  [ 1] Mesh7          | Type: Unknown      | Hash: 0x3de1a023 | IHash: 0x3937d08a | ID: 238115619 | @554
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 24066484
+  @  406: [  4] Box8
+  @  433: [ 37] objects\crash_target_after_burner.mdl
+  @  562: [  9] 238115619
+  @  575: [  5] Mesh7
+  @  618: [  7] default

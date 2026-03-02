@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 643 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 599
+  Post-data payload size: 28 bytes
+  Scene data: 599 bytes (offsets 0..598)
+  Post data: 44 bytes (offsets 599..642)
+
+--- Child Nodes (2) ---
+  [ 0] Box1           | Type: Unknown      | Hash: 0x8292dd4f | IHash: 0x4d38d6a8 | ID: 764628235 | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x54eec1db | ID: 585495435 | @547
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 764628235
+  @  407: [  4] Box1
+  @  434: [ 29] objects\steel_plate_short.mdl
+  @  555: [  9] 585495435
+  @  568: [  5] Mesh0
+  @  611: [  7] default

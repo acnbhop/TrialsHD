@@ -1,0 +1,31 @@
+[+] GFX v1 | Size: 1539 bytes | Root: SceneObject | Nodes: 3 | Strings: 11
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 841
+  Post-data payload size: 682 bytes
+  Scene data: 841 bytes (offsets 0..840)
+  Post data: 698 bytes (offsets 841..1538)
+
+--- Child Nodes (3) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xbf8ce7c8 | ID: 143999616 | @388
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x54a1fbd2 | ID: 190287515 | @543
+  [ 2] SpotLight1     | Type: Unknown      | Hash: 0x74f3e86c | IHash: 0xa9750b59 | ID: 502643328 | @683
+
+--- Strings (11) ---
+  @  100: [ 11] SceneObject
+  @  396: [  9] 143999616
+  @  409: [  4] Box0
+  @  438: [ 21] objects\spotlight.mdl
+  @  551: [  9] 190287515
+  @  564: [  5] Mesh0
+  @  691: [  9] 502643328
+  @  704: [ 10] SpotLight1
+  @  853: [  7] default
+  @  881: [ 10] SpotLight1
+  @ 1165: [ 11] m_intensity

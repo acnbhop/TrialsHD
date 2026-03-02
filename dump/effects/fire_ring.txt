@@ -1,0 +1,142 @@
+[+] GFX v1 | Size: 14838 bytes | Root: SceneObject | Nodes: 19 | Strings: 106
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 6834
+  Post-data payload size: 7988 bytes
+  Scene data: 6834 bytes (offsets 0..6833)
+  Post data: 8004 bytes (offsets 6834..14837)
+
+--- Child Nodes (19) ---
+  [ 0] Sphere14       | Type: Unknown      | Hash: 0xa808043b | IHash: 0x4041e3a9 | ID: 85765644 | @388
+  [ 1] Sound1         | Type: Unknown      | Hash: 0x3eb5ad8e | IHash: 0xe0358f98 | ID: 460696422 | @520
+  [ 2] Fire01         | Type: Unknown      | Hash: 0xd1b9ab2a | IHash: 0x72ce72d3 | ID: 303215316 | @724
+  [ 3] Fire09         | Type: Unknown      | Hash: 0x47c9c6f2 | IHash: 0x47c9c6f2 | ID: Fire09 | @1099
+  [ 4] Fire13         | Type: Unknown      | Hash: 0x0646e7d7 | IHash: 0x0646e7d7 | ID: Fire13 | @1471
+  [ 5] Fire07         | Type: Unknown      | Hash: 0x2a45c000 | IHash: 0x2a45c000 | ID: Fire07 | @1843
+  [ 6] Fire15         | Type: Unknown      | Hash: 0x23caeec9 | IHash: 0x23caeec9 | ID: Fire15 | @2215
+  [ 7] Fire05         | Type: Unknown      | Hash: 0x0cc1b90e | IHash: 0x0cc1b90e | ID: Fire05 | @2587
+  [ 8] Fire11         | Type: Unknown      | Hash: 0xe8c2e0e5 | IHash: 0xe8c2e0e5 | ID: Fire11 | @2959
+  [ 9] Fire02         | Type: Unknown      | Hash: 0xe07baea3 | IHash: 0xe07baea3 | ID: Fire02 | @3331
+  [10] Fire03         | Type: Unknown      | Hash: 0xef3db21c | IHash: 0xef3db21c | ID: Fire03 | @3703
+  [11] Fire04         | Type: Unknown      | Hash: 0xfdffb595 | IHash: 0x9698f4f0 | ID: 346661876 | @4075
+  [12] Fire06         | Type: Unknown      | Hash: 0x1b83bc87 | IHash: 0x1b83bc87 | ID: Fire06 | @4450
+  [13] Fire08         | Type: Unknown      | Hash: 0x3907c379 | IHash: 0x3907c379 | ID: Fire08 | @4822
+  [14] Fire10         | Type: Unknown      | Hash: 0xda00dd6c | IHash: 0xda00dd6c | ID: Fire10 | @5194
+  [15] Fire12         | Type: Unknown      | Hash: 0xf784e45e | IHash: 0xf784e45e | ID: Fire12 | @5566
+  [16] Fire14         | Type: Unknown      | Hash: 0x1508eb50 | IHash: 0x1508eb50 | ID: Fire14 | @5938
+  [17] Fire16         | Type: Unknown      | Hash: 0x328cf242 | IHash: 0x328cf242 | ID: Fire16 | @6310
+  [18] Light1         | Type: Light        | Hash: 0x0d27fa8c | IHash: 0x3576a487 | ID: 7914621 | @6682
+
+--- Strings (106) ---
+  @  100: [ 11] SceneObject
+  @  396: [  8] 85765644
+  @  408: [  8] Sphere14
+  @  528: [  9] 460696422
+  @  541: [  6] Sound1
+  @  732: [  9] 303215316
+  @  745: [  6] Fire01
+  @ 1107: [  6] Fire09
+  @ 1117: [  6] Fire09
+  @ 1479: [  6] Fire13
+  @ 1489: [  6] Fire13
+  @ 1851: [  6] Fire07
+  @ 1861: [  6] Fire07
+  @ 2223: [  6] Fire15
+  @ 2233: [  6] Fire15
+  @ 2595: [  6] Fire05
+  @ 2605: [  6] Fire05
+  @ 2967: [  6] Fire11
+  @ 2977: [  6] Fire11
+  @ 3339: [  6] Fire02
+  @ 3349: [  6] Fire02
+  @ 3711: [  6] Fire03
+  @ 3721: [  6] Fire03
+  @ 4083: [  9] 346661876
+  @ 4096: [  6] Fire04
+  @ 4458: [  6] Fire06
+  @ 4468: [  6] Fire06
+  @ 4830: [  6] Fire08
+  @ 4840: [  6] Fire08
+  @ 5202: [  6] Fire10
+  @ 5212: [  6] Fire10
+  @ 5574: [  6] Fire12
+  @ 5584: [  6] Fire12
+  @ 5946: [  6] Fire14
+  @ 5956: [  6] Fire14
+  @ 6318: [  6] Fire16
+  @ 6328: [  6] Fire16
+  @ 6690: [  7] 7914621
+  @ 6701: [  6] Light1
+  @ 6846: [  7] default
+  @ 6874: [ 14] ParticleColorA
+  @ 7003: [ 12] ParticleSize
+  @ 7142: [ 16] ParticleRotation
+  @ 7215: [ 13] ParticleFrame
+  @ 7285: [ 14] ParticleColorA
+  @ 7414: [ 12] ParticleSize
+  @ 7553: [ 16] ParticleRotation
+  @ 7626: [ 13] ParticleFrame
+  @ 7696: [ 14] ParticleColorA
+  @ 7825: [ 12] ParticleSize
+  @ 7964: [ 16] ParticleRotation
+  @ 8037: [ 13] ParticleFrame
+  @ 8107: [ 14] ParticleColorA
+  @ 8236: [ 12] ParticleSize
+  @ 8375: [ 16] ParticleRotation
+  @ 8448: [ 13] ParticleFrame
+  @ 8518: [ 14] ParticleColorA
+  @ 8647: [ 12] ParticleSize
+  @ 8786: [ 16] ParticleRotation
+  @ 8859: [ 13] ParticleFrame
+  @ 8929: [ 14] ParticleColorA
+  @ 9058: [ 12] ParticleSize
+  @ 9197: [ 16] ParticleRotation
+  @ 9270: [ 13] ParticleFrame
+  @ 9340: [ 14] ParticleColorA
+  @ 9469: [ 12] ParticleSize
+  @ 9608: [ 16] ParticleRotation
+  @ 9681: [ 13] ParticleFrame
+  @ 9751: [ 14] ParticleColorA
+  @ 9880: [ 12] ParticleSize
+  @10019: [ 16] ParticleRotation
+  @10092: [ 13] ParticleFrame
+  @10162: [ 14] ParticleColorA
+  @10291: [ 12] ParticleSize
+  @10430: [ 16] ParticleRotation
+  @10503: [ 13] ParticleFrame
+  @10573: [ 14] ParticleColorA
+  @10702: [ 12] ParticleSize
+  @10841: [ 16] ParticleRotation
+  @10914: [ 13] ParticleFrame
+  @10984: [ 14] ParticleColorA
+  @11113: [ 12] ParticleSize
+  @11252: [ 16] ParticleRotation
+  @11325: [ 13] ParticleFrame
+  @11395: [ 14] ParticleColorA
+  @11524: [ 12] ParticleSize
+  @11663: [ 16] ParticleRotation
+  @11736: [ 13] ParticleFrame
+  @11806: [ 14] ParticleColorA
+  @11935: [ 12] ParticleSize
+  @12074: [ 16] ParticleRotation
+  @12147: [ 13] ParticleFrame
+  @12217: [ 14] ParticleColorA
+  @12346: [ 12] ParticleSize
+  @12485: [ 16] ParticleRotation
+  @12558: [ 13] ParticleFrame
+  @12628: [ 14] ParticleColorA
+  @12757: [ 12] ParticleSize
+  @12896: [ 16] ParticleRotation
+  @12969: [ 13] ParticleFrame
+  @13039: [ 14] ParticleColorA
+  @13168: [ 12] ParticleSize
+  @13307: [ 16] ParticleRotation
+  @13380: [ 13] ParticleFrame
+  @13450: [ 11] m_intensity
+  @13704: [  6] Light1

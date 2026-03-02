@@ -1,0 +1,55 @@
+[+] GFX v1 | Size: 8567 bytes | Root: (none) | Nodes: 0 | Strings: 38
+
+--- Root Node ---
+  Type Hash: 0x00000000 (Rig)
+  Type Name: (empty)
+  Data Offset: 104
+  Property Code: 7
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 4704
+  Post-data payload size: 3849 bytes
+  Scene data: 4704 bytes (offsets 0..4703)
+  Post data: 3863 bytes (offsets 4704..8566)
+
+--- Child Nodes (0) ---
+
+--- Strings (38) ---
+  @  132: [ 31] objects/characters/rider_01.mdl
+  @  259: [  5] rider
+  @  387: [  6] Spine1
+  @  642: [  6] Spine2
+  @  897: [  4] Head
+  @ 1151: [ 13] RightShoulder
+  @ 1413: [ 13] RightUpperArm
+  @ 1675: [ 13] RightLowerArm
+  @ 1937: [  9] RightHand
+  @ 2199: [ 12] LeftShoulder
+  @ 2460: [ 12] LeftUpperArm
+  @ 2721: [ 12] LeftLowerArm
+  @ 2982: [  8] LeftHand
+  @ 3244: [ 10] RightUpLeg
+  @ 3503: [ 11] RightLowLeg
+  @ 3763: [  9] RightFoot
+  @ 4024: [  9] LeftUpLeg
+  @ 4282: [ 10] LeftLowLeg
+  @ 4541: [  8] LeftFoot
+  @ 4716: [  3] rig
+  @ 4740: [  2] OM
+  @ 5012: [  2] BM
+  @ 5221: [  2] BM
+  @ 5430: [  2] BM
+  @ 5639: [  2] BM
+  @ 5848: [  2] BM
+  @ 6057: [  2] BM
+  @ 6266: [  2] BM
+  @ 6475: [  2] BM
+  @ 6684: [  2] BM
+  @ 6893: [  2] BM
+  @ 7102: [  2] BM
+  @ 7311: [  2] BM
+  @ 7520: [  2] BM
+  @ 7729: [  2] BM
+  @ 7938: [  2] BM
+  @ 8147: [  2] BM
+  @ 8356: [  2] BM

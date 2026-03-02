@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 911 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 867
+  Post-data payload size: 28 bytes
+  Scene data: 867 bytes (offsets 0..866)
+  Post data: 44 bytes (offsets 867..910)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder2      | Type: Unknown      | Hash: 0x7fb7627a | IHash: 0xee8dc0ca | ID: 341499000 | @646
+  [ 1] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x8777b5aa | ID: 710396124 | @815
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  654: [  9] 341499000
+  @  667: [  9] Cylinder2
+  @  699: [ 32] objects\pipe_corner_addition.mdl
+  @  823: [  9] 710396124
+  @  836: [  5] Mesh1
+  @  879: [  7] default

@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 833 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 789
+  Post-data payload size: 28 bytes
+  Scene data: 789 bytes (offsets 0..788)
+  Post data: 44 bytes (offsets 789..832)
+
+--- Child Nodes (2) ---
+  [ 0] Box13          | Type: Unknown      | Hash: 0xabf30014 | IHash: 0xd0af3994 | ID: 137526732 | @581
+  [ 1] Mesh12         | Type: Unknown      | Hash: 0x372f5ea6 | IHash: 0x398bd7c9 | ID: 29055488 | @737
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  589: [  9] 137526732
+  @  602: [  5] Box13
+  @  630: [ 23] objects\i_beam_huge.mdl
+  @  745: [  8] 29055488
+  @  757: [  6] Mesh12
+  @  801: [  7] default

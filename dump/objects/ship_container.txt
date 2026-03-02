@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 639 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 595
+  Post-data payload size: 28 bytes
+  Scene data: 595 bytes (offsets 0..594)
+  Post data: 44 bytes (offsets 595..638)
+
+--- Child Nodes (2) ---
+  [ 0] Box4           | Type: Unknown      | Hash: 0xd4f9850c | IHash: 0x604eb12d | ID: 45497619 | @386
+  [ 1] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x11a3f406 | ID: 923613383 | @543
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  8] 45497619
+  @  406: [  4] Box4
+  @  433: [ 26] objects\ship_container.mdl
+  @  551: [  9] 923613383
+  @  564: [  5] Mesh2
+  @  607: [  7] default

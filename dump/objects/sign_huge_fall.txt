@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 641 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 597
+  Post-data payload size: 28 bytes
+  Scene data: 597 bytes (offsets 0..596)
+  Post data: 44 bytes (offsets 597..640)
+
+--- Child Nodes (2) ---
+  [ 0] Box11          | Type: Unknown      | Hash: 0x6e1e5132 | IHash: 0x9c592f21 | ID: 440359656 | @386
+  [ 1] Mesh10         | Type: Unknown      | Hash: 0x19ab57b4 | IHash: 0x73d632a6 | ID: 94957778 | @545
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 440359656
+  @  407: [  5] Box11
+  @  435: [ 26] objects\sign_huge_fall.mdl
+  @  553: [  8] 94957778
+  @  565: [  6] Mesh10
+  @  609: [  7] default

@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 922 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 878
+  Post-data payload size: 28 bytes
+  Scene data: 878 bytes (offsets 0..877)
+  Post data: 44 bytes (offsets 878..921)
+
+--- Child Nodes (2) ---
+  [ 0] Decomposed1    | Type: Unknown      | Hash: 0xd63b38a9 | IHash: 0xd63b38a9 | ID: Decomposed1 | @646
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x1b0ebf95 | ID: 608736374 | @826
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  654: [ 11] Decomposed1
+  @  669: [ 11] Decomposed1
+  @  703: [ 39] objects\rusty_steel_plate_fence_big.mdl
+  @  834: [  9] 608736374
+  @  847: [  5] Mesh0
+  @  890: [  7] default

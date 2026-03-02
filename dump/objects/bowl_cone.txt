@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 1030 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 986
+  Post-data payload size: 28 bytes
+  Scene data: 986 bytes (offsets 0..985)
+  Post data: 44 bytes (offsets 986..1029)
+
+--- Child Nodes (2) ---
+  [ 0] Cylinder1      | Type: Unknown      | Hash: 0x679520f9 | IHash: 0x4ef22941 | ID: 257725672 | @776
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x3b8dced9 | ID: 127929051 | @934
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  784: [  9] 257725672
+  @  797: [  9] Cylinder1
+  @  829: [ 21] objects\bowl_cone.mdl
+  @  942: [  9] 127929051
+  @  955: [  5] Mesh0
+  @  998: [  7] default

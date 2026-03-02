@@ -1,0 +1,47 @@
+[+] GFX v1 | Size: 2109 bytes | Root: SceneObject | Nodes: 8 | Strings: 22
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2065
+  Post-data payload size: 28 bytes
+  Scene data: 2065 bytes (offsets 0..2064)
+  Post data: 44 bytes (offsets 2065..2108)
+
+--- Child Nodes (8) ---
+  [ 0] Box6           | Type: Unknown      | Hash: 0x0be89f8a | IHash: 0x39b6df41 | ID: 225491024 | @386
+  [ 1] Mesh3          | Type: Unknown      | Hash: 0xc238425f | IHash: 0x3117d8f0 | ID: 538112924 | @566
+  [ 2] Box6           | Type: Unknown      | Hash: 0x0be89f8a | IHash: 0x850c8026 | ID: 474602436 | @869
+  [ 3] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xfd221a49 | ID: 389747512 | @1049
+  [ 4] Box7           | Type: Unknown      | Hash: 0x27602cc9 | IHash: 0x7acb7295 | ID: 795859904 | @1352
+  [ 5] Mesh4          | Type: Unknown      | Hash: 0xe12299d0 | IHash: 0x64d453a4 | ID: 20514000 | @1532
+  [ 6] Box8           | Type: Unknown      | Hash: 0x42d7ba08 | IHash: 0x08304e26 | ID: 749245161 | @1834
+  [ 7] Mesh2          | Type: Unknown      | Hash: 0xa34deaee | IHash: 0x563e0ce9 | ID: 81750294 | @2014
+
+--- Strings (22) ---
+  @  100: [ 11] SceneObject
+  @  394: [  9] 225491024
+  @  407: [  4] Box6
+  @  434: [ 48] objects\broken\wood\plank_e_long_thin_bro_p2.mdl
+  @  574: [  9] 538112924
+  @  587: [  5] Mesh3
+  @  877: [  9] 474602436
+  @  890: [  4] Box6
+  @  917: [ 48] objects\broken\wood\plank_e_long_thin_bro_p4.mdl
+  @ 1057: [  9] 389747512
+  @ 1070: [  5] Mesh5
+  @ 1360: [  9] 795859904
+  @ 1373: [  4] Box7
+  @ 1400: [ 48] objects\broken\wood\plank_e_long_thin_bro_p3.mdl
+  @ 1540: [  8] 20514000
+  @ 1552: [  5] Mesh4
+  @ 1842: [  9] 749245161
+  @ 1855: [  4] Box8
+  @ 1882: [ 48] objects\broken\wood\plank_e_long_thin_bro_p1.mdl
+  @ 2022: [  8] 81750294
+  @ 2034: [  5] Mesh2
+  @ 2077: [  7] default

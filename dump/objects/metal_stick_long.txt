@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 650 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 606
+  Post-data payload size: 28 bytes
+  Scene data: 606 bytes (offsets 0..605)
+  Post data: 44 bytes (offsets 606..649)
+
+--- Child Nodes (2) ---
+  [ 0] Box18          | Type: Unknown      | Hash: 0x4686b549 | IHash: 0xf24f2683 | ID: 399347364 | @388
+  [ 1] Mesh19         | Type: Unknown      | Hash: 0x9e7d76f5 | IHash: 0xc93005c9 | ID: 818910976 | @551
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @  396: [  9] 399347364
+  @  409: [  5] Box18
+  @  439: [ 28] objects\metal_stick_long.mdl
+  @  559: [  9] 818910976
+  @  572: [  6] Mesh19
+  @  618: [  7] default

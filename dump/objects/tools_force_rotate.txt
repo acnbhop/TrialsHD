@@ -1,0 +1,32 @@
+[+] GFX v1 | Size: 914 bytes | Root: SceneObject | Nodes: 4 | Strings: 11
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 870
+  Post-data payload size: 28 bytes
+  Scene data: 870 bytes (offsets 0..869)
+  Post data: 44 bytes (offsets 870..913)
+
+--- Child Nodes (4) ---
+  [ 0] force          | Type: Unknown      | Hash: 0x5e04a2c2 | IHash: 0x5e04a2c2 | ID: force | @386
+  [ 1] Mesh0          | Type: Mesh         | Hash: 0x65793c0c | IHash: 0x3fdf5878 | ID: 277965231 | @545
+  [ 2] Force0         | Type: Unknown      | Hash: 0x7bd302ea | IHash: 0x85376f6c | ID: 13301056 | @683
+  [ 3] Force0         | Type: Unknown      | Hash: 0x7bd302ea | IHash: 0x85376f6c | ID: 13301056 | @802
+
+--- Strings (11) ---
+  @  100: [ 11] SceneObject
+  @  394: [  5] force
+  @  403: [  5] force
+  @  431: [ 30] objects\tools_force_rotate.mdl
+  @  553: [  9] 277965231
+  @  566: [  5] Mesh0
+  @  691: [  8] 13301056
+  @  703: [  6] Force0
+  @  810: [  8] 13301056
+  @  822: [  6] Force0
+  @  882: [  7] default

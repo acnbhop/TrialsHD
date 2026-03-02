@@ -1,0 +1,59 @@
+[+] GFX v1 | Size: 3891 bytes | Root: SceneObject | Nodes: 7 | Strings: 35
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 2050
+  Post-data payload size: 1825 bytes
+  Scene data: 2050 bytes (offsets 0..2049)
+  Post data: 1841 bytes (offsets 2050..3890)
+
+--- Child Nodes (7) ---
+  [ 0] Fire           | Type: Unknown      | Hash: 0xed389ea5 | IHash: 0xed389ea5 | ID: Fire | @222
+  [ 1] Smoke          | Type: Unknown      | Hash: 0x954fb0b8 | IHash: 0x954fb0b8 | ID: Smoke | @588
+  [ 2] Flash          | Type: Unknown      | Hash: 0x08a385a4 | IHash: 0x08a385a4 | ID: Flash | @946
+  [ 3] Effector0      | Type: Unknown      | Hash: 0x7b77f62c | IHash: 0xedba6d90 | ID: 369678104 | @1303
+  [ 4] Pointlight     | Type: Unknown      | Hash: 0x15e314cf | IHash: 0x15e314cf | ID: Pointlight | @1475
+  [ 5] Sound0         | Type: Sound        | Hash: 0x2ff3aa15 | IHash: 0x2ff3aa15 | ID: Sound0 | @1718
+  [ 6] CollectSound   | Type: Unknown      | Hash: 0x50dea9f7 | IHash: 0x50dea9f7 | ID: CollectSound | @1923
+
+--- Strings (35) ---
+  @  100: [ 11] SceneObject
+  @  230: [  4] Fire
+  @  238: [  4] Fire
+  @  596: [  5] Smoke
+  @  605: [  5] Smoke
+  @  954: [  5] Flash
+  @  963: [  5] Flash
+  @ 1311: [  9] 369678104
+  @ 1324: [  9] Effector0
+  @ 1483: [ 10] Pointlight
+  @ 1497: [ 10] Pointlight
+  @ 1726: [  6] Sound0
+  @ 1736: [  6] Sound0
+  @ 1931: [ 12] CollectSound
+  @ 1947: [ 12] CollectSound
+  @ 2062: [  7] default
+  @ 2090: [  9] BirthRate
+  @ 2168: [ 12] ParticleSize
+  @ 2278: [ 14] ParticleColorA
+  @ 2390: [ 16] ParticleRotation
+  @ 2463: [  9] BirthRate
+  @ 2570: [ 14] ParticleColorA
+  @ 2682: [ 12] ParticleSize
+  @ 2792: [ 16] ParticleRotation
+  @ 2865: [ 14] ParticleColorR
+  @ 2977: [ 14] ParticleColorG
+  @ 3089: [ 14] ParticleColorA
+  @ 3201: [ 12] ParticleSize
+  @ 3311: [  6] Reject
+  @ 3374: [  9] BirthRate
+  @ 3452: [ 11] m_intensity
+  @ 3561: [  8] m_radius
+  @ 3667: [ 13] ParticleFrame
+  @ 3737: [  6] m_play
+  @ 3812: [  6] m_play

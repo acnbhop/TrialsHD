@@ -1,0 +1,26 @@
+[+] GFX v1 | Size: 1290 bytes | Root: SceneObject | Nodes: 2 | Strings: 7
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 1246
+  Post-data payload size: 28 bytes
+  Scene data: 1246 bytes (offsets 0..1245)
+  Post data: 44 bytes (offsets 1246..1289)
+
+--- Child Nodes (2) ---
+  [ 0] Box6           | Type: Unknown      | Hash: 0x0be89f8a | IHash: 0x03ac2c21 | ID: 185010696 | @1036
+  [ 1] Mesh5          | Type: Unknown      | Hash: 0x000cf141 | IHash: 0xc0d6ef77 | ID: 42116592 | @1195
+
+--- Strings (7) ---
+  @  100: [ 11] SceneObject
+  @ 1044: [  9] 185010696
+  @ 1057: [  4] Box6
+  @ 1084: [ 27] objects\scaffold_stairs.mdl
+  @ 1203: [  8] 42116592
+  @ 1215: [  5] Mesh5
+  @ 1258: [  7] default

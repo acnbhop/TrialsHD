@@ -1,0 +1,23 @@
+[+] GFX v1 | Size: 354 bytes | Root: SceneObject | Nodes: 1 | Strings: 5
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 310
+  Post-data payload size: 28 bytes
+  Scene data: 310 bytes (offsets 0..309)
+  Post data: 44 bytes (offsets 310..353)
+
+--- Child Nodes (1) ---
+  [ 0] Mesh13         | Type: Unknown      | Hash: 0x45f1621f | IHash: 0x78dd056d | ID: 504726420 | @258
+
+--- Strings (5) ---
+  @  100: [ 11] SceneObject
+  @  143: [ 31] objects\characters\shirt_01.mdl
+  @  266: [  9] 504726420
+  @  279: [  6] Mesh13
+  @  322: [  7] default

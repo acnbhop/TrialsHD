@@ -1,0 +1,103 @@
+[+] GFX v1 | Size: 6484 bytes | Root: SceneObject | Nodes: 24 | Strings: 62
+
+--- Root Node ---
+  Type Hash: 0x73d39136 (SceneObject)
+  Type Name: SceneObject
+  Data Offset: 115
+  Property Code: 13
+
+--- Post-Data Section ---
+  EFBEEFBE marker at offset: 5589
+  Post-data payload size: 28 bytes
+  Scene data: 5589 bytes (offsets 0..5588)
+  Post data: 895 bytes (offsets 5589..6483)
+
+--- Child Nodes (24) ---
+  [ 0] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x6428ac7b | ID: 6287839 | @386
+  [ 1] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x5c115f5f | ID: 44870930 | @537
+  [ 2] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd6c68d2b | ID: 91383800 | @839
+  [ 3] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x2e2e48c8 | ID: 86693849 | @991
+  [ 4] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x61d6eb25 | ID: 523598367 | @1293
+  [ 5] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x371aba90 | ID: 189081000 | @1446
+  [ 6] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x10a8792e | ID: 89913050 | @1749
+  [ 7] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x455d9349 | ID: 467918110 | @1901
+  [ 8] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x6e153d44 | ID: 98595534 | @2204
+  [ 9] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xf2d4da94 | ID: 465512656 | @2356
+  [10] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xcc42bfb0 | ID: 271894230 | @2659
+  [11] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x2aac8b0f | ID: 541674888 | @2812
+  [12] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd3c00ecd | ID: 108017421 | @3115
+  [13] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x40f0ca45 | ID: 310209485 | @3268
+  [14] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xd8a3c3d0 | ID: 4939102 | @3571
+  [15] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x653794e1 | ID: 226213416 | @3722
+  [16] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0xa757e296 | ID: 264207251 | @4025
+  [17] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xc5a4e3e9 | ID: 2909235 | @4178
+  [18] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x3b086564 | ID: 155269064 | @4479
+  [19] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x6db68893 | ID: 92823540 | @4632
+  [20] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x3c44fb22 | ID: 3012165 | @4934
+  [21] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0xe5352a04 | ID: 761557830 | @5085
+  [22] Box0           | Type: Unknown      | Hash: 0x671b5010 | IHash: 0x472f5e58 | ID: 294073 | @5388
+  [23] Mesh1          | Type: Unknown      | Hash: 0x8463937d | IHash: 0x8bdee230 | ID: 38942648 | @5538
+
+--- Strings (62) ---
+  @  100: [ 11] SceneObject
+  @  394: [  7] 6287839
+  @  405: [  4] Box0
+  @  432: [ 21] objects\pipe_ring.mdl
+  @  545: [  8] 44870930
+  @  557: [  5] Mesh1
+  @  847: [  8] 91383800
+  @  859: [  4] Box0
+  @  886: [ 21] objects\pipe_ring.mdl
+  @  999: [  8] 86693849
+  @ 1011: [  5] Mesh1
+  @ 1301: [  9] 523598367
+  @ 1314: [  4] Box0
+  @ 1341: [ 21] objects\pipe_ring.mdl
+  @ 1454: [  9] 189081000
+  @ 1467: [  5] Mesh1
+  @ 1757: [  8] 89913050
+  @ 1769: [  4] Box0
+  @ 1796: [ 21] objects\pipe_ring.mdl
+  @ 1909: [  9] 467918110
+  @ 1922: [  5] Mesh1
+  @ 2212: [  8] 98595534
+  @ 2224: [  4] Box0
+  @ 2251: [ 21] objects\pipe_ring.mdl
+  @ 2364: [  9] 465512656
+  @ 2377: [  5] Mesh1
+  @ 2667: [  9] 271894230
+  @ 2680: [  4] Box0
+  @ 2707: [ 21] objects\pipe_ring.mdl
+  @ 2820: [  9] 541674888
+  @ 2833: [  5] Mesh1
+  @ 3123: [  9] 108017421
+  @ 3136: [  4] Box0
+  @ 3163: [ 21] objects\pipe_ring.mdl
+  @ 3276: [  9] 310209485
+  @ 3289: [  5] Mesh1
+  @ 3579: [  7] 4939102
+  @ 3590: [  4] Box0
+  @ 3617: [ 21] objects\pipe_ring.mdl
+  @ 3730: [  9] 226213416
+  @ 3743: [  5] Mesh1
+  @ 4033: [  9] 264207251
+  @ 4046: [  4] Box0
+  @ 4073: [ 21] objects\pipe_ring.mdl
+  @ 4186: [  7] 2909235
+  @ 4197: [  5] Mesh1
+  @ 4487: [  9] 155269064
+  @ 4500: [  4] Box0
+  @ 4527: [ 21] objects\pipe_ring.mdl
+  @ 4640: [  8] 92823540
+  @ 4652: [  5] Mesh1
+  @ 4942: [  7] 3012165
+  @ 4953: [  4] Box0
+  @ 4980: [ 21] objects\pipe_ring.mdl
+  @ 5093: [  9] 761557830
+  @ 5106: [  5] Mesh1
+  @ 5396: [  6] 294073
+  @ 5406: [  4] Box0
+  @ 5433: [ 21] objects\pipe_ring.mdl
+  @ 5546: [  8] 38942648
+  @ 5558: [  5] Mesh1
+  @ 5601: [  7] default
