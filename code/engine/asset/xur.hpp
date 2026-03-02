@@ -30,10 +30,10 @@ REDLYNX_NAMESPACE_BEGIN_ENGINE_ASSET
 //
 struct XurSection
 {
-    char        Tag[4];     // e.g. "STRN", "VECT", "QUAT", "CUST", "DATA"
-    uint32      Offset;     // Byte offset from file start
-    uint32      Size;       // Section size in bytes
-    std::vector<uint8>  Data;   // Raw section data (for non-STRN sections)
+	char        Tag[4];     // e.g. "STRN", "VECT", "QUAT", "CUST", "DATA"
+	uint32      Offset;     // Byte offset from file start
+	uint32      Size;       // Section size in bytes
+	std::vector<uint8>  Data;   // Raw section data (for non-STRN sections)
 };
 
 //
@@ -43,62 +43,62 @@ struct XurSection
 class Xur
 {
 public:
-    //
-    // Parsed header fields.
-    //
+	//
+	// Parsed header fields.
+	//
 
-    uint32                      Version;        // File version (typically 5)
-    uint32                      Flags;          // Bit 0: extra table present
-    uint16                      FileSize;       // Total file size stored in header
-    uint16                      SectionCount;   // Number of sections
+	uint32                      Version;        // File version (typically 5)
+	uint32                      Flags;          // Bit 0: extra table present
+	uint16                      FileSize;       // Total file size stored in header
+	uint16                      SectionCount;   // Number of sections
 
-    //
-    // Extra table present when Flags & 1. Contains 10 x uint32be values whose purpose
-    // relates to timelines, named frames, and other extended XUI features. Preserved
-    // as-is for round-tripping.
-    //
+	//
+	// Extra table present when Flags & 1. Contains 10 x uint32be values whose purpose
+	// relates to timelines, named frames, and other extended XUI features. Preserved
+	// as-is for round-tripping.
+	//
 
-    std::vector<uint32>         ExtraTable;
+	std::vector<uint32>         ExtraTable;
 
-    //
-    // Section descriptors and raw data. The STRN section data is parsed into the Strings
-    // vector below; its raw Data member is left empty and rebuilt on save.
-    //
+	//
+	// Section descriptors and raw data. The STRN section data is parsed into the Strings
+	// vector below; its raw Data member is left empty and rebuilt on save.
+	//
 
-    std::vector<XurSection>     Sections;
+	std::vector<XurSection>     Sections;
 
-    //
-    // Parsed string table from the STRN section. Strings are stored as UTF-16BE in the
-    // binary but converted to UTF-8 std::string for easy manipulation. Each string is
-    // prefixed by a BE16 character count in the binary.
-    //
+	//
+	// Parsed string table from the STRN section. Strings are stored as UTF-16BE in the
+	// binary but converted to UTF-8 std::string for easy manipulation. Each string is
+	// prefixed by a BE16 character count in the binary.
+	//
 
-    std::vector<std::string>    Strings;
+	std::vector<std::string>    Strings;
 
-    // Loads a .xur file from disk.
-    bool Load(const std::string& FilePath);
+	// Loads a .xur file from disk.
+	bool Load(const std::string& FilePath);
 
-    // Saves the XUR data back to a binary .xur file.
-    bool Save(const std::string& FilePath);
+	// Saves the XUR data back to a binary .xur file.
+	bool Save(const std::string& FilePath);
 
-    // Exports the XUR data to a human-readable XML format for editing.
-    // When ExactLineEndings is true, \r characters are backslash-escaped so
-    // that XML round-tripping preserves them byte-for-byte.
-    bool ExportXML(const std::string& FilePath, bool ExactLineEndings = false) const;
+	// Exports the XUR data to a human-readable XML format for editing.
+	// When ExactLineEndings is true, \r characters are backslash-escaped so
+	// that XML round-tripping preserves them byte-for-byte.
+	bool ExportXML(const std::string& FilePath, bool ExactLineEndings = false) const;
 
-    // Imports the XUR data from an XML file previously exported by ExportXML.
-    // When ExactLineEndings is true, backslash-escaped \r sequences are restored.
-    bool ImportXML(const std::string& FilePath, bool ExactLineEndings = false);
+	// Imports the XUR data from an XML file previously exported by ExportXML.
+	// When ExactLineEndings is true, backslash-escaped \r sequences are restored.
+	bool ImportXML(const std::string& FilePath, bool ExactLineEndings = false);
 
-    // Prints a summary of the XUR file to the console.
-    void PrintSummary() const;
+	// Prints a summary of the XUR file to the console.
+	void PrintSummary() const;
 
 private:
-    // Parses the STRN section data into the Strings vector.
-    bool _ParseSTRN(const std::vector<uint8>& Data);
+	// Parses the STRN section data into the Strings vector.
+	bool _ParseSTRN(const std::vector<uint8>& Data);
 
-    // Rebuilds the STRN section binary data from the Strings vector.
-    std::vector<uint8> _BuildSTRN() const;
+	// Rebuilds the STRN section binary data from the Strings vector.
+	std::vector<uint8> _BuildSTRN() const;
 };
 
 REDLYNX_NAMESPACE_END_ENGINE_ASSET

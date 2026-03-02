@@ -35,16 +35,16 @@ REDLYNX_NAMESPACE_BEGIN_ENGINE_ASSET
 //
 namespace GfxTypeHash
 {
-    inline constexpr uint32 SceneObject = 0x73D39136;
-    inline constexpr uint32 Mesh        = 0x65793C0C;
-    inline constexpr uint32 Box         = 0x9E0A6A8E;
-    inline constexpr uint32 Sphere      = 0xDC21446C;
-    inline constexpr uint32 SphereAlt   = 0x7B250B76;
-    inline constexpr uint32 Sound       = 0x2FF3AA15;
-    inline constexpr uint32 Light       = 0x0D27FA8C;
-    inline constexpr uint32 FireSource  = 0xC72C550B;
-    inline constexpr uint32 Serialized  = 0x03988A53;
-    inline constexpr uint32 Rig         = 0x00000000;
+	inline constexpr uint32 SceneObject = 0x73D39136;
+	inline constexpr uint32 Mesh        = 0x65793C0C;
+	inline constexpr uint32 Box         = 0x9E0A6A8E;
+	inline constexpr uint32 Sphere      = 0xDC21446C;
+	inline constexpr uint32 SphereAlt   = 0x7B250B76;
+	inline constexpr uint32 Sound       = 0x2FF3AA15;
+	inline constexpr uint32 Light       = 0x0D27FA8C;
+	inline constexpr uint32 FireSource  = 0xC72C550B;
+	inline constexpr uint32 Serialized  = 0x03988A53;
+	inline constexpr uint32 Rig         = 0x00000000;
 }
 
 //
@@ -52,20 +52,20 @@ namespace GfxTypeHash
 //
 inline const char* GfxTypeHashToString(uint32 Hash)
 {
-    switch (Hash)
-    {
-        case GfxTypeHash::SceneObject: return "SceneObject";
-        case GfxTypeHash::Mesh:        return "Mesh";
-        case GfxTypeHash::Box:         return "Box";
-        case GfxTypeHash::Sphere:      return "Sphere";
-        case GfxTypeHash::SphereAlt:   return "Sphere";
-        case GfxTypeHash::Sound:       return "Sound";
-        case GfxTypeHash::Light:       return "Light";
-        case GfxTypeHash::FireSource:  return "FireSource";
-        case GfxTypeHash::Serialized:  return "Serialized";
-        case GfxTypeHash::Rig:         return "Rig";
-        default:                       return "Unknown";
-    }
+	switch (Hash)
+	{
+		case GfxTypeHash::SceneObject: return "SceneObject";
+		case GfxTypeHash::Mesh:        return "Mesh";
+		case GfxTypeHash::Box:         return "Box";
+		case GfxTypeHash::Sphere:      return "Sphere";
+		case GfxTypeHash::SphereAlt:   return "Sphere";
+		case GfxTypeHash::Sound:       return "Sound";
+		case GfxTypeHash::Light:       return "Light";
+		case GfxTypeHash::FireSource:  return "FireSource";
+		case GfxTypeHash::Serialized:  return "Serialized";
+		case GfxTypeHash::Rig:         return "Rig";
+		default:                       return "Unknown";
+	}
 }
 
 //
@@ -74,12 +74,12 @@ inline const char* GfxTypeHashToString(uint32 Hash)
 //
 struct GfxNode
 {
-    size        Offset;         // Byte offset in file where instance_hash starts
-    uint32      InstanceHash;   // Unique per node instance (0 for root)
-    uint32      TypeHash;       // Identifies the node class (see GfxTypeHash)
-    std::string ID;             // Numeric or short identifier string
-    std::string Name;           // Human-readable node name
-    size        DataOffset;     // Byte offset where post-name data starts
+	size        Offset;         // Byte offset in file where instance_hash starts
+	uint32      InstanceHash;   // Unique per node instance (0 for root)
+	uint32      TypeHash;       // Identifies the node class (see GfxTypeHash)
+	std::string ID;             // Numeric or short identifier string
+	std::string Name;           // Human-readable node name
+	size        DataOffset;     // Byte offset where post-name data starts
 };
 
 //
@@ -89,69 +89,69 @@ struct GfxNode
 class Gfx
 {
 public:
-    //
-    // File version (always 1).
-    //
+	//
+	// File version (always 1).
+	//
 
-    uint32                      Version;
+	uint32                      Version;
 
-    //
-    // Complete raw file data. The entire binary content of the .gfx file is stored here
-    // and written back as-is on save. This guarantees byte-perfect round-tripping.
-    //
+	//
+	// Complete raw file data. The entire binary content of the .gfx file is stored here
+	// and written back as-is on save. This guarantees byte-perfect round-tripping.
+	//
 
-    std::vector<uint8>          Data;
+	std::vector<uint8>          Data;
 
-    //
-    // Root node metadata (parsed from the header area).
-    //
+	//
+	// Root node metadata (parsed from the header area).
+	//
 
-    uint32                      RootTypeHash;       // Type hash at offset 92 (e.g. 0x73D39136 for SceneObject)
-    std::string                 RootTypeName;       // Type name string (e.g. "SceneObject")
-    size                        RootDataOffset;     // Byte offset where root's post-name data starts
+	uint32                      RootTypeHash;       // Type hash at offset 92 (e.g. 0x73D39136 for SceneObject)
+	std::string                 RootTypeName;       // Type name string (e.g. "SceneObject")
+	size                        RootDataOffset;     // Byte offset where root's post-name data starts
 
-    //
-    // Identified child nodes (parsed by scanning the data for hash+string patterns).
-    // These are metadata-only. Modifying them does NOT modify the underlying Data bytes.
-    //
+	//
+	// Identified child nodes (parsed by scanning the data for hash+string patterns).
+	// These are metadata-only. Modifying them does NOT modify the underlying Data bytes.
+	//
 
-    std::vector<GfxNode>        Nodes;
+	std::vector<GfxNode>        Nodes;
 
-    //
-    // Position of the EFBEEFBE magic marker in the data, or 0 if not found.
-    //
+	//
+	// Position of the EFBEEFBE magic marker in the data, or 0 if not found.
+	//
 
-    size                        BeefOffset;
+	size                        BeefOffset;
 
-    //
-    // All length-prefixed ASCII strings found in the file, with their offsets.
-    // Each pair is (offset_of_length_field, string_value).
-    //
+	//
+	// All length-prefixed ASCII strings found in the file, with their offsets.
+	// Each pair is (offset_of_length_field, string_value).
+	//
 
-    std::vector<std::pair<size, std::string>> Strings;
+	std::vector<std::pair<size, std::string>> Strings;
 
-    // Loads a .gfx file from disk.
-    bool Load(const std::string& FilePath);
+	// Loads a .gfx file from disk.
+	bool Load(const std::string& FilePath);
 
-    // Saves the GFX data back to a binary .gfx file (byte-for-byte from Data).
-    bool Save(const std::string& FilePath);
+	// Saves the GFX data back to a binary .gfx file (byte-for-byte from Data).
+	bool Save(const std::string& FilePath);
 
-    // Exports the GFX data to a human-readable XML format for inspection and editing.
-    bool ExportXML(const std::string& FilePath) const;
+	// Exports the GFX data to a human-readable XML format for inspection and editing.
+	bool ExportXML(const std::string& FilePath) const;
 
-    // Imports the GFX data from an XML file previously exported by ExportXML.
-    bool ImportXML(const std::string& FilePath);
+	// Imports the GFX data from an XML file previously exported by ExportXML.
+	bool ImportXML(const std::string& FilePath);
 
-    // Prints a summary of the GFX file to the console.
-    void PrintSummary() const;
+	// Prints a summary of the GFX file to the console.
+	void PrintSummary() const;
 
 private:
-    // Scans Data for length-prefixed ASCII strings and identifies consecutive ID+name pairs
-    // as nodes. Populates Nodes and Strings.
-    void _IdentifyNodes();
+	// Scans Data for length-prefixed ASCII strings and identifies consecutive ID+name pairs
+	// as nodes. Populates Nodes and Strings.
+	void _IdentifyNodes();
 
-    // Finds the EFBEEFBE magic marker in Data and sets BeefOffset.
-    void _FindBeefMarker();
+	// Finds the EFBEEFBE magic marker in Data and sets BeefOffset.
+	void _FindBeefMarker();
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
