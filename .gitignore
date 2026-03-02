@@ -7,7 +7,7 @@
 *.vscode
 *.cache
 
-# Zone identifier
+*.DS_Store
 *:Zone.Identifier
 
 *.pak
