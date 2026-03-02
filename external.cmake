@@ -1,5 +1,7 @@
 include(FetchContent)
 
+set(FETCHCONTENT_QUIET OFF)
+
 #set(BUILD_DX11 OFF CACHE BOOL "" FORCE)
 #set(BUILD_DX12 OFF CACHE BOOL "" FORCE)
 #set(BUILD_TOOLS OFF CACHE BOOL "" FORCE)
@@ -19,6 +21,8 @@ FetchContent_Declare(
     tinyxml2
     GIT_REPOSITORY https://github.com/leethomason/tinyxml2.git
     GIT_TAG        master
+    GIT_SHALLOW    TRUE
+    GIT_PROGRESS.  TRUE
 )
 FetchContent_MakeAvailable(tinyxml2)
 
@@ -38,6 +42,8 @@ FetchContent_Declare(
     xz
     GIT_REPOSITORY https://github.com/tukaani-project/xz.git
     GIT_TAG        v5.4.5
+    GIT_SHALLOW    TRUE
+    GIT_PROGRESS.  TRUE
 )
 FetchContent_MakeAvailable(xz)
 
@@ -62,6 +68,8 @@ else()
         zlib
         GIT_REPOSITORY https://github.com/madler/zlib.git
         GIT_TAG        v1.3.1 # Current stable tag
+        GIT_SHALLOW    TRUE
+        GIT_PROGRESS.  TRUE
     )
     FetchContent_MakeAvailable(zlib)
     
@@ -77,5 +85,19 @@ FetchContent_Declare(
     sdl3
     GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
     GIT_TAG        release-3.4.2
+    GIT_SHALLOW    TRUE
+    GIT_PROGRESS.  TRUE
 )
 FetchContent_MakeAvailable(sdl3)
+
+#
+# Bullet Physics (latest)
+#
+FetchContent_Declare(
+    bullet3
+    GIT_REPOSITORY https://github.com/bulletphysics/bullet3.git
+    GIT_TAG        3.25
+    GIT_SHALLOW    TRUE
+    GIT_PROGRESS.  TRUE
+)
+FetchContent_MakeAvailable(bullet3)
