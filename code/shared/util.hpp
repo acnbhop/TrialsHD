@@ -121,6 +121,47 @@ inline std::vector<uint8> FromHex(const std::string& hex)
 }
 
 //
+// Reads a uint32 from the data at the given offset (little-endian).
+//
+inline uint32 ReadLE32(const std::vector<uint8>& Data, size Offset)
+{
+    if (Offset + 4 > Data.size()) return 0;
+    return static_cast<uint32>(Data[Offset])
+         | (static_cast<uint32>(Data[Offset + 1]) << 8)
+         | (static_cast<uint32>(Data[Offset + 2]) << 16)
+         | (static_cast<uint32>(Data[Offset + 3]) << 24);
+}
+
+//
+// Reads a length-prefixed ASCII string from the data at the given offset.
+// Returns the string and advances Offset past the string data.
+//
+inline std::string ReadString(const std::vector<uint8>& Data, size& Offset)
+{
+    if (Offset + 4 > Data.size()) return "";
+    uint32 Len = ReadLE32(Data, Offset);
+    Offset += 4;
+    if (Offset + Len > Data.size()) return "";
+    std::string Result(reinterpret_cast<const char*>(Data.data() + Offset), Len);
+    Offset += Len;
+    return Result;
+}
+
+//
+// Returns true if the byte range [Offset, Offset+Len) in Data is printable ASCII.
+//
+inline bool IsASCII(const std::vector<uint8>& Data, size Offset, size Len)
+{
+    if (Offset + Len > Data.size()) return false;
+    for (size i = 0; i < Len; i++)
+    {
+        uint8 c = Data[Offset + i];
+        if (c < 32 || c >= 127) return false;
+    }
+    return true;
+}
+
+//
 // Reads a 32-bit big-endian integer from the given buffer at the given offset.
 //
 inline uint32 ReadBE32(std::span<const uint8> buffer, size offset)

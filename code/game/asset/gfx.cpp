@@ -21,45 +21,6 @@ namespace redlynx::game
 {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Internal Helpers
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// Reads a uint32 from the data at the given offset (little-endian).
-static uint32 _ReadLE32(const std::vector<uint8>& Data, size Offset)
-{
-    if (Offset + 4 > Data.size()) return 0;
-    return static_cast<uint32>(Data[Offset])
-         | (static_cast<uint32>(Data[Offset + 1]) << 8)
-         | (static_cast<uint32>(Data[Offset + 2]) << 16)
-         | (static_cast<uint32>(Data[Offset + 3]) << 24);
-}
-
-// Reads a length-prefixed ASCII string from the data at the given offset.
-// Returns the string and advances Offset past the string data.
-static std::string _ReadString(const std::vector<uint8>& Data, size& Offset)
-{
-    if (Offset + 4 > Data.size()) return "";
-    uint32 Len = _ReadLE32(Data, Offset);
-    Offset += 4;
-    if (Offset + Len > Data.size()) return "";
-    std::string Result(reinterpret_cast<const char*>(Data.data() + Offset), Len);
-    Offset += Len;
-    return Result;
-}
-
-// Returns true if the byte range [Offset, Offset+Len) in Data is printable ASCII.
-static bool _IsASCII(const std::vector<uint8>& Data, size Offset, size Len)
-{
-    if (Offset + Len > Data.size()) return false;
-    for (size i = 0; i < Len; i++)
-    {
-        uint8 c = Data[Offset + i];
-        if (c < 32 || c >= 127) return false;
-    }
-    return true;
-}
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Public Functions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -86,21 +47,21 @@ bool Gfx::Load(const std::string& FilePath)
     }
 
     // Parse version
-    Version = _ReadLE32(Data, 0);
+    Version = ReadLE32(Data, 0);
     if (Version != 1)
     {
         std::fprintf(stderr, "[Warning] [gfx.cpp] Unexpected GFX version %u in: %s\n", Version, FilePath.c_str());
     }
 
     // Parse root node identity
-    RootTypeHash = _ReadLE32(Data, 92);
+    RootTypeHash = ReadLE32(Data, 92);
 
     // Root ID string (at offset 96, always empty for root = length 0)
     size Pos = 96;
-    std::string RootID = _ReadString(Data, Pos);
+    std::string RootID = ReadString(Data, Pos);
 
     // Root type name string
-    RootTypeName = _ReadString(Data, Pos);
+    RootTypeName = ReadString(Data, Pos);
     RootDataOffset = Pos;
 
     // Find EFBEEFBE marker and identify nodes
@@ -241,8 +202,8 @@ bool Gfx::ImportXML(const std::string& FilePath)
 
     // Calculate root data offset
     size Pos = 96;
-    _ReadString(Data, Pos); // Skip root ID
-    _ReadString(Data, Pos); // Skip root type name
+    ReadString(Data, Pos); // Skip root ID
+    ReadString(Data, Pos); // Skip root type name
     RootDataOffset = Pos;
 
     return true;
@@ -266,7 +227,7 @@ void Gfx::PrintSummary() const
     // Root property field at offset 4
     if (Data.size() >= 8)
     {
-        std::cout << "  Property Code: " << _ReadLE32(Data, 4) << "\n";
+        std::cout << "  Property Code: " << ReadLE32(Data, 4) << "\n";
     }
     std::cout << "\n";
 
@@ -277,7 +238,7 @@ void Gfx::PrintSummary() const
         std::cout << "  EFBEEFBE marker at offset: " << BeefOffset << "\n";
         if (BeefOffset + 8 <= Data.size())
         {
-            uint32 PostSize = _ReadLE32(Data, BeefOffset + 4);
+            uint32 PostSize = ReadLE32(Data, BeefOffset + 4);
             std::cout << "  Post-data payload size: " << PostSize << " bytes\n";
         }
         std::cout << "  Scene data: " << BeefOffset << " bytes (offsets 0.." << (BeefOffset - 1) << ")\n";
@@ -335,10 +296,10 @@ void Gfx::_IdentifyNodes()
 
     for (size i = 0; i + 4 < Data.size(); i++)
     {
-        uint32 Len = _ReadLE32(Data, i);
+        uint32 Len = ReadLE32(Data, i);
         if (Len >= 1 && Len <= 256 && i + 4 + Len <= Data.size())
         {
-            if (_IsASCII(Data, i + 4, Len))
+            if (IsASCII(Data, i + 4, Len))
             {
                 std::string Text(reinterpret_cast<const char*>(Data.data() + i + 4), Len);
 
@@ -366,8 +327,8 @@ void Gfx::_IdentifyNodes()
         {
             GfxNode Node;
             Node.Offset = First.Offset - 8;
-            Node.InstanceHash = _ReadLE32(Data, Node.Offset);
-            Node.TypeHash = _ReadLE32(Data, Node.Offset + 4);
+            Node.InstanceHash = ReadLE32(Data, Node.Offset);
+            Node.TypeHash = ReadLE32(Data, Node.Offset + 4);
             Node.ID = First.Text;
             Node.Name = Second.Text;
             Node.DataOffset = Second.Offset + 4 + Second.Length;
