@@ -2,6 +2,7 @@
 // gfx.hpp: Human-readable GFX data helpers.
 //
 // Provides structured parsing of known GFX fields for display and editing.
+//
 // The asset/gfx.hpp parser stores the raw binary blob for byte-accurate
 // round-tripping. This layer extracts higher-level meaning from it.
 //

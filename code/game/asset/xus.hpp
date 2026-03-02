@@ -16,8 +16,6 @@
 
 #pragma once
 
-#include "shared/build_defines.hpp"
-
 #include <vector>
 #include <string>
 
