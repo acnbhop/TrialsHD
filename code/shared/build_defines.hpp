@@ -228,6 +228,9 @@
 #define REDLYNX_NAMESPACE_BEGIN_ENGINE namespace redlynx { namespace engine {
 #define REDLYNX_NAMESPACE_END_ENGINE   } }
 
+#define REDLYNX_NAMESPACE_BEGIN_ENGINE_ASSET namespace redlynx { namespace engine { namespace asset {
+#define REDLYNX_NAMESPACE_END_ENGINE_ASSET   } } }
+
 #define REDLYNX_NAMESPACE_BEGIN_GAME   namespace redlynx { namespace game {
 #define REDLYNX_NAMESPACE_END_GAME     } }
 
