@@ -1,2 +1,0 @@
-cmake -S extern/bullet-2.74 -B build/extern/bullet-2.74
-cmake --build build/extern/bullet-2.74

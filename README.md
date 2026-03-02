@@ -7,6 +7,12 @@ I suggest reading `/docs/` whenever you get the chance, it has some interesting 
 # Building
 Simply just run `cmake -S . -B build` and you're good to go, it will fetch dependencies for you automatically.
 
+Building the old Bullet library is done like this:
+```
+cmake -S extern/bullet-2.74 -B build/extern/bullet-2.74
+cmake --build build/extern/bullet-2.74
+```
+
 # Technical Info
 - Platform: Xbox 360
 - Architecture: PowerPC
