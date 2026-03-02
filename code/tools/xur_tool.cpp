@@ -2,8 +2,8 @@
 // xur_tool.cpp
 //
 
-// Game headers
-#include "game/asset/xur.hpp"
+// Engine headers
+#include "engine/xur.hpp"
 
 // Standard headers
 #include <iostream>

@@ -295,52 +295,73 @@ add_library(shared STATIC
 )
 
 #
-# game is the main game code
-#
-add_library(game STATIC
-    #
-    # Asset system
-    #
-    code/game/asset/actor.cpp           code/game/asset/actor.hpp
-    code/game/asset/anim.cpp            code/game/asset/anim.hpp
-    code/game/asset/font.cpp            code/game/asset/font.hpp
-    code/game/asset/gfx.cpp             code/game/asset/gfx.hpp
-    code/game/asset/model.cpp           code/game/asset/model.hpp
-    code/game/asset/package.cpp         code/game/asset/package.hpp
-    code/game/asset/shader.cpp          code/game/asset/shader.hpp
-    code/game/asset/texture.cpp         code/game/asset/texture.hpp
-    code/game/asset/track.cpp           code/game/asset/track.hpp
-    code/game/asset/video.cpp           code/game/asset/video.hpp
-    code/game/asset/xgs.cpp             code/game/asset/xgs.hpp
-    code/game/asset/xml.cpp             code/game/asset/xml.hpp
-    code/game/asset/xsb.cpp             code/game/asset/xsb.hpp
-    code/game/asset/xur.cpp             code/game/asset/xur.hpp
-    code/game/asset/xus.cpp             code/game/asset/xus.hpp
-    code/game/asset/xwb.cpp             code/game/asset/xwb.hpp
-    #
-    # Assets (XML)
-    #
-    code/game/xmldata/actorinfo.cpp     code/game/xmldata/actorinfo.hpp
-    code/game/xmldata/bike_config.cpp   code/game/xmldata/bike_config.hpp
-    code/game/xmldata/challenges.cpp    code/game/xmldata/challenges.hpp
-    code/game/xmldata/game_config.cpp   code/game/xmldata/game_config.hpp
-    code/game/xmldata/gear.cpp          code/game/xmldata/gear.hpp
-    code/game/xmldata/gfx.cpp           code/game/xmldata/gfx.hpp
-    code/game/xmldata/object.cpp        code/game/xmldata/object.hpp
-    code/game/xmldata/objectlist.cpp    code/game/xmldata/objectlist.hpp
-    code/game/xmldata/pack.cpp          code/game/xmldata/pack.hpp
-    code/game/xmldata/trackset.cpp      code/game/xmldata/trackset.hpp
-)
-target_link_libraries(game PRIVATE shared imgui)
-target_compile_definitions(game PUBLIC LZMA_API_STATIC)
-
-#
 # engine is the core game engine.
 #
 add_library(engine STATIC
-    code/engine/renderer.cpp        code/engine/renderer.hpp
+    code/engine/actor.cpp
+    code/engine/actor.hpp
+    code/engine/actorinfo.cpp
+    code/engine/actorinfo.hpp
+    code/engine/anim.cpp
+    code/engine/anim.hpp
+    code/engine/font.cpp
+    code/engine/font.hpp
+    code/engine/gfx.cpp
+    code/engine/gfx.hpp
+    code/engine/model.cpp
+    code/engine/model.hpp
+    code/engine/package.cpp
+    code/engine/package.hpp
+    code/engine/packagexml.cpp
+    code/engine/packagexml.hpp
+    code/engine/renderer.cpp
+    code/engine/renderer.hpp
+    code/engine/shader.cpp
+    code/engine/shader.hpp
+    code/engine/texture.cpp
+    code/engine/texture.hpp
+    code/engine/video.cpp
+    code/engine/video.hpp
+    code/engine/xgs.cpp
+    code/engine/xgs.hpp
+    code/engine/xml.cpp
+    code/engine/xml.hpp
+    code/engine/xsb.cpp
+    code/engine/xsb.hpp
+    code/engine/xur.cpp
+    code/engine/xur.hpp
+    code/engine/xus.cpp
+    code/engine/xus.hpp
+    code/engine/xwb.cpp
+    code/engine/xwb.hpp
 )
 target_link_libraries(engine PRIVATE shared imgui)
+
+#
+# game is the main game code
+#
+add_library(game STATIC
+    code/game/data/bike_config.cpp
+    code/game/data/bike_config.hpp
+    code/game/data/challenges.cpp
+    code/game/data/challenges.hpp
+    code/game/data/game_config.cpp
+    code/game/data/game_config.hpp
+    code/game/data/gear.cpp
+    code/game/data/gear.hpp
+    code/game/data/gfx.cpp
+    code/game/data/gfx.hpp
+    code/game/data/object.cpp
+    code/game/data/object.hpp
+    code/game/data/objectlist.cpp
+    code/game/data/objectlist.hpp
+    code/game/data/trackset.cpp
+    code/game/data/trackset.hpp
+    code/game/track.cpp
+    code/game/track.hpp
+)
+target_link_libraries(game PRIVATE engine)
+target_compile_definitions(game PUBLIC LZMA_API_STATIC)
 
 #
 # gameapp is the primary executable.

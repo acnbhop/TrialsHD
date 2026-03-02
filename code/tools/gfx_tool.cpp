@@ -2,8 +2,8 @@
 // gfx_tool.cpp
 //
 
-// Game headers
-#include "game/asset/gfx.hpp"
+// Engine headers
+#include "engine/gfx.hpp"
 
 // Standard headers
 #include <iostream>

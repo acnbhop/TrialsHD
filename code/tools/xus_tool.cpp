@@ -2,8 +2,8 @@
 // xus_tool.cpp
 //
 
-// Game headers
-#include "game/asset/xus.hpp"
+// Engine headers
+#include "engine/xus.hpp"
 
 // Standard headers
 #include <iostream>
