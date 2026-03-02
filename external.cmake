@@ -89,15 +89,3 @@ FetchContent_Declare(
     GIT_PROGRESS.  TRUE
 )
 FetchContent_MakeAvailable(sdl3)
-
-#
-# Bullet Physics (latest)
-#
-FetchContent_Declare(
-    bullet3
-    GIT_REPOSITORY https://github.com/bulletphysics/bullet3.git
-    GIT_TAG        3.25
-    GIT_SHALLOW    TRUE
-    GIT_PROGRESS.  TRUE
-)
-FetchContent_MakeAvailable(bullet3)
