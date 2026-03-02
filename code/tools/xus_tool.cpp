@@ -128,7 +128,7 @@ int main(int argc, char* argv[])
                 std::filesystem::path RelPath = std::filesystem::relative(FilePath, TargetPath);
                 std::cout << "  -> Loading: " << RelPath.string() << " ... ";
 
-                redlynx::game::Xus XusData;
+                redlynx::engine::asset::Xus XusData;
                 if (!XusData.Load(FilePath.string()))
                 {
                     std::cout << "[FAILED TO LOAD]\n";
@@ -206,7 +206,7 @@ int main(int argc, char* argv[])
     std::string Ext = InputPath.extension().string();
     std::transform(Ext.begin(), Ext.end(), Ext.begin(), [](unsigned char c){ return std::tolower(c); });
 
-    redlynx::game::Xus XusData;
+    redlynx::engine::asset::Xus XusData;
 
     if (Ext == ".xus")
     {

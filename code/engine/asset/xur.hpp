@@ -21,8 +21,9 @@
 #include <vector>
 #include <string>
 
-namespace redlynx::game
-{
+////////////////////////////////////////////////////////////////////////////////////////////////////
+REDLYNX_NAMESPACE_BEGIN_ENGINE_ASSET
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //
 // Describes a single section inside the XUR file (STRN, VECT, QUAT, CUST, DATA).
@@ -100,4 +101,4 @@ private:
     std::vector<uint8> _BuildSTRN() const;
 };
 
-} // namespace redlynx::game
+REDLYNX_NAMESPACE_END_ENGINE_ASSET
