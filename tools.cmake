@@ -24,3 +24,12 @@ add_executable(xus_tool
     code/tools/xus_tool.cpp
 )
 target_link_libraries(xus_tool PRIVATE shared game tinyxml2)
+
+#
+# gfx_tool is used for converting Graphics scene files (.gfx) to and from
+# XML for inspecting scene graphs, materials, and animation controllers.
+#
+add_executable(gfx_tool
+    code/tools/gfx_tool.cpp
+)
+target_link_libraries(gfx_tool PRIVATE shared game tinyxml2)
