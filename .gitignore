@@ -1,4 +1,4 @@
-/build/
+/[Bb]uild/
 /data_temp/
 
 # Ignore subdirs in tools for now.
