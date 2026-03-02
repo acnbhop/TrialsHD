@@ -290,50 +290,60 @@ endif()
 #
 add_library(shared STATIC
     code/shared/build_defines.hpp
-    code/shared/util.hpp
     code/shared/lib.cpp
+    code/shared/math.cpp
+    code/shared/math.hpp
+    code/shared/memory.cpp
+    code/shared/memory.hpp
+    code/shared/timer.cpp
+    code/shared/timer.hpp
+    code/shared/util.hpp
 )
 
 #
 # engine is the core game engine.
 #
 add_library(engine STATIC
-    code/engine/actor.cpp
-    code/engine/actor.hpp
-    code/engine/actorinfo.cpp
-    code/engine/actorinfo.hpp
-    code/engine/anim.cpp
-    code/engine/anim.hpp
-    code/engine/font.cpp
-    code/engine/font.hpp
-    code/engine/gfx.cpp
-    code/engine/gfx.hpp
-    code/engine/model.cpp
-    code/engine/model.hpp
-    code/engine/package.cpp
-    code/engine/package.hpp
-    code/engine/packagexml.cpp
-    code/engine/packagexml.hpp
+    code/engine/asset/actor.cpp
+    code/engine/asset/actor.hpp
+    code/engine/asset/actorinfo.cpp
+    code/engine/asset/actorinfo.hpp
+    code/engine/asset/anim.cpp
+    code/engine/asset/anim.hpp
+    code/engine/asset/font.cpp
+    code/engine/asset/font.hpp
+    code/engine/asset/gfx.cpp
+    code/engine/asset/gfx.hpp
+    code/engine/asset/model.cpp
+    code/engine/asset/model.hpp
+    code/engine/asset/package.cpp
+    code/engine/asset/package.hpp
+    code/engine/asset/packagexml.cpp
+    code/engine/asset/packagexml.hpp
+    code/engine/asset/shader.cpp
+    code/engine/asset/shader.hpp
+    code/engine/asset/texture.cpp
+    code/engine/asset/texture.hpp
+    code/engine/asset/video.cpp
+    code/engine/asset/video.hpp
+    code/engine/asset/xgs.cpp
+    code/engine/asset/xgs.hpp
+    code/engine/asset/xsb.cpp
+    code/engine/asset/xsb.hpp
+    code/engine/asset/xur.cpp
+    code/engine/asset/xur.hpp
+    code/engine/asset/xus.cpp
+    code/engine/asset/xus.hpp
+    code/engine/asset/xwb.cpp
+    code/engine/asset/xwb.hpp
+    code/engine/camera.cpp
+    code/engine/camera.hpp
     code/engine/renderer.cpp
     code/engine/renderer.hpp
-    code/engine/shader.cpp
-    code/engine/shader.hpp
-    code/engine/texture.cpp
-    code/engine/texture.hpp
-    code/engine/video.cpp
-    code/engine/video.hpp
-    code/engine/xgs.cpp
-    code/engine/xgs.hpp
+    code/engine/scene.cpp
+    code/engine/scene.hpp
     code/engine/xml.cpp
     code/engine/xml.hpp
-    code/engine/xsb.cpp
-    code/engine/xsb.hpp
-    code/engine/xur.cpp
-    code/engine/xur.hpp
-    code/engine/xus.cpp
-    code/engine/xus.hpp
-    code/engine/xwb.cpp
-    code/engine/xwb.hpp
 )
 target_link_libraries(engine PRIVATE shared imgui)
 
