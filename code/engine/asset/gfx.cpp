@@ -13,6 +13,8 @@
 #include <iostream>
 #include <fstream>
 #include <iomanip>
+#include <cstring>
+#include <functional>
 
 // External headers
 #include <tinyxml2.h>
@@ -20,6 +22,67 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 REDLYNX_NAMESPACE_BEGIN_ENGINE_ASSET
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Local Helpers
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Converts a byte range to a hex string with optional line-wrapping for readability.
+static std::string ToHexSegment(const std::vector<uint8>& Data, size Start, size End)
+{
+	if (Start >= End || Start >= Data.size()) return "";
+	if (End > Data.size()) End = Data.size();
+
+	std::string Result;
+	Result.reserve((End - Start) * 2);
+
+	for (size i = Start; i < End; i++)
+	{
+		char Buf[4];
+		std::snprintf(Buf, sizeof(Buf), "%02x", Data[i]);
+		Result += Buf;
+	}
+
+	return Result;
+}
+
+// Formats a float for XML output, avoiding unnecessary trailing zeros.
+static std::string FormatFloat(f32 Value)
+{
+	// Handle exact zero
+	if (Value == 0.0f) return "0";
+
+	char Buf[64];
+	std::snprintf(Buf, sizeof(Buf), "%.6g", Value);
+	return Buf;
+}
+
+// Formats a hex hash value.
+static std::string FormatHash(uint32 Hash)
+{
+	char Buf[16];
+	std::snprintf(Buf, sizeof(Buf), "%08X", Hash);
+	return Buf;
+}
+
+// Reads 3 consecutive LE floats as a vec3 string "x, y, z".
+static std::string ReadVec3String(const std::vector<uint8>& Data, size Offset)
+{
+	if (Offset + 12 > Data.size()) return "?, ?, ?";
+	return FormatFloat(ReadLEFloat(Data, Offset)) + ", " +
+	       FormatFloat(ReadLEFloat(Data, Offset + 4)) + ", " +
+	       FormatFloat(ReadLEFloat(Data, Offset + 8));
+}
+
+// Reads 4 consecutive LE floats as a vec4/quaternion string "x, y, z, w".
+static std::string ReadVec4String(const std::vector<uint8>& Data, size Offset)
+{
+	if (Offset + 16 > Data.size()) return "?, ?, ?, ?";
+	return FormatFloat(ReadLEFloat(Data, Offset)) + ", " +
+	       FormatFloat(ReadLEFloat(Data, Offset + 4)) + ", " +
+	       FormatFloat(ReadLEFloat(Data, Offset + 8)) + ", " +
+	       FormatFloat(ReadLEFloat(Data, Offset + 12));
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // Public Functions
@@ -68,6 +131,7 @@ bool Gfx::Load(const std::string& FilePath)
 	// Find EFBEEFBE marker and identify nodes
 	_FindBeefMarker();
 	_IdentifyNodes();
+	_BuildHierarchy();
 
 	return true;
 }
@@ -102,53 +166,302 @@ bool Gfx::ExportXML(const std::string& FilePath) const
 		Parent->InsertEndChild(Element);
 	};
 
-	// Version
-	AddChildText(Root, "Version", std::to_string(Version));
+	// =====================================================================================
+	// Header section - version and file info
+	// =====================================================================================
+	tinyxml2::XMLElement* HeaderElem = Doc.NewElement("Header");
+	Root->InsertEndChild(HeaderElem);
 
-	// Root node info
+	AddChildText(HeaderElem, "Version", std::to_string(Version));
+	AddChildText(HeaderElem, "FileSize", std::to_string(Data.size()));
+
+	if (Data.size() >= 8)
 	{
-		char Buf[16];
-		std::snprintf(Buf, sizeof(Buf), "%08X", RootTypeHash);
-		AddChildText(Root, "RootTypeHash", Buf);
-	}
-	AddChildText(Root, "RootTypeName", RootTypeName);
-
-	// Complete file data as hex
-	AddChildText(Root, "Data", ToHex(Data));
-
-	// Node metadata (informational, not used for import)
-	tinyxml2::XMLElement* NodesNode = Doc.NewElement("Nodes");
-	Root->InsertEndChild(NodesNode);
-
-	for (size i = 0; i < Nodes.size(); i++)
-	{
-		const GfxNode& Node = Nodes[i];
-		tinyxml2::XMLElement* NodeElem = Doc.NewElement("Node");
-		NodeElem->SetAttribute("index", static_cast<int32>(i));
-		NodeElem->SetAttribute("offset", static_cast<int32>(Node.Offset));
-
-		char IHashBuf[16], THashBuf[16];
-		std::snprintf(IHashBuf, sizeof(IHashBuf), "%08X", Node.InstanceHash);
-		std::snprintf(THashBuf, sizeof(THashBuf), "%08X", Node.TypeHash);
-		NodeElem->SetAttribute("instanceHash", IHashBuf);
-		NodeElem->SetAttribute("typeHash", THashBuf);
-		NodeElem->SetAttribute("type", GfxTypeHashToString(Node.TypeHash));
-		NodeElem->SetAttribute("id", Node.ID.c_str());
-		NodeElem->SetAttribute("name", Node.Name.c_str());
-
-		NodesNode->InsertEndChild(NodeElem);
+		AddChildText(HeaderElem, "PropertyCode", std::to_string(ReadLE32(Data, 4)));
 	}
 
+	// Root transform (offsets 8-87 contain the root node's transform data).
+	// Layout based on binary analysis:
+	//   [8..19]   unknown0   - 3 floats (often all zeros)
+	//   [20..31]  unknown1   - 3 floats (often all zeros)
+	//   [32..43]  position   - 3 floats (world-space position)
+	//   [44..55]  unknown2   - 3 floats (often all zeros)
+	//   [56..67]  scale      - 3 floats (typically 1, 1, 1)
+	//   [68..79]  rotation   - 3 floats + 1 float (often 0, 0, 0 + 1; quaternion-like)
+	//   [80..87]  flags      - 2 x uint32/float
+	if (Data.size() >= 88)
+	{
+		tinyxml2::XMLElement* TransformElem = Doc.NewElement("RootTransform");
+		HeaderElem->InsertEndChild(TransformElem);
+
+		TransformElem->SetAttribute("position", ReadVec3String(Data, 32).c_str());
+
+		if (Data.size() >= 68)
+		{
+			TransformElem->SetAttribute("scale", ReadVec3String(Data, 56).c_str());
+		}
+		if (Data.size() >= 80)
+		{
+			TransformElem->SetAttribute("rotation", ReadVec4String(Data, 68).c_str());
+		}
+
+		// Show the less-understood fields for completeness
+		TransformElem->SetAttribute("unknown0", ReadVec3String(Data, 8).c_str());
+		TransformElem->SetAttribute("unknown1", ReadVec3String(Data, 20).c_str());
+		TransformElem->SetAttribute("unknown2", ReadVec3String(Data, 44).c_str());
+		if (Data.size() >= 88)
+		{
+			std::string FlagsStr = FormatFloat(ReadLEFloat(Data, 80)) + ", " +
+			                       FormatFloat(ReadLEFloat(Data, 84));
+			TransformElem->SetAttribute("flags", FlagsStr.c_str());
+		}
+	}
+
+	AddChildText(HeaderElem, "RootTypeHash", FormatHash(RootTypeHash));
+	AddChildText(HeaderElem, "RootTypeName", RootTypeName);
+	AddChildText(HeaderElem, "RootDataOffset", std::to_string(RootDataOffset));
+
+	if (BeefOffset > 0)
+	{
+		tinyxml2::XMLElement* MarkerElem = Doc.NewElement("BeefMarker");
+		HeaderElem->InsertEndChild(MarkerElem);
+		MarkerElem->SetAttribute("offset", static_cast<int32>(BeefOffset));
+		MarkerElem->SetAttribute("sceneDataBytes", static_cast<int32>(BeefOffset));
+		MarkerElem->SetAttribute("postDataBytes", static_cast<int32>(Data.size() - BeefOffset));
+		if (BeefOffset + 8 <= Data.size())
+		{
+			MarkerElem->SetAttribute("postPayloadSize", static_cast<int32>(ReadLE32(Data, BeefOffset + 4)));
+		}
+	}
+
+	// =====================================================================================
+	// Scene Tree - hierarchical view of nodes (informational)
+	// =====================================================================================
+	{
+		tinyxml2::XMLElement* SceneTree = Doc.NewElement("SceneTree");
+		Root->InsertEndChild(SceneTree);
+
+		// Create root scene node
+		tinyxml2::XMLElement* RootNodeElem = Doc.NewElement("SceneObject");
+		SceneTree->InsertEndChild(RootNodeElem);
+		RootNodeElem->SetAttribute("type", GfxTypeHashToString(RootTypeHash));
+		RootNodeElem->SetAttribute("typeHash", FormatHash(RootTypeHash).c_str());
+		RootNodeElem->SetAttribute("name", RootTypeName.c_str());
+
+		// Determine what data belongs to the root before first child
+		size RootDataEnd = BeefOffset > 0 ? BeefOffset : Data.size();
+		if (!Nodes.empty())
+		{
+			// The root's own data ends where the first top-level child's data begins
+			// (the area before the child's instance_hash, which is at Node.Offset)
+			for (size i = 0; i < Nodes.size(); i++)
+			{
+				if (Nodes[i].ParentIndex == -1 && Nodes[i].Offset < RootDataEnd)
+				{
+					RootDataEnd = Nodes[i].Offset;
+					break;
+				}
+			}
+		}
+
+		// Show root node data segment
+		if (RootDataOffset < RootDataEnd)
+		{
+			tinyxml2::XMLElement* DataElem = Doc.NewElement("NodeData");
+			RootNodeElem->InsertEndChild(DataElem);
+			DataElem->SetAttribute("offset", static_cast<int32>(RootDataOffset));
+			DataElem->SetAttribute("size", static_cast<int32>(RootDataEnd - RootDataOffset));
+			DataElem->SetText(ToHexSegment(Data, RootDataOffset, RootDataEnd).c_str());
+		}
+
+		// Recursive lambda to emit child nodes
+		std::function<void(tinyxml2::XMLElement*, size)> EmitNode;
+		EmitNode = [&](tinyxml2::XMLElement* ParentElem, size NodeIndex)
+		{
+			const GfxNode& Node = Nodes[NodeIndex];
+
+			// Determine the XML element name from the type
+			const char* TypeName = GfxTypeHashToString(Node.TypeHash);
+			tinyxml2::XMLElement* NodeElem = Doc.NewElement(TypeName);
+			ParentElem->InsertEndChild(NodeElem);
+
+			NodeElem->SetAttribute("name", Node.Name.c_str());
+			NodeElem->SetAttribute("id", Node.ID.c_str());
+			NodeElem->SetAttribute("typeHash", FormatHash(Node.TypeHash).c_str());
+			NodeElem->SetAttribute("instanceHash", FormatHash(Node.InstanceHash).c_str());
+			NodeElem->SetAttribute("offset", static_cast<int32>(Node.Offset));
+
+			// Calculate the end of this node's own data (before its first child or next sibling)
+			size NodeDataEnd;
+			if (!Node.Children.empty())
+			{
+				// Own data ends where first child's header starts
+				NodeDataEnd = Nodes[Node.Children[0]].Offset;
+			}
+			else
+			{
+				// No children - data extends to next sibling or parent boundary
+				// Find the next node in file order after this one
+				NodeDataEnd = BeefOffset > 0 ? BeefOffset : Data.size();
+
+				for (size j = 0; j < Nodes.size(); j++)
+				{
+					if (Nodes[j].Offset > Node.DataOffset && Nodes[j].Offset < NodeDataEnd)
+					{
+						// Only count it if it's not a descendant
+						bool IsDescendant = false;
+						int32 CheckParent = Nodes[j].ParentIndex;
+						while (CheckParent != -1)
+						{
+							if (static_cast<size>(CheckParent) == NodeIndex)
+							{
+								IsDescendant = true;
+								break;
+							}
+							CheckParent = Nodes[CheckParent].ParentIndex;
+						}
+						if (!IsDescendant)
+						{
+							NodeDataEnd = Nodes[j].Offset;
+							break;
+						}
+					}
+				}
+			}
+
+			// Emit this node's own data as hex
+			if (Node.DataOffset < NodeDataEnd)
+			{
+				tinyxml2::XMLElement* DataElem = Doc.NewElement("NodeData");
+				NodeElem->InsertEndChild(DataElem);
+				DataElem->SetAttribute("offset", static_cast<int32>(Node.DataOffset));
+				DataElem->SetAttribute("size", static_cast<int32>(NodeDataEnd - Node.DataOffset));
+				DataElem->SetText(ToHexSegment(Data, Node.DataOffset, NodeDataEnd).c_str());
+			}
+
+			// Recurse into children
+			for (size ChildIdx : Node.Children)
+			{
+				EmitNode(NodeElem, ChildIdx);
+			}
+		};
+
+		// Emit top-level children (those whose ParentIndex == -1)
+		for (size i = 0; i < Nodes.size(); i++)
+		{
+			if (Nodes[i].ParentIndex == -1)
+			{
+				EmitNode(RootNodeElem, i);
+			}
+		}
+	}
+
+	// =====================================================================================
+	// Post-data section (materials, animation controllers, etc.)
+	// =====================================================================================
+	if (BeefOffset > 0 && BeefOffset < Data.size())
+	{
+		tinyxml2::XMLElement* PostDataElem = Doc.NewElement("PostData");
+		Root->InsertEndChild(PostDataElem);
+		PostDataElem->SetAttribute("offset", static_cast<int32>(BeefOffset));
+		PostDataElem->SetAttribute("size", static_cast<int32>(Data.size() - BeefOffset));
+
+		// Try to parse post-data strings (e.g. material names)
+		if (BeefOffset + 8 <= Data.size())
+		{
+			uint32 PostPayloadSize = ReadLE32(Data, BeefOffset + 4);
+			size PostStart = BeefOffset + 8;
+
+			// Scan for readable strings in post-data
+			size ScanPos = PostStart;
+			while (ScanPos + 4 < Data.size())
+			{
+				uint32 Len = ReadLE32(Data, ScanPos);
+				if (Len >= 1 && Len <= 256 && ScanPos + 4 + Len <= Data.size() && IsASCII(Data, ScanPos + 4, Len))
+				{
+					std::string Text(reinterpret_cast<const char*>(Data.data() + ScanPos + 4), Len);
+					tinyxml2::XMLElement* StrElem = Doc.NewElement("PostString");
+					PostDataElem->InsertEndChild(StrElem);
+					StrElem->SetAttribute("offset", static_cast<int32>(ScanPos));
+					StrElem->SetAttribute("value", Text.c_str());
+					ScanPos += 4 + Len;
+					continue;
+				}
+				ScanPos++;
+			}
+
+			(void)PostPayloadSize; // Used above for context
+		}
+
+		// Raw post-data hex
+		AddChildText(PostDataElem, "RawData", ToHexSegment(Data, BeefOffset, Data.size()));
+	}
+
+	// =====================================================================================
+	// Flat node list (informational summary)
+	// =====================================================================================
+	{
+		tinyxml2::XMLElement* NodeList = Doc.NewElement("NodeList");
+		Root->InsertEndChild(NodeList);
+		NodeList->SetAttribute("count", static_cast<int32>(Nodes.size()));
+
+		for (size i = 0; i < Nodes.size(); i++)
+		{
+			const GfxNode& Node = Nodes[i];
+			tinyxml2::XMLElement* NodeElem = Doc.NewElement("Node");
+			NodeList->InsertEndChild(NodeElem);
+
+			NodeElem->SetAttribute("index", static_cast<int32>(i));
+			NodeElem->SetAttribute("name", Node.Name.c_str());
+			NodeElem->SetAttribute("type", GfxTypeHashToString(Node.TypeHash));
+			NodeElem->SetAttribute("id", Node.ID.c_str());
+			NodeElem->SetAttribute("typeHash", FormatHash(Node.TypeHash).c_str());
+			NodeElem->SetAttribute("instanceHash", FormatHash(Node.InstanceHash).c_str());
+			NodeElem->SetAttribute("offset", static_cast<int32>(Node.Offset));
+			NodeElem->SetAttribute("parent", Node.ParentIndex);
+
+			// Show child names for quick reference
+			if (!Node.Children.empty())
+			{
+				std::string ChildNames;
+				for (size j = 0; j < Node.Children.size(); j++)
+				{
+					if (j > 0) ChildNames += ", ";
+					ChildNames += Nodes[Node.Children[j]].Name;
+				}
+				NodeElem->SetAttribute("children", ChildNames.c_str());
+			}
+		}
+	}
+
+	// =====================================================================================
 	// String table (informational)
-	tinyxml2::XMLElement* StringsNode = Doc.NewElement("Strings");
-	Root->InsertEndChild(StringsNode);
-
-	for (size i = 0; i < Strings.size(); i++)
+	// =====================================================================================
 	{
-		tinyxml2::XMLElement* StrElem = Doc.NewElement("S");
-		StrElem->SetAttribute("offset", static_cast<int32>(Strings[i].first));
-		StrElem->SetText(Strings[i].second.c_str());
-		StringsNode->InsertEndChild(StrElem);
+		tinyxml2::XMLElement* StringsElem = Doc.NewElement("Strings");
+		Root->InsertEndChild(StringsElem);
+		StringsElem->SetAttribute("count", static_cast<int32>(Strings.size()));
+
+		for (size i = 0; i < Strings.size(); i++)
+		{
+			tinyxml2::XMLElement* StrElem = Doc.NewElement("S");
+			StrElem->SetAttribute("offset", static_cast<int32>(Strings[i].first));
+			StrElem->SetText(Strings[i].second.c_str());
+			StringsElem->InsertEndChild(StrElem);
+		}
+	}
+
+	// =====================================================================================
+	// Complete raw data blob (used for byte-accurate round-trip import)
+	// =====================================================================================
+	{
+		tinyxml2::XMLComment* Comment = Doc.NewComment(
+			" Raw binary data for byte-accurate round-tripping. "
+			"The SceneTree above is informational only. "
+			"Editing this hex blob is what changes the actual file. ");
+		Root->InsertEndChild(Comment);
+
+		AddChildText(Root, "Data", ToHex(Data));
 	}
 
 	return Doc.SaveFile(FilePath.c_str()) == tinyxml2::XML_SUCCESS;
@@ -171,7 +484,6 @@ bool Gfx::ImportXML(const std::string& FilePath)
 		return false;
 	}
 
-	// Parse version
 	auto GetChildText = [](tinyxml2::XMLElement* Parent, const char* Name) -> std::string
 	{
 		tinyxml2::XMLElement* Child = Parent->FirstChildElement(Name);
@@ -179,16 +491,33 @@ bool Gfx::ImportXML(const std::string& FilePath)
 		return "";
 	};
 
-	std::string VersionStr = GetChildText(Root, "Version");
+	// Try to read version from new Header element first, then fall back to old layout
+	tinyxml2::XMLElement* HeaderElem = Root->FirstChildElement("Header");
+
+	std::string VersionStr;
+	std::string RootHashStr;
+	std::string RootTypeNameStr;
+
+	if (HeaderElem)
+	{
+		// New format
+		VersionStr = GetChildText(HeaderElem, "Version");
+		RootHashStr = GetChildText(HeaderElem, "RootTypeHash");
+		RootTypeNameStr = GetChildText(HeaderElem, "RootTypeName");
+	}
+	else
+	{
+		// Legacy format (flat elements under root)
+		VersionStr = GetChildText(Root, "Version");
+		RootHashStr = GetChildText(Root, "RootTypeHash");
+		RootTypeNameStr = GetChildText(Root, "RootTypeName");
+	}
+
 	if (!VersionStr.empty()) Version = static_cast<uint32>(std::stoul(VersionStr));
-
-	// Parse root type info
-	std::string RootHashStr = GetChildText(Root, "RootTypeHash");
 	if (!RootHashStr.empty()) RootTypeHash = static_cast<uint32>(std::stoul(RootHashStr, nullptr, 16));
+	RootTypeName = RootTypeNameStr;
 
-	RootTypeName = GetChildText(Root, "RootTypeName");
-
-	// Parse data blob
+	// Parse data blob (always at top level)
 	std::string DataHex = GetChildText(Root, "Data");
 	if (DataHex.empty())
 	{
@@ -200,6 +529,7 @@ bool Gfx::ImportXML(const std::string& FilePath)
 	// Re-parse metadata from the imported data
 	_FindBeefMarker();
 	_IdentifyNodes();
+	_BuildHierarchy();
 
 	// Calculate root data offset
 	size Pos = 96;
@@ -230,6 +560,17 @@ void Gfx::PrintSummary() const
 	{
 		std::cout << "  Property Code: " << ReadLE32(Data, 4) << "\n";
 	}
+
+	// Root transform
+	if (Data.size() >= 68)
+	{
+		std::cout << "  Position: " << ReadVec3String(Data, 32) << "\n";
+		std::cout << "  Scale:    " << ReadVec3String(Data, 56) << "\n";
+	}
+	if (Data.size() >= 80)
+	{
+		std::cout << "  Rotation: " << ReadVec4String(Data, 68) << "\n";
+	}
 	std::cout << "\n";
 
 	// EFBEEFBE marker
@@ -247,8 +588,41 @@ void Gfx::PrintSummary() const
 		std::cout << "\n";
 	}
 
-	// Nodes
-	std::cout << "--- Child Nodes (" << Nodes.size() << ") ---\n";
+	// Scene tree (hierarchical)
+	std::cout << "--- Scene Tree ---\n";
+	std::cout << "  " << (RootTypeName.empty() ? "(root)" : RootTypeName)
+			  << " [" << GfxTypeHashToString(RootTypeHash) << "]\n";
+
+	// Print hierarchy using indentation
+	std::function<void(size, int)> PrintNodeTree;
+	PrintNodeTree = [&](size NodeIndex, int Depth)
+	{
+		const GfxNode& Node = Nodes[NodeIndex];
+		std::string Indent(Depth * 4, ' ');
+		std::string Connector = (Depth > 0) ? "|-- " : "";
+
+		std::cout << "  " << Indent << Connector << Node.Name
+				  << " [" << GfxTypeHashToString(Node.TypeHash) << "]"
+				  << " id=" << Node.ID
+				  << " @" << Node.Offset << "\n";
+
+		for (size ChildIdx : Node.Children)
+		{
+			PrintNodeTree(ChildIdx, Depth + 1);
+		}
+	};
+
+	for (size i = 0; i < Nodes.size(); i++)
+	{
+		if (Nodes[i].ParentIndex == -1)
+		{
+			PrintNodeTree(i, 1);
+		}
+	}
+	std::cout << "\n";
+
+	// Flat node list (for reference)
+	std::cout << "--- All Nodes (" << Nodes.size() << ") ---\n";
 	for (size i = 0; i < Nodes.size(); i++)
 	{
 		const GfxNode& Node = Nodes[i];
@@ -258,6 +632,7 @@ void Gfx::PrintSummary() const
 				  << " | Hash: 0x" << std::hex << std::setw(8) << std::setfill('0') << Node.TypeHash << std::dec
 				  << " | IHash: 0x" << std::hex << std::setw(8) << std::setfill('0') << Node.InstanceHash << std::dec
 				  << " | ID: " << Node.ID
+				  << " | Parent: " << Node.ParentIndex
 				  << " | @" << Node.Offset << "\n";
 	}
 	std::cout << "\n";
@@ -333,6 +708,7 @@ void Gfx::_IdentifyNodes()
 			Node.ID = First.Text;
 			Node.Name = Second.Text;
 			Node.DataOffset = Second.Offset + 4 + Second.Length;
+			Node.ParentIndex = -1;
 
 			// Skip the root node (instance hash = 0 at offset 88, but root is handled separately)
 			// Root's first string is at offset 96 with length 0, which won't match our min length 1 filter.
@@ -342,6 +718,70 @@ void Gfx::_IdentifyNodes()
 				Nodes.push_back(Node);
 			}
 		}
+	}
+}
+
+// Builds the parent/child hierarchy for Nodes based on file offset containment.
+// Nodes are in file order (depth-first). A node B that appears after node A is a child of A
+// if B's offset falls within A's data region. The data region of A extends from A.DataOffset
+// to the offset of the next node at the same or higher level (or the beef marker).
+void Gfx::_BuildHierarchy()
+{
+	if (Nodes.empty()) return;
+
+	// Clear any existing hierarchy
+	for (auto& Node : Nodes)
+	{
+		Node.ParentIndex = -1;
+		Node.Children.clear();
+	}
+
+	// Nodes are already sorted by file offset (they come from a linear scan).
+	// We use a stack-based approach: maintain a stack of "open" ancestor nodes.
+	// For each new node, pop the stack until we find an ancestor whose data region
+	// could contain this node, then make it a child of that ancestor.
+	//
+	// The data region upper bound for a node is determined by the end of the scene data
+	// (BeefOffset or Data.size()) -- we refine this as we discover siblings.
+
+	struct StackEntry
+	{
+		size NodeIndex;
+		size RegionEnd; // Upper bound of this node's data region
+	};
+
+	size SceneEnd = BeefOffset > 0 ? BeefOffset : Data.size();
+
+	// Stack represents the current chain of ancestors. The bottom is the implicit root.
+	std::vector<StackEntry> Stack;
+
+	for (size i = 0; i < Nodes.size(); i++)
+	{
+		size NodeStart = Nodes[i].Offset;
+
+		// Pop stack entries whose region ends at or before this node
+		while (!Stack.empty() && Stack.back().RegionEnd <= NodeStart)
+		{
+			Stack.pop_back();
+		}
+
+		if (Stack.empty())
+		{
+			// This node is a top-level child of the root
+			Nodes[i].ParentIndex = -1;
+		}
+		else
+		{
+			// This node is a child of the top-of-stack
+			size ParentIdx = Stack.back().NodeIndex;
+			Nodes[i].ParentIndex = static_cast<int32>(ParentIdx);
+			Nodes[ParentIdx].Children.push_back(i);
+		}
+
+		// Push this node onto the stack. Its region extends to the parent's region end
+		// (or SceneEnd if no parent).
+		size MyRegionEnd = Stack.empty() ? SceneEnd : Stack.back().RegionEnd;
+		Stack.push_back({i, MyRegionEnd});
 	}
 }
 
