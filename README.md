@@ -3,6 +3,18 @@ This is a reimplementation and research repository dedicated to the game "Trials
 
 The game has never been ported in it's original form to PC, it's only been on Xbox 360.
 
+# Build Configurations
+- Release
+	- Release build, has development info.
+- ReleaseNoDev
+	- Release but no dev info at all.
+- BankRelease
+	- Release build w/ debugging features.
+- Profile
+	- Used for profiling.
+- Debug
+	- Primary debug build used during development.
+
 # Platform Support
 As of right now, only 64-bit versions of these operating systems are supported.
 - Windows (MSVC)
