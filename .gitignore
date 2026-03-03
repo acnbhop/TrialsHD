@@ -1,13 +1,9 @@
-/[Bb]uild/
-/data_temp/
-
-# Ignore subdirs in tools for now.
-/tools/*/
-
+# Global files / folders to ignore
 *.vscode
 *.cache
-
 *.DS_Store
 *:Zone.Identifier
+/[Bb]uild/
 
+# Ignore package files
 *.pak
