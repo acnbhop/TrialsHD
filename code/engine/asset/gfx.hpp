@@ -80,6 +80,9 @@ struct GfxNode
 	std::string ID;             // Numeric or short identifier string
 	std::string Name;           // Human-readable node name
 	size        DataOffset;     // Byte offset where post-name data starts
+
+	int32                ParentIndex = -1;   // Index into Nodes (-1 = child of root)
+	std::vector<size>    Children;           // Indices of child nodes in Nodes vector
 };
 
 //
@@ -149,6 +152,11 @@ private:
 	// Scans Data for length-prefixed ASCII strings and identifies consecutive ID+name pairs
 	// as nodes. Populates Nodes and Strings.
 	void _IdentifyNodes();
+
+	// Builds the parent/child hierarchy for Nodes based on file offset containment.
+	// Must be called after _IdentifyNodes(). Each node's data region spans from its
+	// DataOffset to the start of the next sibling or the end of the parent's region.
+	void _BuildHierarchy();
 
 	// Finds the EFBEEFBE magic marker in Data and sets BeefOffset.
 	void _FindBeefMarker();
