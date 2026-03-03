@@ -173,7 +173,7 @@ endif()
 #
 # Our include directories
 #
-include_directories(code ${tinyxml2_SOURCE_DIR} ${xz_SOURCE_DIR}/src/liblzma/api ${ZLIB_INCLUDE_DIRS} ${zlib_SOURCE_DIR} ${zlib_BINARY_DIR})
+include_directories(code extern ${tinyxml2_SOURCE_DIR} ${xz_SOURCE_DIR}/src/liblzma/api ${ZLIB_INCLUDE_DIRS} ${zlib_SOURCE_DIR} ${zlib_BINARY_DIR})
 
 #
 # Core ImGui library
@@ -393,7 +393,7 @@ target_link_libraries(gameapp PRIVATE game)
 add_executable(track_tool
     code/tools/track_tool.cpp
 )
-target_link_libraries(track_tool PRIVATE game tinyxml2 liblzma ZLIB::ZLIB)
+target_link_libraries(track_tool PRIVATE game liblzma ZLIB::ZLIB)
 
 #
 # xur_tool is used for converting Xbox User Interface Resource (.xur) files
@@ -402,7 +402,7 @@ target_link_libraries(track_tool PRIVATE game tinyxml2 liblzma ZLIB::ZLIB)
 add_executable(xur_tool
     code/tools/xur_tool.cpp
 )
-target_link_libraries(xur_tool PRIVATE game tinyxml2)
+target_link_libraries(xur_tool PRIVATE game)
 
 #
 # xus_tool is used for converting Xbox User Interface String (.xus) files
@@ -411,7 +411,7 @@ target_link_libraries(xur_tool PRIVATE game tinyxml2)
 add_executable(xus_tool
     code/tools/xus_tool.cpp
 )
-target_link_libraries(xus_tool PRIVATE game tinyxml2)
+target_link_libraries(xus_tool PRIVATE game)
 
 #
 # gfx_tool is used for converting Graphics scene files (.gfx) to and from
@@ -420,4 +420,13 @@ target_link_libraries(xus_tool PRIVATE game tinyxml2)
 add_executable(gfx_tool
     code/tools/gfx_tool.cpp
 )
-target_link_libraries(gfx_tool PRIVATE game tinyxml2)
+target_link_libraries(gfx_tool PRIVATE game)
+
+#
+# texture_tool is used for converting texture files (.tex) to and from
+# DDS files for editing and inspecting texture data.
+#
+add_executable(texture_tool
+    code/tools/texture_tool.cpp
+)
+target_link_libraries(texture_tool PRIVATE game)
