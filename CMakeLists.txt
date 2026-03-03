@@ -345,7 +345,7 @@ add_library(engine STATIC
     code/engine/xml.cpp
     code/engine/xml.hpp
 )
-target_link_libraries(engine PRIVATE shared imgui imgui_backend_sdl3 SDL3::SDL3 tinyxml2::tinyxml2)
+target_link_libraries(engine PUBLIC shared imgui imgui_backend_sdl3 SDL3::SDL3 tinyxml2::tinyxml2)
 
 #
 # game is the main game code
@@ -371,7 +371,7 @@ add_library(game STATIC
     code/game/data/trackset.cpp
     code/game/data/trackset.hpp
 )
-target_link_libraries(game PRIVATE engine)
+target_link_libraries(game PUBLIC engine)
 target_compile_definitions(game PUBLIC LZMA_API_STATIC)
 
 #
