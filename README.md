@@ -5,9 +5,9 @@ The game has never been ported in it's original form to PC, it's only been on Xb
 
 # Platform Support
 As of right now, only 64-bit versions of these operating systems are supported.
-- Windows
-- macOS
-- Linux
+- Windows (MSVC)
+- macOS (Clang)
+- Linux (GCC/Clang)
 
 # Original Development Info
 RedLynx developed Trials HD, and used a modified version of the Bullet Physics Library which was optimized to utilize the Xbox 360's CPU and vector units. RedLynx also tweaked the physics in a way to "blend the reality in just the proper way" RedLynx saw this as a "crucial thing in making Trials such a fun and addicting game" and it shows. Levels in the game were designed using the same in-game level editor that allowed players to make levels as well.
