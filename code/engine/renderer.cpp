@@ -4,8 +4,6 @@
 
 #include "renderer.hpp"
 
-#include <cstring>
-
 REDLYNX_NAMESPACE_BEGIN_ENGINE
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -415,7 +413,7 @@ bool Renderer::BeginRenderPass(const RenderPassConfiguration& Configuration)
 	}
 
 	SDL_GPUColorTargetInfo ColorTarget = {};
-	
+
 	ColorTarget.texture 				= m_SwapchainTexture;
 	ColorTarget.clear_color				= SDL_FColor { Configuration.ClearColor[0], Configuration.ClearColor[1], Configuration.ClearColor[2], Configuration.ClearColor[3] };
 	ColorTarget.load_op					= Configuration.ClearColorBuffer ? SDL_GPU_LOADOP_CLEAR : SDL_GPU_LOADOP_LOAD;
@@ -423,17 +421,17 @@ bool Renderer::BeginRenderPass(const RenderPassConfiguration& Configuration)
 	ColorTarget.mip_level				= 0;
 	ColorTarget.layer_or_depth_plane	= 0;
 	ColorTarget.cycle					= false;
-	
+
 	m_RenderPass = SDL_BeginGPURenderPass(m_CommandBuffer, &ColorTarget, 1, nullptr);
 	return m_RenderPass != nullptr;
 }
-	
+
 /// @brief Begins a render pass to a custom render target.
 /// @param ColorTarget The color target texture.
 /// @param DepthTarget The depth target texture.
 /// @param Configuration The render pass configuration.
 /// @return True if the render pass was successfully started.
-bool Renderer::BeginRenderPass(GPUTexture* ColorTarget, GPUTexture* DepthTarget, const RenderPassConfiguration& Configuration = {})
+bool Renderer::BeginRenderPass(GPUTexture* ColorTarget, GPUTexture* DepthTarget, const RenderPassConfiguration& Configuration /* = {} */)
 {
 	if (!m_FrameStarted || m_RenderPass)
 	{
@@ -517,7 +515,7 @@ void Renderer::BindPipeline(GPUPipeline* Pipeline)
 /// @param Height The height of the viewport.
 /// @param MinDepth The minimum depth value of the viewport.
 /// @param MaxDepth The maximum depth value of the viewport.
-void Renderer::SetViewport(f32 X, f32 Y, f32 Width, f32 Height, f32 MinDepth = 0.0f, f32 MaxDepth = 1.0f)
+void Renderer::SetViewport(f32 X, f32 Y, f32 Width, f32 Height, f32 MinDepth /* = 0.0f */, f32 MaxDepth /* = 1.0f */)
 {
 	if (m_RenderPass)
 	{
@@ -558,7 +556,7 @@ void Renderer::SetScissor(int32 X, int32 Y, uint32 Width, uint32 Height)
 /// @param Slot The slot to bind the vertex buffer to.
 /// @param Buffer The vertex buffer to bind.
 /// @param Offset The offset in the vertex buffer.
-void Renderer::BindVertexBuffer(uint32 Slot, GPUBuffer* Buffer, uint32 Offset = 0)
+void Renderer::BindVertexBuffer(uint32 Slot, GPUBuffer* Buffer, uint32 Offset /* = 0 */)
 {
 	if (m_RenderPass && Buffer && Buffer->Handle)
 	{
@@ -575,7 +573,7 @@ void Renderer::BindVertexBuffer(uint32 Slot, GPUBuffer* Buffer, uint32 Offset = 
 /// @param Buffer The index buffer to bind.
 /// @param Offset The offset in the index buffer.
 /// @param Use16Bit True if the index buffer uses 16-bit indices, false for 32-bit indices.
-void Renderer::BindIndexBuffer(GPUBuffer* Buffer, uint32 Offset = 0, bool Use16Bit = false)
+void Renderer::BindIndexBuffer(GPUBuffer* Buffer, uint32 Offset /* = 0 */, bool Use16Bit /* = false */)
 {
 	if (m_RenderPass && Buffer && Buffer->Handle)
 	{
@@ -634,7 +632,7 @@ void Renderer::PushFragmentUniform(uint32 Slot, const void* Data, uint32 Size)
 /// @param InstanceCount The number of instances to draw.
 /// @param FirstVertex The index of the first vertex to draw.
 /// @param FirstInstance The index of the first instance to draw.
-void Renderer::Draw(uint32 VertexCount, uint32 InstanceCount = 1, uint32 FirstVertex = 0, uint32 FirstInstance = 0)
+void Renderer::Draw(uint32 VertexCount, uint32 InstanceCount /* = 1 */, uint32 FirstVertex /* = 0 */, uint32 FirstInstance /* = 0 */)
 {
 	if (m_RenderPass)
 	{
@@ -648,7 +646,7 @@ void Renderer::Draw(uint32 VertexCount, uint32 InstanceCount = 1, uint32 FirstVe
 /// @param FirstIndex The index of the first index to draw.
 /// @param VertexOffset The offset to add to each index.
 /// @param FirstInstance The index of the first instance to draw.
-void Renderer::DrawIndexed(uint32 IndexCount, uint32 InstanceCount = 1, uint32 FirstIndex = 0, int32 VertexOffset = 0, uint32 FirstInstance = 0)
+void Renderer::DrawIndexed(uint32 IndexCount, uint32 InstanceCount /* = 1 */, uint32 FirstIndex /* = 0 */, int32 VertexOffset /* = 0 */, uint32 FirstInstance /* = 0 */)
 {
 	if (m_RenderPass)
 	{
@@ -665,7 +663,7 @@ void Renderer::DrawIndexed(uint32 IndexCount, uint32 InstanceCount = 1, uint32 F
 /// @param StorageTextureCount The number of storage textures.
 /// @param SamplerCount The number of samplers.
 /// @return The created shader.
-GPUShader* Renderer::CreateShader(ShaderStage Stage, std::span<const uint8> Code, const char* EntryPoint = "main", uint32 UniformBufferCount = 0, uint32 StorageBufferCount = 0, uint32 StorageTextureCount = 0, uint32 SamplerCount = 0)
+GPUShader* Renderer::CreateShader(ShaderStage Stage, std::span<const uint8> Code, const char* EntryPoint /* = "main" */, uint32 UniformBufferCount /* = 0 */, uint32 StorageBufferCount /* = 0 */, uint32 StorageTextureCount /* = 0 */, uint32 SamplerCount /* = 0 */)
 {
 	if (!m_Device || Code.empty())
 	{
@@ -718,7 +716,7 @@ GPUShader* Renderer::CreateShader(ShaderStage Stage, std::span<const uint8> Code
 /// @param ColorFormat The color format.
 /// @param DepthFormat The depth format.
 /// @return The created pipeline.
-GPUPipeline* Renderer::CreatePipeline(const PipelineConfiguration& Configuration, SDL_GPUTextureFormat ColorFormat, SDL_GPUTextureFormat DepthFormat = SDL_GPU_TEXTUREFORMAT_INVALID)
+GPUPipeline* Renderer::CreatePipeline(const PipelineConfiguration& Configuration, SDL_GPUTextureFormat ColorFormat, SDL_GPUTextureFormat DepthFormat /* = SDL_GPU_TEXTUREFORMAT_INVALID */)
 {
 	if (!m_Device || !Configuration.VertexShader || !Configuration.FragmentShader)
 	{
@@ -843,7 +841,7 @@ GPUPipeline* Renderer::CreatePipeline(const PipelineConfiguration& Configuration
 	}
 
 	ColorTargetDescription.blend_state.color_write_mask = SDL_GPU_COLORCOMPONENT_R | SDL_GPU_COLORCOMPONENT_G | SDL_GPU_COLORCOMPONENT_B | SDL_GPU_COLORCOMPONENT_A;
-	
+
 	Info.target_info.color_target_descriptions = &ColorTargetDescription;
 	Info.target_info.num_color_targets = 1;
 	Info.target_info.depth_stencil_format = DepthFormat;
@@ -865,7 +863,7 @@ GPUPipeline* Renderer::CreatePipeline(const PipelineConfiguration& Configuration
 /// @param Size The size of the buffer in bytes.
 /// @param Data The initial data for the buffer.
 /// @return The created vertex buffer.
-GPUBuffer* Renderer::CreateVertexBuffer(uint32 Size, const void* Data = nullptr)
+GPUBuffer* Renderer::CreateVertexBuffer(uint32 Size, const void* Data /* = nullptr */)
 {
 	if (!m_Device || Size == 0)
 	{
@@ -909,12 +907,12 @@ GPUBuffer* Renderer::CreateVertexBuffer(uint32 Size, const void* Data = nullptr)
 
 	return Buffer;
 }
-	
+
 /// @brief Creates an index buffer.
 /// @param Size The size of the buffer in bytes.
 /// @param Data The initial data for the buffer.
 /// @return The created index buffer.
-GPUBuffer* Renderer::CreateIndexBuffer(uint32 Size, const void* Data = nullptr)
+GPUBuffer* Renderer::CreateIndexBuffer(uint32 Size, const void* Data /* = nullptr */)
 {
 	if (!m_Device || Size == 0)
 	{
@@ -1012,7 +1010,7 @@ GPUBuffer* Renderer::CreateUniformBuffer(uint32 Size)
 /// @param MipLevels The number of mip levels.
 /// @param Data The initial data for the texture.
 /// @return The created texture.
-GPUTexture* Renderer::CreateTexture(uint32 Width, uint32 Height, TextureFormat Format, uint32 MipLevels = 1, const void* Data = nullptr)
+GPUTexture* Renderer::CreateTexture(uint32 Width, uint32 Height, TextureFormat Format, uint32 MipLevels, /* = 1 */ const void* Data /* = nullptr */)
 {
 	if (!m_Device || Width == 0 || Height == 0)
 	{
@@ -1093,7 +1091,7 @@ GPUTexture* Renderer::CreateTexture(uint32 Width, uint32 Height, TextureFormat F
 /// @brief Creates a sampler.
 /// @param Configuration The sampler configuration.
 /// @return The created sampler.
-GPUSampler* Renderer::CreateSampler(const SamplerConfiguration& Configuration = {})
+GPUSampler* Renderer::CreateSampler(const SamplerConfiguration& Configuration /* = {} */)
 {
 	if (!m_Device)
 	{
@@ -1202,7 +1200,7 @@ void Renderer::DestroySampler(GPUSampler* Sampler)
 /// @param Data The data to update the buffer with.
 /// @param Size The size of the data in bytes.
 /// @param Offset The offset in the buffer to start updating.
-void Renderer::UpdateBuffer(GPUBuffer* Buffer, const void* Data, uint32 Size, uint32 Offset = 0)
+void Renderer::UpdateBuffer(GPUBuffer* Buffer, const void* Data, uint32 Size, uint32 Offset /* = 0 */)
 {
 	if (!m_Device || !Buffer || !Buffer->Handle || !Data || Size == 0)
 	{
