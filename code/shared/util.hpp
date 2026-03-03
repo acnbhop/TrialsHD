@@ -133,6 +133,17 @@ inline uint32 ReadLE32(const std::vector<uint8>& Data, size Offset)
 }
 
 //
+// Reads a 32-bit little-endian float from the data at the given offset.
+//
+inline f32 ReadLEFloat(const std::vector<uint8>& Data, size Offset)
+{
+    uint32 Bits = ReadLE32(Data, Offset);
+    f32 Result;
+    std::memcpy(&Result, &Bits, sizeof(Result));
+    return Result;
+}
+
+//
 // Reads a length-prefixed ASCII string from the data at the given offset.
 // Returns the string and advances Offset past the string data.
 //
