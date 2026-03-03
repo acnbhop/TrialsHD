@@ -76,6 +76,8 @@ bool Application::Init(const ApplicationConfiguration& Configuration)
 	m_Initialized = true;
 	m_Running = true;
 	m_LastFrameTime = SDL_GetPerformanceCounter();
+
+	return true;
 }
 
 void Application::Shutdown()
@@ -104,7 +106,7 @@ void Application::Run()
 	{
 		uint64 Now = SDL_GetPerformanceCounter();
 		f64 Frequency = static_cast<f64>(SDL_GetPerformanceFrequency());
-		f32 DeltaTime = static_cast<f32>(static_cast<f64>(Now- m_LastFrameTime / Frequency));
+		f32 DeltaTime = static_cast<f32>(static_cast<f64>(Now - m_LastFrameTime) / Frequency);
 		m_LastFrameTime = Now;
 
 		// Clamp delta time to avoid issues after breakpoinst / hitches.
