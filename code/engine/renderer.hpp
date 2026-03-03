@@ -209,14 +209,14 @@ public:
 	/// @param Configuration The render pass configuration.
 	/// @return True if the render pass was successfully started.
 	bool BeginRenderPass(const RenderPassConfiguration& Configuration);
-	
+
 	/// @brief Begins a render pass to a custom render target.
 	/// @param ColorTarget The color target texture.
 	/// @param DepthTarget The depth target texture.
 	/// @param Configuration The render pass configuration.
 	/// @return True if the render pass was successfully started.
 	bool BeginRenderPass(GPUTexture* ColorTarget, GPUTexture* DepthTarget, const RenderPassConfiguration& Configuration = {});
-	
+
 	/// @brief Ends the current render pass.
 	void EndRenderPass();
 
@@ -295,7 +295,15 @@ public:
 	/// @param StorageTextureCount The number of storage textures.
 	/// @param SamplerCount The number of samplers.
 	/// @return The created shader.
-	GPUShader* CreateShader(ShaderStage Stage, std::span<const uint8> Code, const char* EntryPoint = "main", uint32 UniformBufferCount = 0, uint32 StorageBufferCount = 0, uint32 StorageTextureCount = 0, uint32 SamplerCount = 0);
+	GPUShader* CreateShader(
+		ShaderStage Stage,
+		std::span<const uint8> Code,
+		const char* EntryPoint = "main",
+		uint32 UniformBufferCount = 0,
+		uint32 StorageBufferCount = 0,
+		uint32 StorageTextureCount = 0,
+		uint32 SamplerCount = 0
+	);
 
 	/// @brief Creates a pipeline.
 	/// @param Configuration The pipeline configuration.
@@ -309,7 +317,7 @@ public:
 	/// @param Data The initial data for the buffer.
 	/// @return The created vertex buffer.
 	GPUBuffer* CreateVertexBuffer(uint32 Size, const void* Data = nullptr);
-	
+
 	/// @brief Creates an index buffer.
 	/// @param Size The size of the buffer in bytes.
 	/// @param Data The initial data for the buffer.

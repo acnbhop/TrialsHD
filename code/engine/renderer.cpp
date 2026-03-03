@@ -241,6 +241,7 @@ bool Renderer::Init(SDL_Window* Window)
 {
 	if (!Window)
 	{
+		SDL_Log("[Renderer] [Error] Init() called but no Window!");
 		return false;
 	}
 
@@ -266,6 +267,10 @@ bool Renderer::Init(SDL_Window* Window)
 		return false;
 	}
 
+#if __DEV
+		SDL_Log("[Renderer] SDL_CreateGPUDevice() succeeded.");
+#endif
+
 	// Claim the window for GPU rendering.
 	if (!SDL_ClaimWindowForGPUDevice(m_Device, m_Window))
 	{
@@ -274,6 +279,10 @@ bool Renderer::Init(SDL_Window* Window)
 		m_Device = nullptr;
 		return false;
 	}
+
+#if __DEV
+		SDL_Log("[Renderer] SDL_ClaimWindowForGPUDevice() succeeded.");
+#endif
 
 	// Set swapchain parameters.
 	SDL_SetGPUSwapchainParameters(m_Device, m_Window, SDL_GPU_SWAPCHAINCOMPOSITION_SDR, SDL_GPU_PRESENTMODE_VSYNC);
@@ -290,6 +299,7 @@ bool Renderer::Init(SDL_Window* Window)
 	m_Width			= static_cast<uint32>(WindowWidth);
 	m_Height		= static_cast<uint32>(WindowHeight);
 
+	SDL_Log("[Renderer] Initialized successfully.");
 	return true;
 }
 
@@ -302,6 +312,7 @@ void Renderer::Shutdown()
 
 		if (m_Window)
 		{
+			SDL_Log("[Renderer] Releasing the window from the GPU device.");
 			SDL_ReleaseWindowFromGPUDevice(m_Device, m_Window);
 		}
 
@@ -314,6 +325,8 @@ void Renderer::Shutdown()
 	m_RenderPass			= nullptr;
 	m_SwapchainTexture		= nullptr;
 	m_FrameStarted			= false;
+
+	SDL_Log("[Renderer] Shutdown the renderer successfully.");
 }
 
 /// @brief Begins a new frame.
@@ -663,7 +676,15 @@ void Renderer::DrawIndexed(uint32 IndexCount, uint32 InstanceCount /* = 1 */, ui
 /// @param StorageTextureCount The number of storage textures.
 /// @param SamplerCount The number of samplers.
 /// @return The created shader.
-GPUShader* Renderer::CreateShader(ShaderStage Stage, std::span<const uint8> Code, const char* EntryPoint /* = "main" */, uint32 UniformBufferCount /* = 0 */, uint32 StorageBufferCount /* = 0 */, uint32 StorageTextureCount /* = 0 */, uint32 SamplerCount /* = 0 */)
+GPUShader* Renderer::CreateShader(
+	ShaderStage Stage,
+	std::span<const uint8> Code,
+	const char* EntryPoint /* = "main" */,
+	uint32 UniformBufferCount /* = 0 */,
+	uint32 StorageBufferCount /* = 0 */,
+	uint32 StorageTextureCount /* = 0 */,
+	uint32 SamplerCount /* = 0 */
+)
 {
 	if (!m_Device || Code.empty())
 	{
