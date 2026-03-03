@@ -345,12 +345,17 @@ add_library(engine STATIC
     code/engine/xml.cpp
     code/engine/xml.hpp
 )
-target_link_libraries(engine PRIVATE shared imgui imgui_backend_sdl3 SDL3::SDL3)
+target_link_libraries(engine PRIVATE shared imgui imgui_backend_sdl3 SDL3::SDL3 tinyxml2::tinyxml2)
 
 #
 # game is the main game code
 #
 add_library(game STATIC
+    code/game/app.cpp
+    code/game/app.hpp
+    code/game/track.cpp
+    code/game/track.hpp
+
     code/game/data/bike_config.cpp
     code/game/data/bike_config.hpp
     code/game/data/challenges.cpp
@@ -365,8 +370,6 @@ add_library(game STATIC
     code/game/data/objectlist.hpp
     code/game/data/trackset.cpp
     code/game/data/trackset.hpp
-    code/game/track.cpp
-    code/game/track.hpp
 )
 target_link_libraries(game PRIVATE engine)
 target_compile_definitions(game PUBLIC LZMA_API_STATIC)
