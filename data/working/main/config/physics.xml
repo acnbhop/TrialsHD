@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhysicsConfiguration>
+	<Gravity X="0" Y="-9" Z="0" />
+	<MinimumDamage Value="1.5"/>
+	<Timescale Default="1.0" SlowMotion="0.75" />
+	<Iterations Value="16" />
+	<SubSteps Value="1" />
+	<Damping Angular="0.01" Linear="0.055" />
+	<Erp First="0.2" Second="0.2" />
+	<Slop Value="0.05" />
+	<SplitImpulse Value="0">
+		<PenetrationThreshold Value="0.05" />
+	</SplitImpulse>
+</PhysicsConfiguration>
