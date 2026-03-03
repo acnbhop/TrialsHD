@@ -1,16 +1,42 @@
-# Trials HD Tools / Research / Decompilation / etc.
-Welcome! This is my little (*albiet pretty poopy*) attempt at reimplementation, recompilation and whatnot of researching RedLynx's Trials HD. Trials HD came out in 2009 for the Xbox 360 and has never been ported to any other platform since. I adore this game because it was a big part of my childhood playing on the 360 and I love the development and technology behind it.
+# Trials HD
+This is a reimplementation and research repository dedicated to the game "Trials HD" which was released on August 12th, 2009 on the Xbox 360 on the Xbox Live Arcade. The player guides a trial motorcycle with physics through various obstacles to reach each stage's finish line. The game has a track creator and leaderboards that connect to Xbox Live.
 
-# Documentation
-I suggest reading `/docs/` whenever you get the chance, it has some interesting stuff in there. `misc/` contains just random documents that are important, and the root of it contains actual documentation that is valuable.
+The game has never been ported in it's original form to PC, it's only been on Xbox 360.
 
-# Building
-Simply just run `cmake -S . -B build` and you're good to go, it will fetch dependencies for you automatically.
+# Original Development Info
+RedLynx developed Trials HD, and used a modified version of the Bullet Physics Library which was optimized to utilize the Xbox 360's CPU and vector units. RedLynx also tweaked the physics in a way to "blend the reality in just the proper way" RedLynx saw this as a "crucial thing in making Trials such a fun and addicting game" and it shows. Levels in the game were designed using the same in-game level editor that allowed players to make levels as well.
 
-Building the old Bullet library is done like this:
+# Layout
+This is the layout of the repo.
 ```
-cmake -S extern/bullet-2.74 -B build/extern/bullet-2.74
-cmake --build build/extern/bullet-2.74 -j
+art/
+    Contains original art assets for the game.
+code/
+    engine/
+        The engine code.
+    game/
+        The game code.
+    shared/
+        Shared code across everything.
+    tools/
+        Tools for the game and engine.
+data/
+    dlc/
+        DLC content.
+    main/
+        The main content, this is from the July build.
+    prototype/
+        Prototype content, from early builds and early dlc versions.
+    raw/
+        Raw content in raw data formats.
+docs/
+    Contains technical write ups and misc documents relating to Trials HD.
+dump/
+    Contains dumps of game files.
+extern/
+    Contains external code, e.g., bullet and imgui.
+tools/
+    Tools that aren't made for this project, e.g., quickbms and xextool, for research.
 ```
 
 # Technical Info
