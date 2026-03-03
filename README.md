@@ -41,6 +41,8 @@ code/
 data/
     dlc/
         DLC content.
+    dump/
+        Dump of game files.
     main/
         The main content, this is from the July build.
     prototype/
@@ -49,8 +51,6 @@ data/
         Raw content in raw data formats.
 docs/
     Contains technical write ups and misc documents relating to Trials HD.
-dump/
-    Contains dumps of game files.
 extern/
     Contains external code, e.g., bullet and imgui.
 tools/
