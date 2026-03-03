@@ -18,6 +18,15 @@ private:
 };
 
 //
+// Class for a compiled model file
+//
+class ModelFile
+{
+public:
+private:
+};
+
+//
 // Class for an XML of a model that stores it's "properties"
 //
 class ModelProperties
