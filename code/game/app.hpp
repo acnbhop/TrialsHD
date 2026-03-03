@@ -4,11 +4,15 @@
 
 #pragma once
 
+// Engine headers
 #include "engine/renderer.hpp"
 
+// Standard headers
 #include <string>
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
 REDLYNX_NAMESPACE_BEGIN_GAME
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 struct ApplicationConfiguration
 {
@@ -29,6 +33,10 @@ public:
 	Application(const Application&) = delete;
 	Application& operator=(const Application&) = delete;
 
+	///
+	/// @brief Initialize the application.
+	/// @param ApplicationConfiguration The application configuration to use for initialization.
+	///
 	bool Init(const ApplicationConfiguration& Configuration = {});
 	void Shutdown();
 	void Run();
@@ -49,4 +57,6 @@ private:
 	uint64 m_LastFrameTime = 0;
 };
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
 REDLYNX_NAMESPACE_END_GAME
+////////////////////////////////////////////////////////////////////////////////////////////////////
