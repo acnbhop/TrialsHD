@@ -1,14 +1,13 @@
 //
-// renderer.hpp
+// renderer.hpp : Controls the renderer.
 //
 
 #pragma once
 
+// External headers
 #include <SDL3/SDL.h>
 
-#include <string>
-#include <vector>
-#include <memory>
+// Standard headers
 #include <span>
 
 REDLYNX_NAMESPACE_BEGIN_ENGINE

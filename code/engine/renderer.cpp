@@ -1,7 +1,8 @@
 //
-// renderer.cpp
+// renderer.cpp : Controls the renderer.
 //
 
+// File header
 #include "renderer.hpp"
 
 REDLYNX_NAMESPACE_BEGIN_ENGINE
